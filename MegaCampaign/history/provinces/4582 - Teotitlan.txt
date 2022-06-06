@@ -1,0 +1,15 @@
+owner = TEO
+controller = TEO
+capital = "Teotitlan"
+is_city = yes
+culture = aztek
+religion = nahuatl
+trade_goods = dyes
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = TEO
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

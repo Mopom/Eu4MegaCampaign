@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = persian
+capital = 1002
+mercantilism = 10
+500.11.11= {
+	monarch = {
+		name = "Al-Nizariyyun"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

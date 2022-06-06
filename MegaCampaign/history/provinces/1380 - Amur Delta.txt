@@ -1,0 +1,9 @@
+discovered_by = ANU
+discovered_by = CHU
+discovered_by = CHV
+discovered_by = HOD
+discovered_by = KMC
+discovered_by = MYR
+discovered_by = NHX
+discovered_by = NVK
+discovered_by = SOL

@@ -1,0 +1,75 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 159 60 189 }
+revolutionary_colors = { 8 6 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	niger_kongolese_forest_warfare
+	niger_kongolese_guerilla_warfare
+	niger_kongolese_gunpowder_warfare
+	niger_kongolese_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Bope Kena #0" = 0
+	"Bope Mobinji #0" = 0
+	"Bope Mobinji Boke #0" = 0
+	"Bope Mobinji Kena #0" = 0
+	"Bope Pelenge #0" = 0
+	"Jetta #0" = -1
+	"Kata Mbula #0" = 25
+	"Koto Mboke #0" = 0
+	"Kwete Kena #0" = 0
+	"Kwete Mboke #0" = 0
+	"Kwete Mobinji Kena #0" = 0
+	"Kwete Peshanga Kena #0" = 0
+	"Mikope Kena #0" = 0
+	"Mikope Mbula #0" = 20
+	"Mikope Mobinji #0" = 0
+	"Mikope Pelenge #0" = 0
+	"Mingashanga Bake #0" = 0
+	"Mishanga Pelenge #0" = 5
+	"Shamba Bolongongo #0" = 25
+	"Vandana #0" = -1
+	"Zody #0" = -1
+}
+leader_names = {
+	"Bamongo"
+	"Bushongo"
+	"Coofa"
+	"Djembe"
+	"Ganga"
+	"Kete"
+	"Mbale"
+	"Mongo"
+	"Ngongo"
+	"Panga"
+	"Pianga"
+}
+ship_names = {
+	"Bumba"
+	"Lukeni lua Nimi"
+	"Matadi"
+	"Mbanza"
+	"Mbata"
+	"Mpemba Kasi"
+	"Nanga"
+	"Nkuwu a Ntinu"
+	"Nlaza"
+	"Woot"
+}

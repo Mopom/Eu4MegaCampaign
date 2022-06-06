@@ -1,0 +1,81 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 43 43 186 }
+revolutionary_colors = { 0 16 9 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	niger_kongolese_forest_warfare
+	niger_kongolese_guerilla_warfare
+	niger_kongolese_gunpowder_warfare
+	niger_kongolese_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Andranolava #0" = 20
+	"Andriamanelo #0" = 5
+	"Andriamasinavalona #0" = 5
+	"Andriambelomasina #0" = 5
+	"Andrianamboniravina #0" = 5
+	"Andrianampandrandrandava #0" = 15
+	"Andrianampoinimerina #0" = 5
+	"Andrianamponga #0" = 5
+	"Andriananjavonana #0" = 5
+	"Andrianjafynandriamanitra #0" = 5
+	"Andrianjaka #0" = 5
+	"Andrianmasinidohafandrana #0" = 5
+	"Andrianmpandramanenitra #0" = 5
+	"Andriantsimitoviaminandriandehibe #0" = 5
+	"Andriantsimitoviaminiandriana #0" = 5
+	"Andriantsitakatrandriana #0" = 5
+	"Radama #0" = 5
+	"Rafandrampohy #0" = 5
+	"Rafohy #0" = -5
+	"Ralambo #0" = 5
+	"Ranavalona  #0" = -5
+	"Randapavola  #0" = -1
+	"Rangita #0" = -10
+	"Rasoherina #0" = -5
+}
+leader_names = {
+	"Ayao"
+	"Banda"
+	"Chewa"
+	"Chiluba"
+	"Kachali"
+	"Karonga"
+	"Luhanga"
+	"Mbewe"
+	"Mtika"
+	"Mwafulirwa"
+	"Mwale"
+	"Nyanjagha"
+	"Phiri"
+	"Undi"
+}
+ship_names = {
+	"Alaotra"
+	"Betsiboka"
+	"Ihotry"
+	"Ikopa"
+	"Kinkony"
+	"Mahavavy"
+	"Mananara"
+	"Mangoky"
+	"Mania"
+	"Onilahy"
+}

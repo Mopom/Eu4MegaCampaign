@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 40 121 66 }
+revolutionary_colors = { 1 8 1 }
+historical_idea_groups = {
+	defensive_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+	offensive_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abd Allah #0" = 0
+	"Abdullah #0" = 10
+	"Ahmadi #0" = -1
+	"Ahmed #0" = 5
+	"Ali #0" = 20
+	"Burhan #0" = 5
+	"Chand Bibi #0" = -10
+	"Dilawar Khan #0" = 0
+	"Farrukh #0" = 0
+	"Fatima #0" = -2
+	"Hafiz #0" = 0
+	"Hamid #0" = 0
+	"Hamza #0" = 0
+	"Hanif #0" = 0
+	"Hassan #0" = 0
+	"Hussain #0" = 5
+	"Ibrahim #0" = 40
+	"Iftikhar al-Mulk #0" = 0
+	"Imad al-Mulk #0" = 0
+	"Ismail #0" = 20
+	"Jahan #0" = 0
+	"Jalal #0" = 0
+	"Kalidas #0" = 0
+	"Khusrau #0" = 0
+	"Khwaja #0" = 0
+	"Kizr #0" = 5
+	"Mahmud #0" = 0
+	"Malik #0" = 20
+	"Malika #0" = -1
+	"Mallu #0" = 5
+	"Muhammad #0" = 20
+	"Mumtaz #0" = -1
+	"Mustafa #0" = 0
+	"Nasir #0" = 0
+	"Qasim #0" = 0
+	"Rustam #0" = 0
+	"Shams #0" = 0
+	"Shivaji #0" = 0
+	"Sikandar #0" = 40
+	"Sulaiman #0" = 5
+	"Sultan #0" = 0
+	"Taham #0" = 5
+	"Yakut #0" = 0
+	"Yusuf #0" = 20
+	"Ziauddin #0" = 0
+}
+leader_names = {
+	"Ardastani"
+	"Astarabadi"
+	"Badakshi"
+	"Basri"
+	"Bhosle"
+	"Bukhari"
+	"Changezi"
+	"Gawan"
+	"Gaznavi"
+	"Gilani"
+	"Hasanabadi"
+	"Jurjani"
+	"Kabuli"
+	"Kirmani"
+	"Madhu"
+	"Quadari"
+	"Qummi"
+	"Sadhwani"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Fatimah"
+	"Godvari"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Mahanadi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Yasmine"
+}

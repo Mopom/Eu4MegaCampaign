@@ -1,0 +1,17 @@
+owner = MNG
+controller = MNG
+capital = "Fuzhou"
+is_city = yes
+culture = chimin
+religion = confucianism
+trade_goods = tea
+fort_15th = yes
+base_tax = 8
+base_production = 8
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1
+add_core = MIN
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

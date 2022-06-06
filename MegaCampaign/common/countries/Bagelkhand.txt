@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 123 14 148 }
+revolutionary_colors = { 8 0 8 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	trade_ideas
+	aristocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ajit Singh #0" = 10
+	"Amar Singh #1" = 10
+	"Anirudh #0" = 0
+	"Anirudh Singh #0" = 10
+	"Anoop Singh #0" = 10
+	"Avadhut Singh #0" = 10
+	"Bhao Singh #0" = 10
+	"Dhokal #0" = 0
+	"Duryodhan Singh #0" = 10
+	"Harde Sah #0" = 0
+	"Hindupat #0" = 0
+	"Indira #0" = -1
+	"Jai Singh #0" = 10
+	"Jayanti Devi #0" = -1
+	"Kishor #0" = 0
+	"Lokpal #0" = 0
+	"Madho #0" = 0
+	"Mahendra #0" = 0
+	"Malkhan #0" = 0
+	"Nirpat #0" = 0
+	"Padmini #0" = -1
+	"Ramachandra Singh #0" = 10
+	"Sabha #0" = 0
+	"Shaktivan Deo #0" = 10
+	"Veer Singh #0" = 10
+	"Vikramaditya #0" = 10
+	"Virama Dev #0" = 10
+	"Virbhan Singh #0" = 10
+}
+leader_names = {
+	"Baghela"
+	"Bais"
+	"Bhaal"
+	"Bundela"
+	"Chandela"
+	"Chattar"
+	"Chauhan"
+	"Datia"
+	"Jadon"
+	"Jasos"
+	"Katoch"
+	"Mihir"
+	"Minhas"
+	"Mori"
+	"Naga"
+	"Naru"
+	"Pakhral"
+	"Pundir"
+	"Saharan"
+	"Singh"
+	"Tomara"
+}
+ship_names = {
+	"Betwa"
+	"Devi"
+	"Durga"
+	"Gandak"
+	"Ganga"
+	"Gayatri"
+	"Ghagra"
+	"Gomti"
+	"Jalsena"
+	"Kala Jahazi"
+	"Ken"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ramganga"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Satlaj"
+	"Sita"
+	"Yamuna"
+}

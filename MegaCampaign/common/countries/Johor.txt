@@ -1,0 +1,100 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 30 112 187 }
+revolutionary_colors = { 0 1 1 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	religious_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Abd al-Jal0l Muazzam Sh0h #0" = 10
+	"Abd al-Jal0l Rahmat Sh0h #0" = 10
+	"Abd al-Jal0l Sh0h #0" = 10
+	"Abd al-Rahm0n Sh0h #0" = 10
+	"Abdullah Ma'ayat Sh0h #0" = 10
+	"Ahmad Riayat Sh0h #0" = 10
+	"Alauddin Riayat Sh0h #1" = 10
+	"Aminah #0" = -1
+	"Azizah #0" = -1
+	"Azura #0" = -1
+	"Cik Fatimah #0" = -1
+	"Dayang #0" = -1
+	"Fatimah #0" = -1
+	"Hussein Sh0h #0" = 10
+	"Ibr0h0m Sh0h #0" = 10
+	"Iskandariah #0" = -1
+	"Ismailiah #0" = -1
+	"Mahm0d Sh0h #1" = 10
+	"Maimunah #0" = -1
+	"Mariam #0" = -1
+	"Muzaffar Sh0h #1" = 10
+	"Sembuk #0" = -1
+	"Sharifah #0" = -1
+	"Sulong #0" = -1
+	"Zabedah #0" = -1
+	"Zaharah #0" = -1
+}
+leader_names = {
+	"Abdulfatah"
+	"Ahmad"
+	"Amir"
+	"Anwar"
+	"Azmi"
+	"Batuta"
+	"Chairul"
+	"Hamzah"
+	"Hasanuddin"
+	"Ibnu"
+	"Kyai"
+	"Mahat"
+	"Mukhtar"
+	"Najamuddin"
+	"Natzar"
+	"Nazmizan"
+	"Roem"
+	"Syarifuddin"
+	"Zulkifli"
+}
+ship_names = {
+	"Bendahara"
+	"Hukum Kanun"
+	"Kepulauan"
+	"Kepulauan Riau"
+	"Laksamana"
+	"Parameswara"
+	"Penghulu bendahari"
+	"Pulau Aur"
+	"Pulau Bakung"
+	"Pulau Bengkaus"
+	"Pulau Kundur"
+	"Pulau Lingga"
+	"Pulau Padang"
+	"Pulau Rangsang"
+	"Pulau Rempang"
+	"Pulau Rupat"
+	"Pulau Sibu"
+	"Pulau Singkep"
+	"Pulau Tebing Tinggi"
+	"Pulau Tinggi"
+	"Pulau Tioman"
+	"Shahbandar"
+	"Sultan Iskandar"
+	"Temenggung"
+	"Undang-Undang"
+}

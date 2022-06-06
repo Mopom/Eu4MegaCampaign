@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = central_african
+religion = shamanism
+primary_culture = ganda
+capital = 4062
+unit_type = sub_saharan
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = mwari_cult
+1444.1.1= {
+	monarch = {
+		name = "Ntale"
+		dynasty = "Zibondo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1488.1.1= {
+	monarch = {
+		name = "Council of Chiefs"
+		regent = yes
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,15 @@
+owner = ICH
+controller = ICH
+capital = "Hitchiti"
+is_city = yes
+culture = yamasee
+religion = totemism
+trade_goods = cotton
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = ICH
+discovered_by = north_american
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

@@ -1,0 +1,455 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 57 160 101 }
+revolutionary_colors = { 9 8 5 }
+historical_idea_groups = {
+	exploration_ideas
+	expansion_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	defensive_ideas
+}
+historical_score = 4700
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Afonso #4" = 40
+	"Alexandre #0" = 5
+	"Ana #0" = -1
+	"Andr0 #0" = 0
+	"Barbara #0" = -1
+	"Bartolomeu #0" = 0
+	"Beatriz #0" = -1
+	"Caetano #0" = 0
+	"Carlos #0" = 5
+	"Catarina #0" = -1
+	"Dami0o #0" = 0
+	"Diego #0" = 5
+	"Dinis #1" = 5
+	"Duarte #0" = 20
+	"Estev0o #0" = 0
+	"Fernando #1" = 5
+	"Filipa #0" = -1
+	"Filipe #0" = 60
+	"Francisco #0" = 0
+	"Gabriel #0" = 0
+	"Garcia #0" = 0
+	"Gaspar #0" = 0
+	"Gil #0" = 0
+	"Gon0alo #0" = 0
+	"Guilherme #0" = 0
+	"Henrique #0" = 20
+	"In0cio #0" = 0
+	"Isabel #0" = -5
+	"Jaime #0" = 5
+	"Joana #0" = -1
+	"Joaquim #0" = 0
+	"Jorge #0" = 0
+	"Jos0 #0" = 20
+	"Jo0o #0" = 120
+	"Louren0o #0" = 0
+	"Lu0s #0" = 5
+	"Lu0sa #0" = -1
+	"MONARCH_NAME_ANTONIO #0" = 20
+	"MONARCH_NAME_ANTONIO_FRANCISCO #0" = 0
+	"MONARCH_NAME_TEODOSIO #0" = 10
+	"Manuel #0" = 20
+	"Marco #0" = 0
+	"Maria #0" = -10
+	"Maria Manuela #0" = -1
+	"Miguel #0" = 10
+	"Nicolau #0" = 0
+	"Oct0vio #0" = 0
+	"Paulo #0" = 0
+	"Pedro #1" = 40
+	"Rafael #0" = 0
+	"Rog0rio #0" = 0
+	"Rui #0" = 0
+	"Sebasti0o #0" = 20
+	"Sim0o #0" = 0
+	"Uriel #0" = 0
+	"Vicente #0" = 0
+	"0lvaro #0" = 0
+}
+leader_names = {
+	"Cabral"
+	"Coelho"
+	"Corte-Real"
+	"Coutinho"
+	"Dias"
+	"Eanes"
+	"Ferreira Martins"
+	"Gomes"
+	"Gonçalves"
+	"Lemos de Brito"
+	"Machado"
+	"Martins de Mascarenhas"
+	"Mendonça Furtado"
+	"Nunes Barreto"
+	"Pereira"
+	"Rebelo"
+	"Rodrigues"
+	"Sarmento"
+	"Teixeira"
+	"Teles de Meneses"
+	"da Costa"
+	"da Cunha"
+	"da Câmara"
+	"da Fonseca"
+	"da Gama"
+	"de Albuquerque"
+	"de Almeida"
+	"de Andrade"
+	"de Ataíde"
+	"de Aveiro"
+	"de Azevedo"
+	"de Braganza"
+	"de Bragança"
+	"de Brito"
+	"de Carvalho"
+	"de Castelo-Branco"
+	"de Castro"
+	"de Correia"
+	"de Faria"
+	"de Guimarães"
+	"de Lemos"
+	"de Magalhães"
+	"de Marialva"
+	"de Melo"
+	"de Mendonça"
+	"de Meneses"
+	"de Noronha"
+	"de Oliveira"
+	"de Paiva"
+	"de Penamacor"
+	"de Pimentel"
+	"de Queiróz"
+	"de Sampaio"
+	"de Sequeira"
+	"de Sousa"
+	"de Souto"
+	"de Sá"
+	"de Tavares"
+	"de Távora"
+	"de Vasconcelos"
+	"de Vilhena"
+}
+ship_names = {
+	"Activo"
+	"Afonso de Albuquerque"
+	"Albacora"
+	"Almas Santas"
+	"Amazona"
+	"Andorinha"
+	"António"
+	"Arca de Noé"
+	"Argo"
+	"Arpão"
+	"Bazana"
+	"Belém"
+	"Benjamin"
+	"Boaventura"
+	"Bom Jesus de Mazagão"
+	"Bérrio"
+	"Cabo de São Vicente"
+	"Calipso"
+	"Capitania"
+	"Chagas"
+	"Cinco Chagas"
+	"Colombo"
+	"Conde Dom Henrique"
+	"Condessa de Resende"
+	"Coração de Jesus"
+	"Coroa"
+	"Corte Real"
+	"Cristo"
+	"Curiosa"
+	"Damão"
+	"Delfim"
+	"Diana"
+	"Diligente"
+	"Diogo Cão"
+	"Dom João VI"
+	"Don João Sexto"
+	"Dona Maria II"
+	"Douro"
+	"Duquesa de Bragança"
+	"Dão"
+	"Espadarte"
+	"Falcão"
+	"Fereta"
+	"Flor de la Mar"
+	"Furão"
+	"Fénix"
+	"Fénix Constitucional"
+	"Gaivota"
+	"Galgo"
+	"Garota"
+	"Garça"
+	"Giavota"
+	"Golfinho"
+	"Gonçalo"
+	"Graça Divina"
+	"Guadiana"
+	"Infante Don Pedro"
+	"Jesus"
+	"Jesus Cristo"
+	"Jesus da Ajuda"
+	"Júpiter"
+	"Lebre"
+	"Leio"
+	"Lisboa"
+	"Liz"
+	"Lobo Soares"
+	"Luanda"
+	"Madre de Deus"
+	"Magnânimo"
+	"Maria I"
+	"Martim de Freitas"
+	"Medusa"
+	"Minerva"
+	"Monte du Ouro"
+	"N. Sra. Belém"
+	"N. Sra. Madre de Deus"
+	"N. Sra. Madre de Deus e São Fransisco"
+	"N. Sra. Madre de Deus e São José"
+	"N. Sra. Necessidades e Santo Antonio"
+	"N. Sra. da Ajuda"
+	"N. Sra. da Ajuda e São Fransisco"
+	"N. Sra. da Ajuda e São Pedro"
+	"N. Sra. da Arribada"
+	"N. Sra. da Assunção"
+	"N. Sra. da Atalaia"
+	"N. Sra. da Boa Hora"
+	"N. Sra. da Boa Memória"
+	"N. Sra. da Boa Viagem"
+	"N. Sra. da Caridade"
+	"N. Sra. da Caridade e São Fransisco"
+	"N. Sra. da Conceicao"
+	"N. Sra. da Conceição e Sao Vicente"
+	"N. Sra. da Conceição e São José"
+	"N. Sra. da Conceição e São João"
+	"N. Sra. da Encarnação"
+	"N. Sra. da Esperanca"
+	"N. Sra. da Estrela"
+	"N. Sra. da Glória"
+	"N. Sra. da Graça"
+	"N. Sra. da Guia"
+	"N. Sra. da Lampadosa"
+	"N. Sra. da Luz"
+	"N. Sra. da Madre de Deus"
+	"N. Sra. da Misericórdia"
+	"N. Sra. da Natividade"
+	"N. Sra. da Nazaré"
+	"N. Sra. da Nazaré e Santa Ana"
+	"N. Sra. da Nazaré e Santo António"
+	"N. Sra. da Oliveira"
+	"N. Sra. da Oliveira de Guimarães"
+	"N. Sra. da Oliveira e Santo António"
+	"N. Sra. da Palma e São Pedro"
+	"N. Sra. da Penha de Franca"
+	"N. Sra. da Piedade"
+	"N. Sra. da Vitória"
+	"N. Sra. das Angústias"
+	"N. Sra. das Brotas"
+	"N. Sra. das Merces"
+	"N. Sra. das Necessidades"
+	"N. Sra. das Ondas"
+	"N. Sra. das Portas do Céu de Rosette"
+	"N. Sra. de Belem e São José"
+	"N. Sra. de Belém"
+	"N. Sra. de Bettencourt"
+	"N. Sra. de Guadalupe"
+	"N. Sra. do Bom"
+	"N. Sra. do Bom Despacho"
+	"N. Sra. do Bom Sucesso"
+	"N. Sra. do Cabo"
+	"N. Sra. do Cabo e São Pedro"
+	"N. Sra. do Cardais"
+	"N. Sra. do Livramento"
+	"N. Sra. do Livramento e São José"
+	"N. Sra. do Loreto"
+	"N. Sra. do Monte do Carmo"
+	"N. Sra. do Pilar"
+	"N. Sra. do Quietação"
+	"N. Sra. do Rosário"
+	"N. Sra. do Rosário e Santo André"
+	"N. Sra. do Vale"
+	"N. Sra. do Vencimento e São José"
+	"N. Sra. dos Milagres"
+	"N. Sra. dos Prazeres"
+	"N. Sra. dos Prazeres e Santo Antonio"
+	"N. Sra. dos Remédios dos Cassabe"
+	"Neptuno"
+	"Ninfa"
+	"Nossa Senhora da Conceição"
+	"Nossa Senhora da Esperanca"
+	"Nossa Senhora da Glória"
+	"Nossa Senhora da Vitória"
+	"Nossa Senhora das Necessidades"
+	"Nunes"
+	"Oliveira de Guimarães"
+	"Padre Eterno"
+	"Polifemo"
+	"Princesa Carlota"
+	"Princesa Real"
+	"Princesa da Beira"
+	"Princesa da Beira e Portuguesa"
+	"Princesa do Brasil"
+	"Princesa do Céu"
+	"Príncipe Dom Pedro"
+	"Príncipe Real"
+	"Príncipe Regente"
+	"Príncipe do Brasil"
+	"Pérola"
+	"Quietação"
+	"Rainha Santa Isabel"
+	"Rainha de Portugal"
+	"Rainha dos Anjos"
+	"Real Carolina"
+	"Real Fidelíssima"
+	"Real Fonsor"
+	"Real Fonza"
+	"Real Voador"
+	"Relíquias"
+	"Sacramento"
+	"Salvador do Mundo"
+	"Santa Ana"
+	"Santa Ana e Maria"
+	"Santa Ana e São Joaquim"
+	"Santa Catarina"
+	"Santa Catarina do Monte Sinai"
+	"Santa Clara"
+	"Santa Cruz"
+	"Santa Cruz do Ouro"
+	"Santa Maria Isabel de Saboia"
+	"Santa Rosa"
+	"Santa Teresa"
+	"Santa Teresa de Jesus"
+	"Santiago"
+	"Santiago Maior"
+	"Santo Agustinho"
+	"Santo Alberto"
+	"Santo Andre"
+	"Santo António"
+	"Santo António de Flores"
+	"Santo António de Padua"
+	"Santo António de Tanna"
+	"Santo António e São Joaquim"
+	"Santo António e São José"
+	"Santo Miguel"
+	"Santíssima Trinidade"
+	"Santíssimo Sacramento"
+	"Sem Nome"
+	"Serpente"
+	"Serpento do Mar"
+	"Simenta de Carvalho"
+	"Successo"
+	"São António"
+	"São Bartholomeu"
+	"São Benedito"
+	"São Bento"
+	"São Bernardo"
+	"São Boaventura"
+	"São Brás e São Lourenço"
+	"São Cristovão"
+	"São Fransisco Xavier"
+	"São Fransisco Xavier e Santo António"
+	"São Fransisco Xavier e Todo o Bem"
+	"São Fransisco de Assis"
+	"São Fransisco de Paula"
+	"São Gabriel"
+	"São Jorge"
+	"São José"
+	"São José Paquete África"
+	"São José e N. Sra. da Conceição"
+	"São José e N. Sra. das Mercês"
+	"São João"
+	"São João Baptista"
+	"São João Magnânimo"
+	"São João de Deus"
+	"São Lourenço"
+	"São Martinho"
+	"São Nicolau"
+	"São Pedro"
+	"São Pedro Goncalves"
+	"São Rafael"
+	"São Salvador"
+	"São Sebasteio"
+	"São Simão"
+	"São Tomé"
+	"Taforea"
+	"Tejo"
+	"Temível Portuguesa"
+	"Todos os Santos"
+	"Torta"
+	"Tritão"
+	"Ulisses"
+	"Unido"
+	"Unilo"
+	"União"
+	"Urania"
+	"Vale"
+	"Vasco da Gama"
+	"Vingança"
+	"Voador"
+	"Volador"
+	"Vulcano"
+	"Vénus"
+	"Zabra Augusta"
+	"Zabra Júlia"
+	"Águia"
+}
+army_names = {
+	"Bandeira de $PROVINCE$"
+	"Exército de $PROVINCE$"
+	"Guarda Real"
+	"Terço da Armada Real da Coroa de Portugal"
+	"Terço de $PROVINCE$"
+}
+fleet_names = {
+	"Armada Real"
+	"Armada da Guiné"
+	"Armada de $PROVINCE$"
+	"Armada do Atlântico"
+	"Armada do Brasil"
+	"Armada do Cabo"
+	"Armada do Estreito"
+	"Armada do Extremo Oriente"
+	"Armada do Pacífico"
+	"Armada do Índico"
+	"Esquadra da Guiné"
+	"Esquadra de $PROVINCE$"
+	"Esquadra do Atlântico"
+	"Esquadra do Brasil"
+	"Esquadra do Cabo"
+	"Esquadra do Estreito"
+	"Esquadra do Extremo Oriente"
+	"Esquadra do Pacífico"
+	"Esquadra do Índico"
+	"Frota da Guiné"
+	"Frota de $PROVINCE$"
+	"Frota do Atlântico"
+	"Frota do Brasil"
+	"Frota do Cabo"
+	"Frota do Estreito"
+	"Frota do Extremo Oriente"
+	"Frota do Pacífico"
+	"Frota do Índico"
+}

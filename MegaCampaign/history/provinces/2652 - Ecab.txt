@@ -1,0 +1,15 @@
+owner = COC
+controller = COC
+capital = "Ecab"
+is_city = yes
+culture = yucatec
+religion = mesoamerican_religion
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = COC
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

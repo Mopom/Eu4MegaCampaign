@@ -1,0 +1,78 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 255 225 57 }
+revolutionary_colors = { 14 8 9 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	niger_kongolese_forest_warfare
+	niger_kongolese_guerilla_warfare
+	niger_kongolese_gunpowder_warfare
+	niger_kongolese_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Cyilima #0" = 20
+	"Kanjogera #0" = -1
+	"Kanyarwanda #0" = 5
+	"Kigeli #0" = 30
+	"Mibambwe #0" = 25
+	"Mutara #0" = 25
+	"Ndahiro #0" = 10
+	"Nsoro #0" = 10
+	"Nyarume #0" = 5
+	"Nyiramavugo #0" = -1
+	"Nyirarukangaga #0" = -1
+	"Rubanda #0" = 5
+	"Ruganzu #1" = 20
+	"Rumeza #0" = 5
+	"Yuhi #2" = 30
+}
+leader_names = {
+	"Ababanda"
+	"Abacyaba"
+	"Abagesera"
+	"Abahinda"
+	"Abahondogo"
+	"Abakono"
+	"Abanyakarama"
+	"Abanyiginya"
+	"Abarihira"
+	"Abashambo"
+	"Abashingwe"
+	"Abasinga"
+	"Abasita"
+	"Abatsobe"
+	"Abazigaba"
+	"Abenengwe"
+	"Abongera"
+	"Abungura"
+	"Bega"
+}
+ship_names = {
+	"Gihanga"
+	"Gisa"
+	"Kazi"
+	"Kigwa"
+	"Kijuru"
+	"Kimanuka"
+	"Merano"
+	"Muntu"
+	"Nkuba"
+	"Randa"
+	"Shyerezo"
+}

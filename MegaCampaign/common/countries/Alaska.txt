@@ -1,0 +1,315 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 185 215 255 }
+revolutionary_colors = { 0 13 8 }
+historical_idea_groups = {
+	plutocracy_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
+}
+historical_score = 200
+random_nation_chance = 0
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Afanasiy #0" = 0
+	"Agafya #0" = -1
+	"Akim #0" = 0
+	"Aleksandr #0" = 0
+	"Alexei #0" = 0
+	"Anatoliy #0" = 0
+	"Andrei #3" = 10
+	"Arkadiy #0" = 0
+	"Boris #0" = 10
+	"Daniil #0" = 0
+	"Dmitriy #5" = 20
+	"Dorofey #0" = 0
+	"Feodosiy #0" = 0
+	"Feofilakt #0" = 0
+	"Fyodor #1" = 5
+	"Gavriil #0" = 0
+	"Innokentiy #0" = 0
+	"Iosif #0" = 0
+	"Ivan #2" = 40
+	"Lavrentiy #0" = 0
+	"Makariy #0" = 0
+	"Matveiy #0" = 0
+	"Mikhail #0" = 0
+	"Nazariy #0" = 0
+	"Nikifor #0" = 0
+	"Oleg #0" = 0
+	"Onisim #0" = 0
+	"Pavel #0" = 0
+	"Prokopiy #0" = 0
+	"Pyotr #0" = 0
+	"Radomir #0" = 0
+	"Saveliy #0" = 0
+	"Semen #1" = 10
+	"Sergei #0" = 0
+	"Svetlana #0" = -1
+	"Terentiy #0" = 0
+	"Valeriy #0" = 0
+	"Vasiliy #0" = 70
+	"Yakim #0" = 0
+	"Yevgeniy #0" = 0
+	"Yuliya #0" = -1
+	"Yuriy #1" = 20
+}
+leader_names = {
+	"Apraksin"
+	"Bagration"
+	"Barclay de Tolly"
+	"Bibikoff"
+	"Bodisco"
+	"Boruffsin"
+	"Golitzin"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Mensjikov"
+	"Mustislavski"
+	"Ostermann Tolstoy"
+	"Paletskij"
+	"Rajevski"
+	"Schuvalov"
+	"Sjeremetjev"
+	"Sjtjenjatvev"
+	"Tiesenhusen"
+	"Vasiljevitj"
+	"von Buxhoevden"
+	"von Knorring"
+	"von Lascy"
+}
+ship_names = {
+	"Aist"
+	"Amur"
+	"Apollo"
+	"Arkhipelag"
+	"Armont"
+	"Arondel"
+	"Astrakhan"
+	"Aziia"
+	"Azov"
+	"Blagodat"
+	"Blagopoluchie"
+	"Britanniia"
+	"Bulinbrok"
+	"Bystraia"
+	"Cherepakha"
+	"Chesma"
+	"Chestnaia"
+	"Degas"
+	"Dekrondelivde"
+	"Delfin"
+	"Delos"
+	"Derbent"
+	"Derpt"
+	"Devonshir"
+	"Diana"
+	"Dobraia"
+	"Donder"
+	"Drumkrakht"
+	"Dumkrat"
+	"Eingorn"
+	"Elena"
+	"Emgeiten"
+	"Emmanuil"
+	"Endrakht"
+	"Esperans"
+	"Etna"
+	"Evropa"
+	"Falk"
+	"Favoritka"
+	"Feniks"
+	"Flag"
+	"Fortuna"
+	"Fredrikhshtadt"
+	"Fridemaker"
+	"Fyodor"
+	"Gamburg"
+	"Gangut"
+	"Gektor"
+	"Gremiashchii"
+	"Grigorii"
+	"Grom"
+	"II"
+	"Iagudiil"
+	"Iamburg"
+	"Iaroslav"
+	"Iassy"
+	"Iezekiil"
+	"Ingermanland"
+	"Ioann"
+	"Iupiter"
+	"Kamen"
+	"Khobot"
+	"Khotin"
+	"Khvalnaia"
+	"Kit"
+	"Konstantin"
+	"Kopore"
+	"Korona"
+	"Kreiser"
+	"Krepost"
+	"Kronshlot"
+	"Kronshtadt"
+	"Kruis"
+	"Krym"
+	"Landsdou"
+	"Laskovaia"
+	"Lastka"
+	"Leferm"
+	"Legkii"
+	"Lesnoye"
+	"Lev"
+	"Liliia"
+	"Lizet"
+	"London"
+	"Luks"
+	"Marlburg"
+	"Merkurii"
+	"Miach"
+	"Milo"
+	"Minerva"
+	"Mittau"
+	"Modon"
+	"Molniia"
+	"Monbekend"
+	"Monplezir"
+	"Moreia"
+	"Moris"
+	"Moskva"
+	"Munker"
+	"Nadezhda"
+	"Naktsiia"
+	"Narva"
+	"Natalia"
+	"Nazaret"
+	"Nepobedimaia"
+	"Neptunus"
+	"Nishtadt"
+	"Novopavlovsk"
+	"Oksford"
+	"Olga"
+	"Olifant"
+	"Orfei"
+	"Oryol"
+	"Palyulos"
+	"Parizh"
+	"Paros"
+	"Patriklii"
+	"Perl"
+	"Pernov"
+	"Pervyi"
+	"Peterburg"
+	"Piotr"
+	"Plato"
+	"Pobeda"
+	"Pochtalon"
+	"Poltava"
+	"Poluks"
+	"Pomoshchnyi"
+	"Portsmut"
+	"Pospeshnyi"
+	"Prevoskhoditeinaia"
+	"Printsessa"
+	"Priyatelnaya"
+	"Prokhor"
+	"Provornyi"
+	"Rafail"
+	"Rak"
+	"Randolf"
+	"Razumnaia"
+	"Revel"
+	"Riga"
+	"Rossia"
+	"Rostislav"
+	"Roza"
+	"Rys"
+	"Salamandra"
+	"Samson"
+	"Saratov"
+	"Schastie"
+	"Schastlivyi"
+	"Selafail"
+	"Shkhelpol"
+	"Shlisselburg"
+	"Shpaga"
+	"Shtandart"
+	"Shval"
+	"Siiatelnaia"
+	"Sion"
+	"Sklonnaia"
+	"Skorpion"
+	"Snuk"
+	"Sobaka"
+	"Sokol"
+	"Starn"
+	"Stein"
+	"Straford"
+	"Strakh"
+	"Strela"
+	"Strus"
+	"Sulitsa"
+	"Sviatoslav"
+	"Svirepaia"
+	"Taganrog"
+	"Taimalar"
+	"Telemakus"
+	"Terpelivaia"
+	"Tino"
+	"Tver"
+	"Tvyordyi"
+	"Ubornaia"
+	"Uchtivaia"
+	"Uliss"
+	"Ulriksdal"
+	"Upovanie"
+	"Uriil"
+	"Vakhmeister"
+	"Varakhail"
+	"Vedraia"
+	"Venera"
+	"Venker"
+	"Venus"
+	"Vestovoi"
+	"Vesuvii"
+	"Viacheslav"
+	"Viktoriia"
+	"Vinkelgak"
+	"Voin"
+	"Voronez"
+	"Vsevolod"
+	"Vtoroi"
+	"Vyborg"
+	"Vydra"
+	"Yanos"
+	"Zabavnaia"
+	"Zadornaia"
+	"Zhemchug"
+	"Zhurzha"
+	"Zmeia"
+	"Zvezda"
+}
+colonial_parent = RUS

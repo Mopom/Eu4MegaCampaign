@@ -1,0 +1,56 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 3
+technology_group = eastern
+religion = tengri_pagan
+primary_culture = dynamic-ostyaki-culture-num2
+capital = 4689
+1444.11.11= {
+	monarch = {
+		name = "Toghoril II"
+		dynasty = "Sono"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1389.5.10
+		religion = tengri_pagan
+		culture = dynamic-ostyaki-culture-num2
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Çiltanesi"
+		dynasty = "Ufaan"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = SIB
+		birth_date = 1390.11.2
+		death_date = 1450.11.2
+		female = yes
+		religion = tengri_pagan
+		culture = bashkir
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Khugurchin"
+		monarch_name = "Khugurchin"
+		dynasty = "Sono"
+		adm = 6
+		dip = 5
+		mil = 5
+		birth_date = 1409.2.1
+		death_date = 1474.2.1
+		female = yes
+		claim = 89
+		religion = tengri_pagan
+		culture = dynamic-ostyaki-culture-num2
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 80
+	add_treasury = 66
+}

@@ -1,0 +1,14 @@
+owner = MNG
+controller = MNG
+capital = "Kaifeng"
+is_city = yes
+culture = zhongyuan
+religion = confucianism
+trade_goods = chinaware
+base_tax = 8
+base_production = 8
+base_manpower = 4
+add_core = LNG
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,137 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 64 64 64 }
+revolutionary_colors = { 16 16 16 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Actuator #0" = 100
+	"Alpha #0" = 100
+	"Axon #0" = -100
+	"Director #0" = 100
+	"Executor #0" = 100
+	"Mainframe #0" = 100
+	"Mutex #0" = 100
+	"Quantus #0" = 100
+	"Scalar #0" = -100
+	"Setun #0" = -100
+	"Synchronizer #0" = 100
+	"Talus #0" = 100
+}
+leader_names = {
+	"Actuator"
+	"Alpha"
+	"Axon"
+	"Director"
+	"Executor"
+	"Mainframe"
+	"Mutex"
+	"Quantus"
+	"Scalar"
+	"Setun"
+	"Synchronizer"
+	"Talus"
+}
+ship_names = {
+	"Abolisher"
+	"Advancer"
+	"Ambusher"
+	"Annihilator"
+	"Annulator"
+	"Arbiter"
+	"Assailer"
+	"Assassin"
+	"Besieger"
+	"Conqueror"
+	"Decimator"
+	"Defender"
+	"Deliverer"
+	"Devastator"
+	"Disintegrator"
+	"Dispatcher"
+	"Dominator"
+	"Effacer"
+	"Eliminator"
+	"Ender"
+	"Enforcer"
+	"Eradicator"
+	"Exterminator"
+	"Extinguisher"
+	"Extirpator"
+	"Liberator"
+	"Marshaller"
+	"Nullifier"
+	"Obliterator"
+	"Pacifier"
+	"Predator"
+	"Prevailer"
+	"Protector"
+	"Razer"
+	"Redeemer"
+	"Resister"
+	"Retaliator"
+	"Ruiner"
+	"Shatterer"
+	"Silencer"
+	"Striker"
+	"Stunner"
+	"Subduer"
+	"Subjugator"
+	"Suppressor"
+	"Thresher"
+	"Vanquisher"
+	"Vaporizer"
+	"Vitiator"
+}
+army_names = {
+	"$PROVINCE$ Mechanized Assault Force"
+}
+fleet_names = {
+	"Apex"
+	"Apothem"
+	"Axis"
+	"Boundless"
+	"Cogent"
+	"Constant"
+	"Derivator"
+	"Determinant"
+	"Directrix"
+	"Extremum"
+	"Helix"
+	"Inductor"
+	"Integral"
+	"Intercept"
+	"Limit"
+	"Moment"
+	"Ordinate"
+	"Outcome"
+	"Solution"
+	"Terminus"
+}
+all_your_core_are_belong_to_us = yes

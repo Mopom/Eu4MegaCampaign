@@ -1,0 +1,12 @@
+owner = YAK
+controller = YAK
+capital = "Yaka"
+is_city = yes
+culture = yaka
+religion = shamanism
+trade_goods = slaves
+base_tax = 3
+base_production = 2
+base_manpower = 3
+add_core = YAK
+discovered_by = central_african

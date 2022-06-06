@@ -1,0 +1,13 @@
+owner = KOR
+controller = KOR
+capital = "Naju"
+is_city = yes
+culture = korean
+religion = confucianism
+trade_goods = paper
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group

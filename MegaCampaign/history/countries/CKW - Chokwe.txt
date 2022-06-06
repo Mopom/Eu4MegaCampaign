@@ -1,0 +1,151 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = central_african
+religion = shamanism
+primary_culture = chokwe
+capital = 4095
+unit_type = sub_saharan
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = mwari_cult
+1440.1.1= {
+	monarch = {
+		name = "Chinguli"
+		dynasty = "Mwene"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1460.1.1= {
+	monarch = {
+		name = "Naama"
+		dynasty = "Mwene"
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1480.1.1= {
+	monarch = {
+		name = "Yamvu"
+		dynasty = "Mwene"
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1520.1.1= {
+	monarch = {
+		name = "Nkonde"
+		dynasty = "Mwene"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1550.1.1= {
+	monarch = {
+		name = "Chinguli"
+		dynasty = "Mwene"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1590.1.1= {
+	monarch = {
+		name = "Mbaoo"
+		dynasty = "Mwene"
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1620.1.1= {
+	monarch = {
+		name = "Kaamba"
+		dynasty = "Mwene"
+		female = yes
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+1650.1.1= {
+	monarch = {
+		name = "Chingwanja"
+		dynasty = "Mwene"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1670.1.1= {
+	monarch = {
+		name = "Lweembe"
+		dynasty = "Mwene"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1690.1.1= {
+	monarch = {
+		name = "Katete"
+		dynasty = "Mwene"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1710.1.1= {
+	monarch = {
+		name = "Mukenge"
+		dynasty = "Mwene"
+		female = yes
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+1730.1.1= {
+	monarch = {
+		name = "Kathangila"
+		dynasty = "Mwene"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+1750.1.1= {
+	monarch = {
+		name = "Yambayamba"
+		dynasty = "Mwene"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}
+1775.1.1= {
+	monarch = {
+		name = "Chingumbe"
+		dynasty = "Mwene"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1795.1.1= {
+	monarch = {
+		name = "Ngonga"
+		dynasty = "Mwene"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}

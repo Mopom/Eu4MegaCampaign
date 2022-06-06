@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 31 102 187 }
+historical_idea_groups = {
+	defensive_ideas
+	aristocracy_ideas
+	offensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ajab #0" = -1
+	"Ajabsinhji #0" = 10
+	"Arjundas #0" = 10
+	"Baiji Lal #0" = 0
+	"Ballu #0" = 0
+	"Baz #0" = 0
+	"Bhan #0" = 10
+	"Bharmal #0" = 10
+	"Bhawani #0" = 0
+	"Bhim #0" = 10
+	"Chandrasing #0" = 10
+	"Chhatrasinhji #0" = 10
+	"Dev #0" = -1
+	"Dilip #0" = 0
+	"Gambhirsinhji #0" = 10
+	"Gopinath #0" = 10
+	"Hakim #0" = 0
+	"Jagannath #0" = 10
+	"Jai #0" = 0
+	"Jawan #0" = 0
+	"Jhala #0" = 0
+	"Kalianmal #0" = 10
+	"Kamala #0" = -1
+	"Karansingh #0" = 10
+	"Krishna #0" = 0
+	"Kshetra #0" = 0
+	"Kumbhakarna #0" = 0
+	"Kunwar #0" = 0
+	"Naharsinhji #0" = 10
+	"Narandas #0" = 10
+	"Naryan #0" = 0
+	"Nath #0" = 0
+	"Natwar #0" = 0
+	"Pratapsinhji #0" = 10
+	"Punja #0" = 10
+	"Punjaji #0" = 10
+	"Raimalji #0" = 10
+	"Raj #0" = 0
+	"Ramsinhji #0" = 10
+	"Ratan #0" = 0
+	"Sangram #0" = 0
+	"Sejakji #0" = 0
+	"Sidhraj #0" = 0
+	"Songari #0" = -1
+	"Surajmal #0" = 10
+	"Vairisalji #0" = 10
+	"Vijaysinhji #0" = 10
+	"Viram #0" = 0
+	"Viramdev #0" = 10
+}
+leader_names = {
+	"Bargujar"
+	"Bhaal"
+	"Bhati"
+	"Chandela"
+	"Chauhan"
+	"Chudasama"
+	"Chundawa"
+	"Das"
+	"Gohil"
+	"Jadeja"
+	"Jadon"
+	"Khumba"
+	"Mori"
+	"Pratap"
+	"Sahu"
+	"Saran"
+	"Singh"
+	"Sisodiya"
+	"Tomara"
+	"Vaghela"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Merwar ka Nav"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

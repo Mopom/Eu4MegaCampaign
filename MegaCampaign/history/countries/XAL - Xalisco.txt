@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = mesoamerican
+religion = nahuatl
+primary_culture = tepic
+capital = 854
+1440.1.1= {
+	monarch = {
+		name = "Coatl"
+		dynasty = "Xalisco"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

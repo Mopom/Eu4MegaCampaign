@@ -1,0 +1,12 @@
+owner = SAM
+controller = SAM
+capital = "Falealupo"
+is_city = yes
+culture = polynesian
+religion = animism
+trade_goods = cloth
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = SAM
+discovered_by = polynesian_tech

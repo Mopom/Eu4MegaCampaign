@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 39 108 140 }
+revolutionary_colors = { 5 14 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	maritime_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adrijana #0" = -1
+	"Aleksandar #0" = 0
+	"Antonije #0" = 0
+	"Arsenios #0" = 20
+	"Balsha #2" = 20
+	"Benjamin #0" = 20
+	"Bratislav #0" = 0
+	"Danilo #0" = 20
+	"Darko #0" = 0
+	"Djuradj #1" = 50
+	"Elena #0" = -1
+	"Gerasim #0" = 20
+	"Germanos #1" = 20
+	"Goran #0" = 0
+	"Ivan #0" = 40
+	"Katica #0" = -1
+	"Makarios #0" = 20
+	"Mardarije #0" = 40
+	"Marko #0" = 0
+	"Mateja #0" = 0
+	"Mihovil #0" = 0
+	"Miroslav #0" = 0
+	"Mladen #0" = 0
+	"Nemanja #0" = 0
+	"Nikanor #0" = 20
+	"Nikodemos #0" = 20
+	"Nikola #0" = 0
+	"Pachomios #0" = 20
+	"Pavle #0" = 20
+	"Pedrag #0" = 0
+	"Petar #0" = 20
+	"Ravim #0" = 60
+	"Romil #0" = 20
+	"Sava #0" = 40
+	"Stanko #0" = 0
+	"Stjepan #0" = 80
+	"Toma #0" = 0
+	"Vasilije #0" = 50
+	"Vavilas #0" = 20
+	"Vinko #0" = 0
+	"Visarion #1" = 40
+	"Zdravko #0" = 0
+	"Zvonimir #0" = 0
+}
+leader_names = {
+	"Balsic"
+	"Baulica"
+	"Berici"
+	"Bivolici"
+	"Boljevic"
+	"Buca"
+	"Crnojevic"
+	"Drago"
+	"Grblji"
+	"Komanin"
+	"Kornecanin"
+	"Kosaca"
+	"Lukovici"
+	"Martinovitci"
+	"Njegos"
+	"Pastrovici"
+	"Petrovici"
+	"Radari"
+	"Srdjici"
+	"Sundecic"
+}
+ship_names = {
+	"Balsa I"
+	"Cetinje"
+	"Crna Gora"
+	"Duklja"
+	"Jadransko more"
+	"Jovan Vladimir"
+	"Mihajlo I"
+	"Podgorica"
+	"Vojislavljevic"
+	"Zeta"
+}

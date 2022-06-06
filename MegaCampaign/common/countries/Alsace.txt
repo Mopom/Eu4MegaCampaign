@@ -1,0 +1,178 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 246 223 15 }
+revolutionary_colors = { 16 0 16 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	trade_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #1" = 10
+	"Airmedach #0" = 0
+	"Berchte #1" = -1
+	"Bia #0" = -1
+	"Brunhilde #0" = -1
+	"Caitilín #0" = -1
+	"Constans #0" = 0
+	"Douce #1" = -1
+	"Emelenine #0" = -1
+	"Eticho #1" = 10
+	"Gertrud #0" = -1
+	"Gertrude #0" = -1
+	"Glismod #0" = -1
+	"Hugues #1" = 10
+	"Liutfried #1" = 10
+	"Poppo #0" = 0
+	"Radegund #0" = -1
+	"Siegfried #0" = 0
+	"Ulrich #0" = 0
+	"Ute #0" = -1
+	"Wilbert #1" = 10
+	"Wilhelmina #0" = -1
+	"Winfrida #0" = -1
+	"Óenucán #0" = 0
+}
+leader_names = {
+	"Bock de Blasheim"
+	"Bock de Erlenburg"
+	"Gailing d'Altheim"
+	"Linange-Westerburg"
+	"Wolff"
+	"d'Andleau"
+	"d'Arnsberg"
+	"d'Uttenheim"
+	"de Bainville"
+	"de Baltis"
+	"de Berckheim"
+	"de Berenfelz"
+	"de Beroldingen"
+	"de Bocklinsau"
+	"de Béonholdt"
+	"de Dalberg"
+	"de Deux-Ponts-Bitche"
+	"de Dornach"
+	"de Falkenstein"
+	"de Fleckenstein"
+	"de Furstenberg"
+	"de Gielsberg"
+	"de Hagenbach"
+	"de Hanau-Lichtenberg"
+	"de Hohenstein"
+	"de Hungerstein"
+	"de Kippenheim"
+	"de Kircheim"
+	"de Landeck"
+	"de Landenberg"
+	"de Lupfen"
+	"de Lutzelburg"
+	"de Morimont"
+	"de Mullenheim"
+	"de Munck"
+	"de Pfasttatt"
+	"de Ramstein"
+	"de Rathsamhausen"
+	"de Reichenstein"
+	"de Rheinfeld"
+	"de Ribeaupierre"
+	"de Réguisheim"
+	"de Schaunburg"
+	"de Schmitzbourg"
+	"de Schoenau"
+	"de Sickingen"
+	"de Thierstein"
+	"de Turckheim"
+	"de Wasselnheim"
+	"de Weitersheim"
+	"de Wildsberg"
+	"de Winterbescher"
+	"de Wormser"
+	"de Zurlauben"
+	"zu Rhein"
+}
+ship_names = {
+	"Altkirch"
+	"Ammerschwihr"
+	"Andolsheim"
+	"Barr"
+	"Benfeld"
+	"Bischwiller"
+	"Bitche"
+	"Bollwiller"
+	"Brumath"
+	"Cernay"
+	"Colmar"
+	"Dieffenthal"
+	"Ensisheim"
+	"Erstein"
+	"Guebwiller"
+	"Haguenau"
+	"Honwald"
+	"Horbourg-Wihr"
+	"Hunspach"
+	"Kanterbrau"
+	"Kaysersberg"
+	"Lautenbach"
+	"Lauterburg"
+	"Lembach"
+	"Marckolsheim"
+	"Molsheim"
+	"Mulhausen"
+	"Munster"
+	"Mutzig"
+	"Neuf-Brisach"
+	"Oberhaslach"
+	"Obernai"
+	"Olsheim"
+	"Orbey"
+	"Reichshoffen"
+	"Riquewihr"
+	"Rouffach"
+	"Saverne"
+	"Scherwiller"
+	"Schirmeck"
+	"Souffelweyer"
+	"Soufflenheim"
+	"Soultzmatt"
+	"Strassburg"
+	"Sélestat"
+	"Thann"
+	"Turckheim"
+	"Vendenheim"
+	"Wissemburg"
+	"Wittelsheim"
+}
+army_names = {
+	"Armée d'Alsace"
+	"Armée de $PROVINCE$"
+	"Armée de Strasbourg"
+	"Armée de l'Ochsenfeld"
+	"Armée de la Décapole"
+	"Armée de la Hardt"
+	"Armée des Vosges"
+	"Armée du Jura"
+	"Armée du Rhin"
+	"Armée du Sundgau"
+}

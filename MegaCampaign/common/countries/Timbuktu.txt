@@ -1,0 +1,155 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 230 231 62 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Ag Mama #0" = 0
+	"Agg-A'isha #0" = 20
+	"Agg-Abba #0" = 120
+	"Ahmad #0" = 0
+	"Akhamuk #0" = 0
+	"Akil #0" = 10
+	"Attici #0" = 0
+	"Aytarel #0" = 0
+	"Bayy #0" = 0
+	"Dassin #0" = -1
+	"Guma #0" = 60
+	"Guraya #0" = -1
+	"Humad #0" = 80
+	"Ibrahim Waffa #0" = 20
+	"Meslar #0" = 0
+	"Mikitan #0" = 0
+	"Musa #0" = 0
+	"Salah #0" = 0
+	"Takama #0" = -1
+	"Tanteflest #0" = -1
+	"Tarayna #0" = -1
+	"Umaru #0" = 0
+	"Uthman #0" = 20
+	"Waffa #0" = 20
+	"Yunus #0" = 0
+	"ad-Dani #0" = 40
+	"ad-Dusuki #0" = 0
+	"ag-Ibrahim #0" = 0
+	"al-Adil #0" = 20
+	"al-Amin #0" = 160
+	"al-Baqiri #0" = 20
+	"al-Hajj #0" = 0
+	"al-Khir #0" = 0
+	"al-Mu'min #0" = 20
+	"al-Qadir #0" = 20
+	"al-Wali #0" = 20
+	"ar-Raffa #0" = 0
+	"ar-Rahman #0" = 0
+}
+leader_names = {
+	"Ait Loaien"
+	"Akamalwal"
+	"Dag Rali"
+	"Ibatanaten"
+	"Idnan"
+	"Ifergoumessen"
+	"Igdalen"
+	"Ighatafan"
+	"Ikazkazan"
+	"Ikhekheren"
+	"Iregenaten"
+	"Iriyaken"
+	"Irreulen"
+	"Kel Afella"
+	"Kel Essouk"
+	"Kel Fadey"
+	"Kel Ferwan"
+	"Kel Gharous"
+	"Kel Nan"
+	"Kel Ouzzeyn"
+	"Kel Rela"
+	"Kel Silet"
+	"Kel Tadele"
+	"Kel Taghlit"
+	"Kel Tamat"
+	"Lisawan"
+	"Taghat Mellet"
+	"Tahabanaten"
+	"Taituq"
+	"Tellemidez"
+	"Tgéhé Millet"
+	"Tiggirmat"
+}
+ship_names = {
+	"Abaikor"
+	"Abuk Eneden"
+	"Adhou"
+	"Adrar"
+	"Agzir"
+	"Aheluf"
+	"Ahlahal"
+	"Ahulil"
+	"Akhoudi"
+	"Amanar"
+	"Amayas"
+	"Amenis"
+	"Amor"
+	"Amschisch"
+	"Aouak'k'as"
+	"Aqjun"
+	"Araleg"
+	"Arer"
+	"Aura"
+	"Averckan"
+	"Awragh"
+	"Azegaw"
+	"Azeggagh"
+	"Edi n Amanar"
+	"Egagg"
+	"Ekahi"
+	"Elkessan"
+	"Elmusi"
+	"Etran"
+	"Eys"
+	"Harmattan"
+	"Illascchevhan"
+	"Mehellau"
+	"Mula-Mula"
+	"Nchar-n-icheren"
+	"Schet-ehad"
+	"Tafuk"
+	"Taganzé"
+	"Taggait"
+	"Tahenkat"
+	"Takhourhit"
+	"Takouba"
+	"Talamt"
+	"Tallit"
+	"Tasilé"
+	"Tatrit n tufat"
+	"Telek"
+	"Teschek-ulli"
+	"Tezelader"
+	"addhar"
+	"Élou"
+	"Ésou"
+}

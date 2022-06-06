@@ -1,0 +1,15 @@
+owner = AYU
+controller = AYU
+capital = "Mergui"
+is_city = yes
+culture = mon
+religion = buddhism
+trade_goods = chinaware
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = AYU
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

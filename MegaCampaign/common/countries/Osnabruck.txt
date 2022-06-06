@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 135 138 192 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	maritime_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 15
+	"Alexander #0" = 0
+	"Andreas #0" = 0
+	"Baldur #0" = 0
+	"Bernhard #0" = 20
+	"Bernhard Christoph #0" = 20
+	"Bruno #0" = 0
+	"Ciara #0" = -1
+	"Clemens #0" = 0
+	"Dedrick #0" = 0
+	"Denis #0" = 0
+	"Erich #0" = 40
+	"Ernst #0" = 20
+	"Ferdinand #0" = 40
+	"Florian #0" = 0
+	"Franz #0" = 20
+	"Franz Arnold #0" = 20
+	"Friedrich #0" = 20
+	"Friedrich Christian #0" = 20
+	"Gregor #0" = 0
+	"Guntram #0" = 0
+	"Heinrich #0" = 40
+	"Helmfried #0" = 0
+	"Helmut #0" = 0
+	"Isaak #0" = 0
+	"Jan #0" = 0
+	"Joachim #0" = 0
+	"Johann #0" = 40
+	"Johann Wilhelm #0" = 20
+	"Konrad #0" = 20
+	"Ludwig #0" = 15
+	"MONARCH_NAME_ONORA #0" = -1
+	"Martin #0" = 0
+	"Michael #0" = 0
+	"Otto #0" = 20
+	"Rainer #0" = 0
+	"Rudolf #0" = 0
+	"Siegmund #0" = 0
+	"Treasa #0" = -1
+	"Wilhelm #0" = 20
+}
+leader_names = {
+	"Boelken"
+	"Dönhoff"
+	"Engels"
+	"Enste"
+	"Helff"
+	"Kempf"
+	"Krefting"
+	"Köhne"
+	"Meyer"
+	"Wachsmuth"
+	"de Dornach"
+	"de Kircheim"
+	"de Turckheim"
+	"von Cossel"
+}
+ship_names = {
+	"Graf von Hoya"
+	"Greven"
+	"Hiltrup"
+	"Liebfrauenkirche"
+	"Liudger"
+	"Mauritz"
+	"Roxel"
+	"Senden"
+	"St. Lamberti"
+	"Wolbeck"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

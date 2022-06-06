@@ -1,0 +1,14 @@
+owner = KRC
+controller = KRC
+capital = "Chengde"
+is_city = yes
+culture = chahar
+religion = vajrayana
+trade_goods = livestock
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = CHH
+add_core = KRC
+discovered_by = chinese
+discovered_by = nomad_group

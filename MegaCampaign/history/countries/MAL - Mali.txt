@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 3
+technology_group = sub_saharan
+religion = sunni
+primary_culture = dynamic-mali-culture-num1
+capital = 1124
+religious_school = hanbali_school
+1444.11.11= {
+	monarch = {
+		name = "Bonga"
+		dynasty = "Tarawaile"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1417.3.25
+		religion = sunni
+		culture = dynamic-mali-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Mariam"
+		dynasty = "Jabbarid"
+		adm = 2
+		dip = 4
+		mil = 4
+		country_of_origin = MAL
+		birth_date = 1419.6.1
+		death_date = 1479.6.1
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-berber-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Ina"
+		monarch_name = "Ina"
+		dynasty = "Tarawaile"
+		adm = 2
+		dip = 1
+		mil = 3
+		birth_date = 1438.10.11
+		death_date = 1503.10.11
+		female = yes
+		claim = 89
+		religion = sunni
+		culture = dynamic-mali-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 87
+	add_treasury = 76
+}

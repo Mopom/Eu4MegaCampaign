@@ -1,0 +1,168 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 235 255 220 }
+revolutionary_colors = { 6 0 10 }
+historical_idea_groups = {
+	humanist_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Azim-ash Sha'n #0" = 10
+	"A'zam Sh0h #0" = 10
+	"Abd Allah #0" = 0
+	"Abdul #0" = 0
+	"Ahmad #0" = 20
+	"Akbar #0" = 20
+	"Ala ud-Din Ahmad #0" = 20
+	"Ala-ud-din #0" = 0
+	"Ali #0" = 30
+	"Amir #0" = 30
+	"Bah0dur Sh0h #0" = 20
+	"Daud Khan #0" = 0
+	"Dilawar Khan #0" = 0
+	"D0r0 Shik0h #0" = 10
+	"D0war Bakhsh #0" = 20
+	"Farrukh-siyar #0" = 20
+	"Fulad Khan #0" = 0
+	"Ghiyas-ud-din #0" = 10
+	"Hakim #0" = 0
+	"Hum0y0n #0" = 20
+	"Ibr0him #2" = 10
+	"Iftikhar al-Mulk #0" = 0
+	"Imad al-Mulk #0" = 0
+	"Isl0m Sh0h #0" = 20
+	"Jah0nd0r Sh0h #0" = 20
+	"Jah0ng0r #0" = 20
+	"Jalal Khan #0" = 0
+	"Jamal-ud-din #0" = 0
+	"Khalaf Hasan #0" = 0
+	"Khusrau #0" = 0
+	"Khwaja -i Jahan #0" = 0
+	"Khwaja Hasan #0" = 0
+	"Khwaja Imad al-Din #0" = 0
+	"Mahmud #0" = 20
+	"Mahmud Gawan #0" = 0
+	"Majnun Sultan #0" = 0
+	"Makhdumah Jahan #0" = -1
+	"Malik #0" = 0
+	"Malik-ut-Tujjar #0" = 0
+	"Mir Abu'l-Qasim #0" = 0
+	"Mir Ali #0" = 0
+	"Mir Farrukh #0" = 0
+	"Mir Shams al-Din #0" = 0
+	"Muhammad #0" = 10
+	"Muhammad Sh0h #0" = 20
+	"Mujahid #0" = 1
+	"Mullah Qutb al-Din #0" = 0
+	"Nasiha #0" = -1
+	"N0k0-siyar #0" = 20
+	"Qasim #0" = 30
+	"Qasim Beg #0" = 0
+	"Quazi Siraj-ud-din #0" = 0
+	"Quli Sultan #0" = 0
+	"Rustam Khan #0" = 0
+	"R0fi' #0" = 20
+	"Saif Allah #0" = 0
+	"Samiya #0" = -1
+	"Sayid Hanif #0" = 0
+	"Sayid Husain #0" = 0
+	"Sayid Nasir al-Din #0" = 0
+	"Shah Khalil Allah #0" = 0
+	"Shams-ud-din #0" = 10
+	"Sh0r Sh0h #0" = 20
+	"Sikandar #0" = 0
+	"Taj ud-Din Firuz #0" = 20
+	"Ubbaid Allah #0" = 0
+}
+leader_names = {
+	"Afghani"
+	"Ambar"
+	"Ameerun"
+	"Ardastani"
+	"Astarabadi"
+	"Badakhshi"
+	"Beg"
+	"Bhutto"
+	"Bukhari"
+	"Changezi"
+	"Chughtai"
+	"Ghuri"
+	"Gilani"
+	"Hamadani"
+	"Hasanabadi"
+	"Hussaini"
+	"Jahan"
+	"Jurjani"
+	"Kabuli"
+	"Kamaluddin"
+	"Karbali"
+	"Khan"
+	"Kirmani"
+	"Kurd"
+	"Latif"
+	"Mazandarani"
+	"Mirza"
+	"Musharif"
+	"Nagar"
+	"Nasseruddin"
+	"Nazirun"
+	"Qadir"
+	"Qummi"
+	"Ra'ana"
+	"Radhidun"
+	"Rumi"
+	"Safsikhan"
+	"Shahabuddin"
+	"Sharif"
+	"Simnani"
+	"Sinan"
+	"Singh"
+	"Sistani"
+	"Uzbek"
+	"Wazirun"
+	"Zahiruddin"
+}
+ship_names = {
+	"Alia"
+	"Aurangabad"
+	"Devki"
+	"Fatimah"
+	"Godvari"
+	"Gulbargah"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Noor"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Spiti"
+	"Suhalia"
+	"Yamuna"
+	"Yasmine"
+}

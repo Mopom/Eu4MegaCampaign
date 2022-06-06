@@ -1,0 +1,7 @@
+discovered_by = ANU
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = NHX
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

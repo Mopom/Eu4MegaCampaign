@@ -1,0 +1,120 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 139 131 22 }
+revolutionary_colors = { 2 8 2 }
+historical_idea_groups = {
+	aristocracy_ideas
+	offensive_ideas
+	defensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ajab #0" = -1
+	"Amar Singh #0" = 20
+	"Ari Singh #1" = 10
+	"Baiji Lal #0" = 0
+	"Ballu #0" = 0
+	"Baz #0" = 0
+	"Bhawani #0" = 0
+	"Bhim Singh #1" = 10
+	"Dev #0" = -1
+	"Dilip #0" = 0
+	"Hakim #0" = 0
+	"Hammir #1" = 10
+	"Jagat Singh #0" = 10
+	"Jai #0" = 0
+	"Jawan #0" = 0
+	"Jay Singh #0" = 10
+	"Jhala #0" = 0
+	"Kamala #0" = -1
+	"Karan #0" = 10
+	"Krishna #0" = 0
+	"Kshetra #0" = 0
+	"Kumbha #0" = 10
+	"Kumbhakarna #0" = 0
+	"Kunwar #0" = 0
+	"Lakha #1" = 10
+	"Mokal #1" = 10
+	"Naryan #0" = 0
+	"Nath #0" = 0
+	"Natwar #0" = 0
+	"Pratap Singh #0" = 10
+	"Raimal #0" = 10
+	"Raj #0" = 0
+	"Raj Singh #0" = 10
+	"Ratan #0" = 0
+	"Ratan Singh #0" = 10
+	"Sangha #0" = 10
+	"Sangram #0" = 0
+	"Sangrama Singh #1" = 10
+	"Sejakji #0" = 0
+	"Sidhraj #0" = 0
+	"Songari #0" = -1
+	"Udai Singh #0" = 30
+	"Vikramaditya Mahthan #0" = 10
+	"Viram #0" = 0
+}
+leader_names = {
+	"Bargujar"
+	"Bhaal"
+	"Bhati"
+	"Chandela"
+	"Chauhan"
+	"Chudasama"
+	"Chundawa"
+	"Das"
+	"Gohil"
+	"Jadeja"
+	"Jadon"
+	"Khumba"
+	"Mori"
+	"Pratap"
+	"Sahu"
+	"Saran"
+	"Singh"
+	"Sisodiya"
+	"Tomara"
+	"Vaghela"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Merwar ka Nav"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Padmini"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

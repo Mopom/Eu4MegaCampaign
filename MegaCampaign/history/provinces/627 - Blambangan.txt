@@ -1,0 +1,15 @@
+owner = BLM
+controller = BLM
+capital = "Blambangan"
+is_city = yes
+culture = javanese
+religion = hinduism
+trade_goods = cotton
+base_tax = 4
+base_production = 4
+base_manpower = 3
+add_core = BLM
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

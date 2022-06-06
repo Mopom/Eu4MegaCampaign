@@ -1,0 +1,12 @@
+owner = TEA
+controller = TEA
+capital = "Tauranga"
+is_city = yes
+culture = maori
+religion = animism
+trade_goods = fish
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = TEA
+discovered_by = polynesian_tech

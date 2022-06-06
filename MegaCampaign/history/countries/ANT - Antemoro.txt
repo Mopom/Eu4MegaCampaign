@@ -1,0 +1,30 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = east_african
+religion = sunni
+primary_culture = madagasque
+capital = 4026
+unit_type = sub_saharan
+religious_school = shafii_school
+unlock_cult = enkai_cult
+unlock_cult = waaq_cult
+unlock_cult = zanahary_cult
+1444.1.1= {
+	monarch = {
+		name = "Andriapanolaha"
+		dynasty = "Anteoni"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1488.1.1= {
+	monarch = {
+		name = "Council of Chiefs"
+		regent = yes
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = mesoamerican
+religion = mesoamerican_religion
+primary_culture = putun
+capital = 842
+1440.1.1= {
+	monarch = {
+		name = "Ahkinxok Muluchtzekel" #Fictional
+		dynasty = "Itza"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

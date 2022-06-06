@@ -1,0 +1,120 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 144 60 75 }
+revolutionary_colors = { 1 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	economic_ideas
+	plutocracy_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Ambrose #0" = 0
+	"Ambrosia #0" = -1
+	"Arthur #0" = 10
+	"Benjamin #0" = 0
+	"Brian #0" = 0
+	"Charlotte #0" = -1
+	"Christopher #0" = 0
+	"Conrad #0" = 0
+	"Denis #0" = 0
+	"Duncan #0" = 0
+	"Eustace #0" = 0
+	"Frederick #0" = 0
+	"George #0" = 0
+	"Gerard #0" = 0
+	"Gregory #0" = 0
+	"Homer #0" = 0
+	"John #0" = 15
+	"Joseph #0" = 0
+	"Julius #0" = 0
+	"Kevin #0" = 0
+	"Lachlan #0" = 20
+	"Laurence #0" = 0
+	"Leroy #0" = 0
+	"Lewis #0" = 0
+	"Matthew #0" = 0
+	"Michael #0" = 0
+	"Montgomery #0" = 0
+	"Nicholas #0" = 0
+	"Peter #0" = 0
+	"Phillip #0" = 20
+	"Ralph #0" = 0
+	"Richard #0" = 0
+	"Rowan #0" = 0
+	"Scott #0" = 0
+	"Silvester #0" = 0
+	"Spencer #0" = 0
+	"Thomas #0" = 10
+	"Ulysses #0" = 0
+	"Victor #0" = 0
+	"Victoria #0" = -1
+	"William #0" = 15
+}
+leader_names = {
+	"Bass"
+	"Beauchamp"
+	"Belmore"
+	"Bligh"
+	"Bourke"
+	"Brisbane"
+	"Butler"
+	"Carrington"
+	"Chelmsford"
+	"Curtin"
+	"Darling"
+	"Davidson"
+	"Denison"
+	"Duff"
+	"Fitzroy"
+	"Flinders"
+	"Grey"
+	"Hampden"
+	"Hunter"
+	"King"
+	"Loftus"
+	"Macquarie"
+	"Phillip"
+	"Rawson"
+	"Robinson"
+	"Strickland"
+	"Yagan"
+}
+ship_names = {
+	"Coromandel"
+	"Dumbarton"
+	"Gascoyne"
+	"Hawkesbury"
+	"Huon"
+	"Maryborough"
+	"Norman"
+	"Parramatta"
+	"Perth"
+	"Sidney"
+	"Stuart"
+	"Toowoomba"
+	"Warramunga"
+	"Yarra"
+}
+colonial_parent = GBR

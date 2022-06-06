@@ -1,0 +1,17 @@
+owner = CEB
+controller = CEB
+capital = "Cebu"
+is_city = yes
+culture = filipino
+religion = hinduism
+trade_goods = gems
+base_tax = 2
+base_production = 2
+base_manpower = 2
+extra_cost = 16
+center_of_trade = 2
+add_core = CEB
+discovered_by = chinese
+latent_trade_goods = {
+	coal
+}

@@ -1,0 +1,134 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 204 186 201 }
+revolutionary_colors = { 14 1 14 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adora #0" = -1
+	"Agust0n #0" = 0
+	"Alberto #0" = 0
+	"Antonio #0" = 0
+	"Bartolom0 #0" = 0
+	"Carlos #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Diego #0" = 15
+	"Domingo #0" = 0
+	"Emiliano #0" = 0
+	"Enrique #0" = 0
+	"Evaristo #0" = 0
+	"Fernando #0" = 0
+	"Francisco #0" = 20
+	"Fulgencio #0" = 0
+	"Gabino #0" = 10
+	"Gabriel #0" = 0
+	"Gregorio #0" = 10
+	"Jos0 #0" = 20
+	"Juan #0" = 15
+	"Leonardo #0" = 0
+	"Manuel #0" = 10
+	"Marcos #0" = 0
+	"Miguel #0" = 0
+	"Narciso #0" = 0
+	"Octavio #0" = 0
+	"Patricio #0" = 0
+	"Pedro #0" = 10
+	"Roberto #0" = 0
+	"Santiago #0" = 0
+	"Tadeo #0" = 0
+	"Tom0s #0" = 10
+	"Ul0ses #0" = 0
+	"Vicente #0" = 15
+	"Violeta #0" = -1
+	"Yessica #0" = -1
+	"0lvaro #0" = 0
+}
+leader_names = {
+	"Alcantuz"
+	"Alfaro"
+	"Anzoátegui"
+	"Bello"
+	"Beltrán"
+	"Berbeo"
+	"Betancur"
+	"Bolívar"
+	"Cabezas"
+	"Díaz"
+	"Flores"
+	"Gaitán"
+	"Galán"
+	"García de Toledo"
+	"Gutiérrez de Piñeres"
+	"Gómez"
+	"Marño"
+	"Mazariegos"
+	"Michelena"
+	"Mier"
+	"Molina"
+	"Monagas"
+	"Monsalve"
+	"Montúfar"
+	"Márquez"
+	"Méndez"
+	"Nariño"
+	"Narvarte"
+	"O'Baal"
+	"O'Leary"
+	"Ortíz"
+	"Paredo"
+	"Pastrana"
+	"Pinilla"
+	"Pizarro"
+	"Plata"
+	"Plaza"
+	"Páez"
+	"Roa"
+	"Rodríguez"
+	"Rojas"
+	"Rondón"
+	"Rosillo"
+	"Santander"
+	"Soublette"
+	"Torres"
+	"Urbaneja"
+	"Uribe"
+	"Vargas"
+	"Viscardo"
+	"de Miranda"
+}
+ship_names = {
+	"Belize"
+	"Boaco"
+	"Bonanza"
+	"Cama"
+	"Flores"
+	"La Ceiba"
+	"Quesada"
+	"Siuna"
+	"Somoto"
+	"Sonsonate"
+}

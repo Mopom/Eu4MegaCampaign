@@ -1,0 +1,130 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 135 104 85 }
+revolutionary_colors = { 9 0 9 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	religious_ideas
+	economic_ideas
+	offensive_ideas
+	defensive_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abd Allah Khan Talpur #0" = 20
+	"'Abd an-Nabi Khan #0" = 20
+	"Abdullah #0" = 0
+	"Ali #0" = 0
+	"Ali Sher #0" = 20
+	"Bhav #0" = 0
+	"Bhenji #0" = 0
+	"Chaguli #0" = -1
+	"Fath Khan #0" = 20
+	"Furuz Salah ad-Din #0" = 20
+	"Ghulam #0" = 0
+	"Gulam Nabi Khan #0" = 20
+	"Gulam Shah #0" = 20
+	"Hamirji #0" = 0
+	"Hussain #0" = 0
+	"Khair #0" = -1
+	"Khalil #0" = 0
+	"Mir Fath Ali #0" = 20
+	"Mirza Jani Beg #0" = 20
+	"Mirza Muhammad 'Isa #0" = 20
+	"Mirza Muhammad Baqi #0" = 20
+	"Mohammad #0" = 0
+	"Mohammed 'Isa #0" = 20
+	"Mohammed Baqi #0" = 20
+	"Muhammad Murad #0" = 20
+	"Muzzafar #0" = 0
+	"Nanda #0" = 20
+	"Natwar #0" = 0
+	"Nizam ad-Din #1" = 20
+	"Noor #0" = -1
+	"Nur Mahammad #0" = 20
+	"Sanjar #0" = 20
+	"Sarfaraz Khan #0" = 20
+	"Shah Husayn #0" = 20
+	"Shah Shuja' Beg #0" = 20
+	"Sidhraj #0" = 0
+	"Sikandar #0" = 20
+	"Thara #0" = 20
+	"Tughluq #0" = 20
+	"Yar Muhammad Khan #0" = 20
+}
+leader_names = {
+	"Arghun"
+	"Bahadur"
+	"Begada"
+	"Bhatia"
+	"Bhil"
+	"Bhutto"
+	"Changezi"
+	"Chudasama"
+	"Desai"
+	"Farooqi"
+	"Ghazi"
+	"Golani"
+	"Jinnah"
+	"Kalhora"
+	"Khokhar"
+	"Khorasani"
+	"Malik"
+	"Mirza"
+	"Munshi"
+	"Naru"
+	"Pahore"
+	"Parikh"
+	"Patel"
+	"Patidar"
+	"Rushi"
+	"Samma"
+	"Shah"
+	"Sindhi"
+	"Singh"
+	"Solanki"
+	"Soomrah"
+	"Sultan"
+	"Tarkhan"
+	"Tomara"
+	"Zamindar"
+}
+ship_names = {
+	"Alia"
+	"Arusa"
+	"Baran"
+	"Fatimah"
+	"Haleji"
+	"Indus"
+	"Kalri"
+	"Khan"
+	"Malir"
+	"Manchhar"
+	"Mol"
+	"Niknaz"
+	"Niloufa"
+	"Noor"
+	"Salima"
+	"Sari"
+	"Shameena"
+	"Suhalia"
+	"Suk"
+	"Yasmine"
+	"Zahira"
+}

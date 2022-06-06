@@ -1,0 +1,15 @@
+owner = HST
+controller = HST
+capital = "Tziccoac"
+is_city = yes
+culture = wastek
+religion = mesoamerican_religion
+trade_goods = sugar
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = HST
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

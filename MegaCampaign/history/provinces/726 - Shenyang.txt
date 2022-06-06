@@ -1,0 +1,14 @@
+owner = MNG
+controller = MNG
+capital = "Shenyang"
+is_city = yes
+culture = manchu
+religion = confucianism
+trade_goods = gems
+fort_15th = yes
+base_tax = 5
+base_production = 5
+base_manpower = 2
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

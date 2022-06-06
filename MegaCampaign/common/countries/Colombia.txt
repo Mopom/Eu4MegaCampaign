@@ -1,0 +1,135 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 89 140 176 }
+revolutionary_colors = { 5 15 8 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	maritime_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelita #0" = -1
+	"Alfredo #0" = 0
+	"Antonio #0" = 10
+	"Arturo #0" = 0
+	"Blas #0" = 0
+	"Calixto #0" = 0
+	"Camilo #0" = 20
+	"Carlos #0" = 0
+	"Carmela #0" = -1
+	"Custodio #0" = 20
+	"Daniel #0" = 0
+	"Delia #0" = -1
+	"El0as #0" = 0
+	"Enrique #0" = 0
+	"Fernando #0" = 15
+	"Francisco #0" = 15
+	"F0lix #0" = 0
+	"Gerardo #0" = 0
+	"Horacio #0" = 0
+	"Ignacio #0" = 0
+	"Jaime #0" = 0
+	"Jorge Tadeo #0" = 10
+	"Jos0 #0" = 20
+	"Liborio #0" = 10
+	"Lucio #0" = 0
+	"MONARCH_NAME_RAMON #0" = 0
+	"MONARCH_NAME_SIMON #0" = 20
+	"Manuel #0" = 15
+	"Marcos #0" = 0
+	"Natalio #0" = 0
+	"Osvaldo #0" = 0
+	"Porfirio #0" = 0
+	"Sandalio #0" = 0
+	"Toribio #0" = 0
+	"Vicente #0" = 0
+	"Zacar0as #0" = 0
+	"0lvaro #0" = 0
+}
+leader_names = {
+	"Alcantuz"
+	"Alfaro"
+	"Anzoátegui"
+	"Bello"
+	"Beltrán"
+	"Berbeo"
+	"Betancur"
+	"Bolívar"
+	"Carreño"
+	"Díaz"
+	"Flores"
+	"Gaitán"
+	"Galán"
+	"García de Toledo"
+	"Gutiérrez de Piñeres"
+	"Gómez"
+	"Marño"
+	"Michelena"
+	"Mier"
+	"Molina"
+	"Monagas"
+	"Monsalve"
+	"Montúfar"
+	"Márquez"
+	"Méndez"
+	"Nariño"
+	"Narvarte"
+	"O'Baal"
+	"O'Leary"
+	"Ortíz"
+	"Paredo"
+	"Pastrana"
+	"Pinilla"
+	"Pizarro"
+	"Plata"
+	"Plaza"
+	"Páez"
+	"Roa"
+	"Rodríguez"
+	"Rojas"
+	"Rondón"
+	"Rosillo"
+	"Santander"
+	"Soublette"
+	"Torres"
+	"Urbaneja"
+	"Uribe"
+	"Vargas"
+	"Viscardo"
+	"de Miranda"
+}
+ship_names = {
+	"Antioquia"
+	"Barranquilla"
+	"Caldas"
+	"Cartegena de Indias"
+	"Independiente"
+	"Indomable"
+	"Intrepido"
+	"Pedro Gonzalez"
+	"Pijao"
+	"Rio Hacha"
+	"Tayrona"
+}
+colonial_parent = SPA

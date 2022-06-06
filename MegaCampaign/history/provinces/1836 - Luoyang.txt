@@ -1,0 +1,18 @@
+owner = MNG
+controller = MNG
+capital = "Luoyang"
+is_city = yes
+culture = zhongyuan
+religion = confucianism
+trade_goods = chinaware
+base_tax = 5
+base_production = 5
+base_manpower = 3
+add_core = LNG
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group
+latent_trade_goods = {
+	coal
+}
+add_province_triggered_modifier = mahayana_louyang

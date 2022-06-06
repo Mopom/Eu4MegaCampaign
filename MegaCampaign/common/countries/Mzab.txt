@@ -1,0 +1,94 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 185 172 208 }
+revolutionary_colors = { 6 9 6 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	administrative_ideas
+	offensive_ideas
+	quality_ideas
+	quantity_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abd al-Aziz #0" = 10
+	"Abdallah #0" = 0
+	"Abdesslam #0" = 0
+	"Abu Zakariya #0" = 10
+	"Ahmed #0" = 0
+	"Aisha #0" = -1
+	"Azis #0" = 0
+	"Bahayou #0" = 10
+	"Bakir #0" = 30
+	"Boumezrag #0" = 0
+	"Dahman #0" = 20
+	"Da0a #0" = -1
+	"Hassan #0" = 20
+	"Mohammed #0" = 0
+	"Mohand #0" = 0
+	"Muhammed #0" = 10
+	"Werdja #0" = -1
+	"Yahya #0" = 10
+	"Zahir #0" = 0
+}
+leader_names = {
+	"Atfayyish"
+	"Beni Isguen"
+	"Beni Mthar"
+	"Lemliki"
+	"Mzabi"
+	"Tabghurin"
+	"al-Afdali"
+	"al-Malshuti"
+	"al-Mus'abi"
+	"bin Yakhlaf"
+}
+ship_names = {
+	"Akhir"
+	"Awwal"
+	"Ba'ith"
+	"Barr"
+	"Batin"
+	"Beni Isguen"
+	"Beriane"
+	"Bou Noura"
+	"El-Ateuf"
+	"Ghardaia"
+	"Hamid"
+	"Haqq"
+	"Hayy"
+	"Majid"
+	"Matin"
+	"Melika"
+	"Mu'akhkhir"
+	"Mu'id"
+	"Mubdi"
+	"Muhsi"
+	"Muhyi"
+	"Mumit"
+	"Muqaddim"
+	"Muqtadir"
+	"Muta'al"
+	"Qadir"
+	"Qawiyy"
+	"Qayyum"
+	"Samad"
+	"Shahid"
+	"Wahid"
+	"Wajed"
+	"Wakil"
+	"Wali"
+	"Waliyy"
+	"Zahir"
+}

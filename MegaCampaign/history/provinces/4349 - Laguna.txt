@@ -1,0 +1,12 @@
+owner = TDO
+controller = TDO
+capital = "Laguna"
+is_city = yes
+culture = filipino
+religion = animism
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = TDO
+discovered_by = chinese

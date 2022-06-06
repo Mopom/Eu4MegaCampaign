@@ -1,0 +1,80 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 58 65 73 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"As Saray #0" = 10
+	"Ayuka #0" = 10
+	"Dashi #0" = 10
+	"Dodbi #0" = 10
+	"Donduk #0" = 10
+	"Donduk Dashi #0" = 10
+	"Donduk Ombo #0" = 10
+	"Hoelun #0" = -1
+	"Kho Orluk #0" = 10
+	"Ombo #0" = 10
+	"Puntsug #0" = 10
+	"Shukhur #0" = 10
+	"Shukhur Daichin #0" = 10
+	"Sorghaghtani #0" = -1
+	"Tam0l0n #0" = -1
+	"Tseren #0" = 10
+	"Tseren Donduk #0" = 10
+	"Ubashi #0" = 10
+}
+leader_names = {
+	"Batmunkh"
+	"Bira"
+	"Choros"
+	"Davaa"
+	"Dorbed"
+	"Ganbold"
+	"Gonbat"
+	"Hattori"
+	"Jasray"
+	"Khoid"
+	"Ochirbal"
+	"Olzvoi"
+	"Saihan"
+	"Torghud"
+	"Torghut"
+}
+ship_names = {
+	"Altan Khan"
+	"Amdo"
+	"Bargut"
+	"Buzav"
+	"Dorbot"
+	"Dzungar"
+	"Dörvn Öörd"
+	"Güshi"
+	"Kerait"
+	"Khoshot"
+	"Khoshut"
+	"Naiman"
+	"Olo"
+	"Olöts"
+	"Torgut"
+}

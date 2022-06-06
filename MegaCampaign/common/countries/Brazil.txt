@@ -1,0 +1,246 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 129 177 125 }
+revolutionary_colors = { 10 8 13 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	maritime_ideas
+	spy_ideas
+	quality_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ab0lio #0" = 0
+	"Afonso #0" = 20
+	"Artur #0" = 0
+	"Augusto #0" = 0
+	"Aur0lio #0" = 0
+	"Bento #0" = 0
+	"Carlos #0" = 0
+	"Deodoro #0" = 0
+	"Emilio #0" = 0
+	"Ernesto #0" = 0
+	"Fernando #0" = 0
+	"Floriano #0" = 0
+	"Francisco #0" = 0
+	"Francisco Jos0 #0" = 0
+	"Gaspar #0" = 0
+	"Hermes #0" = 0
+	"Herm0nio #0" = 0
+	"In0cio #0" = 0
+	"Isabel #0" = -15
+	"Isa0as #0" = 0
+	"Joaquim #0" = 0
+	"Jos0 #0" = 0
+	"Jo0o #0" = 15
+	"Jo0o Baptista #0" = 0
+	"Lu0s #0" = 0
+	"MONARCH_NAME_ANTONIO #0" = 0
+	"Manuel #0" = 0
+	"Maria #0" = -10
+	"Miguel #0" = 10
+	"M0rcio #0" = 0
+	"Nereu #0" = 0
+	"Nilo #0" = 0
+	"Paschoal #0" = 0
+	"Paulino #0" = 0
+	"Pedro #0" = 20
+	"Prudente #0" = 0
+	"Rodrigo #0" = 0
+	"Silvia #0" = -1
+	"Venceslau #0" = 0
+	"Zeferino #0" = 0
+}
+leader_names = {
+	"Almeida"
+	"Ayres Gomes"
+	"Barbosa"
+	"Bocaiúva"
+	"Borges do Canto"
+	"Coelho"
+	"Coutinho"
+	"Freire de Andrade"
+	"Furtado"
+	"Gato"
+	"Gonzaga"
+	"Leite"
+	"Lopes"
+	"Machado"
+	"Maciel"
+	"Maria"
+	"Medeiros"
+	"Melo"
+	"Nascimento"
+	"Negreiros"
+	"Nunes Viana"
+	"Peixoto"
+	"Pereira"
+	"Pinheiro"
+	"Raposo"
+	"Rodrigues"
+	"Rolim"
+	"Santos Pedroso"
+	"Silvestre"
+	"Tavares"
+	"Torres"
+	"Veiga"
+	"Vieira"
+	"Xavier"
+	"da Costa"
+	"da Silva"
+	"de Amorim"
+	"de Anchieta"
+	"de Assis"
+	"de Azevedo"
+	"de Camargo"
+	"de Deus"
+	"de Melo"
+	"de Mendonça"
+	"de Sá"
+	"dos Reis"
+	"dos Santos"
+	"Álvares"
+}
+ship_names = {
+	"Anunciada"
+	"Boa Viagem"
+	"Bom Jesus"
+	"Bom Jesus da Vidigueira"
+	"Bom Jesus de Marzagão"
+	"Bom Jesus do Carmo"
+	"Bretão"
+	"Bérrio"
+	"Cambaia"
+	"Chagas"
+	"Correio d'Ásia"
+	"El-Rei"
+	"Enxobregas"
+	"Espírito Santo"
+	"Estrela"
+	"Flor do Mar"
+	"Garça"
+	"Imaculada Conceição"
+	"Jóia"
+	"Monte Carvalho"
+	"N. Sra do Paraíso"
+	"N. Sra. d'Ajuda Lusitana"
+	"N. Sra. da Aparecida"
+	"N. Sra. da Atalaia"
+	"N. Sra. da Batalha"
+	"N. Sra. da Boa Hora"
+	"N. Sra. da Boa Memória"
+	"N. Sra. da Boa Viagem"
+	"N. Sra. da Candalaria"
+	"N. Sra. da Caridade"
+	"N. Sra. da Consolação"
+	"N. Sra. da Esperança"
+	"N. Sra. da Glória"
+	"N. Sra. da Graça"
+	"N. Sra. da Guia"
+	"N. Sra. da Luz"
+	"N. Sra. da Nazaré"
+	"N. Sra. da Oliveira"
+	"N. Sra. da Palma"
+	"N. Sra. da Penha de França"
+	"N. Sra. da Quietação"
+	"N. Sra. da Salvação"
+	"N. Sra. da Saúde"
+	"N. Sra. da Visitação"
+	"N. Sra. da Vitória"
+	"N. Sra. das Ondas"
+	"N. Sra. das Portas do Céu"
+	"N. Sra. das Relíquias"
+	"N. Sra. de Belém"
+	"N. Sra. de Guadalupe"
+	"N. Sra. do Castelo"
+	"N. Sra. do Livramento"
+	"N. Sra. do Loreto"
+	"N. Sra. do Pilar"
+	"N. Sra. do Rosário"
+	"N. Sra. dos Prazeres"
+	"N. Sra. dos Ramos"
+	"N.Sra. da Conceição"
+	"Nazaré"
+	"Nossa Senhora"
+	"Princesa do Céu"
+	"Raínha"
+	"Reis Magos"
+	"S. António de Lisboa"
+	"S. Catarina de Ribamar"
+	"S. Francisco Xavier"
+	"S. Francisco de Assis"
+	"S. José"
+	"S. João Baptista"
+	"S. João Evangelista"
+	"S. Maria de Sabóia"
+	"S. Pedro da Ribeira"
+	"S. Pedro de Rates"
+	"S. Salvador do Mundo"
+	"S. Teresa de Jesus"
+	"S. Tomé da Cantuária"
+	"Sacramento"
+	"Santa Ana"
+	"Santa Catarina"
+	"Santa Cruz"
+	"Santa Fé"
+	"Santa Helena"
+	"Santa Joana"
+	"Santa Madre de Deus"
+	"Santiago Maior"
+	"Santo Alberto"
+	"Santo António"
+	"Santo Espírito"
+	"Santo Inácio"
+	"Santo Milagre"
+	"Santíssima Trindade"
+	"Santíssimo Sacramento"
+	"São Bartolomeu"
+	"São Bento"
+	"São Bernardo"
+	"São Carlos"
+	"São Cristovão"
+	"São Domingos"
+	"São Filipe"
+	"São Francisco"
+	"São Francisco de Borja"
+	"São Gabriel"
+	"São Gonçalo"
+	"São Jorge"
+	"São João"
+	"São João de Deus"
+	"São Julião"
+	"São Lourenço"
+	"São Lucas"
+	"São Luís"
+	"São Mateus"
+	"São Paulo"
+	"São Pedro"
+	"São Rafael"
+	"São Roque"
+	"São Salvador"
+	"São Tomé"
+	"São Valentim"
+	"Taforeia"
+	"Trindade"
+	"Visitação"
+}
+colonial_parent = POR

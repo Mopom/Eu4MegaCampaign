@@ -1,0 +1,200 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 127 170 146 }
+revolutionary_colors = { 15 5 0 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alphonse #3" = 20
+	"Andiru #0" = 0
+	"Antoine #0" = 0
+	"Bernard #2" = 10
+	"Bertrand #1" = 15
+	"Borel #0" = 0
+	"Charles #0" = 0
+	"Claude #0" = 0
+	"Danis #0" = 0
+	"Emmanuel #0" = 0
+	"Eug0ne #0" = 0
+	"Evrard #0" = 0
+	"Foilan #0" = 0
+	"Fran0ois #0" = 0
+	"Fr0d0ric #0" = 0
+	"Gilles #0" = 0
+	"Godefroi #0" = 0
+	"Guillaume #4" = 15
+	"Guiraud #0" = 0
+	"Henri #0" = 0
+	"Huc #0" = 0
+	"Ignace #0" = 0
+	"Jacques #0" = 0
+	"Jeanne #0" = -15
+	"Jules #0" = 0
+	"Louis #0" = 0
+	"L0opold #0" = 0
+	"Mamert #0" = 0
+	"Marie #0" = -1
+	"Maurice #0" = 0
+	"Odo #1" = 10
+	"Olivier #0" = 0
+	"Patrici #0" = 0
+	"Philippa #0" = -1
+	"Pons #2" = 10
+	"Raymond #7" = 80
+	"Richartz #0" = 0
+	"Roger #0" = 0
+	"Sauson #0" = 0
+	"Simon #1" = 20
+	"Valeray #0" = 0
+	"Xavier #0" = 0
+}
+leader_names = {
+	"Assézat"
+	"Delguy"
+	"Delpuech"
+	"Fabre"
+	"Faure"
+	"Imbert"
+	"Malvin de Montazet"
+	"Martin de Viviès"
+	"Noguès"
+	"Pandaries"
+	"Perès"
+	"Pons"
+	"Sabatier"
+	"Teyssier"
+	"d'Arnal"
+	"d'Espagne"
+	"d'Estadens"
+	"d'Estissac"
+	"d'Ouvrier"
+	"de Bacalan"
+	"de Barbasan"
+	"de Bernuy"
+	"de Bezons"
+	"de Boulbène"
+	"de Casteras"
+	"de Caussade"
+	"de Corneillan"
+	"de Galard"
+	"de Goth"
+	"de Grossoles"
+	"de La Broue de Gandelon"
+	"de Lacaze"
+	"de Ladevèze"
+	"de Loupiac"
+	"de Madaillan"
+	"de Nogaret"
+	"de Nogarède"
+	"de Pelamourgues"
+	"de Perricard"
+	"de Pradines"
+	"de Puechgarric"
+	"de Rabastens"
+	"de Roux d'Alzonne"
+	"de Saint Félix"
+	"de Tholozany"
+	"de Toulouse-Foissac"
+	"de Toulouse-Lautrec"
+	"de Villemur"
+	"de Xaintrailles"
+	"de l'Isle-Jourdain"
+}
+ship_names = {
+	"l'Aucamville"
+	"l'Auzeville-Tolosane"
+	"l'Union"
+	"l'Île-du-Ramier"
+	"la Patte-d'Oie"
+	"la Vieille-Toulouse"
+	"le Balma"
+	"le Beauzelle"
+	"le Blagnac"
+	"le Busca"
+	"le Capitole"
+	"le Castanet-Tolosan"
+	"le Colomiers"
+	"le Cugneaux"
+	"le Demoiselles"
+	"le Grand-Rond"
+	"le La Cépière"
+	"le La Pasquière"
+	"le Labruc"
+	"le Labège"
+	"le Laran"
+	"le Lardenne"
+	"le Launaguet"
+	"le Marquisat"
+	"le Minimes"
+	"le Mirail"
+	"le Montaudran"
+	"le Montrabé"
+	"le Muret"
+	"le Paradous"
+	"le Pech David"
+	"le Pechbonnieu"
+	"le Pechbusque"
+	"le Pibrac"
+	"le Plaisance-du-Touch"
+	"le Portet-sur-Garonne"
+	"le Quint-Fonsegrives"
+	"le Ramonville-Saintt-Agne"
+	"le Rangueil"
+	"le Saint-Aubin"
+	"le Saint-Geniès-Bellevue"
+	"le Saint-Martin-du-Touch"
+	"le Saint-Orens"
+	"le Saint-Sernin"
+	"le Saint-Simon"
+	"le Salvetat-Saint-Gilles"
+	"le Soulé"
+	"le Stade-Toulousain"
+	"le Tournefeuille"
+	"le Villeneuve-Tolosane"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Bigorre"
+	"Armée de Comminges"
+	"Armée de Foix"
+	"Armée de Gascogne"
+	"Armée de Savès"
+	"Armée de l'Albigeois"
+	"Armée de la Montagne Noire"
+	"Armée des Capitouls"
+	"Armée des Corbières"
+	"Armée du Cabardès"
+	"Armée du Carcassès"
+	"Armée du Couserans"
+	"Armée du Lauragais"
+	"Armée du Minervois"
+	"Armée du Pays d'Aure"
+	"Armée du Pays de Sault"
+	"Armée du Quercob"
+	"Armée du Razès"
+}

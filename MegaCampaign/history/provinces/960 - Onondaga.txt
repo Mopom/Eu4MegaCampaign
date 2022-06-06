@@ -1,0 +1,15 @@
+owner = ONO
+controller = ONO
+capital = "Onondaga"
+is_city = yes
+culture = iroquois
+religion = totemism
+trade_goods = fur
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = ONO
+discovered_by = north_american
+native_size = 15
+native_ferocity = 7
+native_hostileness = 2

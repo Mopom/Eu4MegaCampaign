@@ -1,0 +1,13 @@
+owner = HSE
+controller = HSE
+capital = "Hsenwi"
+is_city = yes
+culture = shan
+religion = buddhism
+trade_goods = tropical_wood
+base_tax = 3
+base_production = 3
+base_manpower = 3
+add_core = HSE
+discovered_by = chinese
+discovered_by = indian

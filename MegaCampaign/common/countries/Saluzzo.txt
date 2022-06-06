@@ -1,0 +1,192 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 137 185 203 }
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_bluecoat
+	french_carabinier
+	french_caracolle
+	french_dragoon
+	french_impulse
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agostino #0" = 0
+	"Alberto #0" = 0
+	"Alessandro #0" = 0
+	"Amadea #0" = -1
+	"Amadeo #0" = 0
+	"Antonio #0" = 15
+	"Bartolomeo #0" = 0
+	"Beatrice #0" = -1
+	"Bernardo #0" = 0
+	"Carlo #0" = 0
+	"Carlo Giovanni #0" = 15
+	"Cesare #0" = 0
+	"Corrado #0" = 0
+	"Delfino #0" = 0
+	"Egidio #0" = 0
+	"Facino #0" = 0
+	"Facinotto #0" = 0
+	"Federico #2" = 30
+	"Francesco Ludovico #0" = 10
+	"Gabriele #0" = 0
+	"Giacomo #0" = 0
+	"Gian Gabriele #0" = 10
+	"Gian Ludovico #0" = 10
+	"Giovanna #0" = -1
+	"Giuseppe #0" = 0
+	"Goffredo #0" = 0
+	"Isabella #0" = -1
+	"Lorenzo #0" = 0
+	"Luca #0" = 0
+	"Ludovico #1" = 30
+	"Luigia #0" = -1
+	"Manfredo #5" = 20
+	"Margherita #0" = -1
+	"Michele #0" = 0
+	"Michele Antonio #0" = 10
+	"Niccol0 #0" = 0
+	"Paolo #0" = 0
+	"Pier Paolo #0" = 0
+	"Pietro #0" = 0
+	"Prospero #0" = 0
+	"Ricciarda #0" = -1
+	"Roberto #0" = 0
+	"Sebastiano #0" = 0
+	"Silvio #0" = 0
+	"Stefano #0" = 0
+	"Teresio #0" = 0
+	"Tommaso #3" = 30
+	"Ugo #0" = 0
+	"Valerano #0" = 0
+	"Vincenzo #0" = 0
+	"Vitaliano #0" = 0
+	"Vittorio #0" = 0
+	"Zaccaria #0" = 0
+}
+leader_names = {
+	"Aicardi"
+	"Ancina"
+	"Archinto"
+	"Ardy"
+	"Balbiano"
+	"Baleison"
+	"Bellino"
+	"Biandrata"
+	"Birago"
+	"Boverio"
+	"Buglione"
+	"Buttini"
+	"Canaveri"
+	"Cappa"
+	"Casalis"
+	"Cesano"
+	"Della Chiesa"
+	"Della Rovere"
+	"Fanfoni"
+	"Ferrero"
+	"Gandi"
+	"Gastaldi"
+	"Gauteri"
+	"Jugluns"
+	"Laurenti"
+	"Lepori"
+	"Lomellino"
+	"Lovera"
+	"Malacarne"
+	"Marchionni"
+	"Marenco"
+	"Masegno"
+	"Morozzo"
+	"Muletti"
+	"Pallavinco"
+	"Pascali"
+	"Peano"
+	"Pellico"
+	"Pichot"
+	"Piscina"
+	"Podestà"
+	"Porporato"
+	"Provana"
+	"Ricca"
+	"Rostagno"
+	"Tapparelli"
+	"Thevenardi"
+	"Tiberga"
+	"Tornabuoni"
+	"Viale"
+	"de Cars"
+	"de Porri"
+	"de Soglio"
+	"del Balzo"
+	"del Carretto"
+	"della Marmora"
+	"della Torre"
+}
+ship_names = {
+	"Adelaide di Susa"
+	"Aimone"
+	"Albane"
+	"Amedeo Coda"
+	"Annecy"
+	"Bauges"
+	"Bellevaux"
+	"Biancamano"
+	"Bonifacio"
+	"Casa di Savoia"
+	"Chablais"
+	"Chambéry"
+	"Contamine-sur-Arve"
+	"Dora Riparia"
+	"Edoardo"
+	"Entremont"
+	"Faucigny"
+	"Filippo"
+	"Fiume Po"
+	"Genevois"
+	"Giacomo"
+	"Hautecombe"
+	"Jaquerio"
+	"Lac du Bourget"
+	"Leysse"
+	"Maurienne"
+	"Oddone"
+	"Piemonte"
+	"Pietro I"
+	"Sacra Sindone"
+	"San Domenico"
+	"San Donato"
+	"San Paolo"
+	"San Salvario"
+	"Sangone"
+	"Santa Rita"
+	"Stura di Lanzo"
+	"Talloires"
+	"Tamié"
+	"Tarentaise"
+	"Tommaso"
+	"Torino"
+	"Umberto Sabaudia"
+	"Val d'Aosta"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

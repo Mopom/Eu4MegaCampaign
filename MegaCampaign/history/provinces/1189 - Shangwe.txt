@@ -1,0 +1,13 @@
+owner = RZW
+controller = RZW
+capital = "Shangwe"
+is_city = yes
+culture = shona
+religion = shamanism
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = RZW
+discovered_by = central_african
+discovered_by = east_african

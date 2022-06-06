@@ -1,0 +1,114 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 118 193 153 }
+revolutionary_colors = { 5 1 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	dutch_maurician
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Antoine #0" = 20
+	"Antoon #0" = 0
+	"Charles #1" = 5
+	"Christiaan #0" = 0
+	"Christian #0" = 0
+	"Ernest #0" = 0
+	"Frederik #0" = 0
+	"Fr0d0ric #0" = 0
+	"Gaspard #0" = 0
+	"Geoffroi #3" = 5
+	"Gerhard #0" = 0
+	"Godfried #0" = 0
+	"Guillaume #0" = 15
+	"G0rard #0" = 0
+	"Henri #3" = 5
+	"Hughes #0" = 0
+	"Jacquetta #0" = -1
+	"Jan #0" = 0
+	"Jean #3" = 20
+	"Joachim #0" = 0
+	"Johanna #1" = -10
+	"Johannes #0" = 0
+	"Karel #0" = 0
+	"Kasper #0" = 0
+	"Lambert #1" = 5
+	"Lodewijk #0" = 0
+	"Louis #0" = 0
+	"L0onard #0" = 0
+	"Margaret #0" = -1
+	"Margareta #0" = -1
+	"Maria #0" = -1
+	"Marie #0" = -1
+	"Micha0l #0" = 0
+	"Michel #0" = 0
+	"Orland #0" = 0
+	"Philippe #0" = 20
+	"Robert #0" = 0
+	"Roeland #0" = 0
+	"Roger #0" = 0
+	"Rutger #0" = 0
+	"Thomas #0" = 0
+	"Vincent #0" = 0
+	"Wenceslas #1" = 5
+	"Willem #0" = 0
+}
+leader_names = {
+	"Albers"
+	"Aylett"
+	"Bielmacker"
+	"Camper"
+	"Debruyne"
+	"Jansen"
+	"Leschwein"
+	"Maas"
+	"Mons"
+	"Orthellius"
+	"Quellinus"
+	"de Avesnes"
+	"de Houtman"
+	"de Leeuw"
+	"van Egmont"
+	"van Kahlden"
+	"van Loewen"
+	"van Meteren"
+	"van Noort"
+	"van Wyhe"
+	"van der Most"
+}
+ship_names = {
+	"Brussel"
+	"Dender"
+	"Doornik"
+	"Edingen"
+	"Filips van Saint-Pol"
+	"Godfried I"
+	"Hendrik I"
+	"Hendrik van Leuven"
+	"Hertog Jan"
+	"Hertogin Johanna"
+	"Jan I"
+	"Mechelen"
+	"Namen"
+	"Zenne"
+}

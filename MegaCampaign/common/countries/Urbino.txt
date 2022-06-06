@@ -1,0 +1,149 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 61 152 180 }
+revolutionary_colors = { 13 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aldo #0" = 0
+	"Alessandro #0" = 10
+	"Alfonso #0" = 0
+	"Antonio #0" = 20
+	"Baldovino #0" = 0
+	"Caterina #0" = -15
+	"Cesare #0" = 15
+	"Cirillo #0" = 0
+	"Cosimo #0" = 0
+	"Damiano #0" = 0
+	"Egidio #0" = 0
+	"Federico #1" = 40
+	"Federigo Ubaldo #0" = 15
+	"Francesco Maria #0" = 40
+	"Francesco Ubaldo #0" = 20
+	"Franco #0" = 0
+	"Giambattista #0" = 0
+	"Giovanna #0" = -15
+	"Giovanni Maria #0" = 15
+	"Giovanni Pietro #0" = 10
+	"Girolamo #0" = 10
+	"Giulio #0" = 15
+	"Giuseppe #0" = 0
+	"Guidantonio #0" = 20
+	"Guido #1" = 5
+	"Guidobaldo #0" = 40
+	"Ippolito #0" = 0
+	"Leandro #0" = 0
+	"Lorenzo #0" = 20
+	"Lucrezia #0" = -10
+	"Marzio #0" = 0
+	"Oddantonio #0" = 20
+	"Ovidio #0" = 0
+	"Paolo #0" = 0
+	"Pietro #0" = 0
+	"Prospero #0" = 0
+	"Rafaello #0" = 0
+	"Scipione #0" = 0
+	"Teodosio #0" = 0
+	"Vittorio #0" = 0
+}
+leader_names = {
+	"Albani"
+	"Aldobrandini"
+	"Altieri"
+	"Barberini"
+	"Barbo"
+	"Boncompagni"
+	"Borghese"
+	"Borgia"
+	"Braschi"
+	"Carafa"
+	"Castagna"
+	"Cervini"
+	"Chiaramonti"
+	"Chigi"
+	"Colonna"
+	"Condulmeri"
+	"Conti"
+	"Corsini"
+	"Cybo"
+	"Doria-Landi"
+	"Doria-Pamphili"
+	"Gaetani dell'Aquila"
+	"Gangagnelli"
+	"Ghislieri"
+	"Gonzaga"
+	"Lambertini"
+	"Lante"
+	"Ludovisi"
+	"Melzi"
+	"Melzi de Rimini"
+	"Odescalchi"
+	"Orsini"
+	"Ottoboni"
+	"Pallavicino"
+	"Pamphili"
+	"Parentucelli"
+	"Peretti"
+	"Piccolomini"
+	"Pignatelli"
+	"Prignano"
+	"Rezzonico"
+	"Rospigliosi"
+	"Sfondrati"
+	"da Varano"
+	"de' Medici"
+	"del Monte"
+	"della Rovere"
+	"di Campofregoso"
+	"di Farnese"
+	"di Montefeltro"
+}
+ship_names = {
+	"Acqualagna"
+	"Auditore"
+	"Colbordolo"
+	"Colonna"
+	"Federico"
+	"Fermignano"
+	"Fossombrone"
+	"Giordano Orsini"
+	"Giovanni Santi"
+	"Isola del Piano"
+	"Lunano"
+	"Mondaino"
+	"Montefeltro"
+	"Oddantonio"
+	"Orsini"
+	"Peglio"
+	"Piero della Francesca"
+	"San Crescentino"
+	"Sant'Angelo in Vado"
+	"Tavoleto"
+	"ghibellini"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

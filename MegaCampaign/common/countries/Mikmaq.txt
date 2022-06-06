@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 110 48 50 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Armquannott #0" = 20
+	"Attanas #0" = 20
+	"Azonis #0" = -1
+	"Begamonit #0" = 20
+	"Chichabenady #0" = 20
+	"Chickanicto #0" = 20
+	"Chigaquisht #0" = 20
+	"Eargamet #0" = 20
+	"Malgelit #0" = -1
+	"Mali #0" = -1
+	"Malian #0" = -1
+	"Maliazonis #0" = -1
+	"Membectou #0" = 20
+	"Miductuk #0" = 20
+	"Nelanoit #0" = 20
+	"Nughquit #0" = 20
+	"Ounaginitish #0" = 20
+	"Rechibouctou #0" = 20
+	"Spugonoit #0" = 20
+}
+leader_names = {
+	"Aboushagan"
+	"Antigonishe"
+	"Bhicuctouche"
+	"Chignecto"
+	"Ekoupahag"
+	"Epeggoitg"
+	"Epekwik"
+	"Esgigiag"
+	"Eskikewakik"
+	"Gespegiag"
+	"Gespogoitg"
+	"Jedaick"
+	"Kespek"
+	"Kespukwitk"
+	"Kigicapigiak"
+	"Miramichi"
+	"Nalkithoniash"
+	"Nipigiguit"
+	"Onamagig"
+	"Pohomoosh"
+	"Segepenegatig"
+	"Shediac"
+	"Sigenitog"
+	"Siknikt"
+	"Tabogimkik"
+	"Tabusintack"
+	"Tagamgoog"
+	"Taqmkuk"
+	"Waycobah"
+	"Wunamakik"
+	"sipeknekatik"
+}
+ship_names = {
+	"Amaljikwej"
+	"Amuwow"
+	"Kitpu"
+	"Kukukwes"
+	"Lentuk"
+	"Lmuj"
+	"Matuwes"
+	"Mikjikj"
+	"Mteskm"
+	"Muwin"
+	"Paqtism"
+	"Sinimkw"
+	"Tesipow"
+	"Tiyam"
+	"Tqoqwej"
+	"Wowkwis"
+}

@@ -1,0 +1,138 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 124 140 162 }
+revolutionary_colors = { 5 9 0 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalberto #0" = 0
+	"Ad0n #0" = 0
+	"Agust0n #0" = 0
+	"Alberto #0" = 0
+	"Alejandro #0" = 0
+	"Ambrosio #0" = 0
+	"Andr0s #0" = 0
+	"Antonio #0" = 0
+	"Augusto #0" = 0
+	"David #0" = 0
+	"Eduardo #0" = 0
+	"Emilio #0" = 0
+	"Felipe #0" = 0
+	"Fernando #0" = 0
+	"Francisco #0" = 0
+	"Francisco Javier #0" = 0
+	"Guillermo #0" = 0
+	"Javier #0" = 0
+	"Jos0 #0" = 15
+	"Juan #0" = 20
+	"Luis #0" = 10
+	"Manuel #0" = 20
+	"Mariano #0" = 0
+	"Mart0n #0" = 0
+	"Melchor #0" = 0
+	"Miguel #0" = 0
+	"Nereida #0" = -1
+	"Nicol0s #0" = 0
+	"Pac0fica #0" = -1
+	"Pedro #0" = 0
+	"Remigio #0" = 0
+	"Ricardo #0" = 0
+	"Sergio #0" = 0
+	"Valencia #0" = -1
+	"Valent0n #0" = 0
+	"0scar #0" = 0
+}
+leader_names = {
+	"Aguilar"
+	"Angulo"
+	"Ara"
+	"Astete"
+	"Barahona"
+	"Barrios"
+	"Béjar"
+	"Cacma Condori"
+	"Carreño"
+	"Carrión"
+	"Castelli"
+	"Chimo Capac"
+	"Condorcanqui"
+	"Córdoba"
+	"Galán"
+	"Gamarra"
+	"González"
+	"Guise"
+	"Hurtado de Mendoza"
+	"Lara"
+	"Melgar"
+	"Mendoza"
+	"Miller"
+	"Monteagudo"
+	"Moscoso"
+	"Orco Huaranca"
+	"Pallardelli"
+	"Paz"
+	"Pizarro"
+	"Pumacahua"
+	"Quiroga"
+	"Rojas"
+	"Salaverry"
+	"Suárez"
+	"Sánchez"
+	"Tovar"
+	"Ubalde"
+	"Unánue"
+	"Velarde"
+	"Velasco"
+	"Vélez de Cordova"
+	"de Luna"
+	"de Sucre"
+	"de Vivanco"
+	"de Zela"
+	"de la Riva Agüero"
+	"de la Torre"
+	"del Mar"
+	"del Río"
+	"Álvarez de Arenales"
+}
+ship_names = {
+	"Antofagstsa"
+	"Callao"
+	"Casma"
+	"Chipana"
+	"De Los Heroes"
+	"Eten"
+	"Herrera"
+	"Larrea"
+	"Mariategui"
+	"Montero"
+	"Paita"
+	"Pisagua"
+	"Sanchez Carrion"
+	"Santillana"
+	"Velarde"
+}
+colonial_parent = SPA

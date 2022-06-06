@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = chachapoyan
+capital = 2943
+unit_type = south_american
+1444.1.1= {
+	monarch = {
+		name = "Huachuri"
+		dynasty = "Chachapoya"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

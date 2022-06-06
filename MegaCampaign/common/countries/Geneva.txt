@@ -1,0 +1,124 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 250 138 }
+revolutionary_colors = { 9 5 8 }
+historical_idea_groups = {
+	administrative_ideas
+	plutocracy_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	expansion_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alfred #0" = 0
+	"Andr0 #0" = 0
+	"Angela #0" = -1
+	"Benedikt #0" = 0
+	"Charles #0" = 0
+	"Christoph #0" = 0
+	"Claudio #0" = 0
+	"Didier #0" = 0
+	"Dietrich #0" = 0
+	"Edmondo #0" = 0
+	"Emmanuel #0" = 0
+	"Engelbert #0" = 0
+	"Ferdinand #0" = 10
+	"Florian #0" = 0
+	"Friedrich #0" = 20
+	"Fr0d0ric #0" = 0
+	"Gerhard #0" = 0
+	"G0rard #0" = 0
+	"Hanna #0" = -1
+	"Heinrich #0" = 15
+	"Henri #0" = 0
+	"Immanuel #0" = 0
+	"Johan #0" = 0
+	"Jules #0" = 0
+	"Karl #0" = 10
+	"Leonardo #0" = 0
+	"Leonhard #0" = 0
+	"Markus #0" = 0
+	"Marlene #0" = -1
+	"Matthieu #0" = 0
+	"Nicolas #0" = 0
+	"Nikolaus #0" = 0
+	"Otto #0" = 20
+	"Pascal #0" = 0
+	"Paul #0" = 0
+	"Ruprecht #0" = 0
+	"Stefan #0" = 0
+	"Thomas #0" = 0
+	"Timoteo #0" = 0
+	"Ulrich #0" = 0
+	"Vincent #0" = 0
+	"Vinzenz #0" = 0
+	"Werner #0" = 15
+}
+leader_names = {
+	"Aebi"
+	"Amman"
+	"Bischofberger"
+	"Blank"
+	"Blies"
+	"Brugger"
+	"Combe"
+	"Eugster"
+	"Frei"
+	"Frisch"
+	"Gasenzer"
+	"Grüneisen"
+	"Heberlin"
+	"Helberingen"
+	"Hertzler"
+	"Hiltbrand"
+	"Honegger"
+	"Luz"
+	"Miller"
+	"Munzinger"
+	"Oberholzer"
+	"Schwendimann"
+	"Spörri"
+	"Vogt"
+	"Wächter"
+	"Zumbach"
+	"von Baltharsar"
+	"von Hasseln"
+}
+ship_names = {
+	"Berne"
+	"Dufour"
+	"Glarus"
+	"Inn"
+	"Lucerne"
+	"Rhein"
+	"Rhöne"
+	"Schwyz"
+	"Ticino"
+	"Unterwalden"
+	"Uri"
+	"Wilhelm Tell"
+	"Zug"
+	"Zürich"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+preferred_religion = reformed

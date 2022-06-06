@@ -1,0 +1,13 @@
+owner = MHX
+controller = MHX
+capital = "Edala"
+is_city = yes
+culture = manchu
+religion = confucianism
+trade_goods = grain
+base_tax = 3
+base_production = 2
+base_manpower = 2
+add_core = MHX
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,12 @@
+owner = KUB
+controller = KUB
+capital = "Nunu"
+is_city = yes
+culture = kuba
+religion = shamanism
+trade_goods = tropical_wood
+base_tax = 1
+base_production = 1
+base_manpower = 2
+add_core = KUB
+discovered_by = central_african

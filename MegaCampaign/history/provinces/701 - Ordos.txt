@@ -1,0 +1,18 @@
+owner = MNG
+controller = MNG
+capital = "Ordos"
+is_city = yes
+culture = mongol
+religion = vajrayana
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = KHA
+add_core = MGE
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group
+latent_trade_goods = {
+	coal
+}

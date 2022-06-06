@@ -1,0 +1,13 @@
+owner = MGD
+controller = MGD
+capital = "Marawi"
+is_city = yes
+culture = filipino
+religion = animism
+trade_goods = spices
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = LNO
+add_core = MGD
+discovered_by = chinese

@@ -1,0 +1,70 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 124 69 49 }
+revolutionary_colors = { 8 6 8 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	creek_arquebusier
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Agi It #0" = 20
+	"Attakullaculla #0" = 20
+	"Boudinot #0" = 20
+	"Chipeta #0" = -1
+	"Dragging Canoe #0" = 20
+	"Johan Ross #0" = 10
+	"Moytoy #0" = 20
+	"Sacagawea #0" = -1
+	"Sequoyah #0" = 20
+	"Tocmetone #0" = -1
+	"Yonaguska #0" = 20
+}
+leader_names = {
+	"Adahy"
+	"Atagulkalu"
+	"Cheasequah"
+	"Degataga"
+	"Diwali"
+	"Mohe"
+	"Onacona"
+	"Tsiyi"
+	"Waya"
+}
+ship_names = {
+	"Ah-ni-ga-to-ge-wi"
+	"Ah-ni-gi-lo-hi"
+	"Ah-ni-ka-wi"
+	"Ah-ni-sa-ho-ni"
+	"Ah-ni-tsi-sk-wa"
+	"Ah-ni-wa-ya"
+	"Ah-ni-wo-di"
+	"Ani Yuntikwalaski"
+	"Ani-kutani"
+	"Anisga'ya Tsunsdi"
+	"Asgaya Gigagei"
+	"I'nage-utasvhi"
+	"Kana'ti"
+	"Nv-da gu-ti-ha"
+	"Nv-da ka-na-wo-ga"
+	"Nv-da ko-la"
+	"Nv-da u-no-le"
+	"Oonawieh Unggi"
+	"Selu"
+	"Tsul Kalu"
+}

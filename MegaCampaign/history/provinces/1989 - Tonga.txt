@@ -1,0 +1,14 @@
+owner = TOG
+controller = TOG
+capital = "Mu'a"
+is_city = yes
+culture = polynesian
+religion = animism
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 3
+base_manpower = 2
+extra_cost = 15
+center_of_trade = 1
+add_core = TOG
+discovered_by = polynesian_tech

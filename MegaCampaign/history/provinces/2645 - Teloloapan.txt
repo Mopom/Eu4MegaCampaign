@@ -1,0 +1,15 @@
+owner = AZT
+controller = AZT
+capital = "Teloloapan"
+is_city = yes
+culture = aztek
+religion = nahuatl
+trade_goods = gold
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = AZT
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

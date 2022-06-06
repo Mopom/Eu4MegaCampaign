@@ -1,0 +1,122 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 146 134 77 }
+revolutionary_colors = { 0 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Akim #0" = 0
+	"Anastas #0" = 0
+	"Anna #0" = -5
+	"Anton #0" = 0
+	"Arseniy #0" = 0
+	"Bogdan #0" = 0
+	"Daniil #0" = 0
+	"David #0" = 0
+	"Dmitriy #5" = 10
+	"Dominika #0" = -1
+	"Fedora #0" = -1
+	"Ferapont #0" = 0
+	"Fyodor #1" = 20
+	"Isaak #0" = 0
+	"Ivan #3" = 80
+	"Katya #0" = -1
+	"Kirill #0" = 0
+	"Lavrentiy #0" = 0
+	"Lazar #0" = 0
+	"Leonid #0" = 0
+	"Leonti #0" = 0
+	"Luka #0" = 0
+	"Makariy #0" = 0
+	"Maria #0" = -1
+	"Mefodiy #0" = 0
+	"Milan #0" = 0
+	"Mitrofan #0" = 0
+	"Nazariy #0" = 0
+	"Nestor #0" = 0
+	"Nikolai #0" = 0
+	"Nikon #0" = 0
+	"Oleg #1" = 20
+	"Pyotr #0" = 0
+	"Roman #0" = 0
+	"Valeriy #0" = 0
+	"Vasiliy #1" = 20
+	"Veniamin #0" = 0
+	"Vlad #0" = 0
+	"Vladimir #2" = 10
+	"Vsevolod #0" = 0
+	"Yaromir #0" = 0
+	"Yevgeniy #0" = 0
+	"Zakhar #0" = 0
+	"Zinoviy #0" = 0
+}
+leader_names = {
+	"Barabshin"
+	"Brukathy"
+	"Danilov"
+	"Dmitriev"
+	"Dobrynsky"
+	"Glazaty"
+	"Gorbaty"
+	"Gubastov"
+	"Ivanov"
+	"Kirdyapin"
+	"Muromsky"
+	"Nizhegorodsky"
+	"Nogtew"
+	"Pronsky"
+	"Rozhestvensky"
+	"Sapogov"
+	"Shuisky"
+	"Skopin"
+	"Tolbuzin"
+	"Travin"
+	"Vsevolozhsky"
+	"Yeropkin"
+}
+ship_names = {
+	"Kadorn"
+	"Kasimov"
+	"Lolotcha"
+	"Mikhailov"
+	"Moksha"
+	"Murom"
+	"Novornichurinsk"
+	"Oka"
+	"Pereslavl"
+	"Pronsk"
+	"Pronya"
+	"Ryazansky"
+	"Sasovo"
+	"Shatsk"
+	"Skopin"
+	"Staraya Ryazan"
+	"Tsna"
+	"Y. Sviatoslavich"
+}

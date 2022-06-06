@@ -1,0 +1,20 @@
+owner = TLX
+controller = TLX
+capital = "Cholula"
+is_city = yes
+culture = aztek
+religion = nahuatl
+trade_goods = sugar
+base_tax = 4
+base_production = 4
+base_manpower = 1
+add_core = TLX
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+add_permanent_province_modifier = {
+	name = cholula_temples
+	duration = -1
+}
+add_province_triggered_modifier = nahuatl_cholula

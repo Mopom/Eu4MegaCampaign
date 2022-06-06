@@ -1,0 +1,16 @@
+owner = CHA
+controller = CHA
+capital = "Indrapura"
+is_city = yes
+culture = cham
+religion = hinduism
+trade_goods = incense
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = ANN
+add_core = CHA
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

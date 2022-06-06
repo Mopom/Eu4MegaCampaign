@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 138 110 130 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aiolos #0" = 0
+	"Andrea #0" = 10
+	"Antonio #0" = 60
+	"Bartholomaios #0" = 0
+	"Benedetto #0" = 20
+	"Bernardo #0" = 20
+	"Dionysios #0" = 0
+	"Domenico #0" = 20
+	"Donato #0" = 20
+	"Elpida #0" = -1
+	"Eusebios #0" = 0
+	"Ferdinando #0" = 20
+	"Francesco #0" = 40
+	"Giacomo #0" = 40
+	"Giovanni #0" = 80
+	"Girolamo #0" = 40
+	"Giuseppe #0" = 20
+	"Gregorios #0" = 0
+	"Hermogenes #0" = 0
+	"Ioannes #0" = 0
+	"Konstantinos #0" = 0
+	"Kreon #0" = 0
+	"Kyriake #0" = -1
+	"Lavrentios #0" = 0
+	"Lazzaro #0" = 20
+	"Leonardo #0" = 10
+	"Lodovico #0" = 20
+	"Marco #0" = 20
+	"Matthaios #0" = 0
+	"Nikolaos #0" = 0
+	"Nikomachos #0" = 0
+	"Nomiki #0" = 0
+	"Paolo #0" = 15
+	"Paolo Antonio #0" = 20
+	"Pasquale #0" = 20
+	"Pierluigi #0" = 20
+	"Pietro #0" = 15
+	"Serafeim #0" = 0
+	"Spyridon #0" = 0
+	"Thekla #0" = -1
+	"Theodoros #0" = 0
+	"Tomasso #0" = 15
+	"Zaccaria #0" = 20
+}
+leader_names = {
+	"Argyrus"
+	"Artavasdus"
+	"Basileus"
+	"Diogenes"
+	"Ducas"
+	"Monomachus"
+	"Morosini"
+	"Romanus"
+	"Stauracius"
+	"Stratioticus"
+	"Vataces"
+	"Zimisces"
+	"de Vendôme"
+}
+ship_names = {
+	"Dermoaros"
+	"Frangokastelo"
+	"Glalos"
+	"Koudouras"
+	"Lentas"
+	"Matala"
+	"Paleochora"
+	"Papadogiannis"
+	"Plakias"
+	"Sougia"
+}

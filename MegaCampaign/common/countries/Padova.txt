@@ -1,0 +1,152 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 186 106 58 }
+historical_idea_groups = {
+	maritime_ideas
+	plutocracy_ideas
+	humanist_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alberico #0" = 10
+	"Albertino #0" = 25
+	"Alberto #0" = 0
+	"Andrea #0" = 0
+	"Annibale #0" = 0
+	"Bartolomeo #0" = 0
+	"Bernardino #0" = 0
+	"Corradino #0" = 0
+	"Cristoforo #0" = 0
+	"Domenico #0" = 0
+	"Enghelmario #0" = 0
+	"Enrico #0" = 40
+	"Erasmo #0" = 20
+	"Ercole #0" = 0
+	"Ermolao #0" = 0
+	"Eulalia #0" = -1
+	"Ezzelino #0" = 10
+	"Fabrizio #0" = 0
+	"Fiorello #0" = 15
+	"Francesco #0" = 25
+	"Giovanni #0" = 25
+	"Giusto #0" = 0
+	"Gregorio #0" = 0
+	"Gualpertino #0" = 0
+	"Guglielmo #0" = 0
+	"Ippolito #0" = 0
+	"Luca #0" = 0
+	"Ludovico #0" = 0
+	"Marcantonio #0" = 0
+	"Marco #0" = 0
+	"Margherita #0" = -1
+	"Marsilietto #0" = 0
+	"Marsilio #0" = 0
+	"Michele #0" = 0
+	"Nicola #0" = 0
+	"Obizzo #0" = 0
+	"Paolo #0" = 0
+	"Pierina #0" = -1
+	"Pietro #0" = 0
+	"Pollione #0" = 15
+	"Reginaldo #0" = 20
+	"Santuzza #0" = -1
+	"Stefano #0" = 0
+	"Teodoro #0" = 0
+	"Torquato #0" = 0
+	"Ubertino #0" = 30
+	"Ugolino #0" = 0
+	"Umberto #0" = 0
+	"Vitaliano #0" = 0
+	"Zaccaria #0" = 0
+}
+leader_names = {
+	"Andeini"
+	"Barbaro"
+	"Barberigo"
+	"Beccadelli"
+	"Broglia"
+	"Caliari"
+	"Camposampiero"
+	"Canova"
+	"Cristofori"
+	"Dente"
+	"Facciolati"
+	"Falloppio"
+	"Fanoli"
+	"Landi"
+	"Magini"
+	"Malacapelli"
+	"Mantagna"
+	"Mussato"
+	"Nizolio"
+	"Padovano"
+	"Palladio"
+	"Papafava"
+	"Pellegrini"
+	"Piscopia"
+	"Pomponazzi"
+	"Ramazzini"
+	"Scamozzi"
+	"Squarcione"
+	"Stancaro"
+	"Tasso"
+	"d'Acquapendente"
+	"d'Este"
+	"da Campagnola"
+	"da Carrara"
+	"da Corregio"
+	"da Lucca"
+	"da Romano"
+	"dei Lovati"
+	"di Villandres"
+}
+ship_names = {
+	"Abano Bagni"
+	"Adelaide"
+	"Amabilia"
+	"Antenor"
+	"Bacchiglione"
+	"Castagnaro"
+	"Cisalpina"
+	"Enrico Scrovegni"
+	"Fabia"
+	"Francesco Zabarella"
+	"Giacomina"
+	"Griselda"
+	"Medoacus"
+	"Patavium"
+	"Ruzzante"
+	"San Daniele"
+	"San Gaetano"
+	"San Luca Evangelista"
+	"San Massimo il Confessore"
+	"San Prosdocimo"
+	"Sant'Antonio"
+	"Santa Giustina"
+	"Santa Sofia"
+	"Tito Livio"
+	"Tornalisce"
+	"Vicenza"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

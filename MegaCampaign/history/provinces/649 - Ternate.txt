@@ -1,0 +1,12 @@
+owner = TER
+controller = TER
+capital = "Ternate"
+is_city = yes
+culture = moluccan
+religion = animism
+trade_goods = cloves
+base_tax = 5
+base_production = 5
+base_manpower = 3
+add_core = TER
+discovered_by = chinese

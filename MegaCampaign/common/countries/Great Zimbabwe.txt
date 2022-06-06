@@ -1,0 +1,98 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 255 211 0 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_clubmen
+	african_dragoon
+	african_hussar
+	african_somali_cavalry
+	african_western_franchise_warfare
+	bantu_gunpowder_warfare
+	bantu_plains_warfare
+	bantu_tribal_warfare
+	westernized_bantu
+}
+monarch_names = {
+	"Achieng #0" = -1
+	"Basvi #0" = 0
+	"Changamire #0" = 20
+	"Chicanga #0" = 0
+	"Chiraramuro #0" = 0
+	"Chirisamhuru #0" = 20
+	"Chivere #0" = 20
+	"Chombo #0" = 0
+	"Dombo Chinkura #0" = 20
+	"Gatsi #0" = 20
+	"Gowera #0" = 0
+	"Gumboremvura #0" = 20
+	"Inhamunda #0" = 0
+	"Kakuyo #0" = 20
+	"Kamborapasu #0" = 20
+	"Mambo Rupanadamananga #0" = 20
+	"Matope #0" = 20
+	"Matuzvianye #0" = 5
+	"Mavura #0" = 40
+	"Mbire #0" = 20
+	"Molwa #0" = 0
+	"Mthaniya #0" = -1
+	"Mucombo #0" = 0
+	"Mukombero #0" = 20
+	"Mukombwe #0" = 0
+	"Mupunzagutu #0" = 0
+	"Nandi #0" = -1
+	"Nechagadzike #0" = 20
+	"Nechisake #0" = 20
+	"Neshangwe #0" = 20
+	"Ngwato #0" = 0
+	"Ningomoxa #0" = 0
+	"Nuru #0" = -1
+	"Nyacuimbiri #0" = 0
+	"Nyambo #0" = 20
+	"Nyamhandu #0" = 0
+	"Nyarumwe #0" = 0
+	"Nyatsimba #0" = 20
+	"Peranhe #0" = 0
+	"Samutumbu #0" = 0
+	"Seogola #0" = 0
+	"Siti #0" = 20
+	"Tamasiga #0" = 0
+	"Tohwechipi #0" = 0
+	"Toloa #0" = 5
+}
+leader_names = {
+	"Birir"
+	"Chirombo"
+	"Chrima"
+	"Kagona"
+	"Moyo"
+	"Mutasa"
+	"Njie"
+	"Nkomo"
+	"Rise"
+	"Tembo"
+}
+ship_names = {
+	"Dziva"
+	"Dzivaguru"
+	"Mai Vedu"
+	"Mazendere"
+	"Mbonga"
+	"Mulungu"
+	"Musikavanhu"
+	"Mutorwa"
+	"Mwari"
+	"Svikiro"
+}

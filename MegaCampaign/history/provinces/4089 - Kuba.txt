@@ -1,0 +1,14 @@
+owner = KUB
+controller = KUB
+capital = "Kuba"
+is_city = yes
+culture = kuba
+religion = shamanism
+trade_goods = cloth
+base_tax = 2
+base_production = 1
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1
+add_core = KUB
+discovered_by = central_african

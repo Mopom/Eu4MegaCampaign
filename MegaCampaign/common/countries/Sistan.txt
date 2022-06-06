@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 224 74 54 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Abdall0h #0" = 0
+	"'Al0 #0" = 0
+	"'Izz al-Din #0" = 10
+	"'Umar #0" = 0
+	"Aisha #0" = -1
+	"Ak #0" = -1
+	"Anwar #0" = 0
+	"Bakr #0" = 0
+	"Fahd #0" = 0
+	"Faruq #0" = 0
+	"Fatima #0" = -1
+	"Firoza #0" = -1
+	"Fouad #0" = 0
+	"Hakim #0" = 0
+	"Haniyya #0" = -1
+	"Harun #0" = 0
+	"Hisham #0" = 0
+	"Husayn #0" = 0
+	"Isma'il #0" = 0
+	"Jafar #0" = 0
+	"Jalal al-Din #0" = 10
+	"Jamaal #0" = 0
+	"Karim #0" = 0
+	"Khalil #0" = 0
+	"Mahmud #0" = 40
+	"Mal0k #0" = 0
+	"Maryam #0" = -1
+	"Mas'ud  #0" = 20
+	"Mirza #0" = 0
+	"Muhammad #0" = 0
+	"Munawar #0" = -1
+	"Munya #0" = -1
+	"Nasir #0" = 20
+	"Nusrat #0" = 20
+	"Qasim #0" = 0
+	"Qutb al-Din #0" = 10
+	"Rash0d #0" = 0
+	"Shams al-Din Muhammad #0" = 20
+	"Sulayman #0" = 0
+	"Sultanim #0" = -1
+	"Taj al-Din #0" = 10
+	"Tar0q #0" = 0
+	"Ulugh Beg #0" = 10
+	"Usama #0" = 0
+	"Yahya #0" = 20
+	"Yasir #0" = 0
+	"Yusuf #0" = 0
+	"Zaid #0" = 0
+	"Zulqifar #0" = 0
+	"Z0yad #0" = 0
+}
+leader_names = {
+	"Ali"
+	"Bali"
+	"Karawi"
+	"Khan"
+	"Mirza"
+	"Nawaz"
+	"Quli"
+	"Tadj"
+	"Wali"
+	"Zaman"
+}
+ship_names = {
+	"Badam"
+	"Bardeskan"
+	"Dasht"
+	"Deyhuk"
+	"Germi"
+	"Jandaq"
+	"Khvor"
+	"Kondor"
+	"Tabas"
+	"Torud"
+}

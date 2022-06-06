@@ -1,0 +1,13 @@
+owner = CLA
+controller = CLA
+capital = "Hatuncolla"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = gold
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = CLA
+discovered_by = andean
+discovered_by = south_american

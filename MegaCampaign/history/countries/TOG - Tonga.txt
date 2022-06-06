@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = polynesian_kingdom
+government_rank = 2
+technology_group = polynesian_tech
+religion = animism
+primary_culture = polynesian
+capital = 1989
+1444.11.11= {
+	monarch = {
+		name = "Takalaua"
+		dynasty = "Tu'i Tonga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,127 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 117 161 67 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #0" = 10
+	"Albrecht Karl #0" = 10
+	"August Georg #0" = 20
+	"Aurora #0" = -1
+	"Bernhard #0" = 70
+	"Christoph #0" = 40
+	"Christoph Gustav #0" = 10
+	"Dorothea #0" = -1
+	"Eduard Fortunat #0" = 20
+	"Erich #0" = 0
+	"Ernst #0" = 10
+	"Ernst Friedrich #0" = 20
+	"Ferdinand Maximilian #0" = 15
+	"Georg #0" = 10
+	"Georg Friedrich #0" = 20
+	"Gregor #0" = 0
+	"Henriette #0" = -1
+	"Hermann Fortunat #0" = 15
+	"Isaak #0" = 0
+	"Jakob #0" = 50
+	"Johann #0" = 10
+	"Johann Karl #0" = 10
+	"Karl #0" = 40
+	"Karl Friedrich #0" = 20
+	"Karl Joseph #0" = 15
+	"Karl Leopold #0" = 15
+	"Karl Ludwig #0" = 15
+	"Leopold Wilhelm #0" = 15
+	"Ludwig #0" = 20
+	"Ludwig Georg #0" = 20
+	"Ludwig Wilhelm #0" = 20
+	"Markus #0" = 10
+	"Oskar #0" = 0
+	"Philibert #0" = 20
+	"Philipp #1" = 30
+	"Philipp Siegmund #0" = 10
+	"Rudolf #4" = 10
+	"Wilhelm #0" = 20
+	"Wilhelm Georg #0" = 15
+	"Wilhelm Ludwig #0" = 10
+	"Wolfgang #0" = 10
+	"Wolfram #0" = 0
+}
+leader_names = {
+	"Albers"
+	"Baehr"
+	"Beer"
+	"Benthens"
+	"Breh"
+	"Bächtold"
+	"Eisenkolb"
+	"Erb"
+	"Ferstenfeld"
+	"Fischer"
+	"Grether"
+	"Göhringer"
+	"Heitzmann"
+	"Helff"
+	"Kempf"
+	"Klee"
+	"Mackensen"
+	"Römermann"
+	"Schüßler"
+	"Steinmann"
+	"Tientjen"
+	"Tuve"
+	"Wachsmuth"
+}
+ship_names = {
+	"Bretten"
+	"Bruchsal"
+	"Constance"
+	"Eberbach"
+	"Feldberg"
+	"Freiburg"
+	"Heidelberg"
+	"Karlsruhe"
+	"Kinzig"
+	"Lahr"
+	"Linzgau"
+	"Lörrach"
+	"Mannheim"
+	"Markgraf Bernard I"
+	"Markgraf Hermann"
+	"Markgraf Karl I"
+	"Offenburg"
+	"Rastatt"
+	"Rhein"
+	"Tauber"
+	"Villingen"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Markgräfische Garde"
+}

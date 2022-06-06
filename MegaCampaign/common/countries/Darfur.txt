@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 44 160 70 }
+revolutionary_colors = { 5 16 1 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abdul #0" = 0
+	"Abdul-Azeem #0" = 0
+	"Akgul #0" = -1
+	"Bekele #0" = 0
+	"Bogirg #0" = 0
+	"Dorothea #0" = -1
+	"Emsire #0" = -1
+	"Ett #1" = 10
+	"Eupraxia #0" = -1
+	"Fatima #0" = -1
+	"Gaguwe #0" = 0
+	"Geesi #0" = -1
+	"Girma #0" = 0
+	"Hadurah #0" = -1
+	"Hashmaddin #0" = 0
+	"Ibedou #1" = 10
+	"Ibrahim #0" = 0
+	"Jahan #0" = 0
+	"Khadija #0" = -1
+	"Ku #0" = 0
+	"Kubuy #0" = -1
+	"Kulk #0" = -1
+	"Layla #0" = -1
+	"Mariam #0" = -1
+	"Mina #0" = 0
+	"Miryem #0" = -1
+	"Mounah #0" = -1
+	"Muhammad #0" = 0
+	"Nuraddin #0" = 0
+	"Oki #0" = 0
+	"Omer #1" = 10
+	"Rashida #0" = -1
+	"Sebastianos #0" = 0
+	"Serapion #0" = 0
+	"Sergios #0" = 0
+	"Sha'ban #0" = 0
+	"Siddick #0" = 0
+	"Ter #0" = -1
+	"Wadanh #0" = -1
+	"Yug #1" = 10
+	"Zaia #0" = 0
+}
+leader_names = {
+	"Abboud"
+	"Fung"
+	"Garang"
+	"Kayra"
+	"Keira"
+	"Kelueljang"
+	"Lugor"
+	"Nuer"
+	"Shol"
+	"Taha"
+}
+ship_names = {
+	"Amenirdis"
+	"Amon"
+	"Apedemak"
+	"Arensnuphis"
+	"Bes"
+	"Dedwen"
+	"Khnum"
+	"Mandulis"
+	"Mut"
+	"Taweret"
+	"Tefnut"
+}

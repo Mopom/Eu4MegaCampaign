@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 171 175 40 }
+revolutionary_colors = { 8 9 8 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	quality_ideas
+	economic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Adam Al-Watsiq Billah #0" = 20
+	"Amrullah Bagus Kasuma #0" = 20
+	"Bintang #0" = -1
+	"Bulan #0" = -1
+	"Hamidullah #0" = 20
+	"Hidayatullah #0" = 20
+	"Inayatullah #0" = 20
+	"Muhammadillah #0" = 20
+	"Mustain Billah #0" = 20
+	"Panembahan Kasuma Dilaga #0" = 20
+	"Rahmatullah #0" = 20
+	"Ri'ayatullah #0" = 20
+	"Rim #0" = -1
+	"Saidullah #0" = 20
+	"Saleha #0" = -1
+	"Sari Banun #0" = -1
+	"Sulaiman al-Mutamidullah #0" = 20
+	"Suriansyah #0" = 20
+	"Tahmidullah #0" = 20
+	"Tamjidullah #0" = 20
+}
+leader_names = {
+	"Abdulfatah"
+	"Ahmad"
+	"Amir"
+	"Anwar"
+	"Azmi"
+	"Batuta"
+	"Chairul"
+	"Hamzah"
+	"Hasanuddin"
+	"Ibnu"
+	"Kyai"
+	"Mahat"
+	"Mukhtar"
+	"Najamuddin"
+	"Natzar"
+	"Nazmizan"
+	"Roem"
+	"Syarifuddin"
+	"Zulkifli"
+}
+ship_names = {
+	"Bangar"
+	"Batang"
+	"Batang Baram"
+	"Batu Danau"
+	"Kuala Baram"
+	"Kuala Belait"
+	"Kuala Medamit"
+	"Labi"
+	"Lumut"
+	"Lungai Limbang"
+	"Penanjong"
+	"Sukang"
+	"Sungai Bakong"
+	"Sungai Belait"
+	"Sungai Pandaruan"
+	"Sungai Tembureng"
+	"Sungai Tinjar"
+	"Sungai Tutoh"
+	"Sungai Tutong"
+	"Telingan"
+	"Trusan"
+}

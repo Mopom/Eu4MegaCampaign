@@ -1,0 +1,15 @@
+owner = NEH
+controller = NEH
+capital = "Mahmikiwiniyak"
+is_city = yes
+culture = plains_cree
+religion = totemism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = NEH
+discovered_by = north_american
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

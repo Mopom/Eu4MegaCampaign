@@ -1,0 +1,13 @@
+owner = MYR
+controller = MYR
+capital = "Niuman"
+is_city = yes
+culture = manchu
+religion = tengri_pagan
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = MYR
+discovered_by = chinese
+discovered_by = nomad_group

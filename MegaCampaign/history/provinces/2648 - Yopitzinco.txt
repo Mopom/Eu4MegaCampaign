@@ -1,0 +1,15 @@
+owner = TLA
+controller = TLA
+capital = "Yopi"
+is_city = yes
+culture = tlapanec
+religion = nahuatl
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = TLA
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

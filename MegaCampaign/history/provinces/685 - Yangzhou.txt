@@ -1,0 +1,13 @@
+owner = MNG
+controller = MNG
+capital = "Yangzhou"
+is_city = yes
+culture = jianghuai
+religion = confucianism
+trade_goods = salt
+base_tax = 12
+base_production = 12
+base_manpower = 2
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

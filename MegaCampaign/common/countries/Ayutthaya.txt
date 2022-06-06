@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 60 152 70 }
+revolutionary_colors = { 16 13 16 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	administrative_ideas
+	quantity_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Amporn #0" = -1
+	"Athittayawong #0" = 20
+	"Boromakot #0" = 20
+	"Borommaracha #1" = 40
+	"Bun Si #0" = 5
+	"Chairacha #0" = 20
+	"Chakkraphat #0" = 20
+	"Chanarong #0" = -1
+	"Chao Fa Jai #0" = 20
+	"Chettha #0" = 20
+	"Ekathotsarot #0" = 20
+	"Intha Racha #0" = 20
+	"Keo Fa #0" = 20
+	"Komol #0" = -1
+	"Mahin #0" = 20
+	"Narai #0" = 20
+	"Naresuen #0" = 20
+	"Panjapapee #0" = -1
+	"Phetracha #0" = 20
+	"Phrachao Suea #0" = 20
+	"Prasat Thong #0" = 20
+	"Rama #0" = 30
+	"Ramaracha #0" = 20
+	"Ramathibodi #1" = 20
+	"Ratsada #0" = 20
+	"Si Saowaphak #0" = 20
+	"Si Suthammaracha #0" = 20
+	"Songtham #0" = 20
+	"Sri Suriyothai #0" = -1
+	"Taksin #0" = 20
+	"Thai Sa #0" = 20
+	"Thammaracha #0" = 20
+	"Trailokanat #0" = 20
+	"Uthumphon #0" = 20
+}
+leader_names = {
+	"Akradej"
+	"Ariyanuntaka"
+	"Boonmee"
+	"Chaipatana"
+	"Chakrabonse"
+	"Chuasiriporn"
+	"Diskul"
+	"Ekaluck"
+	"Hitapot"
+	"Inchareon"
+	"Kawrungruang"
+	"Khuntilanont"
+	"Klinpraneet"
+	"Kriangsak"
+	"Monkoltham"
+	"Na Burapa"
+	"Na Chanthaburi"
+	"Na Chumphon"
+	"Na Isan"
+	"Na Kedah"
+	"Na Maharat"
+	"Na Phayap"
+	"Na Phuket"
+	"Na Prachinburi"
+	"Na Roi Et"
+	"Na Ubon"
+	"Na Udon"
+	"Nitpattanasai"
+	"Noppachorn"
+	"Nut"
+	"Panomyaong"
+	"Phatipatanawong"
+	"Sitdhirasdr"
+	"Sivaraksa"
+	"Srichure"
+	"Supachai"
+	"Supasawat"
+	"Tantasatityanon"
+	"Thabchumpon"
+	"Tomson"
+	"Wongrutiyan"
+	"Yongchaiyudh"
+}
+ship_names = {
+	"Borommaracha"
+	"Boromtrailokanat"
+	"Chai"
+	"Chairacha"
+	"Chakkraphat"
+	"Chehha"
+	"Ekathotsarot"
+	"Ekkathat"
+	"Intharatcha"
+	"Mahin"
+	"Narai"
+	"Naresuan"
+	"Petratcha"
+	"Phumintharacha"
+	"Prasat Thong"
+	"Ramaratcha"
+	"Ramesuan"
+	"Ramithibodi"
+	"Ratsada"
+	"Sanpet"
+	"Si Saowaphak"
+	"Somdet Phra"
+	"Songtham"
+	"Suthammaracha"
+	"Süa"
+	"Thong Chan"
+	"Uthumpon"
+	"Worawongsa"
+	"Yotfa"
+}
+special_unit_culture = south_east_asian_special

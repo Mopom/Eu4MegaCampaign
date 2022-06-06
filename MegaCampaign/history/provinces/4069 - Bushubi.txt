@@ -1,0 +1,12 @@
+owner = UBH
+controller = UBH
+capital = "Bushubi"
+is_city = yes
+culture = rwandan
+religion = shamanism
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 3
+add_core = UBH
+discovered_by = central_african

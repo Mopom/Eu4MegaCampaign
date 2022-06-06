@@ -1,0 +1,14 @@
+owner = MNG
+controller = MNG
+capital = "Ji'an"
+is_city = yes
+culture = gan
+religion = confucianism
+trade_goods = cloth
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = MNG
+add_core = NNG
+discovered_by = chinese
+discovered_by = nomad_group

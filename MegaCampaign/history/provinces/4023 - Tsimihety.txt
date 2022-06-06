@@ -1,0 +1,12 @@
+owner = BTS
+controller = BTS
+capital = "Tsimihety"
+is_city = yes
+culture = madagasque
+religion = shamanism
+trade_goods = slaves
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = BTS
+discovered_by = east_african

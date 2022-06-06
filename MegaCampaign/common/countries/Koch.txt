@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 163 66 74 }
+revolutionary_colors = { 5 8 5 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_archers
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Bhanumati #0" = -1
+	"Chakradhwaj #0" = 20
+	"Chandraprabh #0" = -1
+	"Gajanka #0" = 20
+	"Hira #0" = -1
+	"Jira #0" = -1
+	"Mriganka #0" = 20
+	"Niladhwaj0 #0" = 20
+	"Nilambar #0" = 20
+	"Sukranka #0" = 20
+	"Susenph0 #0" = 20
+}
+leader_names = {
+	"Baro-Bhuyan"
+	"Baruah"
+	"Borphukan"
+	"Chandra"
+	"Das"
+	"Deka"
+	"Kalita"
+	"Kamata"
+	"Mahanta"
+	"Narayan"
+	"Prithu"
+	"Rajbongshi"
+	"Roy"
+}
+ship_names = {
+	"Brahmaputra"
+	"Chingri Mach"
+	"Darrang"
+	"Devi"
+	"Dibang"
+	"Durga Ma"
+	"Ganga"
+	"Hilsa Mach"
+	"Ilish Mach"
+	"Kali Ma"
+	"Kali Meghana"
+	"Kali Nauk"
+	"Kamrup"
+	"Lakimpur"
+	"Lal Nauk"
+	"Loki Devi"
+	"Luhit"
+	"Machli"
+	"Manasa Devi"
+	"Manjuli"
+	"Meghna"
+	"Nil Nauk"
+	"Nil Sagor"
+	"Parvati Devi"
+	"Rui Mach"
+	"Sagorer Bahini"
+	"Saraswoti"
+	"Shakti"
+	"Shaktir Nauk"
+	"Shasti Ma"
+	"Sibsagar"
+	"Trishool"
+	"Uma Devi"
+}

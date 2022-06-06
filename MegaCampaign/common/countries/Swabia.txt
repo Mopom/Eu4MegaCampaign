@@ -1,0 +1,138 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 225 98 87 }
+revolutionary_colors = { 8 8 1 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Addila #0" = -1
+	"Adelinde #1" = -1
+	"Beatrix #1" = -1
+	"Burchard #3" = 10
+	"Dietpold #0" = 0
+	"Ehrenfried #1" = 10
+	"Engeltraud #0" = -1
+	"Erbio #1" = 10
+	"Ernst #2" = 10
+	"Eufemia #0" = -1
+	"Hadmar #0" = 0
+	"Hedwig #0" = -1
+	"Henrike #0" = -1
+	"Hermann #4" = 10
+	"Hnabi #1" = 10
+	"Ilsa #1" = -1
+	"Karl #1" = 10
+	"Konrad #1" = 10
+	"Landolf #0" = 0
+	"Lantfrid #2" = 10
+	"Liudolf #1" = 10
+	"Merten #2" = 10
+	"Otto #3" = 10
+	"Reinhard #1" = 10
+	"Richara #0" = -1
+	"Romilda #1" = -1
+	"Rudolf #1" = 10
+	"Stefan #0" = 0
+	"Theobald #1" = 10
+	"Udo #1" = 10
+	"Wido #1" = 10
+	"Wiltrud #1" = -1
+	"Witikind #1" = 10
+}
+leader_names = {
+	"Beich"
+	"Breitmayer"
+	"Buchner"
+	"Börner"
+	"Börrner"
+	"Danhauser"
+	"Gohl"
+	"Gute"
+	"Helber"
+	"Henke"
+	"Hummelberger"
+	"Humpis"
+	"Kircher"
+	"Klein"
+	"Knapp"
+	"Kopp"
+	"Meck"
+	"Merkel"
+	"Ortlieb"
+	"Pfeilsticker"
+	"Roether"
+	"Schupp"
+	"Stütz"
+	"Susenbrot"
+	"Sülzle"
+	"Veit"
+	"Vietz"
+	"Vogel"
+	"Weber"
+	"Wieland"
+	"Wurst"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Balingen"
+	"Breisgau"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Gräfin Mechthild"
+	"Kaiser Friedrich I"
+	"Kaiser Friedrich II"
+	"Kaiser Heinrich VI"
+	"Kempten"
+	"Konstanz"
+	"König Arnulf"
+	"Lindau"
+	"Marbach"
+	"Memmingen"
+	"Mindel"
+	"Mömpelgard"
+	"Neuffen"
+	"Oettingen"
+	"Otto"
+	"Ravensburg"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Stuttgart"
+	"Tassilo III"
+	"Wirtemberg"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Dritte Schwäbische Armee"
+	"Erste Schwäbische Armee"
+	"Zweite Schwäbische Armee"
+}

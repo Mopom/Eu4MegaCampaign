@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 190 32 16 }
+revolutionary_colors = { 1 5 13 }
+historical_idea_groups = {
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+	diplomatic_ideas
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #0" = 0
+	"Albert #0" = 10
+	"Albrecht #0" = 0
+	"Anne #0" = -5
+	"Burkhard #0" = 0
+	"Charles #0" = 10
+	"Christian #0" = 20
+	"Dietrich #0" = 0
+	"Eckbert #0" = 0
+	"Edzard #0" = 40
+	"Eilert #0" = 0
+	"Enhard #0" = 0
+	"Enno #0" = 40
+	"Erwin #0" = 0
+	"Everhard #0" = 10
+	"Fokke #0" = 0
+	"Friso #0" = 0
+	"George #0" = 10
+	"Gerhard #0" = 0
+	"Gerulf #0" = 0
+	"Gottschalk #0" = 0
+	"G0deke #0" = 0
+	"Hendrik #0" = 0
+	"Johan Ernst #0" = 0
+	"Johann #0" = 0
+	"Johanna #0" = -1
+	"Joseph #0" = 0
+	"Julius #0" = 0
+	"Keno #1" = 20
+	"Klaes #0" = 0
+	"Klaus #0" = 0
+	"Koenraad #0" = 0
+	"Kuno #0" = 0
+	"Liudgod #0" = 0
+	"Lubbert #0" = 0
+	"Maurits #0" = 0
+	"Menfrid #0" = 0
+	"Moritz #0" = 0
+	"Ocko #1" = 20
+	"Reginhard #0" = 0
+	"Reinhard #0" = 0
+	"Rudolf #0" = 10
+	"Siegfried #0" = 0
+	"Siemen #0" = 0
+	"Sjoerd #0" = 0
+	"Theda #0" = -10
+	"Thiadulf #0" = 0
+	"Thomas #0" = 0
+	"Ulrich #0" = 40
+	"Waltrud #0" = -1
+	"Wenzel #0" = 0
+	"Wiebe #0" = 0
+	"Wilbrand #0" = 0
+	"Wilfried #0" = 0
+	"Wilhelm #0" = 0
+	"Willem #0" = 0
+}
+leader_names = {
+	"Abdema"
+	"Aildesna"
+	"Allena"
+	"Beninga"
+	"Brok"
+	"Cirksena"
+	"Knyphausen"
+	"Manninga"
+	"Michels"
+	"Onneken"
+	"Störtebeker"
+	"Tjarksena"
+	"Ukena"
+	"Wichmann"
+	"Wiemken"
+	"Wigbold"
+	"tom"
+}
+ship_names = {
+	"Edewecht"
+	"Elsfleth"
+	"Hatten"
+	"Hude"
+	"Likedeelers"
+	"Rastede"
+	"Victualia"
+	"Wardenburg"
+	"Weifelstede"
+	"Zwischenahn"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

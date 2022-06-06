@@ -1,0 +1,13 @@
+owner = TLX
+controller = TLX
+capital = "Tlaxcala"
+is_city = yes
+culture = aztek
+religion = nahuatl
+trade_goods = sugar
+fort_15th = yes
+base_tax = 4
+base_production = 4
+base_manpower = 1
+add_core = TLX
+discovered_by = mesoamerican

@@ -1,0 +1,92 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 126 24 62 }
+revolutionary_colors = { 10 5 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Alliquippa #0" = -1
+	"Andra Sonque #0" = 10
+	"Auroghteregh #0" = 10
+	"Dahadaghesa #0" = 20
+	"Genessee #0" = -1
+	"Gosweinquecrakqua #0" = 10
+	"Kagoregago #0" = 10
+	"Konwatsitiaienni #0" = -1
+	"Nathheldaneh #0" = 10
+	"Rutchogah #0" = 10
+	"Saraqundett #0" = 10
+	"Satékon #0" = -1
+	"Sawahegeh #0" = 10
+	"Scarhuhadigh #0" = 10
+	"Tekakwitha #0" = -1
+	"Tyonajanegen #0" = -1
+	"Uwhanhierelera #0" = 10
+	"Waddon Hago #0" = 10
+	"Wanahedana #0" = 10
+	"Waskanecqua #0" = 10
+	"Wastahanda #0" = 10
+}
+leader_names = {
+	"Akhrakouaeronon"
+	"Akwinoshioni"
+	"Atquanachuke"
+	"Carentouan"
+	"Cepowig"
+	"Junita"
+	"Kaiuariegehaga"
+	"Kanastoge"
+	"Ohongeoguena"
+	"Onojutta-Haga"
+	"Oscalui"
+	"Quadroque"
+	"Scahentoarrhonon"
+	"Sconondihago"
+	"Seosquacke"
+	"Takoulguehronon"
+	"Tehaque"
+	"Tehotitachsae"
+	"Tesinigh"
+	"Unquehiett"
+	"Usququhaga"
+	"Utochwig"
+	"Wyoming"
+	"Wysox"
+}
+ship_names = {
+	"Adekagagwaa"
+	"Ataensic"
+	"Atahensic"
+	"Gah-oh"
+	"Gaol"
+	"Gendenwitha"
+	"Gohone"
+	"Ha Wen Neyu"
+	"Hahgwehdaetgan"
+	"Hahgwehdiyu"
+	"Jogah"
+	"Losheka"
+	"Oki"
+	"Onatha"
+	"Sosondowah"
+	"Tarhuhyiawahku"
+	"Ya-o-gah"
+	"Yosheka"
+}

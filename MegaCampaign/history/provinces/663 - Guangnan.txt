@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Guangnan"
+is_city = yes
+culture = bai
+religion = buddhism
+trade_goods = copper
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = CDL
+add_core = MNG
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group

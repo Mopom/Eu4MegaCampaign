@@ -1,0 +1,12 @@
+owner = HAW
+controller = HAW
+capital = "Kailua-Kona"
+is_city = yes
+culture = polynesian
+religion = animism
+trade_goods = livestock
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = HAW
+discovered_by = polynesian_tech

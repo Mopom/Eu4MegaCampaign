@@ -1,0 +1,88 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = hessian
+capital = 84
+1423.6.25= {
+	monarch = {
+		name = "Adolf VII"
+		dynasty = "von Jülich-Berg"
+		birth_date = 1370.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_connected_personality
+}
+1416.1.1= {
+	heir = {
+		name = "Gerhard"
+		monarch_name = "Gerhard I"
+		dynasty = "von Jülich-Berg"
+		birth_date = 1416.1.1
+		death_date = 1475.8.18
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1437.7.14= {
+	monarch = {
+		name = "Gerhard I"
+		dynasty = "von Jülich-Berg"
+		birth_date = 1416.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+}
+1455.1.9= {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm III"
+		dynasty = "von Jülich-Berg"
+		birth_date = 1455.1.9
+		death_date = 1511.9.6
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1475.8.18= {
+	monarch = {
+		name = "Wilhelm III"
+		dynasty = "von Jülich-Berg"
+		birth_date = 1455.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1806.3.15= {
+	monarch = {
+		name = "Joachim"
+		dynasty = "Murat"
+		birth_date = 1767.3.25
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1809.3.17= {
+	monarch = {
+		name = "Louis I"
+		culture = sardinian #Corsican
+		religion = catholic
+		dynasty = "Bonaparte"
+		birth_date = 1804.10.11
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

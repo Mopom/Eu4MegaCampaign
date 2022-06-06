@@ -1,0 +1,73 @@
+spriteTypes = {	
+
+	#Religion
+	spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx/interface/icon_religion.dds"
+		noOfFrames = 173
+		norefcount = yes
+	}	
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx/interface/icon_religion_small.dds"
+		noOfFrames = 173
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx/interface/icon_religion_small.dds"
+		transparencecheck = yes
+		noOfFrames = 173
+	}	
+	spriteType = {
+		name = "GFX_province_view_religion"
+		texturefile = "gfx/interface/province_view_religion.dds"
+		noOfFrames = 173
+		loadType = "INGAME"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface//country_icon_religion.dds"
+		noOfFrames = 173
+	}
+	
+	#Religious Strips
+	spriteType = {
+		name = "GFX_fetishists_strip"
+		texturefile = "gfx//interface//fetishists_strip.dds"
+		noOfFrames = 28
+	}
+	spriteType = {
+		name = "GFX_hindu_deities_strip"
+		texturefile = "gfx//interface//hindu_deities_strip.dds"
+		noOfFrames = 60
+	}
+	
+	#Blessings
+	spriteType = {
+		name = "GFX_mazdaki_blessing_select"
+		texturefile = "gfx//interface//zoroastrian_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_zurvanism_blessing_select"
+		texturefile = "gfx//interface//zoroastrian_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_gayomarthianism_blessing_select"
+		texturefile = "gfx//interface//zoroastrian_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_nestorian_blessing_select"
+		texturefile = "gfx//interface//nestorian_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+}

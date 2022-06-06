@@ -1,0 +1,5 @@
+capital = "Bourbon"
+trade_goods = unknown
+base_tax = 5
+base_production = 5
+base_manpower = 1

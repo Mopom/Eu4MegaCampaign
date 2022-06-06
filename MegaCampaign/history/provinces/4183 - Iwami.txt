@@ -1,0 +1,16 @@
+owner = YMN
+controller = YMN
+capital = "Hamada"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = fish
+base_tax = 4
+base_production = 2
+base_manpower = 2
+add_core = YMN
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

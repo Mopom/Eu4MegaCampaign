@@ -1,0 +1,8 @@
+sound = {
+	name = religion_converted_dynamic_faith_103
+	file = "tab_religion_india.wav"
+}
+sound = {
+	name = start_convert_converted_dynamic_faith_103
+	file = "start_conversion_eastern_hinduism.wav"
+}

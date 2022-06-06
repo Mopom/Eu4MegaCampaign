@@ -1,0 +1,40 @@
+union=
+{
+	first="Z1Z"
+	second="Z2L"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z0I"
+	second="Z0S"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z2R"
+	second="Z2S"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="GRE"
+	second="EPI"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="NAX"
+	second="Z13"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

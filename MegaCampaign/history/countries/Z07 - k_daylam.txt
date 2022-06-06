@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+technology_group = muslim
+religion = sunni
+primary_culture = mazandarani
+capital = 417
+religious_school = hanbali_school
+1444.11.11= {
+	monarch = {
+		name = "Javeed"
+		dynasty = "Mozaffarid"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1375.7.14
+		religion = sunni
+		culture = mazandarani
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Çilen"
+		dynasty = "Csertan"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = Z07
+		birth_date = 1384.12.17
+		death_date = 1444.12.17
+		female = yes
+		religion = sunni
+		culture = nogaybak
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Goshtasb"
+		monarch_name = "Goshtasb"
+		dynasty = "Mozaffarid"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1403.4.10
+		death_date = 1468.4.10
+		claim = 89
+		religion = sunni
+		culture = persian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 100
+	add_treasury = 69
+}

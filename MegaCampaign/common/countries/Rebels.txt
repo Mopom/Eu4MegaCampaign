@@ -1,0 +1,46 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 30 30 30 }
+historical_idea_groups = {
+	administrative_ideas
+	quantity_ideas
+	defensive_ideas
+	humanist_ideas
+	trade_ideas
+	quality_ideas
+	economic_ideas
+	maritime_ideas
+}
+monarch_names = {
+	"Alexandra #0" = -1
+	"Boel #0" = -1
+	"Corneles #0" = 10
+	"Daniel #0" = 10
+	"David #0" = 10
+	"Eric #0" = 10
+	"Hendrik #0" = 10
+	"Jacob #0" = 10
+	"John #0" = 10
+	"Mahieu #0" = 10
+	"Miriam #0" = -1
+	"Moise #0" = 10
+	"Piet #0" = 10
+	"Regina #0" = -1
+}
+leader_names = {
+	"Angre"
+	"Anstis"
+	"Chivers"
+	"Condent"
+	"Condon"
+	"Coxon"
+	"Dalzeel"
+	"Hout"
+	"Lowther"
+	"Quelch"
+	"Searle"
+	"Spriggs"
+	"Vane"
+	"Vynne"
+	"Worley"
+}

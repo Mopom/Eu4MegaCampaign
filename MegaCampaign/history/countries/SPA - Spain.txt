@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 3
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = dynamic-andalucian-berber-culture-num1
+capital = 225
+mercantilism = 15
+1444.11.11= {
+	monarch = {
+		name = "Mariam"
+		dynasty = "Jabbarid"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1386.4.6
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-berber-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Kodama"
+		dynasty = "Tarawaile"
+		adm = 6
+		dip = 4
+		mil = 5
+		country_of_origin = SPA
+		birth_date = 1393.3.13
+		death_date = 1453.3.13
+		religion = sunni
+		culture = dynamic-mali-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Zahra"
+		monarch_name = "Zahra"
+		dynasty = "Jabbarid"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1423.3.5
+		death_date = 1488.3.5
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-berber-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 112
+	add_treasury = 62
+}

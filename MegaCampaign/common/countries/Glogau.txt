@@ -1,0 +1,105 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 5 171 147 }
+revolutionary_colors = { 14 8 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albert #0" = 0
+	"Aleksander #0" = 0
+	"Andel #0" = 0
+	"Andrea #0" = -1
+	"August #0" = 10
+	"Branko #0" = 0
+	"Bruno #0" = 0
+	"Cezar #0" = 0
+	"Dietrich #0" = 0
+	"Ernest #0" = 10
+	"Eugeniusz #0" = 0
+	"Filip #0" = 0
+	"Fryderyk #0" = 80
+	"Heinrike #0" = -1
+	"Henryk #8" = 40
+	"Hermann #0" = 0
+	"Ilona #0" = -1
+	"Jan #0" = 40
+	"Jan Jerzy #0" = 15
+	"Jan Krystian #0" = 20
+	"Jerzy #0" = 20
+	"Jerzy Ernest #0" = 15
+	"Jerzy Rudolf #0" = 20
+	"Jerzy Wilhelm #0" = 20
+	"Joachim #0" = 10
+	"Joachim Fryderyk #0" = 20
+	"Krystian #0" = 20
+	"Krystian Ludwik #0" = 10
+	"Krzysztof #0" = 0
+	"Lech #0" = 0
+	"Libor #0" = 0
+	"Ludwik #2" = 20
+	"Markus #0" = 0
+	"Maurycy #0" = 0
+	"Radomir #0" = 0
+	"Rudolf #0" = 10
+	"Ruprecht #1" = 20
+	"Siegfried #0" = 0
+	"Tom0s #0" = 0
+	"V0clav #0" = 0
+	"Wilhelm #0" = 0
+	"Wladislaw #1" = 5
+}
+leader_names = {
+	"Abeln"
+	"Greve"
+	"Gronau"
+	"Heintzel"
+	"Hergesell"
+	"Hoppe"
+	"Jauernik"
+	"Kahl"
+	"Liegnitz"
+	"Schwarz"
+	"Sterner"
+	"Tilch"
+	"Wiehle"
+}
+ship_names = {
+	"Breslau"
+	"Cosel-Beuthen"
+	"Falkenberg"
+	"Glogau"
+	"Liegnitz-Brieg"
+	"Münsterberg"
+	"Neisse-Ottmachau"
+	"Oels"
+	"Oppeln"
+	"Ratibor"
+	"Sagan"
+	"Schweidnitz-Jauer"
+	"Steinau"
+	"Teschen"
+}

@@ -1,0 +1,2 @@
+discovered_by = MCA
+discovered_by = south_american

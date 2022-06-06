@@ -1,0 +1,307 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 108 48 130 }
+revolutionary_colors = { 2 0 2 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_azab
+	ottoman_janissary
+	ottoman_lancer
+	ottoman_musellem
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_timariot
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	ottoman_yaya
+}
+monarch_names = {
+	"Abdulaziz #0" = 0
+	"Abdullah #0" = 0
+	"Abdulmalik #0" = 0
+	"Abdulrahman #0" = 0
+	"Abd0lhamid #0" = 0
+	"Abd0lmecid #0" = 0
+	"Ahmed #1" = 20
+	"Alaaddin #0" = 0
+	"Ali #0" = 0
+	"Cem #0" = 0
+	"Cevriye #0" = -1
+	"Cihangir #0" = 0
+	"Davud #0" = 0
+	"D0ndar #0" = 0
+	"Eyl0k #0" = 0
+	"Fatma #0" = -1
+	"Gamze #0" = -1
+	"Giyasuddin #0" = 0
+	"Habibe #0" = -1
+	"Halil #0" = 0
+	"Hamza #0" = 0
+	"Hanife #0" = -1
+	"Hasan #0" = 0
+	"Havva #0" = -1
+	"Hizir #0" = 0
+	"H0seyin #0" = 0
+	"Ibrahim #1" = 20
+	"Ilyas #0" = 0
+	"Isa #0" = 0
+	"Ishak #0" = 0
+	"Iskender #0" = 0
+	"Kamer #0" = 0
+	"Kasim #0" = 0
+	"Korkud #0" = 0
+	"Kubad #0" = 0
+	"Mehmed #1" = 20
+	"Melis #0" = -1
+	"Mentese #1" = 20
+	"Mesud #1" = 20
+	"Murad #0" = 0
+	"Musa #1" = 20
+	"Numan #0" = 0
+	"Orhan #1" = 0
+	"Rabia #0" = -1
+	"Safiye #0" = -1
+	"Selim #0" = 0
+	"Seyfettin #0" = 0
+	"S0leyman #0" = 0
+	"Umut #0" = -1
+	"Yakub #0" = 0
+	"Yusuf #0" = 0
+	"Ziynet #0" = -1
+	"Z0beyde #0" = -1
+	"0mer #0" = 0
+}
+leader_names = {
+	"Alemdar"
+	"Amasyali"
+	"Ayas"
+	"Bali"
+	"Barbaros"
+	"Bayram"
+	"Cerrah"
+	"Cezzar"
+	"Civan"
+	"Damad"
+	"Defterdar"
+	"Dervis"
+	"Gazi"
+	"Gedik"
+	"Gümülcineli"
+	"Gürcü"
+	"Hadim"
+	"Hekimoglu"
+	"Hersekli"
+	"Ishak"
+	"Izzed"
+	"Kanijeli"
+	"Kara"
+	"Karamanli"
+	"Kavalali"
+	"Kaymak"
+	"Kemal"
+	"Kemankes"
+	"Koca"
+	"Köprülü"
+	"Köse"
+	"Küçük"
+	"Lala"
+	"Lefkeli"
+	"Malkoç"
+	"Müezzinzade"
+	"Nevsehirli"
+	"Nisanci"
+	"Oflu"
+	"Ohrili"
+	"Oruç"
+	"Osmancikli"
+	"Pargali"
+	"Pehlivan"
+	"Piri"
+	"Piyale"
+	"Rumi"
+	"Salih"
+	"Sari"
+	"Semiz"
+	"Serdar"
+	"Silahdar"
+	"Sokullu"
+	"Tarhuncu"
+	"Tayyar"
+	"Topal"
+	"Turgut"
+	"Uluç"
+	"Veli"
+	"Yemisçi"
+	"Çandarli"
+	"Çelebi"
+	"Çerkes"
+	"Çuhadar"
+}
+ship_names = {
+	"Adakli"
+	"Ahirli"
+	"Ahlat"
+	"Akhisar"
+	"Akka"
+	"Akseki"
+	"Akyaka"
+	"Akçaabat"
+	"Alanya"
+	"Alparslan"
+	"Amasra"
+	"Arifiye"
+	"Atakum"
+	"Aydin"
+	"Ayvacik"
+	"Ayvalik"
+	"Aziziye"
+	"Bafra"
+	"Balya"
+	"Baykan"
+	"Belen"
+	"Bereket"
+	"Biga"
+	"Bigadiç"
+	"Bodrum"
+	"Bolvadin"
+	"Boyabat"
+	"Bozüyük"
+	"Bucak"
+	"Canik"
+	"Carsamba"
+	"Ceyhan"
+	"Dalaman"
+	"Darica"
+	"Dicle"
+	"Dinar"
+	"Divrigi"
+	"Dodurga"
+	"Edremit"
+	"Ejder"
+	"Elmali"
+	"Emet"
+	"Enez"
+	"Eregli"
+	"Ergani"
+	"Ermenek"
+	"Erzin"
+	"Ezine"
+	"Fatsa"
+	"Feke"
+	"Fethiye"
+	"Findikli"
+	"Finike"
+	"Firat"
+	"Galata"
+	"Gelibolu"
+	"Gemlik"
+	"Gerede"
+	"Germiyan"
+	"Göce"
+	"Gönen"
+	"Görele"
+	"Göynük"
+	"Güdül"
+	"Gürsu"
+	"Hamidiye"
+	"Hassa"
+	"Havran"
+	"Havsa"
+	"Havza"
+	"Haymana"
+	"Hayrat"
+	"Heybetnüma"
+	"Honaz"
+	"Hüdavendigar"
+	"Ihsaniye"
+	"Incehisar"
+	"Inegöl"
+	"Ipsala"
+	"Iskilip"
+	"Kadirli"
+	"Kahta"
+	"Kalecik"
+	"Kandira"
+	"Kangal"
+	"Kavak"
+	"Kazan"
+	"Kelkit"
+	"Kepez"
+	"Konstantiniyye"
+	"Korgun"
+	"Korkuteli"
+	"Kozan"
+	"Kozlu"
+	"Kumluca"
+	"Kusadasi"
+	"Kuyucak"
+	"Kuzlum"
+	"Ladik"
+	"Lapseki"
+	"Laçin"
+	"Lice"
+	"Mahabet"
+	"Malazgirt"
+	"Manavgat"
+	"Manyas"
+	"Maçka"
+	"Mecidiye"
+	"Meriç"
+	"Mesudiye"
+	"Milas"
+	"Muradiye"
+	"Nallihan"
+	"Nazilli"
+	"Niksar"
+	"Nilüfer"
+	"Nizip"
+	"Of"
+	"Orhaniye"
+	"Osmaniye"
+	"Polatli"
+	"Resadiye"
+	"Safranbolu"
+	"Saka"
+	"Sandikli"
+	"Saray"
+	"Saruhan"
+	"Seben"
+	"Serik"
+	"Seyhan"
+	"Sivrihisar"
+	"Solhan"
+	"Sultandagi"
+	"Sultanhisar"
+	"Sögüt"
+	"Söke"
+	"Sürmene"
+	"Tavas"
+	"Tayyar"
+	"Terme"
+	"Timsah"
+	"Vakfikebir"
+	"Yatagan"
+	"Yunus"
+	"Zile"
+	"Zuhaf"
+	"Çaykara"
+	"Çivril"
+	"Çumra"
+	"Ünye"
+}

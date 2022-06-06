@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = eastern
+religion = catholic
+primary_culture = transylvanian
+capital = 4128
+1444.11.11= {
+	monarch = {
+		name = "Péter II"
+		dynasty = "Árpád-Višegrad"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1413.11.26
+		religion = catholic
+		culture = transylvanian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Sbyslava"
+		dynasty = "Dunkeld"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = HUN
+		birth_date = 1414.2.1
+		death_date = 1474.2.1
+		female = yes
+		religion = catholic
+		culture = dynamic-polish-russian_culture-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Csaba"
+		monarch_name = "Csaba II"
+		dynasty = "Árpád-Višegrad"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.8.19
+		death_date = 1508.8.19
+		claim = 89
+		religion = catholic
+		culture = hungarian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 72
+	add_treasury = 40
+}

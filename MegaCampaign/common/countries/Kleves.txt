@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 173 176 113 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Achilles #0" = 10
+	"Adolf #0" = 20
+	"Albrecht #0" = 0
+	"Amber #0" = -1
+	"Barnabas #0" = 0
+	"Burkhard #0" = 0
+	"Carla #0" = -1
+	"Denis #0" = 0
+	"Eberhard #0" = 0
+	"Elmer #0" = 0
+	"Engelbert #0" = 5
+	"Erich #0" = 0
+	"Georgina #0" = -1
+	"Gerhard #0" = 0
+	"Gottlieb #0" = 0
+	"Gregor #0" = 0
+	"Hagan #0" = 0
+	"Helmut #0" = 0
+	"Heribert #0" = 0
+	"Isaak #0" = 0
+	"Isidor #0" = 0
+	"Ivo #0" = 0
+	"Joachim #0" = 20
+	"Johann #0" = 60
+	"Johann Wilhelm #0" = 20
+	"Joseph #0" = 0
+	"Karl Friedrich #0" = 10
+	"Kaspar #0" = 0
+	"Kreszenz #0" = 0
+	"Lothar #0" = 0
+	"Mathias #0" = 0
+	"Oskar #0" = 0
+	"Philipp #8" = 5
+	"Reimund #0" = 0
+	"Siegfried #0" = 0
+	"Stefan #0" = 0
+	"Thomas #0" = 0
+	"Walter #0" = 0
+	"Wenzel #0" = 0
+	"Werner #0" = 0
+	"Wilhelm #0" = 20
+	"Wolfram #0" = 0
+}
+leader_names = {
+	"Angenendt"
+	"Becker"
+	"Becking"
+	"Contze"
+	"Cronenberg"
+	"Dennessen"
+	"Derksen"
+	"Engelbronner"
+	"Holler"
+	"Jenster"
+	"Kroeger"
+	"Meurs"
+	"Nagel"
+	"Rundt"
+	"Sinsteden"
+	"Van Gelder"
+	"von Beinom"
+	"von Oven"
+}
+ship_names = {
+	"Adolf von Kleve"
+	"Agnes"
+	"Arnold I von Kleve"
+	"Arnold II von Kleve"
+	"Dietrich von Kleve"
+	"Elisabeth"
+	"Gerhard von Kleve"
+	"Johann I von Kleve"
+	"Johann II von Kleve"
+	"Margarete"
+	"Mathilde"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

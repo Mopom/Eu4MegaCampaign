@@ -1,0 +1,112 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 111 162 128 }
+revolutionary_colors = { 1 16 1 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"August #0" = 10
+	"Bruno #0" = 0
+	"Christian Eberhard #0" = 10
+	"Christoph #0" = 20
+	"Dieter #0" = 0
+	"Eberhard #2" = 100
+	"Emanuel #0" = 0
+	"Florian #0" = 0
+	"Friedrich #0" = 40
+	"Friedrich Achilles #0" = 10
+	"Friedrich Eugen #0" = 20
+	"Friedrich Ludwig #0" = 15
+	"Georg #0" = 15
+	"Georg Friedrich #0" = 10
+	"Hartmann #0" = 0
+	"Heinrich #0" = 15
+	"Joachim #0" = 0
+	"Joachim Friedrich #0" = 10
+	"Johann Friedrich #0" = 20
+	"Julius Friedrich #0" = 10
+	"Karl #0" = 20
+	"Karl Eugen #0" = 20
+	"Kreszenz #0" = 0
+	"Ludwig #0" = 50
+	"Ludwig Eugen #0" = 20
+	"Magnus #0" = 10
+	"Manfred #0" = 0
+	"Maximilian #0" = 10
+	"Paul #0" = 10
+	"Philipp Friedrich #0" = 10
+	"Raimund #0" = 0
+	"Renata #0" = -1
+	"Siegbert #0" = 0
+	"Sieglinde #0" = -1
+	"Tobias #0" = 0
+	"Ulrich #4" = 60
+	"Ulrike #0" = -1
+	"Wilhelm #0" = 20
+	"Wilhelm Ludwig #0" = 20
+}
+leader_names = {
+	"Breitmayer"
+	"Danhauser"
+	"Gohl"
+	"Gute"
+	"Helber"
+	"Henke"
+	"Kircher"
+	"Klein"
+	"Knapp"
+	"Kopp"
+	"Meck"
+	"Roether"
+	"Schupp"
+	"Stütz"
+	"Sülzle"
+	"Veit"
+	"Vietz"
+	"Vogel"
+	"Weber"
+	"Wieland"
+	"Wurst"
+}
+ship_names = {
+	"Balingen"
+	"Graf Eberhard III"
+	"Graf Ulrich I"
+	"Graf Ulrich III"
+	"Gräfin Henriette"
+	"Gräfin Mechthild"
+	"Konrad Wirtemberg"
+	"Marbach"
+	"Mömpelgard"
+	"Neuffen"
+	"Stuttgart"
+	"Wirtemberg"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

@@ -1,0 +1,220 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 26 53 177 }
+revolutionary_colors = { 0 5 13 }
+historical_idea_groups = {
+	naval_ideas
+	offensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Bu #0" = 10
+	"Busik #0" = 0
+	"Byeon #0" = 10
+	"Byong-hi #0" = 0
+	"Chae-ho #0" = 0
+	"Chang-ho #0" = 0
+	"Cho #0" = 10
+	"Chung-hee #0" = 0
+	"Chung-heon #0" = 0
+	"Chwa-jin #0" = 0
+	"Dae-seung #0" = 0
+	"Dae-yong #0" = 0
+	"Deokgi #0" = 0
+	"Eok-gi #0" = 0
+	"Gam-chan #0" = 0
+	"Geon #0" = 0
+	"Geum #0" = 10
+	"Gong #0" = 10
+	"Gu #0" = 10
+	"Gwang #0" = 10
+	"Gwanghyeon #0" = 0
+	"Gwangjo #0" = 0
+	"Gyeonghyeon #0" = -1
+	"Gyun #0" = 0
+	"Ha-eung #0" = 10
+	"Haeng #0" = 10
+	"Hee-woon #0" = 0
+	"Ho #0" = 10
+	"Hon #0" = 10
+	"Hong-rip #0" = 0
+	"Hongdo #0" = 0
+	"Honghi #0" = 0
+	"Hongwi #0" = 10
+	"Hwan #0" = 10
+	"Hwang #0" = 0
+	"Hwon #0" = 10
+	"Hyejeong #0" = -1
+	"Hyeol #0" = 10
+	"Hyeon #0" = 10
+	"Hyesun #0" = -1
+	"Hyohye #0" = -1
+	"Hyosun #0" = -1
+	"Il #0" = 0
+	"Im #0" = 0
+	"In-seon #0" = 0
+	"Insun #0" = -1
+	"Jae-sang #0" = 0
+	"Jae-suk #0" = 0
+	"Jae-u #0" = 0
+	"Jangchun #0" = 0
+	"Jeong-an #0" = -1
+	"Jeonghye #0" = -1
+	"Jeonghyu #0" = -1
+	"Jeongmyeong #0" = -1
+	"Jeongsin #0" = -1
+	"Jeongsuk #0" = -1
+	"Ji #0" = 10
+	"Jiwon #0" = 0
+	"Jong #0" = 10
+	"Jong-seo #0" = 0
+	"Jong-un #0" = 0
+	"Jongmu #0" = 0
+	"Jun #0" = 0
+	"Kang #0" = 10
+	"Mok #0" = 0
+	"Munsu #0" = 0
+	"Museon #0" = 0
+	"Myeongbok #0" = 10
+	"Myung-shin #0" = 0
+	"Rip #0" = 0
+	"San #0" = 10
+	"Se-young #0" = 0
+	"Seon #0" = 10
+	"Seong-ryong #0" = 0
+	"Seung-man #0" = 0
+	"Si-min #0" = 0
+	"Sukju #0" = 0
+	"Sun #0" = 10
+	"Sun-sin #0" = 0
+	"Sung-gyeom #0" = 0
+	"Tak #0" = 0
+	"Tong-jeon #0" = 0
+	"U #0" = 0
+	"Uihye #0" = -1
+	"Un #0" = 10
+	"Wi #0" = 0
+	"Wonjong #0" = 0
+	"Yakyong #0" = 0
+	"Yeok #0" = 10
+	"Yeon #0" = 10
+	"Yeong #0" = 10
+	"Yeong-sil #0" = 0
+	"Yong-bok #0" = 0
+	"Yu #0" = 10
+	"Yu-sin #0" = 0
+	"Yul #0" = 0
+	"Yun #0" = 10
+	"Yun-ui #0" = 0
+	"Yung #0" = 10
+}
+leader_names = {
+	"An"
+	"Bae"
+	"Baek"
+	"Ban"
+	"Bang"
+	"Chae"
+	"Cho"
+	"Choi"
+	"Dae"
+	"Do"
+	"Du"
+	"Ga"
+	"Gang"
+	"Go"
+	"Gye"
+	"Gyeong"
+	"Ha"
+	"Han"
+	"Heo"
+	"Hong"
+	"Hwang"
+	"Jang"
+	"Jeon"
+	"Jeong"
+	"Jin"
+	"Ki"
+	"Kim"
+	"Kwak"
+	"Kwon"
+	"Lim"
+	"Ma"
+	"Min"
+	"Mun"
+	"Na"
+	"Nam"
+	"Noh"
+	"O"
+	"Pak"
+	"Seo"
+	"Seok"
+	"Shin"
+	"Sim"
+	"Son"
+	"Song"
+	"Sung"
+	"Wang"
+	"Won"
+	"Woo"
+	"Yang"
+	"Yi"
+	"Yu"
+	"Yun"
+}
+ship_names = {
+	"Baekdu"
+	"Baekje"
+	"Buyeo"
+	"Chilbosan"
+	"Daedeok"
+	"Dongmyeongseong"
+	"Duman"
+	"Eulji Mundeok"
+	"Gayasan"
+	"Geumgang"
+	"Geumho"
+	"Goguryeo"
+	"Gumiho"
+	"Gyeon Hwon"
+	"Habaek"
+	"Haemosu"
+	"Hanseong"
+	"Hwaeomsa"
+	"Imjingang"
+	"Inmyeonjo"
+	"Jang Bogo"
+	"Jangbaek"
+	"Jeong Do-jeon"
+	"Jeongjong"
+	"Jirisan"
+	"Kumgangsan"
+	"Myohyangsan"
+	"Nakdong"
+	"Samjogo"
+	"Silla"
+	"Sincheon"
+	"Sobaek"
+	"Taebaek"
+	"Taejo"
+	"Worak"
+	"Yeon Gaesomun"
+	"Yeong"
+	"Yi Seong-gye"
+	"Yuhwa"
+}

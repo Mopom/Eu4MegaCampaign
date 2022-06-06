@@ -1,0 +1,122 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 178 145 87 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+	quantity_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #1" = 20
+	"Albrecht #1" = 40
+	"Alexis #0" = -1
+	"Anselm Franz #0" = 20
+	"Anselm Kasimir #0" = 20
+	"Berthold #0" = 20
+	"Christian #3" = 10
+	"Damian Hartrad #0" = 20
+	"Daniel Brendel #0" = 20
+	"Dieter #0" = 20
+	"Dietrich #0" = 20
+	"Emmerich Joseph #0" = 20
+	"Franz Ludwig #0" = 20
+	"Friedrich Karl Joseph #0" = 20
+	"Georg Friedrich #0" = 20
+	"Gerhard #2" = 10
+	"Gottfried #0" = 0
+	"Heinrich #3" = 10
+	"Hieronymus #0" = 0
+	"Jakob #0" = 20
+	"Johann #1" = 20
+	"Johann Adam #0" = 20
+	"Johann Friedrich Karl #0" = 20
+	"Johann Philipp #0" = 20
+	"Johann Schweikhard #0" = 20
+	"Karl Heinrich #0" = 20
+	"Karl Theodor #0" = 20
+	"Konrad #2" = 20
+	"Lothar Franz #0" = 20
+	"Lothar Friedrich #0" = 20
+	"Ludwig #1" = 15
+	"Markus #0" = 0
+	"Matthias #1" = 15
+	"Peter #1" = 15
+	"Philipp Karl #0" = 20
+	"Raphael #0" = 0
+	"Sebastian #0" = 20
+	"Siegfried #3" = 10
+	"Sylvia #0" = -1
+	"Uriel #0" = 20
+	"Werner #2" = 10
+	"Wilhelmine #0" = -1
+	"Wolfgang #0" = 20
+}
+leader_names = {
+	"Alfter"
+	"Allendorf"
+	"Assmann"
+	"Barth"
+	"Becker"
+	"Betz"
+	"Bopp"
+	"Bornschlegel"
+	"Dude"
+	"Dörrenbecher"
+	"Eins"
+	"Fust"
+	"Grob"
+	"Göhler"
+	"Haas"
+	"Heidelberger"
+	"Ickstadt"
+	"Lawall"
+	"Pittschaft"
+	"Schmitt"
+	"Schoeneberger"
+	"Storck"
+	"Volz"
+}
+ship_names = {
+	"Hagenmünster"
+	"St. Alban"
+	"St. Aureus"
+	"St. Christoph"
+	"St. Emmeran"
+	"St. Georg"
+	"St. Ignaz"
+	"St. Johannes"
+	"St. Lambert"
+	"St. Maria"
+	"St. Nicomedes"
+	"St. Peter"
+	"St. Quintin"
+	"St. Theonest"
+	"Udenmünster"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Erzbischofliche Garde"
+}

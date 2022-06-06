@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 166 72 57 }
+revolutionary_colors = { 13 0 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aaqila #0" = -1
+	"Adriana #0" = -1
+	"Aigidia #0" = -1
+	"Amira #0" = -1
+	"Anna #0" = -1
+	"Bastina #0" = -1
+	"Biljana #0" = -1
+	"Bulughan #0" = -1
+	"Djillakh #0" = 0
+	"Hussayn #0" = 0
+	"Hypatia #0" = -1
+	"Igmi #0" = 0
+	"Josip #0" = 0
+	"Khatira #0" = -1
+	"Konstas #0" = 0
+	"Megistos #0" = 0
+	"Mislav #0" = 0
+	"Mukhtar #0" = 0
+	"Nabil #0" = 0
+	"Nada #0" = -1
+	"Nataša #0" = -1
+	"Ninoslav #0" = 0
+	"Nura #0" = -1
+	"Pantoleon #0" = 0
+	"Paschalis #0" = 0
+	"Tarifa #0" = -1
+	"Theodosios #1" = 10
+	"Theodrada #0" = -1
+	"Traianos #0" = 0
+	"Tryphon #0" = 0
+	"Zacharias #2" = 10
+}
+leader_names = {
+	"Bojovic"
+	"Drascovic"
+	"Gingic"
+	"Hracovec"
+	"Jovanovic"
+	"Lazarevic"
+	"Marcovic"
+	"Obilic"
+	"Obrenovic"
+	"Pertrovic"
+	"Postek"
+	"Putnik"
+}
+ship_names = {
+	"Bosnia"
+	"Duklja"
+	"Milutin"
+	"Pagania"
+	"Raska"
+	"Stefan Dusan"
+	"Stefan Nemanja"
+	"Stefan Prvovencani"
+	"Travunia"
+	"Zahumlje"
+}

@@ -1,0 +1,78 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 129 161 87 }
+revolutionary_colors = { 13 5 10 }
+historical_idea_groups = {
+	quantity_ideas
+	spy_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ajit Singh #0" = 10
+	"Anant #0" = 20
+	"Bahadur Singh #0" = 10
+	"Balbhadra Singh #0" = 10
+	"Durgavati #0" = -1
+	"Durjan Sal #0" = 20
+	"Hirai #0" = -1
+	"Jaswant Singh #0" = 10
+	"Madhu Singh #0" = 20
+	"Maharato #1" = 10
+	"Medini #0" = 20
+	"Narendra Rudra #0" = 10
+	"Pratap #0" = 20
+	"Ratna Kuvar #0" = -1
+	"Sheo Singh #0" = 10
+}
+leader_names = {
+	"Baiga"
+	"Bedia"
+	"Birjia"
+	"Chero"
+	"Gorait"
+	"Kanwar"
+	"Kharia"
+	"Kol"
+	"Santhal"
+	"Savar"
+}
+ship_names = {
+	"Betwa"
+	"Devi"
+	"Durga"
+	"Gandak"
+	"Ganga"
+	"Gayatri"
+	"Ghagra"
+	"Gomti"
+	"Jalsena"
+	"Kala Jahazi"
+	"Ken"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ramganga"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Satlaj"
+	"Sita"
+	"Yamuna"
+}

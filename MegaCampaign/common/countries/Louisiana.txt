@@ -1,0 +1,254 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 144 52 53 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	maritime_ideas
+	plutocracy_ideas
+	spy_ideas
+	offensive_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Albert #0" = 5
+	"Alexandre #0" = 0
+	"Andr0 #0" = 0
+	"Barth0l0my #0" = 0
+	"Beno0t #0" = 0
+	"Bertrand #0" = 0
+	"Charles #0" = 10
+	"Christophe #0" = 0
+	"Cl0ment #0" = 0
+	"Daniel #0" = 0
+	"Denis #0" = 0
+	"Didier #0" = 0
+	"Eug0ne #0" = 0
+	"Fran0ois #0" = 0
+	"F0licienne #0" = -1
+	"F0lix #0" = 0
+	"Gaspard #0" = 0
+	"Henri #0" = 20
+	"H0lo0se #0" = -1
+	"Isidore #0" = 0
+	"Jean #0" = 0
+	"Jean Baptiste #0" = 0
+	"Joseph #0" = 0
+	"Laurent #0" = 0
+	"Louis #0" = 20
+	"Lucille #0" = -1
+	"L0onard #0" = 0
+	"Marc #0" = 0
+	"Narcisse #0" = 0
+	"Olivier #0" = 0
+	"Philippe #0" = 0
+	"Pierre #0" = 10
+	"Raymond #0" = 0
+	"Simon #0" = 5
+	"S0bastien #0" = 0
+	"Thibault #0" = 0
+	"Thierry #0" = 0
+	"Victor #0" = 0
+	"Xavier #0" = 0
+	"Yves #0" = 0
+	"Z0phirin #0" = 0
+	"0mile #0" = 0
+}
+leader_names = {
+	"Abat"
+	"Aguilar"
+	"Allard"
+	"Astier"
+	"Azeret"
+	"Ballard"
+	"Barbarin"
+	"Beauregard"
+	"Beauvais"
+	"Bellevue"
+	"Bertonière"
+	"Blanchard"
+	"Bouligny"
+	"Broussian"
+	"Bénard"
+	"Chauvin"
+	"Courcelli"
+	"D'Abbadie"
+	"Dabeville"
+	"Davezac"
+	"Delagnoue"
+	"Delaire"
+	"Delorme"
+	"Dubreuil"
+	"Duclos"
+	"Dufour"
+	"Duvergier"
+	"Fabre"
+	"Ferrière"
+	"Florance"
+	"Fortier"
+	"Foucher"
+	"Fournier"
+	"Garnier"
+	"Gasquet"
+	"Girod"
+	"Guesnard"
+	"L'Hermite"
+	"Labadie"
+	"Labarre"
+	"Laborde"
+	"Labranche"
+	"Lachaise"
+	"Lacoste"
+	"Lacouture"
+	"Lacroix"
+	"Lafarge"
+	"Lafaye"
+	"Lafourche"
+	"Lallande"
+	"Lamothe"
+	"Landreaux"
+	"Lanusse"
+	"Lapeyre"
+	"Laporte"
+	"Laroche"
+	"Latour"
+	"Laville"
+	"Le Moyne"
+	"Leblanc"
+	"Leprêtre"
+	"Lesparre"
+	"Levasseur"
+	"Livaudais"
+	"Lombard"
+	"Mansoury"
+	"Marigny"
+	"Milhet"
+	"Millaudon"
+	"Montegut"
+	"Musson"
+	"Paimboeuf"
+	"Paturel"
+	"Pecquet"
+	"Pelletier"
+	"Perrault"
+	"Pilie"
+	"Plicque"
+	"Périer"
+	"Renault"
+	"Rillieux"
+	"Rivière"
+	"Rochelle"
+	"Roussel"
+	"Saint-Blancard"
+	"Saint-Martin"
+	"Salaignac"
+	"Salvant"
+	"Seignouret"
+	"Simard"
+	"Terrasson"
+	"Tourangier"
+	"Valette"
+	"Vidal"
+	"Vignie"
+	"Villere"
+	"Vinot"
+	"de La Houssaye"
+}
+ship_names = {
+	"Abbeville"
+	"Acadie"
+	"Aigrette"
+	"Allemagne"
+	"Alligator"
+	"Amite"
+	"Ascension"
+	"Assumption"
+	"Atakpas"
+	"Avoyelles"
+	"Babylone"
+	"Bayou"
+	"Bayougoula"
+	"Beau Pays"
+	"Bienville"
+	"Biloxi"
+	"Bâton Rouge"
+	"Caddo"
+	"Calcasieu"
+	"Catahoula"
+	"Choctaw"
+	"Delcambre"
+	"Detours des Anglais"
+	"Detroit"
+	"Feliciana"
+	"Florida"
+	"Fort Condé"
+	"Fort Maurepas"
+	"Fort de Chartres"
+	"Fort de La Boulaye"
+	"Houma"
+	"Iberia"
+	"Iberville"
+	"Invincible"
+	"Istrouma"
+	"L'Ursuline"
+	"La Balize"
+	"La Batre"
+	"La Salle"
+	"Lafourche"
+	"Le Creole"
+	"Les Arcs"
+	"Les Opelousas"
+	"Louisiana"
+	"Manchac"
+	"Mississippi"
+	"Mobile"
+	"Muscogee"
+	"Natchitoches"
+	"New Orleans"
+	"Notre Dame"
+	"Opelousas"
+	"Peoria"
+	"Plaquemines"
+	"Pointe Coupee"
+	"Pointe à la Hache"
+	"Prompt Succor"
+	"Pélican"
+	"Queue de Tortue"
+	"Rapides"
+	"Sabine"
+	"Saint Charles"
+	"Saint Helena"
+	"Saint James"
+	"Saint Louis"
+	"Saint Mary"
+	"Saint Pierre"
+	"Tangipahoa"
+	"Tchoupic"
+	"Teche"
+	"Tensas"
+	"Terrebonne"
+	"Thibodaux"
+	"Tickfaw"
+	"Ville Platte"
+	"Écrevisse"
+}
+colonial_parent = FRA

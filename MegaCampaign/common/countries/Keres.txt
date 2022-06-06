@@ -1,0 +1,72 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 162 28 58 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	native_indian_archer
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Bolsas #0" = 20
+	"Catiti #0" = 20
+	"Galisteo #0" = 20
+	"Ku-htihth #0" = 20
+	"Naranjo #0" = 20
+	"Ollito #0" = 20
+	"Ootcakao #0" = -1
+	"Pop0 #0" = 20
+	"Spider #0" = -1
+	"Tagu #0" = 20
+	"Wanna #0" = -1
+	"Xenome #0" = 20
+}
+leader_names = {
+	"Acoma"
+	"Cochiti"
+	"Hopi"
+	"Isleta"
+	"Jemez"
+	"Laguna"
+	"Nambe"
+	"Ohkay Owingeh"
+	"Picuris"
+	"Piru"
+	"Pojoaque"
+	"Sandia"
+	"Taos"
+	"Tesuque"
+	"Zia"
+	"Zuni"
+}
+ship_names = {
+	"Acoma"
+	"Cochiti"
+	"Hopi"
+	"Isleta"
+	"Jemez"
+	"Laguna"
+	"Nambe"
+	"Ohkay Owingeh"
+	"Picuris"
+	"Piru"
+	"Pojoaque"
+	"Sandia"
+	"Taos"
+	"Tesuque"
+	"Zia"
+	"Zuni"
+}

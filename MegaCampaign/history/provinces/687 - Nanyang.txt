@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Nanyang"
+is_city = yes
+culture = zhongyuan
+religion = confucianism
+trade_goods = gems
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = LNG
+add_core = MNG
+add_core = TNG
+discovered_by = chinese
+discovered_by = nomad_group

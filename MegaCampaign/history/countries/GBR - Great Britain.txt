@@ -1,0 +1,237 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = western
+religion = protestant
+primary_culture = english
+capital = 236
+add_accepted_culture = scottish
+add_accepted_culture = welsh
+1536.1.1= { decision = dissolution_of_the_monasteries }
+1549.1.1= { decision = act_of_uniformity }
+1580.1.1= { decision = enlist_privateers }
+1673.1.1= { decision = test_act }
+1702.3.8= {
+#	decision = establish_the_wooden_wall
+	monarch = {
+		name = "Anne I"
+		dynasty = "Stuart"
+		adm = 3
+		dip = 5
+		mil = 4
+		female = yes
+	}
+	queen = {
+		country_of_origin = DAN
+		name = "George"
+		dynasty = "von Oldenburg"
+		birth_date = 1653.4.2
+		death_date = 1708.10.28
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1702.3.8= {
+	heir = {
+		name = "Sophia"
+		monarch_name = "Sophia I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1630.10.14
+		death_date = 1714.6.8
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+		female = yes
+	}
+}
+1707.5.12= { changed_tag_from = ENG }
+1714.6.8= {
+	heir = {
+		name = "George Louis"
+		monarch_name = "George I"
+		culture = hannoverian
+		dynasty = "von Hannover"
+		birth_date = 1660.5.28
+		death_date = 1727.6.11
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1714.8.1= {
+	monarch = {
+		name = "George I"
+		dynasty = "von Hannover"
+		culture = hannoverian
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1714.8.1= {
+	heir = {
+		name = "George Augustus"
+		monarch_name = "George II"
+		culture = hannoverian
+		dynasty = "von Hannover"
+		birth_date = 1683.11.9
+		death_date = 1760.10.25
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+1725.1.1= { 
+		leader = {	name = "Edward Boscawen"	type = admiral	fire = 4	shock = 3	manuever = 5	siege = 0	death_date = 1761.1.10 } }
+1727.6.11= {
+	monarch = {
+		name = "George II"
+		dynasty = "von Hannover"
+		culture = hannoverian
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	queen = {
+		country_of_origin = ANS
+		name = "Caroline"
+		dynasty = "von Hohenzollern"
+		birth_date = 1683.3.1
+		death_date = 1737.11.20
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1727.6.11= {
+	heir = {
+		name = "Frederick Louis"
+		monarch_name = "Frederick I"
+		culture = hannoverian
+		dynasty = "von Hannover"
+		birth_date = 1707.2.1
+		death_date = 1751.3.20
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1740.1.1= { leader = {	name = "George Anson"		type = admiral	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1762.1.1 } }
+1744.1.1= { leader = {	name = "James Wolfe"		type = general	fire = 5	shock = 5	manuever = 4	siege = 0	death_date = 1759.9.13 } }
+1748.1.1= { leader = {	name = "Robert Clive"		type = conquistador	fire = 6	shock = 6	manuever = 6	siege = 1 	death_date = 1774.11.22 } }
+1750.1.1= { set_country_flag = american_revolution }
+1751.3.20= {
+	heir = {
+		name = "George William"
+		monarch_name = "George III"
+		dynasty = "von Hannover"
+		birth_date = 1738.6.4
+		death_date = 1820.1.29
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
+1752.1.1= { leader = {	name = "Edward Braddock"	type = general	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1755.7.13 } }
+1756.1.1= { leader = {	name = "George Washington"	type = general	fire = 2	shock = 1	manuever = 5	siege = 0	death_date = 1764.12.30 } }
+1760.10.25= {
+	monarch = {
+		name = "George III"
+		dynasty = "von Hannover"
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
+1761.9.8= {
+	queen = {
+		country_of_origin = MKL
+		name = "Charlotte"
+		dynasty = "von Mecklenburg"
+		birth_date = 1683.3.1
+		death_date = 1737.11.20
+		female = yes
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1762.8.12= {
+	heir = {
+		name = "George Augustus"
+		monarch_name = "George IV"
+		dynasty = "von Hannover"
+		birth_date = 1762.8.12
+		death_date = 1830.6.26
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1768.1.1= { leader = {	name = "James Cook"		type = explorer	fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 1779.2.14 } }
+1769.1.1= { decision = sunday_school }
+1775.1.1= { leader = {	name = "James Carleton"		type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1790.1.1 } }
+1777.1.1= { leader = {	name = "Banastre Tarleton"	type = general	fire = 3	shock = 5	manuever = 4	siege = 0	death_date = 1833.1.25 } }
+1778.1.1= { leader = {	name = "Augustus Keppel"	type = admiral	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1786.10.2 } }
+1783.1.1= { leader = { name = "Cuthbert Collingwood"	type = admiral	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1810.3.7 } }
+1790.1.1= { leader = {	name = "Horatio Nelson"		type = admiral	fire = 6	shock = 6	manuever = 6	siege = 0	death_date = 1805.10.21 } }
+1791.1.1= { leader = {	name = "George Vancouver"	type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1798.5.12 } }
+1793.1.1= { leader = {	name = "James MacDonald"	type = general	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1830.1.1 } }
+1793.12.1= { 
+	leader = { 
+		name = "Sidney Smith"
+		type = admiral
+		fire = 4
+		shock = 4
+		manuever = 5
+		siege = 1
+		death_date = 1840.5.26
+	} 
+}
+1794.1.1= { leader = { name = "Duke of Wellington"	type = general	fire = 5	shock = 5	manuever = 6	siege = 0	death_date = 1819.1.1 } }
+1804.1.1= { leader = { name = "Thomas Cochrane"	type = admiral	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1810.1.1 } }
+1807.1.1= { decision = abolish_slavery_act }
+1811.1.5= {
+	monarch = {
+		name = "George IV"
+		dynasty = "von Hannover"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1811.2.5= {
+	heir = {
+		name = "Charlotte"
+		monarch_name = "Charlotte I"
+		dynasty = "von Hannover"
+		birth_date = 1796.1.7
+		death_date = 1817.11.6
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+		female = yes
+	}
+}
+1817.11.6= { # 'The Grand Old Duke of York'
+	heir = {
+		name = "Frederick Augustus"
+		monarch_name = "Frederick I"
+		dynasty = "von Hannover"
+		birth_date = 1763.8.16
+		death_date = 1827.1.5
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

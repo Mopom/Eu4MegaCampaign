@@ -1,0 +1,15 @@
+owner = JMB
+controller = JMB
+capital = "Lingga"
+is_city = yes
+culture = sumatran
+religion = sunni
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = JMB
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

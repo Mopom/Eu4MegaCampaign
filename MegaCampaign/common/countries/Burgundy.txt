@@ -1,0 +1,198 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 148 30 70 }
+revolutionary_colors = { 1 8 5 }
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	offensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	expansion_ideas
+}
+historical_score = 650
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agn0s #0" = -1
+	"Anne #0" = -1
+	"Antoine #0" = 10
+	"Armand #0" = 0
+	"Barth0lemy #0" = 0
+	"Beno0t #0" = 0
+	"Bernard #0" = 0
+	"Catherine #0" = -2
+	"Charles #0" = 60
+	"Charlotte #0" = -1
+	"Claude #0" = 0
+	"Denis #0" = 0
+	"Eudes #4" = 1
+	"Eug0ne #0" = 0
+	"Eustache #0" = 0
+	"Fran0ois #0" = 5
+	"Genevi0ve #0" = -2
+	"Georges #0" = 0
+	"Guillaume #0" = 0
+	"Guy #0" = 0
+	"Henri #1" = 10
+	"Henri-Jules #0" = 10
+	"Hughes #5" = 1
+	"H0l0ne #0" = -1
+	"Isabelle #0" = -1
+	"Isidore #0" = 0
+	"Jean #0" = 20
+	"Jean-Baptiste #0" = 0
+	"Jeanne #0" = -1
+	"Joseph #0" = 10
+	"Jules #0" = 0
+	"Louis #0" = 30
+	"Louis-Henri #0" = 20
+	"Louis-Joseph #0" = 20
+	"Louise #0" = -1
+	"Marc #0" = 0
+	"Marguerite #0" = -2
+	"Marie #0" = -10
+	"Maurice #0" = 0
+	"Michel #0" = 0
+	"Nicolas #0" = 0
+	"Pascal #0" = 0
+	"Philippe #1" = 80
+	"Pierre #0" = 0
+	"Raoul #0" = 0
+	"Ren0 #0" = 0
+	"Robert #2" = 1
+	"Simon #0" = 0
+	"S0bastien #0" = 0
+	"0l0onore #0" = -1
+	"0tienne #0" = 0
+}
+leader_names = {
+	"Arbelot"
+	"Bourgogne-Montaigu"
+	"Le Corgne"
+	"Nagu de Varennes"
+	"Pot de la Roche"
+	"d'Aban"
+	"d'Abonde"
+	"d'Auxy"
+	"d'Egmont"
+	"de Balay"
+	"de Bauffremont"
+	"de Beaumont"
+	"de Beugre"
+	"de Boulay"
+	"de Bourgeois"
+	"de Brachet"
+	"de Brimeu"
+	"de Castaing"
+	"de Chabot"
+	"de Chandieu"
+	"de Chastellux"
+	"de Chin"
+	"de Châlon"
+	"de Châlon-Arlay"
+	"de Cicon"
+	"de Coligny"
+	"de Créquy"
+	"de Cuiseaux"
+	"de Damas"
+	"de Dammartin"
+	"de Donzy"
+	"de Dyo"
+	"de Ferrette"
+	"de Lalaing"
+	"de Lannoy"
+	"de Lugny"
+	"de Marle"
+	"de Melun"
+	"de Montfaucon"
+	"de Nanton"
+	"de Neufchâtel"
+	"de Noyelles"
+	"de Pontailler"
+	"de Rochebaron"
+	"de Rochechouart"
+	"de Roye"
+	"de Scorailles"
+	"de Sémur"
+	"de Ternant"
+	"de Tonnerre"
+	"de Toucy"
+	"de Toulonjon"
+	"de Vaubresson"
+	"de Vaudrey"
+	"de Vellexon"
+	"de Vergy"
+	"de Vienne"
+	"de Villaines"
+	"de Villiers"
+	"de la Porte"
+}
+ship_names = {
+	"l'Armançon"
+	"l'Arroux"
+	"la Comtesse"
+	"la Duchesse"
+	"la Marie-de-Bourgogne"
+	"la Saône"
+	"le Bourgogne"
+	"le Bruges"
+	"le Cambrai"
+	"le Castrum Divionense"
+	"le Childebert"
+	"le Childebert II"
+	"le Chilpéric"
+	"le Clotaire"
+	"le Cluny"
+	"le Cîteaux"
+	"le Côte-d'Or"
+	"le Dijon"
+	"le Duc-de-Bourgogne"
+	"le Gibica"
+	"le Giselher"
+	"le Godégisel"
+	"le Gondebaud"
+	"le Gondemar"
+	"le Gondemar II"
+	"le Gondéric"
+	"le Gontran"
+	"le Gunther"
+	"le Jean-sans-Peur"
+	"le Philippe-le-Bon"
+	"le Philippe-le-Hardi"
+	"le Richard-de-Bourgogne"
+	"le Sigismond"
+	"le Theudéric II"
+	"le Théodebert"
+	"le Vézelay"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Chalon"
+	"Armée de Tonnerre"
+	"Armée de l'Autunois"
+	"Armée de l'Auxerrois"
+	"Armée de l'Auxonnois"
+	"Armée de l'Avallonnais"
+	"Armée de la Saône"
+	"Armée du Charolais"
+	"Armée du Comté"
+	"Armée du Mâconnais"
+}

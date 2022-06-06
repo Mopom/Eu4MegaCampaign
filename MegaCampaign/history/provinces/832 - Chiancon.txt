@@ -1,0 +1,14 @@
+owner = MCA
+controller = MCA
+capital = "Tunja"
+is_city = yes
+culture = muisca
+religion = inti
+trade_goods = salt
+base_tax = 5
+base_production = 5
+base_manpower = 2
+add_core = MCA
+discovered_by = MCA
+discovered_by = andean
+discovered_by = south_american

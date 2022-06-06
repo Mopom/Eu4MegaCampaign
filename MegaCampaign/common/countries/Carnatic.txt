@@ -1,0 +1,86 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 232 79 142 }
+revolutionary_colors = { 0 10 0 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	defensive_ideas
+	humanist_ideas
+	aristocracy_ideas
+	diplomatic_ideas
+	trade_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Abdul #0" = 0
+	"Ali #0" = 0
+	"Anwar ad-Din Muhammad #0" = 20
+	"Anwaruddin #0" = 0
+	"Azim #0" = 0
+	"Azimuddaula #0" = 20
+	"Daud #0" = 0
+	"Dust 'Ali #0" = 20
+	"Ghausia #0" = -1
+	"Ghulam Mohammed #0" = 0
+	"Hydiathunissa #0" = -1
+	"Ismail #0" = 0
+	"Khair un-Nisa #0" = -1
+	"Malikunnissa #0" = -1
+	"Mubarakunissa #0" = -1
+	"Muhammad #0" = 0
+	"Muhammad Sa'adat #0" = 20
+	"Safdar 'Ali #0" = 20
+	"Umdat Ul-Umra #0" = 20
+	"Wala Jah Muhammad 'Ali #0" = 20
+}
+leader_names = {
+	"Bahadur"
+	"Chetty"
+	"Khader"
+	"Khan"
+	"Khan Wallajah"
+	"Mudaliar"
+	"Rajapopalachari"
+	"Reddy"
+	"Saluva"
+	"Sastri"
+	"Thondaiman"
+	"ul Umra"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Ganga"
+	"Gayatri"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sita"
+	"Spiti"
+	"Yamuna"
+}

@@ -1,0 +1,16 @@
+owner = WRU
+controller = WRU
+capital = "Wurundjeri"
+is_city = yes
+culture = kulin
+religion = dreamtime
+trade_goods = livestock
+base_tax = 4
+base_production = 5
+base_manpower = 2
+center_of_trade = 1
+add_core = WRU
+discovered_by = aboriginal_tech
+native_size = 10
+native_ferocity = 1
+native_hostileness = 9

@@ -1,0 +1,12 @@
+owner = KUB
+controller = KUB
+capital = "Mai Munene"
+is_city = yes
+culture = kuba
+religion = shamanism
+trade_goods = spices
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = KUB
+discovered_by = central_african

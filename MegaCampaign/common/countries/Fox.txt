@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 242 101 34 }
+revolutionary_colors = { 10 5 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Aquoqua #0" = 10
+	"Capontwa #0" = 10
+	"Catchacommu #0" = 10
+	"Catchemackeseo #0" = 10
+	"Chagasort #0" = 10
+	"Chekaqua #0" = 10
+	"Choukeka #0" = 10
+	"Dohumme #0" = -1
+	"Hanshequarhiqua #0" = 10
+	"Kataka #0" = 10
+	"Kechaswa #0" = 10
+	"Keesheswa #0" = 10
+	"Kenekuk #0" = 10
+	"Keokuk #0" = 20
+	"Kimiwan #0" = -1
+	"Lalyurva #0" = 10
+	"Machenamau #0" = 10
+	"Mackkatananamakee #0" = 20
+	"Makataimeshekia #0" = 10
+	"Malasenokama #0" = 20
+	"Mataqua #0" = 10
+	"Mecaitch #0" = 10
+	"Mishecaqua #0" = 10
+	"Mowhinin #0" = 10
+	"Muckkatwagout #0" = 20
+	"Namachewana #0" = 10
+	"Namasosanamet #0" = 10
+	"Nanochaatasa #0" = 10
+	"Nautakawa #0" = 10
+	"Nemarqua #0" = 10
+	"Neshota #0" = 10
+	"Nokomesa #0" = -1
+	"Omquo #0" = 10
+	"Outchequaka #0" = 10
+	"Papiquan #0" = 10
+	"Paquampa #0" = 10
+	"Pashchenene #0" = 20
+	"Pashepaho #0" = 10
+	"Pecama #0" = 10
+	"Pesotaka #0" = 10
+	"Pierremaskin #0" = 20
+	"Quashquame #0" = 10
+	"Shamaga #0" = 10
+	"Taimah #0" = 10
+	"Waapaca #0" = 10
+	"Wapasai #0" = 10
+	"Wapello #0" = 10
+	"Wathohuck #0" = 10
+	"Weesaka #0" = 10
+	"Wonakasa #0" = 10
+}
+leader_names = {
+	"Asakiwakie"
+	"Blackhawk"
+	"Etnataek"
+	"Kickapoo"
+	"Kickapougwoi"
+	"Kithlipecanuk"
+	"Mesquakie"
+	"Osakis"
+	"Saukenuk"
+	"Tama"
+	"Thakiwakie"
+	"Wagosh"
+}
+ship_names = {
+	"Amowa"
+	"Anehka"
+	"Anemoha"
+	"Esepana"
+	"Ketiwa"
+	"Mahwewa"
+	"Makhwa"
+	"Manetowa"
+	"Meshihkeha"
+	"Meshweha"
+	"Moswa"
+	"Nektaoshakshaha"
+	"Peshekisia"
+	"Shekakwa"
+	"Wakosheha"
+	"Witekowa"
+}

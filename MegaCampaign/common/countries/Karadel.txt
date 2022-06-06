@@ -1,0 +1,125 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 118 193 177 }
+revolutionary_colors = { 8 0 8 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abdul-Karim #0" = 20
+	"Abdul-Latif #0" = 20
+	"Abdul-Rash0d #0" = 20
+	"Abdullah #0" = 20
+	"Ahmad #0" = 20
+	"Alghu #0" = 20
+	"Ali #0" = 20
+	"Baraq #0" = 20
+	"Bayan Quli #0" = 20
+	"Buqa Tem0r #0" = 20
+	"Buzan #0" = 20
+	"Chagatay #0" = 10
+	"Changshi #0" = 20
+	"Danishmendji #0" = 20
+	"Dost Muhammad #0" = 20
+	"Dughlat #0" = 20
+	"Duwa #0" = 20
+	"Duwa Tem0r #0" = 20
+	"Eljigidey #0" = 20
+	"Esen Buqa #0" = 20
+	"Ilbars #0" = 20
+	"Ilyas #1" = 20
+	"Ismail #0" = 20
+	"Kebek #0" = 20
+	"Khabul #0" = 20
+	"Khizr #1" = 20
+	"K0nchek #0" = 20
+	"Mahmud #0" = 20
+	"Mansur #0" = 20
+	"Mubarak #0" = 20
+	"Muhammad #1" = 20
+	"Muhammad Amin #0" = 20
+	"Muhammad Mumin #0" = 20
+	"Naqsh-i-Jahan #0" = 20
+	"Neg0bei #0" = 20
+	"Orqina #0" = -1
+	"Qara Hulagu #0" = 10
+	"Qazaghan #0" = 20
+	"Qazan #0" = 20
+	"Quraysh #0" = 10
+	"Ruqia #0" = -1
+	"Sa'id #0" = 20
+	"Sakina #0" = -1
+	"Satuq #0" = 20
+	"Shams-i-Jahan #1" = 20
+	"Sher Muhammad #0" = 20
+	"Soyurghatmish #0" = 20
+	"Taliqu #0" = 20
+	"Tarmashirin #0" = 20
+	"Tem0r #0" = 20
+	"Tughlugh Tem0r #1" = 20
+	"Turakina #0" = -1
+	"Uwais #0" = 20
+	"Yasa'ur #0" = 20
+	"Yesu Mongke #0" = 10
+	"Yesun Tem0r #0" = 20
+	"Yunus #0" = 20
+}
+leader_names = {
+	"Altan Unegen"
+	"Altanqai"
+	"Arigh Erdene"
+	"Bayan Vachir"
+	"Bayardai"
+	"Boke Qorchi"
+	"Boketei"
+	"Delger Dash"
+	"Qadancher"
+	"Suren Chinua"
+	"Tegusteni"
+	"Tolui-gene"
+	"Yekedai"
+}
+ship_names = {
+	"Alghu Khan"
+	"Amir Husayn"
+	"Amo Darya"
+	"Baraq Khan"
+	"Chagatai"
+	"Duwa"
+	"Genghis Khan"
+	"Güyük"
+	"Irtysh"
+	"Jagatai Khan"
+	"Mubarak Shah"
+	"Möngke Khan"
+	"Orghina"
+	"Qazan Khan"
+	"Qipchaq"
+	"Qubilai Khan"
+	"Samarqand"
+	"Syr Darya"
+	"Timur i Leng"
+	"Tughlugh Timur"
+	"Yesünto'a"
+	"Ögedai Khan"
+}

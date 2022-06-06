@@ -1,0 +1,129 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 16 113 155 }
+revolutionary_colors = { 5 5 10 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Adrian #0" = 0
+	"Afanasiy #0" = 0
+	"Agatha #0" = -1
+	"Aleksandr #0" = 0
+	"Andrei #1" = 20
+	"Anna #0" = -1
+	"Boris #1" = 10
+	"Bryachislav #2" = 15
+	"Daniil #0" = 0
+	"Daria #0" = -1
+	"Dmitriy #0" = 0
+	"Dorofey #0" = 0
+	"Euphemia #0" = -1
+	"Faddey #0" = 0
+	"Feodosiy #0" = 0
+	"Feofil #0" = 0
+	"Foma #0" = 0
+	"Fyodor #0" = 0
+	"Gavriil #0" = 0
+	"Gavriila #0" = -1
+	"Grigoriy #0" = 0
+	"Hedwig #0" = -1
+	"Igor #0" = 0
+	"Ivan #0" = 0
+	"Izyaslav #2" = 10
+	"Larisa #0" = -1
+	"Lubko #1" = 20
+	"Marija #0" = -1
+	"Mefodiy #0" = 0
+	"Mikhail #0" = 0
+	"Naum #0" = 0
+	"Nikita #0" = 0
+	"Nikolai #0" = 0
+	"Olgierd #1" = 20
+	"Pankrati #0" = 0
+	"Prokhor #0" = 0
+	"Pyotr #0" = 0
+	"Radoslav #0" = 0
+	"Rogneda #0" = -1
+	"Ruslan #0" = 0
+	"Semen #0" = 0
+	"Serafim #0" = 0
+	"Sevastian #0" = 0
+	"Sophia #0" = -1
+	"Stanislav #0" = 0
+	"Svyatoslav #1" = 15
+	"Timofeiy #0" = 0
+	"Uliana #0" = -1
+	"Varfolomeiy #0" = 0
+	"Vasiliy #2" = 15
+	"Vikentiy #0" = 0
+	"Vladimir #1" = 15
+	"Vseslav #2" = 10
+	"Yaroslav #0" = 0
+}
+leader_names = {
+	"Aladyin"
+	"Beznosov"
+	"Bokeev"
+	"Borovsky"
+	"Burukhin"
+	"Dalmatov"
+	"Dursky"
+	"Galisky"
+	"Galitsky"
+	"Izyaslavsky"
+	"Kisleevsky"
+	"Korobyin"
+	"Mozhaisky"
+	"Satin"
+	"Shemyakin"
+	"Shukalovsky"
+	"Travin"
+	"Tsyplyatev"
+	"Uglisky"
+	"Vereisky"
+	"Vitebsky"
+	"Vnukov"
+	"Volotsky"
+	"Zabolotsky"
+}
+ship_names = {
+	"Bolotovo"
+	"Chudskoye"
+	"Izborsk"
+	"Kulikovo"
+	"Ostrov"
+	"Pechory"
+	"Polotsk"
+	"Porhov"
+	"Pskovskoye"
+	"Rakovor"
+	"Sebezh"
+	"Velikaya"
+	"Velikiye Luki"
+}

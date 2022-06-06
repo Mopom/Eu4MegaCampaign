@@ -1,0 +1,173 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 102 105 104 }
+revolutionary_colors = { 5 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_score = 50
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #0" = 0
+	"Adam #0" = 0
+	"Albrecht #0" = 20
+	"Arnold #0" = 0
+	"Bernhard #0" = 0
+	"Clemens August #0" = 15
+	"Dietrich #0" = 0
+	"Egon #0" = 0
+	"Eva #0" = -1
+	"Friedrich #0" = 20
+	"Georg #0" = 15
+	"Gregor #0" = 0
+	"Heinrich #4" = 70
+	"Humbert #0" = 0
+	"Immanuel #0" = 0
+	"Isidor #0" = 0
+	"Johann #0" = 20
+	"Johann Eustach #0" = 15
+	"Johann Kaspar #0" = 20
+	"Karl #0" = 20
+	"Karl Alexander #0" = 15
+	"Karl Joseph #0" = 15
+	"Konrad #4" = 40
+	"Leopold Wilhelm #0" = 15
+	"Lothar #0" = 0
+	"Ludwig #0" = 20
+	"Ludwig Anton #0" = 15
+	"Ludwig Franz #0" = 15
+	"Magdalena #0" = -1
+	"Maria #0" = -1
+	"Markus #0" = 0
+	"Martin #0" = 20
+	"Matthias #0" = 0
+	"Maximilian #0" = 15
+	"Maximilian Franz #0" = 15
+	"Michael #0" = 20
+	"Pankraz #0" = 0
+	"Paul #0" = 20
+	"Rudolf #0" = 0
+	"Theodor #0" = 0
+	"Ulrich #0" = 20
+	"Walter #0" = 20
+	"Wolfgang #0" = 20
+}
+leader_names = {
+	"Freytag von Loringhoven"
+	"von Aderkas"
+	"von Albedyll"
+	"von Altenburg"
+	"von Ampringen"
+	"von Arfberg"
+	"von Bassenheim"
+	"von Bobenhausen"
+	"von Bremen"
+	"von Buchholtz"
+	"von Buxhoeveden"
+	"von Campenhausen"
+	"von Cronberg"
+	"von Cube"
+	"von Dellinghausen"
+	"von Drachenfels"
+	"von Ekesparre"
+	"von Erlichshausen"
+	"von Freymann"
+	"von Hehn"
+	"von Helbrungen"
+	"von Hohenzollern"
+	"von Howen"
+	"von Hoyningen"
+	"von Hunnius"
+	"von Jungingen"
+	"von Keyserling"
+	"von Klot-Heydenfeldt"
+	"von Kniprode"
+	"von Koskull"
+	"von Krusenstiern"
+	"von Lilienfeld"
+	"von Patkul"
+	"von Poll"
+	"von Rennenkampff"
+	"von Richtenberg"
+	"von Roth-Rösthof"
+	"von Rothstein"
+	"von Ruszdorf"
+	"von Sangershausen"
+	"von Sass"
+	"von Schubert"
+	"von Schwanden"
+	"von Tieffen"
+	"von Uexküll"
+	"von Ungern-Sternberg"
+	"von Urenbach"
+	"von Wallenrode"
+	"von Wattzau"
+	"von Wistinghausen"
+	"von Wrangel"
+}
+ship_names = {
+	"Burkhard von Schwanden"
+	"Danzig"
+	"Dietrich von Altenburg"
+	"Elbing"
+	"Gerhard von Malberg"
+	"Goldingen"
+	"Gottersweder"
+	"Heinrich von Plauen"
+	"Heinrich von Tunna"
+	"Hermann von Salza"
+	"Johann von Tiefen"
+	"Konrad V von Jungingen"
+	"Konrad von Thüringen"
+	"Königsberg"
+	"Marienburg"
+	"Mitau"
+	"Mittenburg"
+	"Otto von Kerpen"
+	"Poppo von Osterna"
+	"Thorn"
+	"Ulrich von Jungingen"
+	"Walter von Cronberg"
+	"Werner von Orseln"
+	"Windau"
+	"Winrich von Kniprode"
+	"von Arfberg"
+	"von Bassenheim"
+	"von Braunschweig"
+	"von Feuchtwangen"
+	"von Heldrungen"
+	"von Hohenlohe"
+	"von Rotenstein"
+	"von Sangershausen"
+	"von Sternberg"
+	"von Trier"
+	"von Wallenrode"
+	"von Wattzau"
+	"von Wetzhausen"
+	"von Wüllersleben"
+}
+army_names = {
+	"Banner"
+}

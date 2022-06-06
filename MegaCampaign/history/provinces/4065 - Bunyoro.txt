@@ -1,0 +1,12 @@
+owner = BNY
+controller = BNY
+capital = "Mugenyi"
+is_city = yes
+culture = ganda
+religion = shamanism
+trade_goods = salt
+base_tax = 4
+base_production = 3
+base_manpower = 3
+add_core = BNY
+discovered_by = central_african

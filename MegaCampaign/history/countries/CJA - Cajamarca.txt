@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = inca
+capital = 813
+fixed_capital = 813
+unit_type = south_american
+1444.1.1= {
+	monarch = {
+		name = "Anca"
+		dynasty = "Cajamarcas"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

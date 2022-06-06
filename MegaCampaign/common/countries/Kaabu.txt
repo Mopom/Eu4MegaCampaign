@@ -1,0 +1,99 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 255 55 185 }
+revolutionary_colors = { 4 8 10 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"'Abbas #0" = 0
+	"'Abd Allah #0" = 0
+	"'Abd al-Qadir #0" = 0
+	"'Abd al-Rahman #0" = 20
+	"'Ali #0" = 0
+	"'Ali Zalil #0" = 20
+	"'Ammar #0" = 0
+	"Al-Fa' Ibrahim #0" = 0
+	"Al-Hajj #0" = 60
+	"Al-Mansur #0" = 0
+	"Al-Mukhtar #0" = 20
+	"Amada Sire #0" = 0
+	"Amna #0" = -1
+	"Ba-Bakribin #0" = 0
+	"Bakari #0" = 20
+	"Bakr #0" = 20
+	"Benkano #0" = 0
+	"Birahim #0" = 0
+	"Bubu #0" = 0
+	"Da'ud #0" = 20
+	"Dhu al-Nun #0" = 0
+	"Djenlly #0" = -1
+	"Ghadir #0" = -1
+	"Haddu #0" = 0
+	"Hammadi #0" = 0
+	"Ilo #0" = 0
+	"Kankou #0" = -1
+	"Kanta #0" = 0
+	"Mahmud #1" = 20
+	"Majan #0" = 0
+	"Mamadu #1" = 40
+	"Mami #0" = 0
+	"Muhammad #0" = 60
+	"Mule #0" = 20
+	"Nasr #0" = 0
+	"Nguia #0" = 0
+	"Sa'id #0" = 0
+	"Sa'ud 'Arjud #0" = 0
+	"Sandaki #0" = 0
+	"Sanibar #0" = 0
+	"Santa'a #0" = 0
+	"Yahya #0" = 0
+	"Yusuf #0" = 0
+	"Zenka #0" = 0
+}
+leader_names = {
+	"Amadou"
+	"Deo"
+	"Diarra"
+	"Keita"
+	"Konare"
+	"Modibo"
+	"Moussa"
+	"Toumani"
+	"Toure"
+	"Traoré"
+}
+ship_names = {
+	"Gao"
+	"Jenne"
+	"Kankan Musa"
+	"Khalifa Keita"
+	"Kiringa"
+	"Koumbi Saleh"
+	"Kouroukan Fouga"
+	"Quati Keita"
+	"Sakura"
+	"Sundiata Keita"
+	"Timbuktu"
+	"Wali Keita"
+}

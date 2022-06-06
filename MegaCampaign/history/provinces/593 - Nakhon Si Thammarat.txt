@@ -1,0 +1,15 @@
+owner = LIG
+controller = LIG
+capital = "Nakhon Si Thammarat"
+is_city = yes
+culture = central_thai
+religion = buddhism
+trade_goods = tropical_wood
+base_tax = 5
+base_production = 5
+base_manpower = 2
+add_core = LIG
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

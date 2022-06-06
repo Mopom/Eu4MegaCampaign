@@ -1,0 +1,15 @@
+owner = MGE
+controller = MGE
+capital = "Ujimqin"
+is_city = yes
+culture = mongol
+religion = vajrayana
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+add_core = CHH
+add_core = KHA
+add_core = MGE
+discovered_by = chinese
+discovered_by = nomad_group

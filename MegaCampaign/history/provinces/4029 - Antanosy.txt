@@ -1,0 +1,12 @@
+owner = ANT
+controller = ANT
+capital = "Antanosy"
+is_city = yes
+culture = madagasque
+religion = sunni
+trade_goods = slaves
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = ANT
+discovered_by = east_african

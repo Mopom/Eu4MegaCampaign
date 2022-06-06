@@ -1,0 +1,130 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 34 131 193 }
+revolutionary_colors = { 0 15 16 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Alzbeta #0" = -1
+	"Amalia #0" = -1
+	"Anna #0" = -1
+	"Anton #0" = 10
+	"Bartolomej #0" = 0
+	"Blahoslav #0" = 0
+	"Bohuslav #0" = 0
+	"Bonifac #1" = 0
+	"Cyril #0" = 0
+	"Daniel #0" = 10
+	"Dobroslav #0" = 0
+	"Drahomir #0" = 0
+	"Drahoslav #0" = 0
+	"Eva #0" = -1
+	"Hana #0" = -1
+	"Hugol0n #0" = 10
+	"Ignac #0" = 10
+	"Jan #0" = 30
+	"Jarmila #0" = -1
+	"Jaromir #0" = 0
+	"Jaroslav #0" = 0
+	"Jaroslava #0" = -1
+	"Jergus #0" = 0
+	"Jozef #0" = 30
+	"Juraj #0" = 30
+	"Karol #0" = 10
+	"Kazim0r #0" = 0
+	"Konstantin #0" = 0
+	"Levoslav #0" = 0
+	"Lubomir #0" = 0
+	"Luboslav #0" = 0
+	"Ludmila #0" = -1
+	"Ludov0t #0" = 10
+	"Lukas #0" = 30
+	"Marek #0" = 10
+	"Margareta #0" = -1
+	"Maria #0" = -1
+	"Martin #0" = 10
+	"Matej #0" = 30
+	"Metod #0" = 0
+	"Mikulas #0" = 10
+	"Miroslav #0" = 0
+	"Mojmir #0" = 0
+	"Moric #0" = 10
+	"Ondrej #0" = 10
+	"Pavol #0" = 30
+	"Peter #0" = 30
+	"Prokop #0" = 0
+	"Radom0r #0" = 0
+	"Radoslav #0" = 0
+	"Samuel #0" = 10
+	"Stanislav #0" = 0
+	"Stefan #0" = 30
+	"Svatopluk #0" = 0
+	"Svetozar #0" = 0
+	"Tichomir #0" = 0
+	"Tomas #0" = 10
+	"Viliam #0" = 10
+	"Vitazoslav #0" = 0
+	"Vladimir #0" = 0
+	"Vladislav #0" = 0
+	"Vlastimil #0" = 0
+	"Vratislav #0" = 0
+}
+leader_names = {
+	"Balaša"
+	"Beckovský"
+	"Bel"
+	"Benyovszky"
+	"Bosniak"
+	"Elefánthy"
+	"Hatnanský"
+	"Jesenský"
+	"Kollar"
+	"Podmanický"
+	"Pongrac"
+	"Pongrácz"
+	"Stibor"
+	"Veseléni"
+	"Wesselényi"
+}
+ship_names = {
+	"Bebrava"
+	"Belá"
+	"Blava"
+	"Bodrog"
+	"Bodva"
+	"Cierna voda"
+	"Dunajec"
+	"Hornád"
+	"Ipel"
+	"Latorica"
+	"Morava"
+	"Ondava"
+	"Poprad"
+	"Rimava"
+	"Slaná"
+	"Torysa"
+	"Žitava"
+}

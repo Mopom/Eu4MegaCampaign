@@ -1,0 +1,13 @@
+owner = KHM
+controller = KHM
+capital = "Kampom Pous Thom"
+is_city = yes
+culture = khmer
+religion = hinduism
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = KHM
+discovered_by = chinese
+discovered_by = indian

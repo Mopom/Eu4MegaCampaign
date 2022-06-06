@@ -1,0 +1,14 @@
+owner = MMI
+controller = MMI
+capital = "Miami"
+is_city = yes
+culture = miami
+religion = totemism
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = MMI
+discovered_by = north_american
+native_size = 10
+native_ferocity = 1

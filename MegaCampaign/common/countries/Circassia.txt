@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 42 107 17 }
+revolutionary_colors = { 15 2 10 }
+historical_idea_groups = {
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	humanist_ideas
+	quantity_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Anzarouk #0" = 0
+	"Atsymtchouk #0" = 20
+	"Baachik #0" = 0
+	"Babishe #0" = -1
+	"Belzebuk #0" = 40
+	"Bitemriouk #0" = 0
+	"Bougatchik #0" = 20
+	"Boulgairouk #0" = 20
+	"Chimgalei #0" = 0
+	"Cholokh #0" = 0
+	"Chopchouk #0" = 0
+	"Damaniouk #0" = 0
+	"Ezgbold #0" = 20
+	"Isbouldoug #0" = 0
+	"Kanboulat #0" = 0
+	"Kanglytchev #0" = 0
+	"Kanoukov #0" = 20
+	"Kavklytch #0" = 20
+	"Khoudenet #0" = 0
+	"Koudadik #0" = 20
+	"Koudenet #0" = 0
+	"Machik #0" = 0
+	"Mait #0" = 0
+	"Namstriouk #0" = 20
+	"Otchikan #0" = 0
+	"Parsabok #0" = 40
+	"Petrezok #0" = 40
+	"Sibok #0" = 20
+	"Smbat #0" = 0
+	"Susane #0" = -1
+	"Tachat #0" = 0
+	"Tachbsaroukov #0" = 0
+	"Tanachouk #0" = 20
+	"Taniel #0" = 40
+	"Tazriout #0" = 20
+	"Tchiourak #0" = 20
+	"Temriouk #0" = 20
+	"Toutaryk #0" = 20
+	"Verzacht #0" = 40
+	"Zuliyzhan #0" = -1
+}
+leader_names = {
+	"Abzakh"
+	"Adamiy"
+	"Beslenei"
+	"Cöbein"
+	"Guaye"
+	"Hatuqwai"
+	"Khegaik"
+	"Khetuk"
+	"Mamkhegh"
+	"Mokhosh"
+	"Natukhai"
+	"Okhlov"
+	"Shapsug"
+	"Tazryt"
+	"Temirgoy"
+	"Ubykh"
+	"Zhaney"
+}
+ship_names = {
+	"Adyghe"
+	"Anapa"
+	"Beslenei"
+	"Cöbein"
+	"Kabardia"
+	"Mamkhegh"
+	"Nalchik"
+	"Natukhay"
+	"Ossetia"
+	"Petrezok"
+	"Tuapse"
+	"Zichia"
+}

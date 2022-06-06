@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = sunni
+primary_culture = sumatran
+capital = 618
+religious_school = shafii_school
+1444.1.1= {
+	monarch = {
+		name = "Panglima"
+		dynasty = "Deli"
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+1480.1.1= {
+	monarch = {
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

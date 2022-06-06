@@ -1,0 +1,146 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 182 134 100 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aapeli #0" = 0
+	"Aato #0" = 10
+	"Aina #0" = -1
+	"Aleksanteri #0" = 5
+	"Alpertti #0" = 0
+	"Antero #0" = 0
+	"Arvo #0" = 0
+	"Edvard #0" = 5
+	"Eerikki #0" = 20
+	"Eino #0" = 0
+	"Erno #0" = 0
+	"Fredrik #0" = 10
+	"Heikki #0" = 0
+	"Jaakko #0" = 5
+	"Jaana #0" = -1
+	"Jani #0" = 10
+	"Jooseppi #0" = 0
+	"Juha #0" = 5
+	"Jyri #0" = 0
+	"Kaarle #0" = 0
+	"Kristian #0" = 0
+	"Lauri #0" = 0
+	"Mainio #0" = 0
+	"Mikael #0" = 0
+	"Niklas #0" = 20
+	"Onni #0" = 0
+	"Otso #0" = 0
+	"Paavo #0" = 0
+	"Petteri #0" = 0
+	"Ransu #0" = 0
+	"Reino #0" = 0
+	"Samuli #0" = 0
+	"Taavi #0" = 0
+	"Tarja #0" = -1
+	"Tauno #0" = 0
+	"Tuomas #0" = 0
+	"Valto #0" = 0
+	"Veli #0" = 0
+	"Vieno #0" = 0
+	"Vilhelmi #0" = 0
+	"Voitto #0" = 0
+	"V0in0m0inen #0" = 20
+}
+leader_names = {
+	"Adlercreutz"
+	"Ahlqvist"
+	"Berg"
+	"Björn"
+	"Blom"
+	"Cronstedt"
+	"Dufva"
+	"Ehrensvärd"
+	"Glad"
+	"Haataja"
+	"Helander"
+	"Helin"
+	"Hiltunen"
+	"Horn"
+	"Ilkka"
+	"Isotalo"
+	"Järnberg"
+	"Järvelä"
+	"Kesäläinen"
+	"Klingspor"
+	"Kortelainen"
+	"Krouvari"
+	"Kyrö"
+	"Liljencrantz"
+	"Länkinen"
+	"Pentti"
+	"Pietilä"
+	"Rehnskiöld"
+	"Renner"
+	"Rokka"
+	"Rutanen"
+	"Sakari"
+	"Sjögren"
+	"Stoor"
+	"Stålhandske"
+	"Tapani"
+	"Termonen"
+	"Turunen"
+	"Wilander"
+	"von Essen"
+}
+ship_names = {
+	"Agricola"
+	"Aura"
+	"Birger Jarl"
+	"Borgå"
+	"Hakkapeliitta"
+	"Helsingfors"
+	"Ilmarinen"
+	"Karelen"
+	"Kullervo"
+	"Kymi"
+	"Lapland"
+	"Lemminkäinen"
+	"Nyland"
+	"Oulu"
+	"Per Brahe"
+	"Sampo"
+	"Savolax"
+	"St. Henrik"
+	"Tavastehus"
+	"Tavastland"
+	"Vanda"
+	"Vasa"
+	"Viborg"
+	"Vuoksi"
+	"Väinämöinen"
+	"Åbo"
+	"Österbotten"
+}

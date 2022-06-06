@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 235 178 18 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #0" = 0
+	"Arnt #0" = 0
+	"August #0" = 0
+	"Barnim #10" = 20
+	"Bernhard #0" = 0
+	"Bodo #0" = 0
+	"Boguslaw #9" = 100
+	"Carl #0" = 0
+	"Elisabeth #0" = -1
+	"Emil #0" = 0
+	"Ernest #0" = 0
+	"Ernest Ludwik #0" = 10
+	"Eryk #1" = 20
+	"Filip #1" = 20
+	"Franciszek #0" = 20
+	"Fritz #0" = 0
+	"Fryderyk #0" = 0
+	"Gabriela #0" = -1
+	"Georg #0" = 15
+	"Gerhard #0" = 0
+	"Gustav #0" = 0
+	"Harald #0" = 0
+	"Helena #0" = -1
+	"Hendryk #0" = 0
+	"Herbert #0" = 0
+	"Hermann #0" = 0
+	"Jan #0" = 0
+	"Jan Ernest #0" = 10
+	"Jan Fryderyk #0" = 20
+	"Janina #0" = -1
+	"Janusz #0" = 0
+	"Jochem #0" = 0
+	"Kazimierz #5" = 10
+	"Magdalena #0" = -1
+	"Martin #0" = 0
+	"Maximiliam #0" = 0
+	"Ota #3" = 20
+	"Paul #0" = 0
+	"Reinhold #0" = 0
+	"Richard #0" = 0
+	"Siegfried #0" = 0
+	"Sophia #0" = -1
+	"Ulrich #0" = 15
+	"Valentin #0" = 0
+	"Walter #0" = 0
+	"Wilhelm #0" = 0
+	"Wratislaw #5" = 20
+}
+leader_names = {
+	"Behm"
+	"Beyse"
+	"Grosch"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzmann"
+	"Meuseling"
+	"Miercke"
+	"Normann"
+	"Rähl"
+	"Stellmacher"
+	"Wessel"
+	"Witt"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Krockows"
+	"von Lettows"
+	"von Neubrandenburg"
+	"von Neustettin"
+	"von Neustreliz"
+	"von Peglows"
+	"von Prenzlau"
+	"von Ramin"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Strelows"
+	"von Szczecin"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+	"von Zitzewitzes"
+	"von und zu Stargard"
+}
+ship_names = {
+	"Anklam"
+	"Cammin"
+	"Demmin"
+	"Fräulein von Rügen"
+	"Greifswald"
+	"Herzog Bogislaw"
+	"Herzog Kasimir"
+	"Herzog Otto"
+	"Neustettin"
+	"Pommern"
+	"Rostock"
+	"Stettin Herzog Barnim"
+	"Stralsund"
+	"Wismar"
+	"Wolgast"
+}

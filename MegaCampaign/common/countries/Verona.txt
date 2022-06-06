@@ -1,0 +1,211 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 121 163 114 }
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	religious_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agostino #0" = 0
+	"Alberto #2" = 35
+	"Alboino #2" = 20
+	"Alessandro #0" = 0
+	"Altichiero #0" = 0
+	"Andrea #0" = 0
+	"Angelo #0" = 0
+	"Anselmo #0" = 0
+	"Antonio #2" = 35
+	"Bartolomeo #2" = 35
+	"Battista #0" = 0
+	"Benedetto #0" = 0
+	"Bernardino #0" = 0
+	"Biagio #0" = 0
+	"Bonifazio #0" = 0
+	"Bruno #1" = 25
+	"Canfrancesco #0" = 15
+	"Cangrande #2" = 20
+	"Cansignorio #1" = 15
+	"Carlo #0" = 0
+	"Caterina #0" = -1
+	"Ciro #0" = 0
+	"Claudio #0" = 0
+	"Cosimo #0" = 0
+	"Domenico #0" = 0
+	"Eliodoro #0" = 0
+	"Ercole #0" = 0
+	"Federico #0" = 20
+	"Flavio #0" = 0
+	"Francesco #0" = 0
+	"Giacomo #0" = 0
+	"Giambettino #0" = 0
+	"Giovanni #0" = 25
+	"Girolamo #0" = 0
+	"Giulia #0" = -1
+	"Giuseppe #0" = 0
+	"Guido #0" = 0
+	"Jacopo #0" = 0
+	"Lodovico #0" = 0
+	"Lorenzo #0" = 0
+	"Luca #0" = 0
+	"Lucrezia #0" = -1
+	"Luigi #0" = 0
+	"Maffeo #0" = 0
+	"Marco #0" = 0
+	"Martino #0" = 0
+	"Mastino #2" = 25
+	"Mauro #0" = 0
+	"Michele #0" = 0
+	"Odoardo #0" = 0
+	"Orazio #0" = 0
+	"Orlando #0" = 0
+	"Paolo #0" = 0
+	"Pasquale #0" = 0
+	"Pietro #0" = 0
+	"Saverio #0" = 0
+	"Sebastiano #0" = 0
+	"Sebeto #0" = 0
+	"Simone #0" = 0
+	"Stefano #0" = 0
+	"Tommaso #0" = 0
+	"Turone #0" = 0
+	"Vincenzo #0" = 0
+	"Vittorio #0" = 0
+}
+leader_names = {
+	"Amigazzi"
+	"Avanzi"
+	"Badile"
+	"Barbieri"
+	"Baroni"
+	"Bassetti"
+	"Bellunello"
+	"Benaglio"
+	"Bernardi"
+	"Bonsignori"
+	"Buffetti"
+	"Cabianca"
+	"Caliari"
+	"Calvi"
+	"Calzetta"
+	"Canella"
+	"Canera"
+	"Canziani"
+	"Cappelletti"
+	"Caroto"
+	"Cavazzola"
+	"Ceroni"
+	"Cignaroli"
+	"Dall'Oca Bianca"
+	"Dalla Rosa"
+	"Dondoli"
+	"Dossi"
+	"Elenetti"
+	"Falcieri"
+	"Farina"
+	"Farinati"
+	"Ferrari"
+	"Flacco"
+	"Frisoni"
+	"Ghirlandini"
+	"Giarol"
+	"Giolfino"
+	"Lanceni"
+	"Lancerotti"
+	"Lancioni"
+	"Locatelli"
+	"Lorenzi"
+	"Maccari"
+	"Maderni"
+	"Marchesini"
+	"Marcola"
+	"Montemezzano"
+	"Morone"
+	"Nani"
+	"Noro"
+	"Ottini"
+	"Pachera"
+	"Pajetta"
+	"Panelli"
+	"Perini"
+	"Picenardi"
+	"Pozzo"
+	"Prunati"
+	"Riccio"
+	"Ridolfi"
+	"Robido"
+	"Rossetti"
+	"Ruggieri"
+	"Salis"
+	"Scaligeri"
+	"Semplice"
+	"Spada"
+	"Squarcione"
+	"Tarabotti"
+	"Torelli"
+	"Tumicelli"
+	"Turchi"
+	"Ugolini"
+	"Verla"
+	"Veronese"
+	"Vini"
+	"Voltolino"
+	"Zanconti"
+	"Zannoni"
+	"Zenatello"
+	"Zimengoli"
+	"da Conegliano"
+	"da Verona"
+	"da Zevio"
+	"dai Libri"
+	"del Moro"
+}
+ship_names = {
+	"Benvolio"
+	"Escalus"
+	"Giulietta Capuleti"
+	"Mercutio"
+	"Paris"
+	"Romeo Montecchi"
+	"San Babila"
+	"San Bernardino alle Ossa"
+	"San Cristoforo sul Naviglio"
+	"San Giovanni in Conca"
+	"San Gottardo"
+	"San Lorenzo"
+	"San Marco"
+	"San Nazaro Maggiore"
+	"San Satiro"
+	"San Simpliciano"
+	"Sant'Agostino"
+	"Sant'Ambrogio"
+	"Sant'Eustorgio"
+	"Santa Maria dei Miracoli"
+	"Santo Stefano"
+	"Sondrio"
+	"Tebaldo"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

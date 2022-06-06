@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 84 80 152 }
+revolutionary_colors = { 13 14 13 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"'Abd al-Q0dir #0" = 40
+	"'Abd al-Rahman #0" = 0
+	"'Am0ra #0" = 40
+	"Abu Bakr #0" = 0
+	"Abu Likayik #0" = 0
+	"Adl0n #0" = 40
+	"Agban #0" = 20
+	"Ahmad #0" = 0
+	"Ajjaib #0" = -1
+	"Awkal #0" = 0
+	"B0d0 #0" = 140
+	"Dak0n al-'Adil #0" = 20
+	"D0ra #0" = 20
+	"Eltecit #0" = 20
+	"Gulzar #0" = -1
+	"Halim #0" = 0
+	"Hashim #0" = 0
+	"Hassan #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Isawi #0" = 0
+	"Ishaq #0" = 0
+	"Ism0'0l #0" = 0
+	"Joel #0" = 20
+	"Koudlaniel #0" = 20
+	"Maqdum #0" = 0
+	"Maram #0" = -1
+	"Muhammad #0" = 0
+	"Musa #0" = 0
+	"Mustafa #0" = 0
+	"N0'l #0" = 20
+	"N0sir #0" = 20
+	"N0l #0" = 20
+	"Rajab #0" = 0
+	"Ranfi #0" = 20
+	"Rifaya #0" = 0
+	"Rub0t #0" = 20
+	"Sulayman #0" = 0
+	"Taiy0b #0" = 40
+	"Tindhim #0" = 0
+	"Unsa #0" = 60
+	"Ya'qub #0" = 0
+	"Yusuf #0" = 0
+}
+leader_names = {
+	"Abboud"
+	"Fung"
+	"Garang"
+	"Kayra"
+	"Keira"
+	"Kelueljang"
+	"Lugor"
+	"Nuer"
+	"Shol"
+	"Taha"
+}
+ship_names = {
+	"Amenirdis"
+	"Amon"
+	"Apedemak"
+	"Arensnuphis"
+	"Bes"
+	"Dedwen"
+	"Khnum"
+	"Mandulis"
+	"Mut"
+	"Taweret"
+	"Tefnut"
+}

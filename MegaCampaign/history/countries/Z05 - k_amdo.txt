@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = indian
+religion = converted_dynamic_faith_103
+primary_culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+capital = 2184
+add_accepted_culture = dynamic-chihan-tangut-culture-num1
+add_accepted_culture = khalkha
+1444.11.11= {
+	monarch = {
+		name = "Sriganga"
+		dynasty = "Ganga"
+		adm = 3
+		dip = 3
+		mil = 5
+		birth_date = 1407.6.8
+		religion = converted_dynamic_faith_103
+		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Revakanimmadi"
+		dynasty = "Burma"
+		adm = 5
+		dip = 3
+		mil = 5
+		country_of_origin = Z05
+		birth_date = 1395.12.12
+		death_date = 1455.12.12
+		female = yes
+		religion = converted_dynamic_faith_103
+		culture = dynamic-bengali-gondi-rajput-culture-num3
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Yajnavati"
+		monarch_name = "Yajnavati"
+		dynasty = "Ganga"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1426.4.9
+		death_date = 1491.4.9
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_103
+		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 84
+	add_treasury = 72
+}

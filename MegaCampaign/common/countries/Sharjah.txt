@@ -1,0 +1,77 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 64 120 172 }
+historical_idea_groups = {
+	economic_ideas
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Aisha #0" = -1
+	"Fatima #0" = -1
+	"Hessah #0" = -1
+	"Jawhara #0" = -1
+	"Khalid #0" = 20
+	"Munira #0" = -1
+	"Nadiyya #0" = -1
+	"Noura #0" = -1
+	"Rashid #0" = 10
+	"Ruwa #0" = -1
+	"Salim #0" = 10
+	"Saqr #0" = 20
+	"Sultan #0" = 20
+	"Wadhah #0" = -1
+	"ah-Husayn #0" = 20
+	"al-Hasan #0" = 20
+}
+leader_names = {
+	"Al Daye"
+	"Al Dwairan"
+	"Al Halou"
+	"Al Mowaled"
+	"Al-Jurr"
+	"Al-Razi"
+	"Alam"
+	"Alzeshi"
+	"Bahamdan"
+	"Shouaa"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Ghani"
+	"Hadi"
+	"Jami"
+	"Malik al Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaquim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Ra'uf"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

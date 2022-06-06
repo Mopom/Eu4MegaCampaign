@@ -1,0 +1,86 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 150 50 10 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	creek_arquebusier
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Aamanaco #0" = 20
+	"Avonaco #0" = 20
+	"Axkahpsaypi #0" = -1
+	"Chahpacpahha #0" = 20
+	"Ehyophsta #0" = -1
+	"Japu #0" = 20
+	"Kohkahywhcumest #0" = 20
+	"Matewashena #0" = 20
+	"Misstanstur #0" = -1
+	"Motavato #0" = 20
+	"Nahkkomeien #0" = 20
+	"Nahpatonca #0" = 20
+	"Nakohaistah #0" = 20
+	"Namopisi #0" = -1
+	"Ohkeecheta #0" = 20
+	"Oneahaket #0" = 20
+	"Shongemonetoeahca #0" = 20
+	"Shonggemoneto #0" = 20
+	"Tahhiota #0" = 20
+	"Tahtahtoisneh #0" = -1
+	"Takchesca #0" = 20
+	"Tatoncahooohcalehpaha #0" = 20
+	"Tatoncapa #0" = 20
+	"Voisttitoevetz #0" = 20
+	"Vokivokamast #0" = 20
+	"Wahhanissatta #0" = 20
+	"Wechegalla #0" = 20
+}
+leader_names = {
+	"Adahy"
+	"Atagulkalu"
+	"Cheasequah"
+	"Degataga"
+	"Diwali"
+	"Mohe"
+	"Onacona"
+	"Tsiyi"
+	"Waya"
+}
+ship_names = {
+	"Ah-ni-ga-to-ge-wi"
+	"Ah-ni-gi-lo-hi"
+	"Ah-ni-ka-wi"
+	"Ah-ni-sa-ho-ni"
+	"Ah-ni-tsi-sk-wa"
+	"Ah-ni-wa-ya"
+	"Ah-ni-wo-di"
+	"Ani Yuntikwalaski"
+	"Ani-kutani"
+	"Anisga'ya Tsunsdi"
+	"Asgaya Gigagei"
+	"I'nage-utasvhi"
+	"Kana'ti"
+	"Nv-da gu-ti-ha"
+	"Nv-da ka-na-wo-ga"
+	"Nv-da ko-la"
+	"Nv-da u-no-le"
+	"Oonawieh Unggi"
+	"Selu"
+	"Tsul Kalu"
+}

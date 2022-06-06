@@ -1,0 +1,126 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 25 123 48 }
+revolutionary_colors = { 10 6 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Akakotos #0" = 20
+	"Apawonistaw #0" = 20
+	"Apawstamix #0" = 20
+	"Attistahhawes #0" = 20
+	"Ayestipissimat #0" = 20
+	"Chenka #0" = 20
+	"Ekaskine #0" = 20
+	"Emitahapiskinne #0" = 20
+	"Etamepeton #0" = 10
+	"Kawasaskotrepahik #0" = 10
+	"Kayetapo #0" = 20
+	"Kayookosis #0" = 20
+	"Kichipwot #0" = 20
+	"Kissoum #0" = 20
+	"Mahtowewitko #0" = 20
+	"Makoyekin #0" = 20
+	"Masgwahasid #0" = 20
+	"Mastepitah #0" = 20
+	"Matapikomotziw #0" = 20
+	"Misketo #0" = 10
+	"Moyanymen #0" = 20
+	"Nesoauases #0" = 10
+	"Netahkiteipimew #0" = 20
+	"Nochkpitshitoepish #0" = 10
+	"Omaksisapop #0" = 20
+	"Onistah #0" = 20
+	"Onistahpokah #0" = 20
+	"Otamakooewin #0" = 10
+	"Pitah #0" = 20
+	"Pitahannes #0" = 20
+	"Pitahonistah #0" = 20
+	"Pitahotiskin #0" = 20
+	"Pitahotocan #0" = 20
+	"Pitahsiksinum #0" = 20
+	"Ponokahstamix #0" = 20
+	"Shapousetung #0" = 10
+	"Sheohmantho #0" = 10
+	"Stamixosok #0" = 20
+	"Stamixotakapiw #0" = 20
+	"Stokimatis #0" = 20
+	"Sukeman #0" = 10
+	"Tasinahlahlawin #0" = -1
+	"Tasinasapewin #0" = -1
+	"Tepeeoska #0" = 20
+	"Thasinamani #0" = -1
+	"Toetahkiehnan #0" = 10
+	"Waywasecapow #0" = 10
+	"Wichawostaka #0" = 20
+}
+leader_names = {
+	"Aegitina"
+	"Bizibina"
+	"Canhdada"
+	"Canhewincasta"
+	"Canknuhabi"
+	"Cephubi"
+	"Hebina"
+	"Hen Atonwaabina"
+	"Hudesabina"
+	"Huhuganebabi"
+	"Huhumasmibi"
+	"Indogahwincasta"
+	"Innianonbi"
+	"Insaombi"
+	"Inwantonwanbina"
+	"Minisatonwanbi"
+	"Minisoee Swnkeebi"
+	"Osnibi"
+	"Ptegabina"
+	"Sahiyaiyeskabi"
+	"Sihabi"
+	"Snugabi"
+	"Sunkcebi"
+	"Tanidabi"
+	"Tanzinapebina"
+	"Tokanbi"
+	"Unskaha"
+	"Wadopabina"
+	"Wadopahtonwan"
+	"Wasinazinyabi"
+	"Waziyamwincasta"
+	"Wiciyabina"
+	"Wokpanbi"
+}
+ship_names = {
+	"Anukasa"
+	"Caba"
+	"Hehaka"
+	"Hiha"
+	"Jkumataga"
+	"Maga"
+	"Mato"
+	"Pahj"
+	"Paktasa"
+	"Snohena"
+	"Suga"
+	"Sugataga"
+	"Suksasna"
+	"Suktogeja"
+	"Tataga"
+	"Tuhmaga"
+}

@@ -1,0 +1,16 @@
+owner = MNG
+controller = MNG
+capital = "Ningbo"
+is_city = yes
+culture = wu
+religion = confucianism
+trade_goods = naval_supplies
+base_tax = 6
+base_production = 7
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1
+add_core = MNG
+add_core = WUU
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,12 @@
+owner = CTM
+controller = CTM
+capital = "Moran"
+is_city = yes
+culture = putun
+religion = mesoamerican_religion
+trade_goods = cocoa
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = CTM
+discovered_by = mesoamerican

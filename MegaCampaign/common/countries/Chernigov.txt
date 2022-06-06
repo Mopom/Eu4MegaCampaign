@@ -1,0 +1,127 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 190 190 190 }
+revolutionary_colors = { 0 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	expansion_ideas
+	religious_ideas
+	offensive_ideas
+	naval_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Afanasiy #0" = 0
+	"Agafya #0" = -1
+	"Akim #0" = 0
+	"Aleksandr #0" = 0
+	"Alexei #0" = 0
+	"Anatoliy #0" = 0
+	"Andrei #2" = 15
+	"Arkadiy #0" = 0
+	"Boris #1" = 10
+	"Daniil #0" = 0
+	"Dmitriy #3" = 70
+	"Dorofey #0" = 0
+	"Feodosiy #0" = 0
+	"Feofilakt #0" = 0
+	"Fyodor #0" = 0
+	"Gavriil #0" = 0
+	"Gleb #2" = 5
+	"Innokentiy #0" = 0
+	"Iosif #0" = 0
+	"Ivan #0" = 0
+	"Izyaslav #2" = 10
+	"Lavrentiy #0" = 0
+	"Makariy #0" = 0
+	"Matveiy #0" = 0
+	"Mikhail #2" = 10
+	"Mstislav #3" = 20
+	"Nazariy #0" = 0
+	"Nikifor #0" = 0
+	"Oleg #3" = 15
+	"Onisim #0" = 0
+	"Pavel #0" = 0
+	"Prokopiy #0" = 0
+	"Pyotr #0" = 0
+	"Radomir #0" = 0
+	"Roman #2" = 15
+	"Saveliy #0" = 0
+	"Semen #0" = 0
+	"Sergei #0" = 0
+	"Svetlana #0" = -1
+	"Svyatoslav #4" = 40
+	"Terentiy #0" = 0
+	"Valeriy #0" = 0
+	"Vasiliy #2" = 15
+	"Vladimir #2" = 15
+	"Vsevolod #3" = 20
+	"Yakim #0" = 0
+	"Yevgeniy #0" = 0
+	"Yuliya #0" = -1
+	"Yuriy #0" = 0
+}
+leader_names = {
+	"Apraksin"
+	"Bagration"
+	"Barclay de Tolly"
+	"Bibikoff"
+	"Bodisco"
+	"Boruffsin"
+	"Golitzin"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Mensjikov"
+	"Mustislavski"
+	"Ostermann Tolstoy"
+	"Paletskij"
+	"Rajevski"
+	"Schuvalov"
+	"Sjeremetjev"
+	"Sjtjenjatvev"
+	"Tiesenhusen"
+	"Vasiljevitj"
+	"von Buxhoevden"
+	"von Knorring"
+	"von Lascy"
+}
+ship_names = {
+	"Coluna"
+	"Cortiza"
+	"D. Aleksandrovich"
+	"Dmitri Donskoi"
+	"Iausa"
+	"Ivan Kalita"
+	"Klin"
+	"Moscha"
+	"Mosnisk"
+	"Olescho"
+	"Piersek"
+	"Rurik"
+	"Schorna"
+	"Troitzkoy"
+	"Vasiliy I"
+	"Volga"
+	"Wolok"
+}

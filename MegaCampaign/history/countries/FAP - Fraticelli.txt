@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = papacy_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = umbrian
+capital = 118
+fixed_capital = 118
+add_army_professionalism = 0.05
+500.11.11= {
+	monarch = {
+		name = "(Interregnum)"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

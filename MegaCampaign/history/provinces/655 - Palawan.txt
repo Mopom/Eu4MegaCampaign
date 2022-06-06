@@ -1,0 +1,12 @@
+owner = BEI
+controller = BEI
+capital = "Palawan"
+is_city = yes
+culture = filipino
+religion = sunni
+trade_goods = sugar
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = BEI
+discovered_by = chinese

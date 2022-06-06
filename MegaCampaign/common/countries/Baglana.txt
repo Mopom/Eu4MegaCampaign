@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 131 52 76 }
+revolutionary_colors = { 0 8 0 }
+historical_idea_groups = {
+	aristocracy_ideas
+	offensive_ideas
+	defensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ajab #0" = -1
+	"Baiji Lal #0" = 0
+	"Ballu #0" = 0
+	"Baz #0" = 0
+	"Bhairava #0" = 30
+	"Bhawani #0" = 0
+	"Daulatmand #0" = 10
+	"Dev #0" = -1
+	"Dilip #0" = 0
+	"Hakim #0" = 0
+	"Jai #0" = 0
+	"Jawan #0" = 0
+	"Jhala #0" = 0
+	"Jopideva #0" = 10
+	"Kamala #0" = -1
+	"Krishna #0" = 0
+	"Kshetra #0" = 0
+	"Kumbhakarna #0" = 0
+	"Kunwar #0" = 0
+	"Nanadeva #1" = 15
+	"Naryan #0" = 0
+	"Nath #0" = 0
+	"Natwar #0" = 0
+	"Raj #0" = 0
+	"Ramdevji #0" = 5
+	"Ratan #0" = 0
+	"Rupdevji #0" = 5
+	"Sahabdevji #0" = 5
+	"Sangram #0" = 0
+	"Sejakji #0" = 0
+	"Sidhraj #0" = 0
+	"Somdevji #0" = 5
+	"Songari #0" = -1
+	"Viram #0" = 0
+	"Viramasena #0" = 10
+}
+leader_names = {
+	"Bargujar"
+	"Bhaal"
+	"Bhati"
+	"Chandela"
+	"Chauhan"
+	"Chudasama"
+	"Chundawa"
+	"Das"
+	"Gohil"
+	"Jadeja"
+	"Jadon"
+	"Khumba"
+	"Mori"
+	"Pratap"
+	"Sahu"
+	"Saran"
+	"Singh"
+	"Sisodiya"
+	"Tomara"
+	"Vaghela"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Merwar ka Nav"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

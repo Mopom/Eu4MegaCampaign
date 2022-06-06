@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 120 120 55 }
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Aisha #0" = -1
+	"Amna #0" = -1
+	"Bakari #0" = 20
+	"Bawo #0" = 20
+	"Bi #0" = -1
+	"Cikkoku #0" = 20
+	"Da'ud #0" = 20
+	"Gana #0" = 20
+	"Ghadir #0" = -1
+	"Gizirgizir #0" = -1
+	"Ikoi #0" = 20
+	"Kanemi #0" = 20
+	"Mamadu #0" = 40
+	"Mule #0" = 20
+	"Nafissa #0" = -1
+	"Ouankoy #0" = 20
+	"Pog-wabga #0" = -1
+	"Sassouma #0" = -1
+	"Sogolon #0" = -1
+	"Solomon #0" = 20
+	"Sora #0" = 20
+	"Sylla #0" = 20
+	"Takoi #0" = 20
+	"Tugule #0" = 20
+	"Yennenga #0" = -1
+	"Zakoi #0" = 20
+	"Zalil #0" = 20
+	"Zaynab #0" = -1
+}
+leader_names = {
+	"Amadou"
+	"Bawo"
+	"Cikkoku"
+	"Deo"
+	"Diarra"
+	"Gana"
+	"Ikoi"
+	"Kanemi"
+	"Keita"
+	"Konare"
+	"Modibo"
+	"Moussa"
+	"Ouankoy"
+	"Solomon"
+	"Sora"
+	"Sylla"
+	"Takoi"
+	"Tor"
+	"Toumani"
+	"Toure"
+	"Traoré"
+	"Tugule"
+	"Zakoi"
+}
+ship_names = {
+	"Gao"
+	"Jenne"
+	"Kankan Musa"
+	"Khalifa Keita"
+	"Kiringa"
+	"Koumbi Saleh"
+	"Kouroukan Fouga"
+	"Quati Keita"
+	"Sakura"
+	"Sundiata Keita"
+	"Timbuktu"
+	"Wali Keita"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

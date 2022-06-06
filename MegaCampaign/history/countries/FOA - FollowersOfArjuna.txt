@@ -1,0 +1,6 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = kanauji

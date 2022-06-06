@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = nomad_group
+religion = sunni
+primary_culture = bashkir
+capital = 475
+religious_school = hanafi_school

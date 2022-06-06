@@ -1,0 +1,13 @@
+owner = KOR
+controller = KOR
+capital = "Sangju"
+is_city = yes
+culture = korean
+religion = confucianism
+trade_goods = cotton
+base_tax = 4
+base_production = 3
+base_manpower = 2
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group

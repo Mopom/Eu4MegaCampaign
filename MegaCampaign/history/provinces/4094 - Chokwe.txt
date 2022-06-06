@@ -1,0 +1,12 @@
+owner = CKW
+controller = CKW
+capital = "Chokwe"
+is_city = yes
+culture = chokwe
+religion = shamanism
+trade_goods = ivory
+base_tax = 1
+base_production = 1
+base_manpower = 2
+add_core = CKW
+discovered_by = central_african

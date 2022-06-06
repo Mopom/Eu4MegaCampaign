@@ -1,0 +1,15 @@
+owner = WAI
+controller = WAI
+capital = "Pikimai"
+is_city = yes
+culture = maori
+religion = animism
+trade_goods = iron
+base_tax = 2
+base_production = 1
+base_manpower = 1
+add_core = WAI
+discovered_by = polynesian_tech
+latent_trade_goods = {
+	coal
+}

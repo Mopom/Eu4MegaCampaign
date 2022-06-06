@@ -1,0 +1,75 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 162 93 31 }
+revolutionary_colors = { 15 8 0 }
+historical_idea_groups = {
+	defensive_ideas
+	quantity_ideas
+	administrative_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Aidemer #0" = 20
+	"Alibek #0" = 30
+	"Budai #0" = 30
+	"Eldar #0" = 30
+	"Elisu #0" = -1
+	"Gulandash #0" = -1
+	"Istadjalu #0" = -1
+	"Muhammad #0" = 20
+	"Murtazali #0" = 20
+	"Shamay-beke #0" = -1
+	"Surkhay #0" = 40
+}
+leader_names = {
+	"Balanjar"
+	"Derbent"
+	"Djidan"
+	"Gumik"
+	"Haidak"
+	"Khamzin"
+	"Lakz"
+	"Philan"
+	"Samandar"
+	"Sarir"
+	"Shamkal"
+	"Shandan"
+	"Tabasaran"
+	"Tumen"
+	"Zirihgeran"
+}
+ship_names = {
+	"Agul"
+	"Avaria"
+	"Bartki"
+	"Gazi"
+	"Gumuchi"
+	"Khundzal"
+	"Kullal"
+	"Kumukh"
+	"Kurkli"
+	"Lakia"
+	"Machimi"
+	"Rutul"
+	"Tarki"
+	"Umal Muhammad"
+	"Uri-Mukarki"
+	"Vitskhi"
+}

@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 126 180 154 }
+revolutionary_colors = { 5 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Ahway Eskay #0" = 0
+	"Ashkii Diyin #0" = 10
+	"Atsidi Sani #0" = 0
+	"Beshiltheeni #0" = 0
+	"Bislahalani #0" = 10
+	"Chapitone #0" = 20
+	"Dahaana Baadaane #0" = 10
+	"Dahteste #0" = -1
+	"Gouyen #0" = -1
+	"Haske Yahne Yah #0" = 0
+	"Hastiin Ch'ilhaajin #0" = 10
+	"Hastiin Daagi #0" = 10
+	"Hastiin Daghaa #0" = 10
+	"Hastiin Klah #0" = 0
+	"Hoksay Nolyae #0" = 0
+	"Hozhooji Naat'a #0" = 10
+	"Ilthgozay #0" = -1
+	"Lozen #0" = -1
+	"Nabaah Jilt'aa #0" = 10
+	"Toh Yah #0" = 0
+	"Tohayea #0" = -1
+}
+leader_names = {
+	"Ashinuii"
+	"Biih Bitoodnii"
+	"Bit'anhi"
+	"Deeshchii'nii"
+	"Dibelzhini"
+	"Dzaaneez Lani"
+	"Dzilt'aadi"
+	"Haltsooi"
+	"Hashk'aa Hadzohi"
+	"Hasht L'ishnii"
+	"Honaghaahnii"
+	"Hooghan Lani"
+	"Jaa'yaaloolii"
+	"K'aahanaanii"
+	"Keha'atiinii"
+	"Keha'atiintii"
+	"Kin Ichii'nii"
+	"Kiyaa'aanii"
+	"Ma'ii Deeshgiizhinii"
+	"Naaket L'ahi"
+	"Naashaashi"
+	"Naaste'ezheh"
+	"Nashashi"
+	"Nihoobaanii"
+	"T'ÿschebaanii"
+	"Ta'neeszahnii"
+	"Tabaaha"
+	"Tachii'nii"
+	"Tl'aaschi'I"
+	"Tl'izi Lani"
+	"Tl'ogi"
+	"To Baazhni'azhi"
+	"To'ahani"
+	"To'aheedliinii"
+	"Todich'ii'nii"
+	"Todik'ozhi"
+	"Totshnii"
+	"Ts'ah Yisk'idnii"
+	"Tse Deeshgizhnii"
+	"Tseikeehee"
+	"Tsenabahituii"
+	"Tsenjikini"
+	"Tsi'naajinii"
+	"Tsin Sikaadnii"
+}
+ship_names = {
+	"Atsa"
+	"Ayani"
+	"Biih"
+	"Dahsani"
+	"Gaagii"
+	"Golizhii"
+	"Ma'ittsoh"
+	"Nashdoitsoh"
+	"Ne'eshjaa"
+	"Shash"
+	"Tabaah"
+	"Ti'iish"
+	"Tii"
+	"Tsis'na"
+	"Tééchaa'i"
+	"ma'ii"
+}

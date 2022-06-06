@@ -1,0 +1,64 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 181 45 45 }
+revolutionary_colors = { 9 8 1 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_clubmen
+	african_dragoon
+	african_hussar
+	african_somali_cavalry
+	african_western_franchise_warfare
+	bantu_gunpowder_warfare
+	bantu_plains_warfare
+	bantu_tribal_warfare
+	westernized_bantu
+}
+monarch_names = {
+	"Achieng #0" = -1
+	"Chirisamhuru #0" = 20
+	"Dlembeu #0" = 20
+	"Dombo Chinkura #0" = 20
+	"Gumboremvura #0" = 20
+	"Mthaniya #0" = -1
+	"Nandi #0" = -1
+	"Nechagadzike #0" = 20
+	"Nechisake #0" = 20
+	"Nuru #0" = -1
+	"Rupanadamananga #0" = 20
+}
+leader_names = {
+	"Birir"
+	"Chirombo"
+	"Chrima"
+	"Kagona"
+	"Moyo"
+	"Mutasa"
+	"Njie"
+	"Nkomo"
+	"Rise"
+	"Tembo"
+}
+ship_names = {
+	"Dziva"
+	"Dzivaguru"
+	"Mai Vedu"
+	"Mazendere"
+	"Mbonga"
+	"Mulungu"
+	"Musikavanhu"
+	"Mutorwa"
+	"Mwari"
+	"Svikiro"
+}

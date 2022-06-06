@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = tengri_pagan
+primary_culture = mongol
+capital = 2127
+add_accepted_culture = turko_afghan
+1444.11.11= {
+	monarch = {
+		name = "Khagatai"
+		dynasty = "Bodoncharid"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1374.10.27
+		religion = tengri_pagan
+		culture = mongol
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Oghul"
+		dynasty = "Daritai"
+		adm = 4
+		dip = 2
+		mil = 5
+		country_of_origin = Z0M
+		birth_date = 1421.4.23
+		death_date = 1481.4.23
+		female = yes
+		religion = tengri_pagan
+		culture = mongol
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Khagatai"
+		monarch_name = "Khagatai II"
+		dynasty = "Bodoncharid"
+		adm = 2
+		dip = 1
+		mil = 1
+		birth_date = 1440.3.14
+		death_date = 1505.3.14
+		claim = 89
+		religion = tengri_pagan
+		culture = mongol
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 0
+}

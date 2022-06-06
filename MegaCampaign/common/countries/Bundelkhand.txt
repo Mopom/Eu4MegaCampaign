@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 23 114 143 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	trade_ideas
+	aristocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Anirudh #0" = 0
+	"Arjun Deo #0" = 20
+	"Baghwat Singh #0" = 20
+	"Bharti-candra #0" = 20
+	"Bir Singh Deo #0" = 20
+	"Devi Singh #0" = 20
+	"Dhokal #0" = 0
+	"Harde Sah #0" = 0
+	"HatiSingh Mahendra #0" = 20
+	"Hindupat #0" = 0
+	"Indira #0" = -1
+	"Indramani Singh #0" = 20
+	"Jaswant Singh #0" = 20
+	"Jayanti Devi #0" = -1
+	"Jujhar #0" = 20
+	"Jujhar Singh #0" = 20
+	"Kishor #0" = 0
+	"Lokpal #0" = 0
+	"Madho #0" = 0
+	"Madukar #0" = 20
+	"Mahendra #0" = 0
+	"Malkhan #0" = 0
+	"Malkhan Singh #0" = 20
+	"Man Singh Mahendra #0" = 20
+	"Mednepal Singh #0" = 20
+	"Nirpat #0" = 0
+	"Padmini #0" = -1
+	"Prithvi Singh #0" = 20
+	"Ram #0" = 20
+	"Rudra-pratap Singh #0" = 20
+	"Sabha #0" = 0
+	"Sawant Singh Mahendra #0" = 20
+	"Udwat Singh #0" = 20
+	"Virsingh Dev #0" = 20
+}
+leader_names = {
+	"Baghela"
+	"Bais"
+	"Bhaal"
+	"Bundela"
+	"Chandela"
+	"Chattar"
+	"Chauhan"
+	"Datia"
+	"Jadon"
+	"Jasos"
+	"Katoch"
+	"Mihir"
+	"Minhas"
+	"Mori"
+	"Naga"
+	"Naru"
+	"Pakhral"
+	"Pundir"
+	"Saharan"
+	"Singh"
+	"Tomara"
+}
+ship_names = {
+	"Betwa"
+	"Devi"
+	"Durga"
+	"Gandak"
+	"Ganga"
+	"Gayatri"
+	"Ghagra"
+	"Gomti"
+	"Jalsena"
+	"Kala Jahazi"
+	"Ken"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ramganga"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Satlaj"
+	"Sita"
+	"Yamuna"
+}

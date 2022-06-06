@@ -1,0 +1,79 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 201 97 74 }
+revolutionary_colors = { 6 14 6 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	spy_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Angkasa #0" = -1
+	"Anglurah Agung #0" = 20
+	"Dalem Bekung #0" = 20
+	"Dalem Di Made #0" = 20
+	"Dewa Agung Di Made #0" = 20
+	"Dewa Agung Jambe #0" = 20
+	"Dewa Agung Putra #0" = 20
+	"Dewa Agung Sakti #0" = 20
+	"Dewa Bekung #0" = 20
+	"Dewa Ketut #0" = 20
+	"Dewa Pacekan #0" = 20
+	"Dyah Kertawijaya #0" = 20
+	"Ketut Ngulesir #0" = 20
+	"Melatie #0" = -1
+	"Sri Aji Baturenggong #0" = 20
+	"Suhita #0" = 20
+	"Suri #0" = -1
+	"Watu Renggong #0" = 20
+	"Wikramawardhana #0" = 20
+}
+leader_names = {
+	"Agung"
+	"Budi"
+	"Hamengku"
+	"Harto"
+	"Karno"
+	"Kencono"
+	"Mas"
+	"Ratri"
+	"Slamet"
+	"Wani"
+}
+ship_names = {
+	"Agong"
+	"Baris"
+	"Barong"
+	"Batukaru"
+	"Batur"
+	"Bratan"
+	"Catur"
+	"Kecak"
+	"Kelatakan"
+	"Legong"
+	"Lesong"
+	"Merbuk"
+	"Mesehe"
+	"Musi"
+	"Patas"
+	"Pendet"
+	"Pohen"
+	"Sanglang"
+	"Sangyang"
+	"Seraya"
+	"Topeng"
+}

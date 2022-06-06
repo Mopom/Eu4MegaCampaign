@@ -1,0 +1,16 @@
+owner = TTI
+controller = TTI
+capital = "Nara"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = tea
+base_tax = 4
+base_production = 3
+base_manpower = 2
+add_core = TTI
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

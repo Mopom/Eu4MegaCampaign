@@ -1,0 +1,12 @@
+owner = LND
+controller = LND
+capital = "Mpasu"
+is_city = yes
+culture = lunda
+religion = shamanism
+trade_goods = spices
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = LND
+discovered_by = central_african

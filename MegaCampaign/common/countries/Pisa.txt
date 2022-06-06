@@ -1,0 +1,158 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 177 150 109 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adriano #0" = 0
+	"Alessandro #0" = 5
+	"Alessio #0" = 0
+	"Baldovino #0" = 0
+	"Belisario #0" = 5
+	"Beniamino #0" = 0
+	"Biagio #0" = 0
+	"Bonaventura #0" = 0
+	"Celio #0" = 0
+	"Constantino #0" = 0
+	"Damiano #0" = 0
+	"Danilo #0" = 0
+	"Emanuele #0" = 15
+	"Eros #0" = 0
+	"Eustachio #0" = 0
+	"Evangelista #0" = 0
+	"Fortunato #0" = 0
+	"Gabriele Maria #0" = 20
+	"Gennaro #0" = 0
+	"Gherardo #0" = 20
+	"Giancarlo #0" = 0
+	"Giovanni #0" = 20
+	"Giustino #0" = 0
+	"Innocenzo #0" = 0
+	"Jacopo #1" = 15
+	"Leonardo #0" = 0
+	"Leone #0" = 0
+	"Ludovica #0" = -1
+	"Marco #0" = 0
+	"Mariangela #0" = -1
+	"Mauro #0" = 0
+	"Orfeo #0" = 0
+	"Pasquale #0" = 0
+	"Petronilla #0" = -1
+	"Pietro #0" = 0
+	"Roberto #0" = 0
+	"Sergio #0" = 0
+	"Severino #0" = 0
+	"Ugo #0" = 0
+	"Valerio #0" = 0
+	"Vincenzo #0" = 0
+	"Vitale #0" = 0
+	"Vittorio #0" = 0
+}
+leader_names = {
+	"Amelia"
+	"Appiani"
+	"Barone"
+	"Bartoli"
+	"Barzagli"
+	"Basile"
+	"Birindelli"
+	"Brunforte"
+	"Buonarroti"
+	"Butteri"
+	"Capitani"
+	"Chiellini"
+	"Conti"
+	"Dini"
+	"Fibonacci"
+	"Galilei"
+	"Gambacorta"
+	"Ganza"
+	"Gentileschi"
+	"Gori"
+	"Greco"
+	"Grosso"
+	"Guidi"
+	"Letta"
+	"Lombardi"
+	"Mancini"
+	"Marchetti"
+	"Marianelli"
+	"Notaro"
+	"Oddo"
+	"Pacinotti"
+	"Pesce"
+	"Pini"
+	"Pisano"
+	"Pontecorvo"
+	"Pozzi"
+	"Ruffo"
+	"Sonnino"
+	"Tabucchi"
+	"Tosetti"
+	"Tumicelli"
+	"Ulivelli"
+	"Ventura"
+	"Zaccardo"
+	"d'Appiani d'Aragona"
+	"de Rossi"
+	"del Piero"
+	"dell Agnello"
+	"della Gherardesca"
+	"della Ubaldini"
+}
+ship_names = {
+	"Andreotto Saraceno"
+	"Bartolo da Sassoferrato"
+	"Bernardo dei Paganelli"
+	"Daiberto Pisano"
+	"Fazio della Gherardesca"
+	"Fiumi Arno"
+	"Francesco da Buti"
+	"Giovanni di Simone"
+	"Giuseppe Setaioli"
+	"Leonardo Fibonacci"
+	"Monti Pisani"
+	"Morosini da Venezia"
+	"Rustichello"
+	"S.Piero a Grado"
+	"S.Rossore"
+	"San Frediano"
+	"San Giovanni Battista"
+	"San Michele"
+	"San Nicola"
+	"San Paolo a Ripa d'Arno"
+	"San Sisto"
+	"Sant'Agata"
+	"Sant'Antonio"
+	"Santa Maria Assunta"
+	"Santa Maria della Spina"
+	"Ugolino Caccini"
+	"Ugolino della Gherardesca"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

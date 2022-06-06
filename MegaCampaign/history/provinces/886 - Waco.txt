@@ -1,0 +1,15 @@
+owner = WIC
+controller = WIC
+capital = "Waco"
+is_city = yes
+culture = wichita
+religion = totemism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = WIC
+discovered_by = north_american
+native_size = 6
+native_ferocity = 2
+native_hostileness = 8

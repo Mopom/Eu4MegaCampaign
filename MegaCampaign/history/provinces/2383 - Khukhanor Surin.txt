@@ -1,0 +1,14 @@
+owner = LXA
+controller = LXA
+capital = "Khukhan"
+is_city = yes
+culture = khmer
+religion = buddhism
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = CHK
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian

@@ -1,0 +1,12 @@
+owner = KON
+controller = KON
+capital = "Okango"
+is_city = yes
+culture = kongolese
+religion = shamanism
+trade_goods = spices
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = KON
+discovered_by = central_african

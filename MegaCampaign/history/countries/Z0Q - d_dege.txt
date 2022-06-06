@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = chinese
+religion = converted_dynamic_faith_103
+primary_culture = sumpa
+capital = 2135
+add_accepted_culture = tibetan
+1444.11.11= {
+	monarch = {
+		name = "Tingsho"
+		dynasty = "Sumpa-Mukzhung"
+		adm = 3
+		dip = 5
+		mil = 5
+		birth_date = 1402.6.23
+		female = yes
+		religion = converted_dynamic_faith_103
+		culture = sumpa
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Tensung"
+		dynasty = "Sumpa-Mukzhung"
+		adm = 5
+		dip = 5
+		mil = 5
+		country_of_origin = Z0Q
+		birth_date = 1403.11.15
+		death_date = 1463.11.15
+		religion = converted_dynamic_faith_103
+		culture = sumpa
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Tensung"
+		monarch_name = "Tensung"
+		dynasty = "Sumpa-Mukzhung"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1428.2.19
+		death_date = 1493.2.19
+		claim = 89
+		religion = converted_dynamic_faith_103
+		culture = sumpa
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 70
+	add_treasury = 54
+}

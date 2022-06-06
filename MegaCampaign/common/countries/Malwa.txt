@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 192 5 24 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	economic_ideas
+	quantity_ideas
+	humanist_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ahalya Bai #0" = 10
+	"Alp Khan Hushang #0" = 10
+	"Amir #0" = 0
+	"Bahadur #0" = 10
+	"Baz #0" = 0
+	"Baz Bahadur #0" = 10
+	"Dilavar Khan #0" = 10
+	"Ferishta #0" = 0
+	"Ghazni Khan #0" = 10
+	"Ghiyas-ud-din #0" = 0
+	"Ghiyath Shah #0" = 10
+	"Hajjah #0" = -5
+	"Hoshang #0" = 0
+	"Mahmud  #0" = 0
+	"Mahmud Shah #0" = 20
+	"Mali Rao #0" = 10
+	"Mohammed #0" = 0
+	"Nasir #0" = 0
+	"Nasir Shah #0" = 10
+	"Qadir #0" = 0
+	"Qadir Shah #0" = 10
+	"Qudsia #0" = -5
+	"Salim #0" = 0
+	"Salim Shah #0" = 10
+	"Shahjahan Begum #0" = -5
+	"Shaja'at Khan #0" = 10
+}
+leader_names = {
+	"Bahadur"
+	"Bhilala"
+	"Changezi"
+	"Chattari"
+	"Chudasama"
+	"Farooqi"
+	"Gauri"
+	"Ghuri"
+	"Gilani"
+	"Haji"
+	"Jurjani"
+	"Kanjar"
+	"Khan"
+	"Khorasani"
+	"Latif"
+	"Malik"
+	"Mori"
+	"Naru"
+	"Pahore"
+	"Paramara"
+	"Solanki"
+	"Sultan"
+	"Tomara"
+	"Turani"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Betwa"
+	"Chambal"
+	"Dhasan"
+	"Fatimah"
+	"Ghambir"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Mahi"
+	"Narmada"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Shipra"
+	"Suhalia"
+	"Yasmine"
+}

@@ -1,0 +1,13 @@
+owner = KRC
+controller = KRC
+capital = "Baichungtze"
+is_city = yes
+culture = chahar
+religion = vajrayana
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = KRC
+discovered_by = chinese
+discovered_by = nomad_group

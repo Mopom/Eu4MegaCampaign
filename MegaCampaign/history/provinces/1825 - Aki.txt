@@ -1,0 +1,17 @@
+owner = HSK
+controller = HSK
+capital = "Tomo"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = grain
+base_tax = 4
+base_production = 4
+base_manpower = 3
+add_core = HSK
+add_core = MRI
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

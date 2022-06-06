@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 95 139 214 }
+revolutionary_colors = { 4 0 4 }
+historical_idea_groups = {
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Abdullah #0" = 0
+	"Ali #0" = 0
+	"Bhav #0" = 0
+	"Bhenji #0" = 0
+	"Fakir #0" = 0
+	"Firuzshah #0" = 25
+	"Ghazi Khan #0" = 25
+	"Ghulam #0" = 0
+	"Gulab #0" = 0
+	"Hamirji #0" = 0
+	"Hamza #0" = 0
+	"Hari #0" = 0
+	"Hassan #0" = 0
+	"Hussain #0" = 20
+	"Ibrahim #0" = 0
+	"Iffatunissa #0" = -1
+	"Ismail #0" = 0
+	"Jonaraja #0" = 0
+	"Kanwal #0" = -1
+	"Khalil #0" = 0
+	"Kishore #0" = 0
+	"Mahmud #0" = 25
+	"Muhammad #0" = 0
+	"Muzzafar #0" = 0
+	"Natwar #0" = 0
+	"Nazuk #0" = 0
+	"Prajna #0" = 0
+	"Pratap #0" = 0
+	"Qutbudin #0" = 25
+	"Ranbir #0" = 0
+	"Shahzada #0" = -1
+	"Sher #0" = 0
+	"Sidhraj #0" = 0
+	"Sikandar #0" = 0
+	"Ya'qub #0" = 0
+	"Yusuf #0" = 0
+	"Zorawar #0" = 0
+}
+leader_names = {
+	"Bahadur"
+	"Bhalla"
+	"Bhatia"
+	"Das"
+	"Dev"
+	"Gahunia"
+	"Gobind"
+	"Granth"
+	"Hoora"
+	"Jhol"
+	"Jhotti"
+	"Krishan"
+	"Lohaar"
+	"Munshi"
+	"Parikh"
+	"Parmanand"
+	"Patel"
+	"Patidar"
+	"Rai"
+	"Sayid"
+	"Shah"
+	"Shergill"
+	"Singh"
+	"Sodhi"
+	"Sohal"
+	"Udasi"
+	"Zamindar"
+}
+ship_names = {
+	"Beas"
+	"Chenab"
+	"Devi"
+	"Gayatri"
+	"Guru"
+	"Indus"
+	"Jalsena"
+	"Jhelum"
+	"Lakshmi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Ravi"
+	"Sagar"
+	"Sarasvati"
+	"Sita"
+	"Sutlej"
+}

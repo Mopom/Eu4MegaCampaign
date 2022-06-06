@@ -1,0 +1,105 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 211 230 211 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Amalric #2" = 30
+	"Baldwin #5" = 60
+	"Conrad #3" = 10
+	"Fulk #1" = 10
+	"Godfrey #1" = 60
+	"Guy #1" = 5
+	"Henry #2" = 40
+	"Hugues #1" = 5
+	"Isabella #2" = -10
+	"John #2" = 10
+	"Maria #1" = -5
+	"Melisende #1" = -5
+	"Sibylla #1" = -5
+}
+leader_names = {
+	"Arenberg"
+	"Bragadin"
+	"Crispo"
+	"Doria"
+	"Douglas"
+	"Duncan"
+	"Fadrigue"
+	"Hagedorn"
+	"Le Tellier"
+	"Lusignans"
+	"Maxwell"
+	"Melissinos"
+	"Minucci"
+	"Paleologi Montferrato"
+	"Pallavicini"
+	"Paradisi"
+	"Petrucci"
+	"Pico"
+	"Pignatelli"
+	"Plethon"
+	"Rendis"
+	"Saraceno"
+	"Sauerzapff"
+	"Schrüder"
+	"Selkirk"
+	"Stichsenstein"
+	"Sulerzycki"
+	"Tocco"
+	"dalla Rosa"
+	"de La Barthe"
+	"de La Ferrandie"
+	"de La Galissonière"
+	"de La Mothe"
+	"de La Motte d'Airan"
+	"de La Porte"
+	"de Lhéry"
+	"de Luynes"
+	"della Rovere"
+	"di Paesana"
+}
+ship_names = {
+	"Absolution"
+	"Avenger"
+	"Baldwin's Gate"
+	"Crusader"
+	"God Will Know His Own"
+	"Guardian"
+	"Hammer of God"
+	"Paladin"
+	"Pilgrim"
+	"Purifier"
+	"The Cleansing"
+	"The Faithful"
+	"The Grail"
+	"The Holy Cross"
+	"The Rapture"
+	"The Scourge"
+	"True Believer"
+	"Vindicator"
+}

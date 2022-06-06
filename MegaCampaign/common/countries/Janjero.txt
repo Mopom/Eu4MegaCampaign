@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 149 133 207 }
+revolutionary_colors = { 9 5 8 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hussar
+	african_mossi_horsemen
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	ethiopian_guerilla_warfare
+	ethiopian_gunpowder_warfare
+	ethiopian_mountain_warfare
+	westernized_ethiopian
+}
+monarch_names = {
+	"'Endrey0s #1" = 0
+	"Aba Magal #0" = -1
+	"Abaya #0" = 0
+	"Abet Hinoch #0" = -1
+	"Adil #0" = 10
+	"Ala #0" = 0
+	"Amda Seyon #0" = 0
+	"Amole #0" = 0
+	"Ano #0" = 0
+	"Antenatewos #0" = 0
+	"Awan #0" = 10
+	"Aynasu #0" = 0
+	"Bangarsa #0" = 0
+	"Buzab #0" = 10
+	"Dalasi #0" = 10
+	"Demetros #0" = 0
+	"Digimo #0" = 10
+	"Dogamno #0" = 10
+	"Duka #0" = 0
+	"Fiqtor #0" = 0
+	"F0s0l #0" = 0
+	"Gona #0" = 0
+	"Gosasso #0" = 10
+	"Gusho #0" = 0
+	"G0y0rg0s #0" = 0
+	"Haile #0" = 0
+	"Hamalmal #0" = 0
+	"Koke #0" = 10
+	"Koyns #0" = 0
+	"Malta Krestos #0" = 0
+	"Marqos #0" = 0
+	"Menas #0" = 0
+	"Mika'el #0" = 0
+	"Mika'el Sehul #0" = 0
+	"Saga Krestos #0" = 0
+	"Sherocho #0" = -1
+	"Takibo #0" = 10
+	"Turet #0" = 0
+	"Wand Bewossen #0" = 0
+	"Welde Giyorgis #0" = 0
+	"Wetsa #0" = 0
+	"Wolda Gabrael #0" = 0
+	"Woyra #0" = 0
+	"Woze #0" = 0
+	"Wurkenbe #0" = 10
+	"Yeshaq #1" = 0
+	"Zarmado #0" = 10
+	"Zikole #0" = 0
+}
+leader_names = {
+	"Benesho"
+	"Bosho"
+	"Chara"
+	"CharaGera"
+	"Eneara"
+	"Gofa"
+	"Gomma"
+	"Gonga"
+	"Hinaro"
+	"Hio"
+	"Konta"
+	"Kullo"
+	"Maji"
+	"Masongo"
+	"Mato"
+	"Minje"
+	"Nao"
+	"She"
+	"Shewo"
+	"Uba"
+}
+ship_names = {
+	"Kedus Harbe"
+	"Lalibela"
+	"Mara Takla"
+	"Na'akueto La'ab"
+	"Seyum"
+	"Shewa"
+	"Tatadum"
+	"Tigray"
+	"Yekuno Amlak"
+	"Yetbarak"
+	"Yodit"
+}

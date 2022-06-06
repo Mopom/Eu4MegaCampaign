@@ -1,0 +1,109 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 211 207 173 }
+revolutionary_colors = { 13 16 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Amaszt0z #0" = 0
+	"Andr0s #0" = 20
+	"Ardojan #0" = 0
+	"Barnab0s #0" = 0
+	"Betalan #0" = 0
+	"Boldisz0r #0" = 15
+	"Dorina #0" = -1
+	"D0vid #0" = 0
+	"D0m0t0r #0" = 0
+	"Edv0rd #0" = 0
+	"Elisabeta #0" = -1
+	"Ern0 #0" = 0
+	"Ferenc #0" = 40
+	"Gy0rgy #0" = 40
+	"G0bor #0" = 40
+	"Imre #0" = 15
+	"Isabela #0" = -1
+	"Istv0n #0" = 60
+	"Isz0k #0" = 0
+	"Janos #0" = 60
+	"Kelemen #0" = 0
+	"K0lm0n #0" = 0
+	"K0zm0r #0" = 0
+	"Lancu #0" = 20
+	"Leopold #0" = 15
+	"Lorand #0" = 20
+	"Luk0cs #0" = 0
+	"L0rinc #0" = 0
+	"MONARCH_NAME_JOZSEF #0" = 0
+	"MONARCH_NAME_KRISZTOF #0" = 20
+	"MONARCH_NAME_MIKLOS #0" = 10
+	"Mih0ly #0" = 50
+	"M0rk #0" = 0
+	"Oszk0r #0" = 0
+	"P0ter #0" = 0
+	"Samuel #0" = 15
+	"Simon #0" = 0
+	"Stibor #0" = 20
+	"S0ndor #0" = 15
+	"Tam0s #0" = 10
+	"Vencel #0" = 0
+	"Zsigmond #0" = 20
+	"0kos #0" = 20
+}
+leader_names = {
+	"Alvinczy"
+	"Apafi"
+	"Bethlen"
+	"Bocskai"
+	"Báthory"
+	"Dózsa"
+	"Gyulai"
+	"Kemény"
+	"Lackovic"
+	"Lázár"
+	"Rhédey"
+	"Rákóczy"
+	"Sasul"
+	"Thököly"
+	"Zabanius"
+	"Zrinyi"
+	"Zápolya"
+	"von Brukenthal"
+	"von Harteneck"
+}
+ship_names = {
+	"Antal Budai Nagy"
+	"Gyula"
+	"Hunyadi Janos"
+	"Ladislas Kan"
+	"Legforus"
+	"Leustachius"
+	"Mercurius"
+	"Roland Borsza"
+	"Varna"
+	"Vaskapu"
+}

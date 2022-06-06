@@ -1,0 +1,210 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 0 46 59 }
+revolutionary_colors = { 2 8 2 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Alpatakhuma #0" = 10
+	"Apuckshunubbee #0" = 20
+	"Asetahuma #0" = 10
+	"Asitahuma #0" = 10
+	"Autoonachuba #0" = 10
+	"Ayaestangui #0" = 10
+	"Ayaistanaksi #0" = 10
+	"Bakalubbe #0" = 10
+	"Bucshunubbe #0" = 10
+	"Cachuaanchabe #0" = 10
+	"Cachumaabi #0" = 10
+	"Cachuni Mastape #0" = 10
+	"Cachunimastabe #0" = 10
+	"Canelechabe #0" = 10
+	"Capputannethlucco #0" = 10
+	"Cayabe #0" = 10
+	"Chalitahuma #0" = 10
+	"Chicachahuma #0" = 10
+	"Chickashioclacta #0" = 10
+	"Choccoolacta #0" = 10
+	"Chucaastabe #0" = 10
+	"Chulomastubee #0" = 10
+	"Cshecoopoohoomoch #0" = 10
+	"Cshnaangchabba #0" = 10
+	"Cunnopoie #0" = 10
+	"Eyahchihumo #0" = 10
+	"Franchimastabe #0" = 20
+	"Hatonahopaii #0" = 10
+	"Hiupahoo #0" = 10
+	"Hochehomo #0" = 10
+	"Illatallahomo #0" = 10
+	"Imaabe #0" = 10
+	"Immahoka #0" = -1
+	"Iteleskana #0" = 10
+	"Lunnabaga #0" = -1
+	"Mestico #0" = 10
+	"Millaray #0" = -1
+	"Mingohom Massatubby #0" = 10
+	"Mingohomoastabee #0" = 10
+	"Mingopooscoos #0" = 10
+	"Mingotabasa #0" = 10
+	"Mingotalaya #0" = 10
+	"Mosholatubbee #0" = 20
+	"Muclushahopoia #0" = 10
+	"Nackitona #0" = 10
+	"Nahollomastubbe #0" = 10
+	"Nahomtima #0" = -1
+	"Nahumastabbe #0" = 10
+	"Ochinohahuma #0" = 10
+	"Oclactahuma #0" = 10
+	"Ocshumme #0" = 10
+	"Oechanyimastabe #0" = 10
+	"Okanconnooa #0" = 10
+	"Okshakihoma #0" = 10
+	"Olactahuma #0" = 10
+	"Pangehooloch #0" = 10
+	"Panshimantla #0" = 10
+	"Pooshahomo #0" = 10
+	"Pooshahooma #0" = 10
+	"Pooshemastuby #0" = 10
+	"Pooshonaltla #0" = 10
+	"Puchihuacaya #0" = 10
+	"Puchihuma #0" = 10
+	"Puchihumachita #0" = 10
+	"Pushahuma #0" = 10
+	"Pushihuma #0" = 10
+	"Pushihumachito #0" = 10
+	"Pushimastabew #0" = 10
+	"Pushimataha #0" = 10
+	"Pushistonahuma #0" = 10
+	"Pushmataha #0" = 20
+	"Shappahomo #0" = 10
+	"Shishemastubby #0" = 20
+	"Steabee #0" = 10
+	"Stonahuma #0" = 10
+	"Stonakoohoopoie #0" = 10
+	"Stoonokoohoopoie #0" = 20
+	"Taboca #0" = 20
+	"Tamaobe #0" = 10
+	"Tanetchenna #0" = 10
+	"Tehakuhbay #0" = 20
+	"Teshuhenochloch #0" = 10
+	"Tishomastubbe #0" = 10
+	"Tiupoye #0" = 10
+	"Tobocoh #0" = 20
+	"Toobenohoomoch #0" = 10
+	"Tootahomo #0" = 10
+	"Tootehoma #0" = 10
+	"Tootehooma #0" = 10
+	"Tootepana #0" = 10
+	"Tuscaabi #0" = 10
+	"Tuscaloosa #0" = 20
+	"Tuscoonoohoopoie #0" = 10
+	"Tushkahoomock #0" = 10
+	"Tushkahoomoih #0" = 20
+	"Tushkementahock #0" = 10
+	"Tushkoheegohta #0" = 10
+	"Tushtallay #0" = 10
+	"Tuskonahopoia #0" = 10
+	"Tuspehachaabe #0" = 10
+	"Ulbalent #0" = 10
+	"Utacctahuma #0" = 10
+	"Yoopahooma #0" = 20
+	"Yoostenochla #0" = 20
+}
+leader_names = {
+	"Abeca"
+	"Abissa"
+	"Achohchuba"
+	"Bissacha"
+	"Bokfalaya"
+	"Cabeahoola"
+	"Chanke"
+	"Chemifalaya"
+	"Chiskilikbacha"
+	"Chucafalaya"
+	"Haluwahiasha"
+	"Hankhaula"
+	"Holithaasha"
+	"Ibetapoklachitto"
+	"Imoklashaiskitini"
+	"Imoklashi"
+	"Itchechana"
+	"Itokchako"
+	"Iyanabe"
+	"Kafitalaia"
+	"Kashtasha"
+	"Kunshabolukta"
+	"Kunshak"
+	"Lukfakta"
+	"Neshobawenya"
+	"Nusiconchito"
+	"Ocatalaya"
+	"Octuechanacbe"
+	"Okacoopoly"
+	"Okalusa"
+	"Onitalemon"
+	"Osaktalaya"
+	"Osapachito"
+	"Otakchitotamaha"
+	"Ouiacha"
+	"Pante"
+	"Puscustakali"
+	"Saktitamaha"
+	"Seniasha"
+	"Shinukkaha"
+	"Shumotakali"
+	"Talepokta"
+	"Tamaha"
+	"Tinshinkla"
+	"Tombigbee"
+	"Usquelagana"
+	"Yackniachuchuma"
+	"Yazoo"
+	"Yowani"
+}
+ship_names = {
+	"Aba"
+	"Bald Eagle"
+	"Biskinik"
+	"Bohpoli"
+	"Chata"
+	"Chitokaka"
+	"Hashok Okwa Hui'ga"
+	"Hoklonote"
+	"Hushtahli"
+	"Impa shilup"
+	"Ishkitini"
+	"Ishtahullo-chito"
+	"Ishtanullo"
+	"Kashehotapalo"
+	"Kowi anuskasha"
+	"Mabila"
+	"Nalusa Falaya"
+	"Nalusa chito"
+	"Nanapesa"
+	"Nanih Waiya"
+	"Nanishta-hullo-chito"
+	"Ofunlo"
+	"Oka Nahullo"
+	"Okwa Naholo"
+	"Shilombish"
+	"Shilup"
+	"Shilup chitosh osh"
+	"Uba Pike"
+}

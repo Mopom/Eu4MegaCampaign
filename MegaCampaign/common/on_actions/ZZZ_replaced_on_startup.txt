@@ -1,0 +1,30 @@
+on_startup = {
+	emperor = {
+		save_global_event_target_as = Emperor
+	}
+	if = {
+		limit = { is_emperor_of_china = yes }
+		save_global_event_target_as = EmperorOfChina
+	}
+	events = {
+		muslim_school_events.20 #Pick School #flavor_fra .15000 #Make the French Revolution happen if starting in 1789
+	}
+	if = {
+		limit = { has_dlc = "Cradle of Civilization" has_country_modifier = tur_janissary }
+		remove_country_modifier = tur_janissary
+	}
+	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
+
+	if = {
+		limit = { NOT = { has_country_flag = new_flavour_bav_13_has_been_triggered } OR = { tag = UBV tag = LBV tag = ING } }
+		set_country_flag = new_flavour_bav_13_has_been_triggered country_event = { id = new_flavour_bav.13 days = 90 } #better not to allow almost instant DOWs
+	}
+	if = {
+		limit = { tag = FRA started_in = 1789.7.14 NOT = { is_year = 1790 } NOT = { has_disaster = french_revolution } }
+		add_disaster_progress = { value = 100 disaster = french_revolution }
+	}
+	if={
+		limit = { NOT = { has_global_flag = ZZZ_enhanced_random_world } }
+		set_global_flag = ZZZ_enhanced_old_bon_reformed
+	}
+}

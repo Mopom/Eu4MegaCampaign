@@ -1,0 +1,13 @@
+owner = CLA
+controller = CLA
+capital = "Macaya"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = CLA
+discovered_by = andean
+discovered_by = south_american

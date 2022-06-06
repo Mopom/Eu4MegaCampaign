@@ -1,0 +1,24 @@
+dharmic = {
+	jain = {
+		icon = 59
+		color = { 0 0.3 0.6 } #0 76.5 153, in loving memory of when it was 1.2 instead of 0 (306!?)
+		country = {
+			tolerance_heathen = 2
+			tolerance_heretic = 2
+			religious_unity = 0.5
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			religious_unity = 0.5
+		}
+		
+		uses_karma = yes
+		
+		heretic = { TERAPANTHA }
+	}
+	
+	#I am not confident enough in my understanding of Hindu religious traditions to make a call on their
+	#different faiths in CK3. Until someone with greater understanding shows up, they shall all map to Hindu.
+}

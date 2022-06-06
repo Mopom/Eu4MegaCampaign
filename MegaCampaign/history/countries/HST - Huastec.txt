@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = mesoamerican
+religion = mesoamerican_religion
+primary_culture = wastek
+capital = 2641
+1435.1.1= {
+	monarch = {
+		name = "Vahxak"
+		dynasty = "Huastec"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

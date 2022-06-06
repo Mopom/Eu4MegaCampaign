@@ -1,0 +1,86 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 191 110 62 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Aamira #0" = -1
+	"Abu-Bakr #1" = 10
+	"Adal #0" = 0
+	"Agellid #1" = 10
+	"Akateiaji #0" = 0
+	"Ali #1" = 10
+	"Bahac #0" = -1
+	"Capussa #0" = 0
+	"D'r'ifa #0" = -1
+	"Dali #1" = 10
+	"Dasin #0" = -1
+	"Galussa #1" = 10
+	"Ibrahim #0" = 0
+	"Idris #2" = 10
+	"Igider #1" = 10
+	"Ismail #1" = 10
+	"Kenwa #0" = -1
+	"Leodegundia #0" = -1
+	"Mastanabal #0" = 0
+	"Muhammad #1" = 10
+	"Tahira #0" = -1
+	"Tfit #1" = -1
+	"Ultafa #0" = -1
+	"Yahya #4" = 10
+	"Zahra #1" = -1
+	"Zilgum #1" = -1
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

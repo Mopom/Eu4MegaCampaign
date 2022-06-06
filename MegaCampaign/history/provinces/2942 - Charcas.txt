@@ -1,0 +1,13 @@
+owner = CRA
+controller = CRA
+capital = "Charcas"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = wool
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = CRA
+discovered_by = andean
+discovered_by = south_american

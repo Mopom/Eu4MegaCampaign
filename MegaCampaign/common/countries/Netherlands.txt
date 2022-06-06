@@ -1,0 +1,461 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 220 138 57 }
+revolutionary_colors = { 6 0 14 }
+historical_idea_groups = {
+	administrative_ideas
+	exploration_ideas
+	defensive_ideas
+	maritime_ideas
+	innovativeness_ideas
+	quality_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_score = 3500
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swedish_gallop
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abraham #0" = 0
+	"Adriaan #0" = 10
+	"Andries #0" = 10
+	"Antonius #0" = 10
+	"Antoon #0" = 0
+	"Barthout #0" = 0
+	"Christiaan #0" = 0
+	"Christoffel #0" = 0
+	"Constantijn #0" = 0
+	"Cornelis #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Dirk #0" = 0
+	"Eise #0" = 0
+	"Filips #0" = 0
+	"Filips Willem #0" = 15
+	"Frans #0" = 0
+	"Frederik #0" = 10
+	"Frederik Hendrik #0" = 20
+	"Gabriel #0" = 0
+	"Gaspar #0" = 10
+	"Gerard #0" = 0
+	"Gerben #0" = 0
+	"Godfried #0" = 0
+	"Hans #0" = 0
+	"Hendrik Lodewijk #0" = 15
+	"Hugo #0" = 0
+	"Isaac #0" = 10
+	"Jacob #0" = 10
+	"Jan #0" = 0
+	"Jeroen #0" = 0
+	"Johan #0" = 10
+	"Joost #0" = 0
+	"Karel #0" = 15
+	"Laurens #0" = 10
+	"Lodewijk #0" = 40
+	"Margaretha #0" = -1
+	"Maurits #0" = 20
+	"Nicolaas #0" = 0
+	"Paul #0" = 10
+	"Pieter #0" = 10
+	"Roeland #0" = 0
+	"Rogier #0" = 0
+	"Rosanne #0" = -1
+	"Rutger #0" = 0
+	"Simon #0" = 10
+	"Tamara #0" = -1
+	"Thomas #0" = 0
+	"Vincent #0" = 0
+	"Willem #0" = 100
+	"Zacharias #0" = 0
+}
+leader_names = {
+	"Batenburg"
+	"Bentinck"
+	"Brandt"
+	"Brouwer"
+	"Coehoorn"
+	"Coen"
+	"Crijnssen"
+	"Daendels"
+	"De Grouwe"
+	"De Houtman"
+	"De Moor"
+	"De Rijk"
+	"De Winter"
+	"Evertzen"
+	"Kater"
+	"Kortenaer"
+	"Martena"
+	"Nachtegaal"
+	"Reijersen"
+	"Schenk"
+	"Schouten"
+	"Spiegel"
+	"Steltman"
+	"Stuyvesant"
+	"Tasman"
+	"Van Assendelft"
+	"Van Brederode"
+	"Van Bronkhorst"
+	"Van Culemborg"
+	"Van Diemen"
+	"Van Duivenvoorde"
+	"Van Egmont"
+	"Van Galen"
+	"Van Haren"
+	"Van Heemskerck"
+	"Van Huchtenbroek"
+	"Van Ilpendam"
+	"Van Keppel"
+	"Van Marnix"
+	"Van Nieuwenaar"
+	"Van Noort"
+	"Van Pallandt"
+	"Van Raephorst"
+	"Van Rechteren"
+	"Van Renesse"
+	"Van Riebeeck"
+	"Van Rossum"
+	"Van Swieten"
+	"Van Troyen"
+	"Van Utenhove"
+	"Van Voorst"
+	"Van Walbeeck"
+	"Van Wassenaer"
+	"Van Wesembeke"
+	"Van Wijngaarden"
+	"Van Wingle"
+	"Van der Aa"
+	"Van der Does"
+	"Van der Werff"
+	"Vliechop"
+}
+ship_names = {
+	"Aartsengel Michael"
+	"Admiraal Generaal"
+	"Aemilia"
+	"Agatha"
+	"Ajax"
+	"Akerboom"
+	"Alida"
+	"Alkmaar"
+	"Alliantie"
+	"Alphen"
+	"Amalia"
+	"Amazoon"
+	"Amphitrite"
+	"Amsterdam"
+	"Arend"
+	"Argo"
+	"Arnhem"
+	"Assendelft"
+	"Banier"
+	"Barbestein"
+	"Batavia"
+	"Batavier"
+	"Beekvliet"
+	"Beemster"
+	"Beemsterlust"
+	"Beliona"
+	"Beschermer"
+	"Beurs van Amsterdam"
+	"Blauwe Reiger"
+	"Bloys van Treslong"
+	"Boekenrode"
+	"Boetzelaar"
+	"Bommel"
+	"Braave"
+	"Brakel"
+	"Breda"
+	"Brederode"
+	"Brielle"
+	"Broederschap"
+	"Brutus"
+	"Buis"
+	"Bul"
+	"Burcht van Leiden"
+	"Burgvliet"
+	"Caleb"
+	"Callantsoog"
+	"Castricum"
+	"Catharina"
+	"Cerberus"
+	"Commercie van Amsterdam"
+	"Convertine"
+	"Curacao"
+	"Dalem"
+	"Damiaten"
+	"Dankbaarheid"
+	"David's Drie Helden"
+	"Delfland"
+	"Delft"
+	"Deutekom"
+	"Deventer"
+	"Diepenheim"
+	"Dieren"
+	"Doesburg"
+	"Doggersbank"
+	"Dolfijn"
+	"Dom van Utrecht"
+	"Dordrecht"
+	"Draak"
+	"Drakestein"
+	"Drente"
+	"Drie Gebroeders"
+	"Drie Koningen"
+	"Drielst"
+	"Duinveld"
+	"Duivenvoorde"
+	"Echo"
+	"Edam"
+	"Eendracht"
+	"Eenhoorn"
+	"Elf Steden"
+	"Elswoud"
+	"Engel"
+	"Engel Gabriel"
+	"Erfprins"
+	"Fortuin"
+	"Frederik Hendrik"
+	"Friesland"
+	"Galei"
+	"Gelderland"
+	"Geloof"
+	"Gewapenden Ruijter"
+	"Gideon"
+	"Glindhorst"
+	"Goes"
+	"Gouda"
+	"Gouden Dolfijn"
+	"Gouden Leeuw"
+	"Gouden Maan"
+	"Gouderak"
+	"Graaf Willem"
+	"Groot Hollandia"
+	"Groote Liefde"
+	"Haarlem"
+	"Haarlemmerhout"
+	"Halve Maan"
+	"Hardenbroek"
+	"Harderwijk"
+	"Havik"
+	"Hector"
+	"Heemstede"
+	"Hersteller"
+	"Het"
+	"Hilverbeek"
+	"Hilversum"
+	"Hof Sint Janskerken"
+	"Hof van Rheenen"
+	"Hof van Souburg"
+	"Hof van Zeeland"
+	"Hollandia"
+	"Hollandsche Tuin"
+	"Hoop"
+	"Huijs te Zwieten"
+	"Huis Tijdverdrijf"
+	"Huis te Jaarsveld"
+	"Huis te Kruiningen"
+	"Huis te Oostewijk"
+	"Huis te Zwieten"
+	"Huis van Groeningen"
+	"Huis van Nassau"
+	"Huis van Raaphorst"
+	"Jaarsveld"
+	"Jonas"
+	"Jozua"
+	"Jupiter"
+	"Kalandsoog"
+	"Kameel"
+	"Kampen"
+	"Kampveere"
+	"Kasteel van Medemblik"
+	"Katwijk aan Zee"
+	"Kennemerland"
+	"Keurvorst van Brandenburg"
+	"Keurvorst van Saksen"
+	"Keurvorstin van Brandenburg"
+	"Klein Frisia"
+	"Klein Hollandia"
+	"Klein Zutphen"
+	"Kleine Harder"
+	"Koevorden"
+	"Komeet"
+	"Koning William"
+	"Kooge"
+	"Landman"
+	"Landskroon"
+	"Leeuwarden"
+	"Leeuwenhorst"
+	"Liefde"
+	"Loo"
+	"Loosdregt"
+	"Louisa Hendrika"
+	"Luipaard"
+	"Lynx"
+	"Maagd van Enkhuizen"
+	"Maan"
+	"Maarseveen"
+	"Maas"
+	"Marcus Curtius"
+	"Margarethe"
+	"Mars"
+	"Matenes"
+	"Medusa"
+	"Meermin"
+	"Mercuur"
+	"Middelbare"
+	"Middelburg"
+	"Morgenstar"
+	"Moriaanshoofd"
+	"Naerden"
+	"Neptunus"
+	"Noorderkwartier"
+	"Olifant"
+	"Omlandia"
+	"Oostergo"
+	"Oosterwijk"
+	"Oranjeboom"
+	"Oudshoorn"
+	"Overijssel"
+	"Overwinnaer"
+	"Pacificatie"
+	"Parel"
+	"Pelikaan"
+	"Pijl"
+	"Post"
+	"Postiljon van Smyrna"
+	"Prins"
+	"Prins Friso"
+	"Prins Hendrik"
+	"Prins Hendrik Casimir"
+	"Prins Maurits"
+	"Prins Willem"
+	"Prins te Paard"
+	"Prins van Portugal"
+	"Prinses Aemilia"
+	"Prinses Albertina"
+	"Prinses Maria"
+	"Prinses Roijael Maria"
+	"Provincie Utrecht"
+	"Provincie van Holland"
+	"Raadhuis van Haarlem"
+	"Raaf"
+	"Ramhorst"
+	"Reebok"
+	"Reigersberg"
+	"Rijnland"
+	"Roode Leeuw"
+	"Rosenkranz"
+	"Salamander"
+	"Salomons Oordeel"
+	"Schager Roos"
+	"Schieland"
+	"Schonauwen"
+	"Sint Andries"
+	"Sint Jacob"
+	"Sint Laurens"
+	"Sint Maria"
+	"Sint Matheeus"
+	"Sint Pieter"
+	"Souterwoude"
+	"Spiegel"
+	"Spion"
+	"Stad Gouda"
+	"Stad Haarlem"
+	"Stad Utrecht"
+	"Stad en Lande"
+	"Starrenburg"
+	"Stavoren"
+	"Susanna"
+	"Ter Goes"
+	"Ter Veere"
+	"Tholen"
+	"Tijdverdrijf"
+	"Tijger"
+	"Triton"
+	"Tromp"
+	"Unie"
+	"Utrecht"
+	"Valk"
+	"Veere"
+	"Velsen"
+	"Verenigde Provinciën"
+	"Vergulden Draeck"
+	"Vlaming"
+	"Vliegende Vis"
+	"Vlissingen"
+	"Vogel Phesant"
+	"Vogel Struis"
+	"Voorzichtigheid"
+	"Vrede"
+	"Vrijheid"
+	"Waag"
+	"Waakzamheid"
+	"Wakende Boei"
+	"Wakende Kraan"
+	"Walcheren"
+	"Wapen van Edam"
+	"Wapen van Haarlem"
+	"Wapen van Holland"
+	"Wapen van Leijden"
+	"Wapen van Nassau"
+	"Wapen van Utrecht"
+	"Wapen van Zeeland"
+	"Wassenaer"
+	"Westergo"
+	"Westfriesland"
+	"Weststellingwerft"
+	"Willem van Nieuhoff"
+	"Windhond"
+	"Witte Lam"
+	"Wolf"
+	"Wolfswinkel"
+	"Wreker"
+	"Zeelandia"
+	"Zeepaard"
+	"Zephier"
+	"Zierikzee"
+	"Zon"
+	"Zuiderhuis"
+	"Zuileveld"
+	"Zutphen"
+	"Zwaan"
+	"Zwaluw"
+	"Zwanenburg"
+	"Zwarte Arend"
+	"Zwarte Bul"
+	"Zwieten"
+	"d'Unij"
+}
+army_names = {
+	"Leger van $PROVINCE$"
+	"Prinselijk Leger"
+	"Staatse Leger"
+}
+fleet_names = {
+	"Middellandse Zeevloot"
+	"Noordzeevloot"
+	"Oost-Indiëvloot"
+	"Oostzeevloot"
+	"Staatse Vloot"
+	"Vloot van $PROVINCE$"
+	"West-Indiëvloot"
+}
+preferred_religion = reformed

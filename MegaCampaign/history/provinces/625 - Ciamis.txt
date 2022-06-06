@@ -1,0 +1,15 @@
+owner = SUN
+controller = SUN
+capital = "Ciamis"
+is_city = yes
+culture = sundanese
+religion = hinduism
+trade_goods = tropical_wood
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = SUN
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

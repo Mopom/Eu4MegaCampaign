@@ -1,0 +1,13 @@
+owner = ZIM
+controller = ZIM
+capital = "Masakesa"
+is_city = yes
+culture = shona
+religion = shamanism
+trade_goods = ivory
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = ZIM
+discovered_by = central_african
+discovered_by = east_african

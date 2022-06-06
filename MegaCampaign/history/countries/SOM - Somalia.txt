@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = east_african
+religion = sunni
+primary_culture = somali
+capital = 1211
+unit_type = sub_saharan
+religious_school = shafii_school
+add_accepted_culture = harari

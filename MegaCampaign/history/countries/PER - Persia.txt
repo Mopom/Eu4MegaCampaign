@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+technology_group = muslim
+religion = sunni
+primary_culture = persian
+capital = 429
+religious_school = hanbali_school
+1444.11.11= {
+	monarch = {
+		name = "Nuraddin II"
+		dynasty = "Persia"
+		adm = 6
+		dip = 4
+		mil = 5
+		birth_date = 1374.5.6
+		religion = sunni
+		culture = persian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Epiphania"
+		dynasty = "Himsi"
+		adm = 2
+		dip = 3
+		mil = 3
+		country_of_origin = PER
+		birth_date = 1387.1.16
+		death_date = 1447.1.16
+		female = yes
+		religion = sunni
+		culture = persian
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Boethios"
+		monarch_name = "Boethios II"
+		dynasty = "Persia"
+		adm = 5
+		dip = 5
+		mil = 3
+		birth_date = 1409.6.12
+		death_date = 1474.6.12
+		claim = 89
+		religion = sunni
+		culture = persian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 92
+	add_treasury = 79
+}

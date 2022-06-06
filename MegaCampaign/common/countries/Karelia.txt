@@ -1,0 +1,78 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 244 38 38 }
+revolutionary_colors = { 5 14 10 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Algebaeivi #0" = 0
+	"Baeivi #1" = 10
+	"Biejan #1" = 10
+	"Buohttá #0" = -1
+	"Ihala #2" = 10
+	"Kalevi #1" = 10
+	"Kettu #2" = 10
+	"Kristiina #1" = -1
+	"Leammá #1" = 10
+	"Lemetti #2" = 10
+	"Lávrrohas #1" = 10
+	"Mihka #2" = 10
+	"Naula #1" = -1
+	"Náhkol #0" = 0
+	"Náinnas #1" = 10
+	"Orddot #0" = 0
+	"Suoinná #0" = -1
+	"Tuure #2" = 10
+	"Väinö #2" = 10
+	"Áigesárri #1" = 10
+	"Ásllat #1" = 10
+}
+leader_names = {
+	"Azegid"
+	"Gachegid"
+	"Irtegid"
+	"Lunegid"
+	"Moshegid"
+	"Rategid"
+	"Syktyvkar"
+	"Yugra"
+	"Zhebegid"
+	"Zhunegid"
+}
+ship_names = {
+	"Noroava"
+	"Olota"
+	"Ordava"
+	"Pemka"
+	"Poshayka"
+	"Tekay"
+	"Tetyava"
+	"Tundya"
+	"Unzhutka"
+	"Yalgava"
+}

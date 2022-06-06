@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 129 109 9 }
+revolutionary_colors = { 8 1 16 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aleida #0" = -1
+	"Andreas Jakob #0" = 20
+	"Benedikt #0" = 0
+	"Bernhard #0" = 20
+	"Berthold #1" = 15
+	"Burkhard #1" = 20
+	"Christa #0" = -1
+	"Christian #0" = 0
+	"Clemens #0" = 0
+	"Eberhard #2" = 40
+	"Ernst #0" = 15
+	"Ferdinand #0" = 20
+	"Franz Anton #0" = 20
+	"Friedrich #3" = 40
+	"Georg #0" = 20
+	"Gerhard #0" = 0
+	"Gregor #0" = 20
+	"Guidobald #0" = 20
+	"Heilwig #0" = -1
+	"Heinrich #1" = 15
+	"Hermann #0" = 0
+	"Hyeronimus Franz Josef #0" = 20
+	"Jakob #0" = 0
+	"Jakob Ernst #0" = 20
+	"Johann #1" = 40
+	"Johann Ernst #0" = 20
+	"Johann Jakob #0" = 20
+	"Leonhard #0" = 20
+	"Leopold #0" = 15
+	"Leopold Anton #0" = 20
+	"Marcus Sittikus #0" = 20
+	"Matth0us #0" = 20
+	"Maximilian Gandolf #0" = 20
+	"Michael #0" = 20
+	"Oskar #0" = 0
+	"Otto #0" = 0
+	"Paris #0" = 20
+	"Sigmund #0" = 60
+	"Stefan #0" = 0
+	"Ulrich #0" = 0
+	"Wolf Dietrich #0" = 20
+	"Wolfgang #0" = 0
+}
+leader_names = {
+	"Aigner"
+	"Amanshauser"
+	"Burgstaller"
+	"Bäck"
+	"Doppler"
+	"Feiersinger"
+	"Gruber"
+	"Macheiner"
+	"Maislinger"
+	"Mayer"
+	"Mohr"
+	"Rendl"
+	"Rohracher"
+	"Scharl"
+	"Schönswetter"
+	"Trakl"
+	"Waggerl"
+	"Witzigmann"
+}
+ship_names = {
+	"Dachstein"
+	"Gmunden"
+	"Hallein"
+	"Hallstatt"
+	"Hochkönig"
+	"Lungau"
+	"Pinzgau"
+	"Pongau"
+	"Salzach"
+	"Tennengau"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Erzbischofliche Garde"
+}

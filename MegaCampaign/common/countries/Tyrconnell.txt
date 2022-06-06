@@ -1,0 +1,130 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 43 190 227 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Alaois #0" = 0
+	"Alastar #0" = 0
+	"Aodh Dubh #0" = 40
+	"Aodh Ruadh #0" = 40
+	"Aodh mac Maghnusa #0" = 20
+	"Aonghus #0" = 0
+	"Brad0in #0" = 0
+	"Brennan #0" = 0
+	"Caerbhall #0" = 0
+	"Calbhach #0" = 20
+	"Calvagh #0" = 20
+	"Caolan #0" = 0
+	"Carroll #0" = 0
+	"Ceallach #0" = 0
+	"Cian #0" = 0
+	"Conan #0" = 0
+	"Conn #0" = 40
+	"Connor #0" = 0
+	"Diarmaid #0" = 0
+	"Dubghall #0" = 0
+	"Fearchar #0" = 0
+	"Fearghas #0" = 0
+	"Fionnlagh #0" = 0
+	"Flann #0" = 0
+	"F0el0n #0" = 0
+	"Gallchobhair #0" = 0
+	"Gob0n #0" = 0
+	"Gr0daigh #0" = 0
+	"Lomm0n #0" = 0
+	"L0ad0in #0" = -1
+	"MONARCH_NAME_BRONACH #0" = 0
+	"Maeleachlain #0" = 0
+	"Manus #0" = 20
+	"Murchadha #0" = 0
+	"Naomh0n #0" = 0
+	"Neachtan #0" = 40
+	"Niall #0" = 20
+	"P0draig0n #0" = -1
+	"Ruair0 #0" = 20
+	"Talulla #0" = -1
+	"Torin #0" = 0
+	"0amonn #0" = 0
+}
+leader_names = {
+	"Mac Anna"
+	"Mac Artian"
+	"Mac Cearbhaill"
+	"Mac Dhomhnaill"
+	"Mac Lochlainn"
+	"Mac Mathghamha"
+	"Mac Suibhne"
+	"Mac Árdghail"
+	"Mag Aonghusa"
+	"Mag Uidhir"
+	"Ó Banain"
+	"Ó Baoghill"
+	"Ó Caiside"
+	"Ó Canannain"
+	"Ó Caoinnigh"
+	"Ó Ceallaigh"
+	"Ó Cleireigh"
+	"Ó Corcráin"
+	"Ó Cuileannáin"
+	"Ó Cuinn"
+	"Ó Daimhín"
+	"Ó Dochartaigh"
+	"Ó Doibhilin"
+	"Ó Duacháin"
+	"Ó Duibheamhna"
+	"Ó Faracháin"
+	"Ó Flaithre"
+	"Ó Flannagáin"
+	"Ó Longáin"
+	"Ó Lorcáin"
+	"Ó Maolagáin"
+	"Ó Maoldúin"
+	"Ó Neill"
+	"Ó Raithbheartiagh"
+	"Ó fLaithbheartaigh"
+	"Ó hAnluain"
+	"Ó hAodhagáin"
+	"Ó hInneirghe"
+	"Ó hÉignigh"
+	"Ó hÍr"
+}
+ship_names = {
+	"Aedh"
+	"Baedan"
+	"Colman"
+	"Cookstown"
+	"Donal"
+	"Eocha"
+	"Eogan"
+	"Fergal"
+	"Fergus"
+	"Niall"
+	"Omagh"
+	"Strabane"
+	"Suibne"
+}

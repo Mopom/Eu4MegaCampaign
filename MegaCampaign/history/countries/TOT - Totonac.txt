@@ -1,0 +1,15 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = mesoamerican
+religion = nahuatl
+primary_culture = totonac
+capital = 848
+1440.1.1= {
+	monarch = {
+		name = "Acamapichtli Panitzin"	#Fictional
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

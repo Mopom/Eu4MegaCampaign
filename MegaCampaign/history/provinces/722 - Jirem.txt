@@ -1,0 +1,15 @@
+owner = KRC
+controller = KRC
+capital = "Jirem"
+is_city = yes
+culture = chahar
+religion = vajrayana
+trade_goods = livestock
+base_tax = 1
+base_production = 2
+base_manpower = 2
+add_core = KHA
+add_core = KRC
+add_core = MGE
+discovered_by = chinese
+discovered_by = nomad_group

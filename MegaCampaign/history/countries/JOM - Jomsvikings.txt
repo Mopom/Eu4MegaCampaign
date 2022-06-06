@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan
+primary_culture = norse
+capital = 1858
+mercantilism = 10
+500.11.11= {
+	monarch = {
+		name = "(Interregnum)"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

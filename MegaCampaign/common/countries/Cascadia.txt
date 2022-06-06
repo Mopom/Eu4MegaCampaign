@@ -1,0 +1,333 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 8 90 5 }
+revolutionary_colors = { 13 0 10 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	economic_ideas
+	plutocracy_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Adrienne #0" = -1
+	"Alexander #0" = 0
+	"Amable #0" = 0
+	"Antoine #0" = 0
+	"Augustin #0" = 5
+	"Benjamin #0" = 0
+	"Charles #0" = 40
+	"Charles-Michel #0" = 0
+	"Charlotte #0" = -1
+	"Christopher #0" = 0
+	"Daniel #0" = 20
+	"David #0" = 0
+	"David William #0" = 0
+	"Edward #0" = 0
+	"Ephraim #0" = 0
+	"Fran�ois #0" = 0
+	"Frederick #0" = 20
+	"Gabriel #0" = 0
+	"George #0" = 20
+	"Gordon #0" = 5
+	"Guillaume #0" = 0
+	"Guy #0" = 20
+	"Hubert #0" = 0
+	"Hugh #0" = 0
+	"Hyacinthe #0" = 0
+	"Ignace #0" = 0
+	"Isaac #0" = 0
+	"Jacob #0" = 0
+	"Jacques #0" = 5
+	"James #0" = 5
+	"Jean #0" = 5
+	"Jean-Baptiste #0" = 0
+	"Jeffery #0" = 5
+	"Jeremiah #0" = 0
+	"John #0" = 0
+	"Joseph #0" = 5
+	"Laura #0" = -1
+	"Louis #0" = 20
+	"Louis-Hippolyte #0" = 0
+	"Louis-Joseph #0" = 0
+	"Marguerite #0" = -1
+	"Maria #0" = -1
+	"Mathew #0" = 0
+	"Michel #0" = 5
+	"Nathaniel #0" = 0
+	"Nicolas #0" = 0
+	"Parshall #0" = 0
+	"Peter #0" = 0
+	"Philip #0" = 0
+	"Philippe #0" = 5
+	"Pierre #0" = 5
+	"Pierre-Louis #0" = 0
+	"Ren� #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 20
+	"Roland #0" = 5
+	"Samuel #0" = 40
+	"Solomon #0" = 0
+	"Thomas #0" = 20
+	"Timothy #0" = 0
+	"Victoria #0" = -1
+	"William #0" = 0
+}
+leader_names = {
+	"Allsopp"
+	"Amherst"
+	"Auldjo"
+	"Baby"
+	"Barnes"
+	"Beasley"
+	"Bell"
+	"Bernier"
+	"Berthelot"
+	"Black"
+	"Boileau"
+	"Boisseau"
+	"Booth"
+	"Bouc"
+	"Boucher"
+	"Boudreau"
+	"Bowen"
+	"Brock"
+	"Brodeur"
+	"Bronson"
+	"Browne"
+	"By"
+	"Bédard"
+	"Bégin"
+	"Caldwell"
+	"Campbell"
+	"Carleton"
+	"Cartier"
+	"Chartier"
+	"Cherrier"
+	"Coffin"
+	"Cornwall"
+	"Craig"
+	"Craigie"
+	"Cuthbert"
+	"D'Arcy"
+	"Dalhousie"
+	"Dambourgés"
+	"Dartigny"
+	"Digé"
+	"Dorion"
+	"Dorland"
+	"Ducharme"
+	"Duchesnay"
+	"Dufour"
+	"Dumas"
+	"Dumont"
+	"Dunière"
+	"Dunn"
+	"Duplessis"
+	"Dupré"
+	"Durocher"
+	"Duvernay"
+	"Fairfield"
+	"Fisher"
+	"Foucher"
+	"Fraser"
+	"French"
+	"Frobisher"
+	"Godefroy"
+	"Gouin"
+	"Grant"
+	"Gray"
+	"Guerout"
+	"Guy"
+	"Hardison"
+	"Hart"
+	"Harwood"
+	"Henry"
+	"Hertel"
+	"Huot"
+	"Hébert"
+	"Ingersoll"
+	"Irvine"
+	"Jessup"
+	"Jodoin"
+	"Jones"
+	"Jordan"
+	"Lacroix"
+	"Lafontaine"
+	"Larocque"
+	"Lebreton"
+	"Lee"
+	"Lees"
+	"Lester"
+	"Lynd"
+	"Macnider"
+	"Macomb"
+	"Malhiot"
+	"Marcoux"
+	"Martineau"
+	"McBeath"
+	"McCrae"
+	"McDonell"
+	"McGill"
+	"McGillivray"
+	"McKee"
+	"McLeod"
+	"Menut"
+	"Millet"
+	"Monk"
+	"Montour"
+	"Moore"
+	"Mure"
+	"Murray"
+	"Nelson"
+	"Panet"
+	"Papineau"
+	"Paquet"
+	"Pawling"
+	"Perrault"
+	"Pettit"
+	"Pierreville"
+	"Planté"
+	"Prescott"
+	"Prévost"
+	"Périnault"
+	"Raby"
+	"Richardson"
+	"Richmond"
+	"Riel"
+	"Rivard"
+	"Robinson"
+	"Rogers"
+	"Roy"
+	"Saint-Martin"
+	"Secord"
+	"Sewell"
+	"Shaw"
+	"Sherbrooke"
+	"Sirois"
+	"Smith"
+	"Spencer"
+	"Stanley"
+	"Street"
+	"Stuart"
+	"Swayze"
+	"Taché"
+	"Taschereau"
+	"Terry"
+	"Thompson"
+	"Tod"
+	"Van Alstine"
+	"Vanier"
+	"Viger"
+	"Walker"
+	"White"
+	"Wilkinson"
+	"Young"
+	"de Bonne"
+	"de Lavaltrie"
+	"de Lorimier"
+	"de Lotbinière"
+	"de Rocheblave"
+	"de Rouville"
+	"de Salaberry"
+	"de Tonnancour"
+	"le Comte"
+	"Éthier"
+}
+ship_names = {
+	"Acadia"
+	"Algonquin"
+	"Ambler"
+	"Anticosti"
+	"Athabaskan"
+	"Badger"
+	"Baffin"
+	"Beaver"
+	"Blue Heron"
+	"Bonaventure"
+	"Bras d'Or"
+	"Cabot"
+	"Cape Breton"
+	"Caribou"
+	"Cartier"
+	"Cayuga"
+	"Chaleur"
+	"Champlain"
+	"Chaudière"
+	"Chignecto"
+	"Cormorant"
+	"Elk"
+	"Fortune"
+	"Fundy"
+	"Gaspe"
+	"Gatineau"
+	"Grizzly"
+	"Hochelaga"
+	"Huron"
+	"Husky"
+	"Iroquois"
+	"Labrador"
+	"Laurentian"
+	"Loon"
+	"Lynx"
+	"Magdalen"
+	"Mallard"
+	"Manitoulin"
+	"Margaree"
+	"Memphrémagog"
+	"Micmac"
+	"Miramichi"
+	"Miscou"
+	"Moose"
+	"Niagara"
+	"Nipigon"
+	"Ojibwa"
+	"Onondaga"
+	"Ontario"
+	"Ottawa"
+	"Otter"
+	"Outarde"
+	"Preserver"
+	"Protecteur"
+	"Qu'Appelle"
+	"Quinte"
+	"Québec"
+	"Raccoon"
+	"Reindeer"
+	"Renard"
+	"Restigouche"
+	"Richelieu"
+	"Saguenay"
+	"Saskatchewan"
+	"Sioux"
+	"St. Croix"
+	"St. Francis"
+	"St. Laurent"
+	"St. Maurice"
+	"Stadacona"
+	"Thunder"
+	"Ungava"
+	"Vison"
+	"Wolf"
+}
+colonial_parent = GBR

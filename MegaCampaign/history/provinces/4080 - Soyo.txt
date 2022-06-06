@@ -1,0 +1,14 @@
+owner = KON
+controller = KON
+capital = "Soyo"
+is_city = yes
+culture = kongolese
+religion = shamanism
+trade_goods = slaves
+base_tax = 4
+base_production = 3
+base_manpower = 4
+add_core = KON
+add_core = SYO
+discovered_by = central_african
+discovered_by = sub_saharan

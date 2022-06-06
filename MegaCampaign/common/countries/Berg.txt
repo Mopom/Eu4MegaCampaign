@@ -1,0 +1,186 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 240 205 140 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #0" = 0
+	"Adolf #7" = 30
+	"Agnes #0" = -1
+	"Albrecht #0" = 0
+	"Alexander #0" = 0
+	"Ambrosius #0" = 0
+	"Andreas #0" = 0
+	"Anna #0" = -1
+	"Arnold #0" = 0
+	"August #0" = 0
+	"Barbara #0" = -1
+	"Beatrix #0" = -1
+	"Bernhard #0" = 0
+	"Bertram #0" = 0
+	"Bruno #0" = 0
+	"Clemens #0" = 0
+	"Dietrich #0" = 0
+	"Emil #0" = 0
+	"Engelbert #0" = 35
+	"Erasmus #0" = 0
+	"Ernst #0" = 0
+	"Eugen #0" = 0
+	"Felix #0" = 0
+	"Franz #0" = 0
+	"Friedrich #0" = 0
+	"Georg #0" = 0
+	"Gerhard #1" = 45
+	"Gustav #0" = 0
+	"Heinrich #0" = 0
+	"Irmgard #0" = -1
+	"Johann #0" = 30
+	"Johann Ludwig #0" = 0
+	"Johann Wilhelm #0" = 35
+	"J0rgen #0" = 0
+	"Karl Franz #0" = 20
+	"Karl Philip #0" = 25
+	"Karl Theodor #0" = 20
+	"Konstantin #0" = 0
+	"Lambert #0" = 0
+	"Leopold #0" = 0
+	"Ludwig #0" = 0
+	"Margarete #0" = -1
+	"Maximilian #0" = 0
+	"Maximilian Joseph #0" = 25
+	"Michael #0" = 0
+	"Nikolaus #0" = 0
+	"Norbert #0" = 0
+	"Oswald #0" = 0
+	"Otto #0" = 0
+	"Paul #0" = 0
+	"Peter #0" = 0
+	"Philip Wilhelm #0" = 25
+	"Philipp #0" = 0
+	"Ruprecht #0" = 0
+	"Stefan #0" = 0
+	"Viktor #0" = 0
+	"Walram #0" = 0
+	"Walter #0" = 0
+	"Wilhelm #2" = 30
+	"Wolfgang Wilhelm #0" = 30
+}
+leader_names = {
+	"Achenbach"
+	"Assing"
+	"Baumgarten"
+	"Bechstein"
+	"Burgmüller"
+	"Camphausen"
+	"Clasen"
+	"Collin"
+	"Curtens"
+	"Dietze"
+	"Geither"
+	"Ghogreff"
+	"Gottschalk"
+	"Hardenrath"
+	"Hasenclever"
+	"Josten"
+	"Kaulen"
+	"Klüber"
+	"Köttgen"
+	"Lüninck"
+	"Olmans"
+	"Ploennies"
+	"Raitz von Frentz"
+	"Schramm"
+	"Schädler"
+	"Schöller"
+	"Ströhling"
+	"Stüttgen"
+	"Varnhagen von Ense"
+	"Windscheid"
+	"Wüllner"
+	"Zintgraff"
+	"de Kleist"
+	"von Althoven"
+	"von Appen"
+	"von Cornelius"
+	"von Dinslaken"
+	"von Fuchsius"
+	"von Geldern"
+	"von Goltstein"
+	"von Gruben"
+	"von Hatzfeld-Wildenburg"
+	"von Hochkirchen"
+	"von Hochstaden"
+	"von Hompesch"
+	"von Kalckreuth"
+	"von Langer"
+	"von Leerodt"
+	"von Nesselrode"
+	"von Neuberg"
+	"von Orsbeck"
+	"von Sayn"
+	"von Schaesberg"
+	"von Sybel"
+	"von Velbrück"
+	"von Villers"
+	"von Vlatten"
+	"von Wyle"
+	"von Wüllenweber"
+	"von Zandt"
+	"von Zimmermann"
+	"von der Broel"
+	"von der Horst"
+	"von der Leyen"
+	"von der Pfalz"
+	"von und zu Winkelhausen"
+	"zum Pütz"
+}
+ship_names = {
+	"Altenberg"
+	"Berg"
+	"Bliesgau"
+	"Bochum"
+	"Cunigunda"
+	"Deutz"
+	"Düsseldorf"
+	"Elberfeld"
+	"Ezzo"
+	"Homburg"
+	"Lüdenscheid"
+	"Mark"
+	"Mechthildis"
+	"Monschau"
+	"Münstereifel"
+	"Sinzig"
+	"Werden"
+	"Windeck"
+	"Zaubergreth"
+	"Zulpich"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

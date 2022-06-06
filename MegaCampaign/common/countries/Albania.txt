@@ -1,0 +1,158 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 181 0 20 }
+revolutionary_colors = { 4 1 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adnan #0" = 1
+	"Agim #0" = 1
+	"Aleksand0r #0" = 10
+	"Ali #0" = 10
+	"Bashkim #0" = 1
+	"Besnik #0" = 1
+	"Blerta #0" = -1
+	"Bujar #0" = 1
+	"Dardan #0" = 1
+	"Demaci #0" = 1
+	"Dhurim #0" = 1
+	"Drit0ro #0" = 1
+	"Dukagjin #0" = 10
+	"Edi #0" = 1
+	"Edon #0" = 1
+	"Elidon #0" = 1
+	"Enver #0" = 1
+	"Erjon #0" = 1
+	"Fatmir #0" = 1
+	"Fatmire #0" = -1
+	"Filippo #1" = 1
+	"Flamur #0" = 1
+	"Florin #0" = 1
+	"Gjergj #0" = 20
+	"Gjon #0" = 10
+	"Gjylo #0" = -1
+	"Halil #0" = 1
+	"Haxhi #0" = 10
+	"Hekuran #0" = 1
+	"Ilir #0" = 1
+	"Ismail #0" = 5
+	"Karolus #2" = 1
+	"Klodian #0" = 1
+	"Kostandin #0" = 10
+	"Kreshnik #0" = 1
+	"Lek0 #0" = 20
+	"Lish0ndri #0" = 1
+	"Luigj #0" = 1
+	"Lul0zim #0" = 10
+	"Mehmet #0" = 1
+	"Mensur #0" = 1
+	"Milaim #0" = 1
+	"Mustafa #0" = 10
+	"Nikolla #0" = 1
+	"Nxhiku #0" = 1
+	"Pal #0" = 0
+	"Pashko #0" = 1
+	"Pjet0r #0" = 5
+	"P0llumb #1" = 5
+	"P0rparim #0" = 1
+	"Qemal #0" = 1
+	"Rahman #0" = 1
+	"Ramadan #0" = 1
+	"Ramiz #0" = 1
+	"Rexhep #0" = 1
+	"Riza #0" = 1
+	"Rrok #0" = 1
+	"Sadik #0" = 1
+	"Selim #0" = 1
+	"Shp0tim #0" = 1
+	"Sulejman #0" = 10
+	"Tahir #0" = 1
+	"Tanush #1" = 10
+	"Viktor #0" = 1
+	"Xhevat #0" = 1
+	"Ylli #0" = 1
+	"Zenel #0" = 1
+}
+leader_names = {
+	"Alia"
+	"Arianit"
+	"Badera"
+	"Balsha"
+	"Bua"
+	"Cervota"
+	"Chani"
+	"Comneniates"
+	"Corbajram"
+	"Dosti"
+	"Duka"
+	"Dukagjini"
+	"Elezi"
+	"Fakaj"
+	"Faqemiri"
+	"Gecaj"
+	"Gjika"
+	"Gjokaj"
+	"Gojcin"
+	"Golemi"
+	"Hajdaraga"
+	"Halili"
+	"Hamza"
+	"Hoxha"
+	"Kastrioti"
+	"Losha"
+	"Musaki"
+	"Sguros"
+	"Shehu"
+	"Shpata"
+	"Spani"
+	"Thopia"
+	"Toptani"
+	"Useni"
+	"Vata"
+	"Veseli"
+	"Vishanj"
+	"Xhaferi"
+	"Xhumba"
+	"Ymeri"
+	"Zenevisi"
+	"Ziberi"
+	"Zogu"
+	"Çarçani"
+}
+ship_names = {
+	"Bishti i Palles"
+	"Gjiri i Drinit"
+	"Gjiri i Rondonit"
+	"Jube"
+	"Kalaja e Turres"
+	"Kepi i Rodonit"
+	"Kyrekuq"
+	"Shengjin"
+	"Shetaj"
+	"Velipoje"
+}

@@ -1,0 +1,14 @@
+owner = LUB
+controller = LUB
+capital = "Luba"
+is_city = yes
+culture = luba
+religion = shamanism
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1
+add_core = LUB
+discovered_by = central_african

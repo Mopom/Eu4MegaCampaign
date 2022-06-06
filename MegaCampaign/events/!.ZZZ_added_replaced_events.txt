@@ -1,0 +1,713 @@
+#Pagan Conversions
+namespace = religious_events
+country_event = {
+	id = religious_events.18_converter
+	title = "religious_events.18.t"
+	desc = "religious_events.18.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.18.a" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = catholic } }
+		change_religion = catholic
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.b" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = orthodox } }
+		change_religion = orthodox
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.c" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = coptic } }
+		change_religion = coptic
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.dd" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = reformed } }
+		change_religion = reformed
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.e" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = protestant } }
+		change_religion = protestant
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.g" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = anglican } }
+		change_religion = anglican
+		add_stability = -4
+	}
+
+	##MODDED###
+	
+	country_event = {
+	id = religious_events.16
+	title = "religious_events.16.t"
+	desc = "religious_events.16.d"
+	picture = COURT_eventPicture
+	
+	trigger = {
+		religion = hinduism
+		is_revolutionary = no
+		NOT = { has_country_flag = had_religious_coup }
+		is_force_converted = no
+		OR = {
+			is_free_or_tributary_trigger = yes
+			overlord = { religion_group = muslim }
+		}
+		OR = {
+			
+			tag = MUG #Mughals
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = had_religious_coup
+			if = {
+				limit = {
+					OR  = {
+						
+						
+						
+						tag = MUG #Mughals
+					}
+				}
+				set_country_flag = sunni_coup
+			}
+			if = {
+				limit = {
+					OR  = {
+						tag = BIJ #Bijapur
+						tag = BAH #Bahmani
+						tag = GOC #Golconda
+						tag = GUJ #Gujarat
+						tag = KSH #Kashmir
+						tag = ODH #Oudh
+						tag = DEC # Deccan
+					}
+				}
+				set_country_flag = shia_coup
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 90
+		}
+		name = "religious_events.16.a"
+		if = {
+			limit = { has_country_flag = sunni_coup }
+			change_religion = sunni
+			clr_country_flag = sunni_coup
+		}
+		if = {
+			limit = { has_country_flag = shia_coup }
+			change_religion = shiite
+			clr_country_flag = shia_coup
+		}
+		if = {
+			limit = {
+				has_heir = yes
+			}
+			kill_ruler = yes
+		}
+		if = {
+			limit = {
+				has_heir = no
+			}
+			define_ruler = {
+				dynasty = ROOT
+			}
+			if = {
+				limit = {
+					has_states_general_mechanic = yes
+				}
+				change_statists_vs_orangists = 1
+			}
+		}
+		add_stability = 2 #One is for placating the aristocrats and clergy the other to counteract the -1 stab on monarch death
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 10
+			}
+		}
+		if = {
+			limit = {
+				has_idea_group = dravidian_ideas
+			}
+			swap_free_idea_group = yes		#keep progress
+		}
+		if = {
+			limit = { NOT = { government = monarchy } }
+			change_government_to_monarchy = yes
+		}
+		add_government_reform = indian_sultanate_reform
+		hidden_effect = {
+			every_neighbor_country = {
+				country_event = { id = religious_events.17 }
+			}
+		}
+	}
+	option = {
+		name = "religious_events.16.b"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { num_of_cities = 2 }
+			}
+			modifier = {
+				factor = 0
+				has_estate = estate_nobles
+				NOT = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 40
+					}
+				}
+			}
+		}
+		add_stability = -1
+		add_country_modifier = {
+			name = "indian_religious_tensions" 
+			duration = 1825
+		}
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -10
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_church #These will be Hindu clerics if not switching.
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = sunni_coup
+			}
+			clr_country_flag = sunni_coup
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					owner = {
+						fort_15th = 1
+					}
+					has_building = fort_15th
+				}
+				spawn_rebels = {
+					type = sunni_rebels	
+					size = 2	
+					win = yes
+				}
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					owner = {
+						NOT = { fort_15th = 1 }
+					}
+				}
+				spawn_rebels = {
+					type = sunni_rebels	
+					size = 2	
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = shia_coup
+			}
+			clr_country_flag = shia_coup
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					owner = {
+						fort_15th = 1
+					}
+					has_building = fort_15th
+				}
+				spawn_rebels = {
+					type = shiite_rebels	
+					size = 2	
+					win = yes
+				}
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					owner = {
+						NOT = { fort_15th = 1 }
+					}
+				}
+				spawn_rebels = {
+					type = shiite_rebels	
+					size = 2	
+				}
+			}
+		}
+	}
+}
+	
+	
+	option = {
+		name = "religious_events.18.z1" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = cathar } }
+		change_religion = cathar
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z2" #
+		ai_chance = { factor = 100 }
+		trigger = {
+			always = no
+			#any_owned_province = { religion = fraticelli }
+		}
+		#change_religion = fraticelli
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z3" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = waldensian } }
+		change_religion = waldensian
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z4" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = lollard } }
+		change_religion = lollard
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z5" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = monophysite } }
+		change_religion = monophysite
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z6" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = bogomilist } }
+		change_religion = bogomilist
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z7" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = monothelite } }
+		change_religion = monothelite
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z8" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = iconoclast } }
+		change_religion = iconoclast
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z9" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = paulician } }
+		change_religion = paulician
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z10" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = messalian } }
+		change_religion = messalian
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z11" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = nestorian } }
+		change_religion = nestorian
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z12" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = adamites } }
+		change_religion = adamites
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.18.z13" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = bosnian_church } }
+		change_religion = bosnian_church
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}
+
+#Conversion to Islam
+country_event = {
+	id = religious_events.19
+	title = "religious_events.19.t"
+	desc = "religious_events.19.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.19.a" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = sunni } }
+		change_religion = sunni
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.b" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = shiite } }
+		change_religion = shiite
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.c" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = ibadi } }
+		change_religion = ibadi
+		add_stability = -4
+	}
+
+	##MODDED###
+	option = {
+		name = "religious_events.19.z1" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = zikri } }
+		change_religion = zikri
+		add_stability = -4
+	}
+	#Yazidi used to be z2
+	option = {
+		name = "religious_events.19.z3" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = kharijite } }
+		change_religion = kharijite
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.z4" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = druze } }
+		change_religion = druze
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.z5" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = hurufi } }
+		change_religion = hurufi
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.z6" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = qarmatian } }
+		change_religion = qarmatian
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.z7" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = mutazila } }
+		change_religion = mutazila
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.z8" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = quranist } }
+		change_religion = quranist
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.19.z9" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = alawite } }
+		change_religion = alawite
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}
+
+#Conversion to Dharmic
+country_event = {
+	id = religious_events.21
+	title = "religious_events.21.t"
+	desc = "religious_events.21.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.21.a" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = hinduism } }
+		change_religion = hinduism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.21.b" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = sikhism } }
+		change_religion = sikhism
+		add_stability = -4
+	}
+
+	##MODDED###
+	option = {
+		name = "religious_events.21.z1" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = jain } }
+		change_religion = jain
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}
+
+#Conversion to Zoroastrianism
+country_event = {
+	id = religious_events.22
+	title = "religious_events.22.t"
+	desc = "religious_events.22.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.22.a" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = zoroastrian } }
+		change_religion = zoroastrian
+		add_stability = -4
+	}
+
+	##MODDED###
+	option = {
+		name = "religious_events.22.z1" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = mazdaki } }
+		change_religion = mazdaki
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.22.z2" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = khurmazta } }
+		change_religion = khurmazta
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.22.z3" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = zurvanism } }
+		change_religion = zurvanism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.22.z4" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = gayomarthianism } }
+		change_religion = gayomarthianism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.22.z5" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = khurramism } }
+		change_religion = khurramism
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}
+
+#Conversion to Judaism
+country_event = {
+	id = religious_events.23
+	title = "religious_events.23.t"
+	desc = "religious_events.23.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.23.a" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = jewish } }
+		change_religion = jewish
+		add_stability = -4
+	}
+
+	##MODDED###
+	option = {
+		name = "religious_events.23.z1" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = samaritan } }
+		change_religion = samaritan
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.23.z2" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = karaite } }
+		change_religion = karaite
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}
+
+###MODDED###
+#Conversion to Gnostic
+country_event = {
+	id = religious_events.999
+	title = "religious_events.999.t"
+	desc = "religious_events.999.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.999.z1" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = manichean } }
+		change_religion = manichean
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.999.z2" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = mandeaism } }
+		change_religion = mandeaism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.999.z3" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = valentinianism } }
+		change_religion = valentinianism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.999.z4" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = sethianism } }
+		change_religion = sethianism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.999.z5" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = priscillianism } }
+		change_religion = priscillianism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.999.z6" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = cainitism } }
+		change_religion = cainitism
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}
+
+#Conversion to Yazidi
+country_event = {
+	id = religious_events.998
+	title = "religious_events.998.t"
+	desc = "religious_events.998.d"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "religious_events.19.z2" #Leftover from when it was Islamic
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = yazidi } }
+		change_religion = yazidi
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.998.z1"
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = meshefaresism } }
+		change_religion = meshefaresism
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.998.z2"
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = kitebacilweism } }
+		change_religion = kitebacilweism
+		add_stability = -4
+	}
+
+	option = {
+		name = "religious_events.18.f" #
+		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
+	}
+}

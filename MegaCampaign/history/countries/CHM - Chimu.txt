@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = chimuan
+capital = 812
+unit_type = south_american
+1399.1.1= {
+	monarch = {
+		name = "Minchancaman"
+		dynasty = "Chimu"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

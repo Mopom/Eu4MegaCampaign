@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 233 83 70 }
+revolutionary_colors = { 0 10 1 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Abdul Mufakir #0" = 20
+	"Adiningkusuma #0" = -1
+	"Arij #0" = -1
+	"Cinta #0" = -1
+	"Endang Geulis #0" = -1
+	"Fatahillah #0" = 50
+	"Fath Muhammad #0" = 20
+	"Fatima #0" = 10
+	"Gayatri #0" = -10
+	"Indreswari #0" = -1
+	"Kawunganten #0" = -1
+	"Martawijaya #0" = 50
+	"Maulana Hasanudin #0" = 20
+	"Muhammad Sedo Ning Rana #0" = 20
+	"Narendra Duhita #0" = -1
+	"Nur ud-Din Ibrahim #0" = 20
+	"Pakungwati #0" = -1
+	"Pangeran Mas #0" = 50
+	"Prajnaparamitha #0" = -1
+	"Rasmi #0" = 50
+	"Semboja #0" = -1
+	"Suhita #0" = -5
+	"Tepasari #0" = -1
+	"Tingkir #0" = -1
+	"Tribhuawana #0" = -5
+	"Wangi #0" = -1
+	"Yusuf Pasaran #0" = 20
+}
+leader_names = {
+	"Adi"
+	"Aman"
+	"Bimo"
+	"Damar"
+	"Harjuno"
+	"Kresno"
+	"Puntodewo"
+	"Purnomo"
+	"Raharjo"
+	"Santoso"
+}
+ship_names = {
+	"Cilegon"
+	"Deli"
+	"Krakatau"
+	"Kujang"
+	"Lebak"
+	"Panaitan"
+	"Pandeglang"
+	"Panjang"
+	"Sabesi"
+	"Sangiang"
+	"Sebuku"
+	"Selat Sunda"
+	"Serang"
+	"Tangerang"
+	"Tinjal"
+	"Tundo"
+}

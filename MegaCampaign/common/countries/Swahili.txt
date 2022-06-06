@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 81 141 85 }
+revolutionary_colors = { 10 1 14 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	maritime_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	african_western_franchise_warfare
+	bantu_gunpowder_warfare
+	bantu_plains_warfare
+	bantu_tribal_warfare
+	westernized_bantu
+}
+monarch_names = {
+	"'Abd All0h #0" = 80
+	"'Alawi #0" = 0
+	"'Al0 #5" = 40
+	"Ab0 Bakr #0" = 40
+	"Ahmad #0" = 60
+	"Aiesha #0" = -1
+	"Athmani #0" = 0
+	"Bwana Mkuu #0" = 20
+	"Bwana Shaykh #0" = 0
+	"Bwana Tamu #0" = 5
+	"Bwana Waziri #0" = 0
+	"Fatima #0" = -10
+	"Fumo Bakari #0" = 0
+	"Fumo Luti #0" = 0
+	"Fumo Madi #0" = 5
+	"Fumo Umar #0" = 0
+	"Hasan #5" = 40
+	"Husayn #1" = 50
+	"Ibr0h0m #0" = 40
+	"Janfar #0" = 0
+	"Khamis #0" = 0
+	"Kombo #0" = 0
+	"Makame #0" = 1
+	"Mas'0d #0" = 20
+	"Muhammad #0" = 40
+	"Muksedi #0" = 0
+	"Munganaye #0" = 20
+	"Mwana Mwema #0" = -10
+	"Mwinyi Ahmad #0" = 1
+	"Mwinyi Hasan #0" = 0
+	"Nasr #0" = 0
+	"Ngwacani #0" = 0
+	"Ngwale #0" = 0
+	"Rashid #0" = 0
+	"Sa'if #0" = 0
+	"Sa'0d #0" = 40
+	"Sabo #0" = 20
+	"Salih #0" = 0
+	"Sulaym0n #6" = 60
+	"Twakali #0" = 0
+	"Y0suf #0" = 20
+	"al-Fudail #0" = 20
+	"al-Hasan #0" = 20
+}
+leader_names = {
+	"Dato"
+	"Jumbe"
+	"Kawawe"
+	"Salim"
+	"Semid"
+	"Setia"
+	"Sokoine"
+	"Suja"
+	"Wakil"
+	"Yomba"
+}
+ship_names = {
+	"Damu"
+	"Homu"
+	"Jua"
+	"Maji"
+	"Mbwa"
+	"Mlima"
+	"Mnyama"
+	"Moshi"
+	"Moto"
+	"Mwezi"
+	"Ndege"
+	"Nyoka"
+	"Nyota"
+	"Samaki"
+	"Ua"
+	"Ukungu"
+}

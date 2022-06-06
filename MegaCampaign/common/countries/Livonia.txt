@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 78 65 15 }
+revolutionary_colors = { 4 0 4 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Brita #0" = -1
+	"Dovyat #0" = 10
+	"Elmede #0" = -1
+	"Helgi #0" = -1
+	"Helvi #0" = -1
+	"Ilma #0" = -1
+	"Imetra #0" = -1
+	"Janis #0" = 5
+	"J0rgen #0" = 5
+	"Kaupo #0" = 20
+	"Klavess #0" = 5
+	"Kordula #0" = -1
+	"Leili #0" = -1
+	"Likiik #0" = 10
+	"Maimu #0" = -1
+	"Maria #0" = -1
+	"Narvait #0" = 20
+	"Priidu #0" = 10
+	"Raili #0" = -1
+	"Savna #0" = -1
+	"Shutr #0" = 20
+	"Talivaldis #0" = 5
+	"Vaishvilkas #0" = 0
+	"Vanema #0" = -1
+	"Vetseke #0" = 0
+	"Yudki #0" = 0
+}
+leader_names = {
+	"Aminoff"
+	"Armfelt"
+	"Bielke"
+	"Bonde"
+	"Carpelan"
+	"Fleming"
+	"Furuhjelm"
+	"Horn"
+	"Mannerheim"
+	"Paijkull"
+	"Rehbinder"
+	"Schulman"
+	"Soop"
+	"Tott"
+	"Wrede"
+}
+ship_names = {
+	"Dobeln"
+	"Dorpat"
+	"Dünaburg"
+	"Fellin"
+	"Karkus"
+	"Kokenhusen"
+	"Riga"
+	"Segewold"
+	"Wenden"
+	"Wolmar"
+}

@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 0 120 145 }
+revolutionary_colors = { 10 0 8 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aaliyah #0" = -1
+	"Abbas #0" = 10
+	"Agish #0" = 10
+	"Alchagir #0" = 10
+	"Arslanay #0" = 10
+	"Aylin #0" = -1
+	"Baki #0" = 10
+	"Baltichak #0" = 10
+	"Batir #1" = 10
+	"Beyza #0" = -1
+	"Dilara #0" = -1
+	"Din Ahmad #0" = 10
+	"Din Muhammad #0" = 10
+	"Din Sufi #0" = 10
+	"Dinbay #0" = 10
+	"Divey #0" = 10
+	"Ece #0" = -3
+	"Edigu #1" = 10
+	"Feriha #0" = -1
+	"Ghazi #1" = 10
+	"Haji Ahmad #0" = 10
+	"Haji Muhammad #0" = 10
+	"Hasan #0" = 10
+	"Ikram #0" = -1
+	"Ishterek #0" = 10
+	"Isiney #0" = 10
+	"Ismail #0" = 10
+	"Jan Qubad #0" = 10
+	"Kanay #0" = 10
+	"Kelebek #0" = -1
+	"Khorezmi #0" = 10
+	"Kiraz #0" = -1
+	"Kuchuk #0" = 10
+	"Mansur #1" = 10
+	"Mehtap #0" = -1
+	"Muhammad #0" = 10
+	"Musa #0" = 10
+	"Nermin #0" = -1
+	"Qasim #0" = 10
+	"Sayid Ahmad #0" = 10
+	"Shay Tarak #0" = 10
+	"Sheykh Mamay #0" = 10
+	"S0yembik0 #0" = -10
+	"Timur #0" = 10
+	"Uraz Muhammad #0" = 10
+	"Urus #0" = 10
+	"Vakkas #0" = 10
+	"Yamghurchi #0" = 10
+	"Yash Tarak #0" = 10
+	"Yusuf #0" = 10
+}
+leader_names = {
+	"Batu-tu"
+	"Berkegene"
+	"Bora Chinua"
+	"Burilgidai"
+	"Chaganchar"
+	"Delger Cheren"
+	"Qadantai"
+	"Qara Erdene"
+	"Qorchigene"
+	"Suren Unegen"
+	"Tegus-chi"
+	"Temurcher"
+	"Ulagan Temur"
+	"Yekechar"
+}
+ship_names = {
+	"Batu Khan"
+	"Buri"
+	"Chaka"
+	"Chinggis Khan"
+	"Edigü"
+	"Kara Nojaj"
+	"Mangyt"
+	"Möngke Timur"
+	"Qara Quchuq"
+	"Saraycik"
+	"Tartar Khan"
+	"Waqqas Bej"
+	"Yayik"
+}

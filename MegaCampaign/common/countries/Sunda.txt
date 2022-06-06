@@ -1,0 +1,108 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 32 131 135 }
+revolutionary_colors = { 10 0 14 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	spy_ideas
+	offensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Alit #0" = -1
+	"Amangkurat #0" = -1
+	"Banawati #0" = -1
+	"Batang #0" = -1
+	"Cinta #0" = -1
+	"Dewi Pakungwati #0" = -1
+	"Gayatri #0" = -10
+	"Gayatri Rajapatni #0" = -1
+	"Girindrawardhana #0" = 20
+	"Girishawardhana #0" = 20
+	"Hayam Wuruk #1" = 15
+	"Indreswari #0" = -1
+	"Kalagamet #1" = 15
+	"Kawunganten #0" = -1
+	"Kertabumi #0" = 20
+	"Kertawardhana #0" = 10
+	"Kertawijaya #0" = 20
+	"Koesoemarini #0" = -1
+	"Mangkubumi Suradipati #0" = 50
+	"Mulya #0" = 50
+	"Narendra Duhita #0" = -1
+	"Nilakendra #0" = 50
+	"Prabu Surawisesa Jayaperkosa #0" = 50
+	"Prajnaparamitha #0" = -1
+	"Purnamaningrum #0" = -1
+	"Raden Sotor #0" = 10
+	"Raden Sumirat #0" = 10
+	"Raden Wijaya #1" = 15
+	"Rajasawardhana #0" = 20
+	"Ratu Dewata #0" = 50
+	"Ratu Sakti #0" = 50
+	"Retnaningrum #0" = -1
+	"Semboja #0" = -1
+	"Shima #0" = -1
+	"Singhawardhana #0" = 10
+	"Sri Baduga Maharaja #0" = 50
+	"Sri Gitarja #1" = -10
+	"Suhita #0" = -15
+	"Suraprabhawa #0" = 20
+	"Tepasari #0" = -1
+	"Tingkir #0" = -1
+	"Tribhuawana #0" = -10
+	"Tribhuwana #0" = -1
+	"Wangi #0" = -1
+	"Wikramawardhana #0" = 20
+	"Wulan #0" = -1
+	"Xi Mo #0" = -1
+}
+leader_names = {
+	"Agung"
+	"Budi"
+	"Hamengku"
+	"Harto"
+	"Karno"
+	"Kencono"
+	"Mas"
+	"Ratri"
+	"Slamet"
+	"Wani"
+}
+ship_names = {
+	"Agong"
+	"Baris"
+	"Barong"
+	"Batukaru"
+	"Batur"
+	"Bratan"
+	"Catur"
+	"Kecak"
+	"Kelatakan"
+	"Legong"
+	"Lesong"
+	"Merbuk"
+	"Mesehe"
+	"Musi"
+	"Patas"
+	"Pendet"
+	"Pohen"
+	"Sanglang"
+	"Sangyang"
+	"Seraya"
+	"Topeng"
+}
+special_unit_culture = south_east_asian_special

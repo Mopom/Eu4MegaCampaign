@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Waichow"
+is_city = yes
+culture = hakka
+religion = confucianism
+trade_goods = grain
+base_tax = 7
+base_production = 7
+base_manpower = 3
+add_core = MNG
+add_core = YUE
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group

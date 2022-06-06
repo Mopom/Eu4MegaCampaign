@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = mesoamerican
+religion = mesoamerican_religion
+primary_culture = highland_mayan
+capital = 2637
+1435.1.1= {
+	monarch = {
+		name = "K'iq'ab'"
+		dynasty = "Chorti"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

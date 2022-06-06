@@ -1,0 +1,13 @@
+owner = CCQ
+controller = CCQ
+capital = "Santa Catalina"
+is_city = yes
+culture = diaguita
+religion = inti
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = CCQ
+discovered_by = andean
+discovered_by = south_american

@@ -1,0 +1,15 @@
+owner = CRA
+controller = CRA
+capital = "Potosí"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = gold
+base_tax = 4
+base_production = 4
+base_manpower = 2
+extra_cost = 6
+add_core = CRA
+discovered_by = andean
+discovered_by = south_american
+add_province_triggered_modifier = cerro_rico_modifier

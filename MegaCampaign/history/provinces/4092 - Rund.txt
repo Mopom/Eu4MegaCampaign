@@ -1,0 +1,14 @@
+owner = LND
+controller = LND
+capital = "Musumba"
+is_city = yes
+culture = lunda
+religion = shamanism
+trade_goods = ivory
+base_tax = 3
+base_production = 3
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1
+add_core = LND
+discovered_by = central_african

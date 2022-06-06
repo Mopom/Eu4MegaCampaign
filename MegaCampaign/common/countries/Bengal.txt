@@ -1,0 +1,149 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 36 109 194 }
+revolutionary_colors = { 9 5 9 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	humanist_ideas
+	quantity_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Achalraja #0" = 0
+	"Ahiavadevi #0" = -1
+	"Amritakala #0" = -1
+	"Ayanna #0" = 0
+	"Babji Ballal Sah #1" = 10
+	"Bayinnaung #0" = 0
+	"Benedict #0" = 0
+	"Bhavanaga #0" = -1
+	"Bhavashankari #0" = -1
+	"Bijjabbe #0" = -1
+	"Chandrabbalabbe #0" = -1
+	"Chaud-Singh #0" = 0
+	"Chinnambike #0" = -1
+	"Deopali-Deo #0" = 0
+	"Dinkar Singh #0" = 0
+	"Gopala #0" = 0
+	"Govinda #0" = 0
+	"Indra #0" = 0
+	"Jaganpala #0" = 0
+	"Jayasimha #0" = 0
+	"Jeyya #0" = 0
+	"Jira #0" = -1
+	"Kannama #0" = 0
+	"Kanwar #0" = -1
+	"Karmavati #0" = -1
+	"Khame Mi #0" = -1
+	"Kharagraha #0" = 0
+	"Kiratpala #0" = 0
+	"Kiriyasaga #0" = 0
+	"Kshetra-Singh #0" = 0
+	"Kundakadevi #0" = -1
+	"Kyiso #0" = 0
+	"Laxmidevi #0" = -1
+	"Madhavi #0" = -1
+	"Mahalakshmi #0" = -1
+	"Nagipoti #0" = -1
+	"Nilkanth #0" = 0
+	"Padmini #0" = -1
+	"Prabhavatigupta #0" = -1
+	"Pritampala #0" = 0
+	"Puppadevi #0" = -1
+	"Purandaradasa #0" = 0
+	"Pyit #0" = 0
+	"Raghudev #0" = 0
+	"Revakanimmadi #0" = -1
+	"Rijhpala #0" = 0
+	"Rupadevi #0" = -1
+	"Shrimitradevi #0" = -1
+	"Someshvara #0" = 0
+	"Sugula #1" = -1
+	"Uzana #0" = 0
+	"Vijaysen #0" = 0
+	"Vijnayavati #0" = -1
+	"Yajnavati #0" = -1
+}
+leader_names = {
+	"Azad"
+	"Bose"
+	"Chodhury"
+	"Das"
+	"Debshikdar"
+	"Ganesha"
+	"Ganguly"
+	"Ghosh"
+	"Karani"
+	"Khan"
+	"Majumdar"
+	"Mukerjhee"
+	"Pal"
+	"Roy"
+	"Saraswoti"
+	"Sarkar"
+	"Sen"
+	"Shahi"
+	"Shaikh"
+	"Suri"
+	"Thakur"
+	"Waddedar"
+	"Zamindar"
+	"ad-Daula"
+}
+ship_names = {
+	"Abu Bakr"
+	"Ali Khan"
+	"Bhagirathi"
+	"Brahmaputra"
+	"Chingri Mach"
+	"Chittagong"
+	"Durbar"
+	"Durdasha"
+	"Fatima"
+	"Ganga"
+	"Hilsa Mach"
+	"Hooghly"
+	"Ilish Mach"
+	"Jalangi"
+	"Jasmine"
+	"Kali Meghana"
+	"Kali Nauk"
+	"Kolkata"
+	"Lal Nauk"
+	"Machli"
+	"Malda"
+	"Meghna"
+	"Mongla"
+	"Murshidabad"
+	"Nauk-i-Islam"
+	"Nawaber Nauk"
+	"Nil Nauk"
+	"Nil Sagor"
+	"Osman"
+	"Padma"
+	"Rui Mach"
+	"Sagorer Bahini"
+	"Shaheed"
+	"Sheikher Nauk"
+	"Sonar Bangladesh"
+	"Sunderboner Bahini"
+	"Sunderboner Nauk"
+	"Tasleema"
+}

@@ -1,0 +1,12 @@
+owner = TOT
+controller = TOT
+capital = "Tohancapan"
+is_city = yes
+culture = totonac
+religion = nahuatl
+trade_goods = spices
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = TOT
+discovered_by = mesoamerican

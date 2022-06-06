@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = celestial_empire
+government_rank = 3
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 1821
+add_harmonized_religion = mahayana
+1627.1.1= {
+	monarch = {
+		name = "Zicheng"
+		dynasty = "Li"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	capital = 688	# Kaifeng
+}
+1644.1.1= { capital = 689 }
+500.1.1= {
+	monarch = {
+		name = "Zhong"
+		dynasty = "Wuo"
+		regent = yes #Only if there's no CK3 input
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}

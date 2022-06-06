@@ -1,0 +1,202 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 43 165 157 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	spy_ideas
+	offensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"A'sheng #0" = 0
+	"Bai #0" = 10
+	"Biao #0" = 10
+	"Caosui #0" = 10
+	"Chabo #0" = 0
+	"Changluo #0" = 20
+	"Chenggong #0" = 10
+	"Chun #0" = 10
+	"Chunmei #0" = -20
+	"Cibuan #0" = 10
+	"Cican #0" = 10
+	"Cijiang #0" = 10
+	"Cixuan #0" = 10
+	"Cizhao #0" = 10
+	"Dang #0" = 10
+	"Fangbo #0" = 0
+	"Fu #0" = 10
+	"Gang #0" = 10
+	"Gaoxu #0" = 10
+	"Gauxi #0" = 10
+	"Gui #0" = 10
+	"Guifang #0" = 0
+	"Heying #0" = -20
+	"Houcong #0" = 20
+	"Houwei #0" = 10
+	"Houzhao #0" = 20
+	"Hui #0" = 10
+	"Jianjun #0" = 20
+	"Jing #0" = 10
+	"Kehshuan #0" = 10
+	"Kon #0" = -20
+	"Liangguan #0" = 0
+	"Liubo #0" = 0
+	"Mao #0" = -20
+	"Mo #0" = 10
+	"Nan #0" = 10
+	"Pian #0" = 10
+	"Qi #0" = 10
+	"Qianxing #0" = 0
+	"Qiyu #0" = 20
+	"Qizhen #0" = 20
+	"Quan #0" = 10
+	"Shuang #0" = 10
+	"Sibo #0" = 0
+	"Song #0" = 10
+	"Su #0" = 10
+	"Tai'er #0" = 0
+	"Tan #0" = 10
+	"Tenghui #0" = 0
+	"Tianhui #0" = -20
+	"Wubo #0" = 0
+	"Yijun #0" = 20
+	"Ying #0" = 10
+	"Youbin #0" = 10
+	"Youcheng #0" = 20
+	"Youji #0" = 10
+	"Youjian #0" = 20
+	"Youlang #0" = 20
+	"Youlun #0" = 10
+	"Youshan #0" = 10
+	"Yousong #0" = 20
+	"Youxiao #0" = 10
+	"Youxue #0" = 10
+	"Youyi #0" = 10
+	"Youyuan #0" = 10
+	"Yujian #0" = 20
+	"Zaihou #0" = 20
+	"Zhen #0" = 10
+	"Zhi #0" = 10
+	"Zi #0" = 10
+}
+leader_names = {
+	"Cai"
+	"Cao"
+	"Chen"
+	"Cheng"
+	"Cui"
+	"Deng"
+	"Du"
+	"Fang"
+	"Feng"
+	"Gao"
+	"Guodao"
+	"Han"
+	"He"
+	"Hu"
+	"Huang"
+	"Li"
+	"Liang"
+	"Lin"
+	"Liu"
+	"Lu"
+	"Luo"
+	"Ma"
+	"Pan"
+	"Peng"
+	"Qian"
+	"Shen"
+	"Song"
+	"Sun"
+	"Tang"
+	"Wang"
+	"Wu"
+	"Xie"
+	"Xu"
+	"Yang"
+	"Ye"
+	"Yuan"
+	"Zhang"
+	"Zhao"
+	"Zheng"
+	"Zhou"
+	"Zhu"
+}
+ship_names = {
+	"Beijing"
+	"Bo Qian"
+	"Cao Xu"
+	"Chang Jiang"
+	"Chendo"
+	"Da Ming Guo"
+	"Dantai Mieming"
+	"Fan Xu"
+	"Fu Buji"
+	"Fuzhou"
+	"Gao Chai"
+	"Gaodi"
+	"Gongbo Liao"
+	"Gongsun Long"
+	"Gongxi Ai"
+	"Gongxi Chi"
+	"Guangzhou"
+	"Guilin"
+	"Guiyang"
+	"Gungye Chang"
+	"Hangzhou"
+	"Huang He"
+	"Huidi"
+	"Ji'nan"
+	"Kung-fu tzu"
+	"Liang Zhan"
+	"Mencius"
+	"Min Sun"
+	"Nanchang"
+	"Nangong Guo"
+	"Nanjing"
+	"Qidiao Kai"
+	"Ran Geng"
+	"Ran Ru"
+	"Ran Yong"
+	"Shang Zhu"
+	"Sima Geng"
+	"Taiyuan"
+	"Wendi"
+	"Wuchang"
+	"Wuma Shi"
+	"Xi'an"
+	"Xijiang"
+	"Xun Zi"
+	"Yan Hui"
+	"Yan Wuyao"
+	"Yan Xing"
+	"Yan Yan"
+	"You Ruo"
+	"Yuan Xian"
+	"Yunnan"
+	"Zeng Dian"
+	"Zeng He"
+	"Zeng Shen"
+	"Zhangdi"
+	"Zhaodi"
+	"Zi-gong"
+	"Zi-lu"
+	"Zi-wo"
+	"Zi-xia"
+	"Zi-you"
+	"Zi-zhang"
+}

@@ -1,0 +1,108 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 116 92 39 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Amalia #0" = -1
+	"Andreas #0" = 10
+	"Anton Ulrich #0" = 20
+	"August #1" = 20
+	"August Franz #0" = 5
+	"August Heinrich #0" = 5
+	"August Karl #0" = 5
+	"August Wilhelm #0" = 20
+	"Christian #0" = 10
+	"Christian Franz #0" = 5
+	"Cornelia #0" = -1
+	"Erich #0" = 5
+	"Ernst Ferdinand #0" = 5
+	"Ferdinand Albrecht #0" = 20
+	"Franz #0" = 10
+	"Friedrich #0" = 5
+	"Friedrich August #0" = 5
+	"Friedrich Ulrich #0" = 20
+	"Friedrich Wilhelm #0" = 5
+	"Georg #0" = 5
+	"Georg Franz #0" = 5
+	"Gerhild #0" = -1
+	"Heinrich #2" = 80
+	"Heinrich Ferdinand #0" = 5
+	"Heinrich Julius #0" = 20
+	"Heinrich Karl #0" = 5
+	"Joachim #0" = 5
+	"Joachim Karl #0" = 5
+	"Johann #0" = 5
+	"Julius #0" = 20
+	"Julius August #0" = 5
+	"Julius Ernst #0" = 5
+	"Karl #0" = 20
+	"Ludwig Rudolf #0" = 20
+	"Otto #0" = 5
+	"Philipp Magnus #0" = 5
+	"Philipp Siegmund #0" = 10
+	"Rudolf #0" = 5
+	"Rudolf August #0" = 20
+	"Wilhelm #0" = 40
+}
+leader_names = {
+	"Brach"
+	"Eickenroth"
+	"Gruebel"
+	"Hattendorf"
+	"Hehn"
+	"Hein"
+	"Ickelrath"
+	"Jaxtheim"
+	"Lindemann"
+	"Opp"
+	"Schauseil"
+	"Schütze"
+	"Talken"
+	"Wassman"
+	"von Rhein"
+}
+ship_names = {
+	"Albert I"
+	"Bischof Branthag"
+	"Bischof Godehard"
+	"Bruno"
+	"Darkward"
+	"Gottingen"
+	"Grubenhagen"
+	"Gräfin Gertrud"
+	"Heinrich I."
+	"Herzog Ludolf"
+	"Herzog Otto"
+	"Lothar III"
+	"Magnus II"
+	"Wolfenbuttel"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

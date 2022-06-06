@@ -1,0 +1,13 @@
+owner = RZW
+controller = RZW
+capital = "Khami"
+is_city = yes
+culture = shona
+religion = shamanism
+trade_goods = gold
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = RZW
+discovered_by = central_african
+discovered_by = east_african

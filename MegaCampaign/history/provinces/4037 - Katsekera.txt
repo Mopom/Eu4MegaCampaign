@@ -1,0 +1,12 @@
+owner = MRA
+controller = MRA
+capital = "Katsekera"
+is_city = yes
+culture = nyasa
+religion = shamanism
+trade_goods = ivory
+base_tax = 2
+base_production = 3
+base_manpower = 2
+add_core = MRA
+discovered_by = central_african

@@ -1,0 +1,12 @@
+owner = BSG
+controller = BSG
+capital = "Bukaleeba"
+is_city = yes
+culture = masaba
+religion = shamanism
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 3
+add_core = BSG
+discovered_by = central_african

@@ -1,0 +1,211 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 191 113 133 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	maritime_ideas
+	economic_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam #0" = 5
+	"Adri0n #0" = 5
+	"Alex #0" = 5
+	"Alexander #0" = 5
+	"Aline #0" = -20
+	"Anna #0" = -10
+	"Artur #0" = 5
+	"Bj0rn #0" = 5
+	"Byron #0" = 10
+	"Carmille #0" = -10
+	"Carsten #0" = 20
+	"Chris #0" = 20
+	"C0line #0" = -10
+	"Dan #0" = 20
+	"Daniel #0" = 30
+	"David #0" = 20
+	"Dick #0" = 5
+	"Drikus #0" = 5
+	"Fredrik #0" = 40
+	"Gustav #0" = 20
+	"Henrik #0" = 50
+	"Irene #0" = -10
+	"James #0" = 10
+	"Javier #0" = 5
+	"Jimmy #0" = 20
+	"Joachim #0" = 5
+	"Joakim #0" = 10
+	"Joel #0" = 10
+	"Johan #0" = 40
+	"Jonas #0" = 20
+	"Jordi #0" = 5
+	"Kuba #0" = 5
+	"Linda #0" = -30
+	"Lorenzo #0" = 10
+	"Marcus #0" = 10
+	"Marie #0" = -10
+	"Marko #0" = 20
+	"Martin #0" = 20
+	"Mathieu #0" = 10
+	"Mathilda #0" = -10
+	"Mats #0" = 20
+	"Michael #0" = 30
+	"Mikael #0" = 5
+	"Milla #0" = -10
+	"Niklas #0" = 40
+	"Nina #0" = -5
+	"Ogulcan #0" = 5
+	"Olof #0" = 20
+	"Patric #0" = 5
+	"Peter #0" = 10
+	"Petter #0" = 20
+	"Pierre #0" = 10
+	"Pontus #0" = 5
+	"Ra0l #0" = 5
+	"Rickard #0" = 20
+	"Rikard #0" = 20
+	"Rodrigo #0" = 5
+	"Roger #0" = 5
+	"Ruben #0" = 5
+	"Rufus #0" = 20
+	"Samuel #0" = 10
+	"Sara #0" = -20
+	"Sebastian #0" = 10
+	"Sofia #0" = -10
+	"Sonia #0" = -10
+	"Stefan #0" = 5
+	"Thomas #0" = 40
+	"Timor #0" = 5
+	"Valeska #0" = -10
+	"Veronica #0" = -10
+	"Viktor #0" = 2
+	"Wendy #0" = -10
+	"Zack #0" = 10
+	"0lvaro #0" = 5
+	"0ric #0" = 5
+}
+leader_names = {
+	"Andersson"
+	"Andreasson"
+	"Anward"
+	"Aytoun"
+	"Backlund"
+	"Ballantyne"
+	"Beaumont"
+	"Bergqwist"
+	"Berni"
+	"Bjarnehed"
+	"Björk"
+	"Borg"
+	"Capstick"
+	"Corominas"
+	"Drevendal"
+	"Edström"
+	"Eklund"
+	"Eriksson"
+	"Foxander"
+	"Fåhraeus"
+	"Gabryel"
+	"Garcia"
+	"Gidfors"
+	"Gladh"
+	"González"
+	"Hansson"
+	"Hesselborn"
+	"Holmgren"
+	"Horler"
+	"Höglund"
+	"Isaksson"
+	"Ivannikov"
+	"Izquierdo"
+	"Jakobsson"
+	"Jensen"
+	"Johannesson"
+	"Johansson"
+	"Khanagov"
+	"Kiby"
+	"King"
+	"Korhonen"
+	"Kowalcyzk"
+	"Kuiper"
+	"Kundak-Cowall"
+	"Lagerbäck"
+	"Lerström"
+	"Linares"
+	"Lind"
+	"Lohmander"
+	"Mannetje"
+	"Martins"
+	"Millen"
+	"Moltó"
+	"Nicholson"
+	"Norrevik"
+	"Olsson"
+	"Palmqvist"
+	"Pazos"
+	"Perez"
+	"Rodriguez"
+	"Ropert"
+	"Rönn"
+	"Salazar"
+	"Santiago"
+	"Sanz"
+	"Sarell"
+	"Schießl"
+	"Sjöström"
+	"Skoglund"
+	"Sommerdahl"
+	"Strid"
+	"Tammpere"
+	"Thulin"
+	"Tiger"
+	"Toll"
+	"Tolman"
+	"Tronde"
+	"Trullenque"
+	"Vicent"
+	"Villberg"
+	"Virtanen"
+	"Wendel-Örtqvist"
+	"Yildirim"
+	"Young"
+	"Zetterman"
+	"du Plessis"
+	"Åberg"
+	"Åslund"
+}
+ship_names = {
+	"Burgsvik"
+	"Djauvik"
+	"Drake"
+	"Fårösund"
+	"Gnisvärd"
+	"Hoburgen"
+	"Katthamra"
+	"Klintehamn"
+	"Ljugarn"
+	"Slite"
+	"Visby"
+	"Västergarn"
+}

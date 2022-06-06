@@ -1,0 +1,114 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 110 124 156 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Ameghqua #0" = 10
+	"Apekonit #0" = 10
+	"Apenackqua #0" = 10
+	"Archekatauh #0" = 10
+	"Assonnonquah #0" = 10
+	"Cabma #0" = 10
+	"Kakmonweconner #0" = 10
+	"Keepaahpwa #0" = 10
+	"Keosakunga #0" = 10
+	"Ketauga #0" = 10
+	"Kickkesequah #0" = -1
+	"Koehenna #0" = 10
+	"Maconaquah #0" = 10
+	"Mashekanochquah #0" = 10
+	"Meseekunnoghquoh #0" = 10
+	"Meshekenoghqua #0" = 10
+	"Metausauner #0" = 10
+	"Metcheketeta #0" = 10
+	"Metosma #0" = 10
+	"Mihtoseenia #0" = 10
+	"Mishikinakwa #0" = 10
+	"Misquaconaqua #0" = 10
+	"Missingguimeschan #0" = 10
+	"Moconnoquah #0" = -1
+	"Mushekeuoghqua #0" = 10
+	"Nawaushea #0" = 10
+	"Notawas #0" = 10
+	"Ohequanah #0" = 10
+	"Osas #0" = 10
+	"Oshawsequah #0" = -1
+	"Palaanswa #0" = 10
+	"Papskeecha #0" = 10
+	"Peshewa #0" = 10
+	"Pkoumkwa #0" = 10
+	"Sasakuthka #0" = 10
+	"Shawapenomo #0" = 10
+	"Sheshangomequah #0" = 10
+	"Sinamahon #0" = 10
+	"Tacumwah #0" = -1
+	"Tathtenouga #0" = 10
+	"Waapanaakikaapwah #0" = 10
+	"Wabsier #0" = 10
+	"Wafremanqua #0" = 10
+	"Wanonecana #0" = 10
+	"Wapapeslea #0" = 10
+}
+leader_names = {
+	"Atchakangouen"
+	"Chippekawkway"
+	"Choppattee"
+	"Kekionga"
+	"Kenapacomaqua"
+	"Kethippecahnunk"
+	"Kilatika"
+	"Kokomo"
+	"Kowasikka"
+	"Maramek"
+	"Mengkonkia"
+	"Meshingomesia"
+	"Milwaukee"
+	"Missinewa"
+	"Missinquimeschan"
+	"Neconga"
+	"Osaga"
+	"Ouiatenon"
+	"Papakeecha"
+	"Pepikokia"
+	"Piankashaw"
+	"Piankeshaw"
+	"Pickawillany"
+	"Tepicon"
+	"Wea"
+	"Wepechange"
+}
+ship_names = {
+	"Aamaawia"
+	"Aanteekwa"
+	"Alemwa"
+	"Eehsipana"
+	"Kineepikwa"
+	"Lenaswa"
+	"Mahkwa"
+	"Mahweewa"
+	"Miintikwa"
+	"Mikicia"
+	"Moohswa"
+	"Neekatikashia"
+	"Paapankamwa"
+	"Shikaakwa"
+}

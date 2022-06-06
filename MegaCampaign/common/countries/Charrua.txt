@@ -1,0 +1,67 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 174 151 145 }
+revolutionary_colors = { 8 5 5 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	inca_mountain_warfare
+	incan_axemen
+	incan_guerilla_warfare
+	incan_slingshots
+	reformed_westernized_incan
+	south_american_arquebusier
+	south_american_gunpowder_warfare
+	south_american_horsemen
+	south_american_reformed_gunpowder_warfare
+	south_american_spearmen
+	south_american_warfare
+	westernized_incan
+}
+monarch_names = {
+	"Abayub0  #0" = 10
+	"Cambya0 #0" = -1
+	"Itan0, #0" = 0
+	"Jasymimb0, #0" = 0
+	"Jougousa #0" = -1
+	"Senacua #0" = 0
+	"Tabar0 #0" = 0
+	"Tacouav0 #0" = -1
+	"Tacuab0 #0" = 0
+	"Vaimaca Per0 #0" = 10
+	"Vaimaca-Pir0 #0" = 0
+	"Yrup0, #0" = 0
+	"Zapic0n  #0" = 10
+}
+leader_names = {
+	"Bohané"
+	"Guenoa"
+	"Gununusa"
+	"Igualdad"
+	"Mataojo"
+	"Minuan"
+	"Puyucahua"
+	"Sira"
+	"Sénaqué"
+	"Yaró"
+}
+ship_names = {
+	"Bohané"
+	"Carace"
+	"Guar"
+	"Gununusa"
+	"Hue"
+	"Ibad"
+	"Ixou"
+	"Minuan"
+	"Samayoi"
+	"Yaró"
+}

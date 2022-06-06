@@ -1,0 +1,86 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 48 169 96 }
+revolutionary_colors = { 10 0 10 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quantity_ideas
+	religious_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	bantu_plains_warfare
+	niger_kongolese_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abi-Bakr #1" = 10
+	"Ali #1" = 10
+	"Amita #0" = -1
+	"Asenet #0" = -1
+	"Bagwariya #0" = -1
+	"Bakr-Kanbu #0" = 0
+	"Bassarou #0" = 0
+	"Bintou #0" = -1
+	"Birama #1" = 10
+	"Burhanaddin #0" = 0
+	"Daurama #0" = -1
+	"Dawud #0" = 0
+	"Djeneba #0" = -1
+	"Düru #0" = 0
+	"Fatima #0" = -1
+	"Fatoumata #0" = -1
+	"Fuluku #0" = 0
+	"Gunguma #1" = 10
+	"Ina #0" = -1
+	"Kisha #1" = 10
+	"Lorane #0" = -1
+	"Manding-Bory #0" = 0
+	"Mari-Djata #0" = 0
+	"Ouati #1" = 10
+	"Sandaki #0" = 0
+	"Sassouma #0" = -1
+	"Takoi #1" = 10
+	"Yildiz #0" = -1
+	"Zenku #0" = 0
+}
+leader_names = {
+	"Aluko"
+	"Bakara"
+	"Balewa"
+	"Bandele"
+	"Diore"
+	"Kanu"
+	"Kountché"
+	"Kuti"
+	"Mamami"
+	"Saibou"
+}
+ship_names = {
+	"Babban dutse"
+	"Fure"
+	"Gajimare"
+	"Hazo"
+	"Iska"
+	"Itace"
+	"Rairayi"
+	"Rana"
+	"Ruwa"
+	"Saiwa"
+	"Sama"
+	"Tauraro"
+	"Teku"
+	"Wata"
+}

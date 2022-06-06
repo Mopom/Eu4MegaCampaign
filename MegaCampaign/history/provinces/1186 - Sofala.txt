@@ -1,0 +1,17 @@
+owner = SFA
+controller = SFA
+capital = "Sofala"
+is_city = yes
+culture = nguni
+religion = sunni
+trade_goods = gold
+base_tax = 3
+base_production = 4
+base_manpower = 2
+extra_cost = 8
+center_of_trade = 1
+add_core = SFA
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman

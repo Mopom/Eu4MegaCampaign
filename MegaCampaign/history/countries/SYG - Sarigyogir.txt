@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = nomad_group
+religion = tengri_pagan
+primary_culture = oirats
+capital = 706
+secondary_religion = vajrayana
+1400.1.1= {
+	monarch = {
+		name = "Bayan Temur"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

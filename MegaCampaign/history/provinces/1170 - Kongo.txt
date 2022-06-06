@@ -1,0 +1,15 @@
+owner = KON
+controller = KON
+capital = "M'banza Kongo"
+is_city = yes
+culture = kongolese
+religion = shamanism
+trade_goods = iron
+base_tax = 6
+base_production = 6
+base_manpower = 3
+extra_cost = 16
+center_of_trade = 2
+add_core = KON
+discovered_by = central_african
+discovered_by = sub_saharan

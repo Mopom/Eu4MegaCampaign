@@ -1,0 +1,252 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 200 45 45 }
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Aishno #0" = 20
+	"Aldona #0" = -1
+	"Algirdas #0" = 20
+	"Alvydas #0" = 20
+	"Betten #0" = -1
+	"Dardedze #0" = -1
+	"Daumantas #0" = 20
+	"Davins #0" = 20
+	"Galindas #0" = 20
+	"Giemund #0" = 20
+	"Girdenis #0" = 20
+	"Golding #0" = 20
+	"Imela #0" = -1
+	"Karijotas #0" = 20
+	"Kaupo #0" = 20
+	"Korybutas #0" = 20
+	"Liga #0" = -1
+	"Litto #0" = 20
+	"Meinekinus #0" = 20
+	"Movkoldas #0" = 20
+	"Scurdo #0" = 20
+	"Songaila #0" = 20
+	"Svarnas #0" = 20
+	"Talivaldis #0" = 20
+	"Treniota #0" = 20
+	"Ulinniks #0" = 20
+	"Vida #0" = -1
+	"Vidmantas #0" = 20
+	"Weslikan #0" = -1
+	"Zygimantas #0" = 20
+}
+leader_names = {
+	"Aishno"
+	"Ako"
+	"Algirdas"
+	"Alvydas"
+	"Ankad"
+	"Antanas"
+	"Antavas"
+	"Aras"
+	"Arelis"
+	"Arunas"
+	"Auctune"
+	"Azuolas"
+	"Baise"
+	"Bajoras"
+	"Balodis"
+	"Beidras"
+	"Bikshe"
+	"Borut"
+	"Budo"
+	"Budrys"
+	"Bukantas"
+	"Bulei"
+	"Butavas"
+	"Butigeidis"
+	"Butovit"
+	"Butvydas"
+	"Cirulis"
+	"Dagonis"
+	"Dangeruthe"
+	"Darbeslave"
+	"Daugvilas"
+	"Daumantas"
+	"Dausprungas"
+	"Davins"
+	"Demas"
+	"Dobre"
+	"Dovyat"
+	"Dravenis"
+	"Dzintis"
+	"Ekkelis"
+	"Elmede"
+	"Erasts"
+	"Erdenis"
+	"Erdvilas"
+	"Erdzivil"
+	"Galeine"
+	"Galindo"
+	"Gastile"
+	"Gauronas"
+	"Gedere"
+	"Gedigaudas"
+	"Gediminas"
+	"Gedivilas"
+	"Gerdautas"
+	"Gerden"
+	"Gibedats"
+	"Giemund"
+	"Gintaras"
+	"Gintautas"
+	"Girdenis"
+	"Glande"
+	"Golding"
+	"Golovke"
+	"Gotene"
+	"Gunvald"
+	"Imanta"
+	"Irmantas"
+	"Janis"
+	"Jauguttis"
+	"Jaunule"
+	"Jaunutis"
+	"Jedetus"
+	"Jogaila"
+	"Jovirdas"
+	"Juvage"
+	"Kage"
+	"Kaire"
+	"Kantibutas"
+	"Karatas"
+	"Karijotas"
+	"Karnak"
+	"Kaupo"
+	"Kerstigens"
+	"Kesgaila"
+	"Kestutis"
+	"Kiten"
+	"Klavess"
+	"Klukis"
+	"Kodere"
+	"Korigaila"
+	"Korybutas"
+	"Kugis"
+	"Kuliens"
+	"Kurlemuse"
+	"Lammekinus"
+	"Lasukas"
+	"Likiik"
+	"Lingvenis"
+	"Litto"
+	"Liudas"
+	"Lonkogveni"
+	"Lubartas"
+	"Lutuveras"
+	"Mantvydas"
+	"Manvydas"
+	"Meinekinus"
+	"Mendune"
+	"Merkelis"
+	"Milzas"
+	"Mindaugas"
+	"Minigaila"
+	"Movkoldas"
+	"Nameisis"
+	"Narimantas"
+	"Narvait"
+	"Nomedas"
+	"Pliksov"
+	"Povilas"
+	"Prusas"
+	"Pukiik"
+	"Pukuveras"
+	"Rimantas"
+	"Rimgaila"
+	"Rimvydas"
+	"Ringaudas"
+	"Rushky"
+	"Rusins"
+	"Sabe"
+	"Sargun"
+	"Sarunas"
+	"Scurdo"
+	"Sergonis"
+	"Shutr"
+	"Shvarnas"
+	"Skirgaila"
+	"Skornand"
+	"Songaila"
+	"Sprudeik"
+	"Stegut"
+	"Steikint"
+	"Svarnas"
+	"Sviendorog"
+	"Svitrigaila"
+	"Talivaldis"
+	"Tarvydas"
+	"Tautvila"
+	"Tovtivilas"
+	"Traidenis"
+	"Treniota"
+	"Treniotas"
+	"Ulinniks"
+	"Ulitis"
+	"Vainius"
+	"Vaishvilkas"
+	"Vaisvilkas"
+	"Valikaila"
+	"Valimantas"
+	"Vetseke"
+	"Vidmantas"
+	"Viesturs"
+	"Vingoldas"
+	"Virmantas"
+	"Visheiv"
+	"Vishikut"
+	"Vishly"
+	"Visvaldis"
+	"Vizgirdas"
+	"Vykantas"
+	"Vykintas"
+	"Vytautas"
+	"Vytenis"
+	"Yudki"
+	"Zivinbudas"
+	"Zygimantas"
+}
+ship_names = {
+	"Alytus"
+	"Birzai"
+	"Druskininkai"
+	"Gardinas"
+	"Jonava"
+	"Kaunas"
+	"Kretinga"
+	"Kreva"
+	"Lazdijai"
+	"Naugardukas"
+	"Palanga"
+	"Raseiniai"
+	"Siauliai"
+	"Sventoji"
+	"Taurage"
+	"Telsiai"
+	"Trakai"
+	"Utena"
+	"Vilkmerge"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

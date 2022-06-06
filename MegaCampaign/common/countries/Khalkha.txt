@@ -1,0 +1,257 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 224 104 83 }
+revolutionary_colors = { 5 14 5 }
+historical_idea_groups = {
+	administrative_ideas
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Adai #0" = 20
+	"Agbarjin #0" = 20
+	"Altan #0" = 20
+	"Arigaba #0" = 10
+	"Ariq #0" = 0
+	"Arugtai #0" = 10
+	"Ayurparibhadra #0" = 10
+	"Bahamu #0" = 20
+	"Bars #0" = 20
+	"Batu #0" = 0
+	"Bek #0" = 20
+	"Biligt0 #0" = 10
+	"Bodi #0" = 20
+	"Buyan #0" = 20
+	"B0rte #0" = -1
+	"Darayisung #0" = 20
+	"Dayan #0" = 20
+	"Delbeg #0" = 20
+	"Ejei #0" = 10
+	"Elbeg #0" = 10
+	"Eljigidei #0" = 0
+	"Engke #0" = 10
+	"Gulichi #0" = 20
+	"G0n #0" = 20
+	"G0y0k #0" = 10
+	"Irinchibal #0" = 10
+	"Joichi #0" = 0
+	"Jorightu #0" = 10
+	"Kublai #0" = 10
+	"K0ke #0" = 10
+	"Ligdan #0" = 20
+	"Mandukhai #0" = -1
+	"Manduulun #0" = 20
+	"Mark0rgis #0" = 10
+	"Mulan #0" = 20
+	"M0ngke #0" = 10
+	"Oyiradai #0" = 20
+	"Qayshan #0" = 10
+	"Qoshila #0" = 10
+	"Samar #0" = -1
+	"Sayn #0" = 20
+	"Suddhipala #0" = 10
+	"Tayisung #0" = 20
+	"Temujin #0" = 10
+	"Tem0len #0" = -1
+	"Tem0r #0" = 10
+	"Toghun #0" = 10
+	"Tolui #0" = 10
+	"Toq #0" = 10
+	"T0men #0" = 10
+	"Uskhal #0" = 10
+	"Yes0n #0" = 10
+	"Zaufishan #0" = -1
+	"0g0dei #0" = 10
+	"0ljei #0" = 20
+	"0r0g #0" = 15
+}
+leader_names = {
+	"Aksagal"
+	"Alag-aduun"
+	"Asan"
+	"Asud"
+	"Avga"
+	"Baachuud"
+	"Baarin"
+	"Baatar"
+	"Baatud"
+	"Barchuul"
+	"Barga"
+	"Barnud"
+	"Basigid"
+	"Bayaud"
+	"Besud"
+	"Borjigin"
+	"Bulagachid"
+	"Burged"
+	"Buuchuud"
+	"Buurluud"
+	"Chinos"
+	"Chutsuut"
+	"Daar'tan"
+	"Daguur"
+	"Dalandaganad"
+	"Darhad"
+	"Durved"
+	"Echeed"
+	"Eljigin"
+	"Ezen"
+	"Gahan"
+	"Gal"
+	"Gerchuud"
+	"Gorlos"
+	"Gozuul"
+	"Guchid"
+	"Harnut"
+	"Hatagin"
+	"Ikh"
+	"Jalaid"
+	"Jalair"
+	"Jarangiinkhan"
+	"Jongoor"
+	"Khaakhar"
+	"Khalbagad"
+	"Khalkha"
+	"Khamnigan"
+	"Khandgai"
+	"Khangad"
+	"Khangin"
+	"Khar'd"
+	"Khar-zel"
+	"Kharchin"
+	"Khariad"
+	"Khasag"
+	"Khavchig"
+	"Khavkhchin"
+	"Khereed"
+	"Khiad"
+	"Khiitluud"
+	"Khitad"
+	"Khoid"
+	"Khorchin"
+	"Khorkhoi-nudten"
+	"Khoshuud"
+	"Khotogoid"
+	"Khoton"
+	"Khuitserleg"
+	"Khuluud"
+	"Khunguud"
+	"Khurlad"
+	"Khuuchid"
+	"Mangud"
+	"Mankhilag"
+	"Merged"
+	"Motoi"
+	"Myangan"
+	"Naiman"
+	"Nirun"
+	"Olkhonud"
+	"Onkhod"
+	"Onniud"
+	"Orovgod"
+	"Saljud"
+	"Sartuul"
+	"Sharnud"
+	"Soloon"
+	"Sood"
+	"Sunid"
+	"Taijiud"
+	"Talas"
+	"Tangud"
+	"Tatar"
+	"Tavnag"
+	"Tavuud"
+	"Tele"
+	"Togoruutan"
+	"Torguut"
+	"Tsagaan"
+	"Tsagaan-zel"
+	"Tsakhar"
+	"Tsookhor"
+	"Tsoor"
+	"Tsoros"
+	"Tugchin"
+	"Tumed"
+	"Tuuhai"
+	"Tuved"
+	"Ujeed"
+	"Ulanguud"
+	"Undgaa"
+	"Uneged"
+	"Urad"
+	"Uriankhan"
+	"Usun"
+	"Uuhan"
+	"Uuld"
+	"Uush"
+	"Uvashi"
+	"Uzuun"
+	"Yamaat"
+	"Yunsheebuu"
+	"Zaaruud"
+	"Zaisanguud"
+	"Zelme"
+	"Zurchid"
+	"Zuun-shuvuuchin"
+}
+ship_names = {
+	"Adai"
+	"Batu"
+	"Bo'orchu"
+	"Borokhula"
+	"Böke"
+	"Chagaan"
+	"Chilaun"
+	"Dharmapala"
+	"Dörben Külü'üd"
+	"Dörben Noyas"
+	"Elbeg"
+	"Ghengis Khan"
+	"Hohhot"
+	"Hülegü"
+	"Jebe"
+	"Jelme"
+	"Jinggim"
+	"Jöchi"
+	"Kamala"
+	"Karakorum"
+	"Khar Khiruge"
+	"Khubilai"
+	"Mugali"
+	"Möngke"
+	"Qubilai"
+	"Shikhikhutug"
+	"Sorqan Shira"
+	"Subutai"
+	"Tolui"
+	"Yelü Chucai"
+	"Yingchang"
+	"Ögödei"
+	"Örüg Temür"
+}
+army_names = {
+	"$PROVINCE$ Tumen"
+	"Buryat Tumen"
+	"Central Tumen"
+	"Kheshig"
+	"Left Wing Tumen"
+	"Right Wing Tumen"
+}

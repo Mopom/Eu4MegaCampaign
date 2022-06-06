@@ -1,0 +1,144 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 250 200 70 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Ahmed #0" = 20
+	"Aladdin #0" = 20
+	"Ali #0" = 20
+	"Bahadir #0" = 0
+	"Burhan #0" = 10
+	"C0neyd #0" = 0
+	"Eretna #0" = 20
+	"Fatma #0" = -1
+	"Ferhad #0" = 0
+	"Gamze #0" = -1
+	"Hanife #0" = -1
+	"Havva #0" = -1
+	"Ismail #0" = 0
+	"Melis #0" = -1
+	"Muhammed #0" = 20
+	"Nizameddin #0" = 0
+	"Rabia #0" = -1
+	"Safiye #0" = -1
+	"Sahsuvar #0" = 20
+	"Salih #0" = 0
+	"Sinan #0" = 0
+	"Umut #0" = -1
+	"Ziynet #0" = -1
+	"Z0beyde #0" = -1
+}
+leader_names = {
+	"Alemdar"
+	"Amasyali"
+	"Arif"
+	"Ayas"
+	"Bali"
+	"Barbaros"
+	"Bayram"
+	"Cerrah"
+	"Cezzar"
+	"Civan"
+	"Damad"
+	"Defterdar"
+	"Dervis"
+	"Erezli"
+	"Gazi"
+	"Gedik"
+	"Gümülcineli"
+	"Gürcü"
+	"Hadim"
+	"Hekimoglu"
+	"Hersekli"
+	"Ishak"
+	"Izzed"
+	"Kanijeli"
+	"Kara"
+	"Karamanli"
+	"Kavalali"
+	"Kaymak"
+	"Kemal"
+	"Kemankes"
+	"Koca"
+	"Köprülü"
+	"Köse"
+	"Küçük"
+	"Lala"
+	"Lefkeli"
+	"Malkoç"
+	"Müezzinzade"
+	"Nevsehirli"
+	"Nisanci"
+	"Oflu"
+	"Ohrili"
+	"Oruç"
+	"Osmancikli"
+	"Pargali"
+	"Pehlivan"
+	"Piri"
+	"Piyale"
+	"Rahim"
+	"Rumi"
+	"Salih"
+	"Sari"
+	"Semiz"
+	"Serdar"
+	"Silahdar"
+	"Sokullu"
+	"Tarhuncu"
+	"Tayyar"
+	"Topal"
+	"Turgut"
+	"Uluç"
+	"Veli"
+	"Yemisçi"
+	"Çandarli"
+	"Çelebi"
+	"Çerkes"
+	"Çuhadar"
+}
+ship_names = {
+	"Afsin"
+	"Akcadag"
+	"Besni"
+	"Ceyhan"
+	"Darende"
+	"Elbistan"
+	"Firat"
+	"Goksun"
+	"Kadirli"
+	"Maras"
+	"Pazarcik"
+	"Saimbeyli"
+	"Tohma"
+	"Zulkadriyye"
+}
+army_names = {
+	"$PROVINCE$ Ordusu"
+}
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

@@ -1,0 +1,12 @@
+owner = KZB
+controller = KZB
+capital = "Kazembe Lualaba"
+is_city = yes
+culture = luba
+religion = shamanism
+trade_goods = salt
+base_tax = 2
+base_production = 3
+base_manpower = 2
+add_core = KZB
+discovered_by = central_african

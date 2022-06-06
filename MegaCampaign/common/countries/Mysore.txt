@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 236 242 243 }
+revolutionary_colors = { 5 2 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	quantity_ideas
+	trade_ideas
+	quality_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Bettada Devaraja #0" = 10
+	"Chamaraja #1" = 50
+	"Chidananda #0" = 0
+	"Chikka Krishna #0" = -1
+	"Chikkadevaraja #0" = 10
+	"Ch0ma R0ja #0" = 20
+	"Immadai Raja #0" = 10
+	"Kanthirava Narasaraja #0" = 20
+	"Krishnaraja #0" = 20
+	"Lakshmi #0" = -1
+	"Lakshmisa #0" = 0
+	"Lakshmisha #0" = 0
+	"Mahesh #0" = 0
+	"Mallappa #0" = 0
+	"Manjunatha #0" = 0
+	"Murthy #0" = 0
+	"Narayanan #0" = 0
+	"Raja Wadiyar #0" = 10
+	"Ramachandra #0" = 0
+	"Singaraya #0" = 0
+	"Sujaya #0" = -1
+	"Timmaraja #0" = 20
+	"Tirumalevaidya #0" = 0
+	"Venkayarya #0" = 0
+	"Yadu Raya #0" = 20
+}
+leader_names = {
+	"Balija"
+	"Billava"
+	"Dasa"
+	"Devaraja"
+	"Gowda"
+	"Pulayar"
+	"Rajbal"
+	"Setty"
+	"Ummattur"
+	"Vaidya"
+	"Vokkaliga"
+	"Wodeyar"
+}
+ship_names = {
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Bhima"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Krishna"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Pallar"
+	"Parvati"
+	"Payaswani"
+	"Pennar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+}

@@ -1,0 +1,115 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 210 106 47 }
+revolutionary_colors = { 5 8 0 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	quantity_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ananga #0" = 0
+	"Anantavarman #0" = 0
+	"Bhanu #0" = 0
+	"Bhanudeva #3" = 30
+	"Bhima #0" = 0
+	"Bira #0" = 0
+	"Bishnupriya #0" = -1
+	"B0labhadra Deva #0" = 10
+	"Chakrapret0pa #0" = 30
+	"Devendravarman #0" = 0
+	"Divya Simha Deva #0" = 10
+	"Gang0dar Deva #0" = 10
+	"Gap0n0th Deva #0" = 10
+	"Giriraj Kumari #0" = -1
+	"Gopinath #0" = 0
+	"Govindaraja Vidyadhara #3" = 30
+	"Hari Krishna Deva #0" = 10
+	"Jagat #0" = 0
+	"Kaluadeva #3" = 30
+	"Kapilesvara #0" = 30
+	"Krishnapriya #0" = -1
+	"Kumar #0" = 0
+	"Mukunda #0" = 0
+	"Mukunda Deva #0" = 10
+	"Mukundadeva Harishandra #0" = 30
+	"Narasimha #0" = 0
+	"Narasimhadeva #3" = 30
+	"Narayan #0" = 0
+	"N0rashima Jana #0" = 30
+	"N0rsimha Deva #0" = 10
+	"Padmanabha #0" = 10
+	"Parvati Devi #0" = -1
+	"Prat0prudra #3" = 30
+	"Purushottama Deva #0" = 20
+	"Raghur0ma Chhotra #0" = 30
+	"Rudra #0" = 0
+	"R0mchandra #0" = 20
+	"R0mchandra Deva #0" = 30
+	"Saheb #0" = 0
+	"Suratarangini Devi #0" = -1
+	"Tikayet Devi #0" = -1
+	"V0ra Kishor Deva #0" = 10
+}
+leader_names = {
+	"Bhowarbar"
+	"Bidyadhar"
+	"Dassa"
+	"Deo"
+	"Deva"
+	"Gajapati"
+	"Kalinga"
+	"Nayudu"
+	"Patra"
+	"Poosapati"
+	"Rai"
+	"Ratha"
+	"Reddy"
+	"Roy"
+	"Santra"
+	"Singhar"
+	"Sinha"
+	"Uria"
+	"Vansa"
+	"Vasireddy"
+	"Velama"
+}
+ship_names = {
+	"Baitarani"
+	"Balasore"
+	"Balugaon"
+	"Behrampur"
+	"Bhubeneswar"
+	"Brahmani"
+	"Chandipur"
+	"Chilka"
+	"Cuttack"
+	"Durga"
+	"Gopalpur"
+	"Jagannath"
+	"Juggernaut"
+	"Kalijai"
+	"Konark"
+	"Lakshmi"
+	"Mahanadi"
+	"Nalabana"
+	"Paradeep"
+	"Parvati"
+	"Puri"
+	"Radha"
+	"Sarasvati"
+	"Satapada"
+}

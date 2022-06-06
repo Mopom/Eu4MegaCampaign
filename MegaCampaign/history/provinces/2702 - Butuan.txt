@@ -1,0 +1,14 @@
+owner = BTU
+controller = BTU
+capital = "Butuan"
+is_city = yes
+culture = filipino
+religion = animism
+trade_goods = gems
+base_tax = 2
+base_production = 2
+base_manpower = 2
+extra_cost = 8
+center_of_trade = 1
+add_core = BTU
+discovered_by = chinese

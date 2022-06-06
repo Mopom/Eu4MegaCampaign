@@ -1,0 +1,15 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 46 52 24 }
+monarch_names = {
+	"Ajinai #0" = 0
+	"Chidukhul #0" = 0
+	"Dayir #0" = 0
+	"Eszter #0" = -1
+	"Gughlug #0" = 0
+	"Iliya #0" = 0
+	"Inancha #0" = 0
+	"Nayaga #0" = 0
+	"Putyayka #0" = 0
+	"Töregene #0" = -1
+}

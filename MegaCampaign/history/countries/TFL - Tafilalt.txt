@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = moroccan
+capital = 2460
+1444.11.11= {
+	monarch = {
+		name = "Menna"
+		dynasty = "Ilgazi"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 1383.4.30
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = moroccan
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Yahya"
+		dynasty = "Tehlawa"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = TFL
+		birth_date = 1386.6.16
+		death_date = 1446.6.16
+		religion = converted_dynamic_faith_102
+		culture = berber
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Canh'a"
+		monarch_name = "Canh'a"
+		dynasty = "Tehlawa"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1403.9.10
+		death_date = 1468.9.10
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = berber
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 51
+}

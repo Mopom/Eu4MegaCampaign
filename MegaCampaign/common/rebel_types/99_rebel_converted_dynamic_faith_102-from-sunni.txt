@@ -1,0 +1,174 @@
+converted_dynamic_faith_102_rebels = {
+
+	area = nation
+	government = theocracy
+	religion = converted_dynamic_faith_102
+	defection = religion
+	defect_delay = 120
+	independence = none
+	unit_transfer = yes
+	gfx_type = culture_province
+
+	resilient = no
+	reinforcing = yes
+	general = yes
+	smart = yes
+
+	artillery = 0.0
+	infantry = 0.7
+	cavalry = 0.3
+
+	morale = 1.1
+
+	handle_action_negotiate = yes
+	handle_action_stability = yes
+	handle_action_build_core = yes
+	handle_action_send_missionary = yes
+
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.0
+			owner = { religion = ROOT }
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { religion = converted_dynamic_faith_102 }
+		}
+		modifier = {
+			factor = 0.001
+			tolerance_to_this = 5
+		}
+		modifier = {
+			factor = 0.5
+			tolerance_to_this = 2
+		}
+		modifier = {
+			factor = 5.0
+			owner = { has_country_flag = religious_turmoil }
+		}
+		modifier = {
+			factor = 2000
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { tolerance_to_this = 1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { tolerance_to_this = -1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { tolerance_to_this = -2 }
+		}
+	}
+
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 0.0
+			religion = converted_dynamic_faith_102
+			owner = { religion = converted_dynamic_faith_102 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { religion = converted_dynamic_faith_102 }
+			any_neighbor_province = {
+				religion = converted_dynamic_faith_102
+				NOT = { has_province_modifier = "forced_conversion" }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+
+	siege_won_trigger = {
+		NOT = {
+			AND = {
+				owned_by = PAP
+				is_capital = yes
+			}
+		}
+	}
+	siege_won_effect = {
+		if = {
+			limit = { religion = converted_dynamic_faith_102 }
+			add_province_modifier = {
+				name = "religious_violence"
+				duration = 730
+			}
+		}
+		if = {
+			limit = { NOT = { religion = converted_dynamic_faith_102 } }
+			change_religion = converted_dynamic_faith_102
+			add_province_modifier = {
+				name = "religious_violence"
+				duration = 730
+			}
+		}
+	}
+
+	can_negotiate_trigger = {
+		religion_group = muslim
+	}
+
+	can_enforce_trigger = {
+		always = yes
+	}
+
+	demands_description = "generic_rebels_demand"
+
+	demands_enforced_effect = {
+		if = {
+			limit = { NOT = { religion_group = muslim } }
+			add_prestige = -50
+			every_owned_province = {
+				limit = { has_rebel_faction = REB }
+				add_local_autonomy = 20
+			}
+		}
+		if = {
+			limit = { tag = PAP }
+			add_stability = -1
+		}
+		if = {
+			limit = { religion = converted_dynamic_faith_102 }
+			add_country_modifier  = {
+				name = "religious_intolerance"
+				duration = 3650
+			}
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+				NOT = { religion = converted_dynamic_faith_102 }
+			}
+			change_religion = converted_dynamic_faith_102
+			force_converted = yes
+		}
+	}
+}

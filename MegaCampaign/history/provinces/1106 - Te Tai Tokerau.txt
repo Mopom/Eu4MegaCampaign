@@ -1,0 +1,12 @@
+owner = TTT
+controller = TTT
+capital = "Whangarei"
+is_city = yes
+culture = maori
+religion = animism
+trade_goods = tropical_wood
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = TTT
+discovered_by = polynesian_tech

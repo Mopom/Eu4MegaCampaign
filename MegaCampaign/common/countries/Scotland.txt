@@ -1,0 +1,242 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 199 175 12 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	exploration_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	trade_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	scottish_highlander
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Affiath #1" = 10
+	"Ailgus #1" = 10
+	"Airleid #1" = 10
+	"Amlaíb #1" = 10
+	"Argentocoxos #1" = 10
+	"Astrid #0" = -1
+	"Breth #1" = 10
+	"Briccíne #0" = 0
+	"Bridei #7" = 10
+	"Buthut #1" = 10
+	"Caicher #0" = 0
+	"Cailean #1" = 10
+	"Caillech-Fhinnéin #0" = -1
+	"Caltram #1" = 10
+	"Canuall #1" = 10
+	"Canutulachama #1" = 10
+	"Castantin #1" = 10
+	"Causantín #3" = 10
+	"Caíndelbán #0" = 0
+	"Ciniod #3" = 10
+	"Cináed #4" = 10
+	"Detleff #0" = 0
+	"Domnall #2" = 10
+	"Donnchad #1" = 10
+	"Drest #10" = 10
+	"Duff #1" = 10
+	"Duib #1" = 10
+	"Duncan #1" = 10
+	"Echuid #0" = 0
+	"Elpin #2" = 10
+	"Fahd #0" = 0
+	"Galam #2" = 10
+	"Ganant #6" = 10
+	"Garb #1" = -1
+	"Ildulb #1" = 10
+	"Imag #0" = -1
+	"Jyad #0" = 0
+	"Kayla #0" = -1
+	"Lachlan #2" = 10
+	"Lochlann #1" = 10
+	"Lubb #0" = 0
+	"Lulach #1" = 10
+	"Lóchéne #0" = 0
+	"Macbethad #1" = 10
+	"Malcolm #1" = 10
+	"Malsnectan #1" = 10
+	"Meinwerk #0" = 0
+	"Máel-Coluim #2" = 10
+	"Naiton #4" = 10
+	"Nawoja #0" = -1
+	"Nárbflaith #0" = -1
+	"Othelindis #0" = -1
+	"Ru #1" = 10
+	"Taran #1" = 10
+	"Telurg #7" = 10
+	"Telurgan #2" = 10
+	"Theodrada #0" = -1
+	"Tuathflaith #0" = -1
+	"Uallach #0" = -1
+	"Uipoig #1" = 10
+	"Unuist #3" = 10
+	"Uuen #1" = 10
+	"Uurad #1" = 10
+	"Uuredach #1" = 10
+	"Áed #1" = 10
+	"Órlaith #1" = -1
+}
+leader_names = {
+	"Adam"
+	"Alexander"
+	"Beaton"
+	"Boyd"
+	"Bruce"
+	"Cameron"
+	"Campbell"
+	"Carnegie"
+	"Cochrane"
+	"Colyear"
+	"Crawford"
+	"Crichton"
+	"Cunynghame"
+	"Dalzell"
+	"Douglas"
+	"Drummond"
+	"Duncan"
+	"Erskine"
+	"Ferguson"
+	"Fleming"
+	"Fletcher"
+	"Forbes"
+	"Gilchrist"
+	"Gordon"
+	"Graham"
+	"Hamilton"
+	"Hepburn"
+	"Hume"
+	"Johnstone"
+	"Keith"
+	"Kerr"
+	"Knox"
+	"Law"
+	"Leslie"
+	"Lindsay"
+	"Livingston"
+	"MacDonald"
+	"MacGregor"
+	"MacKenzie"
+	"MacTaggart"
+	"Maitland"
+	"Malise"
+	"Maxwell"
+	"Montgomerie"
+	"Murray"
+	"Nasmyth"
+	"Ogilvy"
+	"Paterson"
+	"Playfair"
+	"Raeburn"
+	"Randolph"
+	"Ruthven"
+	"Selkirk"
+	"Seton"
+	"Sinclair"
+	"Stewart"
+	"Strathbogie"
+	"Wemyss"
+	"Wilkie"
+	"Wishart"
+	"de Dunbar"
+}
+ship_names = {
+	"Alexander Gaily"
+	"Ann of Anstruther"
+	"Ann of Caledonia"
+	"Annandale"
+	"Anthony"
+	"Bonaventure"
+	"Bosse"
+	"Caledonia"
+	"Christian of Bo'ness"
+	"Christopher"
+	"Colomb"
+	"Continent"
+	"David"
+	"Dogarvine of Londonderry"
+	"Dolphin"
+	"Duke of Hamilton"
+	"Dumbarton Castle"
+	"Eagle"
+	"Effenying Castle"
+	"Elizabeth"
+	"Endeavour"
+	"Flower"
+	"Fortune"
+	"Good Fortune"
+	"Great Lyon"
+	"Great Spaniard"
+	"Great Unicorn"
+	"Greentree"
+	"Hope"
+	"Hope of Bo'ness"
+	"Hopeful Beginning"
+	"Instauration"
+	"James"
+	"James of Anstruther"
+	"Janet"
+	"Jennet Purwyn"
+	"King's Carvel"
+	"Lamb of Glasgow"
+	"Lamb of Leith"
+	"Lesley"
+	"Little Unicorn"
+	"Lyon"
+	"Margaret"
+	"Margaret of Peterhead"
+	"Mary Walsingham"
+	"Mary Willoughby"
+	"Mercury"
+	"Michael"
+	"Moriset"
+	"Morton"
+	"Olive Branch"
+	"Pelican"
+	"Phoenix"
+	"Phoenix of Glasgow"
+	"Prince Rupert"
+	"Providence of Dundee"
+	"Providence of Kirkcaldy"
+	"Rainbow"
+	"Reid Lyon"
+	"Rising Sun"
+	"Rothes"
+	"Royal Mary"
+	"Royal William"
+	"Saint Andrew"
+	"Salamander"
+	"Society"
+	"Speedwell"
+	"Speedy Return"
+	"Thistle"
+	"Towaich"
+	"Treasurer"
+	"Unicorn"
+	"Union"
+	"Venture"
+	"Wemyss"
+	"William and George"
+	"William and Mary"
+	"Yellow Carvel"
+}
+preferred_religion = reformed

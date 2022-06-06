@@ -1,0 +1,118 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 121 210 115 }
+revolutionary_colors = { 14 1 14 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Absaquil #0" = 10
+	"Anta #0" = 10
+	"Cheenlenten #0" = 10
+	"Comcomly #0" = 20
+	"Coy #0" = -1
+	"Cuckamanna #0" = 10
+	"Elvamox #0" = -1
+	"Etla #0" = -1
+	"Etnama #0" = 10
+	"Hallale #0" = 10
+	"Hoipkenek #0" = 10
+	"Injice #0" = 10
+	"Kawkama #0" = 10
+	"Kiles #0" = 10
+	"Kowahtough #0" = 10
+	"Laham #0" = 10
+	"Lalbick #0" = 10
+	"Mequah #0" = 10
+	"Myneletta #0" = 10
+	"Napesa #0" = 10
+	"Nasyah #0" = 10
+	"Nessick #0" = 10
+	"Obanahah #0" = 10
+	"Pulican #0" = 10
+	"Pulktah #0" = 10
+	"Pulkuptima #0" = 10
+	"Quiaquatty #0" = 10
+	"Quilala #0" = 10
+	"Quintioosan #0" = 10
+	"Sain-Tah-Oodie #0" = -1
+	"Sallaf #0" = 10
+	"Satinvose #0" = 10
+	"Senegertta #0" = 10
+	"Talsapeer #0" = 10
+	"Tasyah #0" = 10
+	"Teapinick #0" = 10
+	"Tena #0" = 10
+	"Topen #0" = -1
+	"Tophor #0" = 10
+	"Towyecolla #0" = 10
+	"Tumulth #0" = 10
+	"Tumwalth #0" = 10
+	"Wallahpicate #0" = 10
+	"Watchano #0" = 10
+	"Yackatee #0" = 10
+	"Yalkus #0" = 10
+	"Yeptah #0" = 10
+}
+leader_names = {
+	"Atfalati"
+	"Calapooya"
+	"Cathlamet"
+	"Cathlapotle"
+	"Chelamela"
+	"Chepenafa"
+	"Chiluckittequaw"
+	"Clackamas"
+	"Clatsop"
+	"Clowwewalla"
+	"Lakmiut"
+	"Multnomah"
+	"Santiam"
+	"Skilloot"
+	"Wasco"
+	"Watlala"
+	"Wishram"
+	"Yamel"
+	"Yoncalla"
+}
+ship_names = {
+	"Atfalati"
+	"Calapooya"
+	"Cathlamet"
+	"Cathlapotle"
+	"Chelamela"
+	"Chepenafa"
+	"Chiluckittequaw"
+	"Clackamas"
+	"Clatsop"
+	"Clowwewalla"
+	"Lakmiut"
+	"Ltsuq"
+	"Multnomah"
+	"Oklumin"
+	"Oolax"
+	"Santiam"
+	"Skilloot"
+	"Wasco"
+	"Watlala"
+	"Wishram"
+	"Yamel"
+	"Yoncalla"
+}

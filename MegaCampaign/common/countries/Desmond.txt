@@ -1,0 +1,99 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 179 89 89 }
+revolutionary_colors = { 5 6 5 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aifric #0" = -1
+	"Ailill #0" = 0
+	"Br0gh #0" = 0
+	"Cadwgwan #0" = 0
+	"Caoimh0n #0" = 0
+	"Cinn0idigh #0" = 0
+	"Conchobhar #2" = 60
+	"Deagl0n #0" = 0
+	"Diarmaid #3" = 1
+	"Donnchad #7" = 20
+	"Dougal #0" = 0
+	"Fionnlagh #0" = 0
+	"Fionola #0" = -1
+	"Garbh0n #0" = 0
+	"Lachtna #0" = 0
+	"Lorcc0n #0" = 0
+	"MONARCH_NAME_BRONACH #0" = 0
+	"MONARCH_NAME_RORDAN #0" = 0
+	"Mainch0n #0" = 0
+	"Mathghamhain #0" = 20
+	"Math0in #0" = 0
+	"Meall0n #0" = 0
+	"Muireadhach #1" = 20
+	"Naomh0n #0" = 0
+	"Niall #0" = 0
+	"Odhr0n #0" = 0
+	"P0draig #0" = 0
+	"Quinn #0" = 0
+	"Raghnailt #0" = -1
+	"Riain #0" = 0
+	"Ruaidhr0 #0" = 0
+	"Ruarc #0" = 0
+	"R0oghn0n #0" = 0
+	"Sean0n #0" = 0
+	"Sechnall #0" = 0
+	"S0aghdh0 #0" = 0
+	"Tadhg #2" = 40
+	"Tighearnach #0" = 0
+	"Tuathal #0" = 0
+	"Turlough #2" = 80
+	"Uilliam #0" = 0
+	"Uinseann #0" = 0
+	"0dhamh #0" = 0
+}
+leader_names = {
+	"Barry"
+	"Boyle"
+	"Darcy"
+	"FitzGerald"
+	"FitzThomas"
+	"MacCarthy"
+	"O'Brien"
+	"O'Neill"
+	"Sarsfield"
+	"Talbot"
+}
+ship_names = {
+	"Clare"
+	"Cork"
+	"Deas Mhuman"
+	"Kerry"
+	"Lar Mumhan"
+	"Limerick"
+	"Tipperary"
+	"Tuad Mhuman"
+	"Urh Mumhan"
+	"Waterford"
+}

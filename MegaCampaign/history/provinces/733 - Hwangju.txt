@@ -1,0 +1,13 @@
+owner = KOR
+controller = KOR
+capital = "Hwangju"
+is_city = yes
+culture = korean
+religion = confucianism
+trade_goods = fish
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,15 @@
+owner = COI
+controller = COI
+capital = "Yohualtepec"
+is_city = yes
+culture = mixtec
+religion = nahuatl
+trade_goods = dyes
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = COI
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

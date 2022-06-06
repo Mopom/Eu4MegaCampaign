@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 224 146 113 }
+revolutionary_colors = { 6 13 6 }
+historical_idea_groups = {
+	quantity_ideas
+	spy_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Arjuna Simha #0" = 20
+	"Babji #0" = 0
+	"Bahkt Buland #0" = 20
+	"Bhuma #0" = 0
+	"Bir Sah #0" = 20
+	"Chanda #0" = 20
+	"Chandra Sahi #0" = 15
+	"Daipat Simha #0" = 20
+	"Dhundya #0" = 0
+	"Dhundya Ram Sah #0" = 20
+	"Durgavati #0" = -10
+	"Hiradi #0" = 20
+	"Hirai #0" = -10
+	"Hirde #1" = 15
+	"Kondya #0" = 0
+	"Krasna #0" = 0
+	"Krasna Sah #0" = 20
+	"Lokba #0" = 0
+	"Madhukara Sahi #0" = 20
+	"Narsingh Rai #0" = 20
+	"Nilkanth Sah #0" = 20
+	"Ram #0" = 0
+	"Ram Sah #0" = 20
+	"Ratna Kuvar #0" = -1
+	"Sangrama Simha #0" = 20
+	"Vir Narayana #0" = 15
+}
+leader_names = {
+	"Ballar"
+	"Chandi"
+	"Deogadhi"
+	"Gadhi"
+	"Garha-Mandli"
+	"Haihaya"
+	"Kherli"
+	"Narayan"
+	"Palamaui"
+	"Raj Gondi"
+	"Raksel"
+	"Shahi"
+	"Simha"
+}
+ship_names = {
+	"Amitha"
+	"Amman"
+	"Arul"
+	"Baitarani"
+	"Balasore"
+	"Balugaon"
+	"Brahmani"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Juggernaut"
+	"Lakshmi"
+	"Mahanadi"
+	"Mou"
+	"Nilima"
+	"Paradeep"
+	"Parvati"
+	"Radha"
+	"Sarasvati"
+	"Sharmistha"
+	"Tuli"
+}

@@ -1,0 +1,138 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 106 127 183 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	maritime_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aloysius #0" = 20
+	"Annetinus #0" = 20
+	"Antonius #0" = 40
+	"Antonius Emmanuel #0" = 20
+	"Catherine #0" = -1
+	"Claudius #0" = 20
+	"Cletus #0" = 0
+	"Desiderius #0" = 20
+	"Dionysius #0" = 0
+	"Emericus #0" = 20
+	"Emidius #0" = 0
+	"Emmanuel #0" = 40
+	"Fabricius #0" = 20
+	"Ferdinandus #0" = 20
+	"Filibertus #0" = 20
+	"Filippus #0" = 20
+	"Franciscus #0" = 20
+	"Gregorius #0" = 20
+	"Guido #0" = 20
+	"Hadrianus #0" = 20
+	"Hilarius #0" = 0
+	"Hugo #1" = 20
+	"Jacobus #0" = 20
+	"Johannes #1" = 80
+	"Johannes Baptista #0" = 20
+	"Johannes Ferdinandus #1" = 10
+	"Johannes Paulus #0" = 20
+	"Lucas #0" = 0
+	"Ludovicus #0" = 20
+	"Marcus Antonius #0" = 20
+	"Maria #0" = -1
+	"Martinus #1" = 40
+	"Nicholas #1" = 20
+	"Petrus #2" = 60
+	"Petrus Raimundus #0" = 20
+	"Publius #0" = 0
+	"Raimundus #0" = 40
+	"Raphael #0" = 20
+	"Rogelius #2" = 10
+	"Rupertus #1" = 10
+	"Sarah #0" = -1
+	"Thomas #0" = 20
+	"Vivianus #0" = 0
+}
+leader_names = {
+	"Caracciolo"
+	"Carafa"
+	"Cotoner"
+	"Despuig"
+	"Garzez"
+	"Orsini"
+	"Perellos y Roccaful"
+	"Zacosta"
+	"Zondadari"
+	"d'Amboise"
+	"d'Aubusson"
+	"de Blanchefort"
+	"de Clermont-Gessant"
+	"de Corneillan"
+	"de Fonseca"
+	"de Gozon"
+	"de Heredia"
+	"de Homedes"
+	"de Juilliac"
+	"de L'Isle-Adam"
+	"de La Vallette-Parisot"
+	"de Lascaris-Castellar"
+	"de Lastic"
+	"de Milly"
+	"de Naillac"
+	"de Paule"
+	"de Pins"
+	"de Redin"
+	"de Rohan-Polduc"
+	"de Saint-Jaille"
+	"de Texada"
+	"de Vasconcellos"
+	"de Verdala"
+	"de Vilhena"
+	"de Villaret"
+	"de Wignacourt"
+	"de la Cassière"
+	"de la Rivère"
+	"de la Sengle"
+	"del Carretto"
+	"del Monte"
+	"del Ponte"
+	"von Hormpesch"
+}
+ship_names = {
+	"Alfonse of Portugal"
+	"Arnaud de Comps"
+	"Auger de Balben"
+	"Garnier de Naplous"
+	"Gastone de Murols"
+	"Geoffrey le Rat"
+	"Geoffroy de Donjon"
+	"Gilbert d'Aissailly"
+	"Gilbert of Syria"
+	"Hermangard d'Asp"
+	"Hélion de Villeneuve"
+	"Raymond du Puy de Provence"
+	"Roger de Moulins"
+	"The Blessed Gerard"
+}
+army_names = {
+	"Knights of $PROVINCE$"
+}

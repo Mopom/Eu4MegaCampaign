@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 93 183 140 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	quantity_ideas
+	trade_ideas
+	diplomatic_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Anku  #0" = 30
+	"Barman #0" = 0
+	"Bebarta #0" = 0
+	"Birabar #0" = 0
+	"Bishwanath #0" = 10
+	"Biswambhar  #0" = 30
+	"Biwarta #0" = 0
+	"Chandra #0" = 0
+	"Damodar #0" = 0
+	"Dusmant  #0" = 30
+	"Giriraj #0" = -1
+	"Gopinath #0" = 0
+	"Haria #1" = 30
+	"Harichandra #0" = 0
+	"Harirudra #0" = 30
+	"Jadunath #0" = 0
+	"Jagannath #0" = 0
+	"Jugasai  #1" = 30
+	"Khadag Rai #0" = 10
+	"Krishna #0" = 0
+	"Malavika Devi #0" = -1
+	"Narayana #0" = 0
+	"Padman #0" = 10
+	"Pradeep #0" = 0
+	"Pratap Deo #0" = 10
+	"Pratapnayan #1" = 30
+	"Raghunath #0" = 30
+	"Raghuraj #0" = 0
+	"Rai #0" = 0
+	"Raisingh  #0" = 30
+	"Sunder #0" = 0
+	"Suratarangini Devi #0" = -1
+	"Yuvaraj #0" = 0
+}
+leader_names = {
+	"Bhanja"
+	"Deb"
+	"Deo"
+	"Gangabansi"
+	"Ghumsur"
+	"Janamuni"
+	"Mahapatra"
+	"Mangraj"
+	"Narendra"
+	"Pal"
+	"Parmar"
+	"Patnaik"
+	"Pusapati"
+	"Rawat"
+	"Samant"
+	"Singh"
+	"Vidyadhar"
+}
+ship_names = {
+	"Baitarani"
+	"Balasore"
+	"Balugaon"
+	"Behrampur"
+	"Bhubeneswar"
+	"Brahmani"
+	"Chandipur"
+	"Chilka"
+	"Cuttack"
+	"Durga"
+	"Gopalpur"
+	"Jagannath"
+	"Juggernaut"
+	"Kalijai"
+	"Konark"
+	"Lakshmi"
+	"Mahanadi"
+	"Nalabana"
+	"Paradeep"
+	"Parvati"
+	"Puri"
+	"Radha"
+	"Sarasvati"
+	"Satapada"
+}

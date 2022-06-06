@@ -1,0 +1,137 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 213 82 109 }
+revolutionary_colors = { 8 13 5 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abel #0" = 0
+	"Agust0n #0" = 0
+	"Alberto #0" = 0
+	"Andr0s #0" = 10
+	"Antonio #0" = 0
+	"Asdr0bal #0" = 0
+	"Bartolom0 #0" = 0
+	"Carlos #0" = 10
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Delia #0" = -1
+	"Domingo #0" = 0
+	"Emiliano #0" = 0
+	"Enrique #0" = 0
+	"Evaristo #0" = 0
+	"Fabricio #0" = 0
+	"Fernando #0" = 0
+	"Fidel #0" = 0
+	"Gabriel #0" = 0
+	"Griselda #0" = -1
+	"Jos0 #0" = 20
+	"Juan #0" = 0
+	"Leonardo #0" = 0
+	"MONARCH_NAME_CRISTOBAL #0" = 15
+	"MONARCH_NAME_SIMON #0" = 20
+	"Manuel #0" = 0
+	"Marcos #0" = 0
+	"Miguel #0" = 0
+	"Narciso #0" = 0
+	"Octavio #0" = 0
+	"Olivia #0" = -1
+	"Pablo #0" = 0
+	"Patricio #0" = 0
+	"Pedro #0" = 0
+	"Roberto #0" = 0
+	"Rufino #0" = 0
+	"Santiago #0" = 0
+	"Tadeo #0" = 0
+	"Ul0ses #0" = 0
+	"0lvaro #0" = 0
+}
+leader_names = {
+	"Alcantuz"
+	"Alfaro"
+	"Anzoátegui"
+	"Bello"
+	"Beltrán"
+	"Berbeo"
+	"Betancur"
+	"Bolívar"
+	"Carreño"
+	"Díaz"
+	"Flores"
+	"Gaitán"
+	"Galán"
+	"García de Toledo"
+	"Gutiérrez de Piñeres"
+	"Gómez"
+	"Marño"
+	"Michelena"
+	"Mier"
+	"Molina"
+	"Monagas"
+	"Monsalve"
+	"Montúfar"
+	"Márquez"
+	"Méndez"
+	"Nariño"
+	"Narvarte"
+	"O'Baal"
+	"O'Leary"
+	"Ortíz"
+	"Paredo"
+	"Pastrana"
+	"Pinilla"
+	"Pizarro"
+	"Plata"
+	"Plaza"
+	"Páez"
+	"Roa"
+	"Rodríguez"
+	"Rojas"
+	"Rondón"
+	"Rosillo"
+	"Santander"
+	"Soublette"
+	"Torres"
+	"Urbaneja"
+	"Uribe"
+	"Vargas"
+	"Viscardo"
+	"de Miranda"
+}
+ship_names = {
+	"Anaco"
+	"Calabozo"
+	"Caracas"
+	"El Tigre"
+	"Francisco"
+	"Guanare"
+	"Maracaibo"
+	"Orinoco"
+	"Trujillo"
+	"Valencia"
+}
+colonial_parent = SPA

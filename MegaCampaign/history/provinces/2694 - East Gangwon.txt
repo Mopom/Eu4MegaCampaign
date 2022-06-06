@@ -1,0 +1,13 @@
+owner = KOR
+controller = KOR
+capital = "Gangneung"
+is_city = yes
+culture = korean
+religion = confucianism
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group

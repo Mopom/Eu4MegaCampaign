@@ -1,0 +1,15 @@
+owner = APA
+controller = APA
+capital = "Apache"
+is_city = yes
+culture = apache
+religion = totemism
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = APA
+discovered_by = north_american
+native_size = 5
+native_ferocity = 2
+native_hostileness = 5

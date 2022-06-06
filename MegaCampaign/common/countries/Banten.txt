@@ -1,0 +1,68 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 130 25 74 }
+revolutionary_colors = { 10 9 10 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Abdul Mufakir #0" = 20
+	"Arij #0" = -1
+	"Bintang #0" = -1
+	"Bulan #0" = -1
+	"Fath Muhammad #0" = 20
+	"Fatima #0" = 10
+	"Maulana Hasanudin #0" = 20
+	"Muhammad Sedo Ning Rana #0" = 20
+	"Nur ud-Din Ibrahim #0" = 20
+	"Rim #0" = -1
+	"Saleha #0" = -1
+	"Sari Banun #0" = -1
+	"Yusuf Pasaran #0" = 20
+}
+leader_names = {
+	"Adi"
+	"Aman"
+	"Bimo"
+	"Damar"
+	"Harjuno"
+	"Kresno"
+	"Puntodewo"
+	"Purnomo"
+	"Raharjo"
+	"Santoso"
+}
+ship_names = {
+	"Cilegon"
+	"Deli"
+	"Krakatau"
+	"Kujang"
+	"Lebak"
+	"Panaitan"
+	"Pandeglang"
+	"Panjang"
+	"Sabesi"
+	"Sangiang"
+	"Sebuku"
+	"Selat Sunda"
+	"Serang"
+	"Tangerang"
+	"Tinjal"
+	"Tundo"
+}

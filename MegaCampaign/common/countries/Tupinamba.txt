@@ -1,0 +1,68 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 157 209 192 }
+revolutionary_colors = { 9 6 5 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	inca_mountain_warfare
+	incan_axemen
+	incan_guerilla_warfare
+	incan_slingshots
+	reformed_westernized_incan
+	south_american_arquebusier
+	south_american_gunpowder_warfare
+	south_american_reformed_gunpowder_warfare
+	south_american_spearmen
+	south_american_warfare
+	westernized_incan
+}
+monarch_names = {
+	"Arah #0" = 10
+	"Arata #0" = 10
+	"Azelene #0" = -1
+	"Bartira #0" = -1
+	"Cunhambebe #0" = 30
+	"Guaibimpar0 #0" = -1
+	"Italo #0" = 10
+	"MONARCH_NAME_ARARIBOIA #0" = 10
+	"Maracaj0 #0" = 10
+	"Pirij0 #0" = 10
+	"Potira #0" = -1
+	"Ramalho #0" = 10
+	"Toru0 #0" = 10
+	"Yperoig #0" = 10
+}
+leader_names = {
+	"Aricobé"
+	"Caeté"
+	"Piratininga"
+	"Tabajara"
+	"Tamoio"
+	"Temiminó"
+	"Tupina"
+	"Tupinaé"
+}
+ship_names = {
+	"Bartira"
+	"Cacique"
+	"Guaibimpará"
+	"Italo"
+	"Kari'boka"
+	"Niterói"
+	"Piquerobi"
+	"Piratininga"
+	"Pirijá"
+	"Potira"
+	"Toruí"
+	"Ubatuba"
+	"Uruçumirim"
+}

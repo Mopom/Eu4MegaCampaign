@@ -1,0 +1,14 @@
+owner = OTO
+controller = OTO
+capital = "Acambaro"
+culture = otomi
+religion = nahuatl
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = OTO
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

@@ -1,0 +1,7 @@
+capital = "Zhakeikin"
+culture = dynamic-mongol-culture-num2
+religion = tengri_pagan
+trade_goods = iron
+base_tax = 1
+base_production = 1
+base_manpower = 2

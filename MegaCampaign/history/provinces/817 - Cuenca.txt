@@ -1,0 +1,14 @@
+owner = QTO
+controller = QTO
+capital = "Surampalli"
+is_city = yes
+culture = cara
+religion = inti
+trade_goods = wool
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = QTO
+discovered_by = QTO
+discovered_by = andean
+discovered_by = south_american

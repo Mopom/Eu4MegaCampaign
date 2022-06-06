@@ -1,0 +1,13 @@
+owner = KHM
+controller = KHM
+capital = "Oudong"
+is_city = yes
+culture = khmer
+religion = buddhism
+trade_goods = incense
+base_tax = 4
+base_production = 4
+base_manpower = 2
+add_core = KHM
+discovered_by = chinese
+discovered_by = indian

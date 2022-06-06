@@ -1,0 +1,108 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 59 51 29 }
+revolutionary_colors = { 6 5 6 }
+historical_idea_groups = {
+	quantity_ideas
+	aristocracy_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Alka #0" = 0
+	"Anand Kunwari #0" = -1
+	"Anup Singh #0" = 10
+	"Baba #0" = 0
+	"Bala Bai #0" = -1
+	"Bhai #0" = 0
+	"Bhatianiji #0" = -3
+	"Bhim #0" = 0
+	"Bijay Singh #0" = 10
+	"Bika #0" = 10
+	"Chhatra #0" = 0
+	"Dalpat Singh #0" = 10
+	"Dungar #0" = 0
+	"Gaj Singh #0" = 10
+	"Ganga #0" = 0
+	"Garib #0" = 0
+	"Jait Singh #0" = 10
+	"Jodha #0" = 0
+	"Karan Singh #0" = 10
+	"Kaylan Singh #0" = 10
+	"Lunkaranji #0" = 10
+	"Narendra #0" = 0
+	"Naroji Singh #0" = 10
+	"Pratap Singh #0" = 10
+	"Rahiba #0" = -1
+	"Rai Singh #0" = 10
+	"Sahiba #0" = -1
+	"Sardar #0" = 0
+	"Sarup Singh #0" = 10
+	"Sujan Singh #0" = 10
+	"Sur Singh #0" = 10
+	"Suraj #0" = 0
+	"Surat Singh #0" = 10
+	"Zorawar Singh #0" = 10
+}
+leader_names = {
+	"Beniwal"
+	"Bhadu"
+	"Bhati"
+	"Bhukar"
+	"Chahar"
+	"Godara"
+	"Jakhar"
+	"Johiya"
+	"Kaswan"
+	"Nehra"
+	"Punia"
+	"Rathore"
+	"Saharan"
+	"Sahu"
+	"Sangwan"
+	"Sihag"
+	"Singh"
+	"Tomara"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Marwar ka Nav"
+	"Merwar ka Nav"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

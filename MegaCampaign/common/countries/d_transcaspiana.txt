@@ -1,0 +1,16 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 194 27 27 }
+monarch_names = {
+	"Bukha #0" = 0
+	"Delbar #0" = -1
+	"Kaiqobad #1" = 10
+	"Khachigun #0" = 0
+	"Khojin #0" = -1
+	"Khulan #1" = -1
+	"Khutula #0" = 0
+	"Mursel #1" = 10
+	"Mustafa #1" = 10
+	"Okhotur #0" = 0
+	"Toghtoga #0" = 0
+}

@@ -1,0 +1,12 @@
+owner = TAK
+controller = TAK
+capital = "Ahuriri"
+is_city = yes
+culture = maori
+religion = animism
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = TAK
+discovered_by = polynesian_tech

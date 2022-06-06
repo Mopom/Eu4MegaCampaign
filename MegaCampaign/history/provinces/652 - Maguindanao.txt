@@ -1,0 +1,12 @@
+owner = MGD
+controller = MGD
+capital = "Maguindanao"
+is_city = yes
+culture = filipino
+religion = animism
+trade_goods = spices
+base_tax = 5
+base_production = 5
+base_manpower = 3
+add_core = MGD
+discovered_by = chinese

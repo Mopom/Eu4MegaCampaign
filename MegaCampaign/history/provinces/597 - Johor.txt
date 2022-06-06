@@ -1,0 +1,16 @@
+owner = MLC
+controller = MLC
+capital = "Johor"
+is_city = yes
+culture = malayan
+religion = sunni
+trade_goods = chinaware
+base_tax = 5
+base_production = 5
+base_manpower = 2
+add_core = JOH
+add_core = MLC
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

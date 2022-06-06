@@ -1,0 +1,100 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 91 83 203 }
+revolutionary_colors = { 6 13 6 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelmar #0" = 0
+	"Adolf #0" = 10
+	"Albrecht #0" = 20
+	"Anna #0" = -1
+	"Barnabas #0" = 0
+	"Denis #0" = 0
+	"Egon #0" = 0
+	"Elisabeth #0" = -1
+	"Erich #0" = 0
+	"Ernst #0" = 20
+	"Freidrich Wilhelm #0" = 10
+	"Friedrich #0" = 20
+	"Friedrich Ludwig #0" = 20
+	"Gerhard #0" = 0
+	"Gottlieb #0" = 0
+	"Gregor #0" = 0
+	"Hagan #0" = 0
+	"Helmut #0" = 0
+	"Isaak #0" = 0
+	"Isidor #0" = 0
+	"Ivo #0" = 0
+	"Joachim #0" = 0
+	"Johann #0" = 60
+	"Joseph #0" = 0
+	"Karl #0" = 10
+	"Karl August #0" = 15
+	"Karl Christian #0" = 15
+	"Kreszens #0" = 0
+	"Lothar #0" = 0
+	"Ludwig #0" = 40
+	"Oskar #0" = 0
+	"Philipp #2" = 40
+	"Siegfried #0" = 0
+	"Stefan #0" = 0
+	"Thomas #0" = 0
+	"Walrad #0" = 10
+	"Wenzel #0" = 0
+	"Werner #0" = 0
+	"Wilhelmine #0" = -1
+	"Wolfram #0" = 0
+}
+leader_names = {
+	"Hergenhahn"
+	"von Bieberstein"
+	"von Bock und Hemsdorf"
+	"von Dungern"
+	"von Gagern"
+	"von Idstein"
+	"von Usingen"
+	"von Walderdorff"
+	"von Weilburg"
+	"von Winzingerode"
+	"zu Sayn-Wittgeinstein"
+}
+ship_names = {
+	"Hanau"
+	"Idstein"
+	"Marburg"
+	"Ottweiler"
+	"Sonnenberg"
+	"Stirnberg"
+	"Usingen"
+	"Weilburg"
+	"Wetzlar"
+	"Wiesbaden"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

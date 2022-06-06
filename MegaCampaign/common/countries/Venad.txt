@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 134 166 117 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	spy_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Aditya Varma #0" = 40
+	"Bala Rama Varma #0" = 20
+	"Chera Udaya Varma #0" = 20
+	"Eman #0" = 0
+	"Ghauri Lakshmi Bai #0" = -10
+	"Gouri Laksmi Bai #0" = 20
+	"Gouri Parvati Bai #0" = 20
+	"Kallada #0" = 0
+	"Kodassery #0" = 0
+	"Koratty #0" = 0
+	"Kotha Aditya Varma #0" = 10
+	"Martanda Varma #0" = 20
+	"Marthanda #0" = 0
+	"Marthanda Varma #0" = 10
+	"Mootha #0" = 20
+	"Parvati Bai #0" = -1
+	"Rama Varma #0" = 40
+	"Raman #0" = 0
+	"Ramayyan #0" = 0
+	"Ravi #0" = 0
+	"Ravi Ravi Varma #0" = 10
+	"Ravi Varma #0" = 40
+	"Sri #0" = 0
+	"Sri Vira Kulasekhara #0" = 20
+	"Sri Vira Martanda Varma #0" = 20
+	"Sri Vira Ravi Varma #0" = 10
+	"Sri Vira Udaya Varma #0" = 10
+	"Sri Vira Varma #0" = 10
+	"Thiruvattar #0" = 0
+	"Udaya #0" = 0
+	"Udaya Martanda Varma #0" = 20
+	"Ummayama #0" = -10
+	"Ummayama Rani #0" = -10
+	"Unni #0" = 0
+	"Unni Varma #0" = 10
+}
+leader_names = {
+	"Kaimal"
+	"Kartha"
+	"Keyi"
+	"Kurup"
+	"Naduvazhi"
+	"Pandalai"
+	"Pillai"
+	"Thampi"
+	"Unnithan"
+	"Varma"
+	"Venadu Swaroopam"
+}
+ship_names = {
+	"Achankoil"
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Bharatapuzha"
+	"Chalakudy"
+	"Chaliyar"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Kadalundy"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Pamba"
+	"Parvati"
+	"Periyar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+	"Venbenad"
+}

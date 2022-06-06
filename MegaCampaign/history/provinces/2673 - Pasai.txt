@@ -1,0 +1,17 @@
+owner = PSA
+controller = PSA
+capital = "Pasai"
+is_city = yes
+culture = acehnese
+religion = sunni
+trade_goods = spices
+base_tax = 6
+base_production = 6
+base_manpower = 3
+extra_cost = 16
+center_of_trade = 2
+add_core = PSA
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

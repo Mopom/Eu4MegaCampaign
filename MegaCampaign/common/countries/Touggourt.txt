@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 90 140 190 }
+revolutionary_colors = { 5 9 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	naval_ideas
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abdallah #0" = 0
+	"Abdelaziz #0" = 10
+	"Abderrahmane #0" = 10
+	"Abdesselem #0" = 10
+	"Abdesslam #0" = 0
+	"Ahmed #0" = 10
+	"Ahmed Amokrane #0" = 10
+	"Aisha  #0" = -10
+	"Azis #0" = 0
+	"Ben Bouzid #0" = 30
+	"Boumezrag #0" = 0
+	"Mohammed #0" = 0
+	"Mohand #0" = 0
+	"Si Betka #0" = 10
+	"Sidi Ahmed #0" = 20
+	"Sidi El Naceur #0" = 10
+	"Tabassum #0" = -1
+	"Werdja #0" = -1
+	"Zahir #0" = 0
+}
+leader_names = {
+	"Asim"
+	"Asker"
+	"Emin"
+	"Halid"
+	"Izzet"
+	"Nazhar"
+	"Nedim"
+	"Negib"
+	"Nuri"
+	"Reis"
+}
+ship_names = {
+	"Akhir"
+	"Awwal"
+	"Ba'ith"
+	"Barr"
+	"Batin"
+	"Hamid"
+	"Haqq"
+	"Hayy"
+	"Majid"
+	"Matin"
+	"Mu'akhkhir"
+	"Mu'id"
+	"Mubdi"
+	"Muhsi"
+	"Muhyi"
+	"Mumit"
+	"Muqaddim"
+	"Muqtadir"
+	"Muta'al"
+	"Qadir"
+	"Qawiyy"
+	"Qayyum"
+	"Samad"
+	"Shahid"
+	"Wahid"
+	"Wajed"
+	"Wakil"
+	"Wali"
+	"Waliyy"
+	"Zahir"
+}

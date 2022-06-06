@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 212 84 55 }
+revolutionary_colors = { 2 10 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ajoji  #0" = 0
+	"Aliaji  #0" = 0
+	"Amarji #1" = 10
+	"Baijilal Shobha #0" = -1
+	"Bairajba #0" = -1
+	"Bhanaji  #0" = 0
+	"Bharmalji  #0" = 0
+	"Bhenji #0" = 10
+	"Dudoji  #0" = 0
+	"Ghodaji  #0" = 0
+	"Hamirji #0" = 10
+	"Hardholji Lakhaji #0" = 10
+	"Jasaji Lakhaji #0" = 10
+	"Jasaji Sataji #0" = 10
+	"Kumar  #0" = 0
+	"Lakhaji #1" = 20
+	"Lakhaji Ajoji #0" = 10
+	"Panchanji  #0" = 0
+	"Rajsinhji #0" = 20
+	"Ramsinhji  #0" = 0
+	"Ranmalji Lakhaji #0" = 10
+	"Ravalj Lakhaji #0" = 10
+	"Rayadhanji  #0" = 0
+	"Sajuba #0" = -1
+	"Sataji Lakhaji #0" = 10
+	"Sataji Vibhaji #0" = 10
+	"Shri  #0" = 0
+	"Tamachi  #0" = 0
+	"Tamachi Hardholji #0" = 10
+	"Tamachi Rajsinhji #0" = 10
+	"Vibhaji  #0" = 0
+	"Vibhaji Ravalji #0" = 10
+}
+leader_names = {
+	"Bhati"
+	"Chavda"
+	"Jadeja"
+	"Jethwa"
+	"Mehar"
+	"Mulraj"
+	"Paramara"
+	"Pargir"
+	"Pratap"
+	"Rathore"
+	"Saran"
+	"Sarvaiya"
+	"Savji"
+	"Shah"
+	"Singh"
+	"Sisodiya"
+	"Solanki"
+	"Soomrah"
+	"Vaghela"
+	"Valas"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

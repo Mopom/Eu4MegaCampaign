@@ -1,0 +1,17 @@
+owner = AZT
+controller = AZT
+capital = "Tenochtitlan"
+is_city = yes
+culture = aztek
+religion = nahuatl
+trade_goods = gold
+fort_15th = yes
+base_tax = 7
+base_production = 7
+base_manpower = 2
+extra_cost = 8
+center_of_trade = 1
+add_core = AZT
+discovered_by = AZT
+discovered_by = MAY
+discovered_by = ZAP

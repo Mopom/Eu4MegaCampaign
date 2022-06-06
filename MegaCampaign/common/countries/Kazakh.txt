@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 202 217 170 }
+revolutionary_colors = { 14 8 14 }
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abilghazi #0" = 10
+	"Abilmambet #0" = 10
+	"Abulay #0" = 10
+	"Abulkhayr #0" = 10
+	"Ahmat #0" = 10
+	"Aisha #0" = -1
+	"Arunghazi #0" = 10
+	"Ayshwak #0" = 10
+	"Barak #0" = 20
+	"Batir #0" = 20
+	"Bokey #0" = 10
+	"Bulat #0" = 10
+	"Burunduq #0" = 10
+	"Buydash #0" = 10
+	"Erali #0" = 10
+	"Esim #0" = 20
+	"Ghubaydulla #0" = 10
+	"Haqnazar #0" = 10
+	"Hayfa #0" = -1
+	"Jangir #0" = 20
+	"Janibek #0" = 20
+	"Jantore #0" = 10
+	"Jarmuhambet #0" = 10
+	"Jolbaris #0" = 10
+	"Kenesari #0" = 10
+	"Kerey #0" = 10
+	"Mamash #0" = 10
+	"Nigar  #0" = -1
+	"Nurali #0" = 10
+	"Qaratay #0" = 10
+	"Qasim #0" = 10
+	"Qayip #0" = 10
+	"Sameke #0" = 10
+	"Sherghazi #0" = 10
+	"Shighay #0" = 20
+	"Tahir #0" = 10
+	"Tauke #0" = 10
+	"Tawekel #0" = 10
+	"Tugum #0" = 10
+	"Wali #0" = 10
+	"Zuhra  #0" = -1
+}
+leader_names = {
+	"Batu Arslan"
+	"Bora Unegen"
+	"Burilgijin"
+	"Chagan Chinua"
+	"Cherenqai"
+	"Kokechar"
+	"Mongke Cheren"
+	"Qutughgge"
+	"Suren Gal"
+	"Tegus-tu"
+	"Temurgene"
+	"Toluichu"
+	"Yekedai"
+}
+ship_names = {
+	"Cu"
+	"Emba"
+	"Ili"
+	"Irtys"
+	"Isim"
+	"Kisi Jüz"
+	"Nura"
+	"Orta Jüz"
+	"Qoja"
+	"Syrdarja"
+	"Turgay"
+	"Tölengit"
+	"Töre"
+	"Uil"
+	"Uli Jüz"
+}

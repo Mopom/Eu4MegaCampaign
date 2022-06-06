@@ -1,0 +1,158 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 80 10 165 }
+revolutionary_colors = { 0 5 1 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"'Abd al-Jal0l #0" = 20
+	"'Abd al-Jal0l Sh0h #0" = 10
+	"'Abd al-Mubin #0" = 20
+	"'Abd al-Qahhar #0" = 20
+	"'Abd ar-Rahm0n Sh0h #0" = 10
+	"'Al0 Mug0yat #0" = 20
+	"'Umniya #0" = -1
+	"Abu Syahid #0" = 10
+	"Ahmad #0" = 20
+	"Aisha #0" = -1
+	"Al0' ad-D0n #0" = 20
+	"Azura #0" = -1
+	"Bulkiah #0" = 20
+	"Gadzabadi #0" = 20
+	"Hafeeza #0" = -1
+	"Hasan #0" = 20
+	"Husayn 'Al0 Ri'0yat #0" = 20
+	"Ibr0h0m Sh0h #0" = 10
+	"Inayat #0" = 20
+	"Iskandar Tan0 #0" = 20
+	"Kam0l ad-D0n #0" = 20
+	"Ma'ayat Sh0h #0" = 10
+	"Mahm0d Ri'0yat Sh0h #0" = 10
+	"Mahm0d Sh0h #0" = 10
+	"Mans0r Sh0h #0" = 10
+	"Megat Iskander #0" = 10
+	"Mengtsekya #0" = 20
+	"Menradza #0" = 20
+	"Mu'azzam Sh0h #0" = 10
+	"Muhammad #0" = 20
+	"Muhammad 'Al0 #0" = 20
+	"Muhammad Jam0l ad-D0n #0" = 20
+	"Muhammad Sh0h #0" = 10
+	"Muhammad T0j ad-D0n #0" = 20
+	"Muhy0 ad-D0n #0" = 20
+	"Muzaffar Sh0h #0" = 10
+	"Nasr ad-D0n #0" = 20
+	"Paramesvara #0" = 10
+	"Rahmat Sh0h #0" = 10
+	"Rajah Qasim #0" = 10
+	"Riayat Shah #0" = 10
+	"Sam Agi #0" = 10
+	"Sayf ad-D0n #0" = 20
+	"Sayf ar-Rijal #0" = 20
+	"Sulaym0n #0" = 20
+	"Sulaym0n Badr Sh0h #0" = 10
+	"Tsalenggathu #0" = 20
+	"Tsau-Lha #0" = 20
+}
+leader_names = {
+	"Abdulfatah"
+	"Ahmad"
+	"Amir"
+	"Anwar"
+	"Azmi"
+	"Batuta"
+	"Chairul"
+	"Hamzah"
+	"Hasanuddin"
+	"Ibnu"
+	"Kyai"
+	"Mahat"
+	"Mukhtar"
+	"Najamuddin"
+	"Natzar"
+	"Nazmizan"
+	"Roem"
+	"Syarifuddin"
+	"Zulkifli"
+}
+ship_names = {
+	"Alas"
+	"Bangar"
+	"Batang"
+	"Batang Baram"
+	"Batu Danau"
+	"Bendahara"
+	"Gunung Peuetsagoe"
+	"Hukum Kanun"
+	"Jamboaye"
+	"Kepulauan"
+	"Kepulauan Riau"
+	"Kuala Baram"
+	"Kuala Belait"
+	"Kuala Medamit"
+	"Labi"
+	"Laksamana"
+	"Lumut"
+	"Lungai Limbang"
+	"Malik Al-Salih"
+	"Malik ul Salih"
+	"Parameswara"
+	"Peg Pusat"
+	"Peg Serbeulangit"
+	"Penanjong"
+	"Penghulu bendahari"
+	"Peusangen"
+	"Pulau Aur"
+	"Pulau Bakung"
+	"Pulau Bengkaus"
+	"Pulau Breueh"
+	"Pulau Kundur"
+	"Pulau Lingga"
+	"Pulau Padang"
+	"Pulau Rangsang"
+	"Pulau Rempang"
+	"Pulau Rupat"
+	"Pulau Sibu"
+	"Pulau Singkep"
+	"Pulau Tebing Tinggi"
+	"Pulau Tinggi"
+	"Pulau Tioman"
+	"Pulau we"
+	"Samandara"
+	"Shahbandar"
+	"Siak"
+	"Simpang-kiri"
+	"Sukang"
+	"Sultan Iskandar"
+	"Sungai Bakong"
+	"Sungai Belait"
+	"Sungai Pandaruan"
+	"Sungai Tembureng"
+	"Sungai Tinjar"
+	"Sungai Tutoh"
+	"Sungai Tutong"
+	"Telingan"
+	"Temenggung"
+	"Teunom"
+	"Tripa"
+	"Trusan"
+	"Undang-Undang"
+}

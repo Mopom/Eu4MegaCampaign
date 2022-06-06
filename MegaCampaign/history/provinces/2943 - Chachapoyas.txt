@@ -1,0 +1,15 @@
+owner = CYA
+controller = CYA
+capital = "Kuelap"
+is_city = yes
+culture = chachapoyan
+religion = inti
+trade_goods = grain
+fort_15th = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = CYA
+discovered_by = CHM
+discovered_by = andean
+discovered_by = south_american

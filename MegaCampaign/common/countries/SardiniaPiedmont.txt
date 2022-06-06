@@ -1,0 +1,199 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 97 209 251 }
+revolutionary_colors = { 0 5 13 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adriano #0" = 10
+	"Agostino #0" = 0
+	"Aimone #0" = 10
+	"Alba #0" = -1
+	"Amedeo #9" = 10
+	"Andrea #0" = 0
+	"Antonio #0" = 15
+	"Arsenio #0" = 0
+	"Assolone #0" = 10
+	"Benedetto #0" = 10
+	"Bernardo #0" = 15
+	"Bonaventura #0" = 0
+	"Brunella #0" = -1
+	"Carlo #3" = 10
+	"Carlo Emanuele #2" = 20
+	"Carlo Felice #0" = 20
+	"Carlo Giovanni #0" = 10
+	"Cesare #0" = 0
+	"Cosimo #0" = 0
+	"Costanzo #0" = 0
+	"Dario #0" = 0
+	"Davide #0" = 0
+	"Edmondo #0" = 0
+	"Emanuele #0" = 10
+	"Emanuele Filiberto #1" = 10
+	"Enzo #0" = 0
+	"Filiberto #0" = 40
+	"Filippo #1" = 20
+	"Filippo Emanuel #0" = 15
+	"Francesco #0" = 10
+	"Francesco Giacinto #0" = 20
+	"Franco #0" = 0
+	"Gaspare #0" = 0
+	"Gennaro #0" = 0
+	"Giacomo #0" = 10
+	"Giacomo Ludovico #0" = 15
+	"Gian Claudio #0" = 10
+	"Gian Maria #0" = 10
+	"Giano #0" = 10
+	"Giovanni Amedeo #0" = 10
+	"Giovanni Ludovico #0" = 10
+	"Girolamo #0" = 10
+	"Giulio #0" = 0
+	"Giuseppe #0" = 10
+	"Ilario #0" = 0
+	"Jacopo #0" = 0
+	"Janus #0" = 10
+	"Lauretta #0" = -1
+	"Lazzaro #0" = 0
+	"Lorenzo #0" = 0
+	"Luciano #0" = 0
+	"Ludovico #0" = 20
+	"Martino #0" = 0
+	"Maurizio #0" = 10
+	"Nestore #0" = 0
+	"Patrizio #0" = 0
+	"Pietro #2" = 10
+	"Roberto #0" = 0
+	"Santo #0" = 0
+	"Sebastiano #0" = 0
+	"Simone #0" = 0
+	"Tomasso #2" = 10
+	"Ugo #0" = 0
+	"Umberto #3" = 5
+	"Vittorio #0" = 0
+	"Vittorio Amedeo #1" = 40
+}
+leader_names = {
+	"Alfieri"
+	"Arborio Mella"
+	"Asinari"
+	"Balbo"
+	"Benso"
+	"Boncompagni Ludovisi"
+	"Borromeo"
+	"Bosco"
+	"Botta"
+	"Broglia"
+	"Cacherano"
+	"Cafasso"
+	"Carignano"
+	"Casati"
+	"Chiodo"
+	"Cisa Asinari"
+	"Cottolengo"
+	"Delitalia"
+	"Doria di Cirié"
+	"Facchinetti de Nuce"
+	"Ferrero-Fiesco"
+	"Gaetani dell'Aquila"
+	"Galletti"
+	"Gioberti"
+	"Homo dei Moura"
+	"Lascaris"
+	"Ludovisi"
+	"Luserna Campiglione"
+	"Micca"
+	"Ossorio"
+	"Pallavicini"
+	"Pignatelli"
+	"Solaro"
+	"Taparelli"
+	"Tassoni"
+	"Trivulzio"
+	"Vico"
+	"d'Acaja"
+	"d'Appiani d'Aragona"
+	"d'Attalaya"
+	"d'Incisa"
+	"d'Ottaiano"
+	"de Bette"
+	"de Maretta"
+	"de Tutavila"
+	"del Carreto"
+	"del Marco"
+	"del Vasto"
+	"della Torre"
+	"di Busca"
+	"di Cardé"
+	"di Cavour"
+	"di Challant"
+	"di Luserna"
+	"di Paesana"
+	"di Savoia"
+}
+ship_names = {
+	"Aguila"
+	"Alceste"
+	"Aurora"
+	"Azzardoso"
+	"Beata Margherita"
+	"Bella Genovese"
+	"Beroldo"
+	"Capitana"
+	"Carlo"
+	"Carloforte"
+	"Colombo"
+	"Commerce di Genova"
+	"Cristina"
+	"Daino"
+	"Diana"
+	"Eridano"
+	"Euridice"
+	"Falco"
+	"Felice"
+	"Generoso"
+	"Haute Combe"
+	"Maria Teresa"
+	"Neireide"
+	"Patrona"
+	"Prima"
+	"Regina"
+	"Rondinella"
+	"San Carlo"
+	"San Michele"
+	"San Vittore"
+	"San Vittorio"
+	"Santa Anna"
+	"Santa Barbara"
+	"Santa Teresa"
+	"Staffetta"
+	"Tirsi"
+	"Tritone"
+	"Veloce"
+	"Vigilante"
+	"Vittorio Emanuele"
+	"Zeffiro"
+}

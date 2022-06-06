@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 195 149 155 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Albert #0" = 0
+	"Aleksy #0" = 0
+	"Anatola #0" = -1
+	"Andrzej #0" = 0
+	"Bartlomiej #0" = 0
+	"Bogumil #0" = 0
+	"Boleslaw #3" = 20
+	"Bronislaw #0" = 0
+	"Dawid #0" = 0
+	"Dominik #0" = 0
+	"Emil #0" = 0
+	"Eugeniusz #0" = 0
+	"Ferdynand #0" = 0
+	"Grzegorz #0" = 0
+	"Gustaw #0" = 0
+	"Igor #0" = 0
+	"Iwan #0" = 0
+	"Jadzia #0" = -1
+	"Janusz #0" = 40
+	"Kazimierz #2" = 15
+	"Konrad #2" = 20
+	"Konstanty #0" = 0
+	"Krystian #0" = 0
+	"Lech #0" = 0
+	"Lucjusz #0" = 0
+	"Ludwik #0" = 0
+	"Lukasz #0" = 0
+	"Maksym #0" = 0
+	"Mariusz #0" = 0
+	"Michalina #0" = -1
+	"Mieszko #0" = 0
+	"Miroslaw #0" = 0
+	"Oskar #0" = 0
+	"Patryk #0" = 0
+	"Radoslaw #0" = 0
+	"Rafal #0" = 0
+	"Stanislaw #0" = 20
+	"Sylwester #0" = 0
+	"Szymon #0" = 0
+	"Trojden #2" = 10
+	"Wiktor #0" = 0
+	"Ziemowit #6" = 10
+	"Zygfryd #0" = 0
+}
+leader_names = {
+	"Jagiellon"
+	"Kedzierzawy"
+	"Leszczynski"
+	"Lubomirski"
+	"Piast"
+	"Poniatowski"
+	"Premyslid"
+	"Radziwill"
+	"Sapieha"
+	"Wisniowiecki"
+}
+ship_names = {
+	"Biebrza"
+	"Bug"
+	"Bzura"
+	"Kolno"
+	"Liwiec"
+	"Lowicz"
+	"Mlawa"
+	"Narew"
+	"Pilica"
+	"Radomka"
+	"Warszawa"
+	"Wisla"
+	"Wizna"
+	"Wkra"
+}

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = al_iraqiya_arabic
+capital = 410
+religious_school = jafari_school

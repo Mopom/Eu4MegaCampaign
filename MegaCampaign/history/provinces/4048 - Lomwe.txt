@@ -1,0 +1,12 @@
+owner = MRA
+controller = MRA
+capital = "Lomwe"
+is_city = yes
+culture = makua
+religion = shamanism
+trade_goods = ivory
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = MRA
+discovered_by = central_african

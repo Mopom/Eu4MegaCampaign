@@ -1,0 +1,13 @@
+owner = SOL
+controller = SOL
+capital = "Hinggan"
+is_city = yes
+culture = evenk
+religion = tengri_pagan
+trade_goods = fur
+base_tax = 2
+base_production = 2
+base_manpower = 3
+add_core = SOL
+discovered_by = chinese
+discovered_by = nomad_group

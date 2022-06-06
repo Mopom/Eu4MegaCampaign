@@ -1,0 +1,76 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 151 106 191 }
+monarch_names = {
+	"Annie #0" = -1
+	"Arion #0" = 1
+	"Blaze #0" = 1
+	"Buttermilk #0" = -1
+	"Carlos #0" = 1
+	"Charisma #0" = -1
+	"Chief #0" = 1
+	"Denise #0" = -1
+	"Dreamer #0" = 1
+	"Duke #0" = 1
+	"Epona #0" = -1
+	"Honey #0" = -1
+	"Lady #0" = -1
+	"Lucky #0" = 1
+	"Midnight #0" = 1
+	"Misty #0" = -1
+	"Rain #0" = 1
+	"Rainbow #0" = -1
+	"Silhouette #0" = -1
+	"Spirit #0" = 1
+	"Spot #0" = 1
+	"Star #0" = 1
+	"Stormy #0" = 1
+	"Traveler #0" = 1
+	"Triumph #0" = 1
+	"Twilight #0" = 1
+	"Willow #0" = -1
+}
+leader_names = {
+	"Annie"
+	"Arion"
+	"Blaze"
+	"Buttermilk"
+	"Carlos"
+	"Charisma"
+	"Chief"
+	"Clever Hans"
+	"Denise"
+	"Dreamer"
+	"Duke"
+	"Epona"
+	"Honey"
+	"Lady"
+	"Lady Wonder"
+	"Lucky"
+	"Midnight"
+	"Misty"
+	"Rain"
+	"Rainbow"
+	"Silhouette"
+	"Spirit"
+	"Spot"
+	"Star"
+	"Stormy"
+	"Traveler"
+	"Triumph"
+	"Twilight"
+	"Willow"
+}
+ship_names = {
+	"Cloverfield"
+	"Courage"
+	"Hippocampus"
+	"Rainbow"
+	"Seahorse"
+	"Silverhaven"
+	"Swiftness"
+	"Traveler"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

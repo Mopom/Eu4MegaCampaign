@@ -1,0 +1,14 @@
+owner = MYA
+controller = MYA
+capital = "Mong Yang"
+is_city = yes
+culture = shan
+religion = buddhism
+trade_goods = copper
+fort_15th = yes
+base_tax = 3
+base_production = 3
+base_manpower = 3
+add_core = MYA
+discovered_by = chinese
+discovered_by = indian

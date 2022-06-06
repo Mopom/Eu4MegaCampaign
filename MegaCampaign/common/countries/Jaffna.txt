@@ -1,0 +1,86 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 237 139 0 }
+revolutionary_colors = { 6 0 6 }
+historical_idea_groups = {
+	quantity_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ariyanatha #0" = 0
+	"Cankili #0" = 30
+	"Chanda #0" = 0
+	"Ethirimana #0" = 10
+	"Kanakasooriya Cinkaiariyan #0" = 10
+	"Kasi #0" = 10
+	"Mangathammal #0" = -1
+	"Paravai #0" = -1
+	"Periyapillai #0" = 10
+	"Puviraja #0" = 10
+	"Raghunatha #0" = 0
+	"Ramaswami #0" = 0
+	"Ramayyan #0" = 0
+	"Seshayya #0" = 0
+	"Shungrasoobyer #0" = 0
+	"Singai #0" = 10
+	"Singai Pararasasegaram #0" = 10
+	"Velunatchiyar #0" = -1
+	"Yachama #0" = 0
+}
+leader_names = {
+	"Chetty"
+	"Dalawa"
+	"Mudaliar"
+	"Nayak"
+	"Rajapopalachari"
+	"Saluva"
+	"Saraf"
+	"Sastri"
+	"Senji"
+	"Thondaiman"
+}
+ship_names = {
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Kaveri"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Palar"
+	"Parvati"
+	"Pennar"
+	"Ponnaiyar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+	"Vaigai"
+}

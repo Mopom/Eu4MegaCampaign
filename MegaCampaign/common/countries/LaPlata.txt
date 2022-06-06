@@ -1,0 +1,138 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 101 102 163 }
+revolutionary_colors = { 14 0 14 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	administrative_ideas
+	spy_ideas
+	quality_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adri0n #0" = 0
+	"Alfonso #0" = 0
+	"Antonio #0" = 15
+	"Benigno #0" = 0
+	"Bernardino #0" = 0
+	"Camilo #0" = 0
+	"Carlos #0" = 0
+	"Carlos Mar0a #0" = 10
+	"Cornelio #0" = 10
+	"Desiderio #0" = 0
+	"Diego #0" = 0
+	"Domingo #0" = 10
+	"Eduardo #0" = 0
+	"Emilio #0" = 0
+	"Eva #0" = -1
+	"Federico #0" = 0
+	"Feliciano Antonio #0" = 15
+	"Germ0n #0" = 0
+	"Gervasio Antonio #0" = 15
+	"Gloria #0" = -1
+	"Ignacio #0" = 10
+	"Ismael #0" = 0
+	"Joaqu0n #0" = 0
+	"Jos0 #0" = 20
+	"Juan #0" = 20
+	"Luc0a #0" = -1
+	"Luis #0" = 0
+	"MONARCH_NAME_HIPOLITO #0" = 0
+	"MONARCH_NAME_TEOFILO #0" = 0
+	"Manuel #0" = 10
+	"Marcelino #0" = 0
+	"Mart0n #0" = 0
+	"Mat0as #0" = 15
+	"Nicol0s #0" = 20
+	"Ovidio #0" = 0
+	"Porfirio #0" = 0
+	"Rufino #0" = 0
+	"Sergio #0" = 0
+	"Urbano #0" = 0
+	"Vicente #0" = 0
+	"V0ctor #0" = 0
+}
+leader_names = {
+	"Alberti"
+	"Artigas"
+	"Azcuenaga"
+	"Balcarce"
+	"Bazán"
+	"Belgrano"
+	"Brown"
+	"Bustos"
+	"Cabral"
+	"Castro"
+	"Chiclana"
+	"Costa"
+	"Derqui"
+	"Dorrego"
+	"González"
+	"Goyeneche"
+	"Guazurary"
+	"Heredia"
+	"Jonte"
+	"Kaunitz de Holmberg"
+	"Larrea"
+	"López"
+	"Mansilla"
+	"Matheu"
+	"Monteagudo"
+	"Moreno"
+	"Paso"
+	"Paz"
+	"Peña"
+	"Planes"
+	"Posadas"
+	"Pérez"
+	"Ramírez"
+	"Riglos"
+	"Robinson"
+	"Rodríguez"
+	"Rondeau"
+	"Saavedra"
+	"Sarratea"
+	"Sáenz"
+	"Urquiza"
+	"Warnes"
+	"de Alvear"
+	"de Güemes"
+	"de Laprida"
+	"de Pueyrredón"
+	"de Rosas"
+	"de San Martín"
+	"de las Heras"
+	"Álvarez"
+}
+ship_names = {
+	"Buenos Aries"
+	"Diego Armando Maradona"
+	"El Plata"
+	"General Belgrano"
+	"Independencia"
+	"Libertad"
+	"Los Andes"
+	"Moreno"
+	"Patagonia"
+	"Rivalda"
+}
+colonial_parent = SPA

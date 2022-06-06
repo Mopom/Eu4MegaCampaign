@@ -1,0 +1,427 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 173 22 27 }
+revolutionary_colors = { 13 0 16 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+	economic_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	chevauchee
+	french_caracolle
+	french_dragoon
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+}
+monarch_names = {
+	"Albert #0" = 0
+	"Alexandro #0" = 0
+	"Almaron #0" = 0
+	"Ambrosio #0" = 0
+	"Amos #0" = 0
+	"Andrew #0" = 15
+	"Anne #0" = -1
+	"Anselmo #0" = 0
+	"Anson #0" = 10
+	"Antonio #0" = 0
+	"Asa #0" = 0
+	"Benjamin #0" = 0
+	"Brigido #0" = 0
+	"Burke #0" = 0
+	"Byrd #0" = 0
+	"Cesario #0" = 0
+	"Charles #0" = 0
+	"Christopher #0" = 0
+	"Claiborne #0" = 0
+	"Cleveland #0" = 0
+	"Conrad #0" = 0
+	"Damacio #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 20
+	"Deborah #0" = -1
+	"Dolphin #0" = 0
+	"Ebenezer #0" = 10
+	"Eduardo #0" = 0
+	"Edwin #0" = 0
+	"Eliel #0" = 0
+	"Francis #0" = 0
+	"Frederick #0" = 0
+	"Freeman #0" = 0
+	"Galba #0" = 0
+	"George #0" = 0
+	"Gerald #0" = 0
+	"Gordon #0" = 0
+	"Green #0" = 0
+	"Guadalupe #0" = 0
+	"Henry #0" = 0
+	"Hiram #0" = 0
+	"Horace #0" = 0
+	"Ignacio #0" = 0
+	"Isaac #0" = 0
+	"Jackson #0" = 0
+	"Jacob #0" = 0
+	"James #0" = 25
+	"Jesse #0" = 0
+	"John #0" = 0
+	"Jonathan #0" = 0
+	"Joseph #0" = 15
+	"Joshua #0" = 0
+	"Jos0 #0" = 0
+	"Launcelot #0" = 0
+	"Laura #0" = -1
+	"Lemuel #0" = 0
+	"Lucio #0" = 0
+	"Manson #0" = 0
+	"Manuel #0" = 0
+	"Marciela #0" = -1
+	"Marcus #0" = 0
+	"Matias #0" = 0
+	"Mial #0" = 0
+	"Micajah #0" = 0
+	"Miles #0" = 0
+	"Mirabeau #0" = 10
+	"Patrick #0" = 0
+	"Pedro #0" = 0
+	"Perla #0" = -1
+	"Peter #0" = 0
+	"Prospect #0" = 0
+	"Richard #0" = 0
+	"Richardson #0" = 0
+	"Robert #0" = 0
+	"Ross #0" = 0
+	"Salvador #0" = 0
+	"Samuel #0" = 20
+	"Sarah #0" = -1
+	"Seldon #0" = 0
+	"Simon #0" = 0
+	"Squire #0" = 0
+	"Stephen #0" = 25
+	"Tapley #0" = 0
+	"Toribio #0" = 0
+	"Vicente #0" = 0
+	"William #0" = 0
+}
+leader_names = {
+	"Allen"
+	"Alsbury"
+	"Amabillo"
+	"Andrews"
+	"Andross"
+	"Arocha"
+	"Arreola"
+	"Autry"
+	"Badgett"
+	"Badillo"
+	"Bailey"
+	"Baker"
+	"Ballard"
+	"Ballentine"
+	"Barcena"
+	"Bastain"
+	"Baugh"
+	"Bayliss"
+	"Baylor"
+	"Bergara"
+	"Blair"
+	"Blazeby"
+	"Bonham"
+	"Bourne"
+	"Bowie"
+	"Bowman"
+	"Brown"
+	"Buchanan"
+	"Burns"
+	"Butler"
+	"Cain"
+	"Campbell"
+	"Carey"
+	"Carmona"
+	"Clark"
+	"Cloud"
+	"Cochran"
+	"Cottle"
+	"Courtman"
+	"Crawford"
+	"Crockett"
+	"Crossman"
+	"Cruz"
+	"Cummings"
+	"Cunningham"
+	"Curvier"
+	"Darst"
+	"Davis"
+	"Day"
+	"Daymon"
+	"De la Garza"
+	"DeSauque"
+	"Dearduff"
+	"Debichi"
+	"Dennison"
+	"Despallier"
+	"Dewall"
+	"Dickinson"
+	"Dickson"
+	"Dillard"
+	"Dimmitt"
+	"Dimpkins"
+	"Duvalt"
+	"Edwards"
+	"Eigenauer"
+	"Elliott"
+	"Elm"
+	"Enriques"
+	"Espalier"
+	"Esparza"
+	"Evans"
+	"Ewing"
+	"Fauntleroy"
+	"Fishbaugh"
+	"Flanders"
+	"Flores"
+	"Floyd"
+	"Forsyth"
+	"Fuentes"
+	"Fuqua"
+	"Garnett"
+	"Garrand"
+	"Garrett"
+	"Garvin"
+	"Gaston"
+	"Gibson"
+	"Goodrich"
+	"Gray"
+	"Green"
+	"Grimes"
+	"Guerrero"
+	"Gurrea"
+	"Gwin"
+	"Harris"
+	"Harrison"
+	"Hawkins"
+	"Hays"
+	"Heiskell"
+	"Herndon"
+	"Herrera"
+	"Hersee"
+	"Highsmith"
+	"Holland"
+	"Holloway"
+	"Howell"
+	"Hunter"
+	"Hutchinson"
+	"Irwin"
+	"Jackson"
+	"Jameson"
+	"Jennings"
+	"Jiménez"
+	"Johnson"
+	"Jones"
+	"Kenny"
+	"Kent"
+	"Kerr"
+	"Kimble"
+	"Kin"
+	"King"
+	"Lewis"
+	"Lightfoot"
+	"Lindley"
+	"Linn"
+	"Lockhart"
+	"Losoya"
+	"Main"
+	"Malone"
+	"Marshall"
+	"Martin"
+	"Maverick"
+	"McCafferty"
+	"McClelland"
+	"McCoy"
+	"McDowell"
+	"McGee"
+	"McGregor"
+	"McKinney"
+	"McNeilly"
+	"Melton"
+	"Menchaca"
+	"Miller"
+	"Mills"
+	"Millsaps"
+	"Mitchasson"
+	"Mitchell"
+	"Moore"
+	"Morgan"
+	"Morman"
+	"Morrison"
+	"Musselman"
+	"Nash"
+	"Nava"
+	"Navan"
+	"Neggan"
+	"Nelson"
+	"Nobles"
+	"Northcross"
+	"Nowlan"
+	"O'Neill"
+	"Olamio"
+	"Oury"
+	"Pacheco"
+	"Pagan"
+	"Parker"
+	"Parks"
+	"Patton"
+	"Perry"
+	"Petrasweiz"
+	"Pollard"
+	"Ramirez"
+	"Rawson"
+	"Reynolds"
+	"Robertson"
+	"Robertys"
+	"Rodriguez"
+	"Rose"
+	"Roth"
+	"Rusk"
+	"Rutherford"
+	"Ryan"
+	"Sanders"
+	"Scurlock"
+	"Seguín"
+	"Sewell"
+	"Shied"
+	"Simmons"
+	"Smith"
+	"Sowell"
+	"Spratt"
+	"Starr"
+	"Stewart"
+	"Stockton"
+	"Summerlin"
+	"Summers"
+	"Sutherland"
+	"Taylor"
+	"Thomas"
+	"Thompson"
+	"Thurston"
+	"Trammel"
+	"Travis"
+	"Tumlinson"
+	"Tylee"
+	"Walker"
+	"Ward"
+	"Warnell"
+	"Washington"
+	"Waters"
+	"Wells"
+	"White"
+	"Williamson"
+	"Wills"
+	"Wilson"
+	"Wolf"
+	"Wright"
+	"Zanco"
+	"Zepeda"
+}
+ship_names = {
+	"Anderson"
+	"Apalacheola"
+	"Appleton"
+	"Aransas"
+	"Archer"
+	"Asp"
+	"Austin"
+	"Beaumont"
+	"Black Horse"
+	"Brashear"
+	"Brazos"
+	"Bryant"
+	"Charleston"
+	"Charlotte"
+	"Clark"
+	"Cochrane"
+	"Colorado"
+	"Crisp"
+	"Cruz de Honor"
+	"Doloritas"
+	"Dos Amigos"
+	"Eagle"
+	"Felix"
+	"Galveston"
+	"Gibbons"
+	"Glenn"
+	"Glide"
+	"Goliad"
+	"Goodall"
+	"Gordon"
+	"Gray"
+	"Greenhorn"
+	"Haveslin"
+	"Hinton"
+	"Hondo"
+	"Hornet"
+	"Horseback"
+	"Independencia"
+	"Iron Jacket"
+	"Justice"
+	"Kennedy"
+	"Kiowa"
+	"Liberty"
+	"Lone Star"
+	"Longhorn"
+	"Lothrop"
+	"Louisville"
+	"Moore"
+	"Morgan"
+	"Navasota"
+	"Neches"
+	"Nocona"
+	"Nueces"
+	"O'Shaunessy"
+	"Oliver"
+	"Peacock"
+	"Pecos"
+	"Pedernales"
+	"Popinjay"
+	"Postell"
+	"Progreso"
+	"Quanah"
+	"Ranger"
+	"Regenerador"
+	"Rio Grande"
+	"Rosa Alvina"
+	"San Antonio"
+	"San Bernard"
+	"San Jacinto"
+	"Scorpion"
+	"Seegar"
+	"Silvero"
+	"Sisaleno"
+	"Snow"
+	"Striped Pig"
+	"Viper"
+	"Washington"
+	"Wharton"
+	"Wheelwright"
+	"Wilbur"
+	"Williamson"
+	"Yucateco"
+	"Zavala"
+}
+colonial_parent = SPA

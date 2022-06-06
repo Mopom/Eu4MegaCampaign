@@ -1,0 +1,70 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 234 233 124 }
+revolutionary_colors = { 13 14 13 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Ali #0" = 10
+	"Aisha #0" = -1
+	"Ayaz #0" = 10
+	"Butaiyin #0" = 10
+	"Dudjayn #0" = 10
+	"Fackhr al-Din #1" = 10
+	"Hamada #0" = 10
+	"Ilham #0" = -1
+	"Lujayn #0" = -1
+	"Mahmud #0" = 10
+	"Nadjim ibn Duhaynim #0" = 10
+	"Neyn #0" = 10
+	"Rashid #0" = 10
+	"Sulayman #0" = 10
+	"Zayid #0" = 10
+}
+leader_names = {
+	"Al-Karachi"
+	"Al-Muwalid"
+	"Anwar"
+	"Atef"
+	"Faraj"
+	"Ismail"
+	"Madari"
+	"Saleh"
+	"Siham"
+}
+ship_names = {
+	"Abu Ali"
+	"Ad-Dammam"
+	"Al-Ahsa"
+	"Al-Jubayl"
+	"Al-Khubar"
+	"Al-Quatif"
+	"Al-Zahran"
+	"An-Naqirah"
+	"As-Saffaniyah"
+	"Hofuf"
+	"Ra's Al-Mish'ab"
+	"Ra's Tannurah"
+	"Wabrah"
+}

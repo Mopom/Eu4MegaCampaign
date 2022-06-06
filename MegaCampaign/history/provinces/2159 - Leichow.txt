@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Leichow"
+is_city = yes
+culture = chimin
+religion = confucianism
+trade_goods = sugar
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = MNG
+add_core = YUE
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group

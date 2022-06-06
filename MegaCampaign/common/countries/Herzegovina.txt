@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 72 113 160 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aleksandar #0" = 0
+	"Andrija #0" = 0
+	"Antonije #0" = 0
+	"Balsa #0" = 25
+	"Bogdan #0" = 0
+	"Bojan #0" = 0
+	"Borislav #0" = 0
+	"Danijel #0" = 0
+	"Darko #0" = 0
+	"Dubravko #0" = 0
+	"Goran #0" = 0
+	"Grgur #0" = 0
+	"Hran #0" = 20
+	"Ivan #0" = 0
+	"Jadranko #0" = 0
+	"Jelena #0" = -1
+	"Josip #0" = 0
+	"Katarina #0" = -1
+	"Ljubomir #0" = 0
+	"Marijan #0" = 0
+	"Matija #0" = 0
+	"Meho #0" = 0
+	"Mihajlo #0" = 0
+	"Nikola #0" = 0
+	"Obrad #0" = 0
+	"Pavao #0" = 0
+	"Petar #0" = 30
+	"Sandalj #0" = 30
+	"Simun #0" = 20
+	"Srecko #0" = 0
+	"Stjepan #1" = 50
+	"Teodor #0" = 0
+	"Teodora #0" = -1
+	"Vasilije #0" = 0
+	"Viktor #0" = 0
+	"Vladislav #0" = 40
+	"Vlatko #0" = 25
+	"Vuk #0" = 0
+	"Vukac #0" = 35
+	"Zoran #0" = 0
+	"Zvonomir #0" = 0
+}
+leader_names = {
+	"Babonic"
+	"Balsic"
+	"Branivojevic"
+	"Dragisic"
+	"Gradascevic"
+	"Hrvatinic"
+	"Isakovic"
+	"Kosaca"
+	"Kotromanic"
+	"Nelipic"
+	"Pavlovic"
+	"Radinovic"
+	"Sankovic"
+	"Santic"
+	"Sokolovic"
+	"Subic"
+	"Tvrtkovic"
+	"Vukasin"
+	"Vukcic"
+	"Vukovic"
+}
+ship_names = {
+	"Bileca"
+	"Blagaj"
+	"Bosna"
+	"Drijeva"
+	"Herceg Novi"
+	"Onogost"
+	"Rastislav"
+	"Soko"
+	"Ston"
+	"Sveti Sava"
+	"Tjentiste"
+	"Travunia"
+	"Zachlumia"
+}

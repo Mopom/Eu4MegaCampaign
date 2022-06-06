@@ -1,0 +1,13 @@
+owner = MYA
+controller = MYA
+capital = "Tamanthi"
+is_city = yes
+culture = shan
+religion = animism
+trade_goods = tea
+base_tax = 1
+base_production = 2
+base_manpower = 1
+add_core = MYA
+discovered_by = chinese
+discovered_by = indian

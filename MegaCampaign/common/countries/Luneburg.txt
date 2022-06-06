@@ -1,0 +1,109 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 135 109 147 }
+revolutionary_colors = { 2 0 2 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alexander #0" = 0
+	"Alois #0" = 0
+	"Anton #0" = 0
+	"August #0" = 20
+	"Bernhard #1" = 20
+	"Bruno #0" = 0
+	"Christian #0" = 20
+	"Christian Ludwig #0" = 20
+	"Clemens #0" = 0
+	"Denis #0" = 0
+	"Ernst #0" = 40
+	"Ernst August #0" = 20
+	"Franz #0" = 20
+	"Franz Otto #0" = 10
+	"Friedrich #2" = 20
+	"Georg #0" = 20
+	"Gerfried #0" = 0
+	"Gottfried #0" = 0
+	"G0nther #0" = 0
+	"Heinrich #5" = 40
+	"Helmut #0" = 0
+	"Herbert #0" = 0
+	"Ignatz #0" = 0
+	"Ingrid #0" = -1
+	"Isidor #0" = 0
+	"Jakob #0" = 0
+	"Johann #0" = 10
+	"Johann Friedrich #0" = 20
+	"Katinka #0" = -1
+	"Konstantin #0" = 0
+	"Kuno #0" = 0
+	"Magnus #2" = 10
+	"Markus #0" = 0
+	"Martin #0" = 0
+	"Martina #0" = -1
+	"Oskar #0" = 0
+	"Otto #0" = 60
+	"Reinhard #0" = 0
+	"Silvester #0" = 0
+	"Stefan #0" = 0
+	"Viktor #0" = 0
+	"Waldemar #0" = 0
+}
+leader_names = {
+	"Ahlers"
+	"Basedow"
+	"Beuß"
+	"Bostelmann"
+	"Breden"
+	"Burmeister"
+	"Dietz"
+	"Döpner"
+	"Flathmann"
+	"Garbade"
+	"Gefken"
+	"Gehrken"
+	"Martin"
+	"Pielken"
+	"Reinbeck"
+	"Sölter"
+	"Westermann"
+	"von Hodenberg"
+}
+ship_names = {
+	"Bischof Amelung"
+	"Herzog Ernst"
+	"Herzog Otto"
+	"Herzog Wilhelm"
+	"Illmenau"
+	"Kalkberg"
+	"Luniburcs"
+	"Magnus Torquatus"
+	"Markgraf Billung"
+	"St. Michaelis"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

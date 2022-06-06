@@ -1,0 +1,73 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 163 98 9 }
+revolutionary_colors = { 15 8 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Cajem0 #0" = 10
+	"Imkah #0" = -1
+	"Jimulla #0" = -1
+	"Kahavasooah #0" = -1
+	"Kaviu #0" = 10
+	"Oacpicagiguya #0" = 10
+	"Panhop #0" = 10
+	"Papago #0" = 10
+}
+leader_names = {
+	"Akimel"
+	"Bacum"
+	"Benem"
+	"Cocorit"
+	"Equituni"
+	"Hia Ced"
+	"Hiakim"
+	"Huirivis"
+	"Kina"
+	"Onk Akimal"
+	"Otama"
+	"Potam"
+	"Rahum"
+	"Sacaton"
+	"Sobaipuri"
+	"Tohono"
+	"Torim"
+	"Uturituc"
+	"Vicam"
+	"Yoreme"
+}
+ship_names = {
+	"Ba'ag"
+	"Chukud"
+	"Gaso"
+	"Gogs"
+	"Hoho'i"
+	"Judumi"
+	"Kahkag"
+	"Kawiyu"
+	"Mawith"
+	"Panahl"
+	"Pisin"
+	"Sheh'e"
+	"Sihki"
+	"Tobhi"
+	"Wamad"
+	"Wawuk"
+}

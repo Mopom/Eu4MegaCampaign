@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 218 158 79 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	native_indian_archer
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Ahzaah #0" = 20
+	"Bazheech #0" = 20
+	"Chacon #0" = 20
+	"Choseta #0" = 20
+	"Cochise #0" = 20
+	"Dahteste #0" = -1
+	"Dasoda-hae #0" = 20
+	"Delshay #0" = 20
+	"Gouyen #0" = -1
+	"Goyaale #0" = 30
+	"Harkkahome #0" = 20
+	"Ilthgozay #0" = -1
+	"Juh #0" = 20
+	"Konzhontaco #0" = 20
+	"Kootzzah #0" = 20
+	"Lozen #0" = -1
+	"Mahvipah #0" = 20
+	"Moketaveto #0" = 20
+	"Munamenek #0" = 20
+	"Na tio tish #0" = 20
+	"Nahtan #0" = 20
+	"Nanni Chaddi #0" = 20
+	"Oahtekah #0" = 20
+	"Ohtoahnesotowheo #0" = 20
+	"Otoahnisto #0" = 20
+	"Sitahle #0" = 20
+	"Tillaka #0" = 20
+	"Tohayea #0" = -1
+}
+leader_names = {
+	"Arivaipa"
+	"Carlanas"
+	"Ch'uuk'anen"
+	"Chiricahua"
+	"Cholome"
+	"Cibecue"
+	"Coyotero"
+	"Faraones"
+	"Gileno"
+	"Jicarilla"
+	"Jocome"
+	"KIowa"
+	"Kiva"
+	"Lipan"
+	"Lipiyanes"
+	"Llanero"
+	"Manso"
+	"Mescalero"
+	"Mimbrenos"
+	"Mogollon"
+	"Mojave"
+	"Na'iisha"
+	"Natages"
+	"Navajo"
+	"Pelone"
+	"Pinal"
+	"Querechos"
+	"Ramah"
+	"Sibolo"
+	"Toboso"
+	"Tonto"
+	"Yavapai"
+}
+ship_names = {
+	"Ba'cho"
+	"Biih"
+	"Chaa"
+	"Chinii"
+	"Dahsziné"
+	"Dl'ishtlohé"
+	"Gaagé"
+	"Gah"
+	"Golizhi"
+	"Goshe"
+	"Gosnih"
+	"Itsa"
+	"Koh"
+	"Muh"
+	"Na'iltsoh"
+	"Ndotkah"
+	"T'iish"
+	"Tij"
+	"Tl'é'na'ai"
+	"Tog"
+	"Tsét'soyé"
+	"Tulij"
+	"Ya'ii"
+}

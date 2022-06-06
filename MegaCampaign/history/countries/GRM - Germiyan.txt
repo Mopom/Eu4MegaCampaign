@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = ottoman
+religion = sunni
+primary_culture = turkish
+capital = 322
+religious_school = hanafi_school
+1402.8.1= {
+	monarch = {
+		name = "Yakub II"
+		dynasty = Germiyan
+		birth_date = 1352.1.1
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+	add_piety = 0.25
+}

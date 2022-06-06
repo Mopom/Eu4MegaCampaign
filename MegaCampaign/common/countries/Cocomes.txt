@@ -1,0 +1,210 @@
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 194 236 91 }
+revolutionary_colors = { 10 5 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	central_american_horsemen
+	maya_forest_warfare
+	maya_guerilla_warfare
+	maya_gunpowder_warfare
+	maya_tribal_warfare
+	mesoamerican_spearmen
+	westernized_mayan
+}
+monarch_names = {
+	"Caan #1" = 10
+	"Cab #1" = 20
+	"Cam #1" = 60
+	"Chem #1" = 20
+	"Cho #1" = 10
+	"Chuc #1" = 10
+	"Chuh #1" = 10
+	"Chukuc #1" = 10
+	"Cilich #1" = 10
+	"Cuxaan #1" = 10
+	"Cuzam #1" = 10
+	"Dzaay #1" = 10
+	"Eedz #1" = 20
+	"Ek #1" = 15
+	"Ekmay #1" = 15
+	"Gi-K'awiil #0" = -1
+	"Hkin #1" = 15
+	"Hool #1" = 10
+	"Ik' Skull #0" = -10
+	"Iktz #1" = 10
+	"Ixuk #1" = 10
+	"K'anal Ik'nal #0" = -10
+	"Kab #1" = 10
+	"Kan #1" = 10
+	"Keuel #1" = 10
+	"Kuh #1" = 10
+	"Kuum #1" = 10
+	"Lobeh #1" = 10
+	"Mehen #1" = 10
+	"Mooch #1" = 10
+	"Muwaan Mat #0" = -10
+	"Nachi #0" = 60
+	"Nahab #1" = 10
+	"Nicte #1" = 10
+	"Puuc #1" = 10
+	"Sacnite #0" = -5
+	"Sak K'uk' #0" = -10
+	"Tam #1" = 15
+	"Te #1" = 10
+	"Toon #1" = 10
+	"Tucul #1" = 10
+	"Tunich #1" = 20
+	"Tzatzkabil #1" = 20
+	"Tzootz #1" = 10
+	"Xtux #1" = 15
+	"Yohl Ik'nal #0" = -10
+	"Zi #1" = 10
+	"Zum #1" = 10
+}
+leader_names = {
+	"Ahkinxoc"
+	"Ahmetakkukul"
+	"Ahmok"
+	"Ahnakukpech"
+	"Ahpop-Achi"
+	"Arana"
+	"Bakan"
+	"Balam"
+	"Bor"
+	"Canek"
+	"Chaob"
+	"Chiam"
+	"Hnuyg"
+	"Kayom"
+	"Kukumatz"
+	"Kíin"
+	"Mochcouoh"
+	"Nachancan"
+	"Nohochacyum"
+	"Pacal"
+	"Quitze Balam"
+	"Tecunuman"
+	"Vataki"
+	"Yumcaax"
+	"Zotz"
+}
+ship_names = {
+	"Ah Puch"
+	"Aké"
+	"Altun Ha"
+	"Becan"
+	"Bolonchen"
+	"Bonampak"
+	"Cahal Pech"
+	"Calakmul"
+	"Camazotz"
+	"Cancuén"
+	"Caracol"
+	"Cerros"
+	"Chaac"
+	"Chacchoben"
+	"Chacmultun"
+	"Chichen Itza"
+	"Chinikiha"
+	"Chinkultic"
+	"Chunchucmil"
+	"Civiltuk"
+	"Coba"
+	"Copan"
+	"Dos Pilas"
+	"Dzibilchaltun"
+	"Dzibilnocac"
+	"Dzilam"
+	"Edzná"
+	"Ek'Balam"
+	"Ekab"
+	"Gucumatz"
+	"Gumarcaj"
+	"Hocchob"
+	"Hormiguero"
+	"Hunahpu"
+	"Huracan"
+	"Ichmac"
+	"Ichmul"
+	"Itzan"
+	"Ix Chel"
+	"Ixbalanque"
+	"Ixchel"
+	"Ixil"
+	"Iximche"
+	"Ixlu"
+	"Ixtab"
+	"Izamal"
+	"Jaina"
+	"Jolja"
+	"Joya de Cerén"
+	"Kabah"
+	"Kaminaljuyu"
+	"Kantunil Kin"
+	"Kiuic"
+	"Labná"
+	"Lamanai"
+	"Louisville"
+	"Lubaantun"
+	"Machaquila"
+	"Mani"
+	"Mayapan"
+	"Muluchtzekel"
+	"Muyil"
+	"Nakbe"
+	"Nakum"
+	"Naranjo"
+	"Nebaj"
+	"Nim Li Punit"
+	"Okop"
+	"Oxcutzcab"
+	"Oxkintok"
+	"Palenque"
+	"Piedras Negras"
+	"Pomoná"
+	"Pusilha"
+	"Quirigua"
+	"Rio Azul"
+	"Rio Bec"
+	"Sayil"
+	"Seibal"
+	"Sisila"
+	"Tancah"
+	"Tazumal"
+	"Tecoh"
+	"Tikal"
+	"Tonina"
+	"Topoxté"
+	"Tulum"
+	"Uaxactun"
+	"Ucanal"
+	"Uci"
+	"Utatlan"
+	"Uxmal"
+	"Waká"
+	"Xcalumkin"
+	"Xcaret"
+	"Xcorralche"
+	"Xcucsuc"
+	"Xculoc"
+	"Xlapak"
+	"Xpuhil"
+	"Xultun"
+	"Xunantunich"
+	"Yaklmai"
+	"Yaxchilan"
+	"Yaxha"
+	"Yo'okop"
+	"Zaculeu"
+	"Zipacna"
+}

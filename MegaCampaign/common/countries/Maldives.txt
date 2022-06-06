@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 191 25 25 }
+revolutionary_colors = { 10 4 0 }
+historical_idea_groups = {
+	trade_ideas
+	quantity_ideas
+	administrative_ideas
+	innovativeness_ideas
+	defensive_ideas
+	maritime_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Ali #3" = 30
+	"'Imad ad-Din #0" = 20
+	"'Izz ad-Din #0" = 10
+	"'Umar #1" = 10
+	"Abu Bakr #1" = 30
+	"Ahmad #0" = 30
+	"Danna Mohammed #0" = 10
+	"Dhon #0" = -1
+	"Gaugey #0" = -1
+	"Hasain #1" = 10
+	"Hilali Kalu Mohammed #0" = 10
+	"Hilali Mohammed #0" = 10
+	"Hussan #0" = 50
+	"Ibrahim #0" = 20
+	"Ibrahim Iskandir #0" = 20
+	"Iskandar #0" = 20
+	"Kamanfa'anu #0" = 30
+	"Mohammed Idn Omar #0" = 10
+	"Muhammad #4" = 20
+	"Muhi ad-Din #0" = 10
+	"Muin ad-Din Iskander #0" = 10
+	"Nasr ud-Din #0" = 40
+	"Sayyid Ahmed #0" = 10
+	"Sayyid Mohammed #0" = 10
+	"Shams ad-Din #0" = 10
+	"Veyogey #0" = -1
+	"Yusuf #2" = 10
+	"al-Haj Hassan #2" = 10
+	"al-Haj Mohammed #0" = 10
+}
+leader_names = {
+	"Aadita"
+	"Dambidu"
+	"Dhiyamigili"
+	"Hamawi"
+	"Hilaalee"
+	"Homa"
+	"Huraa"
+	"Isdhoo"
+	"Theemuge"
+	"Utheemu"
+}
+ship_names = {
+	"Alia"
+	"Alisha"
+	"Ari"
+	"Aziza"
+	"Fadhippolhu"
+	"Fatimah"
+	"Felidhoo"
+	"Goidhoo"
+	"Kolhumadulu"
+	"Maalhosmadulu"
+	"Male"
+	"Niknaz"
+	"Niloufa"
+	"Ramazan"
+	"Yasmine"
+	"Zahira"
+}

@@ -1,0 +1,161 @@
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 126 147 196 }
+revolutionary_colors = { 5 10 5 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	offensive_ideas
+	maritime_ideas
+	spy_ideas
+	quantity_ideas
+}
+historical_units = {
+	inca_mountain_warfare
+	incan_axemen
+	incan_guerilla_warfare
+	incan_slingshots
+	reformed_westernized_incan
+	south_american_arquebusier
+	south_american_gunpowder_warfare
+	south_american_horsemen
+	south_american_reformed_gunpowder_warfare
+	south_american_spearmen
+	south_american_warfare
+	westernized_incan
+}
+monarch_names = {
+	"Amaru #0" = 10
+	"Anquimarca #0" = 0
+	"Atoc Sopa #0" = 0
+	"Cari #0" = 20
+	"Cayo Topa #0" = 0
+	"Chuqui Capac #0" = 20
+	"Colla Capac #0" = 20
+	"Coyllas #0" = 0
+	"Cusichaca #0" = 0
+	"Guaritopa #0" = 0
+	"Huachuri #0" = 0
+	"Huaypalcon #0" = 0
+	"Illapa #0" = 10
+	"Inti #0" = 10
+	"Kantuta #0" = -1
+	"Katari #0" = 10
+	"Luyes #0" = 0
+	"Marcavilca #0" = 0
+	"Nina #0" = -1
+	"Ninan Cuyuchi #0" = 0
+	"Orco Varanca #0" = 0
+	"Pascac #0" = 0
+	"Pomaguala #0" = 0
+	"Pumi Sopa #0" = 0
+	"Quispe Titu #0" = 0
+	"Ruminavi #0" = 0
+	"Sahuaraura #0" = 0
+	"Sisa #0" = -1
+	"Surandaman #0" = 0
+	"Taraque #0" = 0
+	"Tom0s Katari #0" = 10
+	"Tucuycuyche #0" = 0
+	"Tunupa #0" = 10
+	"Tupac #0" = 10
+	"Usca Curiatao #0" = 0
+	"Villac Umu #0" = 0
+	"Yamqui Mayta #0" = 0
+	"Yupanqui #0" = 0
+	"Zambiza #0" = 0
+	"Zopahua #0" = 0
+}
+leader_names = {
+	"Anquimarca"
+	"Apo"
+	"Atahualpa"
+	"Atoc"
+	"Atoc-Suqui"
+	"Auqui-Huaman"
+	"Canchari"
+	"Chalcuchima"
+	"Challco"
+	"Chiaquitinta"
+	"Chilche"
+	"Colla-Topa"
+	"Curiatao"
+	"Cusi"
+	"Guacra"
+	"Guaritito"
+	"Guaritopa"
+	"Huachuri"
+	"Huaman"
+	"Huascar"
+	"Huaypalcon"
+	"Illaquita"
+	"Inquill"
+	"Llicllic"
+	"Maila"
+	"Maras"
+	"Marcavilca"
+	"Mayta"
+	"Ninancoro"
+	"Ozcoc"
+	"Parinango"
+	"Paucar"
+	"Paullu"
+	"Pomacapi"
+	"Puma"
+	"Pusca"
+	"Puyu-Vilca"
+	"Quilaco"
+	"Quingallumbo"
+	"Quintiraura"
+	"Quisquis"
+	"Quizo"
+	"Rimac"
+	"Ronpa"
+	"Sahuaraura"
+	"Sotaurco"
+	"Tanqui"
+	"Tucuycuyche"
+	"Tupac-Amaru"
+	"Yupanqui"
+}
+ship_names = {
+	"Apo"
+	"Apocatequil"
+	"Ataguchu"
+	"Ayar Anca"
+	"Ayar Cachi"
+	"Ayar Uchu"
+	"Catequil"
+	"Cavillace"
+	"Chasca"
+	"Chasca Coyllur"
+	"Coniraya"
+	"Copacati"
+	"Cusco"
+	"Ekkeko"
+	"Hanan Pacha"
+	"Illapa"
+	"Inti"
+	"Kon"
+	"Mama Allpa"
+	"Mama Coca"
+	"Mama Cura"
+	"Mama Huaco"
+	"Mama Ocllo"
+	"Mama Pacha"
+	"Mama Quilla"
+	"Mama Raua"
+	"Mama Zara"
+	"Manco Capac"
+	"Pacha Camac"
+	"Pachacuti"
+	"Pariacaca"
+	"Paricia"
+	"Supay"
+	"Titicaca"
+	"Uku Pacha"
+	"Urcaguary"
+	"Viracocha"
+}

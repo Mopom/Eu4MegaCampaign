@@ -1,0 +1,15 @@
+owner = LIP
+controller = LIP
+capital = "Lipan"
+is_city = yes
+culture = lipan
+religion = totemism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = LIP
+discovered_by = north_american
+native_size = 15
+native_ferocity = 2
+native_hostileness = 5

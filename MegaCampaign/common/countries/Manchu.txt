@@ -1,0 +1,168 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 165 132 57 }
+revolutionary_colors = { 6 1 6 }
+historical_idea_groups = {
+	administrative_ideas
+	humanist_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abatai #0" = 5
+	"Ajige #0" = 5
+	"Akjan #0" = 0
+	"Ayan #0" = 0
+	"Baohu #0" = 0
+	"Bukuri Yongson #1" = 10
+	"Chengjun #0" = 0
+	"Cungsan #0" = 10
+	"Daisan #0" = 5
+	"Dodo #0" = 5
+	"Dorgide #0" = 0
+	"Dorgon #0" = 10
+	"Dudu Mengtemu #1" = 10
+	"Eje #0" = 0
+	"Encehen #0" = 0
+	"Fanca #0" = 10
+	"Fen #0" = -1
+	"Fisin #0" = 0
+	"Fulin #0" = 20
+	"Fulu #0" = 0
+	"Fuman #0" = 10
+	"Ganyong #0" = 0
+	"Ganzhan #0" = 0
+	"Giocangga #0" = 10
+	"Hejia #0" = -5
+	"Hejing #0" = -5
+	"Hexiao #0" = -5
+	"Hiowan Yei #0" = 20
+	"Hongshi #0" = 5
+	"Hongzhou #0" = 5
+	"Hooge #0" = 10
+	"Hoogle #0" = 10
+	"Huang Taiji #0" = 20
+	"Hung Li #0" = 20
+	"Hurong #0" = 0
+	"In Jen #0" = 20
+	"Jabsan #0" = 0
+	"Jakdan #0" = 0
+	"Jian #0" = -1
+	"Leli #0" = 0
+	"Liyi #0" = 0
+	"Lung #0" = 10
+	"Mergen #0" = 0
+	"Min Ning #0" = 20
+	"Muduri #0" = 0
+	"Mujin #0" = 0
+	"Nurhachi #0" = 20
+	"Oori #0" = 0
+	"Radi #0" = 0
+	"Sibeoci Fiyanggu #0" = 10
+	"Taksi #0" = 20
+	"Talman #0" = 0
+	"Tolo #0" = 10
+	"Wehe #0" = 0
+	"Wen #0" = -1
+	"Yelu #0" = 0
+	"Yinreng #0" = 10
+	"Yinsi #0" = 5
+	"Yintang #0" = 5
+	"Yinti #0" = 10
+	"Yinxiang #0" = 5
+	"Yinzhi #0" = 10
+	"Yong Yan #0" = 20
+	"Yongqi #0" = 5
+	"Yongyi #0" = 0
+	"Zhanhung #0" = 0
+	"Zhenghu #0" = 0
+	"Zhengrong #0" = 0
+	"Zhongcheng #0" = 0
+	"Zhongchun #0" = 0
+	"Zhongho #0" = 0
+	"Zhonghu #0" = 0
+	"Zhonghung #0" = 0
+	"Zhongxian #0" = 0
+	"Zhongyong #0" = 0
+	"Zhongyu #0" = 0
+	"Zhuangjing #0" = -5
+	"Zongqian #0" = 0
+}
+leader_names = {
+	"Aihui"
+	"Aisin Gioro"
+	"Arakta"
+	"Baica"
+	"Boduri"
+	"Cemgun"
+	"Cibukinut"
+	"Dagiya"
+	"Donggiya"
+	"Ecolo"
+	"Ergi"
+	"Feiya"
+	"Futa"
+	"Gingciri"
+	"Git"
+	"Hegiya"
+	"Heseri"
+	"Io"
+	"Irgen Gioro"
+	"Jakuta"
+	"Jurk"
+	"Keyere"
+	"Kuicelik"
+	"Ledi"
+	"Lu"
+	"Magiya"
+	"Moketo"
+	"Namutu"
+	"Niohuru"
+	"Pan"
+	"Po"
+	"Rao"
+	"Ruburi"
+	"Si"
+	"Socoro"
+	"Taicut"
+	"Tukdun"
+	"U"
+	"Ula"
+	"Wang"
+	"Wenggit"
+	"Yan"
+	"Yehe"
+}
+ship_names = {
+	"Aisin Gioro"
+	"Guwalgiya"
+	"Haixi"
+	"Hata"
+	"Heseri"
+	"Huifa"
+	"Janggiya"
+	"Magiya"
+	"Niuhuru"
+	"Tunggiya"
+	"Ula"
+	"Uya"
+	"Waliuha"
+	"Yehenala"
+}

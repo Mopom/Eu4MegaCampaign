@@ -1,0 +1,15 @@
+owner = CLA
+controller = CLA
+capital = "Chuquiabo"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = cloth
+base_tax = 4
+base_production = 4
+base_manpower = 1
+extra_cost = 16
+center_of_trade = 2
+add_core = CLA
+discovered_by = andean
+discovered_by = south_american

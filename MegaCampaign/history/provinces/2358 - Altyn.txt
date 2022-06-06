@@ -1,0 +1,7 @@
+capital = "Altyn"
+culture = dynamic-mongol-culture-num2
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2

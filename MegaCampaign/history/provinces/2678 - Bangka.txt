@@ -1,0 +1,19 @@
+owner = PLB
+controller = PLB
+capital = "Bangka"
+is_city = yes
+culture = sumatran
+religion = hinduism
+trade_goods = copper
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = PLB
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+native_size = 5
+native_ferocity = 3
+native_hostileness = 2
+{

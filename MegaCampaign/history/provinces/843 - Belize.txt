@@ -1,0 +1,12 @@
+owner = CTM
+controller = CTM
+capital = "Chactemal"
+is_city = yes
+culture = yucatec
+religion = mesoamerican_religion
+trade_goods = sugar
+base_tax = 4
+base_production = 4
+base_manpower = 1
+add_core = CTM
+discovered_by = mesoamerican

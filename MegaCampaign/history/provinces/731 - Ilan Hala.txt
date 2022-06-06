@@ -1,0 +1,13 @@
+owner = EJZ
+controller = EJZ
+capital = "Ilan Hala"
+is_city = yes
+culture = manchu
+religion = tengri_pagan
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = EJZ
+discovered_by = chinese
+discovered_by = nomad_group

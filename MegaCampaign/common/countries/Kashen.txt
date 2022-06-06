@@ -1,0 +1,115 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 117 167 117 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Abu-Bakr #0" = 0
+	"Anoush #0" = -1
+	"Atrnerseh #1" = 10
+	"Aurang #1" = 10
+	"Babgen #2" = 10
+	"Didwho #0" = 0
+	"Ehsan #1" = 10
+	"Euphemia #0" = -1
+	"Grigor #1" = 10
+	"Gurgen #1" = 10
+	"Hovhannes #2" = 10
+	"Hrahat #1" = 10
+	"Hranoush #0" = -1
+	"Ishkhanik #1" = 10
+	"Kohar #0" = -1
+	"Kourd #2" = 10
+	"Latavri #0" = -1
+	"Levon #1" = 10
+	"Mara #0" = -1
+	"Nerseh #0" = 0
+	"Paye #0" = 0
+	"Philipo #1" = 10
+	"Roupen #0" = 0
+	"Saghar #0" = -1
+	"Smbat #1" = 10
+	"Tovmas #0" = 0
+	"Vasak #2" = 10
+	"Šadî #1" = 10
+}
+leader_names = {
+	"Adamian"
+	"Adomian"
+	"Aghajanian"
+	"Altounyan"
+	"Apkarian"
+	"Babaian"
+	"Babikian"
+	"Bagian"
+	"Bhobanyan"
+	"Chobanian"
+	"Damadian"
+	"Eskandarian"
+	"Kapikian"
+	"Kazanjian"
+	"Kebabian"
+	"Kevorkian"
+	"Khachikyan"
+	"Khatchaturian"
+	"Kirlian"
+	"Mergelyan"
+	"Meymarian"
+	"Orbeli"
+	"Pogosyan"
+	"Sadian"
+	"Sevanian"
+	"Shahinian"
+	"Simjian"
+}
+ship_names = {
+	"Ani"
+	"Aramu"
+	"Ararat"
+	"Argishtis"
+	"Artsakh"
+	"Dvin"
+	"Erimena"
+	"Haik"
+	"Haldi"
+	"Ishpuinis"
+	"Kars"
+	"Lutipri"
+	"Manzikert"
+	"Menuas"
+	"Musasir"
+	"Parisos"
+	"Rusas II"
+	"Sarduri I"
+	"Sarduris II"
+	"Selardi"
+	"Siwini"
+	"Vaspurakan"
+	"Yerevan"
+}

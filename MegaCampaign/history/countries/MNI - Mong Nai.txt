@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = buddhism
+primary_culture = shan
+capital = 588
+1444.1.1= {
+	monarch = {
+		name = "Twet Nga Lu"
+		dynasty = "Mong Nai"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+1465.1.1= {
+	monarch = {
+		name = "Hkun Kyaw Sam"
+		dynasty = "Mong Nai"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}

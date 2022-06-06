@@ -1,0 +1,131 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 134 175 31 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	economic_ideas
+	spy_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	huron_arquebusier
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+}
+monarch_names = {
+	"Adario #0" = 20
+	"Ahatsistari #0" = 20
+	"Awmeyeeray #0" = 20
+	"Cheyawe #0" = 20
+	"Datasay #0" = 20
+	"Dauatout #0" = 20
+	"Daughshuttayah #0" = 20
+	"Doueyenteat #0" = 20
+	"Dunquat #0" = 20
+	"Haroenyou #0" = 20
+	"Hawdoro #0" = 20
+	"Horonu #0" = 20
+	"Maudoronk #0" = 20
+	"Miere #0" = 20
+	"Myeerah #0" = -1
+	"Quouqua #0" = 20
+	"Rontondu #0" = 20
+	"Shaawrunthe #0" = 20
+	"Shateyyaronyah #0" = 20
+	"Shawrunthie #0" = 20
+	"Skahomat #0" = 20
+	"Skamehndahteh #0" = -1
+	"Skotous #0" = 20
+	"Stayetah #0" = 20
+	"Tahunehawttee #0" = 20
+	"Taima #0" = -1
+	"Tarhe #0" = 20
+	"Tehaawtorens #0" = 20
+	"Teoudetosso #0" = 20
+	"Terhataw #0" = 20
+	"Teyandatontec #0" = 20
+	"Teyyaghtwa #0" = 20
+	"Thateyyanayoh #0" = 20
+	"Tschauendah #0" = 20
+	"Tuayaurontoyou #0" = 20
+}
+leader_names = {
+	"Ahiragenrega"
+	"Ahondihronon"
+	"Andachkhrob"
+	"Andiata"
+	"Angoutenc"
+	"Anioton"
+	"Anonatea"
+	"Antouaronon"
+	"Aondironon"
+	"Arendaonatia"
+	"Arente"
+	"Arontaen"
+	"Atiaonrek"
+	"Atiraguenrek"
+	"Atirhagenrat"
+	"Attiragenrega"
+	"Attiuoaisgon"
+	"Cahiague"
+	"Carhagouha"
+	"Carmaron"
+	"Chequamegon"
+	"Conchake"
+	"Contarea"
+	"Ekiodatsaan"
+	"Endarahy"
+	"Iahenhouton"
+	"Junqueindundeh"
+	"Junundat"
+	"Kakouagoga"
+	"Kandouche"
+	"Karenhassa"
+	"Kehesetoa"
+	"Khioetoa"
+	"Oeniro"
+	"Onentisati"
+	"Ossossane"
+	"Oukhahitoua"
+	"Scanonaerat"
+	"Skenchioe"
+	"Sunyendeand"
+	"Tarhetown"
+	"Teadeouita"
+	"Teanaustayae"
+	"Teandewiata"
+	"Teanhatenaron"
+	"Teotoguiaton"
+	"Tiedonderoga"
+	"Tonache"
+	"Tondakhra"
+	"Touaguainchain"
+}
+ship_names = {
+	"Arendarhonon"
+	"Arendiwane"
+	"Ataronchronon"
+	"Attignawantan"
+	"Attigneenongnahac"
+	"Che'estaheh Saundustee"
+	"Hochelaga"
+	"Karegnondi"
+	"Losheka"
+	"Ossossane"
+	"Qusquasrundee"
+	"Simcoe"
+	"Tahontaenrat"
+	"Tuendawie"
+	"Wendake"
+	"onitariio"
+}

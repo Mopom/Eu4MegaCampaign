@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = normand
+capital = 168
+add_accepted_culture = cosmopolitan_french
+1465.8.15= {
+	monarch = {
+		name = "Charles I"
+		dynasty = "de Valois"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+1515.1.1= { government = monarchy
+add_government_reform = autocracy_reform }
+1589.8.3= { set_legacy_government = administrative_monarchy }
+1661.3.9= { government = monarchy
+add_government_reform = autocracy_reform }

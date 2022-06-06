@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 97 209 251 }
+revolutionary_colors = { 14 1 14 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	niger_kongolese_forest_warfare
+	niger_kongolese_guerilla_warfare
+	niger_kongolese_gunpowder_warfare
+	niger_kongolese_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Ilunga Kabale #0" = 0
+	"Ilunga Sungu #0" = 20
+	"Jetta #0" = -1
+	"Kalala Ilunga #0" = 20
+	"Kasongo Mukaya #0" = 20
+	"Kasongo a Kalombo #0" = 0
+	"Kitamba #0" = 0
+	"Kongolo Maniema #0" = 20
+	"Kumwimba Ngombe #0" = 20
+	"Maloba Konkola #0" = 0
+	"Nday a Mande #0" = 0
+	"Ndaye Muzinga #0" = 0
+	"Vandana #0" = -1
+	"Zody #0" = -1
+}
+leader_names = {
+	"Bachokwe"
+	"Bakaluena"
+	"Bakuba"
+	"Bakwanga"
+	"Basonge"
+	"Bukama"
+	"Dishi"
+	"Kabalo"
+	"Kabinda"
+	"Kabongo"
+	"Kalonji"
+	"Kamina"
+	"Kaniki"
+	"Kaninda"
+	"Kanyoka"
+	"Katonkole"
+	"Kaya"
+	"Kazadi"
+	"Kikonja"
+	"Kitenge"
+	"Kongolo"
+	"Lala"
+	"Manono"
+	"Maseke"
+	"Minda"
+	"Mulumba"
+	"Mutombo"
+	"Ndemba"
+	"Nkulu"
+	"Nsumpi"
+	"Tombolo"
+	"Tshitolu"
+}
+ship_names = {
+	"Lukeni lua Nimi"
+	"Matadi"
+	"Mbanza"
+	"Mbata"
+	"Mpemba Kasi"
+	"Nanga"
+	"Nimi a Nzima"
+	"Nkuwu a Ntinu"
+	"Nlaza"
+	"Nsaku Lau"
+}

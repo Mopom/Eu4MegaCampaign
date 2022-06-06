@@ -1,0 +1,15 @@
+owner = TAR
+controller = TAR
+capital = "Zinapecuaro"
+is_city = yes
+culture = purepecha
+religion = nahuatl
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = TAR
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

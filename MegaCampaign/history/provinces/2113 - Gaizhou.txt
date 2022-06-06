@@ -1,0 +1,13 @@
+owner = MNG
+controller = MNG
+capital = "Gaizhou"
+is_city = yes
+culture = shandong_culture
+religion = confucianism
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

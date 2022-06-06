@@ -1,0 +1,150 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 139 66 97 }
+revolutionary_colors = { 15 8 1 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	quantity_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 15
+	"Alfons #0" = 0
+	"Amalia #0" = -1
+	"Andries #0" = 0
+	"Arnold #1" = 15
+	"Bartholomeus #0" = 0
+	"Constantijn #0" = 0
+	"C0cile #0" = -1
+	"Diederik #1" = 5
+	"Ernst #0" = 0
+	"Erwin #0" = 0
+	"Ewoud #0" = 0
+	"Floris #0" = 0
+	"Gerard #4" = 5
+	"Godfried #0" = 0
+	"Hendrik #1" = 5
+	"Hilda #0" = -1
+	"Jacobus #0" = 0
+	"Jan #1" = 5
+	"Joost #0" = 0
+	"Joris #0" = 0
+	"Karel #0" = 15
+	"Kasper #0" = 0
+	"Koenraad #0" = 0
+	"Ludger #0" = 0
+	"Luuk #0" = 0
+	"Marinus #0" = 0
+	"Maurits #0" = 0
+	"Micha0l #0" = 0
+	"Nikolaas #0" = 0
+	"Reinier #0" = 0
+	"Reinoud #3" = 20
+	"Rien #0" = 0
+	"Rudolf #0" = 0
+	"Rutger #0" = 0
+	"Sebastiaan #0" = 0
+	"Siemen #0" = 0
+	"Sieuwerd #0" = 0
+	"Sjoerd #0" = 0
+	"Vincent #0" = 0
+	"Werner #0" = 0
+	"Wilfred #0" = 0
+	"Willem #3" = 20
+}
+leader_names = {
+	"Bachman"
+	"Bakker"
+	"Bentinck"
+	"Bosch"
+	"Bulterman"
+	"De Haas"
+	"De Waal"
+	"Derksen"
+	"Elgershuisen"
+	"Entink"
+	"Gelkom"
+	"Holst"
+	"Honekes"
+	"Hoornaert"
+	"Huethorst"
+	"Jansen"
+	"Kempermans"
+	"Kiperije"
+	"Kleinluking"
+	"Korthust"
+	"Kreijhoeft"
+	"Oldenhaven"
+	"Polkamp"
+	"Remmelink"
+	"Saelckink"
+	"Sluiter"
+	"Sweerts"
+	"Teerink"
+	"Ter Horst"
+	"Van Bentheim"
+	"Van Bommel"
+	"Van Bronckhorst"
+	"Van Gulik"
+	"Van Wassenberg"
+	"Van Zutfen"
+	"Van den Bergh"
+	"Vögelink"
+	"Wagevoord"
+	"Wassink"
+	"Wissink"
+}
+ship_names = {
+	"Betuwe"
+	"Bommelerwaard"
+	"Bronckhorst"
+	"De Zwarte Hertog"
+	"Flipje"
+	"Gelderse Worst"
+	"Graaf Godschalk"
+	"Hertog Arnold"
+	"Hertog Eduard"
+	"Hertog Gerard"
+	"Hertog Reinoud"
+	"Hertogin Maria"
+	"Jonge Daniël"
+	"Lichtenvoorde"
+	"Maas en Waal"
+	"Twee Gebroeders"
+	"Veluwe"
+	"Wapen van Deventer"
+	"Wapen van Harderwijk"
+	"Wapen van Hattem"
+	"Wapen van Kampen"
+	"Wapen van Nijmegen"
+	"Wapen van Zutphen"
+	"Wapen van Zwolle"
+	"Wassenberg"
+}
+army_names = {
+	"Leger van $PROVINCE$"
+}
+fleet_names = {
+	"Vloot van $PROVINCE$"
+}

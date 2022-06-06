@@ -1,0 +1,129 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 74 87 138 }
+revolutionary_colors = { 0 9 0 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	quantity_ideas
+	aristocracy_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abd Allah #0" = 0
+	"Abhang #0" = 0
+	"Afzal #0" = 0
+	"Ahmad #0" = 20
+	"Ahmadi #0" = -1
+	"Annam #0" = 20
+	"Bahadur #0" = 20
+	"Burhan #1" = 20
+	"Chand Bibi #0" = -10
+	"Chengiz #0" = 0
+	"Dilawar Khan #0" = 0
+	"Farrukh #0" = 0
+	"Fath #0" = 0
+	"Hafiz #0" = 0
+	"Hamid #0" = 0
+	"Hamir #0" = 20
+	"Hamza #0" = 0
+	"Hanif #0" = 0
+	"Hassan #0" = 0
+	"Husayn #0" = 20
+	"Ibrahim #0" = 20
+	"Iftikhar al-Mulk #0" = 0
+	"Imad al-Mulk #0" = 0
+	"Isma'il #0" = 20
+	"Jahan #0" = 0
+	"Jalal #0" = 0
+	"Khusrau #0" = 0
+	"Khwaja #0" = 0
+	"Mahmud #0" = 0
+	"Malik #0" = 0
+	"Malika #0" = -1
+	"Maran Husayn #1" = 20
+	"Miran #0" = 0
+	"Mullah Mohammad #0" = 0
+	"Mumtaz #0" = -1
+	"Murtaza #0" = 20
+	"Mustafa #0" = 0
+	"Nasir #0" = 0
+	"Qasim #0" = 0
+	"Raju #0" = 0
+	"Rustam #0" = 0
+	"Sa'adat #0" = 0
+	"Shams #0" = 0
+	"Sultan #0" = 0
+}
+leader_names = {
+	"Ambar"
+	"Ardastani"
+	"Astarabadi"
+	"Badakshi"
+	"Banda"
+	"Basri"
+	"Bhosle"
+	"Bukhari"
+	"Changezi"
+	"Dakhni"
+	"Gawan"
+	"Gilani"
+	"Hasanabadi"
+	"Jurjani"
+	"Kabuli"
+	"Khan"
+	"Kirmani"
+	"Kudha"
+	"Majmudar"
+	"Maloji"
+	"Munshi"
+	"Muzzafar"
+	"Parikh"
+	"Qummi"
+	"Shahji"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Arusa"
+	"Bori"
+	"Fatimah"
+	"Girna"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Narmada"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Noor"
+	"Panjhra"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Tapi"
+	"Yasmine"
+	"Zahira"
+}

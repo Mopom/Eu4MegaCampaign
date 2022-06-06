@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = east_african
+religion = coptic
+primary_culture = tigray
+capital = 2766
+unit_type = sub_saharan
+1396.1.1= {
+	monarch = {
+		name = "Menas I"
+		dynasty = "Bahrid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1526.1.1= {
+	monarch = {
+		name = "Yeshaq I"
+		dynasty = "Bahrid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1578.1.1= {
+	monarch = {
+		name = "Yeshaq II"
+		dynasty = "Bahrid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

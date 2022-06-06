@@ -1,0 +1,224 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 240 167 130 }
+revolutionary_colors = { 0 14 0 }
+historical_idea_groups = {
+	religious_ideas
+	maritime_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Afonso #5" = 15
+	"Aleixo #0" = 0
+	"Alvaro #0" = 0
+	"Anxo #0" = 0
+	"Baltasar #0" = 0
+	"Bermudo #2" = 10
+	"Bernaldo #0" = 0
+	"Brais #0" = 0
+	"Branca #0" = -1
+	"Carlos #0" = 0
+	"Cristovo #0" = 0
+	"Domingos #0" = 0
+	"Estevo #0" = 0
+	"Felipe #0" = 0
+	"Fern0n #0" = 0
+	"Francisco #0" = 0
+	"Frederico #0" = 0
+	"Froila #2" = 10
+	"Garc0a #1" = 20
+	"Gonzalo #0" = 0
+	"Guillerme #0" = 0
+	"Gumersindo #0" = 0
+	"Henrique #0" = 0
+	"Hermenexildo #0" = 0
+	"Hixinio #0" = 0
+	"Hugo #0" = 0
+	"Iago #0" = 0
+	"Ignacio #0" = 0
+	"Iria #0" = -1
+	"Leandro #0" = 0
+	"Lope #0" = 0
+	"MONARCH_NAME_ODON #0" = 0
+	"MONARCH_NAME_RAMON #0" = 0
+	"Miguel #0" = 0
+	"Nuno #0" = 0
+	"Ordo0o #2" = 20
+	"Paulo #0" = 0
+	"Pedro #0" = 0
+	"Ramiro #3" = 10
+	"Roi #0" = 0
+	"Sabela #0" = -1
+	"Sancho #1" = 15
+	"Tom0 #0" = 0
+	"Vitor #0" = 0
+	"Xoan #0" = 0
+	"Xorxe #0" = 0
+}
+leader_names = {
+	"Campomanes"
+	"Cienfuegos"
+	"Colón"
+	"Coronado"
+	"Cortés"
+	"Fonseca"
+	"Gálvez"
+	"Gómez"
+	"Jiménez de Cisneros"
+	"López de Haro"
+	"Narváez"
+	"Nuñez de Balboa"
+	"Orellana"
+	"Osorio"
+	"Pimentel"
+	"Pinzón"
+	"Pizarro"
+	"Ponce de León"
+	"Portocarrero"
+	"Tellez-Girón"
+	"de Aguirre"
+	"de Alarcón"
+	"de Andrade"
+	"de Ayala"
+	"de Bazán"
+	"de Benavides"
+	"de Castilla"
+	"de Córdoba"
+	"de Figueroa"
+	"de Guzmán"
+	"de Lara"
+	"de Leiva"
+	"de Luna"
+	"de Mendoza"
+	"de Nebrija"
+	"de Ojeda"
+	"de Rojas"
+	"de Toledo"
+	"de Velasco"
+	"de Villena"
+	"de Zúñiga"
+	"de la Cerda"
+	"de la Cueva"
+	"de la Vega"
+}
+ship_names = {
+	"Argonauta"
+	"Asturias"
+	"Asunción"
+	"Atrevido"
+	"Azor"
+	"Cartagonova"
+	"Castilla"
+	"Castillo Negro"
+	"Castor"
+	"Ciervo Volante"
+	"Doncella"
+	"Dragón"
+	"El Gran Grin"
+	"El Retiro"
+	"Eneas"
+	"Eolo"
+	"Esperanza"
+	"Espíritu Santo"
+	"Extremadura"
+	"Furor"
+	"Galicia"
+	"Gran Grifón"
+	"Halcón"
+	"Hércules"
+	"Isabela"
+	"Júpiter"
+	"La Concepción"
+	"La Magdalena"
+	"La Manuela"
+	"León"
+	"Ligera"
+	"Lobo Marino"
+	"Marte"
+	"Mercurio"
+	"Neptuno"
+	"Niña"
+	"Orión"
+	"Paloma Blanca"
+	"Pegaso"
+	"Perro Marino"
+	"Pinta"
+	"Plutón"
+	"Pollux"
+	"Príncipe de Asturias"
+	"Rayo"
+	"Real Alfonso"
+	"Real Enrique"
+	"Real Juan"
+	"Rey Pelayo"
+	"Rey Rodrigo"
+	"San Andrés"
+	"San Antonio"
+	"San Bartolomé"
+	"San Bernabé"
+	"San Cristobal"
+	"San Enrique"
+	"San Esteban"
+	"San Fernando"
+	"San Francisco"
+	"San Gabriel"
+	"San Isidoro"
+	"San Jerónimo"
+	"San José"
+	"San Juan"
+	"San Juan Bautista"
+	"San Leandro"
+	"San Miguel"
+	"San Pedro"
+	"San Rafael"
+	"San Salvador"
+	"San Sebastian"
+	"Santa Ana"
+	"Santa Beatriz"
+	"Santa Bárbara"
+	"Santa Catalina"
+	"Santa Cruz"
+	"Santa Fe"
+	"Santa Isabel"
+	"Santa Justa"
+	"Santa Marta"
+	"Santa María"
+	"Santa Rita"
+	"Santa Teresa"
+	"Santiago"
+	"Santo Domingo"
+	"Santísima Trinidad"
+	"Sirena"
+	"Terror"
+	"Toledo"
+	"Trinidad"
+	"Tritón"
+	"Unicornio"
+	"Vencedora"
+	"Ventura"
+	"Victoria"
+	"Vigilante"
+	"Vizcaya"
+	"Vulcano"
+	"Zúñiga"
+}

@@ -1,0 +1,13 @@
+owner = PCJ
+controller = PCJ
+capital = "Caracara"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = copper
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = PCJ
+discovered_by = andean
+discovered_by = south_american

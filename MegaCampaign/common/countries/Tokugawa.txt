@@ -1,0 +1,259 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 47 93 80 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	quality_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	eastern_bow
+	japanese_archer
+	japanese_footsoldier
+	japanese_samurai
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Aya #0" = -5
+	"Chikamori #0" = 10
+	"Chikatada #0" = 10
+	"Chikauji #0" = 10
+	"Hidetada #0" = 20
+	"Hirotada #0" = 20
+	"Ieharu #0" = 20
+	"Iemitsu #0" = 20
+	"Ienari #0" = 20
+	"Ienobu #0" = 20
+	"Iesada #0" = 20
+	"Ieshige #0" = 20
+	"Ietsugu #0" = 20
+	"Ietsuna #0" = 20
+	"Ieyasu #0" = 20
+	"Ieyoshi #0" = 20
+	"Ina #0" = -5
+	"Kiyoyasu #0" = 20
+	"Moriie #0" = 10
+	"Nobuhiro #0" = 10
+	"Nobumitsu #0" = 10
+	"Nobusada #0" = 10
+	"Nobutada #0" = 20
+	"Sen #0" = -5
+	"Tama #0" = -5
+	"Toku #0" = -5
+	"Toshinaga #0" = 10
+	"Tsunatoyo #0" = 20
+	"Tsunayoshi #0" = 20
+	"Yasuchika #0" = 10
+	"Yoshinobu #0" = 5
+}
+leader_names = {
+	"Abe"
+	"Akamatsu"
+	"Akechi"
+	"Amago"
+	"Amano"
+	"Ando"
+	"Anekoji"
+	"Aoki"
+	"Asahina"
+	"Asakura"
+	"Asano"
+	"Ashikaga"
+	"Aso"
+	"Chosokabe"
+	"Date"
+	"Ema"
+	"Endo"
+	"Fuji"
+	"Fukushima"
+	"Fuwa"
+	"Hachisuka"
+	"Hamana"
+	"Hatakeyama"
+	"Hattori"
+	"Hayashi"
+	"Hineno"
+	"Hiraiwa"
+	"Hirate"
+	"Hojo"
+	"Honda"
+	"Horio"
+	"Hosokawa"
+	"Ichijo"
+	"Ii"
+	"Iio"
+	"Ikeda"
+	"Ikoma"
+	"Imagawa"
+	"Ina"
+	"Inaba"
+	"Ishikawa"
+	"Isshiki"
+	"Itakura"
+	"Ito"
+	"Jinbo"
+	"Kanamori"
+	"Kato"
+	"Katsurayama"
+	"Keda"
+	"Kikuchi"
+	"Kinoshita"
+	"Kira"
+	"Kono"
+	"Kyogoku"
+	"Maeda"
+	"Matsudaira"
+	"Matsunaga"
+	"Matsushita"
+	"Miki"
+	"Mimura"
+	"Miyoshi"
+	"Mizuno"
+	"Mogami"
+	"Mori"
+	"Nabeshima"
+	"Nagao"
+	"Naito"
+	"Natsume"
+	"Niki"
+	"Niwa"
+	"Oda"
+	"Ogasawara"
+	"Okabe"
+	"Okubo"
+	"Okudaira"
+	"Otomo"
+	"Ouchi"
+	"Rokkaku"
+	"Ryuzoji"
+	"Sagara"
+	"Saito"
+	"Saji"
+	"Sakai"
+	"Sakakibara"
+	"Sakuma"
+	"Sanada"
+	"Sassa"
+	"Satake"
+	"Satomi"
+	"Sekiguchi"
+	"Sena"
+	"Sengoku"
+	"Shiba"
+	"Shibata"
+	"Shimazu"
+	"Shoni"
+	"Suganuma"
+	"Takeda"
+	"Takenaka"
+	"Takigawa"
+	"Toda"
+	"Toki"
+	"Tokugawa"
+	"Torii"
+	"Toyama"
+	"Toyotomi"
+	"Tsutsui"
+	"Udono"
+	"Uesugi"
+	"Ujiie"
+	"Uragami"
+	"Yamana"
+	"Yamauchi"
+}
+ship_names = {
+	"Aki Maru"
+	"Awa Maru"
+	"Banshu Maru"
+	"Bingo Maru"
+	"Binshu Maru"
+	"Bishu Maru"
+	"Bittchu Maru"
+	"Bizen Maru"
+	"Boushu Maru"
+	"Bungo Maru"
+	"Bushu Maru"
+	"Buzen Maru"
+	"Chikugo Maru"
+	"Chikushu Maru"
+	"Chikuzen Maru"
+	"Dewa Maru"
+	"Echigo Maru"
+	"Echizen Maru"
+	"Enshu Maru"
+	"Esshu Maru"
+	"Ettchu Maru"
+	"Goushu Maru"
+	"Harima Maru"
+	"Higo Maru"
+	"Hitachi Maru"
+	"Hizen Maru"
+	"Hoki Maru"
+	"Hyuga Maru"
+	"Iga Maru"
+	"Inaba Maru"
+	"Ise Maru"
+	"Iwami Maru"
+	"Iyo Maru"
+	"Izu Maru"
+	"Izumo Maru"
+	"Joshu Maru"
+	"Kaga Maru"
+	"Kai Maru"
+	"Kazusa Maru"
+	"Kii Maru"
+	"Kishu Maru"
+	"Koshu Maru"
+	"Kozuke Maru"
+	"Mikawa Maru"
+	"Mimasaka Maru"
+	"Mino Maru"
+	"Musashi Maru"
+	"Mutsu Maru"
+	"Nagato Maru"
+	"Noto Maru"
+	"Omi Maru"
+	"Osumi Maru"
+	"Owari Maru"
+	"Sanuki Maru"
+	"Sasshu Maru"
+	"Satsuma Maru"
+	"Shima Maru"
+	"Shimotsuke Maru"
+	"Shimousa Maru"
+	"Shinshu Maru"
+	"Soushu Maru"
+	"Suou Maru"
+	"Suruga Maru"
+	"Tanba Maru"
+	"Tango Maru"
+	"Tosa Maru"
+	"Totomi Maru"
+	"Ushu Maru"
+	"Wakasa Maru"
+	"Yamashiro Maru"
+	"Yamato Maru"
+}
+army_names = {
+	"$PROVINCE$ Dan"
+	"$PROVINCE$ Gun"
+	"$PROVINCE$ Zei"
+	"Tokugawa Gun"
+}
+fleet_names = {
+	"$PROVINCE$ Sendan"
+	"$PROVINCE$ Suigun"
+	"$PROVINCE$ Tai"
+	"Tokugawa Suigun"
+}

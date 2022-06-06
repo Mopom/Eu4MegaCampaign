@@ -1,0 +1,108 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 1 90 168 }
+revolutionary_colors = { 8 13 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Abinnaway #0" = 20
+	"Addeawando #0" = 20
+	"Azonis #0" = -1
+	"Bomoseen #0" = 20
+	"Bungawarrawit #0" = 20
+	"Caterramoggus #0" = 20
+	"Chocorua #0" = 1
+	"Edaranaquin #0" = 20
+	"Eneas #0" = 20
+	"Erixis #0" = 20
+	"Estien #0" = 20
+	"Iteansis #0" = 20
+	"Jackoit #0" = 20
+	"Kissuragunnit #0" = 20
+	"Madockawando #0" = 20
+	"Malgelit #0" = -1
+	"Mali #0" = -1
+	"Malian #0" = -1
+	"Maliazonis #0" = -1
+	"Moxusson #0" = 20
+	"Neguscawit #0" = 20
+	"Nuctungus #0" = 20
+	"Pequaret #0" = 20
+	"Pittarisquanne #0" = 20
+	"Qualebeenewes #0" = 20
+	"Quinnawus #0" = 20
+	"Quirebooset #0" = 20
+	"Sanboddies #0" = 20
+	"Scaweeease #0" = 20
+	"Segucewick #0" = 20
+	"Wanagemeshaw #0" = 20
+	"Warrankansit #0" = 20
+	"Weebenoose #0" = 20
+	"Wenemoet #0" = 20
+	"Whonumbamet #0" = 20
+}
+leader_names = {
+	"Alessikantekw"
+	"Amaseconti"
+	"Amoskeay"
+	"Apikwahki"
+	"Cocheco"
+	"Cowasuck"
+	"Kinipekw"
+	"Koasek"
+	"Masipskwoik"
+	"Nashua"
+	"Odanak"
+	"Ossipee"
+	"Panawahpskek"
+	"Pemigewasset"
+	"Pennacook"
+	"Pequaket"
+	"Piscataqua"
+	"Rocameca"
+	"Souhegan"
+	"Wawinak"
+	"Winnibisauga"
+	"Wôlinak"
+}
+ship_names = {
+	"Abenaki"
+	"Ahaso"
+	"Alemos"
+	"Awasos"
+	"Azeban"
+	"Beziko"
+	"Bezo"
+	"Doleba"
+	"Gokokhoko"
+	"Kogw"
+	"Maliseet"
+	"Mategwas"
+	"Megeso"
+	"Mi'kmaq"
+	"Molsem"
+	"Passamaquoddy"
+	"Penobscot"
+	"Skog"
+	"Wawilomwa"
+	"Woboz"
+	"Wobtegwa"
+	"Wokwses"
+}

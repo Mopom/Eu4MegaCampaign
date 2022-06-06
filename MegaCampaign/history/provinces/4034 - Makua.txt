@@ -1,0 +1,13 @@
+owner = MKU
+controller = MKU
+capital = "Makua"
+is_city = yes
+culture = makua
+religion = shamanism
+trade_goods = ivory
+base_tax = 1
+base_production = 2
+base_manpower = 1
+add_core = MKU
+discovered_by = central_african
+discovered_by = east_african

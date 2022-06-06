@@ -1,0 +1,14 @@
+owner = MNG
+controller = MNG
+capital = "Ningwu"
+is_city = yes
+culture = jin
+religion = confucianism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 2
+add_core = JIN
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

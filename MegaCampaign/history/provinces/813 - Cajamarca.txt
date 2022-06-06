@@ -1,0 +1,14 @@
+owner = CJA
+controller = CJA
+capital = "Cajamarca"
+is_city = yes
+culture = inca
+religion = inti
+trade_goods = cocoa
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = CJA
+discovered_by = CHM
+discovered_by = andean
+discovered_by = south_american

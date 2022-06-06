@@ -1,0 +1,144 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 154 69 116 }
+revolutionary_colors = { 9 0 5 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+	administrative_ideas
+	aristocracy_ideas
+	quantity_ideas
+}
+historical_score = 150
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Agn0 #0" = -1
+	"Albertas #0" = 0
+	"Aleksandras #0" = 20
+	"Algirdas #1" = 10
+	"Andrius #0" = 0
+	"Antanas #0" = 0
+	"Aras #0" = 0
+	"Arturas #0" = 0
+	"Azuolas #0" = 0
+	"Bronislovas #0" = 0
+	"Darius #0" = 0
+	"Gediminas #1" = 0
+	"Giedrius #0" = 0
+	"Gintaras #0" = 0
+	"Henrikas #0" = 0
+	"Jogaila #1" = 20
+	"Jonas #0" = 20
+	"Jonusas #0" = 0
+	"Juozapas #0" = 0
+	"Jurgis #0" = 0
+	"Kaributas #0" = 0
+	"Karolis #0" = 0
+	"Kazimieras #0" = 20
+	"Kestutis #1" = 10
+	"Kristupas #0" = 0
+	"Leonas #0" = 0
+	"Linas #0" = 0
+	"Liudvikas #0" = 0
+	"Marijus #0" = 0
+	"Mindaugas #1" = 5
+	"Morta #0" = -1
+	"Mykolas #0" = 0
+	"Paulius #0" = 0
+	"Petras #0" = 0
+	"Pranciskus #0" = 0
+	"Raimondas #0" = 0
+	"Ramunas #0" = 0
+	"Skirgaila #1" = 0
+	"Stanislovas #0" = 10
+	"Steponas #0" = 0
+	"Svitrigaila #1" = 10
+	"Tomas #0" = 0
+	"Viktoras #0" = 0
+	"Vilhelmas #0" = 0
+	"Viltaut0 #0" = -1
+	"Vincentas #0" = 0
+	"Vladislovas #0" = 15
+	"Vytautas #1" = 20
+	"Vytenis #1" = 0
+	"Zygimantas #0" = 40
+}
+leader_names = {
+	"Alseniskis"
+	"Astikas"
+	"Chodkevicius"
+	"Daukantas"
+	"Dauksa"
+	"Denhofas"
+	"Giedraitis"
+	"Gosevskis"
+	"Gostautas"
+	"Kesgaila"
+	"Kiska"
+	"Kosakovskis"
+	"Kulvietis"
+	"Lietuvis"
+	"Masalskis"
+	"Mazvydas"
+	"Nemirovicius"
+	"Oginskis"
+	"Ostrogiskis"
+	"Pacas"
+	"Pociejus"
+	"Radvila"
+	"Rapolionis"
+	"Rimsa"
+	"Sanguska"
+	"Sapiega"
+	"Simonavicius"
+	"Sirvydas"
+	"Skorina"
+	"Sluska"
+	"Sosnovskis"
+	"Svyriskis"
+	"Tiskevicius"
+	"Valancius"
+	"Valavicius"
+	"Visniovieckis"
+	"Zabiela"
+}
+ship_names = {
+	"Alytus"
+	"Birzai"
+	"Druskininkai"
+	"Gardinas"
+	"Jonava"
+	"Kaunas"
+	"Kretinga"
+	"Kreva"
+	"Lazdijai"
+	"Naugardukas"
+	"Palanga"
+	"Raseiniai"
+	"Siauliai"
+	"Sventoji"
+	"Taurage"
+	"Telsiai"
+	"Trakai"
+	"Utena"
+	"Vilkmerge"
+}

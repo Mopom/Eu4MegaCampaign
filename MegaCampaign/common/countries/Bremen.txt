@@ -1,0 +1,200 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 33 101 137 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	administrative_ideas
+	spy_ideas
+}
+historical_score = 50
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam #0" = 0
+	"Albrecht #1" = 15
+	"Alexander #0" = 0
+	"Alexia #0" = -1
+	"Andreas #0" = 0
+	"Baldur #0" = 0
+	"Baldwin #0" = 20
+	"Beatrix #0" = -1
+	"Bernhard #1" = 10
+	"Bruno #0" = 0
+	"Burkhard #2" = 15
+	"Christoph #0" = 20
+	"Clemens #0" = 0
+	"Denis #0" = 0
+	"Eckhard #0" = 0
+	"Ernst #0" = 0
+	"Florent #1" = 10
+	"Florian #0" = 0
+	"Friedrich #1" = 20
+	"Georg #0" = 20
+	"Gerhard #2" = 20
+	"Gottfried #1" = 15
+	"Gregor #0" = 0
+	"Heinrich #1" = 40
+	"Helmfried #0" = 0
+	"Helmut #0" = 0
+	"Isaak #0" = 0
+	"Joachim #0" = 0
+	"Johann #1" = 40
+	"Johann Adolf #0" = 20
+	"Johann Friedrich #0" = 20
+	"J0rgen #0" = 0
+	"Klaus #0" = 0
+	"Martin #0" = 0
+	"Maximilian #0" = 0
+	"Michael #0" = 0
+	"Nicolaus #0" = 20
+	"Otto #1" = 20
+	"Rainer #0" = 0
+	"Rudolf #0" = 0
+	"Siegert #0" = 0
+	"Siegmund #0" = 0
+	"Verena #0" = -1
+}
+leader_names = {
+	"Adler"
+	"Alers"
+	"Bake"
+	"Beckröge"
+	"Bergius"
+	"Berninghausen"
+	"Boelken"
+	"Bollheim"
+	"Brill"
+	"Delius"
+	"Drewers"
+	"Engels"
+	"Ficke"
+	"Foukhard"
+	"Geffken"
+	"Gildemeister"
+	"Grovermann"
+	"Happach"
+	"Heimbruch"
+	"Hinke"
+	"Kindt"
+	"Krefting"
+	"Köhne"
+	"Laporte"
+	"Löning"
+	"Meyer"
+	"Oelrichs"
+	"Ordemann"
+	"Reiners"
+	"Rohde"
+	"Sanders"
+	"Schulken"
+	"Steinwachs"
+	"Stucken"
+	"Truernitt"
+	"von Bobert"
+	"von Cappeln"
+	"von Holten"
+	"von Horn"
+	"von Meinertzhagen"
+}
+ship_names = {
+	"Adler von Lübeck"
+	"Admiralität von Hamburg"
+	"Afrikaner"
+	"Anna"
+	"Arche Noah"
+	"Bersteinfänger"
+	"Bracke"
+	"Brunte Kuh"
+	"Clementia"
+	"Colonia"
+	"Der Große Adler"
+	"Derffinger"
+	"Dorothea"
+	"Engel"
+	"Engel Gabriel"
+	"Feuerblase"
+	"Fliegender Hirsch"
+	"Fortuna"
+	"Friede"
+	"Fuchs"
+	"Füchslein"
+	"Gabriel"
+	"Gelber Löve"
+	"Goldener Löwe"
+	"Grafschaft Mark"
+	"Grüner Drache"
+	"Herzogtum Cleve"
+	"Hoffning"
+	"Jesus von Lübeck"
+	"Johannesburg"
+	"Jonge Tobias"
+	"Kurprinz"
+	"König David"
+	"Leopoldus Primus"
+	"Lisa von Lübeck"
+	"Lybischer Trotz"
+	"Lübscher Adler"
+	"Makarele"
+	"Maria Catharina"
+	"Meermann"
+	"Meerweib"
+	"Mercurius"
+	"Morian"
+	"Nordischer Löwe"
+	"Pax"
+	"Peter und Paul"
+	"Peter von Danzig"
+	"Pierelepomp"
+	"Prinz Ludwig"
+	"Prophet Daniel"
+	"Ritter Sankt Georg"
+	"Roland"
+	"Rommelpot"
+	"Rosenfelde"
+	"Roter Hirsch"
+	"Salamander"
+	"Sankt Laurens"
+	"Sankt Peter"
+	"Schwarzer Rabe"
+	"Seemoewe"
+	"Seeritter"
+	"Sieben Provinzien"
+	"Stad Emden"
+	"Syrig"
+	"Vogel Greif"
+	"Wapen von Bremen"
+	"Wapen von Hamburg"
+	"Wappen von Bremen"
+	"Wappen von Cleve"
+	"Wasserhund"
+	"Weißer Löwe"
+	"Wilhelmina Margaretta"
+	"Windhund"
+	"Wolkensäule"
+	"Zwei Brüder"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Erzbischofliche Garde"
+}
+preferred_religion = protestant

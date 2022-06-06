@@ -1,0 +1,15 @@
+owner = SHO
+controller = SHO
+capital = "Bannock"
+is_city = yes
+culture = shoshone
+religion = totemism
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = SHO
+discovered_by = north_american
+native_size = 5
+native_ferocity = 4
+native_hostileness = 1

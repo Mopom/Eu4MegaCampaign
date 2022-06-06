@@ -1,0 +1,14 @@
+owner = LXA
+controller = LXA
+capital = "Song La"
+is_city = yes
+culture = lao
+religion = animism
+trade_goods = tea
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = LUA
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian

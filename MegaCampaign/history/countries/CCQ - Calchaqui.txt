@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = diaguita
+capital = 794
+unit_type = south_american
+1444.11.11= {
+	monarch = {
+		name = "Viltipoco"
+		dynasty = "Calchaqui"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

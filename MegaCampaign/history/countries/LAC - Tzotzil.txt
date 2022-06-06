@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = mesoamerican
+religion = mesoamerican_religion
+primary_culture = lacandon
+capital = 4585
+1435.1.1= {
+	monarch = {
+		name = "Vahxak"
+		dynasty = "Tzotzil"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

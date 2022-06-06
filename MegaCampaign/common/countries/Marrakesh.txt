@@ -1,0 +1,109 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 84 242 223 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_score = 100
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"'Abd al-Haqq #1" = 20
+	"'Abd al-Malik #0" = 40
+	"'Abd ar-Rahm0n #0" = 15
+	"'Abdall0h #0" = 60
+	"'Al0 #0" = 40
+	"'Uthm0n #2" = 20
+	"'al-Wal0d #0" = 20
+	"Abbas #0" = 10
+	"Ab0 Faris #0" = 10
+	"Ab0 Merwan #0" = 10
+	"Ahmad #0" = 80
+	"Aisha #0" = -1
+	"Alwa #0" = -1
+	"Ataullah #0" = 0
+	"Bilqis #0" = -1
+	"Halima #0" = -1
+	"Hammada #0" = 10
+	"Hasam #0" = 10
+	"Hashim #0" = 10
+	"Hish0m #0" = 20
+	"Ibrahim #0" = 10
+	"Idr0sid #0" = 20
+	"Isma'0l #1" = 20
+	"Ja'far #0" = 10
+	"Jabril #0" = 0
+	"Khnata #0" = -5
+	"Maimun #0" = 10
+	"Mansur #0" = 15
+	"Maslama #0" = 10
+	"Muhammad #0" = 200
+	"Muhraz #0" = 15
+	"Nasir #0" = 15
+	"Rasul #0" = 0
+	"Said #0" = 10
+	"Sulaym0n #0" = 20
+	"Thamina #0" = -1
+	"Umar #0" = 10
+	"Widad #0" = -1
+	"Yahy0 #1" = 20
+	"Y0suf #0" = 10
+	"Zaidana #0" = -5
+	"Zayd0n #0" = 20
+	"Zayn #0" = 20
+	"Zulfiqar #0" = 0
+	"al-Mustad0 #0" = 20
+	"al-Rash0d #0" = 20
+	"al-Talib #0" = 10
+	"al-Yaz0d #0" = 15
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

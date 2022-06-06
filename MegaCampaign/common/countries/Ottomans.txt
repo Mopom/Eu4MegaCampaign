@@ -1,0 +1,484 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 126 203 120 }
+revolutionary_colors = { 5 9 5 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	quantity_ideas
+	influence_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_score = 5500
+historical_units = {
+	eastern_carabinier
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_azab
+	ottoman_janissary
+	ottoman_lancer
+	ottoman_musellem
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_timariot
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	ottoman_yaya
+}
+monarch_names = {
+	"Abdullah #0" = 1
+	"Abdurrahman #0" = 0
+	"Abd0laziz #0" = 10
+	"Abd0lhamid #0" = 10
+	"Abd0lmecid #0" = 10
+	"Ahmed #0" = 60
+	"Alaaddin #0" = 1
+	"Ali #0" = 0
+	"Alime #0" = -1
+	"Bahadir #0" = 0
+	"Bayezid #0" = 20
+	"Celaleddin #0" = 0
+	"Cem #0" = 1
+	"Cemal #0" = 0
+	"Cihangir #0" = 1
+	"C0neyd #0" = 0
+	"Davud #0" = 0
+	"Dursun #0" = 0
+	"Emin #0" = 0
+	"Emine #0" = -1
+	"Ertugrul #0" = 0
+	"Ferhad #0" = 0
+	"Giyaseddin #0" = 0
+	"G0lfem #0" = -1
+	"Hadice #0" = -1
+	"Halil #0" = 0
+	"Hamid #0" = 0
+	"Handan #0" = -1
+	"Harun #0" = 0
+	"Hasan #0" = 0
+	"Hayreddin #0" = 0
+	"Hizir #0" = 0
+	"Hurrem #0" = -1
+	"H0ma #0" = -1
+	"H0seyin #0" = 0
+	"Ibrahim #0" = 10
+	"Ilyas #0" = 0
+	"Inal #0" = 0
+	"Isa #0" = 1
+	"Ishak #0" = 0
+	"Iskender #0" = 0
+	"Ismail #0" = 0
+	"Izzeddin #0" = 0
+	"Kamer #0" = 0
+	"Kasim #0" = 0
+	"Korkud #0" = 0
+	"Mahmud #0" = 40
+	"Mahpeyker #0" = -1
+	"Mehmed #2" = 80
+	"Mihrimah #0" = -1
+	"Murad #1" = 60
+	"Musa #0" = 1
+	"Mustafa #0" = 80
+	"Nigar #0" = -1
+	"Nizameddin #0" = 0
+	"Numan #0" = 0
+	"Nurbanu #0" = -1
+	"Orhan #1" = 20
+	"Osman #1" = 40
+	"Rabia #0" = -1
+	"Ramazan #0" = 0
+	"Receb #0" = 0
+	"Safiye #0" = -1
+	"Said #0" = 0
+	"Salih #0" = 0
+	"Selim #0" = 60
+	"Seyfeddin #0" = 1
+	"Sinan #0" = 0
+	"S0leyman #0" = 40
+	"Turhan #0" = -1
+	"Yakub #0" = 1
+	"Yusuf #0" = 1
+	"Zeynep #0" = -1
+	"0mer #0" = 1
+}
+leader_names = {
+	"Abaza"
+	"Alemdar"
+	"Amasyali"
+	"Ayas"
+	"Bali"
+	"Bayram"
+	"Bey"
+	"Boshnak"
+	"Cerrah"
+	"Cezzar"
+	"Civan"
+	"Damad"
+	"Defterdar"
+	"Dervish"
+	"Gazi"
+	"Gedik"
+	"Gürcü"
+	"Hadim"
+	"Haseki"
+	"Hekimoglu"
+	"Hersekli"
+	"Ishak"
+	"Izzed"
+	"Kara"
+	"Karamanli"
+	"Kavalali"
+	"Kaymak"
+	"Kemal"
+	"Kemankesh"
+	"Koca"
+	"Köse"
+	"Küçük"
+	"Lala"
+	"Lefkeli"
+	"Malkoç"
+	"Müezzinzade"
+	"Nevshehirli"
+	"Nishanci"
+	"Ohrili"
+	"Oruç"
+	"Pasha"
+	"Pashaoglu"
+	"Pehlivan"
+	"Piri"
+	"Piyale"
+	"Rumi"
+	"Salih"
+	"Sari"
+	"Semiz"
+	"Serdar"
+	"Seydi"
+	"Silahdar"
+	"Tarhuncu"
+	"Tayyar"
+	"Topal"
+	"Turgut"
+	"Uluç"
+	"Veli"
+	"Yemisçi"
+	"Çelebi"
+	"Çerkes"
+	"Çuhadar"
+}
+ship_names = {
+	"Abdul Kadir"
+	"Akcasehir"
+	"Akhisar"
+	"Akrep Basli"
+	"Al At Basli"
+	"Alis Fezzan"
+	"Ankan-i Bahri"
+	"Ankara"
+	"Ankay-i Bahri"
+	"Antalya"
+	"Arslan-i Bahri"
+	"Asar-i Nusret"
+	"Asar-i Sevket"
+	"Asar-i Tevfik"
+	"Ates Fesan"
+	"Avnillah"
+	"Ay Bagceli"
+	"Ayet-i Hayir"
+	"Aziziye"
+	"Baderi-i-Zafer"
+	"Badi-i Nusret"
+	"Bahr-i Zafer"
+	"Bais-i Nusret"
+	"Bark-i Hafiz"
+	"Barli Osman Kapudan"
+	"Basra"
+	"Bed-i Nusret"
+	"Bedr-i Zafer"
+	"Bekberi-Kufret"
+	"Berid-i Futuh"
+	"Berid-i Zafer"
+	"Berk"
+	"Berk Efsan"
+	"Berk-i Bahri"
+	"Berk-i Satvet"
+	"Berk-i Zafer"
+	"Besaretnuma"
+	"Besir-i Safer"
+	"Beyaz At Basli"
+	"Beyrut"
+	"Bidayetu'l Futuh"
+	"Bin Zafer"
+	"Bisharet"
+	"Bodrum"
+	"Bogurtlen"
+	"Bulheves"
+	"Bur-i Zafer"
+	"Burc-i Zafer"
+	"Burhaneddin"
+	"Bursa"
+	"Buyuk Gul Basli"
+	"Cabbar-i Bahri"
+	"Candia"
+	"Causse"
+	"Cedid-i Gumru"
+	"Cedid-i Midilli"
+	"Cengaver"
+	"Ceylan-i Bahri"
+	"Cift Aslan"
+	"Cift Kaplan"
+	"Cifte Ceylan Kicli"
+	"Cifte Teber Kicli"
+	"Civan-i Bahri"
+	"Dad-i Hakk"
+	"Demirhisar"
+	"Diwan"
+	"Drac"
+	"Edirne"
+	"Ejder"
+	"Ejder Basli"
+	"Ejder-i Bahri"
+	"Ertugrul"
+	"Eser-i Cedid"
+	"Eser-i Terakki"
+	"Faht-i Bahri"
+	"Fara Numa"
+	"Fathiye"
+	"Fatih-i Bahri"
+	"Fazlullah"
+	"Ferahnuma"
+	"Feth-i Bulend"
+	"Fethiye"
+	"Fethu'l Fetteh"
+	"Fethu'l Islam"
+	"Fevz Nusrat"
+	"Fevziye"
+	"Feyz-i Huda"
+	"Feyza-i Bahri"
+	"Fivriye"
+	"Gayret-i Vataniye"
+	"Gazal-i Bahri"
+	"Girtili Ismail Kapudan"
+	"Girtini Omer Kapudan"
+	"Gulbang-i Nusrat"
+	"Gunes Kicli"
+	"Hamidabad"
+	"Hamidiye"
+	"Haz Gazat"
+	"Hediye-i Devlet"
+	"Hediye-i Hakim-i Fas"
+	"Hediyyetu'l Muluk"
+	"Heybet Numa"
+	"Heybetendaz"
+	"Hifz-i Huda"
+	"Hifz-i Rahman"
+	"Hilal-i Zafer"
+	"Hisn-i Bahri"
+	"Hisn-i Gazat"
+	"Hisn-i Gurab"
+	"Hisn-i Saheyn"
+	"Hizanetu'l Futuh"
+	"Hizber"
+	"Hudavendigar"
+	"Hudaverdi"
+	"Humay-i Bahri"
+	"Humay-i Zafer"
+	"Iclaliye"
+	"Ifrit Basli"
+	"Inayet-i Hakk"
+	"Iskenderiye"
+	"Iskodra"
+	"Izmir"
+	"Jebel-Andaz"
+	"Kaid-i Zafer"
+	"Kaplan Basli"
+	"Kaplan-i Bahri"
+	"Kebir Uc Ambarli"
+	"Kerem-i Bahri"
+	"Kervan-i Bahri"
+	"Kilid-i Bahri"
+	"Kirmizi Kusakli"
+	"Kucuk Firkateyn"
+	"Kucuk Gul Basli"
+	"Kuh-i Revan"
+	"Kula At Basli"
+	"Kurt Mustafa Kapudan"
+	"Kus Bagceli Karavele"
+	"Kusade Baht"
+	"Kuthaya"
+	"Lubnan"
+	"Lutf-i Celil"
+	"Lutf-u Humayun"
+	"Lvitsa"
+	"Mahabbet"
+	"Mahmudiye"
+	"Mahubey Subhan"
+	"Malika-i Bahr"
+	"Mansure"
+	"Mansuriye"
+	"Mavi Arslan Basli"
+	"Mavi Kicli Karavele"
+	"Mazhar- i Tevfik"
+	"Mazhar-i Hidayet"
+	"Mazhar-i Saadet"
+	"Meheng-i Bahri"
+	"Mehmet Selim"
+	"Mejr-i Zafer"
+	"Meliku'l Bahr"
+	"Meric"
+	"Merih-i Bahri"
+	"Meserret-i Bahri"
+	"Mesken-i Gazi"
+	"Mesudiye"
+	"Mirat-i Zafer"
+	"Muavenet-i Milliye"
+	"Muhbir-i Surur"
+	"Muin-i Rahmet"
+	"Muin-i Zafer"
+	"Mukaddeme-i Hayir"
+	"Mukaddeme-i Nusret"
+	"Mukkademe-i Hayir"
+	"Muradiye"
+	"Murg-i Bahri"
+	"Musul"
+	"Muzaffer"
+	"Nasir-i Bahri"
+	"Nasir-i Cenk"
+	"Nasru'l Aziz"
+	"Navek-i Bahri"
+	"Necm-i Sevket"
+	"Necm-i Zafer"
+	"Nesim-i Futuh"
+	"Nesim-i Zafer"
+	"Nimet"
+	"Nimet-i Huda"
+	"Nir-i Sevket"
+	"Nizamiye"
+	"Nouhan Bahari"
+	"Numune-i Hamiyet"
+	"Nusret-i Yezdan"
+	"Nusretiye"
+	"Nusretnuma"
+	"Nuvid-i Futuh"
+	"Orhaniye"
+	"Osman-i Evvel"
+	"Osmaniye"
+	"Peleng-i Bahri"
+	"Perr-i Bahri"
+	"Pertev-i Nusret"
+	"Pervin"
+	"Peyk-i Mesiret"
+	"Peyk-i Nusret"
+	"Peyk-i Seref"
+	"Peyk-i Zafer"
+	"Pir-i Sevket"
+	"Polad-i Bahri"
+	"Raad-i Bahri"
+	"Rehber-i Nusret"
+	"Rehber-i Tevfik"
+	"Resadiye"
+	"Reshad-i Hamiss"
+	"Resid"
+	"Rodos"
+	"Sadd-i Bahri"
+	"Sadirvan Kicli"
+	"Sadiye"
+	"Sahab"
+	"Sahin-i Derya"
+	"Saik-i Sadi"
+	"Saiki"
+	"Salka Bar"
+	"Samsun"
+	"Sanaver"
+	"Sari Kusakli"
+	"Satvet"
+	"Sayyad-i Bahri"
+	"Seddu'l Bahir"
+	"Seham"
+	"Sehbaz-i Bahri"
+	"Sehper-i Zafer"
+	"Selabetnuma"
+	"Selimiye"
+	"Semend-i Bahri"
+	"Semsir-i Hucum"
+	"Serafeddin"
+	"Serheng-i Nusret"
+	"Servi Bagceli"
+	"Sespay-i Bahri"
+	"Sevketnuma"
+	"Seyfi"
+	"Seyyar-i Bahri"
+	"Shihab-i Nakib"
+	"Siar-i Nusret"
+	"Siayh At Basli"
+	"Sihab-i Bahri"
+	"Sihab-i Sakib"
+	"Sinop"
+	"Sipahi-i Bahri"
+	"Sivrihisar"
+	"Siyah Arslan Basli"
+	"Suca-i Bahri"
+	"Sugur Chitzli"
+	"Sultanhisar"
+	"Suriye"
+	"Tac Basli"
+	"Taif"
+	"Tair-i Bahri"
+	"Tarik"
+	"Tasoz"
+	"Tavus-i Bahri"
+	"Tayyar"
+	"Tesrifiye"
+	"Tevfik Nyuma"
+	"Tevfik-i Huda"
+	"Tevfikiye"
+	"Tevfiku'llah"
+	"Tijfetu'l Muluk"
+	"Tilsim-i Bahri"
+	"Timsah"
+	"Tir-i Sevket"
+	"Tir-i Zafer"
+	"Tiz Hareket"
+	"Tokad"
+	"Ukab-i Bahri"
+	"Urfa"
+	"Uri Bahar"
+	"Uri Nasard"
+	"Utarit"
+	"Vesile-i Nusret"
+	"Yadigar-i Millet"
+	"Yaldizli Hurma"
+	"Yaldizli Nar Kicli"
+	"Yaldizli Sahin"
+	"Yarhisar"
+	"Yaver-i Tevfik"
+	"Yesil Kusakli"
+	"Yilan Basli"
+	"Yildiz Bagceli"
+	"Yildiz Kicli"
+	"Zafer Kusa"
+	"Zir-i Cihat"
+	"Ziver-i Bahri"
+	"Zuhaf"
+	"Zulfikar Kicli"
+}
+army_names = {
+	"$PROVINCE$ Ordusu"
+	"Anadolu Ordusu"
+	"Balkan Ordusu"
+	"Kîrîm Ordusu"
+	"Mîsîr Ordusu"
+}
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+	"Akdeniz Donanmasî"
+	"Ege Donanmasî"
+	"Karadeniz Donanmasî"
+	"Kîzîldeniz Donanmasî"
+}

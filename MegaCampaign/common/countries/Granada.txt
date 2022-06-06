@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 210 220 175 }
+revolutionary_colors = { 1 0 10 }
+historical_idea_groups = {
+	defensive_ideas
+	innovativeness_ideas
+	maritime_ideas
+	exploration_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"'Abd al-Karim #0" = 0
+	"'Al0 #0" = 20
+	"Aliya #0" = -1
+	"Ayman #0" = 0
+	"Barakat #0" = 0
+	"Basir #0" = 0
+	"Dawud #0" = 0
+	"Fahd #0" = 0
+	"Fahima #0" = -1
+	"Faris #0" = 0
+	"Faruq #0" = 0
+	"Firdaus #0" = 0
+	"Fuad #0" = 0
+	"Haidar #0" = 0
+	"Haifa #0" = -1
+	"Hashim #0" = 0
+	"Husam #0" = 0
+	"Iqbal #0" = 0
+	"Isma'0l #2" = 10
+	"Ja'far #0" = 0
+	"Jabbar #0" = 0
+	"Jamal #0" = 0
+	"Junayd #0" = 0
+	"Khaliq #0" = 0
+	"Malik #0" = 0
+	"Mansur #0" = 0
+	"Muhammad #6" = 140
+	"Mustafa #0" = 0
+	"Najib #0" = 0
+	"Nasr #1" = 5
+	"Qasim #0" = 0
+	"Qusay #0" = 0
+	"Rahim #0" = 0
+	"Rash0d #0" = 0
+	"Sa'd #0" = 20
+	"Safi #0" = 0
+	"Sakhr #0" = 0
+	"Samir #0" = 0
+	"Tariq #0" = 0
+	"Umar #0" = 0
+	"Wahid #0" = 0
+	"Y0suf #2" = 60
+	"Zahir #0" = 0
+}
+leader_names = {
+	"Ibn Abbad"
+	"Ibn Abd Allah"
+	"Ibn Abd al-Rahman"
+	"Ibn Abi Hafs"
+	"Ibn Ali"
+	"Ibn Hakan"
+	"Ibn Hammud"
+	"Ibn Hisam"
+	"Ibn Husayn"
+	"Ibn Idris"
+	"Ibn Ishaq"
+	"Ibn Isma'il"
+	"Ibn Marwan"
+	"Ibn Muhammad"
+	"Ibn Nasr"
+	"Ibn Qasim"
+	"Ibn Sa'd"
+	"Ibn Sulayman"
+	"Ibn Umar"
+	"Ibn Ummay"
+	"Ibn Utman"
+	"Ibn Ya'far"
+	"Ibn Yahyà"
+	"Ibn Yusuf"
+	"Ibn al-Azafi"
+}
+ship_names = {
+	"Ismail I"
+	"Ismail II"
+	"Muhammed III"
+	"Muhammed IV"
+	"Muhammed IX"
+	"Muhammed V"
+	"Muhammed VI"
+	"Muhammed VII"
+	"Muhammed VIII"
+	"Muhammed X"
+	"Muhammed al-Faqih"
+	"Muhammed ibn Nasr"
+	"Nasr"
+	"Yusuf I"
+	"Yusuf II"
+	"Yusuf III"
+	"Yusuf IV"
+	"Yusuf V"
+}
+army_names = {
+	"Jaish Al $PROVINCE$"
+}
+fleet_names = {
+	"Alboran Sea Squadron"
+	"Balaeric Sea Squadron"
+	"Jabal Tariq Squadron"
+}

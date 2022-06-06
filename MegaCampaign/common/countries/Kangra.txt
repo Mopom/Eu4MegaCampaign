@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 29 124 255 }
+revolutionary_colors = { 10 4 10 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	quality_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Abhay Chand #0" = 5
+	"Alam Chand #0" = 5
+	"Bhim Chand #0" = 5
+	"Chandarbhan Chand #0" = 5
+	"Devangga Chand #0" = 10
+	"Dharam Chand #0" = 5
+	"Ghamand Chand #0" = 5
+	"Ghamir Chand #0" = 5
+	"Gita Chand #0" = -1
+	"Hari Chand #0" = 20
+	"Jai Chand #0" = 5
+	"Karan Chand #0" = 20
+	"Karnavati #0" = -10
+	"Krishna Devi #0" = -1
+	"Manika Chand #0" = 5
+	"Megh Chand #0" = 20
+	"Narendra Chand #0" = 10
+	"Prayag Chand #0" = 5
+	"Ram Chand #0" = 5
+	"Sansar Chand #0" = 10
+	"Shrinagar Chand #0" = 5
+	"Suvira Chand #0" = 5
+	"Tegh Chand #0" = 5
+	"Triloka Chand #0" = 5
+	"Uma #0" = -1
+	"Vijay Ram Chand #0" = 5
+}
+leader_names = {
+	"Bais"
+	"Bhaal"
+	"Bhangalia"
+	"Chattar"
+	"Chudasama"
+	"Jadeja"
+	"Katoch"
+	"Minha"
+	"Pahore"
+	"Pakhral"
+	"Pundir"
+	"Saran"
+	"Singh"
+}
+ship_names = {
+	"Beas"
+	"Chenab"
+	"Devi"
+	"Gayatri"
+	"Guru"
+	"Indus"
+	"Jalsena"
+	"Jhelum"
+	"Lakshmi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Ravi"
+	"Sagar"
+	"Sarasvati"
+	"Sita"
+	"Sutlej"
+}

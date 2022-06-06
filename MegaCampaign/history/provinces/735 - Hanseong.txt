@@ -1,0 +1,16 @@
+owner = KOR
+controller = KOR
+capital = "Hanseong"
+is_city = yes
+culture = korean
+religion = confucianism
+trade_goods = paper
+fort_15th = yes
+base_tax = 9
+base_production = 10
+base_manpower = 6
+extra_cost = 8
+center_of_trade = 1
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group

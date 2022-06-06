@@ -1,0 +1,16 @@
+owner = ZAN
+controller = ZAN
+capital = "Angoche"
+is_city = yes
+culture = swahili
+religion = sunni
+trade_goods = ivory
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = ZAN
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

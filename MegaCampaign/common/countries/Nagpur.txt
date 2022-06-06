@@ -1,0 +1,145 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 215 86 0 }
+revolutionary_colors = { 5 5 0 }
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	administrative_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	bhonsle_infantry
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Annapurna Bai #0" = -1
+	"Baji Prabhu #0" = 0
+	"Baka Bai #0" = -1
+	"Barman #0" = 0
+	"Bebarta #0" = 0
+	"Biwarta #0" = 0
+	"Chandra #0" = 0
+	"Chimaji #0" = 0
+	"Damodar #0" = 0
+	"Darya Bai #0" = -4
+	"Haripant #0" = 0
+	"Jadunath #0" = 0
+	"Jagannath #0" = 0
+	"Janoji #0" = 20
+	"Krishna #0" = 0
+	"Malhar #0" = 0
+	"Mudhoji #1" = 20
+	"Narayana #0" = 0
+	"Pradeep #0" = 0
+	"Raghuji #0" = 20
+	"Raghunathrao #0" = 0
+	"Rajaram #0" = 20
+	"Ramajara #0" = 20
+	"Ranoji #0" = 0
+	"Sabaji #0" = 20
+	"Sambahji #0" = 20
+	"Savitri Bai #0" = -1
+	"Shahu #0" = 30
+	"Shivaji #0" = 20
+	"Sunder #0" = 0
+	"Suryaji #0" = 0
+	"Tanaji #0" = 0
+	"Tukojirao #0" = 0
+	"Uma Bai #0" = -1
+	"Yashwantrao  #0" = 0
+}
+leader_names = {
+	"Aher"
+	"Bhanja"
+	"Bhonsle"
+	"Chavan"
+	"Dabhad"
+	"Deb"
+	"Deo"
+	"Gangabansi"
+	"Ghumsur"
+	"Gujar"
+	"Kate"
+	"Kaushal"
+	"Khursh"
+	"Krishnamma"
+	"Lahiri"
+	"Lolaksi"
+	"Malusare"
+	"Maruthi"
+	"Moray"
+	"Muthuswami"
+	"Nagaraj"
+	"Narsala"
+	"Nikam"
+	"Nimbalk"
+	"Nirmal"
+	"Parmar"
+	"Patnaik"
+	"Purujit"
+	"Pusapati"
+	"Rajal"
+	"Ramiah"
+	"Rane"
+	"Rawat"
+	"Samant"
+	"Sawant"
+	"Shirke"
+	"Sindhia"
+	"Singh"
+	"Sugriva"
+	"Tyagri"
+	"Vidyadhar"
+	"Viraj"
+	"Virmani"
+	"Vish"
+}
+ship_names = {
+	"Agni"
+	"Bhim"
+	"Brahma"
+	"Devi"
+	"Durga"
+	"Ganesh"
+	"Gayatri"
+	"Hanumaun"
+	"Indra"
+	"Jalsena"
+	"Kala Jahazi"
+	"Kali"
+	"Krishna"
+	"Kubera"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Shiva"
+	"Sita"
+	"Soma"
+	"Surya"
+	"Varuna"
+	"Vayu"
+	"Vishnu"
+	"Yama"
+}

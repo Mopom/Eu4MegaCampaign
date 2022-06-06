@@ -1,0 +1,11 @@
+owner = CCM
+controller = CCM
+capital = "Guachichil"
+culture = chichimecan
+religion = animism
+trade_goods = gold
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = CCM
+discovered_by = mesoamerican

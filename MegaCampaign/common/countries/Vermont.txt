@@ -1,0 +1,192 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 50 120 10 }
+revolutionary_colors = { 14 0 10 }
+historical_idea_groups = {
+	plutocracy_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	chevauchee
+	french_caracolle
+	french_dragoon
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+}
+monarch_names = {
+	"Aaron #0" = 0
+	"Alexander #0" = 0
+	"Angus #0" = 0
+	"Anne #0" = -1
+	"Arthur #0" = 10
+	"August #0" = 0
+	"Benjamin #0" = 0
+	"Bernard #0" = 40
+	"Calvin #0" = 0
+	"Charles #0" = 15
+	"Cyrus #0" = 10
+	"Daniel #0" = 15
+	"Darren #0" = 0
+	"David #0" = 10
+	"Deborah #0" = -1
+	"Elbridge #0" = 0
+	"Elias #0" = 10
+	"Eric #0" = 0
+	"Francis #0" = 0
+	"Frederick #0" = 0
+	"Frederick Augustus #0" = 10
+	"George #0" = 20
+	"Harland #0" = 20
+	"Henry #0" = 15
+	"Isaac #0" = 0
+	"James #0" = 20
+	"John #0" = 20
+	"Jonathan #0" = 0
+	"Joseph #0" = 0
+	"Kyran #0" = 0
+	"Luke #0" = 0
+	"Milton #0" = 0
+	"Nathaniel #0" = 10
+	"Patrick #0" = 0
+	"Paul #0" = 0
+	"Peyton #0" = 10
+	"Philip #0" = 0
+	"Randolf #0" = 0
+	"Richard #0" = 10
+	"Samuel #0" = 15
+	"Sarah #0" = -1
+	"Silvester #0" = 0
+	"Stephen #0" = 0
+	"Thomas #0" = 20
+	"Timothy #0" = 0
+	"Wilbur #0" = 0
+	"William #0" = 0
+}
+leader_names = {
+	"Adams"
+	"Arkeith"
+	"Arnott"
+	"Arthur"
+	"Ashton"
+	"Atworth"
+	"Bean"
+	"Boyd"
+	"Burr"
+	"Caddock"
+	"Clinton"
+	"Coolidge"
+	"Dalton"
+	"Davenport"
+	"Deere"
+	"Dellwin"
+	"Dewey"
+	"Douglas"
+	"Drummond"
+	"Dylan"
+	"Farnham"
+	"Fisk"
+	"Flanders"
+	"Floyd"
+	"Garvey"
+	"Graves"
+	"Harrison"
+	"Hunt"
+	"Jay"
+	"Jefferson"
+	"Kempton"
+	"Kendrick"
+	"Kennedy"
+	"King"
+	"Lane"
+	"Langdon"
+	"Lindon"
+	"Lyle"
+	"Madison"
+	"Merrick"
+	"Monroe"
+	"Morrill"
+	"Morris"
+	"Pendelton"
+	"Pickney"
+	"Richardson"
+	"Rutledge"
+	"Sanders"
+	"Sheehan"
+	"Sheldon"
+	"Smith"
+	"Spencer"
+	"Starbuck"
+	"Steed"
+	"Stetson"
+	"Stover"
+	"Stryder"
+	"Sutcliffe"
+	"Swaggert"
+	"Tabor"
+	"Thompson"
+	"Thorley"
+	"Trevin"
+	"Unwin"
+	"Valley"
+	"Vaughan"
+	"Walden"
+	"Ward"
+	"Wells"
+	"Winston"
+	"Young"
+}
+ship_names = {
+	"Bennington"
+	"Brattleboro"
+	"Castleton"
+	"Chimney Point"
+	"Enterprise"
+	"Fort Dummer"
+	"Fourteenth Star"
+	"Freeman's Oath"
+	"General Allen"
+	"General Enos"
+	"General Stark"
+	"Grand Isle"
+	"Green Mountains"
+	"Green Whig"
+	"Hubbardton"
+	"Isaac Tichenor"
+	"Jonas Fay"
+	"Lake Champlain"
+	"Liberty"
+	"Moses Robinson"
+	"Mount Independence"
+	"Mountaineer"
+	"New Connecticut"
+	"Old Molly"
+	"Ranger"
+	"Revenge"
+	"Royal Savage"
+	"Seth Warner"
+	"Thomas Chittenden"
+	"Ticonderoga"
+	"Vermontis Res Publica"
+	"Westminster"
+	"White River"
+	"Windsor"
+}
+colonial_parent = GBR

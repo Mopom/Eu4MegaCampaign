@@ -1,0 +1,144 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 140 65 166 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+	economic_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agust0n #0" = 20
+	"Alfredo #0" = 0
+	"Armando #0" = 0
+	"Arturo #0" = 0
+	"Blas #0" = 0
+	"Calixto #0" = 0
+	"Carlos #0" = 0
+	"Daniel #0" = 0
+	"El0as #0" = 0
+	"Emiliano #0" = 0
+	"Enrique #0" = 0
+	"Eugenio #0" = 0
+	"Felipe #0" = 10
+	"Francisco #0" = 0
+	"F0lix #0" = 0
+	"Gerardo #0" = 0
+	"Horacio #0" = 0
+	"Ignacio #0" = 0
+	"Jaime #0" = 0
+	"Jes0s #0" = 10
+	"Jos0 Manuel #0" = 0
+	"Jos0 Mar0a #0" = 0
+	"Jos0 Miguel #0" = 0
+	"Jos0 Sixto #0" = 0
+	"Laura #0" = -1
+	"Lucio #0" = 0
+	"MONARCH_NAME_RAMON #0" = 0
+	"Manuel #0" = 0
+	"Marciela #0" = -1
+	"Marcos #0" = 0
+	"Melchor #0" = 0
+	"Natalio #0" = 0
+	"Osvaldo #0" = 0
+	"Perla #0" = -1
+	"Porfirio #0" = 0
+	"Salvador #0" = 10
+	"Sandalio #0" = 0
+	"Toribio #0" = 0
+	"Vicente #0" = 0
+	"V0ctor #0" = 0
+	"Zacar0as #0" = 0
+	"0lvaro #0" = 0
+	"0ngel #0" = 10
+}
+leader_names = {
+	"Aldama"
+	"Allende"
+	"Benavente"
+	"Bravo"
+	"Bustamante"
+	"Carranza"
+	"Comonfort"
+	"Cárdenas"
+	"Domingo"
+	"Díaz"
+	"Echávarri"
+	"Elizondo"
+	"Elías"
+	"Galeana"
+	"García"
+	"Gonzalez"
+	"Guerrero"
+	"Gómez"
+	"Hidalgo"
+	"Huerta"
+	"Iglesias"
+	"Itúrbide"
+	"Juárez"
+	"Lerdo de Tejada"
+	"León de la Barra"
+	"López"
+	"Madero"
+	"Matamoros"
+	"Mejía"
+	"Mendoza"
+	"Mina"
+	"Miramón"
+	"Mora"
+	"Morelos"
+	"Moreno"
+	"Negrete"
+	"Obregón"
+	"Ortíz"
+	"Pino"
+	"Ramírez de Arellano"
+	"Rayón"
+	"Ruíz de Apodaca"
+	"Santa Anna"
+	"Suárez"
+	"Torres"
+	"Victoria"
+	"Villa"
+	"Zaragoza"
+	"de Zavala"
+	"Álvarez"
+}
+ship_names = {
+	"Abasolo"
+	"Allende"
+	"Bravo"
+	"Durango"
+	"Galeana"
+	"Guanjuato"
+	"Ilhunicamina"
+	"Juarez"
+	"Netzahualcoyotl"
+	"Romero"
+	"Serria"
+	"Sonora"
+	"Veracruz"
+	"Victoria"
+}
+colonial_parent = SPA

@@ -1,0 +1,19 @@
+owner = BNJ
+controller = BNJ
+capital = "Paser"
+is_city = yes
+culture = bornean
+religion = hinduism
+trade_goods = spices
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = BNJ
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+native_size = 40
+native_ferocity = 8
+native_hostileness = 5
+{

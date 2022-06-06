@@ -1,0 +1,92 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = central_african
+religion = shamanism
+primary_culture = nyasa
+capital = 4045
+unit_type = sub_saharan
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = mwari_cult
+1444.1.1= {
+	monarch = {
+		name = "Gonapamuhanya" #Fictional
+		dynasty = "Kisindile"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1500.1.1= {
+	monarch = {
+		name = "Ziwange" #Fictional
+		dynasty = "Kisindile"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1590.1.1= {
+	monarch = {
+		name = "Kasyombe"
+		dynasty = "Kyungu" #Used both as title and clan
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1640.1.1= {
+	monarch = {
+		name = "Magemo"
+		dynasty = "Kyungu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1670.1.1= {
+	monarch = {
+		name = "Mwakalosi"
+		dynasty = "Kyungu"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1720.1.1= {
+	monarch = {
+		name = "Magemo II"
+		dynasty = "Kyungu"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1780.1.1= {
+	monarch = {
+		name = "Kasyombe II"
+		dynasty = "Kyungu"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+1785.1.1= { #-1839
+	monarch = {
+		name = "Mwangonde II"
+		dynasty = "Kyungu"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+1790.1.1= { #Foundation of the Chikulamayembe dynasty.
+	monarch = {
+		name = "Gonapamuhanya"
+		dynasty = "Chikulamayembe"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

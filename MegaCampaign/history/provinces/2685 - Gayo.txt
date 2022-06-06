@@ -1,0 +1,17 @@
+owner = ATJ
+controller = ATJ
+capital = "Gayo"
+is_city = yes
+culture = acehnese
+religion = sunni
+trade_goods = tropical_wood
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = ATJ
+add_core = PSA
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+{

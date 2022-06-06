@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 101 189 23 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+	religious_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #0" = 0
+	"Adolf #0" = 0
+	"Albrecht #5" = 5
+	"Alfred #0" = 0
+	"Benedikt #0" = 0
+	"Benno #0" = 0
+	"Bruno #0" = 0
+	"Christian #0" = 0
+	"Clemens #0" = 0
+	"Cristoph #0" = 0
+	"Elisabeth #1" = -1
+	"Ernst #0" = 5
+	"Ferdinand #0" = 5
+	"Ferdinand Karl #0" = 5
+	"Florian #0" = 0
+	"Friedrich #0" = 5
+	"Gerhard #0" = 0
+	"Gregor #0" = 0
+	"G0nther #0" = 0
+	"Heinrich #0" = 0
+	"Hermann #0" = 0
+	"Hugo #12" = 100
+	"Humbert #0" = 0
+	"Iris #0" = -1
+	"Isaak #0" = 0
+	"Isidor #0" = 0
+	"Jakob #0" = 0
+	"Johann #0" = 5
+	"Julia #0" = -1
+	"J0rg #0" = 0
+	"Katrin #0" = -1
+	"Leopold #1" = 5
+	"Maximilian #0" = 5
+	"Michael #0" = 0
+	"Oskar #0" = 0
+	"Otto #0" = 0
+	"Raphael #0" = 0
+	"Rudolph #1" = 20
+	"Siegfried #0" = 0
+	"Sigmund #0" = 5
+	"Sigmund Franz #0" = 5
+	"Stefan #0" = 0
+	"Ulrich #10" = 100
+	"Viktor #0" = 0
+	"Wilhelm #7" = 40
+	"Wolfgang #0" = 5
+}
+leader_names = {
+	"Abenthung"
+	"Aschbacher"
+	"Blattl"
+	"Bucher"
+	"Eisenstecken"
+	"Hagleitner"
+	"Haspinger"
+	"Hofer"
+	"Krismer"
+	"Luger"
+	"Oblasser"
+	"Pfurtscheller"
+	"Rapp"
+	"Santer"
+	"Scholl"
+	"Speckbacher"
+	"Straub"
+	"Thalguter"
+	"von Bregenz"
+}
+ship_names = {
+	"Bozen"
+	"Bregenz"
+	"Brenner"
+	"Dorbirn"
+	"Inn"
+	"Innsbruck"
+	"Konstanz"
+	"Kufstein"
+	"Lindau"
+	"Meran"
+	"Ravensburg"
+	"Stubaital"
+	"Zillertal"
+	"Öztal"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

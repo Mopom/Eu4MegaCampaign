@@ -1,0 +1,12 @@
+owner = BUU
+controller = BUU
+capital = "Nkoma"
+is_city = yes
+culture = rwandan
+religion = shamanism
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 3
+add_core = BUU
+discovered_by = central_african

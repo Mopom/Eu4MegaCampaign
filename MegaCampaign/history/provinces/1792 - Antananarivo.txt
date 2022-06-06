@@ -1,0 +1,12 @@
+owner = MIR
+controller = MIR
+capital = "Alasora"
+is_city = yes
+culture = madagasque
+religion = shamanism
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = MIR
+discovered_by = east_african

@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 55 158 198 }
+revolutionary_colors = { 5 8 9 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Abd Allah #0" = 10
+	"Abu Bakr #0" = 10
+	"Anakba'ali #0" = 20
+	"Baongo #0" = 0
+	"Barama N'Golo #0" = 10
+	"Da Kaha #0" = 0
+	"Danfasri #0" = 10
+	"Daoula #0" = 0
+	"Deni ba Bo #0" = 0
+	"Dessekoro #0" = 0
+	"Dulugu #0" = 0
+	"Fa Sine #0" = 0
+	"Forokolo #0" = 0
+	"Geba #0" = 0
+	"Isma'il #0" = 10
+	"Kaongo #0" = 0
+	"Karfo #0" = 0
+	"Kourita #0" = 0
+	"Kunburu #2" = 30
+	"Masego #0" = -1
+	"Massa #0" = 0
+	"Mathzaho #0" = -1
+	"Muhammad #0" = 10
+	"Muhammad Kinba #0" = 10
+	"Muhammad Kunburu #0" = 10
+	"Nanka #0" = 0
+	"Nga Ngolo #0" = 0
+	"Nntinkoro #0" = 0
+	"Saaga #0" = 0
+	"Saraba #0" = 0
+	"Sawadogo #0" = 0
+	"Seba Mana #0" = 0
+	"Sekai #0" = -1
+	"Sekolo #0" = 0
+	"Sira Bo #0" = 0
+	"Sunsa #0" = 0
+	"Tontuoriba #0" = 0
+	"Tsholofelo #0" = -1
+	"Tyefolo #0" = 0
+	"Waybu'ali #0" = 20
+	"Wobgho #0" = 0
+	"Yadega #0" = 0
+	"Yolomfaogoma #0" = 0
+}
+leader_names = {
+	"Chichuana"
+	"Cossa"
+	"Machel"
+	"Machungo"
+	"Mbazia"
+	"Mondlane"
+	"Mutola"
+	"Sanyang"
+	"Sarea"
+	"Vashko"
+}
+ship_names = {
+	"Debo"
+	"Heinyaho"
+	"Jeneema"
+	"Korondugu"
+	"Kotya"
+	"Pondori"
+	"Sorko"
+	"Sorogama"
+	"Tigermaxo"
+	"Tiéma ciéwe"
+	"Tiéyaho"
+}

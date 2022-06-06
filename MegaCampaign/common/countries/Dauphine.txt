@@ -1,0 +1,210 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 93 194 122 }
+revolutionary_colors = { 6 13 6 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelaide #0" = -1
+	"Adh0mar #0" = 0
+	"Anne #1" = -10
+	"Arnaud #0" = 0
+	"Aymeric #0" = 0
+	"Bartomiu #0" = 0
+	"Bernat #0" = 0
+	"Bertran #0" = 0
+	"Charles #0" = 0
+	"Charlotte #0" = -1
+	"Dami0n #0" = 0
+	"Enric #0" = 0
+	"Est0ve #0" = 0
+	"Ferr0n #0" = 0
+	"Folquet #0" = 0
+	"Frances #0" = 0
+	"Gaufr0 #0" = 0
+	"Guigues #8" = 40
+	"Guilhem #0" = 0
+	"Huges #2" = 10
+	"Humbert #2" = 40
+	"Ignaci #0" = 0
+	"Jacme #0" = 0
+	"Jean #2" = 40
+	"Joan #0" = -1
+	"John #0" = 0
+	"Jordan #0" = 0
+	"Loys #0" = 0
+	"MONARCH_NAME_GASTO #0" = 0
+	"Margaret #0" = -1
+	"Marie #0" = -1
+	"Mart0 #0" = 0
+	"Matheu #0" = 0
+	"Miqueu #0" = 0
+	"Nicolau #0" = 0
+	"Per #0" = 0
+	"Pol #0" = 0
+	"Pons #0" = 0
+	"Ramond #0" = 0
+	"Ricard #0" = 0
+	"Sanc #0" = 0
+	"Simos #0" = 0
+	"Vicentz #0" = 0
+	"Victor #0" = 0
+	"Xavier #0" = 0
+}
+leader_names = {
+	"Agrain des Ubaz"
+	"Alleman"
+	"Artaud"
+	"Lesdiguières"
+	"Pape de Saint Auban"
+	"d'Abon"
+	"d'Agoult"
+	"d'Alande-Mirabel"
+	"d'Alauzon"
+	"d'Albon"
+	"d'Andrevet"
+	"d'Angerès"
+	"d'Arbalestier"
+	"d'Arcilay"
+	"d'Aspremont"
+	"de Balathier"
+	"de Bardonnenche"
+	"de Beaumont"
+	"de Belmont"
+	"de Bernard"
+	"de Bocsozel"
+	"de Bompart"
+	"de Bonlieu"
+	"de Boulieu"
+	"de Bressieu"
+	"de Calignon"
+	"de Chalendar"
+	"de Chambarlhac"
+	"de Chambly"
+	"de Champiney"
+	"de Cheilus"
+	"de Clérieux"
+	"de Dié"
+	"de Domaine"
+	"de Forbin"
+	"de Gandil"
+	"de Genève"
+	"de Granges"
+	"de La Balme"
+	"de La Farge"
+	"de La Porte"
+	"de La Tour du Pin"
+	"de Marcieu"
+	"de Miribel"
+	"de Mollin"
+	"de Montchenu"
+	"de Montferrat"
+	"de Mérins"
+	"de Peccat"
+	"de Peloux"
+	"de Perdrix"
+	"de Pracomtal"
+	"de Périssol"
+	"de Révilasc"
+	"de Sassenage"
+	"de Seyssel"
+	"de Virieu"
+	"de l'Espine"
+	"de la Chambre"
+	"du Terrail"
+}
+ship_names = {
+	"Apprieu"
+	"Barnave"
+	"Beaurepaire"
+	"Bellegarde-Poussieu"
+	"Bourg d'Oisans"
+	"Bourg-de-Péage"
+	"Bourgoin"
+	"Briançon"
+	"Cessieu"
+	"Clelles"
+	"Crolles"
+	"Dieu-le-Fit"
+	"Embrun"
+	"Gap"
+	"Grenoble"
+	"Huez"
+	"La Côte Saint André"
+	"La Mure"
+	"La Tour du Pin"
+	"Le Poet-Laval"
+	"Le Pont de Claix"
+	"Le Teil"
+	"Les Abrets"
+	"Livet-et-Gavet"
+	"Loriol"
+	"Lus la Croix Haute"
+	"Mens"
+	"Moirans"
+	"Montélimar"
+	"Rochemaure"
+	"Roussillon"
+	"Saillans"
+	"Saint Clair de la Tour"
+	"Saint Etienne en Dévoluy"
+	"Saint Geoir"
+	"Saint Jean de Bournay"
+	"Saint Laurent en Royan"
+	"Saint Roman"
+	"Sauzet"
+	"Serres"
+	"Tullin"
+	"Valbonnais"
+	"Valence"
+	"Venosc"
+	"Veynes"
+	"Vienne"
+	"Vif"
+	"Vizille"
+	"Voiron"
+	"Voreppe"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de l'Embrunais"
+	"Armée des Baronnies"
+	"Armée du Briançonnais"
+	"Armée du Champsaur"
+	"Armée du Dauphin"
+	"Armée du Diois"
+	"Armée du Dévoluy"
+	"Armée du Gapençais"
+	"Armée du Grésivaudan"
+	"Armée du Queyras"
+	"Armée du Royans"
+	"Armée du Trièves"
+	"Armée du Valentinois"
+	"Armée du Vercors"
+	"Armée du Viennois"
+}

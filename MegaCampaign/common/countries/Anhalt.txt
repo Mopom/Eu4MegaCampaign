@@ -1,0 +1,129 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 203 93 124 }
+revolutionary_colors = { 5 10 0 }
+historical_idea_groups = {
+	religious_ideas
+	economic_ideas
+	defensive_ideas
+	offensive_ideas
+	innovativeness_ideas
+	spy_ideas
+	diplomatic_ideas
+	trade_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #5" = 15
+	"Albrecht Friedrich #0" = 10
+	"Andreas #0" = 0
+	"August #0" = 10
+	"Bernhard #6" = 15
+	"Christian #0" = 10
+	"Dietrich #0" = 10
+	"Ernst #0" = 20
+	"Friedrich #0" = 15
+	"Friedrich Heinrich #0" = 10
+	"Friedrich Kasimir #0" = 15
+	"Friedrich Moritz #0" = 10
+	"Georg #0" = 20
+	"Georg Aribert #0" = 15
+	"G0nther #0" = 0
+	"Heinrich #4" = 10
+	"Heinrich Waldemar #0" = 10
+	"Helmine #0" = -1
+	"Jakob Ernst #0" = 20
+	"Joachim #0" = 10
+	"Joachim Christoph #0" = 10
+	"Joachim Ernst #0" = 20
+	"Johann #4" = 15
+	"Johann Ernst #0" = 10
+	"Johann Georg #0" = 40
+	"Johann Kasimir #0" = 20
+	"Johanna #0" = -1
+	"Karl #0" = 15
+	"Leonore #0" = -1
+	"Leopold #0" = 40
+	"Lorenz #0" = 10
+	"Ludwig #0" = 10
+	"Michael #0" = 0
+	"Moritz #0" = 15
+	"Paul #0" = 10
+	"Rudolf #3" = 15
+	"Siegmund #0" = 20
+	"Thomas #0" = 15
+	"Ulrich #0" = 0
+	"Waldemar #5" = 15
+	"Wilhelm #0" = 10
+	"Wilhelm Gustav #0" = 15
+}
+leader_names = {
+	"Ackermann"
+	"Alberti"
+	"Albrecht"
+	"Alvensleben"
+	"Amman"
+	"Annecke"
+	"Anthe"
+	"Bauer"
+	"Bause"
+	"Ehrenberg"
+	"Erxleben"
+	"Feuerstack"
+	"Flachsbart"
+	"Genthe"
+	"Gerstung"
+	"Held"
+	"Herzburg"
+	"Hoppe"
+	"Isaack"
+	"Janeck"
+	"Jantke"
+	"Kersten"
+	"Kleinau"
+	"März"
+	"Nehmiz"
+	"Rumpf"
+	"Scharfe"
+	"Schauseil"
+	"Schieck"
+	"von Zerbst"
+}
+ship_names = {
+	"Albrecht Ballenstedt"
+	"Albrecht der Bär"
+	"Aschersleben"
+	"Bernburg"
+	"Bernhard Wittenberg"
+	"Bischof Siegfried"
+	"Brocken"
+	"Coswig"
+	"Dessau"
+	"Dietrich Werben"
+	"Hartz"
+	"Heinrich I"
+	"Hermann Orlamünde"
+	"Köthen"
+	"Plötzkau"
+	"Ramberg"
+	"Rosslau"
+	"Zerbst"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = mesoamerican
+religion = nahuatl
+primary_culture = tepic
+capital = 4640
+1440.1.1= {
+	monarch = {
+		name = "Cihuapilli"
+		dynasty = "Tzapotzinco"
+		adm = 3
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}

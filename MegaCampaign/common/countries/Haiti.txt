@@ -1,0 +1,109 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 139 179 207 }
+revolutionary_colors = { 13 0 4 }
+historical_idea_groups = {
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+	religious_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Achille #0" = 0
+	"Albert #0" = 0
+	"Alexandre #0" = 0
+	"Ambroise #0" = 0
+	"Bernadette #0" = -1
+	"Bernard #0" = 0
+	"Bruno #0" = 0
+	"Camille #0" = -1
+	"Charles #0" = 0
+	"Claude #0" = 0
+	"Denis #0" = 0
+	"Emmanuel #0" = 0
+	"Eustache #0" = 0
+	"Fabien #0" = 0
+	"Faustin #0" = 0
+	"Fleur #0" = -1
+	"Florian #0" = 0
+	"F0lix #0" = 0
+	"Georges #0" = 0
+	"G0raud #0" = 0
+	"Henri #0" = 20
+	"Honor0 #0" = 0
+	"Horace #0" = 0
+	"Jacques #0" = 20
+	"Jean #0" = 0
+	"Joseph #0" = 5
+	"Juan #0" = 0
+	"Louis #0" = 10
+	"Marius #0" = 0
+	"Mathieu #0" = 0
+	"Maurice #0" = 0
+	"Olivier #0" = 0
+	"Pascal #0" = 0
+	"Philippe #0" = 0
+	"Raymond #0" = 5
+	"Renaud #0" = 0
+	"Sylvain #0" = 0
+	"S0raphin #0" = 0
+	"Vincent #0" = 0
+	"0douard #0" = 0
+}
+leader_names = {
+	"Biassou"
+	"François"
+	"Le Tellier"
+	"d'Aulnay"
+	"d'Ornano"
+	"de Boissieu"
+	"de Bonnefoy"
+	"de Chambronne"
+	"de Champmartin"
+	"de Galard"
+	"de Marguerye"
+	"de Maurepas"
+	"de Pellefort"
+	"de Siorac"
+	"de Tréville"
+	"de Vibien"
+	"de Vigny"
+	"des Ecures"
+	"des Herbiers"
+}
+ship_names = {
+	"l'Océan"
+	"la Belle Poule"
+	"la Provence"
+	"la Superbe"
+	"la Trombe"
+	"la Victoire"
+	"le Magnifique"
+	"le Neptune"
+	"le Robuste"
+	"le Sceptre"
+	"le Triton"
+}
+colonial_parent = FRA

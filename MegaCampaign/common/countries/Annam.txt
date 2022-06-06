@@ -1,0 +1,132 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 186 14 92 }
+revolutionary_colors = { 16 8 16 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	religious_ideas
+	quantity_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Bich Ngoc #0" = -1
+	"Hoang #0" = 20
+	"Kim #0" = 20
+	"Kim Anh #0" = -1
+	"Phuc Anh #0" = 20
+	"Phuc Chu #0" = 20
+	"Phuc Dam #0" = 20
+	"Phuc Khoat #0" = 20
+	"Phuc Lan #0" = 20
+	"Phuc Nguyen #0" = 20
+	"Phuc Tan #0" = 20
+	"Phuc Thuan #0" = 20
+	"Phuc Tran #0" = 20
+	"Phuc Tru #0" = 20
+	"Phuong Nga #0" = -1
+	"Thanh Thao #0" = -1
+	"Thuy Tram #0" = -1
+}
+leader_names = {
+	"Banh"
+	"Bui"
+	"Cao"
+	"Chau"
+	"Chu"
+	"Chung"
+	"Dam"
+	"Dang"
+	"Dao"
+	"Diep"
+	"Dinh"
+	"Do"
+	"Doan"
+	"Duong"
+	"Giang"
+	"Ha"
+	"Han"
+	"Ho"
+	"Huynh"
+	"Kieu"
+	"Kim"
+	"La"
+	"Lac"
+	"Lam"
+	"Lieu"
+	"Luc"
+	"Luong"
+	"Luu"
+	"Ly"
+	"Lê"
+	"Ma"
+	"Mac"
+	"Mach"
+	"Mai"
+	"Nghiem"
+	"Ngo"
+	"Nguyen"
+	"Pham"
+	"Phan"
+	"Pho"
+	"Phung"
+	"Quach"
+	"Quang"
+	"Quyen"
+	"Ta"
+	"Thach"
+	"Thai"
+	"Thi"
+	"Thuy"
+	"Tieu"
+	"To"
+	"Ton"
+	"Tran"
+	"Trang"
+	"Trieu"
+	"Trinh"
+	"Truong"
+	"Van"
+	"Vinh"
+	"Vu"
+	"Vuong"
+}
+ship_names = {
+	"Anh Tông"
+	"Du Tông"
+	"Due Tông"
+	"Duong Nhat Lê"
+	"Hien Tông"
+	"Minh Tông"
+	"Nghe Tông"
+	"Nhân Tông"
+	"Thuan Tông"
+	"Thái Tông"
+	"Thánh Tông"
+	"Tran An"
+	"Tran Canh"
+	"Tran Hao"
+	"Tran Hien"
+	"Tran Hoang"
+	"Tran Khâm"
+	"Tran Kính"
+	"Tran Manh"
+	"Tran Ngung"
+	"Tran Phu"
+	"Tran Thuyên"
+	"Tran Vuong"
+}
+special_unit_culture = south_east_asian_special

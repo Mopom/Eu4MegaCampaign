@@ -1,0 +1,115 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 103 121 136 }
+revolutionary_colors = { 10 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Abbas #0" = 0
+	"'Abd al-Karim #0" = 0
+	"'Abd al-Rahman #0" = 0
+	"'Abdall0h #0" = 40
+	"'Al0 #0" = 40
+	"'Umar #0" = 20
+	"Abal #0" = -1
+	"Amirah #0" = -1
+	"Anwar #0" = 0
+	"Atuf #0" = 0
+	"Badr #0" = -1
+	"Bakr #0" = 0
+	"Daliyah #0" = -1
+	"D0'0d #0" = 20
+	"Fadwa #0" = -1
+	"Fahd #0" = 0
+	"Faruq #0" = 0
+	"Fatimah #0" = -1
+	"Fouad #0" = 0
+	"Hakim #0" = 0
+	"Harun #0" = 0
+	"Hasan #0" = 20
+	"Hikmat #0" = 0
+	"Hisham #0" = 0
+	"Hudun #0" = -1
+	"Husayn #0" = 0
+	"Isma'il #0" = 0
+	"Jabirah #0" = -1
+	"Jafar #0" = 0
+	"Jamaal #0" = 0
+	"Kamilah #0" = -1
+	"Karim #0" = 0
+	"Khalil #0" = 0
+	"Layla #0" = -1
+	"Mal0k #0" = 0
+	"Maram #0" = -1
+	"Mirza #0" = 0
+	"Muhammad #0" = 0
+	"Mustafa #0" = 0
+	"Nadirah #0" = -1
+	"Qasim #0" = 0
+	"Qismah #0" = -1
+	"Randa #0" = -1
+	"Rash0d #0" = 0
+	"Rusul #0" = 0
+	"Sa'0d #0" = 20
+	"Safaa  #0" = -1
+	"Shimun #0" = 0
+	"Sulayman #0" = 60
+	"Tahani #0" = -1
+	"Tar0q #0" = 0
+	"Usama #0" = 0
+	"Walida #0" = -1
+	"Yasir #0" = 0
+	"Yusuf #0" = 0
+	"Zaid #0" = 0
+	"Zulqifar #0" = 0
+	"Z0yad #0" = 0
+}
+leader_names = {
+	"Al Humaid"
+	"Al Janah"
+	"Al Saadun"
+	"Al Subaih"
+	"Al-Dhafeer"
+	"Bani Khalid"
+	"Bani Malik"
+	"Bani Sa'id"
+	"Banu 'Amir"
+	"Banu 'Uqayl"
+	"Du'um"
+	"Grusha"
+	"Juboor"
+	"al-Ajwad"
+}
+ship_names = {
+	"Faydhi"
+	"Fazil"
+	"Jamal"
+	"Kadri"
+	"Midhat"
+	"Nadhif"
+	"Nadhim"
+	"Namiq"
+	"Omer"
+	"Sirri"
+}

@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = stateless_society
+government_rank = 1
+technology_group = chinese
+religion = animism
+primary_culture = cham
+capital = 4824
+1444.1.1= {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

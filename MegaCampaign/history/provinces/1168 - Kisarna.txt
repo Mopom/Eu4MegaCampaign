@@ -1,0 +1,13 @@
+owner = KON
+controller = KON
+capital = "Lovata"
+is_city = yes
+culture = kongolese
+religion = shamanism
+trade_goods = slaves
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = KON
+discovered_by = central_african
+discovered_by = sub_saharan

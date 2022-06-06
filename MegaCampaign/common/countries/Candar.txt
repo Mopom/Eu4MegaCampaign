@@ -1,0 +1,158 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 114 70 103 }
+revolutionary_colors = { 0 4 0 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abdulmecid #0" = 10
+	"Adil #1" = 20
+	"Ali #0" = 10
+	"Aydin #0" = 0
+	"Bayezid #1" = 20
+	"Davud #0" = 0
+	"Emine #0" = -1
+	"Gamze #0" = -1
+	"Halime #0" = -1
+	"Hanife #0" = -1
+	"Hasan #0" = 0
+	"Hatice #0" = -1
+	"Havva #0" = -1
+	"H0seyin #0" = 0
+	"Ibrahim #1" = 30
+	"Isa #0" = 10
+	"Isfendiyar #0" = 20
+	"Ishak #0" = 0
+	"Iskender #0" = 0
+	"Kamer #0" = 0
+	"Kasim #0" = 0
+	"Korkud #0" = 0
+	"Mehmed #0" = 10
+	"Melis #0" = -1
+	"Murad #0" = 10
+	"Musa #0" = 10
+	"Rabia #0" = -1
+	"Safiye #0" = -1
+	"Seyfettin #0" = 0
+	"S0leyman #1" = 30
+	"Tem0r #0" = 20
+	"Tem0r Yaman Candar #1" = 20
+	"Umut #0" = -1
+	"Yakub #0" = 5
+	"Yusuf #0" = 5
+	"Zeyneb #0" = -1
+	"Ziynet #0" = -1
+	"Z0beyde #0" = -1
+	"0mer #0" = 0
+}
+leader_names = {
+	"Alemdar"
+	"Amasyali"
+	"Ayas"
+	"Bali"
+	"Barbaros"
+	"Bayram"
+	"Cerrah"
+	"Cezzar"
+	"Civan"
+	"Damad"
+	"Defterdar"
+	"Dervis"
+	"Gazi"
+	"Gedik"
+	"Gümülcineli"
+	"Gürcü"
+	"Hadim"
+	"Hekimoglu"
+	"Hersekli"
+	"Ishak"
+	"Izzed"
+	"Kanijeli"
+	"Kara"
+	"Karamanli"
+	"Kavalali"
+	"Kaymak"
+	"Kemal"
+	"Kemankes"
+	"Koca"
+	"Köprülü"
+	"Köse"
+	"Küçük"
+	"Lala"
+	"Lefkeli"
+	"Malkoç"
+	"Müezzinzade"
+	"Nevsehirli"
+	"Nisanci"
+	"Oflu"
+	"Ohrili"
+	"Oruç"
+	"Osmancikli"
+	"Pargali"
+	"Pehlivan"
+	"Piri"
+	"Piyale"
+	"Rumi"
+	"Salih"
+	"Sari"
+	"Semiz"
+	"Serdar"
+	"Silahdar"
+	"Sokullu"
+	"Tarhuncu"
+	"Tayyar"
+	"Topal"
+	"Turgut"
+	"Uluç"
+	"Veli"
+	"Yemisçi"
+	"Çandarli"
+	"Çelebi"
+	"Çerkes"
+	"Çuhadar"
+}
+ship_names = {
+	"Agli"
+	"Arac"
+	"Bayezid"
+	"Bozkuri"
+	"Candaroglu"
+	"Daday"
+	"Devrekani"
+	"Hanönü"
+	"Isfendiyar"
+	"Kargi"
+	"Kastamonu"
+	"Küre"
+	"Saraydüzü"
+	"Süleyman"
+	"Temür Yaman"
+	"Tosya"
+}
+army_names = {
+	"$PROVINCE$ Ordusu"
+}
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

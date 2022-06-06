@@ -1,0 +1,12 @@
+owner = TDO
+controller = TDO
+capital = "Tondo"
+is_city = yes
+culture = filipino
+religion = animism
+trade_goods = spices
+base_tax = 5
+base_production = 5
+base_manpower = 2
+add_core = TDO
+discovered_by = chinese

@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = inca
+capital = 810
+unit_type = south_american
+1444.1.1= {
+	monarch = {
+		name = "Catequil"
+		dynasty = "Wanka"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

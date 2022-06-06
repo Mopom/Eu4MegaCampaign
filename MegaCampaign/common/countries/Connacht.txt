@@ -1,0 +1,130 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 193 237 85 }
+revolutionary_colors = { 0 1 13 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aindri0 #0" = 0
+	"Alaois #0" = 0
+	"Alastar #0" = 0
+	"Alonghus #0" = 0
+	"Berach #0" = 0
+	"Brad0in #0" = 0
+	"Brennan #0" = 0
+	"Brian #1" = 20
+	"Brody #0" = 0
+	"B0binn #0" = -1
+	"Caerbhall #0" = 0
+	"Calbhach #0" = 0
+	"Caolan #0" = 0
+	"Carroll #0" = 0
+	"Cathal #6" = 20
+	"Ceallach #0" = 0
+	"Cian #0" = 0
+	"Conan #0" = 0
+	"Connor #0" = 0
+	"Diarmaid #0" = 0
+	"Donal #4" = 1
+	"Dubhghall #0" = 0
+	"Eoghan #0" = 0
+	"Fearchar #0" = 0
+	"Fearghas #0" = 0
+	"Feidlimidh #1" = 40
+	"Fionnlagh #0" = 0
+	"Fionola #0" = -1
+	"Flann #0" = 0
+	"Gallchobhair #0" = 0
+	"Gob0n #0" = 0
+	"Gr0daigh #0" = 0
+	"Lomm0n #0" = 0
+	"MONARCH_NAME_BRONACH #0" = 0
+	"Maeleachlain #0" = 0
+	"Murchadha #0" = 0
+	"Naomh0n #0" = 0
+	"Niall #0" = 0
+	"Norene #0" = -1
+	"Tadhg #4" = 10
+	"Turlough #3" = 20
+	"0ed #16" = 20
+	"0amonn #0" = 0
+}
+leader_names = {
+	"Mac Branain"
+	"Mac Conraoi"
+	"Mac Cuille"
+	"Mac Diarmada"
+	"Mac Donnchadha"
+	"Mac Eochaidh"
+	"Mac Maghnais"
+	"Ó Birn"
+	"Ó Breislein"
+	"Ó Cadhla"
+	"Ó Caithniadh"
+	"Ó Cathail"
+	"Ó Cearbhaill"
+	"Ó Cléirigh"
+	"Ó Coigligh"
+	"Ó Concheannain"
+	"Ó Conghailaigh"
+	"Ó Cuana"
+	"Ó Céirín"
+	"Ó Diubháin"
+	"Ó Doibhilin"
+	"Ó Domhnalláin"
+	"Ó Dorchaidhe"
+	"Ó Dúnadhaigh"
+	"Ó Fionn"
+	"Ó Fionnachta"
+	"Ó Fionnagáin"
+	"Ó Fionnáin"
+	"Ó Flaithbheartach"
+	"Ó Gadhra"
+	"Ó Leannain"
+	"Ó Manachain"
+	"Ó Maoldúin"
+	"Ó Mughráin"
+	"Ó Reachtagáin"
+	"Ó Seachnasaigh"
+	"Ó Tarpaigh"
+	"Ó Tighearnaigh"
+	"Ó hAllmhuráin"
+	"Ó hEaghra"
+	"Ó hUigín"
+}
+ship_names = {
+	"Athlone"
+	"Ballina"
+	"Ballinrobe"
+	"Ballyhaunis"
+	"Boyle"
+	"Castlebar"
+	"Connemara"
+	"Galway"
+	"Mayo"
+	"Roscommon"
+}

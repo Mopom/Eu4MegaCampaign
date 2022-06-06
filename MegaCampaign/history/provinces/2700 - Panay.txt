@@ -1,0 +1,14 @@
+owner = MAS
+controller = MAS
+capital = "Panay"
+is_city = yes
+culture = filipino
+religion = animism
+trade_goods = grain
+base_tax = 3
+base_production = 4
+base_manpower = 2
+extra_cost = 8
+center_of_trade = 1
+add_core = MAS
+discovered_by = chinese

@@ -1,0 +1,12 @@
+owner = MAA
+controller = MAA
+capital = "Tauwhare"
+is_city = yes
+culture = maori
+religion = animism
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 4
+base_manpower = 1
+add_core = MAA
+discovered_by = polynesian_tech

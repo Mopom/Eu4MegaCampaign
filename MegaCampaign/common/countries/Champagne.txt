@@ -1,0 +1,188 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 166 125 154 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_carabinier
+	french_caracolle
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abel #0" = 0
+	"Adrien #0" = 0
+	"Alexandre #0" = 0
+	"Beatrice #0" = -1
+	"Blanche #0" = -1
+	"Charles #0" = 0
+	"Christian #0" = 0
+	"Claude #0" = 0
+	"Conrad #0" = 0
+	"Denis #0" = 0
+	"Eudes #0" = 0
+	"Eug0ne #0" = 0
+	"Fran0ois #0" = 0
+	"Fr0d0ric #0" = 0
+	"Gaspard #0" = 0
+	"Georges #0" = 0
+	"Germain #0" = 0
+	"Gustave #0" = 0
+	"Henri #3" = 40
+	"Hubert #2" = 5
+	"Hughes #1" = 5
+	"Jean #0" = 0
+	"Jeanne #1" = -15
+	"Jules #0" = 0
+	"Louis #0" = 0
+	"L0opold #0" = 0
+	"Marie #0" = -1
+	"Maurice #0" = 0
+	"Michel #0" = 0
+	"Odet #0" = 0
+	"Philippe #0" = 0
+	"Pierre #0" = 15
+	"Raoul #0" = 0
+	"Ren0 #0" = 0
+	"Robert #1" = 5
+	"Rodolphe #0" = 0
+	"Samuel #0" = 0
+	"S0verin #0" = 0
+	"Thibaut #5" = 60
+	"Tristan #0" = 0
+	"Valentin #0" = 0
+	"Victor #0" = 0
+	"0tienne #2" = 5
+}
+leader_names = {
+	"Beaufort de Pothemont"
+	"Bellot de Ferreux"
+	"Cauchon de Vercinay"
+	"Clausse"
+	"Pérignon"
+	"d'Alenduy"
+	"d'Artigoity"
+	"d'Arzillières"
+	"d'Espinoy"
+	"de Balatier"
+	"de Balayne"
+	"de Baleine"
+	"de Beaurepaire"
+	"de Brancourt"
+	"de Brienne"
+	"de Broye"
+	"de Bruce"
+	"de Charbogne"
+	"de Chassy"
+	"de Châtillon"
+	"de Coucy"
+	"de Courtenay"
+	"de Croy"
+	"de Crécy"
+	"de Failly"
+	"de Grandpré"
+	"de Grignon"
+	"de Houx"
+	"de Joigny"
+	"de Joinville"
+	"de La Fontaine"
+	"de Lalaing"
+	"de Lantages"
+	"de Lavisé"
+	"de Lezines"
+	"de Loménie"
+	"de Plancy"
+	"de Rethel"
+	"de Roucy"
+	"de Rumigny"
+	"de Saint Belin"
+	"de Saint Cheron"
+	"de Sergine"
+	"de Vauclerois"
+	"de Vergy"
+	"de Verrières"
+	"de Villeprouvée"
+	"du Châtelet"
+	"du Hamel"
+	"du Prat"
+}
+ship_names = {
+	"Athis"
+	"Bel-Air"
+	"Boultan"
+	"Bouy"
+	"Chavenay"
+	"Combert"
+	"Court-sur-Couffy"
+	"Courtaumont"
+	"Cumières"
+	"Fontenelle"
+	"Gizaucourt"
+	"Isse"
+	"Jippé"
+	"Jonchery"
+	"Jâlons"
+	"La Cheppe"
+	"La Croisée"
+	"La Grande Romanie"
+	"La Grossemasse"
+	"La Presle"
+	"La Salle"
+	"La Veuve"
+	"Lagery"
+	"Laval-sur-Tourbe"
+	"Le Breuil"
+	"Le Grand-Essart"
+	"Le Moncet"
+	"Les Cruzis"
+	"Livry-Louvercy"
+	"Louvois"
+	"Minaucourt-le-Mesnil"
+	"Montflambert"
+	"Montigny"
+	"Moussy"
+	"Neuville-en-Châlois"
+	"Passy-Grigny"
+	"Raday"
+	"Saint Hilaire"
+	"Saint Imoges"
+	"Saint Jean sur Tourbe"
+	"Seigneur-Klou"
+	"Souain-Perthes"
+	"Suippes"
+	"Tauxières-Mutry"
+	"Toubiotte"
+	"Vadenay"
+	"Valmy"
+	"Vaudemange"
+	"Vraux"
+	"Wargemoulin"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Châlons"
+	"Armée de Reims"
+	"Armée de Troyes"
+	"Armée de la Marne"
+	"Armée du Pays d'Othe"
+}

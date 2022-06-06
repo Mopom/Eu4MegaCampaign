@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Guiyang"
+is_city = yes
+culture = yi
+religion = animism
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = CDL
+add_core = CYI
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

@@ -1,0 +1,21 @@
+owner = ASK
+controller = ASK
+capital = "Kyoto"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = silk
+base_tax = 6
+base_production = 5
+base_manpower = 2
+add_core = ASK
+discovered_by = ANU
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese
+add_permanent_province_modifier = {
+	name = heian_kyo
+	duration = -1
+}

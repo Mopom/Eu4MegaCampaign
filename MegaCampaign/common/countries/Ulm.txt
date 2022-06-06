@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 202 202 202 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	spy_ideas
+	defensive_ideas
+	administrative_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	trade_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #0" = 10
+	"Alexander Siegmund #0" = 15
+	"Bruno #0" = 0
+	"Christoph #0" = 10
+	"Eduard #0" = 10
+	"Franz Ludwig #0" = 10
+	"Friedrich #0" = 100
+	"Georg #0" = 10
+	"Gottfried #1" = 5
+	"Gottschalk #0" = 0
+	"Gustav Adolf #0" = 10
+	"Heinrich #6" = 15
+	"Hermann #3" = 10
+	"Hieronymus #0" = 0
+	"Ignatz #0" = 0
+	"Johann Friedrich #0" = 15
+	"Johann Kasimir #0" = 10
+	"Johann Wilhelm #0" = 20
+	"Karl #0" = 20
+	"Ludwig #2" = 80
+	"Ludwig Anton #0" = 15
+	"Ludwig Philipp #0" = 15
+	"Ludwig Wilhelm #0" = 10
+	"Markus #0" = 0
+	"Moritz #0" = 10
+	"Moritz Christian #0" = 10
+	"Nina #0" = -1
+	"Ottilie #0" = -1
+	"Otto Heinrich #0" = 20
+	"Philipp #0" = 20
+	"Philipp Wilhelm #0" = 20
+	"Raphael #0" = 0
+	"Reinhild #0" = -1
+	"Richard #0" = 10
+	"Ruprecht #2" = 20
+	"R0diger #0" = 0
+	"Wilhelm #1" = 10
+	"Wolfgang Georg #0" = 10
+}
+leader_names = {
+	"Adenau"
+	"Ansembourg"
+	"Bensenraede"
+	"Blittersdorf"
+	"Cölln"
+	"Dammerscheidt"
+	"Elmpt"
+	"Falkenberg"
+	"Gruithausen"
+	"Hillensberg"
+	"Hohenfeld"
+	"Naxleden"
+	"Schaluyn"
+	"Zebnitsch"
+	"von Clausbruch"
+	"von Dieblich"
+	"von Gelnhausen"
+	"von Leyen"
+	"von Namedy"
+	"von Schöneck"
+}
+ship_names = {
+	"Deidesheim"
+	"Elmstein"
+	"Hochspeyer"
+	"Kaiserslautern"
+	"Landstuhl"
+	"Neunkirchen"
+	"Neustadt"
+	"Rhodt"
+	"Winnweiler"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+fleet_names = {
+	"Stadtflotte"
+}

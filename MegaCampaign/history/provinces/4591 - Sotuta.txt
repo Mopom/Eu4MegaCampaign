@@ -1,0 +1,12 @@
+owner = COC
+controller = COC
+capital = "Chikinchel"
+is_city = yes
+culture = yucatec
+religion = mesoamerican_religion
+trade_goods = cocoa
+base_tax = 4
+base_production = 4
+base_manpower = 1
+add_core = COC
+discovered_by = mesoamerican

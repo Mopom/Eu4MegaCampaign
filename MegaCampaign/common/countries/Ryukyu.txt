@@ -1,0 +1,131 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 90 138 133 }
+revolutionary_colors = { 2 0 1 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Boku #0" = 30
+	"Bunei #1" = 1
+	"Chiru #0" = 0
+	"Chu #1" = 5
+	"Ei #0" = 30
+	"Eki #0" = 30
+	"En #0" = 30
+	"Gen #0" = 30
+	"Guji #0" = 0
+	"Gura #0" = 0
+	"Hashi #1" = 5
+	"Hekiren #0" = -1
+	"Ho #0" = 30
+	"Honko #0" = -1
+	"Iku #0" = 10
+	"Jira #0" = 0
+	"Kaku #0" = 10
+	"Kei #0" = 30
+	"Ken #0" = 30
+	"Ki #0" = 10
+	"Kimpuku #0" = 30
+	"Ko #0" = 30
+	"Kojin #0" = 5
+	"Koki #0" = 5
+	"Kosai #0" = 5
+	"Kotoku #0" = 5
+	"Nanso #0" = -1
+	"Nei #0" = 30
+	"On #0" = 30
+	"Ranshitsu #0" = -1
+	"Sanru #0" = 0
+	"Satto #1" = 1
+	"Sei #0" = 30
+	"Seishin #0" = -1
+	"Sen'i #0" = 30
+	"Shin #0" = 30
+	"Shisho #1" = 5
+	"Shitatsu #1" = 5
+	"Shitsu #0" = 30
+	"Shu #0" = 10
+	"Taikyu #0" = 30
+	"Taru #0" = 0
+	"Tei #0" = 30
+	"Tetsu #0" = 30
+	"Toku #0" = 30
+	"Ton #0" = 10
+	"Tuka #0" = 0
+	"Ushi #0" = 0
+	"Wa #0" = 10
+	"Yo #0" = 10
+}
+leader_names = {
+	"Agarie"
+	"Arakachi"
+	"Ba"
+	"Fija"
+	"Ikegusuku"
+	"Kanagusuku"
+	"Mo"
+	"Nagusuku"
+	"O"
+	"Shimabuku"
+	"Sho"
+	"Tamagusuku"
+	"Tera"
+	"Toyomigusuku"
+	"Ufugusuku"
+	"Wibaru"
+	"Yamagusuku"
+}
+ship_names = {
+	"Bunei"
+	"Chuzan"
+	"Eiji"
+	"Eiso"
+	"Gihon"
+	"Gusuku"
+	"Hokuzan"
+	"Naha"
+	"Nakijin"
+	"Nanzan"
+	"Satto"
+	"Sei"
+	"Sho"
+	"Sho Chu"
+	"Sho Ei"
+	"Sho En"
+	"Sho Gen"
+	"Sho Hashi"
+	"Sho Ho"
+	"Sho Ken"
+	"Sho Kinpuku"
+	"Sho Nei"
+	"Sho Sei"
+	"Sho Sen'i"
+	"Sho Shin"
+	"Sho Shisho"
+	"Sho Shitatsu"
+	"Sho Shitsu"
+	"Sho Taikyu"
+	"Sho Toku"
+	"Shun Bajunki"
+	"Shunten"
+	"Shuri"
+	"Taisei"
+	"Tamagusuku"
+}

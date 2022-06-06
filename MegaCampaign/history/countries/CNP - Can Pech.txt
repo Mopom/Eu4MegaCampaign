@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = mesoamerican
+religion = mesoamerican_religion
+primary_culture = yucatec
+capital = 845
+historical_rival = COC
+1399.1.1= {
+	monarch = {
+		name = "Ah"
+		dynasty = "Ceh Pech"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

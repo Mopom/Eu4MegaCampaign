@@ -1,0 +1,12 @@
+owner = LDU
+controller = LDU
+capital = "Mbebwe"
+is_city = yes
+culture = nyasa
+religion = shamanism
+trade_goods = cloth
+base_tax = 3
+base_production = 2
+base_manpower = 4
+add_core = LDU
+discovered_by = central_african

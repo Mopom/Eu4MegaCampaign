@@ -1,0 +1,133 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 105 30 41 }
+revolutionary_colors = { 13 10 13 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	native_indian_archer
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Abishabis #0" = 20
+	"Elin #0" = -1
+	"Kamiokisihkwew #0" = 20
+	"Kapapamahchakwew #0" = 20
+	"Katchang #0" = 20
+	"Keneswabe #0" = 20
+	"Kiwash #0" = 20
+	"Kwakigigckewang #0" = 20
+	"Matawagan #0" = 20
+	"Meriy #0" = -1
+	"Missabay #0" = 20
+	"Mistahi-maskwa #0" = 20
+	"Moonias #0" = 20
+	"Nahookeesic #0" = 20
+	"Odagamea #0" = 20
+	"Oombash #0" = 20
+	"Ostamas #0" = 20
+	"Panacheese #0" = 20
+	"Payipwat #0" = 20
+	"Pitikwahanapiwiyin #0" = 20
+	"Pootoosh #0" = 20
+	"Tepastenam #0" = 20
+	"Torotiy #0" = -1
+	"Wahwaashkung #0" = 20
+	"Wenangasie #0" = 20
+	"Yesno #0" = 20
+}
+leader_names = {
+	"Attawapiskat"
+	"Bunibonibee"
+	"Chemawawin"
+	"Chisasibi"
+	"Iyiyiw"
+	"Kapawe'no"
+	"Kashechewan"
+	"Mamihkiyiniwak"
+	"Manto Sipi"
+	"Maskekowak"
+	"Mikisew"
+	"Misipawistik"
+	"Missanabie"
+	"Mistissini"
+	"Mosakahiken"
+	"Mosoni"
+	"Nehinawak"
+	"Nekaneet"
+	"Nemaska"
+	"Neskntaga"
+	"Nisichawayashik"
+	"O-pipon-na-piwin"
+	"Ochapowace"
+	"Opaskwayak"
+	"Ouje-Bougoumou"
+	"Peepeekisis"
+	"Pimicikamak"
+	"Sakawithiniwak"
+	"Sapotaweyak"
+	"Shamattawa"
+	"Tatskweyak"
+	"Taykwa"
+	"Wabasca"
+	"Waskaganish"
+	"Waswanipi"
+	"Weenusk"
+	"Wemindji"
+	"Whapmagoostui"
+	"Wuskwi"
+}
+ship_names = {
+	"Attawapiskat"
+	"Bunibonibee"
+	"Chemawawin"
+	"Chisasibi"
+	"Iyiyiw"
+	"Kapawe'no"
+	"Kashechewan"
+	"Mamihkiyiniwak"
+	"Manto Sipi"
+	"Maskekowak"
+	"Mikisew"
+	"Misipawistik"
+	"Missanabie"
+	"Mistissini"
+	"Mosakahiken"
+	"Mosoni"
+	"Nehinawak"
+	"Nekaneet"
+	"Nemaska"
+	"Neskntaga"
+	"Nisichawayashik"
+	"O-pipon-na-piwin"
+	"Ochapowace"
+	"Opaskwayak"
+	"Ouje-Bougoumou"
+	"Peepeekisis"
+	"Pimicikamak"
+	"Sakawithiniwak"
+	"Sapotaweyak"
+	"Shamattawa"
+	"Tatskweyak"
+	"Taykwa"
+	"Wabasca"
+	"Waskaganish"
+	"Waswanipi"
+	"Weenusk"
+	"Wemindji"
+	"Whapmagoostui"
+	"Wuskwi"
+}

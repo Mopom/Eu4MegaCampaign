@@ -1,0 +1,14 @@
+owner = LXA
+controller = LXA
+capital = "Champasak"
+is_city = yes
+culture = lao
+religion = animism
+trade_goods = tea
+base_tax = 4
+base_production = 3
+base_manpower = 3
+add_core = CHK
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian

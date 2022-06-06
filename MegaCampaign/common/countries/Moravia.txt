@@ -1,0 +1,141 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 232 149 18 }
+revolutionary_colors = { 5 13 0 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	administrative_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alzbeta #0" = -1
+	"Anezka #0" = -1
+	"Anton #0" = 0
+	"Bocek #0" = 0
+	"Boleslav #0" = 5
+	"Conrad #1" = 5
+	"Eliska #0" = -1
+	"Ferdinand #0" = 5
+	"Frantisek #0" = 0
+	"Frantisek Josef #0" = 0
+	"Jan #1" = 10
+	"Jarom0r #0" = 5
+	"Jaroslav #0" = 1
+	"Jindrich #0" = 5
+	"Josef #0" = 5
+	"Josef V0clav #0" = 0
+	"Karel #1" = 10
+	"Karel Josef #0" = 0
+	"Katerina #0" = -1
+	"Ludmila #0" = -1
+	"Ludv0k #0" = 0
+	"Marie #0" = -1
+	"Maty0 #0" = 0
+	"Ottokar #1" = 5
+	"Petr #0" = 0
+	"Viktor #0" = 0
+	"Viktor0n #0" = 0
+	"Vil0m #0" = 5
+	"Vladim0r #0" = 0
+	"Vladislav #3" = 40
+	"Vratislav #0" = 5
+	"Wenceslaus #2" = 20
+	"Zikmund #1" = 10
+}
+leader_names = {
+	"Berka"
+	"Capek"
+	"Harant"
+	"Haugvicové z Biskupic"
+	"Jiskra"
+	"Kaspar"
+	"Kolowrat"
+	"Komenský"
+	"Mansfeld"
+	"Petrasch"
+	"Pilchramb"
+	"Purkyne"
+	"Píka"
+	"Reiner"
+	"Schwarzenberg"
+	"Sokol"
+	"Syrový"
+	"Thurn"
+	"Velen"
+	"Veliký"
+	"Zajíc"
+	"Zelezný"
+	"z Boskovic"
+	"z Brandýsa"
+	"z Ditrichštejna"
+	"z Falkensteina"
+	"z Husi"
+	"z Kunštátu a Podebrad"
+	"z Lichtenštejna"
+	"z Nostic"
+	"z Otradovic"
+	"z Pardubic"
+	"z Pernštejna"
+	"z Polzic"
+	"z Rozmberka"
+	"z Rozmitálu"
+	"z Vartemberka"
+	"z Veleslavína"
+	"ze Lvovic"
+	"ze Svamberka"
+	"ze Zerotína"
+	"Žerotínové"
+}
+ship_names = {
+	"Bystrý"
+	"Cechy"
+	"Ctirad"
+	"Hvezda"
+	"Jan Hus"
+	"Jan Zizka"
+	"Kníze Bretislav"
+	"Král Boleslav"
+	"Král Karel"
+	"Král Premysl"
+	"Libuse"
+	"Morava"
+	"Nejsvetejsí Trojice"
+	"Neporazitelný"
+	"Odvázný"
+	"Orel"
+	"Panna Maria Vitezná"
+	"Premysl Orac"
+	"Prokop Holý"
+	"Rychlý"
+	"Sipka"
+	"Slezsko"
+	"Sokol"
+	"Svatá Anezká"
+	"Svatá Ludmila"
+	"Svatý Jan Nepomucký"
+	"Svatý Jirí"
+	"Svatý Mikulás"
+	"Svatý Vaclav"
+}
+preferred_religion = protestant

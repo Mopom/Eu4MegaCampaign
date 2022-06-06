@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 232 48 2 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abaqa #1" = 20
+	"Abu Sa'id #1" = 20
+	"Anushirwan #1" = 20
+	"Arghun #1" = 20
+	"Arpa #1" = 20
+	"Bahar Banu #0" = -1
+	"Baydu #1" = 20
+	"Fatin #1" = -1
+	"Gaykhatu #1" = 20
+	"Gazan #2" = 20
+	"Hulagu #1" = 20
+	"Jahan #0" = 10
+	"Jahan Tem0r #1" = 20
+	"Jahanara #0" = -1
+	"Muhammad #1" = 20
+	"Mumtaz #0" = -1
+	"Musa #1" = 20
+	"Oljeitu #1" = 20
+	"Roshanara #0" = -1
+	"Sati Beg #1" = 20
+	"Solayman #1" = 20
+	"Tekuder #1" = 20
+	"Tem0r #0" = 10
+}
+leader_names = {
+	"Abbâs"
+	"Abû"
+	"Akbar"
+	"Bakr"
+	"Borjigin"
+	"Genghisid"
+	"Jahagir"
+	"Jalâl"
+	"Jâmî"
+	"Khalil"
+	"Mohsin"
+	"Zaman"
+	"ud-Dîn"
+}
+ship_names = {
+	"Adai"
+	"Batu"
+	"Bo'orchu"
+	"Borokhula"
+	"Böke"
+	"Chagaan"
+	"Chilaun"
+	"Dharmapala"
+	"Dörben Külü'üd"
+	"Dörben Noyas"
+	"Elbeg"
+	"Ghengis Khan"
+	"Hohhot"
+	"Hülegü"
+	"Jebe"
+	"Jelme"
+	"Jinggim"
+	"Jöchi"
+	"Kamala"
+	"Karakorum"
+	"Khar Khiruge"
+	"Khubilai"
+	"Mugali"
+	"Möngke"
+	"Qubilai"
+	"Shikhikhutug"
+	"Sorqan Shira"
+	"Subutai"
+	"Tolui"
+	"Yelü Chucai"
+	"Yingchang"
+	"Ögödei"
+	"Örüg Temür"
+}

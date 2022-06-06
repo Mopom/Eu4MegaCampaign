@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = occitain
+capital = 202
+fixed_capital = 202
+add_accepted_culture = cosmopolitan_french
+1394.9.17= {
+	monarch = {
+		name = "Benedictus XIII"
+		adm = 1
+		dip = 3
+		mil = 0
+	}
+}

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = chinese_warlord
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = chimin
+capital = 738
+add_accepted_culture = polynesian

@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Hanzhong"
+is_city = yes
+culture = xibei
+religion = confucianism
+trade_goods = iron
+base_tax = 4
+base_production = 4
+base_manpower = 3
+add_core = CSH
+add_core = MNG
+add_core = QIN
+discovered_by = chinese
+discovered_by = nomad_group

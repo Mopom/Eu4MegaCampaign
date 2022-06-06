@@ -1,0 +1,13 @@
+owner = CSU
+controller = CSU
+capital = "Quero"
+is_city = yes
+culture = inca
+religion = inti
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = CSU
+discovered_by = andean
+discovered_by = south_american

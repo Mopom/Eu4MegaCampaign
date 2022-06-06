@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 80 200 120 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	maritime_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam #0" = 10
+	"Alessandru #0" = 10
+	"Anard #0" = 0
+	"Anna #0" = -1
+	"Anton #0" = 10
+	"Baldassar #0" = 10
+	"Bertu #0" = 0
+	"Claudia #0" = -1
+	"Elija #0" = 10
+	"Emmanwel #0" = 10
+	"Ferdinandus #0" = 10
+	"Frangisk #0" = 10
+	"Fredu #0" = 10
+	"Gabriel #0" = 10
+	"Gamri #0" = 10
+	"Gavino #0" = 10
+	"Gerardo #0" = 10
+	"Girgor #0" = 10
+	"Guzeppi #0" = 10
+	"Jarad #0" = 10
+	"Karm #0" = 10
+	"Karmenu #0" = 10
+	"Konstantinu #0" = 10
+	"Lawrenz #0" = 10
+	"Leonardu #0" = 10
+	"Manwel #0" = 0
+	"Maria #0" = -1
+	"Massimiljanu #0" = 10
+	"Nazarenu #0" = 10
+	"Nikola #0" = 10
+	"Oliver #0" = 10
+	"Pawlina #0" = -1
+	"Pietru #0" = 10
+	"Piju #0" = 0
+	"Pinu #0" = 10
+	"Saverju #0" = 10
+	"Turu #0" = 0
+	"Valentin #0" = 10
+	"Varist #0" = 10
+	"Vincenz #0" = 10
+	"Wenzu #0" = 0
+	"Zaru #0" = 0
+}
+leader_names = {
+	"Ahmad"
+	"Hussain"
+	"Jahagir"
+	"Mahmud"
+	"Mirza"
+	"Mohsin"
+	"Rukh"
+	"Sa'id"
+	"Uways"
+	"Zaman"
+}
+ship_names = {
+	"Alfonse of Portugal"
+	"Arnaud de Comps"
+	"Auger de Balben"
+	"Garnier de Naplous"
+	"Gastone de Murols"
+	"Geoffrey le Rat"
+	"Geoffroy de Donjon"
+	"Gilbert d'Aissailly"
+	"Gilbert of Syria"
+	"Hermangard d'Asp"
+	"Hélion de Villeneuve"
+	"Raymond du Puy de Provence"
+	"Roger de Moulins"
+	"The Blessed Gerard"
+}

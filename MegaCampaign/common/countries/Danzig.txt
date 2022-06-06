@@ -1,0 +1,164 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 78 129 151 }
+revolutionary_colors = { 8 5 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	innovativeness_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Adrian #0" = 0
+	"Albrecht #0" = 0
+	"Andreas #0" = 0
+	"Aniela #0" = -1
+	"August #0" = 0
+	"Bernhard #0" = 0
+	"Christian #0" = 15
+	"Cornelius #0" = 0
+	"Dietrich #0" = 0
+	"Ferdinand #0" = 0
+	"Filipa #0" = -1
+	"Franz Joseph #0" = 20
+	"Friedrich #0" = 10
+	"Georg #0" = 0
+	"Gerhard #0" = 0
+	"G0nther #0" = 0
+	"Heinrich #0" = 0
+	"Ignatz #0" = 0
+	"Isidor #0" = 0
+	"Jakob #0" = 10
+	"Joachim #0" = 10
+	"Joseph #0" = 0
+	"Karl #0" = 15
+	"Kasimir #0" = 15
+	"Kaspar #0" = 10
+	"Konstantin #0" = 0
+	"Lorenz #0" = 0
+	"Ludwig #0" = 0
+	"Lukas #0" = 0
+	"Marius #0" = 0
+	"Markus #0" = 0
+	"Matthias #0" = 0
+	"Michael #0" = 0
+	"Nicolaus #0" = 0
+	"Paul #0" = 0
+	"Raphael #0" = 0
+	"Renata #0" = -1
+	"Rudolf #0" = 0
+	"Sigmund #0" = 0
+	"Stephan #0" = 0
+	"Thomas #0" = 0
+	"Wenzel #0" = 0
+}
+leader_names = {
+	"Briesen"
+	"Knobelsdorf"
+	"Linkendorf"
+	"Riwotzki"
+	"Schach"
+	"Schnittern"
+	"von Hohenzollern"
+	"von Kyau"
+	"von Seel"
+	"von Taubeneck"
+}
+ship_names = {
+	"Adler von Lübeck"
+	"Admiralität von Hamburg"
+	"Afrikaner"
+	"Anna"
+	"Arche Noah"
+	"Bersteinfänger"
+	"Bracke"
+	"Brunte Kuh"
+	"Clementia"
+	"Colonia"
+	"Der Große Adler"
+	"Derffinger"
+	"Dorothea"
+	"Engel"
+	"Engel Gabriel"
+	"Feuerblase"
+	"Fliegender Hirsch"
+	"Fortuna"
+	"Friede"
+	"Fuchs"
+	"Füchslein"
+	"Gabriel"
+	"Gelber Löve"
+	"Goldener Löwe"
+	"Grafschaft Mark"
+	"Grüner Drache"
+	"Herzogtum Cleve"
+	"Hoffning"
+	"Jesus von Lübeck"
+	"Johannesburg"
+	"Jonge Tobias"
+	"Kurprinz"
+	"König David"
+	"Leopoldus Primus"
+	"Lisa von Lübeck"
+	"Lybischer Trotz"
+	"Lübscher Adler"
+	"Makarele"
+	"Maria Catharina"
+	"Meermann"
+	"Meerweib"
+	"Mercurius"
+	"Morian"
+	"Nordischer Löwe"
+	"Pax"
+	"Peter und Paul"
+	"Peter von Danzig"
+	"Pierelepomp"
+	"Prinz Ludwig"
+	"Prophet Daniel"
+	"Ritter Sankt Georg"
+	"Roland"
+	"Rommelpot"
+	"Rosenfelde"
+	"Roter Hirsch"
+	"Salamander"
+	"Sankt Laurens"
+	"Sankt Peter"
+	"Schwarzer Rabe"
+	"Seemoewe"
+	"Seeritter"
+	"Sieben Provinzien"
+	"Stad Emden"
+	"Syrig"
+	"Vogel Greif"
+	"Wapen von Bremen"
+	"Wapen von Hamburg"
+	"Wappen von Bremen"
+	"Wappen von Cleve"
+	"Wasserhund"
+	"Weißer Löwe"
+	"Wilhelmina Margaretta"
+	"Windhund"
+	"Wolkensäule"
+	"Zwei Brüder"
+}

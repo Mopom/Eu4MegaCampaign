@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = polynesian_tribe
+government_rank = 2
+technology_group = polynesian_tech
+religion = animism
+primary_culture = maori
+capital = 1106

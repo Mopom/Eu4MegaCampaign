@@ -1,0 +1,15 @@
+owner = MNG
+controller = MNG
+capital = "Jianning"
+is_city = yes
+culture = chimin
+religion = confucianism
+trade_goods = tea
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = MIN
+add_core = MNG
+add_core = NNG
+discovered_by = chinese
+discovered_by = nomad_group

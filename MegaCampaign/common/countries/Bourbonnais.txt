@@ -1,0 +1,189 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 0 140 165 }
+revolutionary_colors = { 13 5 13 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adh0mar #1" = 1
+	"Alexandre #0" = 0
+	"Ambroise #0" = 0
+	"Antoine #0" = 20
+	"Archambault #10" = 1
+	"Armand #0" = 0
+	"Barth0lemy #0" = 0
+	"Beno0t #0" = 0
+	"Blaise #0" = 0
+	"Charles #0" = 80
+	"Claude #0" = 0
+	"Fran0ois #0" = 10
+	"Georges #0" = 0
+	"Guillaume #0" = 0
+	"Guy #1" = 1
+	"Henri #0" = 10
+	"Ignace #0" = 0
+	"Jean #0" = 40
+	"Jean-Baptiste #0" = 0
+	"Joseph #0" = 0
+	"Jules #0" = 0
+	"Louis #2" = 10
+	"Marguerite #0" = -1
+	"Marie #0" = -1
+	"Martin #0" = 0
+	"Matthieu #0" = 0
+	"Maurice #0" = 0
+	"Maximilien #0" = 0
+	"Michel #0" = 0
+	"Nicolas #0" = 0
+	"Philippe #0" = 5
+	"Pierre #1" = 20
+	"Raoul #0" = 0
+	"Renaud #0" = 0
+	"Robert #1" = 1
+	"Roland #0" = 0
+	"Serge #0" = 0
+	"Suzanne #0" = -10
+	"Sylvain #0" = 0
+	"S0bastien #0" = 0
+	"Thibault #0" = 0
+	"Vincent #0" = 0
+}
+leader_names = {
+	"Aujay de la Dure"
+	"Cordeboeuf de Beauverger"
+	"Hutteau d'Origny"
+	"Motier de La Fayette"
+	"d'Arcy d'Ally"
+	"d'Arfeuil"
+	"d'Arnoux"
+	"d'Ussel"
+	"de Bar"
+	"de Barbançois"
+	"de Barbarin"
+	"de Basmaison"
+	"de Beauvoir"
+	"de Bellenaves"
+	"de Bodinat"
+	"de Boisé"
+	"de Bonnefont"
+	"de Bonnevie"
+	"de Boucaumont"
+	"de Bourbon-Busset"
+	"de Bressoles"
+	"de Breuil"
+	"de Buchepot"
+	"de Buysson"
+	"de Chabannes de La Palice"
+	"de Champfeu"
+	"de Chazeron"
+	"de Faucompré"
+	"de Fontanges"
+	"de Frémont"
+	"de Genestaux"
+	"de Groing"
+	"de Grossouvre"
+	"de La Baume"
+	"de La Boulaye"
+	"de La Vallière"
+	"de Magnoux"
+	"de Monestay"
+	"de Neufchaises"
+	"de Neuville"
+	"de Rochedragon"
+	"de Saint-Julien"
+	"de Troussebois"
+	"de Villaines"
+	"de Villars"
+	"de la Bussière"
+	"de la Roche-Aymon"
+	"du Gué"
+	"du Mas de l'Isle"
+	"du Peschin"
+}
+ship_names = {
+	"l'Ebreuil"
+	"l'Ygrande"
+	"le Barrais-Bussoles"
+	"le Beauvoir"
+	"le Bellerive"
+	"le Bessay"
+	"le Besson"
+	"le Bourbon-Lancy"
+	"le Bourbon-l'Archambaut"
+	"le Buxières"
+	"le Chantelle"
+	"le Chavroches"
+	"le Chevagne"
+	"le Châtelguyon"
+	"le Combronde"
+	"le Commentry"
+	"le Couleuvre"
+	"le Cressanges"
+	"le Cusset"
+	"le Cérilly"
+	"le Dompierre"
+	"le Gannat"
+	"le Jaligny"
+	"le Lapalisse"
+	"le Le Montet"
+	"le Marcillat"
+	"le Meaulne"
+	"le Monestier"
+	"le Montaigut"
+	"le Montcombroux"
+	"le Montluçon"
+	"le Montmarault"
+	"le Montord"
+	"le Moulins"
+	"le Neuilly-le-Réal"
+	"le Néris"
+	"le Pionsat"
+	"le Saint-Aubin-le-Monial"
+	"le Saint-Germain"
+	"le Saint-Hilaire"
+	"le Saint-Léon"
+	"le Saint-Pierre-Laval"
+	"le Saint-Pourçain"
+	"le Saint-Rémy"
+	"le Saint-Yorre"
+	"le Saint-Éloy"
+	"le Saint-Étienne-de-Vicq"
+	"le Souvigny"
+	"le Varennes"
+	"le Vichy"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Bourbon"
+	"Armée de Limagne"
+	"Armée de l'Allier"
+	"Armée de la Marche"
+	"Armée du Beaujolais"
+	"Armée du Bourbonnais"
+	"Armée du Forez"
+}

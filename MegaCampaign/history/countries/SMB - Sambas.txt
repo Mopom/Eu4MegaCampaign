@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = chinese
+religion = hinduism
+primary_culture = bornean
+capital = 640
+1444.1.1= {
+	monarch = {
+		name = "Sepudak"
+		dynasty = "Sambas"
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
+1480.1.1= {
+	monarch = {
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

@@ -1,0 +1,12 @@
+owner = KIK
+controller = KIK
+capital = "Kanongesha"
+is_city = yes
+culture = luba
+religion = shamanism
+trade_goods = copper
+base_tax = 1
+base_production = 2
+base_manpower = 2
+add_core = KIK
+discovered_by = central_african

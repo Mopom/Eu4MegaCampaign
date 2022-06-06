@@ -1,0 +1,14 @@
+owner = LXA
+controller = LXA
+capital = "Sip Et"
+is_city = yes
+culture = lao
+religion = buddhism
+trade_goods = ivory
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = CHK
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian

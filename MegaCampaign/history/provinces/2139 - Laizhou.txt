@@ -1,0 +1,16 @@
+owner = MNG
+controller = MNG
+capital = "Laizhou"
+is_city = yes
+culture = shandong_culture
+religion = confucianism
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 2
+extra_cost = 8
+center_of_trade = 1
+add_core = MNG
+add_core = QIC
+discovered_by = chinese
+discovered_by = nomad_group

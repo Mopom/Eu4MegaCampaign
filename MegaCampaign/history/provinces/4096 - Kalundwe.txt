@@ -1,0 +1,12 @@
+owner = KLD
+controller = KLD
+capital = "Kalundwe"
+is_city = yes
+culture = luba
+religion = shamanism
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = KLD
+discovered_by = central_african

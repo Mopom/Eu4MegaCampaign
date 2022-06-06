@@ -1,0 +1,133 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 50 37 125 }
+revolutionary_colors = { 13 16 13 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	chinese_dragoon
+	chinese_footsoldier
+	chinese_longspear
+	chinese_steppe
+	eastern_bow
+	han_banner
+	manchu_banner
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+	reformed_manchu_rifle
+}
+monarch_names = {
+	"Akal #0" = -1
+	"Akar #1" = -1
+	"Bhavashankari #0" = -1
+	"Bhimsingha #0" = 0
+	"Candrabhattarikadevi #0" = -1
+	"Chandaladevi #0" = -1
+	"Chungsang Ormang #1" = 10
+	"Chéchentsa Tsédé #1" = 10
+	"Daipat #0" = 0
+	"Daivika #0" = 0
+	"Devavati #0" = -1
+	"Devi Ahiylya #0" = -1
+	"Dhruvasvamini #0" = -1
+	"Fuyun #0" = 0
+	"Ganeshwar Singh #0" = 0
+	"Gopalavarma #1" = 10
+	"Gunga #1" = 10
+	"Gyalsig Shuteng #1" = 10
+	"Gyaltore Taknye #1" = 10
+	"Hirai #0" = -1
+	"Jangchup-Ö #1" = 10
+	"Jhetpal #0" = 0
+	"Kalbhoj #1" = 10
+	"Kanwar #0" = -1
+	"Kavah #1" = 10
+	"Khorré #1" = 10
+	"Kyesang Dongtsab #1" = 10
+	"Lasya #0" = -1
+	"Lhadé #1" = 10
+	"Lontramo #1" = 10
+	"Lotsen #1" = 10
+	"Magyal #0" = -1
+	"Mangje Lhalo #1" = 10
+	"Mangpoje Lhasung #1" = 10
+	"Mangpoje Shangnang #1" = 10
+	"Mangsham Sumnang #1" = 10
+	"Mangsham Taktsab #1" = 10
+	"Mihika #0" = -1
+	"Nakdé #2" = 10
+	"Namdé Ösung #1" = 10
+	"Nangshar Sutsen #1" = 10
+	"Narasanayaka #0" = 0
+	"Obayamma #0" = -1
+	"Pelkhortsen #1" = 10
+	"Pelmö #0" = -1
+	"Polavira #0" = 0
+	"Pratapnarayan #0" = 0
+	"Pungse Sutse #1" = 10
+	"Revakanimmadi #0" = -1
+	"Shang Gyaltsen Lhanang #1" = 10
+	"Songngé Yéshé-Ö #1" = 10
+	"Sundaridevi #0" = -1
+	"Tadra Khonglo #1" = 10
+	"Takdra Lukhong #1" = 10
+	"Tao #0" = -1
+	"Thrikhyiding #1" = 10
+	"Tongtsen Yulsung #3" = 10
+	"Trashi Tsentsen #1" = 10
+	"Trashigön #1" = 10
+	"Trinring Tsendro #1" = 10
+	"Trisang Yalag #1" = 10
+	"Trisig Shangnyen #2" = 10
+	"Trisu Ramsha #1" = 10
+	"Trisumje Taknang #1" = 10
+	"Tsenye Dompu #1" = 10
+	"Valhana #0" = 0
+	"Vijnayavati #0" = -1
+	"Viryarama #0" = 0
+	"Yachama #0" = 0
+	"Yograj #0" = 0
+	"Zanggyel #1" = 10
+	"Ödétsen #1" = 10
+}
+leader_names = {
+	"Gampo"
+	"Phuntsok"
+	"Sonam"
+	"Sregs"
+	"Srong"
+	"Tashi"
+	"Thekchen"
+	"Tsewang"
+	"Wangdak"
+	"Wangdue"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

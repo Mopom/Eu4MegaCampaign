@@ -1,0 +1,191 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 205 178 107 }
+revolutionary_colors = { 0 1 16 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quantity_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aim0e #0" = 0
+	"Albert #0" = 0
+	"Alexandre #0" = 0
+	"Am0d0e #0" = 0
+	"Andr0 #0" = 0
+	"Antoine #0" = 0
+	"Armand #0" = 0
+	"Arnaud #0" = 0
+	"Barth0l0my #0" = 0
+	"Bastian #0" = 0
+	"Benedictus #12" = 60
+	"Beno0t #0" = 0
+	"Bertrand #0" = 0
+	"Calude #0" = 0
+	"Charles #0" = 0
+	"Clemens #7" = 20
+	"Cl0ment #0" = 0
+	"C0sar #0" = 0
+	"Denis #0" = 0
+	"Donat #0" = 0
+	"Ermenegilde #0" = 0
+	"Eudes #0" = 0
+	"Fabien #0" = 0
+	"Florette #0" = -1
+	"F0lix #0" = 0
+	"Gregorius #11" = 10
+	"Gr0goire #0" = 0
+	"Honor0 #0" = 0
+	"Innocentius #6" = 5
+	"Iohannes #22" = 10
+	"Jasmine #0" = -1
+	"Jean #0" = 0
+	"Jean-Baptiste #0" = 0
+	"Jourdain #0" = 0
+	"Louis #0" = 0
+	"L0on #0" = 0
+	"Paul #0" = 0
+	"Pierre #0" = 0
+	"Sylvain #0" = 0
+	"Urbanus #5" = 5
+	"0douard #0" = 0
+	"0lo0se #0" = -1
+	"0tienne #0" = 0
+}
+leader_names = {
+	"Balbani"
+	"Grimaldi"
+	"Imperiali"
+	"Juliani"
+	"Odde de Bonniot"
+	"Pelletier de Gigondas"
+	"Raimond de Mormoiron"
+	"Raousset"
+	"Tonduti"
+	"d'Agoult"
+	"d'Allemand"
+	"d'Ancézune"
+	"d'Artaud"
+	"d'Astouaud"
+	"d'Orange"
+	"d'Orléans de la Motte"
+	"d'Urban"
+	"de Baldoni"
+	"de Berton de Balbes"
+	"de Brancas"
+	"de Caritat de Condorcet"
+	"de Cavaillon"
+	"de Cheisolme"
+	"de Crillon"
+	"de Farges"
+	"de Fontfroide"
+	"de Fortia"
+	"de Galléan"
+	"de Grignan"
+	"de Joannis"
+	"de Libertat"
+	"de Lopès"
+	"de Lévis"
+	"de Malespine"
+	"de Marseille-Vintimille"
+	"de Mistral de Mondragon"
+	"de Montauban"
+	"de Montmorency"
+	"de Novarin"
+	"de Panisse"
+	"de Pascalis"
+	"de Péruzzi"
+	"de Raffélis"
+	"de Saluces"
+	"de Vassadel"
+	"de Villeneuve"
+	"des Alrics"
+	"des Balbs"
+	"des Isnards"
+	"des Seguins"
+}
+ship_names = {
+	"Notre Dame"
+	"Saint Andiol"
+	"Saint André"
+	"Saint Antonin"
+	"Saint Auban"
+	"Saint Aubert"
+	"Saint Cannat"
+	"Saint Claude"
+	"Saint Cyr"
+	"Saint Edh"
+	"Saint Etienne"
+	"Saint Gabriel"
+	"Saint Genis"
+	"Saint Geniès"
+	"Saint Hyppolyte"
+	"Saint Jean"
+	"Saint Jérôme"
+	"Saint Laurent"
+	"Saint Maime"
+	"Saint Marc"
+	"Saint Marcel"
+	"Saint Marcellin"
+	"Saint Martin"
+	"Saint Maurice"
+	"Saint Maximin"
+	"Saint Michel"
+	"Saint Pantaléon"
+	"Saint Paul"
+	"Saint Paul Tricastin"
+	"Saint Pierre"
+	"Saint Pierre Avez"
+	"Saint Quenin"
+	"Saint Restitut"
+	"Saint Rimbert"
+	"Saint Romain"
+	"Saint Roman"
+	"Saint Rémy"
+	"Saint Saturnin"
+	"Saint Sauveur"
+	"Saint Vincent"
+	"Saint Véran"
+	"Sainte Anastasie"
+	"Sainte Anne"
+	"Sainte Baume"
+	"Sainte Catherine"
+	"Sainte Colombe"
+	"Sainte Cécile"
+	"Sainte Jalle"
+	"Sainte Marguerite"
+	"Saintes Marie"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Notre Dame"
+	"Armée de Saint Dominique"
+	"Armée de Saint Georges"
+	"Armée de Saint Jacques"
+	"Armée de Saint Jean"
+	"Armée de Saint Maurice"
+	"Armée de Saint Michel"
+	"Armée de l'Archange Gabriel"
+}

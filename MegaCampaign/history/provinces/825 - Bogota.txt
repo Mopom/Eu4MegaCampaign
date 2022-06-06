@@ -1,0 +1,15 @@
+owner = MCA
+controller = MCA
+capital = "Bogotá"
+is_city = yes
+culture = muisca
+religion = inti
+trade_goods = gems
+base_tax = 6
+base_production = 6
+base_manpower = 2
+extra_cost = 8
+center_of_trade = 1
+add_core = MCA
+discovered_by = andean
+discovered_by = south_american

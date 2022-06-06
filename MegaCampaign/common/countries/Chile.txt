@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 236 159 89 }
+revolutionary_colors = { 13 0 8 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adri0n #0" = 0
+	"Agust0n #0" = 20
+	"Alfonso #0" = 0
+	"Antonio #0" = 0
+	"Antonio Jos0 #0" = 10
+	"Benigno #0" = 0
+	"Bernardo #0" = 15
+	"Camilo #0" = 0
+	"Carlos #0" = 0
+	"Cristina #0" = -1
+	"Desiderio #0" = 0
+	"Diego #0" = 0
+	"Eduardo #0" = 0
+	"Emilio #0" = 0
+	"Federico #0" = 0
+	"Felicia #0" = -1
+	"Fernando #0" = 20
+	"Francisco #0" = 15
+	"Germ0n #0" = 0
+	"Isidora #0" = -1
+	"Ismael #0" = 0
+	"Joaqu0n #0" = 0
+	"Jos0 #0" = 20
+	"Juan #0" = 10
+	"Luis #0" = 0
+	"MONARCH_NAME_HIPOLITO #0" = 0
+	"MONARCH_NAME_TEOFILO #0" = 0
+	"Marcelino #0" = 0
+	"Mart0n #0" = 20
+	"Mateo #0" = 10
+	"Nicol0s #0" = 0
+	"Ovidio #0" = 0
+	"Pedro Jos0 #0" = 15
+	"Porfirio #0" = 0
+	"Rufino #0" = 0
+	"Sergio #0" = 0
+	"Urbano #0" = 0
+	"V0ctor #0" = 0
+}
+leader_names = {
+	"Argomedo"
+	"Balmaceda"
+	"Barros"
+	"Bello"
+	"Bilbao"
+	"Blanco"
+	"Borgoño"
+	"Bulnes"
+	"Carrera"
+	"Cochrane"
+	"Echevarría"
+	"Egaña"
+	"Errázuriz"
+	"Freire"
+	"Henríquez"
+	"Herrera"
+	"Infante"
+	"Lastarria"
+	"Mackenna"
+	"Martínez de Aldunate"
+	"Martínez de Rozas"
+	"Marín"
+	"Montt"
+	"Márquez de la Plata"
+	"O'Higgins"
+	"Ovalle"
+	"Pinto"
+	"Portales"
+	"Prieto"
+	"Pérez"
+	"Rengifo"
+	"Rodríguez"
+	"Rosales"
+	"Sarmiento"
+	"Soler"
+	"Tocornal"
+	"Varas"
+	"Vidaurre"
+	"Zañartu"
+	"Zenteno"
+	"de Carrera"
+	"de Irisarri"
+	"de Lasta"
+	"de San Martín"
+	"de Toro"
+	"de Villegas"
+	"de la Cruz"
+	"de la Lastra"
+	"de la Reina"
+	"Álvarez"
+}
+ship_names = {
+	"Abtao"
+	"Blanco Encalada"
+	"Chacubuco"
+	"Esmeralda"
+	"Huascar"
+	"Latorre"
+	"Orella"
+	"Riquelme"
+	"Serrano"
+	"Valparaiso"
+	"Virgilio Uribe"
+}
+colonial_parent = SPA

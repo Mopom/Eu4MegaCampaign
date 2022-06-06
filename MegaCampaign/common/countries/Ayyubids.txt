@@ -1,0 +1,146 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 234 179 30 }
+revolutionary_colors = { 8 10 8 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_score = 270
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"'Abd al-Malik #0" = 0
+	"Abal #0" = -1
+	"Ahmad #0" = 10
+	"Amirah #0" = -1
+	"Basir #0" = 0
+	"Daliyah #0" = -1
+	"Dawud #0" = 10
+	"Fadl #0" = 0
+	"Fadwa #0" = -1
+	"Fahda #0" = -1
+	"Fatimah #0" = -1
+	"Ghayth #0" = 0
+	"Hassan #0" = 10
+	"Hatim #0" = 0
+	"Hiba #0" = -1
+	"Hudun #0" = -1
+	"H0jj0 #0" = 10
+	"Ilyas #0" = 0
+	"Isa #0" = 10
+	"Ismail #0" = 10
+	"Jabir #0" = 0
+	"Jabirah #0" = -1
+	"Kamilah #0" = -1
+	"Khalil #0" = 10
+	"Layla #0" = -1
+	"Maram #0" = -1
+	"Nadim #0" = 0
+	"Nadirah #0" = -1
+	"Nadiyya #0" = -1
+	"Nasir #0" = 10
+	"Nizar #0" = 0
+	"Norah #0" = -1
+	"Qasim #0" = 0
+	"Qismah #0" = -1
+	"Randa #0" = -1
+	"Sa'di #0" = 0
+	"Safaa  #0" = -1
+	"Salih #0" = 10
+	"Sayyid #0" = 0
+	"Sha'b0n #0" = 10
+	"Sulayman #0" = 10
+	"Tahani #0" = -1
+	"Walida #0" = -1
+	"Yunus #0" = 0
+	"Yusuf #0" = 10
+	"al-Adil #0" = 10
+	"al-Ashraf #0" = 10
+	"al-Ashraf Sharaf al-Din #0" = 10
+	"al-Azis #0" = 10
+	"al-Husayn #0" = 10
+	"al-Kamil #0" = 10
+	"al-Kamil Ahmad #0" = 10
+	"al-Muazzam Turan-Shah #0" = 10
+	"al-Muwahhid Taqi al-Din #0" = 10
+	"al-Salih Abu Bakr #0" = 10
+	"al-Salih Najm al-Din #0" = 10
+	"al-Salih Salah al-Din #0" = 10
+	"al-0Adil Fakhr al-Din #0" = 10
+	"al-0Adil Mujir al-Din #0" = 10
+	"al-0Adil Shihab al-Din #0" = 10
+	"az-Zahir #0" = 10
+}
+leader_names = {
+	"Ali"
+	"Aybak"
+	"Baibars"
+	"Bay"
+	"Bey"
+	"Bugha"
+	"Inâl"
+	"Kansur"
+	"Saladin"
+	"Sayfuddin"
+	"Zangi"
+}
+ship_names = {
+	"Ad-Däkhilah"
+	"Adl"
+	"Ahmen Muyaid"
+	"Al-Ali"
+	"Al-Bahriyah"
+	"Al-Farafirah"
+	"Al-Kharijah"
+	"Alim"
+	"Ashraf Barsbay"
+	"Aziz"
+	"Aziz Gamal"
+	"Bari"
+	"Basir"
+	"Basit"
+	"Ben Barqooq"
+	"Farag Ben Barqooq"
+	"Fattah"
+	"Ghaffar"
+	"Hakam"
+	"Jabbar"
+	"Khafid"
+	"Khaliq"
+	"Malik"
+	"Mu'izz"
+	"Mu'min"
+	"Mudhill"
+	"Muhaymin"
+	"Musawwir"
+	"Mutakabbir"
+	"Muyaid Sheikh"
+	"Nahr an-Nil"
+	"Nasser Muhamed"
+	"Qabid"
+	"Qahhar"
+	"Quddus"
+	"Rafi"
+	"Rahim"
+	"Rahman"
+	"Razzaq"
+	"Salam"
+	"Sami"
+	"Wahhab"
+	"Zaher Barqooq"
+	"Zaher Tatar"
+}

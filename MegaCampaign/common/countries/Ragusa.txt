@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 160 82 128 }
+revolutionary_colors = { 5 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adriano #0" = 0
+	"Alessandro #0" = 0
+	"Amedeo #0" = 0
+	"Antonio #0" = 0
+	"Biagio #0" = 10
+	"Cesare #0" = 0
+	"Cipriano #0" = 0
+	"Danilo #0" = 0
+	"Demetrio #0" = 0
+	"Domenico #0" = 0
+	"Edoardo #0" = 0
+	"Ercole #0" = 0
+	"Francesco #0" = 20
+	"Francesco Giuseppe #0" = 10
+	"Gaetano #0" = 0
+	"Gaspare #0" = 0
+	"Giacomo #0" = 0
+	"Giorgio #0" = 0
+	"Giovanni #0" = 20
+	"Girolamo #0" = 0
+	"Giulio #0" = 10
+	"Giuseppe #0" = 0
+	"Guido #0" = 0
+	"Hyeronimus #0" = 10
+	"Isidoro #0" = 0
+	"Ladislao #0" = 0
+	"Ludovico #0" = 0
+	"Marcello #0" = 0
+	"Mario #0" = 0
+	"Matteo #0" = 15
+	"Nedeljka #0" = -1
+	"Nero #0" = 0
+	"Niccol0 #0" = 10
+	"Orazio #0" = 0
+	"Ottavio #0" = 0
+	"Paolo #0" = 0
+	"Renato #0" = 0
+	"Rogerio #0" = 10
+	"Segismondo #0" = 20
+	"Tamara #0" = -1
+	"Timoteo #0" = 0
+	"Vedrana #0" = -1
+	"Vittorio #0" = 10
+}
+leader_names = {
+	"Bona"
+	"Bosdari"
+	"Boshko"
+	"Caboga"
+	"Cerva"
+	"Ghetaldi"
+	"Giorgi"
+	"Gondola"
+	"Gozze"
+	"Gradic"
+	"Gundulic"
+	"Luccari"
+	"Pozza"
+	"Reesti"
+	"Saraca"
+	"Sorgo"
+	"Tudisi"
+	"Vucic"
+	"Zamagna"
+	"Zlataric"
+}
+ship_names = {
+	"Dubac"
+	"Gromaca"
+	"Kolocap"
+	"Komlac"
+	"Kupari"
+	"Mokosica"
+	"Orasac"
+	"Ragusa"
+	"Rozat"
+	"Trsteno"
+	"Zanton"
+}

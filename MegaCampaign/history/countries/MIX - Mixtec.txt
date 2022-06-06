@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = mesoamerican
+religion = nahuatl
+primary_culture = mixtec
+capital = 847
+1440.1.1= {
+	monarch = {
+		name = "Jaguar Claw"
+		dynasty = "Tututepec"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = swabian
+capital = 4712
+fixed_capital = 4712
+mercantilism = 25
+1440.1.1= {
+	monarch = {
+		name = "Patriziat"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+1525.1.1= {
+	religion = reformed
+}

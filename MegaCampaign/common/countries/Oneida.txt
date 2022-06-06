@@ -1,0 +1,203 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 79 44 187 }
+revolutionary_colors = { 2 0 2 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Achiout #0" = 20
+	"Alliquippa #0" = -1
+	"Anachout #0" = 20
+	"Aqueia #0" = 20
+	"Aupaumut #0" = 20
+	"Cageaga #0" = 20
+	"Chishekoa #0" = 20
+	"Dagaheari #0" = 20
+	"Eootenyootauook #0" = 20
+	"Genessee #0" = -1
+	"Gyantwaia #0" = 20
+	"Gyasota #0" = 20
+	"Hickonquash #0" = 20
+	"Honayawus #0" = 20
+	"Hotoshahen #0" = 20
+	"Jishkaaga #0" = 20
+	"Joonondauwanonch #0" = 20
+	"Kanatsoyh #0" = 20
+	"Kannasseee #0" = 20
+	"Katarioniecha #0" = 20
+	"Kaujeagaonh #0" = 20
+	"Kaukondanaiya #0" = 20
+	"Kaunehshonggoo #0" = 20
+	"Kaungyanehquee #0" = 20
+	"Kayenthoghke #0" = 20
+	"Kendarindgon #0" = 20
+	"Kenjauaugus #0" = 20
+	"Kenneronkwa #0" = 20
+	"Kiandogewa #0" = 20
+	"Kiantwhauka #0" = 20
+	"Kiatulaho #0" = 20
+	"Kiondushowa #0" = 20
+	"Kiyauhaonh #0" = 20
+	"Kodjeote #0" = 20
+	"Kohnyeaugaong #0" = 20
+	"Konneatorteeooh #0" = 20
+	"Konneyoowesot #0" = 20
+	"Konoohqung #0" = 20
+	"Konwatsitiaienni #0" = -1
+	"Konyootiayoo #0" = 20
+	"Kosshishtowau #0" = 20
+	"Kussauwatau #0" = 20
+	"Neeshonshuk #0" = 20
+	"Nondiyauka #0" = 20
+	"Oheadanghton #0" = 20
+	"Onaahhah #0" = 20
+	"Oncahye #0" = 20
+	"Oneatorleeooh #0" = 20
+	"Onecnsetee #0" = 20
+	"Oneshauee #0" = 20
+	"Onnonghsawenghti #0" = 20
+	"Onogwendahonji #0" = 10
+	"Ononyeahnee #0" = 20
+	"Ooduhtsait #0" = 20
+	"Oojaugenta #0" = 20
+	"Ootaguasso #0" = 20
+	"Ootaujeaugenth #0" = 20
+	"Oraghoaenendagen #0" = 20
+	"Oronhyatekha #0" = 10
+	"Otachsaka #0" = 20
+	"Otyadonenghti #0" = 20
+	"Ounnashattakau #0" = 20
+	"Owenewa #0" = 20
+	"Sat0kon #0" = -1
+	"Sauhtakaongyees #0" = 20
+	"Sawedowa #0" = 20
+	"Sequidonguquee #0" = 20
+	"Sessewa #0" = 20
+	"Shaguiesa #0" = 20
+	"Sicahowa #0" = 20
+	"Skenendoa #0" = 20
+	"Snoachshowa #0" = 20
+	"Soaheas #0" = 20
+	"Soggooyawauthau #0" = 20
+	"Sohhonteoquent #0" = 20
+	"Sonhyoowauna #0" = 20
+	"Sooayoowau #0" = 20
+	"Soonongjoowau #0" = 20
+	"Soononhquaukau #0" = 20
+	"Soonoohshoowau #0" = 20
+	"Sooshaoowau #0" = 20
+	"Taoundaudeesh #0" = 20
+	"Tarondawagon #0" = 20
+	"Tauhoondos #0" = 20
+	"Tayagonendagighti #0" = 20
+	"Teeroos #0" = 20
+	"Tehongyagauna #0" = 20
+	"Tehongyoowush #0" = 20
+	"Tehonwaenghrigagi #0" = 20
+	"Teiorhenhsere #0" = 10
+	"Tekahias #0" = 20
+	"Tekakwitha #0" = -1
+	"Telenemut #0" = 20
+	"Tewanias #0" = 20
+	"Thaoowaunias #0" = 20
+	"Thayendanega #0" = 10
+	"Theyanoguin #0" = 10
+	"Tioohquaottakauna #0" = 20
+	"Toheonggo #0" = 20
+	"Tokenhyouau #0" = 20
+	"Tossonggaulolus #0" = 20
+	"Touighnatogon #0" = 20
+	"Tuggehshotta #0" = 20
+	"Twaukewasha #0" = 20
+	"Twenniyana #0" = 20
+	"Tyonajanegen #0" = -1
+}
+leader_names = {
+	"Ahaouet"
+	"Awegen"
+	"Cahunghage"
+	"Canajoharie"
+	"Canastigaone"
+	"Canienga"
+	"Canowaroghere"
+	"Caughnawaga"
+	"Dayoitgao"
+	"Deonundagae"
+	"Deseroken"
+	"Deyodeshot"
+	"Deyohnegano"
+	"Deyonongdadagana"
+	"Gadoquat"
+	"Gandasetaigon"
+	"Gannentaha"
+	"Ganogeh"
+	"Gayagaanhe"
+	"Gewauga"
+	"Goiogouen"
+	"Gweugwehono"
+	"Hostayuntwa"
+	"Kanadaseagea"
+	"Kanagaro"
+	"Kanatakowa"
+	"Kawauka"
+	"Kente"
+	"Kowogoconnughariegugharie"
+	"Neodakheat"
+	"Nowadaga"
+	"Nundawaono"
+	"Onayotekaono"
+	"Onekagoncka"
+	"Onoalagona"
+	"Oquaga"
+	"Oriska"
+	"Osquake"
+	"Ossewingo"
+	"Saratoga"
+	"Schaunactada"
+	"Schoharie"
+	"Skannayutenate"
+	"Teatontaloga"
+	"Tegasoke"
+	"Teseroken"
+	"Tetosweken"
+	"Tewanondadon"
+	"Tionnontoguen"
+	"Yoroonwago"
+}
+ship_names = {
+	"Adekagagwaa"
+	"Ataensic"
+	"Atahensic"
+	"Gah-oh"
+	"Gaol"
+	"Gendenwitha"
+	"Gohone"
+	"Ha Wen Neyu"
+	"Hahgwehdaetgan"
+	"Hahgwehdiyu"
+	"Jogah"
+	"Losheka"
+	"Oki"
+	"Onatha"
+	"Sosondowah"
+	"Tarhuhyiawahku"
+	"Ya-o-gah"
+	"Yosheka"
+}

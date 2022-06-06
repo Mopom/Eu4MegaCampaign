@@ -1,0 +1,120 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 136 158 183 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Akim #0" = 0
+	"Aleksandr #1" = 20
+	"Alyona #0" = -1
+	"Anastas #0" = 0
+	"Anastasia #0" = -1
+	"Anna #0" = -1
+	"Anton #0" = 0
+	"Arseniy #0" = 0
+	"Bogdan #0" = 0
+	"Boris #0" = 20
+	"Daniil #0" = 0
+	"David #0" = 0
+	"Dmitriy #1" = 5
+	"Elizaveta #0" = -1
+	"Ferapont #0" = 0
+	"Fyodor #0" = 0
+	"Isaak #0" = 0
+	"Ivan #1" = 5
+	"Kirill #0" = 0
+	"Konstantin #1" = 5
+	"Lavrentiy #0" = 0
+	"Lazar #0" = 0
+	"Leonti #0" = 0
+	"Luka #0" = 0
+	"Makariy #0" = 0
+	"Maria #0" = -1
+	"Mefodiy #0" = 0
+	"Mikhail #2" = 20
+	"Milan #0" = 0
+	"Mitrofan #0" = 0
+	"Nadezhda #0" = -1
+	"Natasha #0" = -1
+	"Nazariy #0" = 0
+	"Nestor #0" = 0
+	"Nikolai #0" = 0
+	"Nikon #0" = 0
+	"Pyotr #0" = 0
+	"Roman #0" = 0
+	"Serafima #0" = -1
+	"Svyatoslav #1" = 5
+	"Tatiana #0" = -1
+	"Uliana #0" = -3
+	"Veniamin #0" = 0
+	"Viktoriya #0" = -1
+	"Vlad #0" = 0
+	"Vsevolod #0" = 0
+	"Xenia #0" = -1
+	"Yaromir #0" = 0
+	"Yaroslav #2" = 5
+	"Yevgeniy #0" = 0
+	"Yuriy #0" = 20
+	"Zinoviy #0" = 0
+}
+leader_names = {
+	"Andomsky"
+	"Beloselsky"
+	"Chernyatinsky"
+	"Dorogobushsky"
+	"Dyabrinsky"
+	"Kargolomsky"
+	"Kashinsky"
+	"Kemsky"
+	"Kholmsky"
+	"Mikulinsky"
+	"Sheleshpansky"
+	"Sugorsky"
+	"Telyatevsky"
+	"Ukhtomsky"
+	"Vadbolsky"
+}
+ship_names = {
+	"Brosno"
+	"Dmitry"
+	"Kashin"
+	"Kholmsky"
+	"Mikhail"
+	"Rzev"
+	"Startsa"
+	"Toropets"
+	"Torzhok"
+	"Tvertsa"
+	"Valdai"
+	"Volga"
+	"Vyshniy Voloche"
+	"Yaroslavich"
+	"Zubtsov"
+}

@@ -1,0 +1,14 @@
+owner = MNG
+controller = MNG
+capital = "Nanjing"
+is_city = yes
+culture = jianghuai
+religion = confucianism
+trade_goods = silk
+fort_15th = yes
+base_tax = 15
+base_production = 15
+base_manpower = 3
+add_core = MNG
+discovered_by = chinese
+discovered_by = nomad_group

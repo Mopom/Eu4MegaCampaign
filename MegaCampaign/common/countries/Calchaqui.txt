@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 74 44 126 }
+revolutionary_colors = { 6 1 6 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	offensive_ideas
+	maritime_ideas
+	spy_ideas
+	quantity_ideas
+}
+historical_units = {
+	inca_mountain_warfare
+	incan_axemen
+	incan_guerilla_warfare
+	incan_slingshots
+	reformed_westernized_incan
+	south_american_arquebusier
+	south_american_gunpowder_warfare
+	south_american_horsemen
+	south_american_reformed_gunpowder_warfare
+	south_american_spearmen
+	south_american_warfare
+	westernized_incan
+}
+monarch_names = {
+	"Aman #0" = 20
+	"Ana #0" = -1
+	"Anco #0" = 0
+	"Anto #0" = 20
+	"Cafa #0" = 0
+	"Chamijo #0" = 0
+	"Chiklla  #0" = -1
+	"Chimbo #0" = -1
+	"Cora Ocllo #0" = -1
+	"Cuca #0" = -1
+	"Cusirimay  #0" = -1
+	"Fama #0" = 0
+	"Ficpam #0" = 20
+	"Hualpa #0" = 0
+	"Huanchicay #0" = 40
+	"Huilla #0" = 0
+	"Huipa  #0" = -1
+	"Ismi #0" = 0
+	"Michay #0" = -1
+	"Ocllo  #0" = -1
+	"Payo #0" = 20
+	"Qorihillpay #0" = -1
+	"Runu  #0" = -1
+	"Sisa  #0" = -1
+	"Tancol #0" = 0
+	"Tino #0" = 20
+	"Tucuma #0" = 20
+	"Viltipoco #0" = 20
+}
+leader_names = {
+	"Aconquijas"
+	"Anguinahao"
+	"Caca"
+	"Capayan"
+	"Hualfin"
+	"Omaguaca"
+	"Paccioca"
+	"Pular"
+	"Quilme"
+	"Tocpo"
+}
+ship_names = {
+	"Caca"
+	"Capayan"
+	"Elqui"
+	"Hualfin"
+	"Huasco"
+	"Huilla"
+	"Paccioca"
+	"Pular"
+	"Quilme"
+	"Tilcara"
+}

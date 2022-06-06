@@ -1,0 +1,127 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 131 141 142 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+	religious_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Adrian #0" = 0
+	"Afanasiy #0" = 0
+	"Aleksandr #2" = 20
+	"Anatoliy #0" = 0
+	"Arseniy #0" = 0
+	"Daniil #0" = 0
+	"David #1" = 10
+	"Dmitriy #1" = 20
+	"Dorofey #0" = 0
+	"Eduard #0" = 0
+	"Faddey #0" = 0
+	"Feodosiy #0" = 0
+	"Feofil #0" = 0
+	"Ferapont #0" = 0
+	"Foka #0" = 0
+	"Foma #0" = 0
+	"Fyodor #2" = 10
+	"Gavriil #0" = 0
+	"Grigoriy #0" = 0
+	"Igor #0" = 0
+	"Ivan #0" = 20
+	"Kliment #0" = 0
+	"Mefodiy #0" = 0
+	"Mikhail #0" = 0
+	"Naum #0" = 0
+	"Nikita #0" = 0
+	"Nikolai #0" = 0
+	"Pankrati #0" = 0
+	"Prokhor #0" = 0
+	"Radoslav #0" = 0
+	"Ruslan #0" = 0
+	"Semen #0" = 15
+	"Serafim #0" = 0
+	"Sevastian #0" = 0
+	"Stanislav #0" = 0
+	"Tevdokiya #0" = -1
+	"Timofeiy #0" = 0
+	"Uliana #0" = -1
+	"Varfolomeiy #0" = 0
+	"Varvara #0" = -1
+	"Vasiliy #2" = 10
+	"Vikentiy #0" = 0
+	"Viktor #0" = 0
+}
+leader_names = {
+	"Alabyshe"
+	"Alenkin"
+	"Belsky"
+	"Deyev"
+	"Dulov"
+	"Golygin"
+	"Kubensky"
+	"Kurbsky"
+	"Mortkin"
+	"Mulozhsky"
+	"Okhlyabinin"
+	"Pnekov"
+	"Shchetinin"
+	"Siseev"
+	"Sitsky"
+	"Sontsov"
+	"Sudsky"
+	"Temnosiny"
+	"Troekurov"
+	"Ukhorsky"
+	"Ushaty"
+	"Velikogagin"
+	"Yukhotsky"
+	"Zaozersky"
+	"Zasekin"
+	"Zhirovy"
+	"Zubaty"
+}
+ship_names = {
+	"Berendeyevo"
+	"Borisoglebsky"
+	"Borok"
+	"Danilov"
+	"Itolar"
+	"Karabikha"
+	"Kurba"
+	"Lyubim"
+	"Myshkin"
+	"Nekouz"
+	"Nekrasovskoye"
+	"Pesochnoye"
+	"Petrovskoye"
+	"Prechistoye"
+	"Rybinsk"
+	"Semibratovo"
+	"Tunoshna"
+	"Uglich"
+	"Varegove"
+}

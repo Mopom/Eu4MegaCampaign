@@ -1,0 +1,245 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 151 47 32 }
+revolutionary_colors = { 1 1 1 }
+historical_idea_groups = {
+	plutocracy_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	chevauchee
+	french_caracolle
+	french_dragoon
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+}
+monarch_names = {
+	"Anne #0" = -10
+	"Bartholemew #0" = 10
+	"Benjamin #0" = 10
+	"Charles #0" = 10
+	"Charlotte #0" = -1
+	"Edward #0" = 10
+	"Elizabeth #0" = -1
+	"Henry #0" = 10
+	"Israel #0" = 10
+	"Jack #0" = 10
+	"Jacquotte #0" = -1
+	"James #0" = 10
+	"John #0" = 10
+	"Joseph #0" = 10
+	"Lawrence #0" = 10
+	"Mary #0" = -5
+	"Nicholas #0" = 10
+	"Samuel #0" = 10
+	"Stede #0" = 10
+	"William #0" = 10
+}
+leader_names = {
+	"Avery"
+	"Bellamy"
+	"Bones"
+	"Bonnet"
+	"Bonny"
+	"Caesar"
+	"Delahaye"
+	"Flint"
+	"Gates"
+	"Gibbs"
+	"Gunn"
+	"Hands"
+	"Hawkins"
+	"Kidd"
+	"Merry"
+	"Morgan"
+	"Prince"
+	"Rackham"
+	"Read"
+	"Roberts"
+	"Silver"
+	"Sparrow"
+	"Teach"
+	"Vane"
+	"Yeats"
+	"de Berry"
+	"de Graaf"
+}
+ship_names = {
+	"Achilles"
+	"Adamant"
+	"Advantage"
+	"Adventure"
+	"America"
+	"Amity"
+	"Black Dog"
+	"Black Galley"
+	"Black Prince"
+	"Black Rave"
+	"Boreas"
+	"Bounty"
+	"Caesar"
+	"Canterbury"
+	"Captain"
+	"Castor"
+	"Cato"
+	"Cavendish"
+	"Centurion"
+	"Cerberus"
+	"Charles"
+	"Colossus"
+	"Conqueror"
+	"Conquestador"
+	"Constant Reformation"
+	"Courageux"
+	"Crocodile"
+	"Dainty"
+	"Daisy"
+	"Dee"
+	"Defence"
+	"Defiance"
+	"Delivery"
+	"Deptford"
+	"Devastation"
+	"Diamond"
+	"Dido"
+	"Diomede"
+	"Director"
+	"Dolphin"
+	"Dragon"
+	"Drake"
+	"Dreadnaught"
+	"Eagle"
+	"Edgar"
+	"Elephant"
+	"Excellent"
+	"Exchange"
+	"Expedition"
+	"Experiment"
+	"Fame"
+	"Fancy"
+	"Favourite"
+	"Firm"
+	"Flight"
+	"Flirt"
+	"Fortitude"
+	"Foudroyant"
+	"Friday"
+	"Goliath"
+	"Great Fortune"
+	"Great Ranger"
+	"Half Moon"
+	"Hawke"
+	"Hazardous"
+	"Heart"
+	"Hope"
+	"Hunter"
+	"Illustrious"
+	"Impregnable"
+	"Increase"
+	"Indefatigable"
+	"Inflexible"
+	"Intrepid"
+	"Invincible"
+	"Isis"
+	"Jacob"
+	"Jersey"
+	"Liberty"
+	"Magnanime"
+	"Magnificent"
+	"Margaret"
+	"Mars"
+	"Minion"
+	"Minnikin"
+	"Minotaur"
+	"Moderate"
+	"Monarch"
+	"Nassau"
+	"Neptune"
+	"Ocean"
+	"Pearl"
+	"Pelican"
+	"Porcupine"
+	"Powerful"
+	"President"
+	"Primrose"
+	"Promt"
+	"Prudent"
+	"Queen"
+	"Rainbow"
+	"Raisonnable"
+	"Ramillies"
+	"Ranelagh"
+	"Ranger"
+	"Red Lion"
+	"Redoubtable"
+	"Reformation"
+	"Regent"
+	"Renown"
+	"Repulse"
+	"Research"
+	"Reserve"
+	"Resistance"
+	"Resolution"
+	"Restoration"
+	"Revenge"
+	"Rising Sun"
+	"Royal Fortune"
+	"Royal James"
+	"Salamander"
+	"Sampson"
+	"Scarborough"
+	"Scipio"
+	"Seahorse"
+	"Search"
+	"Sovereign"
+	"Speaker"
+	"Temeraire"
+	"Terrible"
+	"Theseus"
+	"Thomas"
+	"Three Kings"
+	"Thunderer"
+	"Tiger"
+	"Triton"
+	"Triumph"
+	"Trusty"
+	"Unicorn"
+	"Union"
+	"Unity"
+	"Valiant"
+	"Vanguard"
+	"Venerable"
+	"Vestal"
+	"Veteran"
+	"Victory"
+	"Vigo"
+	"Vindictive"
+	"Violet"
+	"Volage"
+	"Walrus"
+	"Warrior"
+	"Warspite"
+	"White Bear"
+	"White Raven"
+	"William"
+	"Wydah"
+	"Zealous"
+}

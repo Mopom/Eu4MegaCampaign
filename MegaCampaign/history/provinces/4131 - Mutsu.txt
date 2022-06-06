@@ -1,0 +1,17 @@
+owner = RFR
+controller = RFR
+capital = "Sannohe"
+is_city = yes
+culture = togoku
+religion = shinto
+trade_goods = livestock
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = RFR
+discovered_by = ANU
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

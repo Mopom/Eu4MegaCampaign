@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = prussian
+capital = 50
+1750.1.1= { set_legacy_government = constitutional_republic }

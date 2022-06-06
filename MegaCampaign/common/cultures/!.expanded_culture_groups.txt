@@ -1,0 +1,1045 @@
+# Maintain parity with vanilla culture groups at all costs or lose vanilla culture group colors!
+# New culture groups must be added to other files, alphabetically after this one.
+# Update this file for every EU4 vanilla update.
+
+germanic = {
+	german = {
+		primary = GER
+	}
+	alsatian = {
+		primary = ALS
+		dynasty_names = {
+			Anspach Asperger "auf der Maur" Bauer Bernstein Blauschild Blumenthal Bollinger
+			Dietemann Dreyfus Eisenberg Eisenhauer Erlenmeyer Fischer Goldfarb Goldkopf Goldstein
+			Hamelin Hauschild Hauschildt Haydn Hertz Klein Mozart Necker Odebrecht Reutemann
+			Rosen Rosenberg Rosenblum Rosenfeld Rosenthal Roth Rothkopf Rothschild Rothstein
+			Sauber Scheuchzer Schild Schmidt Schmitt Schneider Schubert Schumann Schwartz
+			Schwarz Schwarzkopf Schweitzer Stein Stern Strauss Vettel Weinstein Weintraub Weishaupt
+			"von Lothringen" "von Metz" "von Bolchen" "von Château-Salins" "von Didenhofen"
+			"von Forbach" "von Saarburg" "von Saargemünd" "von Erstein" "von Hagenau" "von Molsheim"
+			"von Schlettstadt" "von Straßburg" "von Weißenburg" "von Zabern" "von Altkirch"
+			"von Colmar" "von Gebweiler" "von Mülhausen" "von Rappoltsweiler" "von Thann"
+		}
+	}
+	sudeten = {
+		primary = SUD
+		dynasty_names = {
+			"von Prag" Pilsner "von Karlsbad" "von Aussig" "von Reichenberg" "von Königgrätz"
+			"von Pardubitz" "von Iglau" Budweiser "von Brünn" Olmützer "von Ostrau" Zliner Preßburger
+			"von Preßburg" "von Tyrnau" "von Trentschin" Laugaricio "von Neutra" "von Sillein"
+			Solna "von Neusohl" "von Eperies" Fragopolis "von Kaschau"
+		}
+	}
+	
+	jerusalemer = { primary = KOJ }
+	kurlander = { primary = KUR }
+	lothringian = { primary = LOT }
+	new_english = { primary = GER }
+}
+scandinavian = {
+	norse = {
+		primary = SCA
+		dynasty_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
+		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
+	}
+	elsinorian = {
+		primary = DNL
+		dynasty_names = {
+			Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
+			Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+	}
+	ruotsish = { primary = FIN }
+	holmgardrian = { primary = NOV }
+	marisbaltician = { primary = EST }
+	miklagardrian = { primary = BYZ }
+	serklandic = { } # No primary because it's truly a joke
+	romsborgian = { primary = ITA }
+	
+	#Royal Court Additions
+	cooler_norwegian = {
+		primary = NOR
+		dynasty_names = { Skjaeran }
+	}
+	geatish = { primary = SWE }
+	gutish = { primary = GOT }
+	scanian = { primary = SCA }
+}
+british = {
+	hibernic = {
+		primary = IRE
+		male_names = {
+			Abban Eveny Allen Albert Anlon Ambrose Hugh Aidan Egan Angus Ardal Barry
+			Behellagh Becan Bercan Brasil Brendan Bryan Buagh Collin Carbry Calvagh Kevin
+			Kyle Kevan Craig Cartagh Cahal Cahir Caffar Callaghan Cain Kienan Keiran Kennedy
+			Killian Kenny Kerill Colman Cole Cowan Connell Conan Conary Connor Conley Charles
+			Crevan Crohan Cronan Cumin Covey Dahy Darragh Declan Desmond Donald Donnelly
+			Donough Denis Dudley Dowan Dougal Douglas Dowling Achy Hector Enan Enna
+			Ercan Ernan Ever Evin Erevan Eochy Owen Fachny Falvy Felan Faragh Firdorcha Fergananym
+			Fergal Farrell Fehin Phelim Philip Feagh Finnin Fintan Finbar Fial Garvan Glasny Jarlath
+			Lysach Laserian Loughlin Loman Lonan Lorcan Larkin Lewy Melaghlin Maelisa Munchin
+			Mogue Mayog Meyler Malcolm Mailmorye Meyler Melrone Mahon Murtagh Murry Maurice
+			Murrough Nevan Neese Naghtan Nessan Neil Noel Oran Ossian Ryan Revelin Ronan Ross
+			Rowan Rory Sidney Shiel Sivny Sweeney Teague Timothy Thallach Tierny Turlough Trevor Toal
+			Toole Owney Ualarg
+		}
+		female_names = {
+			Eveleen Evin Alvy Anya Ashlin Atty Eymur Enat Eavan Eva Ellen Attracta Barduv Bevin
+			Vivian Blanid Blinna Brigid Bronagh Buanad Keeva Keelin Keevnat Kinnat Keira Cleena
+			Cloda Devnet Downet Dymphna Derval Dervorghil Dervla Deidre Dianiv Dorothy Dooley
+			Ernet Asna Avelyn Edna Evir Emer Aideen Whiltierna Fedelma Feenat Fiona Fyin Fenella
+			Flannad Fola Forvla Feenawn Gelace Gobnat Gormly Grania Enid Ita Lasareena Mave Maeve
+			Mella Meeda Monica More Moreen Meenat Monat Morrin Muriel Myrna None Neve Noelle
+			Noreen Ornat Onora Orla Peggy Pegeen Renny Rinach Rose Sally Searla Sheema Slaney Sally
+			Tualah Agnes
+		}
+		dynasty_names = {
+			Barry Beary Blake Bligh Boyle Bracken Braden Brady Braiden Branagan Brandane Brandon Bree
+			Brennan Brontë Bryan Bryant Cagney Calhoun Callaghan Callan Callen Cameron Carey Carmadie
+			Carnahan Carr Carrick Carrol Carroll Casey Cassidy Caven Christy Clancy Clinton Cochrane
+			Coday Cody Coffey Cogley Collins Coltrain Coltrane Comiskey Conleth Conley Conlon Connally
+			Connel Connell Connelley Connelly Connely Conner Connolly Connor Cool Corey Corkran
+			Cormack Cormag Cormick Corr Costello Cowan Coyle Coyne Creagh Crigan Crosby Cuin Culligan
+			Curry Daley Daly Danaher Daniel Davenport Day Delaney Desmond Devin Devlin Devor Devoy
+			Dillon Docherty Doherty Dolan Donaher Donnelley Donnelly Donoghue Donohew Donoho
+			Donovan Dormer Dougherty Dowling Doyle Driscoll Duane Duffy Dullaghan Dullahan Duncan
+			Dunlavey Dunleavy Ennis Fahey Fahy Fallon Faraday Farrell Fay Feagans Ferrall Ferrick Finnegan
+			Flaherty Flanagan Flanigan Flannagan Flannigan Flattery Flavin Flynn Forbes Fyall Gaffney
+			Gahan Gallagher Gallaher Galliher Galway Gannon Gaughan George Geraghty Gerety Gill
+			Gillooly Glacken Glackin Golliher Gordon Gormley Guilfoyle Guinness Haggerty Hanna
+			Harrington Hart Harvey Hassan Hayes Heneghan Hennessey Hennessy Hennigan Henry Hickey
+			Higgens Higgins Horan Hurley Karns Kavanagh Keady Keagan Kealy Keane Kearney Kearns
+			Keegan Keehn Keeley Keely Keene Kelleher Kelley Kellogg Kelly Kenna Kennedy Keogh Keough
+			Kerry Kerwin Kilcullen Kilday Kildow Kilduff Killeen Kilroy Kinney Kinnie Kinsella Kirlin Kirwan
+			Kissane Kyle Lafferty Lalor Lane Laverty Leamy Leary Leland Lennon Lennox Levy Lewis Logan
+			Lohan Looney Lydon Lynn Mackfall MacNeven MacPhail Mahan Malone Manahan Manning
+			Manus Marley Mayhan McAfee McAleese McAloon McAlpine McAtee McAuley McAuliffe
+			McAvoy McBride McCabe McCadden McCafferty McCandless McCanless McCardell McCarren
+			McCarry McCartney McCary McCaw McClellan McClelland McCluskie McCollom McConaghy
+			McCool McCorkle McCorry McCowen McCullagh McCulloch McCullough McCune McCurtain
+			McCutchan McDade McDaid McDermott McDevitt McDonagh McDonnell McDormand
+			McDowell McDuffie McEachern McElderry McElrath McElroy McElveen McElwee McEnany
+			McEnerny McEnery McEvoy McFadden McFadyen McFall McFaul McGarry McGaugh McGee
+			McGinley McGinnis McGoogan McGough McGovern McGrath McGreevy McGuiness McGuinn
+			McGuire McGurk McHale McHenry McIlrath McIndoe McIver McJunkin McJunkins McKaig
+			McKaughan McKee McKeever McKelvey McKelvie McKeon McKevitt McKibbin McKinstry
+			McKittrick McKown McLaughlin McLean McLeish McLoughlin McMahon McManigal McManus
+			McMinn McMurphy McNabb McNairy McNally McNaughton McNear McNeese McNelis
+			McNellis McNew McNish McOmber McParland McPartland McPeak McPhail McQuade
+			McQuaid McQueen McQuilken McQuitty McShea McSweeney McTigue Mecum Megill Mehaffey
+			Merrigan Millican Milligan Mills Monahan Mooney Moran Morgan Moriarty Morris Morrow
+			Muldoon Mulhern Mulkern Mullally Mullaly Mullican Mulligan Murphy Murtagh Nash Neal
+			Neale Neil Neill Nolan O O'Brien O'Casey O'Connell O'Connor O'Dare O'Dea O'Donnell
+			O'Donovan O'Flynn O'Hara O'Keefe O'Leary O'Malley O'Neil O'Neill O'Reilly O'Riley O'Riordan
+			O'Rourke Oscar O'Shaughnessy O'Shea O'Sullivan Owen Quigg Quigley Quinn Rafferty Reagan
+			Redmond Regan Reid Reilly Riley Robbins Rohan Rooney Rowan Ruane Ryan Scally Scanlon
+			Scully Shanahan Shane Shannon Sharkey Shaughnessy Shay Shea Shealy Sheedy Sheridan Shiley
+			Shinnick Shortell Skelly Solivan Sullivan Sweeney Taaffe Taylor Teague Tierney Timothy Toohey
+			Touhey Welshans Wheelan Wheeland Whelan
+		}
+	}
+	northumbrian = {
+		primary = NOL
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	mercian = {
+		primary = ENG
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	wessexian = {
+		primary = CRN
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	essexian = {
+		primary = ENG
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	east_anglian = {
+		primary = ENG
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	ecgfrithian = {
+		primary = IRE
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	anglo_saxon = {
+		primary = GBR
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	} # Fallback
+	
+	northerner = {
+		primary = NOL
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	arvorigeg = { primary = FRA }
+	dramor = { primary = KOJ }
+}
+gaelic = {
+	coigriche = { primary = KOJ }
+	pictish = {
+		primary = SCO
+		dynasty_names = { "map Artcois" "map Bargoit" "map Buthud" "map Enfret" "map Eru" "map Gyrom" "map Lutrin" "map Mailcon" "map Munait" "map Taixali" "map Uleo" "map Wthoil" Circin Deoardivois Diuberr Erilich "Gaed Brechach" Gurthinmoch Ini Loc Morbet Necton Olgudach Smertae Tina Uecla Uip Vepogenus Wurgest }
+	}
+}
+latin = {
+	italian = {
+		primary = ITA
+		dynasty_names = { "de Liguori" "della Rovere" "di Borbone di Parma" "di Robilant" "di Savoia" "di Savoia-Aosta" "La Màrmora" "Pacoret de Saint Bon" "Thaon di Revel" Albricci Anfora Baratieri Bava-Beccaris Bonaccorsi Cadorna Cagni Canevaro Caraga Caviglia Ceccherini Clary Colonna d'Absburgo-Toscana Dezza Diaz Filomarino Giardino Gironda Govone Gravina Lanza Lombardo Lunardi Molinelli Orengo Orsini Pecori-Giraldi Perruchetti Pianelli Pironti Porro Ramorino Ricotti-Magnani Sanna Scammacca Solari Torlonia Turrisi Vaccari Zunica }
+	}
+	oltremare = { primary = KOJ }	
+}
+iberian	= {
+	ultramar = { primary = KOJ }
+}
+french = {
+	outremer = {
+		primary = KOJ
+		male_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		dynasty_names = { Emicho "Sans-Avoir" Gautier "de Taranto" Bohemond Tancred Herman
+		"de Hauteville" "de Salerno" "de Bouillon" Godfrey Eustace "de Boulogne" Baldwin
+		"de Fauquembergues" Galilee Nazareth "de Bazoches" Gervaise Fulcher "de Chartres"
+		"de le Bourg" "de Saint-Pol" Grenier "de Hainaut" Grez Raymond "de Saint-Gilles"
+		"de Monteil" Cerdagne "Le Puy" Béarn Bigorre Guinard "de Roussillon" Aicard "d'Arles"
+		"de Lusignan" Berenguer Aguilers Raimbaut Roman "d'Orange" Odo Bayeux Chocques
+		Curthose "de Guader" Héribrand Hierges Vermandois Coucy Embriaco Montlhéry Alan
+		Lastours "d'Auvergne" "de Bourgogne" "de Blois" "de Toulouse" "de Boulogne"
+		"de Provence" Lemarquis "de Flandre" "de Bretagne" "de Normandie" "de La Trémoille"
+		Gênes Lotharingie Tarente Arménie Croisé Fatimide Danichmendide "de Roum" Arslan }
+	}
+	
+	angevin = { primary = ALE }
+	auvergnat = { primary = AUV }
+	arpitan = { primary = DAU }
+	gallo = { primary = ENG }
+	lengadocian = { primary = TOU }
+	poitevin = { primary = ORL }
+	provancale = { primary = PRO }
+	siculo_norman = { primary = SIC }
+}
+finno_ugric = {
+	mordvin = {
+		primary = MDV
+		male_names = {
+			Alyok Andryu Artyo Doro Drigo Gavryo Ilkut Kargata Kariton Khoddey Kiryo Koma
+			Kutskan Kvedor Kvilyo Matyo Mikikor Mosey Nekhot Nuyat Obran Olodya Onton
+			Ovstay Ovtay Paksyut Panzi Parush Pichay Pinyas Sergu Shavacha Shyakshata
+			Sokhron Syulga Toray Torkan Tsyofks Tumay Uchvat Vasyuk Vechkas Vikay
+			Viryay Zakar
+		}
+		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	meshchera = {
+		primary = MSH
+		male_names = {
+			Anzyl Barash Izegre Kürtn'ypatyr Izi Yolagay Yükserge Yüshterge Lapkas
+			Maska Ozanay Oshegre Parsay Chotkar Shembuy Shumat Yumpatyr Yamshan
+		}
+		female_names = {
+			Ayvi Astalche Yüksüdyr Kechevi Kugüdyr Oshalche Pashache Salika Tulpeledysh
+			Uviy Shymay Evika
+		}
+		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+}
+south_slavic = {
+}
+west_slavic = {
+	graphical_culture = easterngfx
+	slovak = {
+		primary = SLO
+		male_names = {
+			Albín Alexander András Andrej Augustín Basil Cyprián Dalibor Dezider Dominik
+			Eugen Fedor Ferdinand František Frico Gabriel Gustáv Imrich Jáchym Ján
+			Janko Jozef Juraj Karol Ladislav Levoslav Marián Marko Martin Matej
+			Michal Mikuláš Milan Miloš Miloslav Miroslav Pavel Pavol Peter Ratislav
+			Rudolf Samuel Sergej Štefan Svetozár Tibor Tomáš Viliam Vladimír Vojtech
+		}
+		female_names = {
+			Maria Anna Alzbeta Ludmila Eva Jaroslava Jarmila Amalia Margareta Hana
+		}
+		dynasty_names = {
+			Stibor Bel Kollar Podmanický Hatnanský Pongrac Bosniak Veseléni Zichy Turzo Andráši
+			Zapolský Palfi Cáki Balaša Báthory
+			Áchim Bázlic Bella Beneš Blaho Catloš Cikker Clementis Daxner Dubcek
+			Figuš-Bystrý Frešo Gojdic Golian Hlinka Hodža Hopko Hurban Hurban-Vajanský Husák
+			Ivanka Kafenda Kardoš Kocak Kupkovic Mach Macudzinski Malár Malovec Markovic
+			Masaryk Móry Moyses Rázus Rohácek Rudnay Selepcéni Sidor Škultéty-Gábriš Šmik
+			Sokol Štefánik Suchon Šverma Tiso Trcka Tuka Turanec Viest Zoch
+		}
+	}
+	old_pommeranian = {
+		primary = POM
+		male_names = {
+			Abdón Abélk Adólf Adóm Adrión Agapit Agùst Agùstin Aleksãder Alfónks
+			Amadeùsz Andrzéj Antón Antósz Anzélm Apòlo Ark Arturk Augùst Augùstin Aùrelión
+			Barnim Bartlomién Bazyl Bazylëszk Bénk Beno Bink Blazéj Bògdón Bògùmil
+			Bògùslôw Bògùsz Bòlesk Bòleslôw Bònawentura Bòris Bòrzëslôw Bòrzëszk
+			Cekestin Célk Cemirk Cezari Chilk Chòcemir Chòck Cyd Cyl Cyprión Czeslôw
+			Czôrk Damión Daniél Démk Déò Déùszk Dobrogòst Dónk Donôld Éd Édmùnd
+			Édwin Édwôrd Efrém Eliôsz Élk Émanuél Émil Érazm Érik Érnest Eùgeniusz Éwôld
+			Ezechiél Faùstin Felicjón Féliks Félk Ferdinônd Florëszk Florión Flórk Frãcëszk
+			Francëszk Franik Franulk Franusz Fréd Frémk Fridrëszk Fridrich Gabriél Genk Gerat
+			Grégór Grzegórz Grzëmislôw Grzenia Grzészk Gùst Gùstôw Gwido Hadrión Hénk
+			Herkùles Hermiczk Hiacynt Hilari Hipòlt Hònorôt Hùbert Hùgò Jacãti Jack Jadóm
+			Jãdroch Jãdrzej Jakób Jakùb Jark Jaroslôw Jarosz Jasz Jeremiôsz Jerzi Jignac Jignacy
+			Jignacylk Jigór Jinocenti Jireneùsz Jirk Jizydór Jófk Jónk Jop Józk Julión Jurk Kadzmiérz
+			Kajetón Karól Kasjusz Klaùdiusz Klémãs Klimk Kónrôd Kórdiòn Kòrnél Kòrnéliusz
+			Krëszk Krësztof Kristión Kristk Ksãder Kaswer Lazôrz Léón Léónôrd Lészk Létk
+			Liôszk Lizk Lojs Loszk Lubògòst Lucjón Luck Lukôsz Macéj Mack Maksulk Maksymilión
+			Maréczk Marión Marusz Matéùsz Matéùszk Matis Melchiór Mestwin Metodi Michôl
+			Mieczëslôw Miétk Miklosz Mikòlôj Miloslôw Mirk Mirón Miroslôw Mojzesz Môrcën
+			Mscëwòj Narck Natsk Néliuszk Nélk Nest Nikòdém Nikòsz Nórbert Nufri Ôbróm Òdo
+			Òktawión Òlaf Òlgerd Ònufri Òto Òwidiusz Pankrac Pelagiusz Pélk Petroniusz Pioch
+			Pit Placyd Prokòp Protôz Przemëslôw Radoslôw Rafôl Rajmùnd Redómir Redoslôw Rémi
+			Riszôrd Róman Rómk Rómùôld Rudólf Sãdomir Salk Sambór Samsón Samùél Sebastión
+			Sëkstus Sewerin Slawòmir Sobieslôw Stancjusz Stanislôw Stazyjk Subislôw Swiãtobór
+			Swiãtopôlk Sylk Syméón Szczepón Szëmón Szimk Szimón Sztefón Tadeùsz Tédór
+			Telesfór Téòbôld Téòdozjusz Téófil Timón Timòteùsz Tobiôsz Tómk Tomôsz Tóna
+			Ùrbón Wack Waclôw Walãti Waldémôr Waleri Walerión Walis Wartëslôw Wawrzinc
+			Wenãcjusz Wenk Wespazjón Wick Wieslôw Wikò Wiktór Wilem Wincãt Wisk Wislôw
+			Witóld Witoslôw Wladislôw Wlodzmiérz Wòjcech Wòjk Wòjtilk Zbigórz Zdzyslôw
+			Zemòwit Zénk Zenobiusz Zenón Zydór Zygfrid Zygmùnd Zygùszk
+		}
+		female_names = {
+			Ada Adélajda Adélka Adka Adolfa Adrianka Agnés Agnésa Agnészka Agrëpina Agùla Agùstina
+			Agùstinka Ala Aldka Alicjô Alojza Aluszka Amanda Améla Anastazjô Andzela Anéczka
+			Anéta Antóna Antosza Anula Anusza Anzélma Apòla Apòloniô Ariadka Arnolda Astrida
+			Aùréla Barbôrka Barësza Barnimira Barnislawa Bastiónka Beatricza Béjata Benia Beniamina
+			Bernatka Béta Binka Bògdana Bôra Bôsza Bòzena Bronisa Cecyliô Célka Cësa Chòca Chòcemira
+			Chwôlëska Chwôlëslawa Cyda Cyla Daga Darga Dargòmira Dariô Darka Déla Délka Dianka
+			Disa Ditka Dolfa Dólfka Dona Dónka Dorotka Dzina Editka Édwarda Eléónora Elza Elzbiéta
+			Elzunia Éma Émanuela Émila Émka Emka Érnesta Éska Éstera Eùgeniô Éwa Éwelina Éwka
+			Éwùnka Fabisa Faùstëna Fela Felicëta Felicjana Felicjô Féliksa Félka Filëpa Florëszka
+			Francëszka Franiszka Franusza Fréda Fridrëszka Fridrisza Gasza Gata Gena Genia Gerata
+			Gertka Gizela Gizka Gnésa Gòrzëmira Gòsza Gracjana Gracjô Grazina Grizelda Grizka
+			Grzëmislawa Gùstawa Gùstka Gwidka Gwidona Henia Henrieta Hermenegilda Hildegarda
+			Hipka Hipòlita Hùberta Jadza Jagata Jagnészka Jagòda Janulka Jéwa Jéwelina Jéwka Jéwùnka
+			Jida Jidka Jiga Jilona Jinga Jingebòrga Jingrida Jinka Jiréna Jirka Jiwa Jiwóna Jizabela
+			Jizka Jizolda Jizydora Jolanta Juditka Juliô Juliszka Julka Kalëna Karolëna Kasza Katarzëna
+			Katarzënô Klarka Klaùdiô Klaùdka Klotidla Kóstancja Kristiana Ksãdra Ksawra Kùndza
+			Kùnegùnda Laùra Laùrka Lëliana Lëliô Lénka Léónarda Léòsza Lëpka Licëta Liska Liza Lóra
+			Lucjana Lucjô Lucka Lujiza Magdusza Magòrzata Majka Marëna Marëszka Marila Mariô
+			Mariola Marléna Marusza Méla Michalëna Michasza Mieczëslawa Miétka Narcëza Nataliô
+			Natka Natôlka Nélka Néska Nesta Nétka Niczka Nika Nórberta Nórka Òldzka Òlëwiô
+			Òlga Òlka Òrszula Òtëliô Patricjô Paùla Paùlëna Pelagiô Pélka Placëda Pòla Pòlësza
+			Pòlóna Rajmùnda Rébeka Redzina Remigiô Rémka Részka Riszarda Riszka Róberta
+			Rómana Rómka Rómùakda Róza Rózëczka Rózela Rózka Rudolfa Saloma Samka Serafëna
+			Sérafka Sewerëna Stãca Stanka Stazjô Stazyjka Stina Stridka Sulëslawa Swiãtoslawa Sylka
+			Sylwiô Sylwka Sztefaniô Sztefka Taja Téczelka Tékla Telimena Télka Téòdozjô Teréza
+			Tila Tilëszka Tréska Walãtina Waleska Waliska Wérónika Wérsa Wérsza Wicka Wiesa
+			Wikta Wiktora Wiktórka Wilemina Wileminka Wilka Wincãta Wirdziniô Wiska Wladislawa
+			Zana Zbiétka Zdzyslawa Zefka Zelka Zélma Zénka Zenona Zofijka Zofiô Zofka Zoldka
+			Zosza Zynka
+		}
+		dynasty_names = {
+			Obroditen Gryfita "z Liubic" Swieca Grzymala Jastrzebiec Lodzia Lubicz Nalecz Gniewosz "z Roztoki" "ze Slupska"
+			Breza Byzewski Cieminski Derdowski Klawiter Pacholski Pellowski Fehr Kilian Kósyk Symank
+		}
+	}
+	chrobatian = {
+		primary = TRA
+		male_names = {
+			Kresimir Stjepan Almos Dimitrije Zvonimir Trpimir Goislav Slavic Svetoslav Miroslav Mutimir
+			Ladislav Karlo Andrej Luj Pero Vladislav Vjenceslav Aleksandar Dragutin Fauszty Franjo Gavrilo Ivan
+			Juraj Luka Matija Marko Mihajlo Milan Mirko Nenad Nikola Slavko Toma Vladko Zvonomir
+			Adam Andrija Bartol Bartolomeus Besar Bojan Boris Branimir Castimir Danail Daniel Dmitar
+			Dobromir Dragan Dragomir Drzislav Dujam Duym Filip Philip Gaspar Gheorghe George Grigorii
+			Hranislav Hrvoje Igor Ioan John Ivan John Ivanis Jitej Karlo Charles Koloman Koloman
+			Ladislav Ljudevit Ljutomisl Lovro Matej Matthew Mihajlo Milman Mislav Mutimir
+			Nikolitza Nicholas Ognjen Petar Peter Prohor Radomir Ratimir Sebeslav Seslav Slavich
+			Stanislav Stjepan Sulvan Teodor Tomislav Tvrdoslav Tvrtko Ulfo Ulf Vid Vitomir Vlaicu
+			Vukan Zvonimir Kresimir Gregory Caspar Josip
+		}
+		female_names = {
+			Adriana Anna Borislava Cededa Doroteja Dorothy Ekaterina Catherine Helena Helen Jadviga
+			Jovana Kera Ladika Maria Maria Mihaela Nada Petra Viola Yolanda Jadranka Mare
+			Antonija Capeka Dragana Dubravka Emilija Emily Gordana Jagoda Jelena Jelka Lucija Lucia
+			Catherine Marija Maria Marijana Mirjana Mirna Mojca Natalija Natasha
+			Rijeka Silvija Snjezana Sofija Sophia Suzana Susana Svjetlana Suronja Tatjana Tihana
+			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
+		}
+		dynasty_names = {
+			"Trpimirovic" "Mihaljevic" "Subic" "Hrvatinic"
+			"Kosaca" "Vukcic" "Vukasin" "Dukasin" "Babonic" "Frankopan" "Kacic" "Draskovic"
+			"Bebek" "Svetoslavic" "Krešimirovic" "Domagojevic" "Feštetic" "Gorjanski"
+			"Svacic" "Kobilic" "Lackovic" "Šubic"
+			"Berislavic" "Nepilic" "Jalacic" "Zrinski" "Garaj" "Eltz" "Kaboga"
+			"Crnkovic" "Cerva" "Rubido"
+		}
+	}
+}
+carpathian = {
+	kulfoldi = { primary = KOJ }
+	szekely = { primary = TRA }
+}
+east_slavic = {
+	ilmenian = { # Krivichs
+		primary = NOV
+		dynasty_names = { Aleksseyev Antonov Azarov Badanov Brusilov Budonnyy Chibisov Denikin
+				Dragomirov Frolov Golivin Grishin Gurko Ivanov Konev Konstantinov Kornilov
+				Kolchak Kuropatkin Lazarev Makarov Men'shikov Nakhimov Nebogatov
+				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
+				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+				Drutsk Kopys Lahoysk Lukoml Minsk Orsha Polotsk Usvyatsk Vitebsk Zaslawye
+				Smolensk Tversk }
+	}
+	volhynian = {
+		primary = VOL
+		dynasty_names = { Aleksseyev Antonov Azarov Badanov Brusilov Budonnyy Chibisov Denikin
+				Dragomirov Frolov Golivin Grishin Gurko Ivanov Konev Konstantinov Kornilov
+				Kolchak Kuropatkin Lazarev Makarov Men'shikov Nakhimov Nebogatov
+				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
+				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+				Volodymyrovych Yaroslavich Tmutarakansky Izyaslavich Svyatopolchych
+				Dorohobuzhsky Mstislavych Belzsky Romanovich Vasilkovich Danylovych Lvovych
+				Boleslaw Korybut Liubartovych }
+	}
+	severian = {
+		primary = KIE
+		dynasty_names = { Aleksseyev Antonov Azarov Badanov Brusilov Budonnyy Chibisov Denikin
+				Dragomirov Frolov Golivin Grishin Gurko Ivanov Konev Konstantinov Kornilov
+				Kolchak Kuropatkin Lazarev Makarov Men'shikov Nakhimov Nebogatov
+				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
+				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
+	}
+	russian_culture = {
+		primary = RUS
+		dynasty_names = { Aleksseyev Antonov Azarov Badanov Brusilov Budonnyy Chibisov Denikin
+				Dragomirov Frolov Golivin Grishin Gurko Ivanov Konev Konstantinov Kornilov
+				Kolchak Kuropatkin Lazarev Makarov Men'shikov Nakhimov Nebogatov
+				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
+				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
+	}
+	kishinyov = {
+		primary = VOL
+		dynasty_names = { Aleksseyev Antonov Azarov Badanov Brusilov Budonnyy Chibisov Denikin
+				Dragomirov Frolov Golivin Grishin Gurko Ivanov Konev Konstantinov Kornilov
+				Kolchak Kuropatkin Lazarev Makarov Men'shikov Nakhimov Nebogatov
+				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
+				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
+	}
+	
+	red_ruthenian = { primary = VOL }
+}
+baltic = {
+	old_prussian = {
+		primary = PRT
+		male_names = {
+			Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas
+			Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+			Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas
+			Karijotas Kesgaila Kestutis Korigaila Korybutas
+			Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas
+			Narimantas Povilas Pukuveras Rimantas
+			Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas
+			Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
+			Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas
+			Ansas Bertulis Blade Bladis Brone Bronys Cardel Ceslaus Cilas Desider Dowid Endris
+			Ensel Ertmon Gerge Gils Jowalis Kristups Labrenz Lenert Mertin Pinkus Prenkus
+			Prenskas Sellius Tanius Timas Valtin Willus
+		}
+		female_names = {
+			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna
+			Mikova Roze Saule Svajone Vida Laima
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
+			"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+			# From Behindthename
+			Bender Brandenburg Butgereit Coors Danzig Daschke Didschus Dobileit Eichhorst
+			Exkorn Fratzke Goettner Grawert Gruendemann Guja Hittel Hopp Jacko
+			Kahlweiß Kallaur Kallweit Kass Kaulitz Kienlien Krauczun Krauledat Kruschel
+			Kurpjuhn Kurpjuweit Kurschat Kushner Leissmann Lenkeit Lickert Littman Lohmeyer
+			Netzke Pinewell Preüss Prusseit Puschat Pust Redlinger Ribbeck Rudat Schmoeckel
+			Strasser Strauser Tadeus Teitloff Tessmer Turnbo Welk Wowereit Zipplies Zoransky
+		}
+	}
+}
+byzantine = {
+	hellenistic = {
+		primary = BYZ
+	}
+	anatolian = {
+		primary = BYZ
+	}
+	bactrian = {
+		primary = TRS
+	}
+	empurian = {
+		primary = SPA
+	}
+	histrian = {
+		primary = RMN
+	}
+	kyrenaikan = {
+		primary = TRP
+	}
+	leucaethiopian = {
+		primary = ETH
+	}
+	magnagreek = {
+		primary = BYZ
+	}
+	messalian = {
+		primary = PRO
+	}
+	ptolemaic = {
+		primary = EGY
+	}
+	pulian = {
+		primary = CLI
+	}
+	seleucian = {
+		primary = PER
+	}
+	tylosi = {
+		primary = ARB
+	}
+	yavana = {
+		primary = AFG
+	}
+}
+caucasian = {
+	alan = {
+		primary = GEO
+		male_names = {
+			Afako Akhsar Akhsarbek Akhsartag Alan Alibek Alimbeg Alyksandr Aslænbeg Aslanbeg
+			Asmat Atsamaz Bakhva Barysbi Batradz Batyradz Baxva Bega Bekyzæ Dauyt Dimitr
+			Dzæuyg Dzakhot Dzambeg Dzambolat Dzankhot Dzantemir Dzaug Dzhambulad Elbazduko
+			Elbrus Fedyr Gæmæt Gaito Geuærgi Giuærgi Irbeg Irbek Isaq Kaurbek Kazbek
+			Khadzhimurat Khazbi Khetag Kuydzæg Lazær Makharbeg Makharbek Mikhal Misost
+			Mushtæfa Nikala Nikhala Phaule Qambolat Særmæt Sakhandzheri Sauarmæg Sauarmag
+			Seqa Soslænbeg Soslænbek Soslanbek Sozyr Sozyryqo Tætærqan Tamerlan Torez Totradz
+			Tsomak Tsomaq Tsotsoko Tugan Uryzmag Uyryzmag Vano Zhamiræt Znaur
+		}
+		female_names = {
+			Agunda Allæ Arianæ Atsyrukhs Dzerassa Elenæ Fatimæ Irinæ Lira Mariæ Mariamæ
+			Maryamæ Meryemæ Nataliæ Olgæ Roksalana Rushana Saræ Svetlanæ Veronikæ Zalina
+			Zarinæ Zinæ
+		}
+		dynasty_names = { Andiyev Ashuraliyev Basiev Bazayev Bestayev Chibirov Din Dudarova Dzhanayev Fadzayev Farniev Gabulov Gassiev Gazyumov Guriev Khapov Khetagurov Kokoity Kusov Nyxas Pagayev Pliyeva Sanakoyev Tibilov Tokaty Torchinov Toshinori Valiyev Zangiev Zazirov }
+	}
+}
+turko_semitic = {
+	frencharab = {
+		primary = FRA
+		dynasty_names = {
+			"al-Ilidufransi" "al-Biri" "al-Uwrilyanisi" "al-Nwrmandi" "al-Langhuduki" "al-Luynihi"
+			"al-Dawfini" "al-Shambani" "al-Eunisi" "al-Sayntwnji" "al-Bawatui" "al-Jawin al-Wajasikuni"
+			"al-Buarjundi" "al-Bikardi" "al-Anjui" "al-Brwfansi" "al-Anjumuui" "al-Burbunaysi"
+			"al-Mariki" "al-Baritani" "al-Mayni" "al-Turini" "al-Liamuzini" "al-Fuui" "al-Awfirni"
+			"al-Biarini" "al-Alzasi" "al-Artawazi" "al-Rusiuni" "al-Falandarazi" "al-Faranshi" "al-Kumiti"
+			"al-Lurini" "al-Wabaruisi" "al-Kursiki" "al-Nayfrini"
+		}
+		male_names = {
+			al-Nasr al-Mu'azzam al-Salih al-'Adil al-Kamil al-Ashraf al-Afdal Tadj Mujir ud-Din Djamal ud-Din
+			ud-Din Shams Saif 'Abbas 'Abd al-Rahman Anwar Atuf Bakr Fahd Hakim Harun Hikmat Hisham Husayn
+			Jamaal Karim Malîk Mirza Muhammad Rashîd Rusul Shimun Tarîq Usama Yasir Yusuf Zaid Zîyad Isma'il
+			Jafar Shihab
+		}
+		female_names = {
+			Ihsan Marwa Aisha Aziza Duha Farida Golbahar Gulnar Gulnaz Gulpari Hafsa Hasti Huma Ibtisam Jalila Kamala
+			Karima Khandan Khaterah Khatira Kinah Lala Madiha Mahdokht Nazy Neelab Negar Niki Nikoo Noushin Rabiya
+			Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah Nahal Najela Nasiba Nastaran Nazaneen
+			Rajiya Sadiya Salma Sitara Thana Zahra Zahra Zuhayra
+		}
+	}
+	gagauz = {
+		primary = RMN
+
+		dynasty_names = {
+			Pasalî Kendighelean Kristioglo Esir Harlamenco Constantinov Tarnavsky Kissa Ciachir
+			Deli Dushkov Pasha Formuzal Papazoglu Stoianoglo Tomaily Topal Vlah Zanet Zanetov
+		}
+		male_names = {
+			Mehmet Mustafa Murat Ahmet Selim Osman Mahmut Süleyman Bayezid Orhan Abdulaziz Abdülhamit Ibrahim
+			Abdülmecit Abdullah Cem Cihangir Alaattin Isa Musa Ömer Seyfettin Yakup Yusuf Giyasettin Numan
+			Ali Davut Hasan Hüseyin Ishak Kamer Kasim Korkut Emin Iskender Halil Sait Hamit Ertugrul Izzettin
+			Nizamettin Sinan Ferhat Salih Ismail Cüneyt Bahadir Hizir Harun Cemal Inal Celalettin Ilyas
+			Dursun Ramazan Recep Abdulrahman Hayrettin
+			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz
+			Aydin Aydogan Aydogdu Aytekin Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars
+			Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend Davud David
+			Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan Hasan Hizir Ibrahim Ilgazi
+			Inal Iskender Alexander Kurboga Kaikaus Kaikhusraw Kaiqobad Kara Karatay Kasim Kaya Kaytun
+			Kemal Kiliç Korkut Kutalmis Kutay Kutlug Mursel Mahmud Mehmed Meliksah Mengucek Mesud Murad
+			Mustafa Orhan Osman Porsuk Rustem Ramazan Ridvan Söbuk Sökmen Sönmez Suleyman Saim Saltuk
+			Saruca Savtekin Savur Sehinsah Selçuk Selim Sencer Sinan Tanrivermis Tekin Timurtas Togay
+			Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluç Umur Yakut Yaman Yinal
+			Yunus
+		}
+		female_names = {
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Aslihan Ayasun Ayla Ayse Ayten Azize Bahar Banu
+			Bozçin Canan Ceylan Dunya Dilber Dilek Emine Esin Fatma Firuze Gulçiçek Gulay Gulbahar Gulfem
+			Gulsum Gumus Gunduz Gundes Gunes Hatice Hayat Huriye Ilkay Ilknur Ipek Ipekel Irge Karacik Lale
+			Leyla Mala Mansure Merve Mutlu Nagihan Nergis Neslihan Nilufer Nur Peksen Terkhen Samur Sarica
+			Sati Sehnaz Serap Serife Sevilay Sevindik Sibel Sibylla Sirin Sirma Songul Sumru Tekçe Tura
+			Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal Hatice Safiye Zeynep Hürrem Mihrimah Nurbanu
+			Handan Alime Kösem Hüma
+		}
+	}
+	
+	lebanese = { primary = LEB }
+	soqotri = { primary = MHR }
+	palestinian = { primary = KOJ }
+}
+maghrebi = {
+	kabylian = { primary = KBA }
+}
+iranian = {
+	sogdian = {
+		primary = KOK
+	}
+	tocharian = {
+		male_names = {
+			Airawanta Ajatasatru Ajite Alp Ambare Ampratasarme Amrataraksite Amratodane Anande
+			Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam Arthadarsi
+			Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Asarte
+			Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar
+			Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske
+			Dandakamal Devarakste Dhanike Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke
+			Erkatsole Esmine Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre
+			Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake Jatisrone Jetavam
+			Jñanacamndre Jñanaghose Jñanakame Jñanakupte Jñanamokse Jñanasene Jñanasome
+			Jñanasthite Jñanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane
+			Kanake Kanaske Kanthake Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+			Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptanne Kimne
+			Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate
+			Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre
+			Kwirapabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre
+			Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala
+			Nandake Nande Nandipale Nasme Natte Naradeve Nirot Nupura Nyagrodhe Padmakesar
+			Padmottare Pakacandre Pañcasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+			Pravare Priyadeve Ptompile Puñaiyse Puñakame Puñaraksite Puñicamndre Punyamitre
+			Purtas Rahule Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme Sagare
+			Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike
+			Sarmacamdre Sarsire Satuma Satyake Satyaraksite Sidhasamgha Siladewe Silamitre Silarakite
+			Silaraksi Silasoma Silavande Silawarne Silayase Silopake Simpraye Siñcake Sinke Sinku
+			Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate
+			Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe Tarmacandre
+			Tarmaraksite Tenare Tohkem Tonke Tukik Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke
+			Upage Upagupte Upanande Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane
+			Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske Waryaruci
+			Waryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti Wiryasiñi Wisikke
+			Wrauske Yanayase Yarpalaske Yasa Yasawine Yase Yasonaka Yastare Yonge Yonu Ype
+			Yudhisthire Yugaraje
+		}
+		dynasty_names = {
+			Arkwi Erkent Karweñe Kaum Lykaške Meñe Samudtar Šana Šaumo Šcirye Totka
+			Aršiññe Gushi Asmires Garinei Thagures Kušiññe Oichardes Piades Rabanes Siziges
+		}
+		primary = KAS
+	}
+	saka = {
+		primary = KAS
+	}
+	tajik = {
+		male_names = {
+			Abdullo Abdullohi Alisher Aziz Bahrom Bakhtiyor Daler Davlat Dilshod Farrukh
+			Firuz Jamshed Muhammad Rustam Sherali Sherzod Shuhrat
+		}
+		dynasty_names = {
+			Abdulayev Abdulin Abdullayev Abdulov Hasanov Ibragimov Kalontarov Karimov
+			Khodzhayev Latifi Nabiyev Niyazov Sabirov Tagaev Tukhtasunov
+		}
+		primary = TRS
+	}
+	
+	gorani = { primary = BHT }
+	mervi = { primary = KHO }
+	shirvani = { primary = SRV }
+}
+altaic = {
+	khitan = {
+		primary = LIO
+		dynasty_names = { Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav }
+	}
+	turko_afghan = { primary = AFG }
+	turko_iranian = { primary = TRS }
+}
+central_american = {
+}
+aridoamerican = {
+}
+maya = {
+}
+otomanguean = {
+}
+andean_group = {
+}
+je_tupi = {
+}
+je = {
+}
+maranon = {
+}
+chibchan = {
+}
+mataco = {
+}
+araucanian = {
+}
+carribean = {
+}
+eskaleut = {
+}
+central_algonquian = {
+}
+plains_algonquian = {
+}
+eastern_algonquian = {
+}
+iroquoian = {
+}
+siouan = {
+}
+caddoan = {
+}
+muskogean = {
+}
+sonoran = {
+}
+apachean = {
+}
+na_dene = {
+}
+penutian = {
+}
+east_asian = {
+}
+korean_g = {
+}
+japanese_g = {
+}
+tibetan_group = {
+	gyalrong = {
+		primary = XIA
+		dynasty_names = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi }
+	}
+	tangut = {
+		primary = TAU
+		dynasty_names = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi }
+	}
+	zhangzhung = {
+		primary = GUG
+		dynasty_names = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi }
+	}
+	sumpa = {
+		primary = TIB
+		dynasty_names = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi }
+	}
+}
+malay = {
+}
+thai_group = {
+}
+southeastasian_group = {
+}
+burman = {
+}
+pacific = {
+}
+aboriginal_australian = {
+}
+eastern_aryan = {
+	hindustani_proper = { primary = HIN }
+	maithili = { primary = TRT } #Tirhuta script is what Maithili is written in
+}
+hindusthani = {
+}
+western_aryan = {
+	dhundari = { primary = DHU }
+	kathiawari = { primary = JLV }
+	marwari = { primary = MAW }
+	mewari = { primary = DHU }
+	nimadi = { primary = KHD }
+}
+dravidian = {
+}
+central_indic = {
+	munda = { primary = NGP }
+}
+mande = {
+}
+sahelian = {
+	zaghawa = {
+		primary = AIR
+		dynasty_names = { Wattara Toure Salim-Suwari Drame Saghanughu }
+	}
+}
+west_african = {
+}
+southern_african = {
+}
+kongo_group = {
+}
+great_lakes_group = {
+}
+african = {
+}
+cushitic = {
+}
+sudanese = {
+	daju = {
+		primary = DAR
+		dynasty_names = { Wattara Toure Salim-Suwari Drame Saghanughu }
+	}
+}
+evenks = {
+}
+kamchatkan_g = {
+}
+tartar = {
+	chuvash = {
+		primary = CVS
+		male_names = {
+			Vakrim Metri Kamaj Aransajpik Daniil Nikolay Iksej Vasily Valem Mehmet Nikita
+			Ivan Gennady Atner Nikolai Tany Boris Pyotr Alexey
+		}
+		dynasty_names = { Abash Agish Baran Karach Karam Kashkar Kolu Kurak Mishaik "Mis Si" Mosol Temir Tenish Vanyut Yaku Cavash Elmen Fyodorov Pajtule Chapayev Husa Celepi Bichurin
+		Yakovlev Volkov Husankaj Yut Youne Markov Yegorov Pavlov Aygi }
+	}
+}
+lost_cultures_group = { # Emptied
+}

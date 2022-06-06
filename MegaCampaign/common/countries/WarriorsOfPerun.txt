@@ -1,0 +1,185 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 100 140 100 }
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Andriy #0" = 1
+	"Bogdan #0" = 1
+	"Bohuslav #0" = 1
+	"Borysko #0" = 1
+	"Boyko #0" = 1
+	"Danylo #0" = 1
+	"Demyan #0" = 1
+	"Dmytro #0" = 1
+	"Fedir #0" = 1
+	"Hryhoriy #0" = 1
+	"Ivan #0" = 1
+	"Kalyna #0" = -1
+	"Kristiyan #0" = 1
+	"Kyrylo #0" = 1
+	"Maksym #0" = 1
+	"Marko #0" = 1
+	"Matviyko #0" = 1
+	"Mecheslav #0" = 1
+	"Mikhailo #0" = 1
+	"Mykola #0" = 1
+	"Myroslav #0" = 1
+	"Nykon #0" = 1
+	"Olek #0" = 1
+	"Oleksander #0" = 1
+	"Oleksiy #0" = 1
+	"Oxana #0" = -1
+	"Pavel #0" = 1
+	"Pavlo #0" = 1
+	"Petro #0" = 1
+	"Prokopiy #0" = 1
+	"Pylip #0" = 1
+	"Pyotr #0" = 1
+	"Radomir #0" = 1
+	"Radomyr #0" = 1
+	"Rostislav #0" = 1
+	"Saveliy #0" = 1
+	"Sergei #0" = 1
+	"Stepan #0" = 1
+	"Svyatoslav #0" = 1
+	"Symon #0" = 1
+	"Taras #0" = 1
+	"Terentiy #0" = 1
+	"Valeriy #0" = 1
+	"Vassyl #0" = 1
+	"Volodymyr #0" = 1
+	"Yakim #0" = 1
+	"Yakiv #0" = 1
+	"Yaroslav #0" = 1
+	"Yevhevniy #0" = 1
+	"Yosip #0" = 1
+	"Yuriy #0" = 1
+	"Zoya #0" = -1
+}
+leader_names = {
+	"Antonovych"
+	"Avramenko"
+	"Babko"
+	"Bogolyubov"
+	"Bunyakovskii"
+	"Chebotaryov"
+	"Cholesky"
+	"Chuperchuk"
+	"Davydova"
+	"Dmytrenko"
+	"Doroshenko"
+	"Drahomanov"
+	"Filitov"
+	"Fomenko"
+	"Golitzin"
+	"Hlushkov"
+	"Hnedenko"
+	"Horbachov"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Kondratyuk"
+	"Korolyuk"
+	"Kravchuk"
+	"Krivokhyzha"
+	"Lysenko"
+	"Maksymovych"
+	"Mensjikov"
+	"Mustislavski"
+	"Mytropolsky"
+	"Ohloblyn"
+	"Oleinik"
+	"Ostermann Tolstoy"
+	"Ostrogradsky"
+	"Paletskij"
+	"Petryshyn"
+	"Pogorelov"
+	"Poretsky"
+	"Potapow"
+	"Pryma"
+	"Rajevski"
+	"Samoilenko"
+	"Shafarevich"
+	"Sharkovsky"
+	"Shatunovsky"
+	"Shchukarev"
+	"Shekera"
+	"Shtokalo"
+	"Skorokhod"
+	"Sleszynski"
+	"Stojko"
+	"Sydorenko"
+	"Trfimenko"
+	"Tyutyunnikov"
+	"Urysohn"
+	"Vantukh"
+	"Vashchenko"
+	"Vasylenko"
+	"Verkhovynets"
+	"Voronoy"
+	"Yavornytsky"
+}
+ship_names = {
+	"Alchevsk"
+	"Balta"
+	"Bug"
+	"Coluna"
+	"Cortiza"
+	"Ghernigiv"
+	"Hmelnieckiy"
+	"Iausa"
+	"Izyaslav"
+	"Kahovka"
+	"Kherson"
+	"Khersones"
+	"Kiev"
+	"Klin"
+	"Kolomiya"
+	"Korets"
+	"Kovel"
+	"Kremenchuk"
+	"Kremenets"
+	"Kriviy Rig"
+	"Lutsk"
+	"Mariupol"
+	"Melitopol"
+	"Moscha"
+	"Mosnisk"
+	"Noviy"
+	"Olescho"
+	"Piersek"
+	"Pryluky"
+	"Rurik"
+	"Schorna"
+	"Shostka"
+	"Slavutych"
+	"Sudak"
+	"Svitlovods'k"
+	"Tovaristsch"
+	"Troitzkoy"
+	"Tsyurupynsk"
+	"Uman"
+	"Vinnitsya"
+	"Volga"
+	"Wolok"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

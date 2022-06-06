@@ -1,0 +1,138 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = sub_saharan
+religion = sunni
+primary_culture = bilala
+capital = 2288
+religious_school = maliki_school
+unlock_cult = nyame_cult
+unlock_cult = roog_cult
+unlock_cult = yemoja_cult
+historical_rival = KBO
+1444.1.1= {
+	monarch = {
+		name = "Kêda"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 4
+	}
+}
+1465.1.1= {
+	monarch = {
+		name = "Djil Goumsoumi"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1490.1.1= {
+	monarch = {
+		name = "Dounouma"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1515.1.1= {
+	monarch = {
+		name = "Al el Qatil"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1536.1.1= {
+	monarch = {
+		name = "Djil Essa Tubo"
+		dynasty = "Mahamat"
+		dip = 3
+		adm = 3
+		mil = 5
+	}
+}
+1576.1.1= {
+	monarch = {
+		name = "Tshéroma"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1599.1.1= {
+	monarch = {
+		name = "Madgashé"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1629.1.1= {
+	monarch = {
+		name = "Mat Kurtu"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1647.1.1= {
+	monarch = {
+		name = "Djourab el Kabir"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1675.1.1= {
+	monarch = {
+		name = "Mortcho"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1755.1.1= {
+	monarch = {
+		name = "Djourab el Mongo"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1758.1.1= {
+	monarch = {
+		name = "Dogo Arma"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1761.1.1= {
+	monarch = {
+		name = "Balkashé"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}
+1821.1.1= {
+	monarch = {
+		name = "Djourab Saxair"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}

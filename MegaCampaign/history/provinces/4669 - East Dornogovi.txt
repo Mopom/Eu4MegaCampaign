@@ -1,0 +1,15 @@
+owner = MGE
+controller = MGE
+capital = "Sainshand"
+is_city = yes
+culture = khalkha
+religion = tengri_pagan
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+add_core = KHA
+add_core = MGE
+add_core = OIR
+discovered_by = chinese
+discovered_by = nomad_group

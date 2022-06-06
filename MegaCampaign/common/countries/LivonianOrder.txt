@@ -1,0 +1,194 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 125 30 100 }
+revolutionary_colors = { 5 9 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	diplomatic_ideas
+	quality_ideas
+	administrative_ideas
+	economic_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Albrecht #0" = 0
+	"Andreas #0" = 0
+	"Arnold #1" = 15
+	"Bernhard #0" = 20
+	"Brita #0" = -1
+	"Burkhard #1" = 10
+	"Cysse #0" = 20
+	"Dietrich #2" = 20
+	"Eberhard #3" = 10
+	"Elmede #0" = -1
+	"Ferdinand #0" = 0
+	"Franz #0" = 20
+	"Friedrich #0" = 0
+	"Georg #0" = 0
+	"Gerhard #2" = 15
+	"Gottfried #1" = 10
+	"Gotthard #0" = 20
+	"Heinrich #2" = 60
+	"Helgi #0" = -1
+	"Helvi #0" = -1
+	"Hermann #1" = 20
+	"Ilma #0" = -1
+	"Imetra #0" = -1
+	"Jakob #0" = 0
+	"Johann #0" = 80
+	"Karl #0" = 0
+	"Konrad #2" = 20
+	"Kordula #0" = -1
+	"Leili #0" = -1
+	"Lorenz #0" = 0
+	"Ludwig #0" = 0
+	"Lukas #0" = 0
+	"Maimu #0" = -1
+	"Maria #0" = -1
+	"Markus #0" = 0
+	"Matthias #0" = 0
+	"Michael #0" = 0
+	"Nicolaus #0" = 0
+	"Paul #0" = 0
+	"Raili #0" = -1
+	"Robin #1" = 15
+	"Rudolf #0" = 0
+	"Savna #0" = -1
+	"Siegfried #0" = 20
+	"Sigmund #0" = 0
+	"Stephan #0" = 0
+	"Thomas #0" = 0
+	"Vanema #0" = -1
+	"Walter #1" = 20
+	"Wennemar #1" = 20
+	"Wenzel #0" = 0
+	"Wilhelm #2" = 20
+}
+leader_names = {
+	"Ascheberg"
+	"Behr"
+	"Bilderling"
+	"Blomberg"
+	"Borch"
+	"Brincken"
+	"Brüggen"
+	"Buchholtz"
+	"Derschau"
+	"Drachenfels"
+	"Düsterlohe"
+	"Engelhardt"
+	"Fircks"
+	"Funck"
+	"Fölkersam"
+	"Grotthuss"
+	"Haaren"
+	"Hahn"
+	"Heyking"
+	"Howen"
+	"Kleist"
+	"Klopmann"
+	"Komorowski"
+	"Koskull"
+	"Lambsdorff"
+	"Mirbach"
+	"Nettelhorst"
+	"Nolcken"
+	"Oelsen"
+	"Offenberg"
+	"Osten-Sacken"
+	"Pahlen"
+	"Raczynski"
+	"Recke"
+	"Ropp"
+	"Rosenberg"
+	"Schlippenbach"
+	"Seefeld"
+	"Stackelberg"
+	"Stromberg"
+	"Taube"
+	"von Altenbockum"
+	"von Bach"
+	"von Boetticher"
+	"von Hoerner"
+	"von Lysander"
+	"von Rummel"
+	"von Schroeders"
+	"von Timroth"
+	"von der Launitz"
+}
+ship_names = {
+	"Aa"
+	"Blumentopf"
+	"Bruno"
+	"Dame"
+	"Das Wappen der Herzogin von Kurland"
+	"Diderick Tork"
+	"Drei Heringe"
+	"Düna"
+	"Franco Kerskorff"
+	"Goldingen"
+	"Hasenpoth"
+	"Herzogenstein"
+	"Hoffnung"
+	"Johannes Ungenade"
+	"Krokodil"
+	"Lynn kurländische Möwe"
+	"Mitau"
+	"Reimar Hane"
+	"Seeburg"
+	"Tukums"
+	"Windau"
+	"von Bockenvorde"
+	"von Breithausen"
+	"von Bürggeneye"
+	"von Dreileben"
+	"von Eltz"
+	"von Endorp"
+	"von Feuchtwangen"
+	"von Fürstenberg"
+	"von Galen"
+	"von Grüningen"
+	"von Hercke"
+	"von Herse"
+	"von Hohembach"
+	"von Hornhausen"
+	"von Jocke"
+	"von Loringhofe"
+	"von Lutterberg"
+	"von Mandern"
+	"von Mengede"
+	"von Monheim"
+	"von Nortecken"
+	"von Overbergen"
+	"von Plettenberg"
+	"von Rassburg"
+	"von Rogga"
+	"von Rutenberg"
+	"von Sangershausen"
+	"von Spanheim"
+	"von Stierland"
+	"von Vietinghof"
+	"von Vrymersheim"
+	"von der Borch"
+	"von der Recke"
+	"von dinkelaghe"
+}

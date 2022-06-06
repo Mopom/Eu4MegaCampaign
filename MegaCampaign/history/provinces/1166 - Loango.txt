@@ -1,0 +1,13 @@
+owner = LOA
+controller = LOA
+capital = "Loango"
+is_city = yes
+culture = kongolese
+religion = shamanism
+trade_goods = gems
+base_tax = 3
+base_production = 3
+base_manpower = 3
+add_core = LOA
+discovered_by = central_african
+discovered_by = sub_saharan

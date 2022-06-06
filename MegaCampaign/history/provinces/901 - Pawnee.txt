@@ -1,0 +1,15 @@
+owner = PAW
+controller = PAW
+capital = "Pawnee"
+is_city = yes
+culture = pawnee
+religion = totemism
+trade_goods = grain
+base_tax = 2
+base_production = 1
+base_manpower = 1
+add_core = PAW
+discovered_by = north_american
+native_size = 25
+native_ferocity = 2
+native_hostileness = 7

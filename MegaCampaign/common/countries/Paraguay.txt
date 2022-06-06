@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 75 188 60 }
+revolutionary_colors = { 9 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+random_nation_chance = 0
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abel #0" = 0
+	"Agust0n #0" = 0
+	"Alberto #0" = 0
+	"Antonio #0" = 0
+	"Asdr0bal #0" = 0
+	"Bartolom0 #0" = 0
+	"Carlos #0" = 10
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Domingo #0" = 0
+	"Emiliano #0" = 0
+	"Enrique #0" = 0
+	"Evaristo #0" = 0
+	"Fabricio #0" = 0
+	"Fernando #0" = 0
+	"Fidel #0" = 0
+	"Fulgencio #0" = 20
+	"Gabriel #0" = 0
+	"Jos0 #0" = 20
+	"Juan #0" = 15
+	"Leonardo #0" = 0
+	"Manuel #0" = 15
+	"Marcos #0" = 0
+	"Mariano #0" = 10
+	"Miguel #0" = 0
+	"Narciso #0" = 0
+	"Octavio #0" = 0
+	"Pablo #0" = 0
+	"Paloma #0" = -1
+	"Patricio #0" = 0
+	"Pedro #0" = 0
+	"Reina #0" = -1
+	"Roberto #0" = 0
+	"Rufino #0" = 0
+	"Santiago #0" = 0
+	"Tadeo #0" = 0
+	"Ul0ses #0" = 0
+	"Xiomara #0" = -1
+	"0lvaro #0" = 0
+}
+leader_names = {
+	"Alberti"
+	"Artigas"
+	"Azcuenaga"
+	"Balcarce"
+	"Bazán"
+	"Belgrano"
+	"Brown"
+	"Bustos"
+	"Cabral"
+	"Castro"
+	"Chiclana"
+	"Costa"
+	"Derqui"
+	"Dorrego"
+	"González"
+	"Goyeneche"
+	"Guazurary"
+	"Heredia"
+	"Jonte"
+	"Kaunitz de Holmberg"
+	"Larrea"
+	"López"
+	"Mansilla"
+	"Matheu"
+	"Monteagudo"
+	"Moreno"
+	"Paso"
+	"Paz"
+	"Peña"
+	"Planes"
+	"Posadas"
+	"Pérez"
+	"Ramírez"
+	"Riglos"
+	"Robinson"
+	"Rodríguez"
+	"Rondeau"
+	"Saavedra"
+	"Sarratea"
+	"Sáenz"
+	"Urquiza"
+	"Warnes"
+	"de Alvear"
+	"de Güemes"
+	"de Laprida"
+	"de Pueyrredón"
+	"de Rosas"
+	"de San Martín"
+	"de las Heras"
+	"Álvarez"
+}
+ship_names = {
+	"Asunción"
+	"El Plata"
+	"Fulgencio"
+	"Gaspar"
+	"Gran Chaco"
+	"Independencia"
+	"Libertad"
+	"Moreno"
+	"Rivalda"
+	"Yegros"
+}
+colonial_parent = SPA

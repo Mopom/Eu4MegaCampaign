@@ -1,0 +1,263 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 123 90 90 }
+revolutionary_colors = { 1 0 4 }
+historical_idea_groups = {
+	innovativeness_ideas
+	offensive_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Agnes #0" = -1
+	"Albrecht #3" = 20
+	"Albrecht Christian #0" = 10
+	"Albrecht Friedrich #0" = 10
+	"Amalie #0" = -1
+	"Anna Maria #0" = -1
+	"August #0" = 10
+	"Barbara #0" = -1
+	"Christian #0" = 10
+	"Christian Wilhelm #0" = 10
+	"Clemens #0" = 0
+	"Diederick #0" = 0
+	"Eberhard #0" = 0
+	"Ernst #0" = 10
+	"Frederike #0" = -1
+	"Friedrich #0" = 60
+	"Friedrich Wilhelm #0" = 20
+	"Georg #0" = 10
+	"Georg Albrecht #0" = 10
+	"Georg Wilhelm #0" = 20
+	"Hedwig #0" = -1
+	"Heinrich #2" = 10
+	"Helmut #0" = 0
+	"Hermann #0" = 0
+	"Jakob #0" = 0
+	"Joachim #0" = 20
+	"Jobst #0" = 20
+	"Johann #5" = 10
+	"Johann Cicero #0" = 20
+	"Johann Friedrich #0" = 20
+	"Johann Georg #0" = 20
+	"Johann Siegmund #0" = 20
+	"Karl #0" = 15
+	"Luitpold #0" = 0
+	"Magdalena #0" = -1
+	"Margarete #0" = -1
+	"Markus #0" = 0
+	"Miriam #0" = -1
+	"Paul #0" = 10
+	"Paula #0" = -1
+	"Sabina #0" = -1
+	"Siegmund #0" = 20
+	"Sophie #0" = -1
+	"Stefan #0" = 0
+	"Ulrike #0" = -1
+	"Viktor #0" = 0
+	"Wilhelm Friedrich #0" = 15
+}
+leader_names = {
+	"Arnim"
+	"Arnswald"
+	"Below"
+	"Billerbeck"
+	"Blankensee"
+	"Briesen"
+	"Casimir"
+	"Cisielsky"
+	"Finck"
+	"Höltzendorff"
+	"Knobelsdorf"
+	"Kreytz"
+	"Linkendorf"
+	"Münchov"
+	"Perlkowski"
+	"Posadofsky"
+	"Riwotzki"
+	"Schach"
+	"Schnittern"
+	"Selasinky"
+	"Treskaw"
+	"Truxes"
+	"Ucklanski"
+	"Zitzwitz"
+	"von Anhalt-Dessau"
+	"von Bimback"
+	"von Bühler"
+	"von Derfflinger"
+	"von Dessau"
+	"von Dossow"
+	"von Hohenlohe"
+	"von Hohenzollern"
+	"von Kyau"
+	"von Mach"
+	"von Manstein"
+	"von Merckatz"
+	"von Plothow"
+	"von Preußen"
+	"von Quernheimberg"
+	"von Quitzow"
+	"von Rauch"
+	"von Rottenburg"
+	"von Rüts"
+	"von Schwerin"
+	"von Seel"
+	"von Stille"
+	"von Taubeneck"
+	"von Wermsdorff"
+	"von Ziethen"
+}
+ship_names = {
+	"Afrikaner"
+	"Amazone"
+	"Arminius"
+	"Barbarossa"
+	"Basilisk"
+	"Berlin"
+	"Bersteinfänger"
+	"Bielefeld"
+	"Blitz"
+	"Brandenburgischer Dragoner"
+	"Britannia"
+	"Bulle"
+	"Camaeleon"
+	"Charlotte Louise"
+	"Churfürst von Brandenburg"
+	"Churfürtstlische Liebjagd"
+	"Churprinz"
+	"Churprinz von Brandenburg"
+	"Clementia"
+	"Cleve"
+	"Clevesche Lindenbaum"
+	"Comet"
+	"Cyclop"
+	"Danzig"
+	"Delphin"
+	"Derffinger"
+	"Die Sieben Provinzien"
+	"Dorothea"
+	"Drache"
+	"Eichhorn"
+	"Falke"
+	"Fliegender Drache"
+	"Fortuna"
+	"Frauenlob"
+	"Frede"
+	"Friedrich Carl"
+	"Friedrich Wilhelm"
+	"Friedrich Wilhelm zu Pferde"
+	"Fuchs"
+	"Gazelle"
+	"Gefion"
+	"Goldener Löve"
+	"Grafschaft Mark"
+	"Grille"
+	"Grossfriedrichburg"
+	"Große Jacht"
+	"Grüner Drache"
+	"Habicht"
+	"Hansa"
+	"Hay"
+	"Hela"
+	"Hertha"
+	"Herzogtum Cleve"
+	"Hyäne"
+	"Jupiter"
+	"Kastell Spandau"
+	"Kronprinz"
+	"Kronprinz van Preußen"
+	"König Wilhelm"
+	"König von Preußen"
+	"König von Spanien"
+	"Leopard"
+	"Littauer Bauer"
+	"Makarele"
+	"Maria"
+	"Maria Catharina"
+	"Markgraf von Brandenburg"
+	"Mars"
+	"Merkur"
+	"Meteor"
+	"Mohrian"
+	"Morian"
+	"Mummelpot"
+	"Musquito"
+	"Natter"
+	"Neptun"
+	"Niobe"
+	"Nordischer Löve"
+	"Pallas"
+	"Pax"
+	"Pfeil"
+	"Pierlepomp"
+	"Post"
+	"Potsdam"
+	"Preußischer Adler"
+	"Princess Maria"
+	"Prinz Adalbert"
+	"Prinz Ludwig"
+	"Prinz Philipp"
+	"Prinz Wilhelm"
+	"Prinz von Preußen"
+	"Prinzess Maria"
+	"Prosperpina"
+	"Rommelpot"
+	"Rosenfelde"
+	"Rother Löve"
+	"Rover"
+	"Salamander"
+	"Sankt Johannes der Täufer"
+	"Sankt Josef"
+	"Sankt Peter"
+	"Schloss Oranienburg"
+	"Schwalbe"
+	"Seeritter"
+	"Spandau"
+	"Sperber"
+	"Stad Emden"
+	"Stralsund"
+	"Thetis"
+	"Tiger"
+	"Undine"
+	"Vineta"
+	"Vogel Greif"
+	"Wappen von Brandenburg"
+	"Wappen von Cleve"
+	"Wasserhund"
+	"Wespe"
+	"Wilhelmine Margrethe"
+	"Wolkensäule"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Elbe Armee"
+	"Kurfürstliche Garde"
+	"Oder Armee"
+}
+fleet_names = {
+	"Kurfürstliche Flotte"
+}
+preferred_religion = protestant

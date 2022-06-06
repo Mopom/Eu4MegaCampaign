@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 170 72 67 }
+revolutionary_colors = { 8 5 5 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	religious_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Abdullah Mu'adzam  Sh0h #0" = 10
+	"Abdullah Mukarram Sh0h #0" = 10
+	"Ahmad Tajuddin Halim Sh0h #0" = 10
+	"Aminah #0" = -1
+	"Ataullah Muhammad Sh0h #0" = 10
+	"Azizah #0" = -1
+	"Azura #0" = -1
+	"Cik Fatimah #0" = -1
+	"Dayang #0" = -1
+	"Dziaddin Mukarram Sh0h #0" = 10
+	"Fatimah #0" = -1
+	"Ibr0h0m Sh0h #0" = 10
+	"Iskandariah #0" = -1
+	"Ismailiah #0" = -1
+	"Mahm0d Sh0h #0" = 10
+	"Maimunah #0" = -1
+	"Mariam #0" = -1
+	"Mu'adzam Sh0h #0" = 10
+	"Mudzafar Sh0h #0" = 10
+	"Muhammad Jiwa Zainal Adilin #0" = 10
+	"Muhammad Sh0h #0" = 10
+	"Muhyiddin Mans0r Sh0h #0" = 10
+	"Rajah Qasim #0" = 10
+	"Rijaluddin Muhammad Sh0h #0" = 10
+	"Sembuk #0" = -1
+	"Sharifah #0" = -1
+	"Sulaiman Sh0h #0" = 10
+	"Sulong #0" = -1
+	"Zabedah #0" = -1
+	"Zaharah #0" = -1
+	"Zainal Rashid Al-Mu'adzam Sh0h #0" = 10
+}
+leader_names = {
+	"Abdulfatah"
+	"Ahmad"
+	"Amir"
+	"Anwar"
+	"Azmi"
+	"Batuta"
+	"Chairul"
+	"Hamzah"
+	"Hasanuddin"
+	"Ibnu"
+	"Kyai"
+	"Mahat"
+	"Mukhtar"
+	"Najamuddin"
+	"Natzar"
+	"Nazmizan"
+	"Roem"
+	"Syarifuddin"
+	"Zulkifli"
+}
+ship_names = {
+	"Bendahara"
+	"Hukum Kanun"
+	"Kepulauan"
+	"Kepulauan Riau"
+	"Laksamana"
+	"Parameswara"
+	"Penghulu bendahari"
+	"Pulau Aur"
+	"Pulau Bakung"
+	"Pulau Bengkaus"
+	"Pulau Kundur"
+	"Pulau Lingga"
+	"Pulau Padang"
+	"Pulau Rangsang"
+	"Pulau Rempang"
+	"Pulau Rupat"
+	"Pulau Sibu"
+	"Pulau Singkep"
+	"Pulau Tebing Tinggi"
+	"Pulau Tinggi"
+	"Pulau Tioman"
+	"Shahbandar"
+	"Sultan Iskandar"
+	"Temenggung"
+	"Undang-Undang"
+}
+special_unit_culture = south_east_asian_special

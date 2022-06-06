@@ -1,0 +1,15 @@
+owner = DLI
+controller = DLI
+capital = "Rokan"
+is_city = yes
+culture = sumatran
+religion = sunni
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = DLI
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

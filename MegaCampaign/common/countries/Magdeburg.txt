@@ -1,0 +1,114 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 189 115 99 }
+revolutionary_colors = { 10 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Albrecht #2" = 40
+	"August #0" = 20
+	"Bernhard #1" = 10
+	"Burkhard #3" = 10
+	"Christian Wilhelm #0" = 20
+	"Clemens #0" = 0
+	"Diederick #0" = 0
+	"Dietrich #1" = 15
+	"Eberhard #0" = 0
+	"Erich #1" = 10
+	"Ernst #0" = 20
+	"Fabian #0" = 0
+	"Friedrich #2" = 40
+	"Gottfried #0" = 0
+	"G0nther #1" = 20
+	"Heinrich #2" = 10
+	"Helmut #0" = 0
+	"Herbert #0" = 0
+	"Hermann #0" = 0
+	"Jakob #0" = 0
+	"Joachim Friedrich #0" = 20
+	"Johann #0" = 20
+	"Johann Albrecht #0" = 20
+	"Konrad #2" = 10
+	"Leopold Wilhelm #0" = 20
+	"Ludwig #1" = 15
+	"Luitpold #0" = 0
+	"Manfred #0" = 0
+	"Markus #0" = 0
+	"Monika #0" = -1
+	"Otto #1" = 15
+	"Peter #1" = 15
+	"Philippa #0" = -1
+	"Rainer #0" = 0
+	"Rudolf #1" = 10
+	"Ruprecht #1" = 10
+	"Siegfried #0" = 0
+	"Siegmund #0" = 20
+	"Stefan #0" = 0
+	"Swanhilda #0" = -1
+	"Viktor #0" = 0
+	"Wolfgang #0" = 0
+}
+leader_names = {
+	"Ahrendt"
+	"Ahrenkiel"
+	"Bastel"
+	"Bause"
+	"Bollers"
+	"Burghoff"
+	"Bärwald"
+	"Herms"
+	"Meyer"
+	"Schlehenstein"
+	"Schulz"
+	"Schönebeck"
+	"Wahrenholz"
+	"Winter"
+	"Wäger"
+	"Zimmerhäckel"
+}
+ship_names = {
+	"Barleber See"
+	"Buckau"
+	"Diesdorf"
+	"Friedrichstadt"
+	"Kreuzhorst"
+	"Lemsdorf"
+	"Olvenstedt"
+	"Pechau"
+	"Prester"
+	"Randau"
+	"Rothensee"
+	"Salbke"
+	"Silberberg"
+	"Sudenburg"
+	"Westerhüsen"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+preferred_religion = protestant

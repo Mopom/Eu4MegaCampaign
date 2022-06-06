@@ -1,0 +1,259 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 118 99 151 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	naval_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_score = 25
+historical_units = {
+	anglofrench_line
+	chevauchee
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_men_at_arms
+}
+monarch_names = {
+	"Anne #0" = -10
+	"Arthur #2" = 20
+	"Catherine #0" = -1
+	"Charles #1" = 5
+	"Claudine #0" = -10
+	"Corentin #0" = 0
+	"Deniel #0" = 0
+	"Dinan #0" = 0
+	"Erwan #0" = 0
+	"Fran0ois #0" = 60
+	"Ga0l #0" = 0
+	"Gilles #0" = 5
+	"Gwena0l #0" = 0
+	"Gwenneg #0" = 0
+	"Gwenola #0" = -1
+	"Gwenvred #0" = -10
+	"Gwilherm #0" = 0
+	"Henri #0" = 10
+	"Iouennic #0" = 0
+	"Isabelle #0" = -1
+	"Jean #4" = 40
+	"Lo0c #0" = 0
+	"Maeldan #0" = 0
+	"Marguerite #0" = -1
+	"Ma0lle #0" = -1
+	"Mikael #0" = 0
+	"Olier #0" = 0
+	"Padrig #0" = 0
+	"Paol #0" = 0
+	"Patern #0" = 0
+	"Pier #0" = 0
+	"Pierre #2" = 20
+	"Primel #0" = 0
+	"Richard #0" = 5
+	"Ronan #0" = 0
+	"Roparzh #0" = 0
+	"Servan #0" = 0
+	"Similien #0" = 0
+	"Sklaer #0" = 0
+	"Sulio #0" = 0
+	"Venec #0" = 0
+	"Visant #0" = 0
+	"Vonig #0" = 0
+	"Vougay #0" = 0
+	"Yann #0" = 0
+}
+leader_names = {
+	"Couasnon de la Barillière"
+	"Kalbean de Cardelan"
+	"Madec"
+	"d'Ancenis"
+	"d'Angennes"
+	"d'Argentré"
+	"d'Elbène"
+	"de Bain"
+	"de Beaudiez"
+	"de Beaumetz"
+	"de Boisguéhenneuc"
+	"de Bouëtiez"
+	"de Châteaubriand"
+	"de Châtillon"
+	"de Coatgoureden"
+	"de Coëtivy"
+	"de Coëtmen"
+	"de Craon"
+	"de Dol"
+	"de Francheville"
+	"de Goulaine"
+	"de Gourcuff"
+	"de Halgoët"
+	"de Kerdrel"
+	"de Kerellec"
+	"de Kergoulay"
+	"de Kerguenech"
+	"de Kerguerron"
+	"de Kersauzon"
+	"de Kersulguen"
+	"de La Haye-Saint-Hilaire"
+	"de Lamballe"
+	"de Locmaria"
+	"de Machecoul"
+	"de Malestroit"
+	"de Mercœur"
+	"de Monfort"
+	"de Penguem"
+	"de Penhoadic"
+	"de Penthièvre"
+	"de Pontbriand"
+	"de Rieux"
+	"de Rodellec"
+	"de Rohan"
+	"de Roscoat"
+	"de Rostrenen"
+	"de Saint-Hoularn"
+	"de Saint-Meleuc"
+	"de Sévigné"
+	"de Talhouët"
+	"de Tasher de la Pagerie"
+	"de Tintériac"
+	"de Tonquedec"
+	"de Tournemine"
+	"de Trogoff"
+	"de Tromelin"
+	"de Tréméreuc"
+	"de Vitré"
+	"de la Nouë-Bogat"
+	"de la Trémoille"
+}
+ship_names = {
+	"l'Achille"
+	"l'Actif"
+	"l'Active"
+	"l'Admirable"
+	"l'Aglaé"
+	"l'Aimable"
+	"l'Alcide"
+	"l'Algésiras"
+	"l'Alose"
+	"l'Amazone"
+	"l'Ambition"
+	"l'Amphion"
+	"l'Annibal"
+	"l'Anémone"
+	"l'Apollon"
+	"l'Argonaute"
+	"l'Artésien"
+	"l'Audacieux"
+	"l'Auguste"
+	"l'Avenant"
+	"l'Entreprenant"
+	"l'Impétueux"
+	"l'Indien"
+	"l'Indomptable"
+	"l'Orion"
+	"l'Union"
+	"l'Élephant"
+	"l'Élisabeth"
+	"l'Émérillon"
+	"l'Éole"
+	"la Badine"
+	"la Barbue"
+	"la Bergère"
+	"la Berryer"
+	"la Bretagne"
+	"la Bretonne"
+	"la Bécasse"
+	"la Grande Hermine"
+	"la Loire"
+	"la Petite Hermine"
+	"la Protée"
+	"la Sarcelle"
+	"la Sphère"
+	"la Victoire"
+	"la Volante"
+	"le Beaumont"
+	"le Belliqueux"
+	"le Bien-Aimé"
+	"le Bienfaisant"
+	"le Bon"
+	"le Brillant"
+	"le Brutus"
+	"le Caché"
+	"le Centaure"
+	"le Chameau"
+	"le Comte"
+	"le Courageux"
+	"le Célèbre"
+	"le Diadème"
+	"le Diamant"
+	"le Dictateur"
+	"le Diligent"
+	"le Dragon"
+	"le Duc"
+	"le Défenseur"
+	"le Fleuron"
+	"le Formidable"
+	"le Fortuné"
+	"le Foudroyant"
+	"le Fougueux"
+	"le Fourgon"
+	"le Furieux"
+	"le Glorieux"
+	"le Jupiter"
+	"le Léopard"
+	"le Massiac"
+	"le Neptune"
+	"le Nestor"
+	"le Portefaix"
+	"le Profond"
+	"le Pégase"
+	"le Rolland"
+	"le Saint-Guillaume"
+	"le Six-Corps"
+	"le Solide"
+	"le Solitaire"
+	"le Souverain"
+	"le Sphinx"
+	"le Superbe"
+	"le Sévère"
+	"le Tardif"
+	"le Terrible"
+	"le Thésée"
+	"le Tonnant"
+	"le Triomphant"
+	"le Triton"
+	"le Téméraire"
+	"le Vaillant"
+	"le Vengeur"
+	"le Vigilant"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Broërec"
+	"Armée de Cornouaille"
+	"Armée de Penthièvre"
+	"Armée de Porhoët"
+	"Armée de Tréguier"
+	"Armée du Léon"
+	"Armée du Pays Nantais"
+	"Armée du Pays Rennais"
+	"Armée du Pays de Dol"
+	"Armée du Pays de Saint Brieuc"
+	"Armée du Pays de Saint Malo"
+	"Armée du Trégor"
+	"Armée du Vannetais"
+}

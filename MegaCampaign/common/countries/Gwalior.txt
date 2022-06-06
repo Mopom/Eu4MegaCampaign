@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 153 237 145 }
+revolutionary_colors = { 6 5 6 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	aristocracy_ideas
+	quantity_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Baija Bai #0" = -10
+	"Beersingh Deo #1" = 20
+	"Chinkuraje #0" = -1
+	"Dugarendrasingh #1" = 20
+	"Dungar Singh #1" = 20
+	"Ganapatidev #1" = 20
+	"Kalyanmalla #1" = 20
+	"Kamalaraje #0" = -1
+	"Man Singh #1" = 20
+	"Pulkit #1" = 20
+	"Uddhharandev #1" = 20
+	"Vikramdev #1" = 20
+}
+leader_names = {
+	"Bais"
+	"Bhaal"
+	"Bundela"
+	"Chandela"
+	"Chattar"
+	"Chauhan"
+	"Datia"
+	"Jadon"
+	"Jasos"
+	"Katoch"
+	"Mihir"
+	"Minhas"
+	"Mori"
+	"Naru"
+	"Pakhral"
+	"Pundir"
+	"Saharan"
+	"Singh"
+	"Tomara"
+}
+ship_names = {
+	"Betwa"
+	"Devi"
+	"Durga"
+	"Gandak"
+	"Ganga"
+	"Gayatri"
+	"Ghagra"
+	"Gomti"
+	"Jalsena"
+	"Kala Jahazi"
+	"Ken"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ramganga"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Satlaj"
+	"Sita"
+	"Yamuna"
+}

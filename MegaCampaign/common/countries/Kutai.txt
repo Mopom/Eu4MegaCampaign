@@ -1,0 +1,83 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 178 116 221 }
+revolutionary_colors = { 8 9 0 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	spy_ideas
+	offensive_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Cinta #0" = -1
+	"Gayatri #0" = -10
+	"Girindrawardhana #0" = 20
+	"Girishawardhana #0" = 20
+	"Hayam Wuruk #1" = 15
+	"Indreswari #0" = -1
+	"Kalagamet #1" = 15
+	"Kertabumi #0" = 20
+	"Kertawardhana #0" = 10
+	"Kertawijaya #0" = 20
+	"Narendra Duhita #0" = -1
+	"Prajnaparamitha #0" = -1
+	"Raden Sotor #0" = 10
+	"Raden Sumirat #0" = 10
+	"Raden Wijaya #1" = 15
+	"Rajasawardhana #0" = 20
+	"Singhawardhana #0" = 10
+	"Sri Gitarja #1" = -10
+	"Suhita #0" = -10
+	"Suraprabhawa #0" = 20
+	"Tribhuawana #0" = -10
+	"Wangi #0" = -1
+	"Wikramawardhana #0" = 20
+}
+leader_names = {
+	"Agung"
+	"Budi"
+	"Hamengku"
+	"Harto"
+	"Karno"
+	"Kencono"
+	"Mas"
+	"Ratri"
+	"Slamet"
+	"Wani"
+}
+ship_names = {
+	"Agong"
+	"Baris"
+	"Barong"
+	"Batukaru"
+	"Batur"
+	"Bratan"
+	"Catur"
+	"Kecak"
+	"Kelatakan"
+	"Legong"
+	"Lesong"
+	"Merbuk"
+	"Mesehe"
+	"Musi"
+	"Patas"
+	"Pendet"
+	"Pohen"
+	"Sanglang"
+	"Sangyang"
+	"Seraya"
+	"Topeng"
+}

@@ -1,0 +1,281 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 50 50 50 }
+monarch_names = {
+	"Aelfgifu #0" = -1
+	"Ale #0" = 0
+	"Alfgeir #0" = 0
+	"Alfr #0" = 0
+	"Anders #0" = 0
+	"Anlaufr #0" = 0
+	"Anundr #0" = 0
+	"Arnbj0rn #0" = 0
+	"Arnfast #0" = 0
+	"Arngrimr #0" = 0
+	"Arni #0" = 0
+	"Asa #0" = -1
+	"Asbj0rn #0" = 0
+	"Aud #0" = -1
+	"Bagge #0" = 0
+	"Baldr #0" = 0
+	"Barid #0" = 0
+	"Bengt #0" = 0
+	"Bersi #0" = 0
+	"Bertil #0" = 0
+	"Birger #0" = 0
+	"Bj0rn #0" = 0
+	"Bo #0" = 0
+	"Borkvard #0" = 0
+	"Botulfr #0" = 0
+	"Bragi #0" = 0
+	"Bu0li #0" = 0
+	"Dag #0" = 0
+	"Dan #0" = 0
+	"Dyre #0" = 0
+	"Egill #0" = 0
+	"Eilif #0" = 0
+	"Einarr #0" = 0
+	"Eirikr #0" = 0
+	"Emund #0" = 0
+	"Eskild #0" = 0
+	"Estrid #0" = -1
+	"Falki #0" = 0
+	"Faste #0" = 0
+	"Filip #0" = 0
+	"Folki #0" = 0
+	"Fredrik #0" = 0
+	"Freyr #0" = 0
+	"Frirek #0" = 0
+	"Fro0i #0" = 0
+	"Gandalfr #0" = 0
+	"Geirr #0" = 0
+	"Georg #0" = 0
+	"Gnupa #0" = 0
+	"Gorm #0" = 0
+	"Greger #0" = 0
+	"Grimr #0" = 0
+	"Gunhilda #0" = -1
+	"Gunnarr #0" = 0
+	"Gu0fri0 #0" = 0
+	"Gu0mundr #0" = 0
+	"Gu0r00r #0" = 0
+	"Gyda #0" = -1
+	"Hakon #0" = 0
+	"Halsten #0" = 0
+	"Haraldr #0" = 0
+	"Helgi #0" = 0
+	"Hemming #0" = 0
+	"Hjalmar #0" = 0
+	"Holmger #0" = 0
+	"Hrafn #0" = 0
+	"Hrane #0" = 0
+	"Hrolfr #0" = 0
+	"Hro0gar #0" = 0
+	"Hro0ulfr #0" = 0
+	"Hr0rekr #0" = 0
+	"Hysing #0" = 0
+	"H0steinn #0" = 0
+	"Inge #0" = 0
+	"Ingemar #0" = 0
+	"Ingjald #0" = 0
+	"Ivar #0" = 0
+	"Jedvard #0" = 0
+	"Jon #0" = 0
+	"Karl #0" = 0
+	"Kettil #0" = 0
+	"Kettilmund #0" = 0
+	"Kjartan #0" = 0
+	"Klas #0" = 0
+	"Knut #0" = 0
+	"Kol #0" = 0
+	"Kolbj0rn #0" = 0
+	"Markus #0" = 0
+	"Mats #0" = 0
+	"Niklas #0" = 0
+	"Nils #0" = 0
+	"Oddr #0" = 0
+	"Ofeig #0" = 0
+	"Olafr #0" = 0
+	"Ormr #0" = 0
+	"Ottarr #0" = 0
+	"Palnatoke #1" = 0
+	"Ragnarr #0" = 0
+	"Refil #0" = 0
+	"Refr #0" = 0
+	"Rikulfr #0" = 0
+	"R0gnvaldr #0" = 0
+	"Sigbj0rn #0" = 0
+	"Sigtrygg #0" = 0
+	"Sigur0r #0" = 0
+	"Skuli #0" = 0
+	"Snorri #0" = 0
+	"Starka0r #0" = 0
+	"Steinn #0" = 0
+	"Sturla #0" = 0
+	"Styrbj0rn #0" = 0
+	"Styrkar #0" = 0
+	"Suni #0" = 0
+	"Sveinn #0" = 0
+	"Sverker #0" = 0
+	"S0mundr #0" = 0
+	"S0lvi #0" = 0
+	"S0rkver #0" = 0
+	"Tjudmund #0" = 0
+	"Toke #0" = 0
+	"Tolir #0" = 0
+	"Toste #0" = 0
+	"Totil #0" = 0
+	"Tove #0" = -1
+	"Tryggve #0" = 0
+	"Tyke #0" = 0
+	"Tyra #0" = -1
+	"Ulfr #0" = 0
+	"Vagn #0" = 0
+	"Valdemar #0" = 0
+	"Yngvar #0" = 0
+	"0ke #0" = 0
+	"0rvar #0" = 0
+	"0ysteinn #0" = 0
+	"0orbj0rn #0" = 0
+	"0orbrandr #0" = 0
+	"0ordr #0" = 0
+	"0orfinn #0" = 0
+	"0orgil #0" = 0
+	"0orolfr #0" = 0
+	"0orsteinn #0" = 0
+}
+leader_names = {
+	"Ale"
+	"Alfgeir"
+	"Alfr"
+	"Anders"
+	"Anlaufr"
+	"Anundr"
+	"Arnbjörn"
+	"Arnfast"
+	"Arngrimr"
+	"Arni"
+	"Asbjörn"
+	"Bagge"
+	"Baldr"
+	"Barid"
+	"Bengt"
+	"Bersi"
+	"Bertil"
+	"Birger"
+	"Björn"
+	"Bo"
+	"Borkvard"
+	"Botulfr"
+	"Bragi"
+	"Buðli"
+	"Dag"
+	"Dan"
+	"Dyre"
+	"Egill"
+	"Eilif"
+	"Einarr"
+	"Eirikr"
+	"Emund"
+	"Eskild"
+	"Falki"
+	"Faste"
+	"Filip"
+	"Folki"
+	"Fredrik"
+	"Freyr"
+	"Frirek"
+	"Froði"
+	"Gandalfr"
+	"Geirr"
+	"Georg"
+	"Gnupa"
+	"Gorm"
+	"Greger"
+	"Grimr"
+	"Gunnarr"
+	"Guðfrið"
+	"Guðmundr"
+	"Guðröðr"
+	"Hakon"
+	"Halsten"
+	"Haraldr"
+	"Helgi"
+	"Hemming"
+	"Hjalmar"
+	"Holmger"
+	"Hrafn"
+	"Hrane"
+	"Hrolfr"
+	"Hroðgar"
+	"Hroðulfr"
+	"Hrörekr"
+	"Hysing"
+	"Hæsteinn"
+	"Inge"
+	"Ingemar"
+	"Ingjald"
+	"Ivar"
+	"Jedvard"
+	"Jon"
+	"Karl"
+	"Kettil"
+	"Kettilmund"
+	"Kjartan"
+	"Klas"
+	"Knut"
+	"Kol"
+	"Kolbjörn"
+	"Markus"
+	"Mats"
+	"Niklas"
+	"Nils"
+	"Oddr"
+	"Ofeig"
+	"Olafr"
+	"Ormr"
+	"Ottarr"
+	"Palnatoke"
+	"Ragnarr"
+	"Refil"
+	"Refr"
+	"Rikulfr"
+	"Rögnvaldr"
+	"Sigbjörn"
+	"Sigtrygg"
+	"Sigurðr"
+	"Skuli"
+	"Snorri"
+	"Starkaðr"
+	"Steinn"
+	"Sturla"
+	"Styrbjörn"
+	"Styrkar"
+	"Suni"
+	"Sveinn"
+	"Sverker"
+	"Sæmundr"
+	"Sölvi"
+	"Sörkver"
+	"Tjudmund"
+	"Toke"
+	"Tolir"
+	"Toste"
+	"Totil"
+	"Tryggve"
+	"Tyke"
+	"Ulfr"
+	"Vagn"
+	"Valdemar"
+	"Yngvar"
+	"Åke"
+	"Örvar"
+	"Öysteinn"
+	"Þorbjörn"
+	"Þorbrandr"
+	"Þordr"
+	"Þorfinn"
+	"Þorgil"
+	"Þorolfr"
+	"Þorsteinn"
+}

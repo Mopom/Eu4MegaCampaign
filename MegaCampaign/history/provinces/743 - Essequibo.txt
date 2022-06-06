@@ -1,0 +1,15 @@
+owner = ARW
+controller = ARW
+capital = "Essequibo"
+is_city = yes
+culture = guajiro
+religion = animism
+trade_goods = sugar
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = ARW
+discovered_by = south_american
+native_size = 10
+native_ferocity = 2
+native_hostileness = 3

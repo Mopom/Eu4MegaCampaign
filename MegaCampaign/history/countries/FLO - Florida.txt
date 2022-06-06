@@ -1,0 +1,15 @@
+government = republic
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 2530
+1810.3.10= {
+	monarch = {
+		name = "Skipwith"
+		adm = 2
+		dip = 5
+		mil = 6
+		regent = no
+	}
+}

@@ -1,0 +1,126 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 28 70 150 }
+revolutionary_colors = { 0 14 1 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	american_western_franchise_warfare
+	iroquois_rifle_scout
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Awashonks #0" = -1
+	"Canonchet #0" = 20
+	"Djitsbudnaca #0" = -1
+	"Mahomet #0" = 20
+	"Massasoit #0" = 0
+	"Metacom #0" = 0
+	"Miantonomo #0" = 20
+	"Nynigrett #0" = 2
+	"Occom #0" = 20
+	"Pessicus #0" = 20
+	"Sassacus #0" = 20
+	"Sassamon #0" = 20
+	"Sassious #0" = 20
+	"Tatobem #0" = 20
+	"Tisquantum #0" = 20
+	"Uncas #0" = 0
+	"Wamsutta #0" = 0
+	"Weetamoo #0" = -1
+	"Wequash #0" = 20
+	"Weyonomon #0" = 20
+	"Wootonekanuske #0" = -1
+}
+leader_names = {
+	"Assonet"
+	"Asupsuck"
+	"Aukumbumsk"
+	"Aushpook"
+	"Cosattuck"
+	"Cuppunauginnit"
+	"Manchaug"
+	"Mangunckakuck"
+	"Mashantucket"
+	"Mashpee"
+	"Massomuck"
+	"Menunkantuck"
+	"Metoac"
+	"Mohungannuck"
+	"Monashackotoog"
+	"Nameauag"
+	"Natchaug"
+	"Niantic"
+	"Noank"
+	"Oneco"
+	"Patuxet"
+	"Paupttokshick"
+	"Pawcatuck"
+	"Pequannock"
+	"Pequotauk"
+	"Pocasset"
+	"Pokanoket"
+	"Poquonock"
+	"Quahog"
+	"Quinebaug"
+	"Quinnipiac"
+	"Sauquonckackock"
+	"Shenecosset"
+	"Siwanoy"
+	"Tatuppequauog"
+	"Weinshauks"
+	"Weqhetequock"
+	"Wunnashowatookoog"
+}
+ship_names = {
+	"Assonet"
+	"Asupsuck"
+	"Aukumbumsk"
+	"Aushpook"
+	"Cosattuck"
+	"Cuppunauginnit"
+	"Manchaug"
+	"Mangunckakuck"
+	"Mashantucket"
+	"Mashpee"
+	"Massomuck"
+	"Menunkantuck"
+	"Metoac"
+	"Mohungannuck"
+	"Monashackotoog"
+	"Nameauag"
+	"Natchaug"
+	"Niantic"
+	"Noank"
+	"Oneco"
+	"Patuxet"
+	"Paupttokshick"
+	"Pawcatuck"
+	"Pequannock"
+	"Pequotauk"
+	"Pocasset"
+	"Pokanoket"
+	"Poquonock"
+	"Quahog"
+	"Quinebaug"
+	"Quinnipiac"
+	"Sauquonckackock"
+	"Shenecosset"
+	"Siwanoy"
+	"Tatuppequauog"
+	"Weinshauks"
+	"Weqhetequock"
+	"Wunnashowatookoog"
+}

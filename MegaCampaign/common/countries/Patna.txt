@@ -1,0 +1,84 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 114 25 100 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	quantity_ideas
+	trade_ideas
+	diplomatic_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Baijal #0" = 30
+	"Balram #0" = 10
+	"Bhanjan #0" = 10
+	"Chatrapal #0" = 10
+	"Giriraj #0" = -1
+	"Hirde Shah #0" = 10
+	"Hridaya #0" = 10
+	"Malavika Devi #0" = -1
+	"Mukund #0" = 10
+	"Narsingh #0" = 10
+	"Pratap #0" = 10
+	"Prithviraj #0" = 10
+	"Rai #0" = 10
+	"Ramchandra #0" = 10
+	"Suratarangini Devi #0" = -1
+	"Vikramaditya #0" = 30
+}
+leader_names = {
+	"Bhanja"
+	"Deb"
+	"Deo"
+	"Gangabansi"
+	"Ghumsur"
+	"Janamuni"
+	"Mahapatra"
+	"Mangraj"
+	"Narendra"
+	"Pal"
+	"Parmar"
+	"Patnaik"
+	"Pusapati"
+	"Rawat"
+	"Samant"
+	"Singh"
+	"Vidyadhar"
+}
+ship_names = {
+	"Baitarani"
+	"Balasore"
+	"Balugaon"
+	"Behrampur"
+	"Bhubeneswar"
+	"Brahmani"
+	"Chandipur"
+	"Chilka"
+	"Cuttack"
+	"Durga"
+	"Gopalpur"
+	"Jagannath"
+	"Juggernaut"
+	"Kalijai"
+	"Konark"
+	"Lakshmi"
+	"Mahanadi"
+	"Nalabana"
+	"Paradeep"
+	"Parvati"
+	"Puri"
+	"Radha"
+	"Sarasvati"
+	"Satapada"
+}

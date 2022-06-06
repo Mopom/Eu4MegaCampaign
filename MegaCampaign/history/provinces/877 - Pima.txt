@@ -1,0 +1,15 @@
+owner = PIM
+controller = PIM
+capital = "Pima"
+is_city = yes
+culture = piman
+religion = totemism
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = PIM
+discovered_by = north_american
+native_size = 5
+native_ferocity = 2
+native_hostileness = 1

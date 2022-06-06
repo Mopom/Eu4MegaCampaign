@@ -1,0 +1,14 @@
+owner = CHM
+controller = CHM
+capital = "Tucume"
+is_city = yes
+culture = chimuan
+religion = inti
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = CHM
+discovered_by = CHM
+discovered_by = andean
+discovered_by = south_american

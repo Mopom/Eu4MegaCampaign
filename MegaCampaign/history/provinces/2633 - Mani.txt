@@ -1,0 +1,15 @@
+owner = XIU
+controller = XIU
+capital = "Ceh Pech"
+is_city = yes
+culture = yucatec
+religion = mesoamerican_religion
+trade_goods = cocoa
+base_tax = 4
+base_production = 4
+base_manpower = 1
+add_core = XIU
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

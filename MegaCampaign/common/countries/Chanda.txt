@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 165 167 29 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	quantity_ideas
+	spy_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Adiya Ballal Sah #0" = 5
+	"Babji Ballal Sah #0" = 10
+	"Bhim Ballal Sah #0" = 5
+	"Bhuma Sah #0" = 15
+	"Bir Sah #0" = 10
+	"Dhundya Ram Sah #0" = 10
+	"Dinkar Sah #0" = 5
+	"Durgavati #0" = -1
+	"Hir Sah #0" = 10
+	"Hirai #0" = -10
+	"Kesar Sah #0" = 5
+	"Khandkhya Ballal Sah #0" = 10
+	"Kharja Ballal Sah #0" = 5
+	"Kondya Sah #0" = 15
+	"Krasna Sah #0" = 10
+	"Lokba Sah #0" = 15
+	"Nilkanth Sah #0" = 10
+	"Ratna Kuvar #0" = -1
+	"Surja Ballal Sah #0" = 5
+	"Talwar Sah #0" = 5
+}
+leader_names = {
+	"Ballar"
+	"Chandi"
+	"Deogadhi"
+	"Gadhi"
+	"Garha-Mandli"
+	"Haihaya"
+	"Kherli"
+	"Narayan"
+	"Palamaui"
+	"Raj Gondi"
+	"Raksel"
+	"Shahi"
+	"Simha"
+}
+ship_names = {
+	"Amitha"
+	"Amman"
+	"Arul"
+	"Baitarani"
+	"Balasore"
+	"Balugaon"
+	"Brahmani"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Juggernaut"
+	"Lakshmi"
+	"Mahanadi"
+	"Mou"
+	"Nilima"
+	"Paradeep"
+	"Parvati"
+	"Radha"
+	"Sarasvati"
+	"Sharmistha"
+	"Tuli"
+}

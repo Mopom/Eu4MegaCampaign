@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = inca
+capital = 814
+unit_type = south_american
+1444.1.1= {
+	monarch = {
+		name = "Hastu"
+		dynasty = "Huyla"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 131 146 194 }
+revolutionary_colors = { 14 0 8 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	chinese_dragoon
+	chinese_footsoldier
+	chinese_longspear
+	chinese_steppe
+	eastern_bow
+	han_banner
+	manchu_banner
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+	reformed_manchu_rifle
+}
+monarch_names = {
+	"Aiaan #0" = 20
+	"Aiyyna #0" = -1
+	"Atch-ytagyn #0" = 20
+	"Darkhan #0" = 20
+	"Dokhsun #0" = 20
+	"Dulustaan #0" = 20
+	"Duolan #0" = 20
+	"Dygyn #0" = 20
+	"Erchim #0" = 20
+	"Ergis #0" = 20
+	"Erkin #0" = 20
+	"Giv-ynkeev #0" = 20
+	"Gyrgol-gyrgyn #0" = 20
+	"Kencheeri #0" = 20
+	"Keskil #0" = 20
+	"Khaarchaana #0" = -1
+	"Kharyskhan #0" = 1
+	"Kydaana #0" = -1
+	"Kyytymei #0" = 20
+	"Manchaary #0" = 20
+	"Michil #0" = 20
+	"Modun #0" = 20
+	"Naryiaana #0" = -1
+	"Nuolan #0" = 20
+	"Nurgun #0" = 20
+	"Nute-nli #0" = 20
+	"Sulustaan #0" = 20
+	"Tanat #0" = 20
+	"Timir #0" = 20
+	"Tolluman #0" = 20
+	"Tuskul #0" = 20
+	"Tuskulaana #0" = -1
+	"Tygyn #0" = 20
+	"Uolan #0" = 20
+	"Yrgel #0" = 20
+}
+leader_names = {
+	"Adiul"
+	"Agna"
+	"Akhtamak"
+	"Aksik"
+	"Alvali"
+	"Burgumi"
+	"Dyaluncha"
+	"Eldan"
+	"Garpancha"
+	"Gudeikon"
+	"Gugdaul"
+	"Ka-cheda"
+	"Kepele"
+	"Khadiul"
+	"Kilim"
+	"Saltyk"
+	"Sebeda"
+	"Songolik"
+	"Tykulcha"
+	"Tymancha"
+	"Vadyo"
+	"Vankho"
+	"Vavlya"
+}
+ship_names = {
+	"Abai Geser"
+	"Aiduurai Mergen"
+	"Alamzhi Mergen"
+	"Bukhu Khaara"
+	"Dalkha"
+	"Erensei"
+	"Erlik"
+	"Khormust"
+	"Kurkyl"
+	"Uligery"
+}

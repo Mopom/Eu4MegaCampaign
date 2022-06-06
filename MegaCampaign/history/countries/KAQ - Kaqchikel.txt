@@ -1,0 +1,34 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = mesoamerican
+religion = mesoamerican_religion
+primary_culture = highland_mayan
+capital = 2653
+1435.1.1= {
+	monarch = {
+		name = "Wuqu-Batz'"
+		dynasty = "Kaqchikel'"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1475.1.1= {
+	monarch = {
+		name = "Oxlanuh-Tz'i'"
+		dynasty = "Kaqchikel"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+1508.1.1= {
+	monarch = {
+		name = "Hun-lq'"
+		dynasty = "Kaqchikel'"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

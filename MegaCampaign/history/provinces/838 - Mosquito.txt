@@ -1,0 +1,16 @@
+owner = MIS
+controller = MIS
+capital = "Mosquito"
+is_city = yes
+culture = miskito
+religion = animism
+trade_goods = coffee
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = MIS
+discovered_by = MAY
+discovered_by = mesoamerican
+native_size = 20
+native_ferocity = 1
+native_hostileness = 5

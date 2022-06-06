@@ -1,0 +1,11 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = central_african
+religion = shamanism
+primary_culture = shona
+capital = 1184
+unit_type = sub_saharan
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = mwari_cult

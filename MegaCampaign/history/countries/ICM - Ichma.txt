@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = andean
+religion = inti
+primary_culture = aimara
+capital = 809
+unit_type = south_american
+1444.1.1= {
+	monarch = {
+		name = "Irma"
+		dynasty = "Ichma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

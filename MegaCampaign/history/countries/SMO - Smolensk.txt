@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = ryazanian
+capital = 293
+fixed_capital = 293
+1386.1.1= {
+	monarch = {
+		name = "Yury I"
+		dynasty = "Rostaslavichi"
+		adm = 0
+		dip = 0
+		mil = 3
+	}
+}

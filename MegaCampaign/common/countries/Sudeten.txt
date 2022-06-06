@@ -1,0 +1,130 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 200 105 5 }
+revolutionary_colors = { 5 1 5 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #2" = 10
+	"Alfred #0" = 0
+	"Andreas #0" = 0
+	"Annegret #0" = -1
+	"August #0" = 0
+	"Balthasar #0" = 15
+	"Beata #0" = -1
+	"Bernhard #0" = 0
+	"Berthold #0" = 0
+	"Burkhard #0" = 0
+	"Christian #0" = 0
+	"Christoph #0" = 0
+	"Dietrich #0" = 0
+	"Elise #0" = -1
+	"Ernst #0" = 10
+	"Friedrich #3" = 30
+	"Georg #0" = 15
+	"Gustav #0" = 0
+	"G�nther #0" = 0
+	"Heinrich #0" = 0
+	"Joachim #0" = 0
+	"Johann #0" = 0
+	"Karl #0" = 0
+	"Kasimir #0" = 0
+	"Konrad #1" = 5
+	"Leonhard #0" = 0
+	"Leopold #0" = 0
+	"Lorenz #0" = 0
+	"Ludwig #0" = 0
+	"Maximilian #0" = 0
+	"Michael #0" = 0
+	"Moritz #0" = 0
+	"Nicolaus #0" = 0
+	"Otto #1" = 5
+	"Paul #0" = 0
+	"Reiner #0" = 0
+	"Rudolf #0" = 0
+	"Siegmund #0" = 10
+	"Thomas #0" = 0
+	"Ulrich #0" = 0
+	"Viktor #0" = 0
+	"Waldemar #0" = 0
+	"Wilhelm #0" = 20
+}
+leader_names = {
+	"Ackermann"
+	"Alberti"
+	"Albrecht"
+	"Alvensleben"
+	"Amman"
+	"Annecke"
+	"Anthe"
+	"Bauer"
+	"Bause"
+	"Ehrenberg"
+	"Erxleben"
+	"Feuerstack"
+	"Flachsbart"
+	"Genthe"
+	"Gerstung"
+	"Held"
+	"Herzburg"
+	"Hoppe"
+	"Isaack"
+	"Janeck"
+	"Jantke"
+	"Kersten"
+	"Kleinau"
+	"März"
+	"Nehmiz"
+	"Rumpf"
+	"SChauseil"
+	"Scharfe"
+	"Schieck"
+	"von Zerbst"
+}
+ship_names = {
+	"Albrecht Ballenstedt"
+	"Albrecht der Bär"
+	"Aschersleben"
+	"Bernburg"
+	"Bernhard Wittenberg"
+	"Bischof Siegfried"
+	"Brocken"
+	"Coswig"
+	"Dessau"
+	"Dietrich Werben"
+	"Hartz"
+	"Heinrich I"
+	"Hermann Orlamünde"
+	"Köthen"
+	"Plötzkau"
+	"Ramberg"
+	"Rosslau"
+	"Zerbst"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

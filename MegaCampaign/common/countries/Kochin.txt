@@ -1,0 +1,99 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 255 188 225 }
+revolutionary_colors = { 5 8 14 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	offensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Aravindaksha #0" = 0
+	"Ayilyam #0" = 0
+	"Balarama #0" = 0
+	"Dharma #0" = 0
+	"Gangadhara Lakshmi #0" = -10
+	"Goda #0" = 0
+	"Goda Varma #0" = 10
+	"Kerala Varma #0" = 30
+	"Kesara Rama Varma #1" = 10
+	"Kodassery #0" = 0
+	"Koratty #0" = 0
+	"Lalitha #0" = -1
+	"Marthanda #0" = 0
+	"Moolam #0" = 0
+	"Nilakantan #0" = 0
+	"Raja #0" = 0
+	"Rama #0" = 0
+	"Rama Varma #0" = 50
+	"Raman #0" = 0
+	"Ravi Varma #0" = 10
+	"Sakthan  #0" = 0
+	"Seema #0" = -1
+	"Shri #0" = 0
+	"Swathi #0" = 0
+	"Thirunal #0" = 0
+	"Unni Rama Koil #0" = 10
+	"Uthram #0" = 0
+	"Veerarayira #0" = 0
+	"Vira Kerala Varma #0" = 30
+	"Vira Rayira Varma #0" = 10
+}
+leader_names = {
+	"Kaimal"
+	"Kartha"
+	"Karthavu"
+	"Kesavadas"
+	"Kurup"
+	"Naduvazhi"
+	"Nambiar"
+	"Nedungadi"
+	"Thampi"
+	"Varma"
+	"Vellodi"
+}
+ship_names = {
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Kaveri"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Palar"
+	"Parvati"
+	"Pennar"
+	"Ponnaiyar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+	"Vaigai"
+}

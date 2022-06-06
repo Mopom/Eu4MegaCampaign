@@ -1,0 +1,16 @@
+owner = HSK
+controller = HSK
+capital = "Tokushima"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = HSK
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

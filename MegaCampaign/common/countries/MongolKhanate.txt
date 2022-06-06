@@ -1,0 +1,145 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 108 153 65 }
+revolutionary_colors = { 4 15 4 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Adai #0" = 20
+	"Agbarjin #0" = 20
+	"Altan #0" = 20
+	"Arigaba #1" = 10
+	"Ariq #0" = 0
+	"Arugtai #0" = 10
+	"Ayurparibhadra #1" = 10
+	"Bahamu #0" = 20
+	"Bars #0" = 20
+	"Batu #0" = 0
+	"Bek #0" = 20
+	"Biligt0 #1" = 10
+	"Bodi #0" = 20
+	"Buyan #0" = 20
+	"B0rte #0" = -1
+	"Darayisung #0" = 20
+	"Dayan #0" = 20
+	"Delbeg #0" = 20
+	"Ejei #1" = 10
+	"Elbeg #1" = 10
+	"Eljigidei #0" = 0
+	"Engke #1" = 10
+	"Gulichi #0" = 20
+	"G0n #0" = 20
+	"G0y0k #1" = 10
+	"Irinchibal #1" = 10
+	"Joichi #0" = 0
+	"Jorightu #1" = 10
+	"Kublai #1" = 10
+	"K0ke #0" = 10
+	"Ligdan #0" = 20
+	"Mandukhai #0" = -1
+	"Manduulun #0" = 20
+	"Mark0rgis #0" = 10
+	"Mulan #0" = 20
+	"M0ngke #1" = 10
+	"Oyiradai #0" = 20
+	"Qayshan #1" = 10
+	"Qoshila #1" = 10
+	"Samar #0" = -1
+	"Sayn #0" = 20
+	"Suddhipala #1" = 10
+	"Tayisung #0" = 20
+	"Temujin #1" = 10
+	"Tem0len #0" = -1
+	"Tem0r #1" = 10
+	"Toghun #1" = 10
+	"Tolui #1" = 10
+	"Toq #1" = 10
+	"T0men #0" = 10
+	"Uskhal #1" = 10
+	"Yes0n #1" = 10
+	"Zaufishan #0" = -1
+	"0g0dei #1" = 10
+	"0ljei #0" = 20
+	"0r0g #0" = 15
+}
+leader_names = {
+	"Abaga"
+	"Abaganar"
+	"Ast"
+	"Borjigin"
+	"Chagaan"
+	"Chakhar"
+	"Darqan"
+	"Hohhot"
+	"Jurim"
+	"Karakorum"
+	"Khalkha"
+	"Kharachin"
+	"Khorchin"
+	"Noyan"
+	"Onriut"
+	"Ordos"
+	"Tümed"
+	"Ulanqab"
+	"Uriankhai"
+	"Wang"
+	"Xilingol"
+	"Yingchang"
+	"Yungshiyebu"
+}
+ship_names = {
+	"Adai"
+	"Batu"
+	"Bo'orchu"
+	"Borokhula"
+	"Böke"
+	"Chagaan"
+	"Chilaun"
+	"Dharmapala"
+	"Dörben Külü'üd"
+	"Dörben Noyas"
+	"Elbeg"
+	"Ghengis Khan"
+	"Hohhot"
+	"Hülegü"
+	"Jebe"
+	"Jelme"
+	"Jinggim"
+	"Jöchi"
+	"Kamala"
+	"Karakorum"
+	"Khar Khiruge"
+	"Khubilai"
+	"Mugali"
+	"Möngke"
+	"Qubilai"
+	"Shikhikhutug"
+	"Sorqan Shira"
+	"Subutai"
+	"Tolui"
+	"Yelü Chucai"
+	"Yingchang"
+	"Ögödei"
+	"Örüg Temür"
+}

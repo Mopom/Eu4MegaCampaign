@@ -1,0 +1,115 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 192 111 179 }
+revolutionary_colors = { 6 5 10 }
+historical_idea_groups = {
+	aristocracy_ideas
+	offensive_ideas
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Abhai Singh #0" = 10
+	"Ajit Singh #0" = 10
+	"Akher #0" = -1
+	"Anup #0" = -1
+	"Asthanji #0" = 0
+	"Bairisal #0" = 0
+	"Bandur #0" = 0
+	"Bhim #0" = 0
+	"Bh0m Singh #0" = 10
+	"Bida #0" = 0
+	"Bijay Singh #0" = 10
+	"Bika #0" = 0
+	"Chanda #0" = 10
+	"Chandrasen #0" = 10
+	"Chandrasena #0" = 10
+	"Fateh #0" = 0
+	"Gaja Singh #0" = 10
+	"Ganga #0" = 10
+	"Hansa Devi #0" = -1
+	"Ishwar #0" = 0
+	"Jaitmal #0" = 0
+	"Jaswant #0" = 0
+	"Jaswant Singh #0" = 10
+	"Jodha #0" = 10
+	"Kanha #0" = 10
+	"Kanha Dev #0" = 0
+	"Kanhaji #0" = 0
+	"Kanwar #0" = 0
+	"Maldeo #0" = 10
+	"Mallinathji #0" = 0
+	"Man Singh #0" = 10
+	"Mandoji #0" = 0
+	"Pratap #0" = 0
+	"Ram Das #0" = 0
+	"Ram Singh #0" = 10
+	"Ranmal #0" = 10
+	"Saga #0" = 0
+	"Satal #0" = 10
+	"Sher #0" = 0
+	"Sonamji #0" = 0
+	"Suja #0" = 10
+	"Surya #0" = -1
+	"S0ra Singh #0" = 10
+	"Udaya Singh #0" = 10
+	"Ugrasen #0" = 0
+	"Viram Dev #0" = 0
+}
+leader_names = {
+	"Bais"
+	"Bhati"
+	"Chandela"
+	"Chattari"
+	"Chudasama"
+	"Gauri"
+	"Jadeja"
+	"Naru"
+	"Pakhral"
+	"Rathore"
+	"Saran"
+	"Singh"
+	"Solanki"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Marwar ka Nav"
+	"Merwar ka Nav"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

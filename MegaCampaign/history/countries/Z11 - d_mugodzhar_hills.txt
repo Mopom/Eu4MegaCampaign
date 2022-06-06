@@ -1,0 +1,56 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = nomad_group
+religion = tengri_pagan
+primary_culture = bashkir
+capital = 1966
+add_accepted_culture = nogaybak
+1444.11.11= {
+	monarch = {
+		name = "Belgünütei"
+		dynasty = "Karabutakid"
+		adm = 4
+		dip = 2
+		mil = 5
+		birth_date = 1379.11.25
+		religion = tengri_pagan
+		culture = bashkir
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Mandukhai"
+		dynasty = "Mungligid"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z11
+		birth_date = 1390.3.20
+		death_date = 1450.3.20
+		female = yes
+		religion = tengri_pagan
+		culture = cuman
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Khabul"
+		monarch_name = "Khabul"
+		dynasty = "Karabutakid"
+		adm = 5
+		dip = 6
+		mil = 4
+		birth_date = 1401.6.23
+		death_date = 1466.6.23
+		claim = 89
+		religion = tengri_pagan
+		culture = mongol
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 84
+	add_treasury = 43
+}

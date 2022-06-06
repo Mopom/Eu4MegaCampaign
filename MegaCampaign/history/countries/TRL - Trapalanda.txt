@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = high_american
+religion = tengri_pagan
+primary_culture = equine
+capital = 1002
+mercantilism = 10
+1444.11.11= {
+	monarch = {
+		name = "Lady"
+		dynasty = "Glitterhoof"
+		female = yes
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

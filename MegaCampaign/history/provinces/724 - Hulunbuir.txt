@@ -1,0 +1,14 @@
+owner = MGE
+controller = MGE
+capital = "Hulunbuir"
+is_city = yes
+culture = buryat
+religion = tengri_pagan
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = KHA
+add_core = MGE
+discovered_by = chinese
+discovered_by = nomad_group

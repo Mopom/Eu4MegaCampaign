@@ -1,0 +1,121 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 149 186 37 }
+revolutionary_colors = { 5 8 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adriaan #0" = 0
+	"Alexandre #2" = 5
+	"Andries #0" = 0
+	"Augustijn #0" = 0
+	"Bartholomeus #0" = 0
+	"Boudewijn #0" = 0
+	"Charles #0" = 20
+	"Christiaan #0" = 0
+	"Constantijn #0" = 0
+	"Corneille #0" = 20
+	"C0sar-Constantin #0" = 20
+	"Dani0l #0" = 0
+	"Dominicus #0" = 0
+	"Ernest #0" = 20
+	"Fabian #0" = 0
+	"Ferdinand #0" = 20
+	"Frans #0" = 0
+	"Fran0ois-Antoine #0" = 20
+	"Fran0ois-Charles #0" = 20
+	"Georges #0" = 20
+	"Georges-Louis #0" = 20
+	"Gillis #0" = 0
+	"Godfried #0" = 0
+	"Guillaume #3" = 5
+	"G0rard #0" = 20
+	"Henri #1" = 5
+	"Herman #0" = 0
+	"Ignaas #0" = 0
+	"Irena #0" = -1
+	"Ivo #0" = 0
+	"Jacob #0" = 0
+	"Jean #5" = 80
+	"Jean-Louis #0" = 20
+	"Jean-Th0odore #0" = 20
+	"Joseph-Cl0ment #0" = 20
+	"Jozefien #0" = -1
+	"Louis #0" = 20
+	"Lysanne #0" = -1
+	"Maximilien-Henri #0" = 20
+	"Robert #1" = 20
+	"Stefanus #0" = 0
+	"Th0oduin #1" = 5
+	"0rard #0" = 20
+}
+leader_names = {
+	"Aubry"
+	"Bastin"
+	"Bauduinet"
+	"Bitha"
+	"Bouchet"
+	"Chauchet"
+	"Cloet"
+	"Colson"
+	"Digneffe"
+	"Fabry"
+	"Gérard"
+	"Haeck"
+	"Hauzeur"
+	"Henkart"
+	"Josias"
+	"Lambermont"
+	"Nannan"
+	"Paulet"
+	"Philippens"
+	"Reul"
+	"Reynier"
+	"Vanhove"
+	"da Franquinet"
+	"de Donnea"
+	"de Finesse"
+	"de Haxhe"
+	"de Lacu"
+	"de Spirlet"
+	"la Vignette"
+}
+ship_names = {
+	"l'Ans"
+	"la Meuse"
+	"la Place-du-Queer"
+	"le Luik"
+	"le Notger de Liège"
+	"le Saint-Barthélemy"
+	"le Saint-Hubert"
+	"le Saint-Jacques"
+	"le Saint-Lambert"
+	"le Saint-Martin"
+	"le Saint-Nicolas"
+	"le Sart-Tilman"
+	"le Seraing"
+}

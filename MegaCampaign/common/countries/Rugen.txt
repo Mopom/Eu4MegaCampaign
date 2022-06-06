@@ -1,0 +1,142 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 51 59 76 }
+historical_idea_groups = {
+	maritime_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #0" = 0
+	"Arnt #0" = 0
+	"August #0" = 0
+	"Barnim #0" = 20
+	"Bernhard #0" = 0
+	"Bodo #0" = 0
+	"Boguslaw #0" = 10
+	"Carl #0" = 0
+	"Elisabeth #0" = -1
+	"Emil #0" = 0
+	"Ernest #0" = 0
+	"Eryk #0" = 20
+	"Filip #0" = 20
+	"Franciszek #0" = 20
+	"Fritz #0" = 0
+	"Fryderyk #0" = 0
+	"Gabriela #0" = -1
+	"Georg #0" = 15
+	"Gerhard #0" = 0
+	"Gustav #0" = 0
+	"G0deke #0" = 30
+	"Hans #0" = 0
+	"Harald #0" = 0
+	"Helena #0" = -1
+	"Hendryk #0" = 0
+	"Hennig #0" = 10
+	"Herbert #0" = 0
+	"Hermann #0" = 0
+	"Jan #0" = 0
+	"Janina #0" = -1
+	"Janusz #0" = 0
+	"Jochem #0" = 0
+	"Kazimierz #0" = 10
+	"Klaus #0" = 100
+	"Magdalena #0" = -1
+	"Martin #0" = 0
+	"Maximiliam #0" = 0
+	"Ota #0" = 20
+	"Paul #0" = 0
+	"Reinhold #0" = 0
+	"Richard #0" = 0
+	"Siegfried #0" = 0
+	"Sophia #0" = -1
+	"Stina #0" = -1
+	"Ulrich #0" = 15
+	"Walter #0" = 0
+	"Wilhelm #0" = 0
+	"Wratislaw #0" = 20
+}
+leader_names = {
+	"Beyse"
+	"Boniface"
+	"Grosch"
+	"Haufoote"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzhöfer"
+	"Kurzmann"
+	"Mandüvel"
+	"Meuseling"
+	"Michels"
+	"Miercke"
+	"Milies"
+	"Normann"
+	"Rainbek"
+	"Rähl"
+	"Scheld"
+	"Stellmacher"
+	"Stuke"
+	"Störtebeker"
+	"Wessel"
+	"Wichmann"
+	"Wygbold"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Pommern"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Wethemonkule"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+}
+ship_names = {
+	"Bornholmer Drachenboot"
+	"Danziger Schmetterer"
+	"Der Drache des Nordens"
+	"Der Greif von Pommern"
+	"Der Hammer von Stettin"
+	"Der Sturm von Gottland"
+	"Der Öresundsschrecken"
+	"Die Geißel von Pommern"
+	"Die Schwarze Perle"
+	"Dänisches Feuer"
+	"Fräulein Stina"
+	"Fräulein von Rügen"
+	"Michels Augenklappe"
+	"Odins Zorn"
+	"Rückkehr der Likedeeler"
+	"Schnelltrinker"
+	"Schrecken der Hanse"
+	"Störtebekers Rache"
+	"Tochter der Vitalienbrüder"
+	"Wikingertochter"
+}

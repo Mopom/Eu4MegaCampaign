@@ -1,0 +1,85 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 119 32 29 }
+revolutionary_colors = { 8 5 2 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"'Umniya #0" = -1
+	"Aisha #0" = -1
+	"Anela #0" = -1
+	"Azura #0" = -1
+	"Bangkaya #0" = 30
+	"Barahaman #0" = 30
+	"Bayan ul-Anwar #0" = 30
+	"Dimasangcay Adel #0" = 30
+	"Dundang Tidulay #0" = 30
+	"Gugu Sarikula #0" = 30
+	"Hafeeza #0" = -1
+	"Kahar ud-Din Kuda #0" = 30
+	"Kawasa Anwar ud-Din #0" = 30
+	"Kibad Sahriyal #0" = 30
+	"Laut Buisan #0" = 30
+	"Maka-alang Saripad #0" = 30
+	"Maka-alang Saripada #0" = 30
+	"Mohammed Kabungsuwan #0" = 30
+	"Muhammad Dipatuan Kudarat #0" = 30
+	"Muhammad Khair ud-Din #0" = 30
+	"Muhammad Tahir ud-Din #0" = 30
+	"Pahar ud-Din #0" = 30
+	"Qudratullah Untung #0" = 30
+	"Wangi #0" = -1
+}
+leader_names = {
+	"Agung"
+	"Batara"
+	"Bima"
+	"Elok"
+	"Karna"
+	"Rimba"
+	"Saleh"
+	"Satria"
+	"Sentosa"
+	"Yuda"
+}
+ship_names = {
+	"Balanguingle"
+	"Bangalao"
+	"Bucutua"
+	"Cabingaan"
+	"Cap"
+	"Capual"
+	"Dammail"
+	"Julu"
+	"Kalingalan"
+	"Kulassein"
+	"Lapac"
+	"Laparan"
+	"Lungus"
+	"Marunggas"
+	"Panducan"
+	"Pangutaran"
+	"Pata"
+	"Siasi"
+	"Simsa"
+	"Suluan"
+	"Tapul"
+}

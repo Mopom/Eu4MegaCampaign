@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 200 219 195 }
+revolutionary_colors = { 5 13 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam Friedrich #0" = 20
+	"Albrecht #0" = 15
+	"Alfred #0" = 0
+	"Andreas #0" = 10
+	"Anselm Franz #0" = 20
+	"Berthold #0" = 10
+	"Christian #0" = 0
+	"Christoph Franz #0" = 20
+	"Dietrich #0" = 10
+	"Ferdinand #0" = 20
+	"Franz #0" = 20
+	"Franz Ludwig #0" = 20
+	"Friedrich #0" = 20
+	"Friedrich Karl #0" = 20
+	"Georg Karl #0" = 20
+	"Gerhard #0" = 15
+	"Gottfried #0" = 20
+	"Heinrich #0" = 10
+	"Hermann #0" = 15
+	"Johann #0" = 60
+	"Johann Gottfried #0" = 40
+	"Johann Hartmann #0" = 20
+	"Johann Philipp #0" = 40
+	"Julius Echter #0" = 20
+	"J0rgen #0" = 0
+	"Karl Philipp #0" = 20
+	"Konrad #0" = 40
+	"Konrad Wilhelm #0" = 20
+	"Leopold #0" = 15
+	"Lorenz #0" = 20
+	"Melchior #0" = 20
+	"Otto #0" = 15
+	"Peter Philipp #0" = 20
+	"Philipp Adolf #0" = 20
+	"Philipp Franz #0" = 20
+	"Poppo #0" = 10
+	"Regine #0" = -1
+	"Rudolf #0" = 20
+	"Salome #0" = -1
+	"Siegmund #0" = 20
+	"Thora #0" = -1
+	"Wolfram #0" = 15
+}
+leader_names = {
+	"Blochberger"
+	"Bär"
+	"Degen"
+	"Dick"
+	"Egelkraut"
+	"Fichtelmann"
+	"Färber"
+	"Födisch"
+	"Gäbelein"
+	"Hager"
+	"Hofmann"
+	"Höhrer"
+	"Rank"
+	"Sack"
+	"Schwager"
+	"Sell"
+	"Simon"
+	"Söll"
+	"Wirth"
+}
+ship_names = {
+	"Bergtheim"
+	"Biebelried"
+	"Eigelstadt"
+	"Gramschatz"
+	"Höchberg"
+	"Julius Echter"
+	"Kietzingen"
+	"Main"
+	"Marienberg"
+	"Ochsenfurth"
+	"Rimpar"
+	"Uettingen"
+	"Wern"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

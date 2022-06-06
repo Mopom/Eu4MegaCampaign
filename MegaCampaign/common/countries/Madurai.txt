@@ -1,0 +1,96 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 233 88 88 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	quantity_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ariyanatha #0" = 0
+	"Ayyakarai Veyyapa #0" = 10
+	"Chanda #0" = 0
+	"Chokkanatha #0" = 10
+	"Cimappa #0" = 10
+	"Kattyama Kamaiya #0" = 10
+	"Krishnappa #0" = 20
+	"Kuru Kuru Timmappa #0" = 10
+	"Mangammal #0" = -10
+	"Meenakshi #0" = -10
+	"Minaski #0" = 10
+	"Muttu Krishnappa #0" = 10
+	"Muttu Linga #0" = 10
+	"Muttu Virappa #0" = 30
+	"Naransa Pillai #0" = 10
+	"Narasa #0" = 10
+	"Raghunatha #0" = 0
+	"Ramaswami #0" = 0
+	"Ramayyan #0" = 0
+	"Seshayya #0" = 0
+	"Shungrasoobyer #0" = 0
+	"Tenna #0" = 10
+	"Tirumala #0" = 10
+	"Velunatchiyar #0" = -1
+	"Vijayaranga Chokkanatha #0" = 10
+	"Vira Pandya #0" = 10
+	"Virappa #0" = 10
+	"Vishvanatha #0" = 10
+	"Yachama #0" = 0
+}
+leader_names = {
+	"Chetty"
+	"Dalawa"
+	"Mudaliar"
+	"Nayak"
+	"Rajapopalachari"
+	"Saluva"
+	"Saraf"
+	"Sastri"
+	"Senji"
+	"Thondaiman"
+}
+ship_names = {
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Kaveri"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Palar"
+	"Parvati"
+	"Pennar"
+	"Ponnaiyar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+	"Vaigai"
+}

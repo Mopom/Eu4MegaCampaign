@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 49 185 191 }
+revolutionary_colors = { 1 5 1 }
+historical_idea_groups = {
+	administrative_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	offensive_ideas
+	maritime_ideas
+	quantity_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Ahmad #1" = 10
+	"Akgul #0" = -1
+	"Armin #1" = 10
+	"Asli #0" = -1
+	"Aydin #0" = 0
+	"Chidukhul #1" = 10
+	"Chrysogone #0" = -1
+	"Horkhudagh #1" = 10
+	"Ibrahim #1" = 10
+	"Irge #0" = -1
+	"Kasra #0" = 0
+	"Kayna #0" = 0
+	"Khosrow #1" = 10
+	"Kublai #1" = 10
+	"Masud #1" = 10
+	"Merve #0" = -1
+	"Muhammad #1" = 10
+	"Nasr #2" = 10
+	"Oghul #1" = -1
+	"Sehinsah #0" = 0
+	"Siamu #1" = 10
+	"Siawash #1" = 10
+	"Taliba #0" = -1
+	"Yerneslu #1" = 10
+}
+leader_names = {
+	"Abbâs"
+	"Abû"
+	"Akbar"
+	"Bakr"
+	"Jahagir"
+	"Jalâl"
+	"Jâmî"
+	"Khalil"
+	"Mohsin"
+	"Zaman"
+	"ud-Dîn"
+}
+ship_names = {
+	"Ardabil"
+	"Bakhura"
+	"Balkh"
+	"Baluches"
+	"Herat"
+	"Ispahan"
+	"Kandahar"
+	"Kharesm"
+	"Kirman"
+	"Kish"
+	"Lahore"
+	"Merv"
+	"Nishupur"
+	"Ormuz"
+	"Rustam"
+	"Samarqand"
+	"Sebzewar"
+	"Shah Rukh"
+	"Sikandar"
+	"Slurax"
+	"Tahriz"
+	"Tamerlane"
+}

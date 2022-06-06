@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = east_african
+religion = coptic
+primary_culture = amhara
+unit_type = sub_saharan

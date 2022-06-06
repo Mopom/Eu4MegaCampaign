@@ -1,0 +1,14 @@
+owner = MRA
+controller = MRA
+capital = "Manthimba"
+is_city = yes
+culture = nyasa
+religion = shamanism
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 4
+extra_cost = 16
+center_of_trade = 2
+add_core = MRA
+discovered_by = central_african

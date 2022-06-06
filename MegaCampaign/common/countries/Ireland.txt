@@ -1,0 +1,151 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 112 150 105 }
+revolutionary_colors = { 10 0 6 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	exploration_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aerdghal #0" = 0
+	"Aonghus #2" = 5
+	"Art #1" = 20
+	"Bearach #0" = 0
+	"Brian #2" = 20
+	"Cao0mhin #0" = 0
+	"Cathal #0" = 20
+	"Cathaoir #0" = 40
+	"Comhghall #2" = 5
+	"Conchobhar #1" = 40
+	"Conn #1" = 10
+	"Criomhthann #2" = 20
+	"Diarmaid #1" = 5
+	"Donal #5" = 40
+	"Donnabhain #0" = 0
+	"Einr0 #0" = 15
+	"Eoghan #1" = 10
+	"E0hmh0n #0" = 0
+	"Fearghal #0" = 0
+	"Fedelma #0" = -1
+	"Feidlimidh #1" = 40
+	"Flann #1" = 5
+	"Fonnchadh #3" = 20
+	"Iarfhlaith #0" = 0
+	"Lorcc0n #0" = 0
+	"MONARCH_NAME_GEAROID #0" = 20
+	"Maeleachlain #2" = 5
+	"Math0in #0" = 0
+	"Muchadh #0" = 40
+	"Muireadhach #2" = 40
+	"Muiris #0" = 20
+	"Naomh0n #0" = 0
+	"Niall #4" = 15
+	"Ois0n #0" = 0
+	"P0draig #0" = 0
+	"R0ag0in #0" = 0
+	"Saraid #0" = -1
+	"Se0n #0" = 20
+	"Somhairle #0" = 0
+	"Tadhg #0" = 20
+	"Turlough #2" = 60
+	"0ed #6" = 20
+	"0rfhlaith #0" = -1
+}
+leader_names = {
+	"Alexander"
+	"Annesley"
+	"Balfour"
+	"Barry"
+	"Blayney"
+	"Bourke"
+	"Boyle"
+	"Browne"
+	"Burke"
+	"Butler"
+	"Caulfeild"
+	"Chichester"
+	"Cholmondeley"
+	"Coote"
+	"Digby"
+	"Dillon"
+	"Dongan"
+	"Duff"
+	"Feilding"
+	"FitzGerald"
+	"FitzMaurice"
+	"FitzOliver"
+	"FitzPatrick"
+	"FitzWilliam"
+	"Fortescue"
+	"Gardiner"
+	"Grimston"
+	"Guelph"
+	"Hamilton"
+	"Hare"
+	"Hervey"
+	"Kavanagh"
+	"Keane"
+	"Keating"
+	"Lambart"
+	"Macartney"
+	"Martyn"
+	"McCarthy"
+	"Meade"
+	"Moore"
+	"Nugent"
+	"O'Brien"
+	"O'Carroll"
+	"O'Connell"
+	"O'Donnell"
+	"O'Hara"
+	"O'Malley"
+	"O'Neill"
+	"Pakenham"
+	"Parsons"
+	"Plunkett"
+	"Preston"
+	"Ridgeway"
+	"Sterne"
+	"Taaffe"
+	"Touchet"
+	"Vaughan"
+	"Villiers"
+	"Wentworth"
+	"Wesley"
+	"de Burgh"
+}
+ship_names = {
+	"Aoife"
+	"Ciara"
+	"Connacht"
+	"Eithne"
+	"Emer"
+	"Leinster"
+	"Munster"
+	"Niamh"
+	"Orla"
+	"Roisin"
+	"Ulster"
+}

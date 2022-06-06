@@ -1,0 +1,20 @@
+owner = SFA
+controller = SFA
+capital = "Quelimane"
+is_city = yes
+culture = nyasa
+religion = sunni
+trade_goods = ivory
+base_tax = 3
+base_production = 3
+base_manpower = 1
+extra_cost = 10
+add_core = SFA
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+add_permanent_province_modifier = {
+	name = zambezi_estuary_modifier
+	duration = -1
+}

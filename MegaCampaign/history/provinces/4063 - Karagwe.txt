@@ -1,0 +1,12 @@
+owner = KRW
+controller = KRW
+capital = "Karagwe"
+is_city = yes
+culture = ganda
+religion = shamanism
+trade_goods = iron
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = KRW
+discovered_by = central_african

@@ -1,0 +1,100 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 164 217 127 }
+revolutionary_colors = { 8 5 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf Friedrich #0" = 15
+	"Alexander #0" = 0
+	"Alfred #0" = 15
+	"Alois #0" = 0
+	"Amanda #0" = -1
+	"Anton #0" = 0
+	"August Friedrich #0" = 10
+	"Beate #0" = -1
+	"Bruno #0" = 0
+	"Christian #0" = 10
+	"Clemens #0" = 0
+	"Debora #0" = -1
+	"Denis #0" = 0
+	"Eduard August #0" = 10
+	"Ernst August #0" = 20
+	"Friedrich #0" = 10
+	"Georg #0" = 20
+	"Gerfried #0" = 0
+	"Gottfried #0" = 0
+	"G0nther #0" = 0
+	"Helmut #0" = 0
+	"Herbert #0" = 0
+	"Ignatz #0" = 0
+	"Isidor #0" = 0
+	"Jakob #0" = 0
+	"Karl Philipp #0" = 10
+	"Konstantin #0" = 0
+	"Kuno #0" = 0
+	"Markus #0" = 0
+	"Martin #0" = 0
+	"Maximilian Wilhelm #0" = 10
+	"Octavius #0" = 10
+	"Oskar #0" = 0
+	"Reinhard #0" = 0
+	"Silvester #0" = 0
+	"Stefan #0" = 0
+	"Waldemar #0" = 0
+	"Wilhelm #0" = 10
+	"Wilhelm August #0" = 10
+}
+leader_names = {
+	"Aller"
+	"Detmold"
+	"Hamelm"
+	"Hildesheim"
+	"Kapp"
+	"Minden"
+	"Oldenburg"
+	"Salzgitter"
+	"Werden"
+	"Wernigerode"
+}
+ship_names = {
+	"Burgdorf"
+	"Deister"
+	"Georg von Calenberg"
+	"Langenhagen"
+	"Lehrte"
+	"Leine"
+	"Sarstedt"
+	"Stadthagen"
+	"Süntel"
+	"Wedemark"
+	"Weser"
+	"Wunstorf"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

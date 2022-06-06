@@ -1,0 +1,190 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 159 174 96 }
+revolutionary_colors = { 0 13 5 }
+historical_idea_groups = {
+	diplomatic_ideas
+	economic_ideas
+	defensive_ideas
+	influence_ideas
+	offensive_ideas
+	trade_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam #0" = 0
+	"Agnes #0" = -1
+	"Albreht #0" = 25
+	"Alojzij #0" = 0
+	"Andrej #0" = 0
+	"Anton #0" = 0
+	"Avgust #0" = 0
+	"Blaz #0" = 0
+	"Boris #0" = 0
+	"Davorin #0" = 0
+	"Elizabeta #0" = -1
+	"Etbin #0" = 0
+	"Filip #0" = 0
+	"Franc #0" = 0
+	"Friderik #2" = 30
+	"Gregorij #0" = 0
+	"Henrik #0" = 10
+	"Herman #2" = 25
+	"Ignacij #0" = 0
+	"Igor #0" = 0
+	"Ivan #0" = 0
+	"Janez #0" = 0
+	"Janko #0" = 0
+	"Jernej #0" = 0
+	"Jozef #0" = 20
+	"Jozefa #0" = -1
+	"Jurij #0" = 30
+	"Karel #0" = 20
+	"Katarina #0" = -1
+	"Konrad #1" = 15
+	"Lovro #0" = 0
+	"Ludvik #0" = 20
+	"Luka #0" = 0
+	"Maksimilijan #0" = 10
+	"Margareta #0" = -1
+	"Marija #0" = -1
+	"Marko #0" = 0
+	"Matija #0" = 0
+	"Otokar #0" = 20
+	"Oton #0" = 15
+	"Otvin #0" = 0
+	"Peter #0" = 0
+	"Primoz #0" = 0
+	"Rado #0" = 0
+	"Simon #0" = 0
+	"Stanislav #0" = 0
+	"Stanko #0" = 0
+	"Stefan #0" = 35
+	"Terezija #0" = -1
+	"Tobija #0" = 0
+	"Tomaz #0" = 0
+	"Ulrik #1" = 35
+	"Vajkard #0" = 0
+	"Valentin #0" = 0
+	"Vitomil #0" = 0
+}
+leader_names = {
+	"Attems"
+	"Bagari"
+	"Bohoric"
+	"Candek"
+	"Cobenzl"
+	"Dajnko"
+	"Dravecz"
+	"Erjavec"
+	"Florjancic"
+	"Gacnik"
+	"Gadolla"
+	"Gogala"
+	"Gregorcic"
+	"Gruntar"
+	"Hren"
+	"Hribar"
+	"Hül"
+	"Ivanoczy"
+	"Janezic"
+	"Japelj"
+	"Jarnik"
+	"Jeglic"
+	"Jenko"
+	"Jurcic"
+	"Kavcic"
+	"Kersnik"
+	"Klekl"
+	"Kolar"
+	"Kos"
+	"Kosic"
+	"Kozler"
+	"Küzmic"
+	"Lankovic"
+	"Lavric"
+	"Lavrin"
+	"Lavtizar"
+	"Levec"
+	"Levstik"
+	"Mahnic"
+	"Mandelc"
+	"Miklosic"
+	"Mornik"
+	"Murko"
+	"Oblak"
+	"Ogrinec"
+	"Persa"
+	"Pintaric"
+	"Pogacar"
+	"Preseren"
+	"Ptujski"
+	"Rogan"
+	"Sakovic"
+	"Sbül"
+	"Selmar"
+	"Slepec"
+	"Slomsek"
+	"Stritar"
+	"Strle"
+	"Suklje"
+	"Svetec"
+	"Tavcar"
+	"Temlin"
+	"Toman"
+	"Treiber"
+	"Trsteniski"
+	"Trstenjak"
+	"Trubar"
+	"Ulepic"
+	"Usenicnik"
+	"Valvasor"
+	"Vesel"
+	"Vidmar"
+	"Vodnik"
+	"Vosnjak"
+	"Vraz"
+	"Zarnik"
+	"Zelko"
+	"Zemlic"
+	"Zorko"
+	"Zuzek"
+}
+ship_names = {
+	"Aesontius"
+	"Carnia"
+	"Ilirija"
+	"Istra"
+	"Jalovec"
+	"Kranjska"
+	"Ljubljana"
+	"Mangart"
+	"Pazin"
+	"Prlekija"
+	"Ptuj"
+	"Ribnica"
+	"Sava"
+	"Sitik"
+	"Stajerska"
+	"Triglav"
+	"Vinica"
+	"Vrba"
+	"Zdravljica"
+}

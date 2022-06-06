@@ -1,0 +1,15 @@
+owner = ZAP
+controller = ZAP
+capital = "Xoconochco"
+is_city = yes
+culture = zapotek
+religion = nahuatl
+trade_goods = cocoa
+base_tax = 3
+base_production = 3
+base_manpower = 1
+add_core = ZAP
+discovered_by = mesoamerican
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

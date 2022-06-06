@@ -1,0 +1,126 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 89 141 140 }
+revolutionary_colors = { 6 9 6 }
+historical_idea_groups = {
+	defensive_ideas
+	diplomatic_ideas
+	quantity_ideas
+	economic_ideas
+	humanist_ideas
+	offensive_ideas
+	aristocracy_ideas
+	trade_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abdullah #0" = 10
+	"Abd Allah #0" = 0
+	"Abdul #0" = 0
+	"Abu'l-Hassan #0" = 10
+	"Ala-ud-din #0" = 0
+	"Asaf ud-Daula Jang #0" = 10
+	"Bashirunissa #0" = -1
+	"Daud Khan #0" = 0
+	"Dawudunissa #0" = -1
+	"Fulad Khan #0" = 0
+	"Hakim #0" = 0
+	"Ibrahim #0" = 10
+	"Iftikhar al-Mulk #0" = 0
+	"Imad al-Mulk #0" = 0
+	"Jamal-ud-din #0" = 0
+	"Jamshid #0" = 10
+	"Khusrau #0" = 0
+	"Khwaja Imad al-Din #0" = 0
+	"Mahmud Gawan #0" = 0
+	"Malik #0" = 0
+	"Malik-ut-Tujjar #0" = 0
+	"Mir Abu'l-Qasim #0" = 0
+	"Mir Ali #0" = 0
+	"Mir Shams al-Din #0" = 0
+	"Muhammad #0" = 10
+	"Muhammad Nasr Jang #0" = 10
+	"Mujahid #0" = 0
+	"Mullah Qutb al-Din #0" = 0
+	"Nizam Ali Khan #0" = 10
+	"Nizam ul-Mulk #0" = 10
+	"Qasim Beg #0" = 0
+	"Quazi Siraj-ud-din #0" = 0
+	"Quli #0" = 10
+	"Quli Sultan #0" = 0
+	"Rustam Khan #0" = 0
+	"Saif Allah #0" = 0
+	"Samiya #0" = -1
+	"Sayid Hanif #0" = 0
+	"Sayid Nasir al-Din #0" = 0
+	"Shah Khalil Allah #0" = 0
+	"Sikandar #0" = 0
+	"Sikandar Jah #0" = 10
+	"Subhan #0" = 10
+	"Ubbaid Allah #0" = 0
+	"Umda #0" = -1
+}
+leader_names = {
+	"Agrawal"
+	"Ambar"
+	"Bhaskar"
+	"Chirag"
+	"Dawar"
+	"Hussaini"
+	"Jitesh"
+	"Kabir"
+	"Kadak"
+	"Khan"
+	"Khot"
+	"Krishna"
+	"Kumur"
+	"Latif"
+	"Mahaldar"
+	"Naidu"
+	"Nayudu"
+	"Poosapati"
+	"Qadir"
+	"Qummi"
+	"Rao"
+	"Raya"
+	"Safsikhan"
+	"Vasireddy"
+	"Velama"
+	"Zamindari"
+	"ul Umra"
+}
+ship_names = {
+	"Alia"
+	"Aurangabad"
+	"Devki"
+	"Fatimah"
+	"Godvari"
+	"Gulbargah"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Yasmine"
+}

@@ -1,0 +1,17 @@
+owner = AMA
+controller = AMA
+capital = "Matsue"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = iron
+fort_15th = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = AMA
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

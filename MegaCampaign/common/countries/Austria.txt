@@ -1,0 +1,229 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 220 220 220 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	influence_ideas
+	diplomatic_ideas
+	economic_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_score = 4400
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Albrecht #3" = 40
+	"Alexander #0" = 10
+	"Alfred #0" = 0
+	"Anna #0" = -1
+	"Anton #0" = 10
+	"Barbara #0" = -1
+	"Benno #0" = 0
+	"Bruno #0" = 0
+	"Cecilia Renata  #0" = -1
+	"Clemens #0" = 0
+	"Cristoph #0" = 0
+	"Eleanor #0" = -1
+	"Elisabeth #0" = -1
+	"Ernst #1" = 15
+	"Ferdinand #0" = 60
+	"Florian #0" = 0
+	"Franz #0" = 40
+	"Franz Karl #0" = 10
+	"Friedrich #4" = 20
+	"Georg #0" = 15
+	"Gerhard #0" = 0
+	"G0nther #0" = 0
+	"Heinrich #0" = 0
+	"Helena #0" = -1
+	"Jakob #0" = 0
+	"Joachim #0" = 0
+	"Joanna #0" = -1
+	"Johann #0" = 10
+	"Johann Karl #0" = 15
+	"Johann Leopold #0" = 15
+	"Johanna #0" = -1
+	"Joseph #0" = 40
+	"J0rg #0" = 0
+	"Karl #0" = 40
+	"Kunigunde #0" = -1
+	"Ladislav #0" = 20
+	"Leopold #7" = 20
+	"Ludwig #0" = 10
+	"Maria #0" = -1
+	"Maria Amalia #0" = -1
+	"Maria Anna #0" = -1
+	"Maria Antonia #0" = -1
+	"Maria Carolina #0" = -1
+	"Maria Elisabeth #0" = -1
+	"Maria Josepha #0" = -1
+	"Maria Magdalena #0" = -1
+	"Maria Margaret #0" = -1
+	"Maria Theresia #0" = -15
+	"Matthias #0" = 20
+	"Maximilian #0" = 40
+	"Maximiliane #0" = -1
+	"Michael #0" = 0
+	"Oskar #0" = 0
+	"Otto #0" = 0
+	"Philipp #0" = 15
+	"Rainer #0" = 10
+	"Rudolf #4" = 10
+	"Siegfried #0" = 0
+	"Stefan #0" = 0
+	"Theresa Benedicta #0" = -1
+	"Ulrich #0" = 0
+	"Viktor #0" = 0
+	"Walburga #0" = -1
+	"Wilhelm #0" = 0
+	"Wolfgang #0" = 0
+}
+leader_names = {
+	"Alvintzky"
+	"Arenberg"
+	"Bethmann"
+	"Boroewitsch"
+	"Buseck"
+	"Byszynski"
+	"Casper"
+	"Erlmayr"
+	"Frantsits"
+	"Freystadt"
+	"Haemrich"
+	"Hagedorn"
+	"Heinrich"
+	"Ketterer"
+	"Kolin"
+	"Lobkowitz"
+	"Meinl"
+	"Minucci"
+	"Mittelbach"
+	"Poll"
+	"Sauerzapff"
+	"Schrüder"
+	"Seyssel"
+	"Steiger"
+	"Stichsenstein"
+	"Sulerzycki"
+	"Tegethoff"
+	"Zakrzewsky"
+	"Zwerger"
+	"von Esterhazy"
+	"von Guttenberg"
+	"von Habsburg"
+	"von Hatzfeldt"
+	"von Hohenberg"
+	"von Ihering"
+	"von Kapfenberg"
+	"von Laudon"
+	"von Neippberg"
+	"von Oberg"
+	"von Quadt"
+	"von Riedesel"
+	"von Schwarzenberg"
+	"von Schönbrunn"
+	"von Schönburg"
+	"von Stark"
+	"von Stauffenberg"
+	"von Stubenrauch"
+	"von Waldstein"
+}
+ship_names = {
+	"Albatros"
+	"Arpad"
+	"Aurora"
+	"Austria"
+	"Austria Imperare"
+	"Babenberg"
+	"Baron Bruck"
+	"Baron Call"
+	"Belvedre"
+	"Donau"
+	"Doppeladler"
+	"Emenentius"
+	"Erzherzog Ferdinand"
+	"Felix"
+	"Fides et Spes"
+	"Fiume"
+	"Fortitas"
+	"Goliath"
+	"Habsburg"
+	"Herkules"
+	"Imperator"
+	"Inexhaustus"
+	"Inn"
+	"Invulnerabilis"
+	"Kaiserin Maria Theresia"
+	"Lachs"
+	"Lacroma"
+	"Leitha"
+	"Leopard"
+	"Lindwurm"
+	"Möwe"
+	"Natter"
+	"Nixe"
+	"Novara"
+	"Nymphe"
+	"Pannonia"
+	"Panther"
+	"Pavidarus"
+	"Plus Ultra"
+	"Pola"
+	"Pustazer"
+	"Saida"
+	"Salzach"
+	"Samson"
+	"Sankt Stephan"
+	"Sankt Wolfgang"
+	"Satellit"
+	"Taurus"
+	"Theresia"
+	"Tiger"
+	"Tirol"
+	"Trabant"
+	"Traisen"
+	"Triest"
+	"Trinitas"
+	"Vigilatia"
+	"Vindobona"
+	"Viribus Unitis"
+	"Wachau"
+	"Wien"
+	"Zara"
+	"Zenta"
+	"Zrinyi"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Armee von Böhmen"
+	"Armee von Italien"
+	"Armee von Schlesien"
+	"Armee von Ungarn"
+	"Habsburgische Armee"
+	"K.u.K Armee"
+	"Kaiserliche Armee"
+}
+fleet_names = {
+	"Adriatik Flotte"
+	"Habsburgische Flotte"
+	"Kaiserliche Flotte"
+}

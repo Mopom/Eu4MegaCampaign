@@ -1,0 +1,121 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 183 176 94 }
+revolutionary_colors = { 14 1 14 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+	offensive_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abdullah #0" = 10
+	"Abd Allah #0" = 10
+	"Abdul #0" = 0
+	"Abul'l-Hassan #0" = 10
+	"Ala-ud-din #0" = 0
+	"Bashirunissa #0" = -1
+	"Daud Khan #0" = 0
+	"Dawudunissa #0" = -1
+	"Fulad Khan #0" = 0
+	"Hakim #0" = 0
+	"Ibrahim #0" = 10
+	"Iftikhar al-Mulk #0" = 0
+	"Imad al-Mulk #0" = 0
+	"Jamal-ud-din #0" = 0
+	"Jamshid #0" = 10
+	"Kabir #0" = 0
+	"Khusrau #0" = 0
+	"Khwaja Imad al-Din #0" = 0
+	"Mahmud Gawan #0" = 0
+	"Malik #0" = 0
+	"Malik-ut-Tujjar #0" = 0
+	"Mir Abu'l-Qasim #0" = 0
+	"Mir Ali #0" = 0
+	"Mir Musa #0" = 0
+	"Mir Shams al-Din #0" = 0
+	"Muhammed #0" = 10
+	"Muhammed Quli #0" = 10
+	"Mujahid #0" = 0
+	"Mullah Qutb al-Din #0" = 0
+	"Qasim Beg #0" = 0
+	"Quazi Siraj-ud-din #0" = 0
+	"Quli #0" = 10
+	"Quli Sultan #0" = 0
+	"Rustam Khan #0" = 0
+	"Saif Allah #0" = 0
+	"Samiya #0" = -1
+	"Sayid Hanif #0" = 0
+	"Sayid Nasir al-Din #0" = 0
+	"Shah Khalil Allah #0" = 0
+	"Sikandar #0" = 0
+	"Subhan Quli #0" = 10
+	"Ubbaid Allah #0" = 0
+	"Umda #0" = -1
+}
+leader_names = {
+	"Agrawal"
+	"Ambar"
+	"Bhaskar"
+	"Chirag"
+	"Dawar"
+	"Hussaini"
+	"Jitesh"
+	"Kabir"
+	"Kadak"
+	"Khan"
+	"Khot"
+	"Kumur"
+	"Latif"
+	"Mahaldar"
+	"Mazandarani"
+	"Nayudu"
+	"Poosapati"
+	"Qadir"
+	"Qummi"
+	"Safsikhan"
+	"Simnani"
+	"Sistani"
+	"Uzbek"
+	"Vasireddy"
+	"Velama"
+	"Zamindari"
+}
+ship_names = {
+	"Alia"
+	"Fatimah"
+	"Godvari"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Mahanadi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Yasmine"
+}

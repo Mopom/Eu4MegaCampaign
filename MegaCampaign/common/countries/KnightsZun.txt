@@ -1,0 +1,83 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 230 255 0 }
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	durrani_dragoon
+	durrani_rifled_musketeer
+	durrani_swivel
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Ahmad #0" = 30
+	"Aisha #0" = -1
+	"Ak #0" = -1
+	"Anoushiravan #0" = 20
+	"Ayub #0" = 20
+	"Fath Jang #0" = 20
+	"Fatima #0" = -1
+	"Firoza #0" = -1
+	"Haniyya #0" = -1
+	"Humayun #0" = 20
+	"Isfandiyar #0" = 20
+	"Maryam #0" = -1
+	"Mir Ways #0" = 20
+	"Munawar #0" = -1
+	"Munya #0" = -1
+	"Musa #0" = 20
+	"Nawal #0" = -1
+	"Parwaiz #0" = 20
+	"Shahpur #0" = 20
+	"Shoja #0" = 20
+	"Sultanim #0" = -1
+	"Timur #0" = 20
+	"Zakariya #0" = 20
+	"Zaman #0" = 20
+	"Zannah #0" = -1
+	"Zartash #0" = 20
+}
+leader_names = {
+	"Ahmad"
+	"Akhund"
+	"Amin"
+	"Anoushiravan"
+	"Ghazi"
+	"Hotaki"
+	"Isfandiyar"
+	"Karmal"
+	"Musa"
+	"Najibullah"
+	"Parwaiz"
+	"Qadir"
+	"Rahman"
+	"Shahpur"
+	"Taraki"
+	"Zakariya"
+	"Zartash"
+}
+ship_names = {
+	"Arghandab"
+	"Balkh"
+	"Dasht"
+	"Farah"
+	"Harirud"
+	"Harut"
+	"Hingol"
+	"Kabol"
+	"Kech"
+	"Khash"
+	"Kowkcheh"
+	"Murghab"
+	"Zhob"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

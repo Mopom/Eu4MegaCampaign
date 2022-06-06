@@ -1,0 +1,126 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 67 124 181 }
+revolutionary_colors = { 6 8 6 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	defensive_ideas
+	quality_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Baji Prabhu #0" = 0
+	"Baji Rao #0" = 10
+	"Balaji #0" = 10
+	"Chimaji #0" = 0
+	"Firangoji #0" = 0
+	"Haripant #0" = 0
+	"Kanhoji #0" = 0
+	"Madhu Rao #0" = 10
+	"Malhar #0" = 0
+	"Moropant #0" = 0
+	"Narayan Rao #0" = 10
+	"Netaji #0" = 0
+	"Pratap Singh #0" = 10
+	"Raghunathrao #0" = 0
+	"Ragunath Rao #0" = 10
+	"Rajaram #0" = 10
+	"Ranoji #0" = 0
+	"Sahuji #0" = 10
+	"Shambaji #0" = 10
+	"Shivaji #0" = 10
+	"Soyarabai #0" = -5
+	"Suryaji #0" = 0
+	"Tanaji #0" = 0
+	"Tarabai #0" = -10
+	"Tukabai #0" = -1
+	"Tukojirao #0" = 0
+	"Yashwantrao  #0" = 0
+}
+leader_names = {
+	"Aher"
+	"Bhat"
+	"Bhoit"
+	"Bhonsle"
+	"Chavan"
+	"Dabhad"
+	"Gaikwad"
+	"Gujar"
+	"Holkar"
+	"Jadhav"
+	"Jagtap"
+	"Kadam"
+	"Kate"
+	"Kaushal"
+	"Khursh"
+	"Krishnamma"
+	"Lolaksi"
+	"Malusare"
+	"Maruthi"
+	"Moit"
+	"Moray"
+	"Nagaraj"
+	"Narsala"
+	"Nikam"
+	"Nimbalk"
+	"Palkar"
+	"Pawar"
+	"Ramiah"
+	"Rane"
+	"Satavahana"
+	"Sawant"
+	"Shinde"
+	"Shirke"
+	"Yadava"
+}
+ship_names = {
+	"Agni"
+	"Bhim"
+	"Brahma"
+	"Devi"
+	"Durga"
+	"Ganesh"
+	"Gayatri"
+	"Hanumaun"
+	"Indra"
+	"Jalsena"
+	"Kala Jahazi"
+	"Kali"
+	"Krishna"
+	"Kubera"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Shiva"
+	"Sita"
+	"Soma"
+	"Surya"
+	"Varuna"
+	"Vayu"
+	"Vishnu"
+	"Yama"
+}

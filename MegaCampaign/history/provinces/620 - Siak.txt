@@ -1,0 +1,17 @@
+owner = SAK
+controller = SAK
+capital = "Siak"
+is_city = yes
+culture = sumatran
+religion = sunni
+trade_goods = chinaware
+base_tax = 5
+base_production = 5
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1
+add_core = SAK
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

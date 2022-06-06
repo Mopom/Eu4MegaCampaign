@@ -1,0 +1,93 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 61 155 32 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	economic_ideas
+	religious_ideas
+	quantity_ideas
+	spy_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Kesavadas #0" = 0
+	"Krishna Kumari #0" = -1
+	"Lalitha #0" = -1
+	"Madhava #0" = 0
+	"Manaveda #1" = 30
+	"Manavikraman #0" = 30
+	"Marthanda #0" = 0
+	"Muhammadutti #0" = 0
+	"Nileswaram #3" = 2
+	"Raja #0" = 0
+	"Seema #0" = -1
+	"Sri #0" = 0
+	"Utrattati Tirunal #0" = 2
+	"Viraraya #0" = 20
+}
+leader_names = {
+	"Cheraman"
+	"Eradi"
+	"Keyi"
+	"Kitavu"
+	"Kurup"
+	"Naduvazhi"
+	"Nambiar"
+	"Nayanar"
+	"Nedungadi"
+	"Putiya"
+	"Unnithiri"
+	"Vellodi"
+}
+ship_names = {
+	"Abhay"
+	"Aditya Varma"
+	"Akhilesh"
+	"Anupam"
+	"Arihant"
+	"Balarama Varma"
+	"Baldev"
+	"Bhanu"
+	"Chandresh"
+	"Dhananjay"
+	"Duranjaya"
+	"Gaurav"
+	"Hemendra"
+	"Jawahar"
+	"Jayant"
+	"Kaushal"
+	"Makarand"
+	"Manindra"
+	"Narhari"
+	"Nidhish"
+	"Parindra"
+	"Prabir"
+	"Rama Varma"
+	"Ratnakar"
+	"Ravi Varma"
+	"Shashwat"
+	"Shatrunjay"
+	"Srikant"
+	"Swathi Thirunal"
+	"Uthram Thirunal"
+	"Vipan"
+	"Viraj"
+	"Visakham Thirunal"
+	"Yudhisthir"
+}

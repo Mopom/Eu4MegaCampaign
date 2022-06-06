@@ -1,0 +1,12 @@
+owner = LND
+controller = LND
+capital = "Lwena"
+is_city = yes
+culture = lunda
+religion = shamanism
+trade_goods = ivory
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = LND
+discovered_by = central_african

@@ -1,0 +1,13 @@
+owner = WKA
+controller = WKA
+capital = "Jauja"
+is_city = yes
+culture = inca
+religion = inti
+trade_goods = wool
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = WKA
+discovered_by = andean
+discovered_by = south_american

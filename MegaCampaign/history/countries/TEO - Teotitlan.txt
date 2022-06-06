@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = mesoamerican
+religion = nahuatl
+primary_culture = aztek
+capital = 4582
+1440.1.1= {
+	monarch = {
+		name = "Aztahua"
+		dynasty = "Teotitlan"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

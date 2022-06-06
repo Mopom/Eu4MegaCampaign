@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 150 200 80 }
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Umar #0" = 10
+	"Ab'ul-Arab #0" = 10
+	"Abal #0" = -1
+	"Abu'l-Hasan #0" = 10
+	"Ahmad #0" = 10
+	"Amirah #0" = -1
+	"Barak‚t #0" = 10
+	"Daliyah #0" = -1
+	"Fadwa #0" = -1
+	"Fahda #0" = -1
+	"Fatimah #0" = -1
+	"Ghaliya #0" = -3
+	"Ghanneyeh #0" = -3
+	"Hudun #0" = -1
+	"Jabirah #0" = -1
+	"Kamilah #0" = -1
+	"Layla #0" = -1
+	"Lujayn #0" = -1
+	"Makhz˚m #0" = 10
+	"Maram #0" = -1
+	"Muhammad #0" = 10
+	"Muhann‚ #0" = 10
+	"Nabh‚n #0" = 10
+	"Nadirah #0" = -1
+	"Nadiyya #0" = -1
+	"Norah #0" = -1
+	"N‚sir #0" = 10
+	"Qismah #0" = -1
+	"Ralie #0" = -3
+	"Randa #0" = -1
+	"Safaa  #0" = -1
+	"Sayf #0" = 20
+	"Sulaym‚n #0" = 10
+	"Sult‚n #0" = 30
+	"S‚lim #0" = 10
+	"Tahani #0" = -1
+	"Walida #0" = -1
+	"Ya'rub #0" = 10
+}
+leader_names = {
+	"Abbas"
+	"Bazzi"
+	"Issa"
+	"Jomaa"
+	"Khoury"
+	"Mourad"
+	"Moussa"
+	"Moustafa"
+	"Nasser"
+	"Sakr"
+}
+ship_names = {
+	"Al-Akhdar"
+	"Al-Batinah"
+	"Al-Gharbi"
+	"Al-Hadd"
+	"Al-Hajar"
+	"Al-Huqf"
+	"Al-Jabal"
+	"Al-Khaburah"
+	"As-Sib"
+	"Ash-Sharqi"
+	"Dank"
+	"Fins"
+	"Ibr√§"
+	"Jabal ash-Sh√§m"
+	"Masirah"
+	"Maskin"
+	"Masqat"
+	"Matrah"
+	"Nizw√§"
+	"Quraqq√§t"
+	"Ra's Abu Daud"
+	"Ra's Al-Hadd"
+	"Ramlat al Wahibah"
+	"Sar√ºr"
+	"Shinas"
+	"Suhar"
+	"S√ºr"
+	"Tan'am"
+	"Tiwi"
+	"Tur at Masirah"
+	"Umm As-Samim"
+	"Wadi Andam"
+	"Wadi Aswad"
+	"Wadi al-Bahta"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

@@ -1,0 +1,14 @@
+owner = LXA
+controller = LXA
+capital = "Luang Namtha"
+is_city = yes
+culture = lao
+religion = animism
+trade_goods = copper
+base_tax = 3
+base_production = 3
+base_manpower = 2
+add_core = CHK
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian

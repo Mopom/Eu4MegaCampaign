@@ -1,0 +1,267 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 20 100 255 }
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abba #0" = 0
+	"Ahab #0" = 20
+	"Aharon #0" = 0
+	"Ahaziah #0" = 20
+	"Baasha #0" = 20
+	"Baruch #0" = 0
+	"Batia #0" = -1
+	"Chayim #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 40
+	"Elah #0" = 20
+	"Eleazar #0" = 0
+	"Giza #0" = 0
+	"Hoshea #0" = 20
+	"Isaac #0" = 0
+	"Ish-bosheth #0" = 20
+	"Jehoahaz #0" = 20
+	"Jehoash #0" = 20
+	"Jehu #0" = 20
+	"Jeroboam #0" = 20
+	"John #0" = 0
+	"Joram #0" = 20
+	"Judas #0" = 0
+	"Leah #0" = -1
+	"Liat #0" = -1
+	"Malcha #0" = 0
+	"Malka #0" = -1
+	"Menahem #0" = 20
+	"Nadab #0" = 20
+	"Nissim #0" = 0
+	"Omri #0" = 20
+	"Pekah #0" = 20
+	"Pekahiah #0" = 20
+	"Rahel #0" = -1
+	"Rebekkaa #0" = -1
+	"Rivai #0" = 0
+	"Saul #0" = 20
+	"Shallum #0" = 20
+	"Simon #0" = 0
+	"Solomon #0" = 30
+	"Yehoshua #0" = 0
+	"Yehudai #0" = 0
+	"Zachariah #0" = 20
+	"Zimri #0" = 20
+	"Ziva #0" = -1
+}
+leader_names = {
+	"Abba"
+	"Abbaye"
+	"Acha"
+	"Achai"
+	"Achunai"
+	"Aharon"
+	"Alechsandri"
+	"Ammi"
+	"Amram"
+	"Amunah"
+	"Asher"
+	"Ashi"
+	"Avomai"
+	"Avraham"
+	"Azariah"
+	"Baboi"
+	"Baruch"
+	"Bibai"
+	"Binyamin"
+	"Boaz"
+	"Bustenai"
+	"Chaim"
+	"Chanan"
+	"Chananel"
+	"Chaninai"
+	"Chanoch"
+	"Chayim"
+	"Chelbo"
+	"Chisdai"
+	"Chiyya"
+	"Chizkiyah"
+	"Chofni"
+	"Chushiel"
+	"Daniel"
+	"David"
+	"Dimi"
+	"Dodai"
+	"Dudai"
+	"Efrayim"
+	"Eina"
+	"Elazar"
+	"Elchanan"
+	"Eldad"
+	"Eliezer"
+	"Elyakim"
+	"Gedalyah"
+	"Gershom"
+	"Ghayyat"
+	"Giat"
+	"Giza"
+	"Hila"
+	"Hillel"
+	"Isaac"
+	"Ivomai"
+	"Kafnai"
+	"Kahana"
+	"Kalonymos"
+	"Kiyomi"
+	"Levi"
+	"Machir"
+	"Malcha"
+	"Mar"
+	"Mari"
+	"Matiyahu"
+	"Meir"
+	"Menashe"
+	"Menechem"
+	"Mesharsheya"
+	"Meshulam"
+	"Mevasser"
+	"Mishael"
+	"Mordechai"
+	"Moshe"
+	"Nachman"
+	"Nachshon"
+	"Nasan"
+	"Natan"
+	"Natroi"
+	"Natronai"
+	"Nechemiah"
+	"Nehilai"
+	"Nesanel"
+	"Nissim"
+	"Paltoi"
+	"Peter"
+	"Pirkoi"
+	"Rava"
+	"Ravai"
+	"Ravi"
+	"Ravya"
+	"Reuven"
+	"Rivai"
+	"Saadiah"
+	"Sechok"
+	"Shabsai"
+	"Shalom"
+	"Shanoi"
+	"Shemaryah"
+	"Sherira"
+	"Sheshna"
+	"Shila"
+	"Shimon"
+	"Shinoi"
+	"Shlomo"
+	"Shmuel"
+	"Sorgo"
+	"Sulam"
+	"Tachlifa"
+	"Tamar"
+	"Tzadok"
+	"Tzemach"
+	"Uri"
+	"Yaakov"
+	"Yachya"
+	"Yechiel"
+	"Yehoshua"
+	"Yehudah"
+	"Yehudai"
+	"Yeshayah"
+	"Yisrael"
+	"Yitzchak"
+	"Yoel"
+	"Yosef"
+	"Yoshiah"
+	"Yosi"
+	"Yuda"
+	"Zakkai"
+	"Zelekman"
+	"Zuiskind"
+}
+ship_names = {
+	"Achai"
+	"Achunai"
+	"Acre"
+	"Aharon"
+	"Alechsandri"
+	"Ammi"
+	"Ashdod"
+	"Beit"
+	"Bēt Laḥm"
+	"Chaim"
+	"Chananel"
+	"Chaninai"
+	"Chanoch"
+	"Chayim"
+	"Chelbo"
+	"Chisdai"
+	"Chiyya"
+	"Chizkiyah"
+	"Chofni"
+	"Chushiel"
+	"Daniel"
+	"David"
+	"Dimi"
+	"Dodai"
+	"Dudai"
+	"Efrayim"
+	"Eina"
+	"Elazar"
+	"Elchanan"
+	"Haifa"
+	"Jerusalem"
+	"Nazareth"
+	"Rava"
+	"Ravai"
+	"Ravi"
+	"Ravya"
+	"Reuven"
+	"Rivai"
+	"Saadiah"
+	"Sechok"
+	"Shabsai"
+	"Shalom"
+	"Shanoi"
+	"Shemaryah"
+	"Shemesh"
+	"Sherira"
+	"Sheshna"
+	"Shila"
+	"Shimon"
+	"Shinoi"
+	"Shlomo"
+	"Shmuel"
+	"Sorgo"
+	"Sulam"
+	"Tira"
+	"Yerushaláyim"
+	"Yisrael"
+	"Yitzchak"
+	"Yoel"
+	"Yosef"
+	"Yoshiah"
+	"Yosi"
+	"Yuda"
+	"Zakkai"
+	"Zelekman"
+	"Zuiskind"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

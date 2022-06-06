@@ -1,0 +1,119 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 26 207 81 }
+revolutionary_colors = { 1 8 1 }
+historical_idea_groups = {
+	administrative_ideas
+	quantity_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abd Allah #0" = 0
+	"'Ala' ad-din #0" = 20
+	"Abhang #0" = 0
+	"Afzal #0" = 0
+	"Ahmadi #0" = -1
+	"Burkhan #0" = 20
+	"Chengiz #0" = 0
+	"Dariya #0" = 20
+	"Farrukh #0" = 0
+	"Fath #0" = 0
+	"Fath-Allah #0" = 20
+	"Hafiz #0" = 0
+	"Hamid #0" = 0
+	"Hamza #0" = 0
+	"Hanif #0" = 0
+	"Hassan #0" = 0
+	"Iftikhar al-Mulk #0" = 0
+	"Imad al-Mulk #0" = 0
+	"Jahan #0" = 0
+	"Jalal #0" = 0
+	"Khusrau #0" = 0
+	"Khwaja #0" = 0
+	"Mahmud #0" = 0
+	"Malik #0" = 0
+	"Malika #0" = -1
+	"Miran #0" = 0
+	"Mullah Mohammad #0" = 0
+	"Mumtaz #0" = -1
+	"Mustafa #0" = 0
+	"Nasir #0" = 0
+	"Qasim #0" = 0
+	"Rustam #0" = 0
+	"Sa'adat #0" = 0
+	"Shams #0" = 0
+	"Sultan #0" = 0
+	"Tufal Khan Dakhni #0" = 20
+}
+leader_names = {
+	"Ardastani"
+	"Astarabadi"
+	"Badakshi"
+	"Banda"
+	"Basri"
+	"Bhosle"
+	"Bukhari"
+	"Changezi"
+	"Dakhni"
+	"Gilani"
+	"Hasanabadi"
+	"Jurjani"
+	"Kabuli"
+	"Khan"
+	"Kirmani"
+	"Kudha"
+	"Majmudar"
+	"Maloji"
+	"Munshi"
+	"Muzzafar"
+	"Parikh"
+	"Qummi"
+	"Shahji"
+	"Uzbek"
+}
+ship_names = {
+	"Alia"
+	"Arusa"
+	"Bori"
+	"Fatimah"
+	"Girna"
+	"Jalsena"
+	"Kala Jahazi"
+	"Khan"
+	"Lal Jahazi"
+	"Narmada"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Nila Jahazi"
+	"Niloufa"
+	"Noor"
+	"Panjhra"
+	"Sagar"
+	"Salima"
+	"Shameena"
+	"Suhalia"
+	"Tapi"
+	"Yasmine"
+	"Zahira"
+}

@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 59 158 125 }
+revolutionary_colors = { 15 0 5 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	expansion_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Adil #0" = 10
+	"Alp #0" = 10
+	"Amin #0" = 10
+	"Arslan #0" = 10
+	"Bahadir #0" = 20
+	"Devlet #0" = 40
+	"Fetih #0" = 20
+	"Ghazi #0" = 30
+	"Haji #0" = 20
+	"Halim #0" = 10
+	"Haspulad #0" = 10
+	"Hayder #0" = 10
+	"Inayet #0" = 10
+	"Islam #0" = 30
+	"Janay #0" = 10
+	"Janibek #0" = 10
+	"Khalida #0" = -1
+	"Maqsud #0" = 10
+	"Mariam #0" = -1
+	"Mehmed #0" = 40
+	"Mengli #0" = 20
+	"Mubarek #0" = 10
+	"Murad #0" = 10
+	"Nur Devlet #0" = 10
+	"Otemesh #0" = 10
+	"Qaplan #0" = 20
+	"Qirim #0" = 10
+	"Saadet #0" = 20
+	"Sabah #0" = -1
+	"Safa #0" = 10
+	"Sahib #0" = 20
+	"Satilghan #0" = 10
+	"Selamet #0" = 20
+	"Selim #0" = 30
+	"Shahin #0" = 10
+	"Shardan #0" = 10
+	"Toqtamish #0" = 10
+}
+leader_names = {
+	"Agah"
+	"Altan"
+	"Asanin"
+	"Bekmambet"
+	"Bektöre"
+	"Celebicihan"
+	"Cobanzade"
+	"Dägci"
+	"Fazil"
+	"Gaspirali"
+	"Giraybay"
+	"Hablemitoglu"
+	"Hilmi"
+	"Ihsan"
+	"Inalcik"
+	"Ipci"
+	"Kemal"
+	"Kirimal"
+	"Kosay"
+	"Kubay"
+	"Mamut"
+	"Mangitli"
+	"Mansiz"
+	"Mehdi"
+	"Neyazi"
+	"Ortayli"
+	"Qirimoglu"
+	"Sarigöl"
+	"Semizade"
+	"Seydahmet"
+	"Soysal"
+	"Tarhan"
+	"Tögay"
+	"Uralgiray"
+	"Zihni"
+	"Ziyaeddin"
+}
+ship_names = {
+	"Bakhchisaray"
+	"Chingiz Khan"
+	"Chufut Kale"
+	"Cufut Qale"
+	"Haci Giray"
+	"Hansaray"
+	"Kyrym"
+	"Meli I Giray"
+	"Qirq Yer"
+	"Zincilri Medrese"
+	"Çürük Suv"
+}
