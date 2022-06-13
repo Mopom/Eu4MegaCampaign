@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = TUN
+controller = TUN
 capital = "Kairwan"
 is_city = yes
 culture = tunisian
