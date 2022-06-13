@@ -3,4 +3,15 @@ bookmark =
 	name = CK3A_NAME
 	desc = CK3A_DESC
 	date = "1444.11.11"
+
+	country = Z00
+	country = ADU
+	country = Z03
+	country = AJU
+	country = FRA
+	country = Z02
+	country = Z01
+	country = MAL
+	country = MGE
+	country = RUS
 }
