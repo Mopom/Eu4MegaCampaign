@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_caliph_government"
+		texturefile = "gfx//interface//government_reform_icons//caliph_government.dds"
+	}
+
+}
