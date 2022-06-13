@@ -1,186 +1,197 @@
 ck2_converter_generated = yes
-graphical_culture = westerngfx
+graphical_culture = muslimgfx
 color = { 132 97 138 }
-revolutionary_colors = { 8 16 8 }
+revolutionary_colors = { 8 1 5 }
 historical_idea_groups = {
-	trade_ideas
-	religious_ideas
-	maritime_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
-	spy_ideas
+	exploration_ideas
 	defensive_ideas
+	innovativeness_ideas
+	maritime_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
 }
 historical_units = {
-	austrian_grenzer
-	austrian_hussar
-	austrian_jaeger
-	austrian_tercio
-	austrian_white_coat
-	mixed_order_infantry
-	napoleonic_lancers
-	napoleonic_square
-	open_order_cavalry
-	spanish_tercio
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
 }
 monarch_names = {
-	"Alfons #5" = 15
-	"Al0cia #0" = -1
-	"Andreu #0" = 0
-	"Antoni #0" = 0
-	"Arnau #0" = 0
-	"Bernat #0" = 0
-	"Carles #0" = 10
-	"Climent #0" = 0
-	"Dom0nec #0" = 0
-	"Eduard #0" = 0
-	"Enric #0" = 10
-	"Esteve #0" = 0
-	"Felip #0" = 10
-	"Ferran #2" = 5
-	"Francesc #0" = 0
-	"Gon0al #0" = 0
-	"Guillem #0" = 0
-	"Hug #0" = 0
-	"H0ctor #0" = 0
-	"Ignasi #0" = 0
-	"Jaume #2" = 5
-	"Joan #2" = 15
-	"Joaquim #0" = 0
-	"Jordi #0" = 0
-	"Josep #0" = 0
-	"Josep Antoni #0" = 0
-	"Lloren0 #0" = 0
-	"Lluc #0" = 0
-	"Llu0s #0" = 10
-	"MONARCH_NAME_AMBROS #0" = 0
-	"Manel #0" = 0
-	"Marta #0" = -1
-	"Mart0 #1" = 5
-	"Miquel #0" = 0
-	"Nicolau #0" = 10
-	"Pau #0" = 0
-	"Pere #0" = 10
-	"Rafel #0" = 0
-	"Ramon #0" = 0
-	"Renat #0" = 10
-	"Roderic #0" = 0
-	"Rodrigo #1" = 50
-	"Sofia #0" = -1
-	"Xavier #0" = 0
-	"Ximena #1" = -20
+	"Abbad #0" = 10
+	"Abdul #0" = 10
+	"Abolhassan #0" = 10
+	"Abraam #0" = 10
+	"Adilah #0" = -10
+	"Aiza #0" = -20
+	"Amita #0" = -10
+	"Amud #0" = 10
+	"Banafsaj #0" = -20
+	"Butayna #0" = -10
+	"Dima #0" = -20
+	"Djeneba #0" = -10
+	"Fatima #0" = -20
+	"Feriburz #0" = 10
+	"Galind #0" = 10
+	"Habiba #0" = -20
+	"Hawa #0" = -10
+	"Huda #0" = -20
+	"Kodama #0" = 10
+	"Ma'n #0" = 20
+	"Mariam #0" = -20
+	"Menza #0" = -10
+	"Micipsa #0" = 10
+	"Musa #0" = 10
+	"Nafissa #0" = -10
+	"Naila #0" = -20
+	"Salma #0" = -20
+	"Umm #0" = -10
+	"Zahra #0" = -10
+	"Zubeyr #0" = 10
+	
+	"Aliya #0" = -1
+	"Ayman #0" = 0
+	"Barakat #0" = 0
+	"Basir #0" = 0
+	"Dawud #0" = 0
+	"Fahd #0" = 0
+	"Fahima #0" = -1
+	"Faris #0" = 0
+	"Faruq #0" = 0
+	"Firdaus #0" = 0
+	"Fuad #0" = 0
+	"Haidar #0" = 0
+	"Haifa #0" = -1
+	"Hashim #0" = 0
+	"Husam #0" = 0
+	"Iqbal #0" = 0
+	"Isma'il #0" = 0
+	"Ja'far #0" = 0
+	"Jabbar #0" = 0
+	"Jamal #0" = 0
+	"Junayd #0" = 0
+	"Khaliq #0" = 0
+	"Malik #0" = 0
+	"Mansur #0" = 0
+	"Muhammad #0" = 0
+	"Mustafa #0" = 0
+	"Najib #0" = 0
+	"Nasr #0" = 0
+	"Qasim #0" = 0
+	"Qusay #0" = 0
+	"Rahim #0" = 0
+	"Rashid #0" = 0
+	"Sa'd #0" = 0
+	"Safi #0" = 0
+	"Sakhr #0" = 0
+	"Samir #0" = 0
+	"Tariq #0" = 0
+	"Umar #0" = 0
+	"Wahid #0" = 0
+	"Yosuf #0" = 0
+	"Zahir #0" = 0
 }
 leader_names = {
-	"Alemany"
-	"Ametller"
-	"Amic"
-	"Barceló"
-	"Blanc"
-	"Canals"
-	"Casanovas"
-	"Casaus"
-	"Dalmau"
-	"Desplà"
-	"Destorrent"
-	"Domènec"
-	"Ferrer"
-	"Folc de Cardona"
-	"Fontana"
-	"Gallart"
-	"Gassol"
-	"Gisbert"
-	"Graner"
-	"Guimet"
-	"Lleixà"
-	"Llull"
-	"Moragues"
-	"Muntaner"
-	"Nadal"
-	"Pallarès"
-	"Pinós"
-	"Piquer"
-	"Pons"
-	"Rasquí"
-	"Ribalta"
-	"Rifós"
-	"Ripio"
-	"Salavert"
-	"Tamarit"
-	"Vallès"
-	"Vergós"
-	"Vilamarí"
-	"Vilaplana"
-	"de Balaguer"
-	"de Grau"
-	"de Guimerà"
-	"de Margarit"
-	"de Montcada"
-	"de Mur"
-	"de Ripoll"
-	"de Subirats"
-	"de Vivar"
-	"de la Riba"
-	"d’Espés"
-	"d’Oms"
+	"Ibn Abbad"
+	"Ibn Abd Allah"
+	"Ibn Abd al-Rahman"
+	"Ibn Abi Hafs"
+	"Ibn Ali"
+	"Ibn Hakan"
+	"Ibn Hammud"
+	"Ibn Hisam"
+	"Ibn Husayn"
+	"Ibn Idris"
+	"Ibn Ishaq"
+	"Ibn Isma'il"
+	"Ibn Marwan"
+	"Ibn Muhammad"
+	"Ibn Nasr"
+	"Ibn Qasim"
+	"Ibn Sa'd"
+	"Ibn Sulayman"
+	"Ibn Umar"
+	"Ibn Ummay"
+	"Ibn Utman"
+	"Ibn Ya'far"
+	"Ibn Yahyà"
+	"Ibn Yusuf"
+	"Ibn al-Azafi"
+	"Jabbarid"
+	"Umarid"
+	"Thashimid"
+	"Bakrid"
+	"Hudaid"
+	"Yasmin"
+	"Marki"
+	"Hilalid"
+	"Madidu"
+	"Amirid"
+	"Galindid"
+	"Abbadid"
+	"Tifilwitid"
+	"Ghomara"
+	"Irgen"
+	"Tahirid"
+	"Sumadid"
+	"Tarawaile"
+	"Xinzo"
+	"Tarawaile-Calabria"
+	"Huddid"
 }
 ship_names = {
-	"Alerta"
-	"Blanca Aurora"
-	"Catalunya"
-	"Ceres"
-	"Constança"
-	"Eclipsi"
-	"Empordà"
-	"Falcó"
-	"Flama"
-	"Invencible"
-	"Jaume el Conqueridor"
-	"Juno"
-	"La Bonaventura"
-	"La Garsa"
-	"La Gasela"
-	"La Reial"
-	"Lleona"
-	"Magnana"
-	"Mart"
-	"Roger de Flor"
-	"Roger de Llúria"
-	"Sant Ambrós"
-	"Sant Antoni"
-	"Sant Bernat"
-	"Sant Climent"
-	"Sant Ferran"
-	"Sant Francesc"
-	"Sant Gabriel"
-	"Sant Jacob"
-	"Sant Joan Baptista"
-	"Sant Joan Evangelista"
-	"Sant Jordi"
-	"Sant Miquel"
-	"Sant Pere de Roma"
-	"Sant Víctor"
-	"Santa Bàrbara"
-	"Santa Caterina"
-	"Santa Coloma"
-	"Santa Creu"
-	"Santa Eulàlia"
-	"Santa Magdalena"
-	"Santa Maria"
-	"Santa Ventura"
-	"Santa Ágata"
-	"Santíssima Trinitat"
-	"Sobirà"
-	"Sorpresa"
-	"Telèmac"
-	"Temerària"
-	"Terrible"
-	"Trinitat"
-	"Verge de Montserrat"
-	"Verge de les Neus"
-	"Verge del Carme"
-	"Vigilant"
+	"Ismail I"
+	"Ismail II"
+	"Muhammed III"
+	"Muhammed IV"
+	"Muhammed IX"
+	"Muhammed V"
+	"Muhammed VI"
+	"Muhammed VII"
+	"Muhammed VIII"
+	"Muhammed X"
+	"Muhammed al-Faqih"
+	"Muhammed ibn Nasr"
+	"Nasr"
+	"Yusuf I"
+	"Yusuf II"
+	"Yusuf III"
+	"Yusuf IV"
+	"Yusuf V"
+	"Ascalon"
+	"Joyeuse"
+	"Banafsaj"
+	"Pope Stephanus"
+	"Zaragoza"
+	"Balansiyya"
+	"Qurtuba"
+	"Garnatah"
+	"Alcaniz"
+	"Ceuta"
+	"Cantillana"
+	"Sardiniya"
+	"Batalayws"
+	"Galisiya"
+	"Siqilliya"
+	"Sarqusa"
+	"Balarm"
+	"Raf Rush"
+	"Goto"
+	"Tenerife"
+}
+army_names = {
+	"Jaish Al $PROVINCE$"
+}
+fleet_names = {
+	"Atlantic Sea Squadron"
+	"Alboran Sea Squadron"
+	"Balaeric Sea Squadron"
+	"Jabal Tariq Squadron"
+	"Tyrrhenian Sea Squadron"
+	"Bay of Biscay Squadron"
+	"Canaries Squadron"
 }
