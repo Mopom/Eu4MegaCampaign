@@ -1,6 +1,6 @@
-owner = ADU
-controller = ADU
-capital = "València"
+owner = VAL
+controller = VAL
+capital = "Medina al-Turab"
 is_city = yes
 culture = dynamic-andalucian-berber-culture-num1
 religion = converted_dynamic_faith_102
@@ -11,6 +11,7 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = ADU
+add_core = VAL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

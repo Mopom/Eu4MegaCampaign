@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = VAL
+controller = VAL
 capital = "Castellon"
 is_city = yes
 culture = andalucian
@@ -10,6 +10,7 @@ base_production = 5
 base_manpower = 2
 add_core = GRA
 add_core = ADU
+add_core = VAL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
