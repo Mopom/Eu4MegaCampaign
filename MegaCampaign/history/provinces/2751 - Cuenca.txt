@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Cuenca"
 is_city = yes
 culture = dynamic-andalucian-berber-culture-num1
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

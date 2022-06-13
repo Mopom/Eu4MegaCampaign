@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Trapani"
 is_city = yes
 culture = sicilian
@@ -10,7 +10,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 add_core = SIC
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

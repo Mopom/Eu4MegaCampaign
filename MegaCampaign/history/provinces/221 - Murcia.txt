@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Cartagena"
 is_city = yes
 culture = dynamic-andalucian-berber-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

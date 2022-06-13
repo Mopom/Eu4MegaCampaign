@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Tetouan"
 is_city = yes
 culture = moroccan
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

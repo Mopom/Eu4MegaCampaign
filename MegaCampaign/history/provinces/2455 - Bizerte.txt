@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Bizerte"
 is_city = yes
 culture = tunisian
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 5
 base_production = 1
 base_manpower = 2
-add_core = SPA
+add_core = ADU
 add_core = TUN
 discovered_by = eastern
 discovered_by = indian

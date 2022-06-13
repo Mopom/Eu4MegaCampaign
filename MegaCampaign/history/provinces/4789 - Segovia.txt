@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Segovia"
 is_city = yes
 culture = castillian
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 1
 add_core = CAS
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

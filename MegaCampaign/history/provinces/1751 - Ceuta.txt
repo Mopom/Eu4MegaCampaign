@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Cebta"
 is_city = yes
 culture = moroccan
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

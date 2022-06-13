@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = ADU
+controller = ADU
 capital = "Santander"
 is_city = yes
 culture = castillian
@@ -11,7 +11,7 @@ base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
 add_core = CAS
-add_core = SPA
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
