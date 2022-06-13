@@ -1,8 +1,8 @@
-converted_dynamic_faith_104_rebels = {
+rhenism_rebels = {
 
 	area = nation
 	government = theocracy
-	religion = converted_dynamic_faith_104
+	religion = rhenism
 	defection = religion
 	defect_delay = 120
 	independence = none
@@ -37,7 +37,7 @@ converted_dynamic_faith_104_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = converted_dynamic_faith_104 }
+			NOT = { religion = rhenism }
 		}
 		modifier = {
 			factor = 0.001
@@ -81,14 +81,14 @@ converted_dynamic_faith_104_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = converted_dynamic_faith_104
-			owner = { religion = converted_dynamic_faith_104 }
+			religion = rhenism
+			owner = { religion = rhenism }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = converted_dynamic_faith_104 }
+			NOT = { religion = rhenism }
 			any_neighbor_province = {
-				religion = converted_dynamic_faith_104
+				religion = rhenism
 				NOT = { has_province_modifier = "forced_conversion" }
 			}
 		}
@@ -116,15 +116,15 @@ converted_dynamic_faith_104_rebels = {
 	}
 	siege_won_effect = {
 		if = {
-			limit = { religion = converted_dynamic_faith_104 }
+			limit = { religion = rhenism }
 			add_province_modifier = {
 				name = "religious_violence"
 				duration = 730
 			}
 		}
 		if = {
-			limit = { NOT = { religion = converted_dynamic_faith_104 } }
-			change_religion = converted_dynamic_faith_104
+			limit = { NOT = { religion = rhenism } }
+			change_religion = rhenism
 			add_province_modifier = {
 				name = "religious_violence"
 				duration = 730
@@ -156,7 +156,7 @@ converted_dynamic_faith_104_rebels = {
 			add_stability = -1
 		}
 		if = {
-			limit = { religion = converted_dynamic_faith_104 }
+			limit = { religion = rhenism }
 			add_country_modifier  = {
 				name = "religious_intolerance"
 				duration = 3650
@@ -165,9 +165,9 @@ converted_dynamic_faith_104_rebels = {
 		if = {
 			limit = {
 				religion_group = christian
-				NOT = { religion = converted_dynamic_faith_104 }
+				NOT = { religion = rhenism }
 			}
-			change_religion = converted_dynamic_faith_104
+			change_religion = rhenism
 			force_converted = yes
 		}
 	}

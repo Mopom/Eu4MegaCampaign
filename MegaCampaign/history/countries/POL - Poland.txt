@@ -28,7 +28,7 @@ capital = 262
 		birth_date = 1421.6.3
 		death_date = 1486.6.3
 		claim = 89
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = bavarian
 	}
 	add_heir_personality = well_connected_personality

@@ -29,7 +29,7 @@ fixed_capital = 17
 		country_of_origin = Z2R
 		birth_date = 1422.11.7
 		death_date = 1482.11.7
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = danish
 	}
 	add_queen_personality = well_connected_personality

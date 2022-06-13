@@ -28,7 +28,7 @@ capital = 250
 		country_of_origin = SCO
 		birth_date = 1407.7.16
 		death_date = 1467.7.16
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = dynamic-saxon-culture-num1
 	}
 	add_queen_personality = well_connected_personality
@@ -44,7 +44,7 @@ capital = 250
 		death_date = 1494.9.6
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = dynamic-saxon-culture-num1
 	}
 	add_heir_personality = well_connected_personality

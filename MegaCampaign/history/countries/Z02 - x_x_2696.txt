@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 3
 technology_group = western
-religion = converted_dynamic_faith_104
+religion = rhenism
 primary_culture = dynamic-saxon-culture-num1
 capital = 4773
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 4773
 		dip = 2
 		mil = 4
 		birth_date = 1406.2.21
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = dynamic-saxon-culture-num1
 	}
 	add_ruler_personality = well_connected_personality
@@ -44,7 +44,7 @@ capital = 4773
 		death_date = 1489.12.23
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = dynamic-irish-culture-num1
 	}
 	add_heir_personality = well_connected_personality

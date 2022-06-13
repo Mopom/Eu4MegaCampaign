@@ -1,5 +1,5 @@
 christian = {
-	converted_dynamic_faith_104 = {
+	rhenism = {
 		color = { 88 26 37 }
 		icon =  173
 		allowed_conversion = {

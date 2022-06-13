@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
 technology_group = western
-religion = converted_dynamic_faith_104
+religion = rhenism
 primary_culture = dynamic-breton-normand-occitain-culture-num1
 capital = 174
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 174
 		mil = 3
 		birth_date = 1.1.1
 		regent = yes
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 	heir = {
@@ -25,7 +25,7 @@ capital = 174
 		birth_date = 1431.2.1
 		death_date = 1496.2.1
 		claim = 89
-		religion = converted_dynamic_faith_104
+		religion = rhenism
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 }
