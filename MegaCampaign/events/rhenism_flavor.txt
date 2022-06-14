@@ -29,3 +29,39 @@ country_event = { #The Prophet
 		}
 	}
 }
+
+country_event = { 
+	id = rhenism.2
+
+	hidden = yes
+	fire_only_once = yes;
+
+	trigger = {
+		AND = {
+			religion = rhenism
+			total_development = 300
+			is_year = 1450
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+
+		modifier = {
+			factor = 0.5
+			is_year = 1460
+		}
+	}
+
+	option = {
+		ai_chance = {factor = 1}
+		every_country = {
+			limit = {
+				religion = rhenism
+			}
+			country_event = {
+				id = rhenism.1
+			}
+		}
+	}
+}
