@@ -1,0 +1,10 @@
+vassal = {
+	first = ADU
+	second = VAL
+	start_date = 1444.1.1
+}
+vassal = {
+	first = ADU
+	second = TUN
+	start_date = 1444.1.1
+}
