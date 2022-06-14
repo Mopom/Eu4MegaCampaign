@@ -1,0 +1,18 @@
+#The Prophet
+prophet_wise_man = {
+	tolerance_own = 0.5
+	global_heretic_missionary_strength = 0.01
+	tolerance_heathen = -1
+}
+prophet_inspired = {
+	missionary_maintenance_cost = -0.15
+	tolerance_heathen = -0.5
+}
+prophet_supreme = {
+	tolerance_heretic = -1
+	tolerance_own = -0.5
+	tolerance_heathen = 1
+	tolerance_of_heathens_capacity = 1
+	global_missionary_strength = 0.01
+	global_heretic_missionary_strength = -0.015
+}

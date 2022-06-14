@@ -1,0 +1,31 @@
+namespace = rhenism
+
+country_event = { #The Prophet
+	id = rhenism.1
+	title = rhenism.1.t
+	desc = rhenism.1.d
+	picture = PRAYING_eventPicture
+
+	is_triggered_only = yes
+
+	option = { # Wise man
+		name = rhenism.1.a
+		add_country_modifier = {
+			name = prophet_wise_man
+		}
+	}
+
+	option = { #Inspired, but not absolute
+		name = rhenism.1.b
+		add_country_modifier = {
+			name = prophet_inspired
+		}
+	}
+
+	option = { #The words of The Prophet reign supreme
+		name = rhenism.1.c
+		add_country_modifier = {
+			name = prophet_supreme
+		}
+	}
+}
