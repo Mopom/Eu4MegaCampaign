@@ -16,3 +16,14 @@ prophet_supreme = {
 	global_missionary_strength = 0.01
 	global_heretic_missionary_strength = -0.015
 }
+
+#The Blessed Sacrament
+sacrament_true_presence = {
+	land_morale = 0.025
+}
+sacrament_spiritual_presence = {
+	culture_conversion_cost = -0.05
+}
+sacrament_symbolic = {
+	innovativeness_gain = 0.05
+}

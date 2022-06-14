@@ -1,6 +1,12 @@
 namespace = rhenism
 
-country_event = { #The Prophet
+#################################
+#	Flavor events for Rhenism	#
+################################# 
+
+#The Prophet
+#1450
+country_event = { 
 	id = rhenism.1
 	title = rhenism.1.t
 	desc = rhenism.1.d
@@ -12,6 +18,14 @@ country_event = { #The Prophet
 		name = rhenism.1.a
 		add_country_modifier = {
 			name = prophet_wise_man
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = prophet_wise_man
+				duration = -1
+			}
 		}
 	}
 
@@ -19,6 +33,14 @@ country_event = { #The Prophet
 		name = rhenism.1.b
 		add_country_modifier = {
 			name = prophet_inspired
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = prophet_inspired
+				duration = -1
+			}
 		}
 	}
 
@@ -26,15 +48,23 @@ country_event = { #The Prophet
 		name = rhenism.1.c
 		add_country_modifier = {
 			name = prophet_supreme
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = prophet_supreme
+				duration = -1
+			}
 		}
 	}
 }
 
-country_event = { 
+country_event = { #Driver for above event
 	id = rhenism.2
 
 	hidden = yes
-	fire_only_once = yes;
+	fire_only_once = yes
 
 	trigger = {
 		AND = {
@@ -58,9 +88,103 @@ country_event = {
 		every_country = {
 			limit = {
 				religion = rhenism
+				is_subject = no
 			}
 			country_event = {
 				id = rhenism.1
+			}
+		}
+	}
+}
+
+#The blessed sacrament
+#1470
+country_event = { 
+	id = rhenism.3
+	title = rhenism.3.t
+	desc = rhenism.3.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = { #True Presence
+		name = rhenism.3.a
+		add_country_modifier = {
+			name = sacrament_true_presence
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = sacrament_true_presence
+				duration = -1
+			}
+		}
+	}
+
+	option = { #Spiritual Presence
+		name = rhenism.3.b
+		add_country_modifier = {
+			name = sacrament_spiritual_presence
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = sacrament_spiritual_presence
+				duration = -1
+			}
+		}
+	}
+
+	option = { #Symbolic Only
+		name = rhenism.3.c
+		add_country_modifier = {
+			name = sacrament_symbolic
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = sacrament_symbolic
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = { #Driver for above event
+	id = rhenism.4
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			religion = rhenism
+			total_development = 300
+			is_year = 1470
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+
+		modifier = {
+			factor = 0.5
+			is_year = 1480
+		}
+	}
+
+	option = {
+		ai_chance = {factor = 1}
+		every_country = {
+			limit = {
+				religion = rhenism
+				is_subject = no
+			}
+			country_event = {
+				id = rhenism.3
 			}
 		}
 	}
