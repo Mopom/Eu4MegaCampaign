@@ -1,5 +1,5 @@
-name = "Converted - MegaCampaign"
-path = "mod/Eu4MegaCampaign"
+name = "MegaCampaign"
+path = "C:/Users/Simon/Downloads/MegaCampaignHolder/Eu4MegaCampaign"
 normal_or_historical_nations = yes
 supported_version = "1.33.*"
 replace_path = "history/countries/"

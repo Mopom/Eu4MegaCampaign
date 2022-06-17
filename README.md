@@ -13,3 +13,7 @@ Ganga = Z01
 Mali = MAL
 Mongolia = MGE
 Russia = RUS
+
+
+
+TODO: Change national ideas names, change provinces of wrong religion, change refered religion in Particle events, find missing modifiers
