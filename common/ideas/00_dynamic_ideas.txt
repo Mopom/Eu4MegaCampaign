@@ -3181,39 +3181,38 @@ dynamic-nubian-culture-num1_ideas = {
 
 dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1_ideas = {
 	start = {
-		 monarch_lifespan = 0.1
-		 all_estate_loyalty_equilibrium = 0.05
+		 state_governing_cost = -0.1
+		 infantry_power = 0.1
 	}
 	trigger = {
-		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+		tag = Z01
 	}
 	free = yes
 
-	tradition_vegetarianism = {
-		monthly_karma = 0.1
-	}
-	tradition_philosopher_culture = {
-		adm_tech_cost_modifier = -0.15
-	}
-	tradition_mystical_ancestors = {
-		monthly_heir_claim_increase = 0.05
-		idea_cost = -0.05
-	}
-	tradition_lords_of_the_elephant = {
+	ganga_1 = {
 		cavalry_power = 0.15
 	}
-	tradition_ruling_caste = {
-		global_rebel_suppression_efficiency = 0.2
-		improve_relation_modifier = -0.05
+	ganga_2 = {
+		core_creation = -0.1
 	}
-	tradition_culture_blending = {
-		promote_culture_cost = -0.25
+	ganga_3 = {
+		development_cost = -0.15
+		global_unrest = 1.5
 	}
-	tradition_agrarian = {
+	ganga_4 = {
 		global_trade_goods_size_modifier = 0.1
 	}
+	ganga_5 = {
+		tolerance_own = 2
+	}
+	ganga_6 = {
+		global_own_trade_power = 0.15
+	}
+	ganga_7 = {
+		merchants = 1
+	}
 	bonus = {
-		development_cost = -0.1
+		trade_steering = 0.1
 	}
 }
 
@@ -3331,5 +3330,43 @@ dynamic-mongol-uyghur-culture-num1_ideas = {
 	}
 	bonus = {
 		global_tax_modifier = 0.05
+	}
+}
+
+Z03_ideas = {
+	start = {
+		 infantry_power = 0.1
+		 monthly_fervor_increase = 2
+	}
+	trigger = {
+		tag = Z03
+	}
+	free = yes
+
+	Z03_1 = {
+		development_cost = -0.1
+	}
+	Z03_2 = {
+		galley_cost = -0.20
+	}
+	Z03_3 = {
+		max_absolutism = 20
+		max_revolutionary_zeal = 20
+		global_unrest = 2
+	}
+	Z03_4 = {
+		land_morale = 0.15
+	}
+	Z03_5 = {
+		galley_power = 0.2
+	}
+	Z03_6 = {
+		artillery_shock = 1
+	}
+	Z03_7 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	bonus = {
+		discipline = 0.05
 	}
 }

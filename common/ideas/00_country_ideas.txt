@@ -248,12 +248,12 @@ MOS_ideas = {
 
 RUS_ideas = {
 	start = {
-		core_creation = -0.10
-		global_manpower_modifier = 0.33
+		land_morale = 0.1
+		culture_conversion_cost = -0.33
 	}
 
 	bonus = {
-		legitimacy = 1
+		discipline = 0.03
 	}
 
 	trigger = {
@@ -262,29 +262,28 @@ RUS_ideas = {
 	free = yes		#will be added at load.
 
 	land_of_the_rus = {
-		ae_impact = -0.1
+		same_culture_advisor_cost = -0.15
+	}
+	russian_artillery_yard = {
+		artillery_fire = 1
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
 		auto_explore_adjacent_to_colony = yes
 	}
-	russian_artillery_yard = {
-		artillery_cost = -0.1
-		artillery_power = 0.1
-	}
 	life_long_conscription  = {
-		land_forcelimit_modifier = 0.50
+		movement_speed = 0.20
+		drill_gain_modifier = 0.25
 	}
 
 	abolish_the_mestnichestvo = {
 		yearly_corruption = -0.1
 	}
 	table_of_ranks = {
-		advisor_cost = -0.10
-		army_tradition = 0.25
+		build_time = -0.33
 	}	
 	curriculum_of_the_cadet_corps = {
-		land_morale = 0.05
+		fire_damage = 0.1
 		fire_damage_received = -0.1
 	}
 }
@@ -14264,41 +14263,42 @@ OIR_ideas = {
 
 KHA_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
-		years_of_nationalism = -5
+		extra_manpower_at_religious_war = yes
+		shock_damage = -0.1
+		idea_cost = -0.1
 	}
 	
 	bonus = {
-		land_maintenance_modifier = -0.05
+		all_power_cost	= -0.025
 	}
 	
 	trigger = {
+		tag = MGA
 		tag = KHA
 	}
 	free = yes
 	
 	ghostly_horses_of_the_plain = {
-		cavalry_power = 0.20
+		manpower_in_true_faith_provinces  = 0.1
+		land_morale = 0.025
 	}
 	ikh_mongol_uls = {
-		ae_impact = -0.15
+		province_warscore_cost = -0.1
 	}
 	life_of_steppe_warrior = {
-		#land_attrition = -0.20 (effect taken in OIR_ideas)
+		local_prosperity_growth = 0.1
 	}
 	northern_yuan = {
-		core_creation = -0.25
+		culture_conversion_cost = -0.2
 	}
 	yams_of_the_great_khan = {
-		envoy_travel_time = -0.25
-		reinforce_cost_modifier = -0.15
+		global_unrest = -1
 	}
 	mongolian_mobility = {
-		leader_land_manuever = 1
-		movement_speed = 0.1
+		discipline = 0.05
 	}
 	MNG_kheshig = {
-		leader_land_shock = 1
+		technology_cost = -0.05
 	}
 }
 
@@ -16229,7 +16229,7 @@ MAL_ideas = {
 	}
 	reclamation_of_land = {
 		global_trade_goods_size_modifier = 0.05
-
+		gold_depletion_chance_modifier = -0.75
 	}
 	mandinka_warrior_spirit = {
 		shock_damage = 0.1
@@ -16349,7 +16349,7 @@ ADU_ideas = {
 	}
 	adu_taifa_adminstration = {
 		enforce_religion_cost = -0.4
-		local_manpower_modifier = 0.1
+		manpower_in_true_faith_provinces  = 0.1
     }
 	adu_ahl_uhl_dhimma = {
 		num_accepted_cultures = 1
