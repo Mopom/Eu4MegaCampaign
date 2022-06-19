@@ -14273,8 +14273,7 @@ WAN_ideas = {
 	}
 	
 	trigger = {
-		tag = MGA
-		tag = KHA
+		tag = MGE
 	}
 	free = yes
 	
