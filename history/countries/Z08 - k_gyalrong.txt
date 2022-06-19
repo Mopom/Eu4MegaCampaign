@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = english_monarchy
 government_rank = 2
 technology_group = indian
-religion = converted_dynamic_faith_103
+religion = gangan
 primary_culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 capital = 2170
 add_accepted_culture = khalkha
@@ -15,7 +15,7 @@ add_accepted_culture = tibetan
 		dip = 3
 		mil = 5
 		birth_date = 1405.10.16
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	add_ruler_personality = well_connected_personality
@@ -30,7 +30,7 @@ add_accepted_culture = tibetan
 		birth_date = 1405.3.28
 		death_date = 1465.3.28
 		female = yes
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	add_queen_personality = well_connected_personality
@@ -45,7 +45,7 @@ add_accepted_culture = tibetan
 		birth_date = 1428.7.1
 		death_date = 1493.7.1
 		claim = 89
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	add_heir_personality = well_connected_personality
