@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 2
 technology_group = indian
-religion = converted_dynamic_faith_103
+religion = gangan
 primary_culture = dynamic-kannada-marathi-culture-num1
 capital = 4326
 mercantilism = 15
@@ -14,7 +14,7 @@ mercantilism = 15
 		dip = 5
 		mil = 5
 		birth_date = 1412.8.15
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-kannada-marathi-culture-num1
 	}
 	add_ruler_personality = well_connected_personality
@@ -29,7 +29,7 @@ mercantilism = 15
 		birth_date = 1416.10.29
 		death_date = 1476.10.29
 		female = yes
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = sinhala
 	}
 	add_queen_personality = well_connected_personality
@@ -45,7 +45,7 @@ mercantilism = 15
 		death_date = 1504.6.12
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-kannada-marathi-culture-num1
 	}
 	add_heir_personality = well_connected_personality
