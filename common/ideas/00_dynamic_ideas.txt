@@ -1,6 +1,6 @@
 ### National idea groups generated via cultural traditions. 
 
-dynamic-bedouin_arabic-culture-num1_ideas = {
+abba_ideas = {
 	start = {
 		 global_manpower_modifier = 0.15
 		 land_attrition = -0.15

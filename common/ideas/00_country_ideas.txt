@@ -14261,7 +14261,7 @@ OIR_ideas = {
 }
 
 
-KHA_ideas = {
+WAN_ideas = {
 	start = {
 		extra_manpower_at_religious_war = yes
 		shock_damage = -0.1
@@ -14278,26 +14278,26 @@ KHA_ideas = {
 	}
 	free = yes
 	
-	ghostly_horses_of_the_plain = {
+	WAN_1 = {
 		manpower_in_true_faith_provinces  = 0.1
 		land_morale = 0.025
 	}
-	ikh_mongol_uls = {
+	WAN_2 = {
 		province_warscore_cost = -0.1
 	}
-	life_of_steppe_warrior = {
+	WAN_3 = {
 		local_prosperity_growth = 0.1
 	}
-	northern_yuan = {
+	WAN_4 = {
 		culture_conversion_cost = -0.2
 	}
-	yams_of_the_great_khan = {
+	WAN_5 = {
 		global_unrest = -1
 	}
-	mongolian_mobility = {
+	WAN_6 = {
 		discipline = 0.05
 	}
-	MNG_kheshig = {
+	WAN_7 = {
 		technology_cost = -0.05
 	}
 }
