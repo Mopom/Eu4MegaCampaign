@@ -1573,7 +1573,7 @@ dharmic = {
 		heretic = { BHAKTI }
 	}
 
-	sikhism = {
+	gangan = {
 		color = { 0 153 153 }
 		icon = 15
 		allowed_conversion = {
@@ -1582,7 +1582,7 @@ dharmic = {
 			shiite
 		}
 		country = {
-			mil_tech_cost_modifier = -0.1
+			monach_average_lifespan = +0.15
 			land_morale = 0.1
 		}
 		country_as_secondary = {
@@ -1594,7 +1594,7 @@ dharmic = {
 		}
 
 		on_convert = {
-			change_religion = sikhism
+			change_religion = gangan
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -1605,7 +1605,7 @@ dharmic = {
 
 		heretic = { MASANDIS }
 
-		date = 1499.01.01
+		date = 1459.01.01
 
 		gurus = {
 			guru_nanak = {
@@ -1641,7 +1641,7 @@ dharmic = {
 			}
 			guru_angad = {
 				trigger = {
-					is_year = 1539
+					is_year = 1489
 					is_month = 9
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -1649,23 +1649,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1540
+						is_year = 1490
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1541
+						is_year = 1491
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1542
+						is_year = 1492
 					}
 					modifier = {
 						factor = 2
-						is_year = 1543
+						is_year = 1493
 					}
 					modifier = {
 						factor = 2
-						is_year = 1544
+						is_year = 1494
 					}
 				}
 				modifier = {
