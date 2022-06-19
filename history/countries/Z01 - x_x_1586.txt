@@ -14,7 +14,7 @@ capital = 522
 		mil = 4
 		birth_date = 1410.9.25
 		female = yes
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	add_ruler_personality = well_connected_personality
@@ -28,7 +28,7 @@ capital = 522
 		country_of_origin = Z01
 		birth_date = 1388.1.15
 		death_date = 1448.1.15
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	add_queen_personality = well_connected_personality
@@ -44,7 +44,7 @@ capital = 522
 		death_date = 1495.10.24
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_103
+		religion = gangan
 		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	add_heir_personality = well_connected_personality
