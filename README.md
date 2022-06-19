@@ -17,3 +17,5 @@ Russia = RUS
 
 
 TODO: Change national ideas names, change provinces of wrong religion, change refered religion in Particle events, find missing modifiers
+
+Jewish faith is affected by church_power_modifier = 0.1  => 10% increase to church power generation

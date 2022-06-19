@@ -968,7 +968,7 @@ dynamic-tibetan-culture-num2_ideas = {
 }
 
 
-dynamic-saxon-culture-num1_ideas = {
+Z02_ideas = {
 	start = {
 		 female_advisor_chance = 0.5
 		 may_recruit_female_generals = yes
@@ -980,27 +980,27 @@ dynamic-saxon-culture-num1_ideas = {
 	}
 	free = yes
 
-	tradition_cultural_assimilation = {
+	Z02_1 = {
 		native_assimilation = 1
 	}
-	tradition_konni_raids = {
+	Z02_2 = {
 		cavalry_flanking = 0.25
 		movement_speed = 0.1
 	}
-	tradition_gottingen = {
+	Z02_3 = {
 		global_trade_goods_size_modifier = 0.15
 	}
-	tradition_luneburg = {
+	Z02_4 = {
 		defensiveness = 0.2
 	}
-	tradition_three_ruling = {
+	Z02_5 = {
 		heavy_ship_power = 0.15
 		leader_naval_manuever = 1
 	}
-	tradition_three_empire = {
+	Z02_6 = {
 		trade_efficiency = 0.2
 	}
-	tradition_forest_fighters_2 = {
+	Z02_7 = {
 		fire_damage_received = -0.1
 	}
 	bonus = {
@@ -3179,7 +3179,7 @@ dynamic-nubian-culture-num1_ideas = {
 }
 
 
-dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1_ideas = {
+Z01_ideas = {
 	start = {
 		 state_governing_cost = -0.1
 		 infantry_power = 0.1
@@ -3189,26 +3189,26 @@ dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1_ideas = {
 	}
 	free = yes
 
-	ganga_1 = {
+	Z01_1 = {
 		cavalry_power = 0.15
 	}
-	ganga_2 = {
+	Z01_2 = {
 		core_creation = -0.1
 	}
-	ganga_3 = {
+	Z01_3 = {
 		development_cost = -0.15
 		global_unrest = 1.5
 	}
-	ganga_4 = {
+	Z01_4 = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	ganga_5 = {
+	Z01_5 = {
 		tolerance_own = 2
 	}
-	ganga_6 = {
+	Z01_6 = {
 		global_own_trade_power = 0.15
 	}
-	ganga_7 = {
+	Z01_7 = {
 		merchants = 1
 	}
 	bonus = {
@@ -3336,7 +3336,7 @@ dynamic-mongol-uyghur-culture-num1_ideas = {
 Z03_ideas = {
 	start = {
 		 infantry_power = 0.1
-		 monthly_fervor_increase = 2
+		 church_power_modifier = 0.2
 	}
 	trigger = {
 		tag = Z03
@@ -3347,26 +3347,26 @@ Z03_ideas = {
 		development_cost = -0.1
 	}
 	Z03_2 = {
-		galley_cost = -0.20
-	}
-	Z03_3 = {
 		max_absolutism = 20
 		max_revolutionary_zeal = 20
 		global_unrest = 2
 	}
-	Z03_4 = {
+	Z03_3 = {
 		land_morale = 0.15
 	}
-	Z03_5 = {
-		galley_power = 0.2
-	}
-	Z03_6 = {
+	Z03_4 = {
 		artillery_shock = 1
 	}
-	Z03_7 = {
+	Z03_5 = {
+		galley_cost = -0.20
+	}
+	Z03_6 = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	bonus = {
+	Z03_7 = {
 		discipline = 0.05
+	}
+	bonus = {
+		galley_power = 0.2
 	}
 }
