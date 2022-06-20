@@ -31,10 +31,9 @@ christian = {
 		}
 		
 		uses_judaism_power = yes
-		aspects_name = JEWISH_ASPECTS
 
 		aspects = {
-			judaism_rosh_hashanah_aspect = {	#ADM aspect
+			aspect_1 = {	#ADM aspect
 				cost = 100
 				modifier = {
 					global_unrest = -2
@@ -54,7 +53,7 @@ christian = {
 				}
 			}
 
-			judaism_simchat_torah_aspect = {	#ADM aspect
+			aspect_2 = {	#ADM aspect
 				cost = 100
 				modifier = {
 					technology_cost = -0.05
@@ -65,7 +64,7 @@ christian = {
 				}
 			}
 
-			judaism_sukkot_aspect = {	#ADM aspect
+			aspect_3 = {	#ADM aspect
 				cost = 100
 				modifier = {
 					global_tax_modifier = 0.1
@@ -84,7 +83,7 @@ christian = {
 				}
 			}
 
-			judaism_communities_aspect = {	#DIP aspect
+			aspect_4 = {	#DIP aspect
 				cost = 100
 				effect = {
 					hidden_effect = {
@@ -158,7 +157,7 @@ christian = {
 				}
 			}
 
-			jewish_abrahamic_aspect = {	#DIP aspect
+			aspect_5 = {	#DIP aspect
 				cost = 100
 				effect = {
 					hidden_effect = {
@@ -226,7 +225,7 @@ christian = {
 				}
 			}
 
-			judaism_diplomatic_rabbi_aspect = {	#DIP aspect
+			aspect_6 = {	#DIP aspect
 				cost = 100
 				effect = {
 					hidden_effect = {
@@ -287,7 +286,7 @@ christian = {
 				}
 			}
 
-			judaism_yom_kippur_aspect = {	#MIL aspect
+			aspect_7 = {	#MIL aspect
 				cost = 100
 				modifier = {
 					manpower_recovery_speed = 0.10
@@ -307,7 +306,7 @@ christian = {
 				}
 			}
 
-			judaism_remember_passover_aspect = {	#MIL aspect
+			aspect_8 = {	#MIL aspect
 				cost = 100
 				modifier = {
 					defensiveness = 0.25
@@ -322,7 +321,7 @@ christian = {
 				}
 			}
 
-			judaism_purim_teachings_aspect = {	#MIL aspect
+			aspect_9 = {	#MIL aspect
 				cost = 100
 				modifier = {
 					naval_morale = 0.1
@@ -348,14 +347,14 @@ christian = {
 				custom_trigger_tooltip = {
 					tooltip = JUDAISM_HAS_ADM_ASPECT
 					OR = {
-						has_church_aspect = judaism_rosh_hashanah_aspect
-						has_church_aspect = judaism_simchat_torah_aspect
-						has_church_aspect = judaism_sukkot_aspect
+						has_church_aspect = aspect_1
+						has_church_aspect = aspect_2
+						has_church_aspect = aspect_3
 					}
 				}
 				if = {
 					limit = {
-						has_church_aspect = judaism_rosh_hashanah_aspect
+						has_church_aspect = aspect_1
 					}
 					NOT = { stability = 3 }
 				}
@@ -363,13 +362,13 @@ christian = {
 			effect = {
 				if = {
 					limit = {
-						has_church_aspect = judaism_rosh_hashanah_aspect
+						has_church_aspect = aspect_1
 					}
 					add_stability = 1
 				}
 				if = {
 					limit = {
-						has_church_aspect = judaism_simchat_torah_aspect
+						has_church_aspect = aspect_2
 					}
 					change_government_reform_progress = 20
 					add_legitimacy_equivalent = {
@@ -385,7 +384,7 @@ christian = {
 				}
 				if = {
 					limit = {
-						has_church_aspect = judaism_sukkot_aspect
+						has_church_aspect = aspect_3
 					}
 					add_years_of_income = 0.5
 					add_inflation = -1
@@ -397,14 +396,14 @@ christian = {
 					factor = 0
 					OR = {
 						AND = {
-							NOT = { has_church_aspect = judaism_communities_aspect }
-							NOT = { has_church_aspect = jewish_abrahamic_aspect }
-							NOT = { has_church_aspect = judaism_diplomatic_rabbi_aspect }
+							NOT = { has_church_aspect = aspect_4 }
+							NOT = { has_church_aspect = aspect_5 }
+							NOT = { has_church_aspect = aspect_6 }
 						}
 						AND = {
-							NOT = { has_church_aspect = judaism_yom_kippur_aspect }
-							NOT = { has_church_aspect = judaism_remember_passover_aspect }
-							NOT = { has_church_aspect = judaism_purim_teachings_aspect }
+							NOT = { has_church_aspect = aspect_7 }
+							NOT = { has_church_aspect = aspect_8 }
+							NOT = { has_church_aspect = aspect_9 }
 						}
 					}
 				}
