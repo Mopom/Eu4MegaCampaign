@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Budejovice"
 is_city = yes
 culture = swiss
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 4
 base_manpower = 3
 add_core = SWI
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

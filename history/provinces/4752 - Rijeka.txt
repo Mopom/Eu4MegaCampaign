@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Rijeka"
 is_city = yes
 culture = croatian
@@ -11,7 +11,7 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = CRO
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

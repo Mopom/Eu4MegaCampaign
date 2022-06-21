@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "L'Aquila"
 is_city = yes
 culture = umbrian
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 5
 base_manpower = 1
 add_core = URB
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

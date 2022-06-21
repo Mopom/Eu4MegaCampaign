@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Venezia"
 is_city = yes
 culture = venetian
@@ -12,7 +12,7 @@ base_manpower = 2
 extra_cost = 24
 center_of_trade = 3
 add_core = VEN
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

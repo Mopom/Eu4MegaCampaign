@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Salzburg"
 is_city = yes
 culture = bavarian
@@ -10,7 +10,7 @@ base_production = 8
 base_manpower = 2
 center_of_trade = 1
 add_core = BAV
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

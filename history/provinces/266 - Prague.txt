@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Praha"
 is_city = yes
 culture = swiss
@@ -12,7 +12,7 @@ base_manpower = 5
 extra_cost = 16
 center_of_trade = 2
 add_core = SWI
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Villach"
 is_city = yes
 culture = dynamic-slovene-franconian-culture-num1
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 6
 base_production = 1
 base_manpower = 2
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

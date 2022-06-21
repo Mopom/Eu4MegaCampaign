@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Doboj"
 is_city = yes
 culture = bosnian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 4
 base_manpower = 2
 add_core = BOS
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

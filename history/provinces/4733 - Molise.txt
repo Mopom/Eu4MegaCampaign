@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Campobasso"
 is_city = yes
 culture = neapolitan
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 3
 add_core = NAP
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

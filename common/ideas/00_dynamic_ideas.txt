@@ -3339,7 +3339,7 @@ Z03_ideas = {
 		 church_power_modifier = 0.2
 	}
 	trigger = {
-		tag = Z03
+		tag = UBL
 	}
 	free = yes
 

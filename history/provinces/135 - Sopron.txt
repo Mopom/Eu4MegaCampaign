@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Sopron"
 is_city = yes
 culture = hungarian
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 4
 base_manpower = 1
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

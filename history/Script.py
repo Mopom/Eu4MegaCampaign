@@ -13,8 +13,10 @@ for ids in ids_list:
         for line in file:
             line = line.strip()
 
-            if "religion = converted_dynamic_faith_103" in line:
-                new_line = "religion = gangan"
+            if "owner = Z03" in line:
+                new_line = "controller = UBL"
+            elif "add_core = Z03" in line:
+                new_line = "add_core = UBL"
             else:
                 new_line = line
 

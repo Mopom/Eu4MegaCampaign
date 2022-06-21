@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Sankt Pölten"
 is_city = yes
 culture = austrian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 1
 base_manpower = 1
 add_core = HAB
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

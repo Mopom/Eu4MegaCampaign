@@ -1,5 +1,5 @@
-owner = Z03
-controller = Z03
+controller = UBL
+controller = UBL
 capital = "Fribourg"
 is_city = yes
 culture = dynamic-occitain-swabian-culture-num1
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 1
 base_production = 2
 base_manpower = 2
-add_core = Z03
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
