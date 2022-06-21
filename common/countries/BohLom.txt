@@ -1,0 +1,125 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 54  167  156 } # Czechoslovakia Color HOI4
+revolutionary_colors = { 12 0 16 }
+
+historical_idea_groups = {
+	quality_ideas
+	trade_ideas
+	offensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	religious_ideas
+	naval_ideas
+	maritime_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Adolf #0" = 0
+	"Bretislava #0" = -1
+	"Cecilia #0" = -1
+	"Cyrus #0" = 0
+	"Drslav #0" = 0
+	"Eliška #0" = -1
+	"Gregory #0" = 0
+	"Gunhild #0" = -1
+	"Ingfríðr #0" = -1
+	"Judita #1" = -1
+	"Khudayar #0" = 0
+	"Laura #0" = -1
+	"Leo #0" = 0
+	"Letizia #0" = -1
+	"Ludmila #0" = -1
+	"Margherita #0" = -1
+	"Marie #0" = -1
+	"Marine #0" = -1
+	"Sebastian #0" = 0
+	"Seyfullah #0" = 0
+	"Simon #0" = 0
+	"Soma #0" = 0
+	"Tasse #0" = 0
+}
+
+leader_names = {
+	Zajíc
+	Jiskra
+	Zelezný
+	Capek
+	Thurn
+	Kolowrat
+	Schwarzenberg
+	"z Rozmberka"
+	Velen
+	Sokol
+	"ze Zerotína"
+	"z Husi"
+	"z Polzic"
+	Harant
+	"z Brandýsa"
+	Purkyne
+	"z Veleslavína"
+	"z Rozmitálu"
+	Berka
+	"z Pardubic"
+	"ze Lvovic"
+	Kaspar
+	Reiner
+	"ze Svamberka"
+	"z Vartemberka"
+	"z Mitrovic"
+	Píka
+	Mansfeld
+	Veliký
+	Syrový
+	"z Otradovic"
+	"z Falkensteina"
+}
+
+ship_names = {
+	"Svatý Vaclav"
+	"Svatá Ludmila"
+	"Svatý Jan Nepomucký"
+	"Svatý Mikulás"
+	"Svatý Jirí"
+	"Svatá Anezká"
+	"Nejsvetejsí Trojice"
+	"Král Karel"
+	"Král Boleslav"
+	"Král Premysl"
+	"Panna Maria Vitezná"
+	"Jan Hus"
+	"Jan Zizka"
+	"Prokop Holý"
+	"Kníze Bretislav"
+	"Premysl Orac"
+	Ctirad
+	Cechy
+	Morava
+	Libuse
+	Odvázný
+	Neporazitelný
+	Rychlý
+	Bystrý
+	Orel
+	Sokol
+	Slezsko
+	Sipka
+	Hvezda
+}
