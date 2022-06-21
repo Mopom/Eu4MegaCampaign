@@ -145,7 +145,10 @@ jewish_abrahamic_aspect = {	#DIP aspect
 			every_owned_province = {
 				limit = {
 					OR = {
-						religion_group = christian
+					    AND = {
+						    religion_group = christian
+						    NOT = { religion = samaritan_faith }
+						}
 						religion_group = muslim
 					}
 				}
