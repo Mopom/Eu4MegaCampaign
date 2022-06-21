@@ -13,8 +13,8 @@ for ids in ids_list:
         for line in file:
             line = line.strip()
 
-            if "religion = rhenism" in line:
-                new_line = "religion = samaritan_faith"
+            if "religion = converted_dynamic_faith_103" in line:
+                new_line = "religion = gangan"
             else:
                 new_line = line
 
