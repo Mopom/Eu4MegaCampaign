@@ -18,7 +18,7 @@ christian = {
 		}
 
 		country = {
-			advisor_cost = -0.10
+			advisor_cost = -0.2
 			advisor_pool = 1
 			tolerance_heathen = 1
 			tolerance_heretic = 1
@@ -94,7 +94,7 @@ christian = {
 					limit = {
 						has_church_aspect = judaism_sukkot_aspect
 					}
-					add_years_of_income = 0.5
+					add_years_of_income = 1
 					add_inflation = -1
 				}
 			}

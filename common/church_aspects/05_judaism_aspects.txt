@@ -21,7 +21,7 @@ judaism_rosh_hashanah_aspect = {	#ADM aspect
 judaism_simchat_torah_aspect = {	#ADM aspect
 	cost = 100
 	modifier = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	monarch_power = adm
 	ai_will_do = {
@@ -242,8 +242,7 @@ judaism_diplomatic_rabbi_aspect = {	#DIP aspect
 		}
 	}
 	modifier = {
-		#improve_relation_modifier = 0.2
-		production_efficiency = 0.1
+		development_cost = -0.1
 	}
 	monarch_power = dip
 	ai_will_do = {
@@ -254,7 +253,7 @@ judaism_diplomatic_rabbi_aspect = {	#DIP aspect
 judaism_yom_kippur_aspect = {	#MIL aspect
 	cost = 100
 	modifier = {
-		manpower_recovery_speed = 0.10
+		land_morale = 0.1
 	}
 	monarch_power = mil
 	ai_will_do = {
@@ -275,6 +274,7 @@ judaism_remember_passover_aspect = {	#MIL aspect
 	cost = 100
 	modifier = {
 		defensiveness = 0.25
+		garrison_size = 0.25
 	}
 	monarch_power = mil
 	ai_will_do = {
@@ -289,7 +289,7 @@ judaism_remember_passover_aspect = {	#MIL aspect
 judaism_purim_teachings_aspect = {	#MIL aspect
 	cost = 100
 	modifier = {
-		naval_morale = 0.1
+		naval_morale = 0.15
 	}
 	monarch_power = mil
 	ai_will_do = {

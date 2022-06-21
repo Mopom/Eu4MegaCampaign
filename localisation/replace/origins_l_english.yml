@@ -842,7 +842,7 @@
  judaism_simchat_torah_aspect:0 "Islamic Teachings"
  desc_judaism_simchat_torah_aspect:1 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G+20§! Reform Progress, §G+5§! Legitimacy (or its equivalent for other governments) and §G+5§! Claim Strength of Heir.\n\nfdesc
  judaism_sukkot_aspect:0 "The Poor Church"
- desc_judaism_sukkot_aspect:2 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G0.3§! Years of Income and reduces Inflation by §G-1§!.\n\ndesc
+ desc_judaism_sukkot_aspect:2 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G1§! Years of Income and reduces Inflation by §G-1§!.\n\ndesc
  judaism_communities_aspect:0 "Mendicant Preachers"
  desc_judaism_communities_aspect:1 "£dip£ §YAspect§!\nNo owned §YJewish§! province will suffer the penalties of §YNon Accepted Culture§! and §YSame Culture Group§! as long as this aspect is active.\n\ndesc"
  jewish_abrahamic_aspect:0 "Religious Peace"
