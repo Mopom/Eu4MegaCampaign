@@ -21,6 +21,7 @@
  rhenism:0 "Rhenist"
  karaite:0 "Karaite"
  samaritan:0 "Rhenist"
+ samaritan_faith:0 "Rhenist"
  OLD_NORSE:0 "Old Norse"
  catholic_neutral:0 "Neutral in Council of Trent"
  catholic_concilatory:0 "Conciliatory in Council of Trent"
@@ -158,4 +159,3 @@
  no_messiah_country_modifier:0 "Our Ruler is not the Messiah"
  desc_no_messiah_country_modifier:0 "Our ruler [Root.Monarch.GetName] is not the Messiah that will bring us back to the Holy Land, but God will show us the path anyway."
  estate_not_built_temple:0 "Promise of future Temple rebuild"
- 
