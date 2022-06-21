@@ -14,6 +14,6 @@ add_core = SYO
 discovered_by = central_african
 discovered_by = sub_saharan
 add_permanent_province_modifier = {
-	name = kongo_estuary_modifier
-	duration = -1
+name = kongo_estuary_modifier
+duration = -1
 }

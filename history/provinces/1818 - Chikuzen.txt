@@ -18,5 +18,5 @@ discovered_by = OIR
 discovered_by = QNG
 discovered_by = chinese
 latent_trade_goods = {
-	coal
+coal
 }

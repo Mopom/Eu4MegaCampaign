@@ -18,5 +18,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 latent_trade_goods = {
-	coal
+coal
 }

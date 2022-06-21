@@ -14,5 +14,5 @@ add_core = MNG
 discovered_by = chinese
 discovered_by = nomad_group
 latent_trade_goods = {
-	coal
+coal
 }

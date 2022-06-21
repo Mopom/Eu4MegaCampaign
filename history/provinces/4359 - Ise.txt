@@ -17,6 +17,6 @@ discovered_by = OIR
 discovered_by = QNG
 discovered_by = chinese
 add_permanent_province_modifier = {
-	name = ise_grand_shrine
-	duration = -1
+name = ise_grand_shrine
+duration = -1
 }

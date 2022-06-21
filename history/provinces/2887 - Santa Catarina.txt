@@ -10,5 +10,5 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 5
 latent_trade_goods = {
-	coal
+coal
 }

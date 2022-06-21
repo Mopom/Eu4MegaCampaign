@@ -3,7 +3,7 @@ controller = Z03
 capital = "Olmütz"
 is_city = yes
 culture = czech
-religion = rhenism
+religion = samaritan_faith
 trade_goods = grain
 base_tax = 6
 base_production = 4
@@ -17,5 +17,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 latent_trade_goods = {
-	coal
+coal
 }

@@ -3,7 +3,7 @@ controller = FRA
 capital = "Clermont"
 is_city = yes
 culture = dynamic-breton-normand-occitain-culture-num1
-religion = rhenism
+religion = samaritan_faith
 trade_goods = iron
 base_tax = 6
 base_production = 10
@@ -16,5 +16,5 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 latent_trade_goods = {
-	coal
+coal
 }

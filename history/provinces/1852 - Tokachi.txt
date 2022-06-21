@@ -53,5 +53,5 @@ discovered_by = UES
 discovered_by = UTN
 discovered_by = YMN
 latent_trade_goods = {
-	coal
+coal
 }
