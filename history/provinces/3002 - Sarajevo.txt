@@ -1,5 +1,5 @@
-owner = SER
-controller = SER
+owner = UBL
+controller = UBL
 capital = "Visoki"
 is_city = yes
 culture = dalmatian
@@ -9,7 +9,7 @@ base_tax = 7
 base_production = 4
 base_manpower = 4
 add_core = DAL
-add_core = SER
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
