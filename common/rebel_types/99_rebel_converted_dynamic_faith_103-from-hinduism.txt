@@ -1,8 +1,8 @@
-converted_dynamic_faith_103_rebels = {
+gangan = {
 
 	area = nation
 	government = theocracy
-	religion = converted_dynamic_faith_103
+	religion = gangan
 	defection = religion
 	defect_delay = 120
 	independence = none
@@ -37,7 +37,7 @@ converted_dynamic_faith_103_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = converted_dynamic_faith_103 }
+			NOT = { religion = gangan }
 		}
 		modifier = {
 			factor = 0.001
@@ -81,14 +81,14 @@ converted_dynamic_faith_103_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = converted_dynamic_faith_103
-			owner = { religion = converted_dynamic_faith_103 }
+			religion = gangan
+			owner = { religion = gangan }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = converted_dynamic_faith_103 }
+			NOT = { religion = gangan }
 			any_neighbor_province = {
-				religion = converted_dynamic_faith_103
+				religion = gangan
 				NOT = { has_province_modifier = "forced_conversion" }
 			}
 		}
@@ -116,15 +116,15 @@ converted_dynamic_faith_103_rebels = {
 	}
 	siege_won_effect = {
 		if = {
-			limit = { religion = converted_dynamic_faith_103 }
+			limit = { religion = gangan }
 			add_province_modifier = {
 				name = "religious_violence"
 				duration = 730
 			}
 		}
 		if = {
-			limit = { NOT = { religion = converted_dynamic_faith_103 } }
-			change_religion = converted_dynamic_faith_103
+			limit = { NOT = { religion = gangan } }
+			change_religion = gangan
 			add_province_modifier = {
 				name = "religious_violence"
 				duration = 730
@@ -156,7 +156,7 @@ converted_dynamic_faith_103_rebels = {
 			add_stability = -1
 		}
 		if = {
-			limit = { religion = converted_dynamic_faith_103 }
+			limit = { religion = gangan }
 			add_country_modifier  = {
 				name = "religious_intolerance"
 				duration = 3650
@@ -165,9 +165,9 @@ converted_dynamic_faith_103_rebels = {
 		if = {
 			limit = {
 				religion_group = dharmic
-				NOT = { religion = converted_dynamic_faith_103 }
+				NOT = { religion = gangan }
 			}
-			change_religion = converted_dynamic_faith_103
+			change_religion = gangan
 			force_converted = yes
 		}
 	}
