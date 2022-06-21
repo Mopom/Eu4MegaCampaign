@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = UBL
+controller = UBL
 capital = "Terracina"
 is_city = yes
 culture = umbrian
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 4
 base_manpower = 1
-add_core = ADU
+add_core = UBL
 add_core = URB
 discovered_by = eastern
 discovered_by = indian

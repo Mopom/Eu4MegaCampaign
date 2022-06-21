@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = ADU
+controller = ADU
 capital = "Campobasso"
 is_city = yes
 culture = neapolitan
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 3
 add_core = NAP
-add_core = UBL
+add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
