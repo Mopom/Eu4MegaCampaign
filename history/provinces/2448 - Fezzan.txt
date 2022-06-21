@@ -1,5 +1,5 @@
-owner = MAL
-controller = MAL
+owner = GHD
+controller = GHD
 capital = "Murzuk"
 is_city = yes
 culture = berber
@@ -8,7 +8,7 @@ trade_goods = ivory
 base_tax = 4
 base_production = 3
 base_manpower = 1
-add_core = MAL
+add_core = GHD
 add_core = TLC
 discovered_by = eastern
 discovered_by = indian

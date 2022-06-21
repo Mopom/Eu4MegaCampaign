@@ -1,5 +1,5 @@
-owner = MAL
-controller = MAL
+owner = GHD
+controller = GHD
 capital = "Sabha"
 is_city = yes
 culture = berber
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = MAL
+add_core = GHD
 add_core = TLC
 discovered_by = eastern
 discovered_by = indian

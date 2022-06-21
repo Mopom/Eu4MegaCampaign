@@ -1,5 +1,5 @@
-owner = Z06
-controller = Z06
+owner = MAL
+controller = MAL
 capital = "Aligh"
 is_city = yes
 culture = berber
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = TLC
-add_core = Z06
+add_core = MAL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
