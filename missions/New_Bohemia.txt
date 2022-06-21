@@ -1,4 +1,4 @@
-emp_hab_netherlands_branch = {
+ubl_bohlom_genoa_branch = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -14,7 +14,7 @@ emp_hab_netherlands_branch = {
 	
 	has_country_shield = yes
 	
-	emp_hab_austrian_netherlands = {
+	ubl_bohlom_genoa = {
 		icon = mission_the_austrian_succession
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -30,15 +30,15 @@ emp_hab_netherlands_branch = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = hab_austrian_netherlands
+				name = ubl_bohlom_riviera
 				duration = 7300
 			}
 		}
 	}
 	
-	emp_hab_ostend_company = {
+	ubl_bohlom_riviera_company = {
 		icon = the_ostend_company
-		required_missions = { emp_hab_austrian_netherlands }
+		required_missions = { ubl_bohlom_genoa }
 		trigger = {
 			if = {
 				limit = {
@@ -68,12 +68,12 @@ emp_hab_netherlands_branch = {
 					NOT = { has_country_modifier = hab_ostende_company }
 				}
 				add_country_modifier = { #
-					name = hab_ostende_company
+					name = ubl_riviera_company
 					duration = -1
 				}
 			}
 
-			custom_tooltip = emp_hab_ostend_company_effect_tooltip
+			custom_tooltip = ubl_bohlom_riviera_company_effect_tooltip
 			hidden_effect = {
 				india_superregion = {
 					limit = {
@@ -97,9 +97,9 @@ emp_hab_netherlands_branch = {
 		}
 	}
 	
-	emp_hab_indian_trading = {
+	ubl_bohlom_indian_trading = {
 		icon = mission_indian_trade_company
-		required_missions = { emp_hab_ostend_company }
+		required_missions = { ubl_bohlom_riviera_company }
 		provinces_to_highlight = {
 			OR = {
 				AND = {
@@ -362,7 +362,7 @@ emp_hab_netherlands_branch = {
 				}
 				add_permanent_claim = root
 			}
-			custom_tooltip = emp_hab_indian_trading_effect_tooltip
+			custom_tooltip = ubl_bohlom_indian_trading_effect_tooltip
 			hidden_effect = {
 				every_province = {
 					limit = {
@@ -383,9 +383,9 @@ emp_hab_netherlands_branch = {
 		}
 	}
 	
-	emp_hab_foothold_in_china = {
+	ubl_bohlom_foothold_in_china = {
 		icon = mission_trade_with_cathay
-		required_missions = { emp_hab_indian_trading }
+		required_missions = { ubl_bohlom_indian_trading }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 667
@@ -422,15 +422,15 @@ emp_hab_netherlands_branch = {
 				add_permanent_claim = root
 			}
 			add_country_modifier = {
-				name = hab_chinese_riches
+				name = ubl_chinese_riches
 				duration = 7300
 			}
 		}
 	}
 	
-	emp_hab_austrialasia = {
+	ubl_bohlom_austrialasia = {
 		icon = settle_austrialasia
-		required_missions = { emp_hab_foothold_in_china }
+		required_missions = { ubl_bohlom_foothold_in_china }
 		provinces_to_highlight = {
 			region = australia_region
 			ROOT = {
@@ -461,14 +461,14 @@ emp_hab_netherlands_branch = {
 		effect = {
 			add_prestige = 20
 			add_country_modifier = {
-				name = hab_austrian_australia
+				name = ubl_bohlom_australia
 				duration = 10950
 			}
 		}
 	}
 }
 
-emp_sav_missions_economy = {
+ubl_missions_economy = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -484,11 +484,11 @@ emp_sav_missions_economy = {
 	}
 	has_country_shield = yes
 	
-	emp_sav_wealth_of_the_alps = {
+	ubl_wealth_of_the_alps = {
 		icon = prosper_in_piedmont
 		required_missions = {  }
 		provinces_to_highlight = {
-			province_id = 103
+			province_id = 266
 			OR = {
 				NOT = { owned_by = root }
 				NOT = { development = 20 }
@@ -497,37 +497,29 @@ emp_sav_missions_economy = {
 		trigger = {
 			if = {
 				limit = {
-					103 = { NOT = { is_capital_of = root } }
+					266 = { NOT = { is_capital_of = root } }
 				}
 				is_at_war = no
 			}
 			has_institution = renaissance
 			total_development = 120
-			103 = {
+			266 = {
 				owned_by = root
 				development = 20
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					103 = { NOT = { is_capital_of = root } }
-				}
-				country_event = { id = new_flavour_sav.1 }
-			}
-			else = {
-				103 = {
-					add_base_tax = 2
-					add_base_production = 1
-					add_base_manpower = 1
-				}
+			266 = {
+				add_base_tax = 2
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
 	
-	emp_sav_glorious_citadel = {
+	ubl_glorious_citadel = {
 		icon = glory_to_turin
-		required_missions = { emp_sav_wealth_of_the_alps }
+		required_missions = { ubl_wealth_of_the_alps }
 		position = 3
 		provinces_to_highlight = {
 			is_capital_of = root
@@ -568,7 +560,7 @@ emp_sav_missions_economy = {
 							owned_by = root
 						}
 						add_province_modifier = {
-							name = sav_prosperous_homelands
+							name = ubl_prosperous_homelands
 							duration = 7300
 						}
 					}
@@ -577,9 +569,9 @@ emp_sav_missions_economy = {
 		}
 	}
 	
-	emp_sav_powerhouse_of_the_north = {
+	ubl_powerhouse_of_the_north = {
 		icon = powerhouse_of_the_north
-		required_missions = { emp_sav_glorious_citadel }
+		required_missions = { ubl_glorious_citadel }
 		position = 5
 		trigger = {
 			development_in_provinces = {
@@ -597,14 +589,14 @@ emp_sav_missions_economy = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = sav_alpine_powerhouse
+				name = ubl_alpine_powerhouse
 				duration = -1
 			}
 		}
 	}
 }
 
-hab_protect_the_balkans = {
+ubl_protect_the_balkans = {
 	slot = 5 #upper right column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
@@ -615,7 +607,7 @@ hab_protect_the_balkans = {
 	has_country_shield = yes
 	
 	
-	subjugate_hungary = { #Decline of Hungary
+	ubl_subjugate_hungary = { #Decline of Hungary
 		icon = mission_eastern_european_city
 		required_missions = {  } #None
 		completed_by = 1490.1.1
@@ -632,48 +624,33 @@ hab_protect_the_balkans = {
 			}
 		}
 		effect = {
-			if = {
+			slovakia_area = {
 				limit = {
-					exists = HUN
-					valid_for_personal_unions_trigger = yes
-					HUN = {
-						valid_for_personal_unions_trigger = yes
-					}
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = HUN
-				}
+				add_permanent_claim = ROOT
 			}
-			else = {
-				slovakia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
+			transdanubia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				transdanubia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
+			}
+			alfold_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				alfold_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
-	austrian_hungary = {
+
+	bohlom_hungary = {
 		icon = mission_monarch_in_throne_room
-		required_missions = { subjugate_hungary }
+		required_missions = { ubl_subjugate_hungary }
 		completed_by = 1490.1.1
 		ai_weight = {
 			factor = 3
@@ -747,14 +724,14 @@ hab_protect_the_balkans = {
 				add_permanent_claim = ROOT
 			}
 			add_country_modifier = {
-				name = "royal_hungary"
+				name = "ubl_safeguard_hungary"
 				duration = 5475
 			}
 		}
 	}
-	austrian_croatia = {
+	bohlom_croatia = {
 		icon = mission_galleys_in_port
-		required_missions = { austrian_hungary }
+		required_missions = { bohlom_hungary }
 		completed_by = 1526.8.30
 		
 		ai_weight = {
@@ -838,9 +815,9 @@ hab_protect_the_balkans = {
 			}
 		}
 	}
-	conquer_transylvania = {
+	ubl_conquer_transylvania = {
 		icon = mission_eastern_european_city
-		required_missions = { austrian_croatia }
+		required_missions = { bohlom_croatia }
 		completed_by = 1699.1.26
 		ai_weight = {
 			factor = 2
@@ -896,7 +873,7 @@ hab_protect_the_balkans = {
 	}
 }
 
-hab_italian_ambitions = {
+ubl_italian_ambitions = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -907,7 +884,7 @@ hab_italian_ambitions = {
 	
 	has_country_shield = yes
 	
-	austrian_italian_ambition = {
+	bohlom_italian_ambition = {
 		icon = mission_italian_condottiere
 		position = 4
 		completed_by = 1797.10.17
@@ -932,7 +909,7 @@ hab_italian_ambitions = {
 			factor = 5
 		}
 		
-		required_missions = { austrian_croatia }
+		required_missions = { bohlom_croatia }
 		provinces_to_highlight = {
 			area = venetia_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -955,44 +932,26 @@ hab_italian_ambitions = {
 				limit = {
 					has_dlc = "Emperor"
 				}
-				if = {
+				lombardy_area = {
 					limit = {
-						exists = MLO
-						valid_for_personal_unions_trigger = yes
-						MLO = {
-							valid_for_personal_unions_trigger = yes
-							num_of_cities = 3 #no point in taking an OPM
-							owns = 104
-						}
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
 					}
-					add_casus_belli = {
-						type = cb_restore_personal_union
-						months = 300
-						target = MLO
-					}
+					add_permanent_claim = root
 				}
-				else = {
-					lombardy_area = {
-						limit = {
-							NOT = { is_core = root }
-							NOT = { is_permanent_claim = root }
-						}
-						add_permanent_claim = root
+				po_valley_area = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
 					}
-					po_valley_area = {
-						limit = {
-							NOT = { is_core = root }
-							NOT = { is_permanent_claim = root }
-						}
-						add_permanent_claim = root
-					}
+					add_permanent_claim = root
 				}
 			}
 		}
 	}
 }
 
-emp_hab_balkans = {
+ubl_balkans = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1008,7 +967,7 @@ emp_hab_balkans = {
 	
 	has_country_shield = yes
 	
-	emp_hab_take_serbia = {
+	ubl_take_serbia = {
 		icon = defeat_the_serbs
 		position = 4
 
@@ -1019,7 +978,7 @@ emp_hab_balkans = {
 			factor = 3
 		}
 		
-		required_missions = { austrian_croatia }
+		required_missions = { bohlom_croatia }
 		provinces_to_highlight = {
 			OR = {
 				AND = {
@@ -1069,7 +1028,7 @@ emp_hab_balkans = {
 			}
 			
 			add_country_modifier = {
-				name = hab_conquered_serbia
+				name = ubl_conquered_serbia
 				duration = 7300
 			}
 
@@ -1084,7 +1043,7 @@ emp_hab_balkans = {
 	}
 }
 
-emp_hab_balkans_2 = {
+ubl_balkans_2 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -1100,7 +1059,7 @@ emp_hab_balkans_2 = {
 	
 	has_country_shield = yes
 	
-	emp_hab_take_wallachia_bulgaria = {
+	ubl_take_wallachia_bulgaria = {
 		icon = push_on_to_bulgaria
 
 		ai_weight = {
@@ -1110,7 +1069,7 @@ emp_hab_balkans_2 = {
 			factor = 3
 		}
 		
-		required_missions = { emp_hab_take_serbia conquer_transylvania }
+		required_missions = { ubl_take_serbia ubl_conquer_transylvania }
 		provinces_to_highlight = {
 			OR = {
 				area = wallachia_area
@@ -1141,7 +1100,7 @@ emp_hab_balkans_2 = {
 				}
 				add_permanent_claim = root
 			}
-			custom_tooltip = emp_hab_take_wallachia_bulgaria_effect_tooltip
+			custom_tooltip = ubl_take_wallachia_bulgaria_effect_tooltip
 			hidden_effect = {
 				europe = {
 					limit = {
@@ -1158,7 +1117,7 @@ emp_hab_balkans_2 = {
 		}
 	}
 	
-	emp_hab_scourge_of_europe = {
+	ubl_scourge_of_europe = {
 		icon = mission_ottoman_diplomacy
 
 		ai_weight = {
@@ -1168,7 +1127,7 @@ emp_hab_balkans_2 = {
 			factor = 3
 		}
 		
-		required_missions = { emp_hab_take_wallachia_bulgaria }
+		required_missions = { ubl_take_wallachia_bulgaria }
 		provinces_to_highlight = {
 			owned_by = TUR
 			continent = europe
@@ -1179,8 +1138,8 @@ emp_hab_balkans_2 = {
 			NOT = {
 				europe = {
 					custom_trigger_tooltip = {
-						tooltip = emp_hab_scourge_of_europe_trigger_tooltip
-						owned_by = TUR
+						tooltip = ubl_scourge_of_europe_trigger_tooltip
+						owned_by = Z00
 						NOT = { region = anatolia_region }
 						NOT = { region = caucasia_region }
 					}
@@ -1190,7 +1149,7 @@ emp_hab_balkans_2 = {
 		effect = {
 			add_prestige = 20
 			add_country_modifier = {
-				name = hab_victory_over_ottomans
+				name = ubl_victory_over_ottomans
 				duration = -1
 			}
 			if = {
@@ -1204,7 +1163,7 @@ emp_hab_balkans_2 = {
 }
 
 
-emp_hab_more_italy_branch = {
+ubl_more_italy_branch = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -1220,7 +1179,7 @@ emp_hab_more_italy_branch = {
 	
 	has_country_shield = yes
 	
-	emp_hab_veneto_lombardy = {
+	ubl_veneto_lombardy = {
 		icon = kingdom_of_lombardy
 		
 		ai_weight = {
@@ -1230,7 +1189,7 @@ emp_hab_more_italy_branch = {
 			factor = 5
 		}
 		
-		required_missions = { austrian_italian_ambition }
+		required_missions = { bohlom_italian_ambition }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 104
@@ -1266,61 +1225,31 @@ emp_hab_more_italy_branch = {
 		}
 		effect = {
 			add_prestige = 20
-			if = {
+			naples_area = {
 				limit = {
-					exists = TTS
-					valid_for_personal_unions_trigger = yes
-					TTS = {
-						valid_for_personal_unions_trigger = yes
-					}
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = TTS
-				}
+				add_permanent_claim = root
 			}
-			else_if = {
+			apulia_area = {
 				limit = {
-					exists = NAP
-					valid_for_personal_unions_trigger = yes
-					NAP = {
-						valid_for_personal_unions_trigger = yes
-					}
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = NAP
-				}
+				add_permanent_claim = root
 			}
-			else = {
-				naples_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
+			calabria_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
 				}
-				apulia_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
-				calabria_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
+				add_permanent_claim = root
 			}
 		}
 	}
 	
-	emp_hab_naples = {
+	ubl_naples = {
 		icon = union_with_naples
 		
 		ai_weight = {
@@ -1330,7 +1259,7 @@ emp_hab_more_italy_branch = {
 			factor = 5
 		}
 		
-		required_missions = { emp_hab_veneto_lombardy }
+		required_missions = { ubl_veneto_lombardy }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 121
@@ -1369,7 +1298,7 @@ emp_hab_more_italy_branch = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = hab_conquest_of_italy
+				name = ubl_conquest_of_italy
 				duration = 7300
 			}
 			italy_region = {
