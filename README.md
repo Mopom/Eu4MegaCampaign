@@ -5,7 +5,7 @@
 tags atm:
 Abbasids = Z00
 Andalusia = ADU
-Bohemia-Lombardia = Z03
+Bohemia-Lombardia = UBL
 Buchad Badeed = AJU
 France = FRA
 Federation = Z02
