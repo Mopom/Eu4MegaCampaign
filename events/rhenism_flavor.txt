@@ -68,7 +68,7 @@ country_event = { #Driver for above event
 
 	trigger = {
 		AND = {
-			religion = rhenism
+			religion = samaritan_faith
 			total_development = 300
 			is_year = 1450
 		}
@@ -87,7 +87,7 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		every_country = {
 			limit = {
-				religion = rhenism
+				religion = samaritan_faith
 				is_subject = no
 			}
 			country_event = {
@@ -161,7 +161,7 @@ country_event = { #Driver for above event
 
 	trigger = {
 		AND = {
-			religion = rhenism
+			religion = samaritan_faith
 			total_development = 300
 			is_year = 1470
 		}
@@ -180,7 +180,7 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		every_country = {
 			limit = {
-				religion = rhenism
+				religion = samaritan_faith
 				is_subject = no
 			}
 			country_event = {

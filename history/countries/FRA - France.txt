@@ -13,7 +13,7 @@ capital = 174
 		mil = 3
 		birth_date = 1.1.1
 		regent = yes
-		religion = rhenism
+		religion = samaritan_faith
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 	heir = {
@@ -22,10 +22,10 @@ capital = 174
 		adm = 4
 		dip = 4
 		mil = 5
-		birth_date = 1431.2.1
+		birth_date = 1429.2.1
 		death_date = 1496.2.1
 		claim = 89
-		religion = rhenism
+		religion = samaritan_faith
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 }
