@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = DAL
+controller = DAL
 capital = "Rijeka"
 is_city = yes
 culture = croatian
@@ -11,7 +11,7 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = CRO
-add_core = UBL
+add_core = DAL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

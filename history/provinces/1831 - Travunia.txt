@@ -1,5 +1,5 @@
-owner = UBL
-controller = UBL
+owner = DAL
+controller = DAL
 capital = "Herceg Novi"
 is_city = yes
 culture = dalmatian
@@ -9,7 +9,6 @@ base_tax = 6
 base_production = 4
 base_manpower = 1
 add_core = DAL
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

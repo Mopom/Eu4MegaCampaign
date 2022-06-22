@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = BLG
+controller = BLG
 capital = "Pisa"
 is_city = yes
 culture = tuscan
@@ -12,7 +12,7 @@ base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
 add_core = TUS
-add_core = UBL
+add_core = BLG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

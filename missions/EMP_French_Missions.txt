@@ -674,7 +674,7 @@ emp_france_missions_2 = {
 	}
 	emp_fra_conquer_milan = {
 		icon = mission_italian_condottiere
-		required_missions = { emp_fra_annex_genoa }
+		required_missions = { alice_fra_annex_genoa }
 		provinces_to_highlight = {
 			area = lombardy_area
 			NOT = {
@@ -1193,7 +1193,7 @@ emp_france_missions_3 = {
 			}
 		}
 	}
-	emp_fra_annex_genoa = {
+	alice_fra_annex_genoa = {
 		icon = mission_galleys_in_port
 		required_missions = { emp_fra_conquer_burgundy_area }
 		provinces_to_highlight = {
@@ -1226,7 +1226,7 @@ emp_france_missions_3 = {
 	}
 	emp_fra_annex_savoy = {
 		icon = mission_unite_home_region
-		required_missions = { emp_fra_annex_genoa }
+		required_missions = { alice_fra_annex_genoa }
 		provinces_to_highlight = {
 			OR = {
 				area = savoy_dauphine_area

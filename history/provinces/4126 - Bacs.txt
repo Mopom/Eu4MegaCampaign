@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = SLO
+controller = SLO
 capital = "Bács"
 is_city = yes
 culture = hungarian
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 1
 base_manpower = 1
-add_core = UBL
+add_core = SLO
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = SLO
+controller = SLO
 capital = "Trencin"
 is_city = yes
 culture = slovak
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 8
 base_manpower = 2
 add_core = SLO
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

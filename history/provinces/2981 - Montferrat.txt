@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = SZO
+controller = SZO
 capital = "Montferrat"
 is_city = yes
 culture = piedmontese
@@ -9,6 +9,7 @@ base_tax = 5
 base_production = 1
 base_manpower = 1
 add_core = SAV
+add_core = SZO
 add_core = UBL
 discovered_by = eastern
 discovered_by = indian

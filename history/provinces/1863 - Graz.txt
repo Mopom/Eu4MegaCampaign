@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = HAB
+controller = HAB
 capital = "Graz"
 is_city = yes
 culture = austrian
@@ -9,7 +9,6 @@ base_tax = 9
 base_production = 4
 base_manpower = 2
 add_core = HAB
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

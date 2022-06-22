@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = URB
+controller = URB
 capital = "Perugia"
 is_city = yes
 culture = umbrian
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 1
 base_manpower = 2
 add_core = URB
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
