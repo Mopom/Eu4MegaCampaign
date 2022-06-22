@@ -1208,9 +1208,19 @@ emp_france_missions_3 = {
 			}
 		}
 		effect = {
-			add_country_modifier = {
-				name = "italian_ambition_modifier"
-				duration = 7300
+			liguria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lombardy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -1237,19 +1247,9 @@ emp_france_missions_3 = {
 			}
 		}
 		effect = {
-			liguria_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			lombardy_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = "italian_ambition_modifier"
+				duration = 7300
 			}
 		}
 	}
@@ -1315,13 +1315,6 @@ emp_france_missions_3 = {
 			add_country_modifier = {
 				name = "fra_to_india"
 				duration = 7300
-			}
-			andhra_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
 			}
 			orissa_area = {
 				limit = {
