@@ -221,6 +221,7 @@ country_event = {
 		name = "EVTOPTE700"
 		trigger = {
 			has_government_attribute = enables_nepotism
+			NOT = { tag = UBL }
 		}
 		ai_chance = { factor = 10 }
 		if = {
@@ -292,6 +293,7 @@ country_event = {
 	option = { # Nepotism choice, re-electing within dynasty
 		name = "EVTOPTE700"
 		trigger = {
+			has_government_attribute = enables_nepotism
 			tag = UBL
 		}
 		ai_chance = { factor = 10 }
@@ -460,6 +462,82 @@ country_event = {
 		name = "EVTOPTE700"
 		trigger = {
 			has_government_attribute = enables_nepotism
+			NOT = { tag = UBL }
+		}
+		ai_chance = { factor = 10 }
+		if = {
+			limit = {
+				has_country_flag = strengthened_signoria_flag
+			}
+			custom_tooltip = strengthened_signoria_election_tt
+			clr_country_flag = strengthened_signoria_flag
+		}
+		else = {
+			add_scaled_republican_tradition = -4
+		}
+		if = {
+			limit = { 
+				republic_with_female_rulers_trigger = yes
+				NOT = { has_reform = signoria_reform }
+			}
+			define_ruler = {
+				change_mil = -2
+				change_adm = -2
+				change_dip = -2
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else_if = {
+			limit = { 
+				republic_with_female_rulers_trigger = yes
+				has_reform = signoria_reform
+			}
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else_if = {
+			limit = { 
+				has_reform = signoria_reform
+			}
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else = {
+			define_ruler = {
+				change_mil = -2
+				change_adm = -2
+				change_dip = -2
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+			}
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 10
+			}				
+		}
+	}
+	option = { # Nepotism choice, re-electing within dynasty
+		name = "EVTOPTE700"
+		trigger = {
+			has_government_attribute = enables_nepotism
+			tag = UBL
 		}
 		ai_chance = { factor = 10 }
 		if = {
@@ -1235,6 +1313,7 @@ country_event = {
 		name = elections.800.e
 		trigger = {
 			has_government_attribute = enables_nepotism
+			NOT = { tag = UBL }
 		}
 		ai_chance = { factor = 10 }
 		if = {
@@ -1308,6 +1387,7 @@ country_event = {
 	option = { # nepotism
 		name = elections.800.e
 		trigger = {
+			has_government_attribute = enables_nepotism
 			tag = UBL
 		}
 		ai_chance = { factor = 10 }
