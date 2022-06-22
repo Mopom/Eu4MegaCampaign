@@ -1582,7 +1582,7 @@ dharmic = {
 			shiite
 		}
 		country = {
-			monach_average_lifespan = +0.15
+			monarch_lifespan = 0.15
 			land_morale = 0.1
 		}
 		country_as_secondary = {
