@@ -1,5 +1,5 @@
 dharmic = {
-    Gangan = {
+    gangan = {
 		    color = { 0 153 153 }
 		    icon = 15
 		    allowed_conversion = {
@@ -20,7 +20,7 @@ dharmic = {
 		  }
 
 		    on_convert = {
-			    change_religion = Gangan
+			    change_religion = gangan
 			    add_prestige = -100
 
 			    add_country_modifier = {
