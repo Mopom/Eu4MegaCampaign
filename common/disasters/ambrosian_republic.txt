@@ -3,7 +3,7 @@ ambrosian_republic_disaster = {
 		normal_or_historical_nations = yes
 		OR = {
 			tag = MLO
-			tag = BHL
+			tag = UBL
 		}
 		is_free_or_tributary_trigger = yes
 		NOT = { has_country_flag = had_ambrosian_republic }
