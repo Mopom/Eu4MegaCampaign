@@ -1,0 +1,30 @@
+guarantee = {
+	first = UBL
+	second = WLS
+	start_date = 1444.1.1
+}
+vassal = {
+	first = UBL
+	second = BLG
+	start_date = 1444.1.1
+}
+vassal = {
+	first = UBL
+	second = DAL
+	start_date = 1444.1.1
+}
+vassal = {
+	first = UBL
+	second = HAB
+	start_date = 1444.1.1
+}
+vassal = {
+	first = UBL
+	second = BAV
+	start_date = 1444.1.1
+}
+vassal = {
+	first = UBL
+	second = SLO
+	start_date = 1444.1.1
+}

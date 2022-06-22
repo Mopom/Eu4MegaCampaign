@@ -1,0 +1,5 @@
+guarantee = {
+	first = FRA
+	second = SZO
+	start_date = 1444.1.1
+}

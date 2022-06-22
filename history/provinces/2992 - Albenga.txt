@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = SZO
+controller = SZO
 capital = "Albenga"
 is_city = yes
 culture = ligurian
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 7
 base_production = 1
 base_manpower = 4
-add_core = FRA
+add_core = SZO
 add_core = GEN
 discovered_by = eastern
 discovered_by = indian

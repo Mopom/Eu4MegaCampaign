@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = BLG
+controller = BLG
 capital = "Ferrara"
 is_city = yes
 culture = romagnan
@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 2
 extra_cost = 10
 add_core = FER
-add_core = UBL
+add_core = BLG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

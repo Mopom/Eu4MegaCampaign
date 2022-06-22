@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = HAB
+controller = HAB
 capital = "Trieste"
 is_city = yes
 culture = venetian
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 add_core = VEN
-add_core = UBL
+add_core = HAB
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = BAV
+controller = BAV
 capital = "Straubing"
 is_city = yes
 culture = bavarian
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 2
 base_manpower = 2
 add_core = BAV
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,7 +1,10 @@
 ambrosian_republic_disaster = {
 	potential = {
 		normal_or_historical_nations = yes
-		tag = MLO
+		OR = {
+			tag = MLO
+			tag = BHL
+		}
 		is_free_or_tributary_trigger = yes
 		NOT = { has_country_flag = had_ambrosian_republic }
 		government = monarchy

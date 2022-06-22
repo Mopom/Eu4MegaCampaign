@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = SZO
+controller = SZO
 capital = "Torino"
 is_city = yes
 culture = swiss
@@ -9,6 +9,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 add_core = SWI
+add_core = SZO
 add_core = UBL
 discovered_by = eastern
 discovered_by = indian

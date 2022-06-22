@@ -1,5 +1,5 @@
-controller = UBL
-controller = UBL
+controller = DAL
+controller = DAL
 capital = "Jajce"
 is_city = yes
 culture = bosnian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 4
 base_manpower = 2
 add_core = BOS
-add_core = UBL
+add_core = DAL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
