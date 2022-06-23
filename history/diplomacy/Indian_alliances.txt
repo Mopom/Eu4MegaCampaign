@@ -1,0 +1,5 @@
+vassal = {
+	first = Z01
+	second = NPL
+	start_date = 1444.1.1
+}
