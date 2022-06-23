@@ -7,3 +7,6 @@
   sacrament_true_presence:0 "The Sacrament; True Presence"
   sacrament_spiritual_presence:0 "The Sacrament; Spiritual Presence"
   sacrament_symbolic:0 "The Sacrament; Simply Symbolic"
+  
+  edict_of_konstanz_tolerance:0 "Tolerant Edict of Konstanz"
+  edict_of_konstanz_absolute:0 "Absolute Edict of Konstanz"

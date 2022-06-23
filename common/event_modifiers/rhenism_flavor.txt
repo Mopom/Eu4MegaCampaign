@@ -2,7 +2,7 @@
 prophet_wise_man = {
 	tolerance_own = 0.5
 	global_heretic_missionary_strength = 0.01
-	tolerance_heathen = -1
+	tolerance_heathen = -0.5
 }
 prophet_inspired = {
 	missionary_maintenance_cost = -0.15
@@ -26,4 +26,14 @@ sacrament_spiritual_presence = {
 }
 sacrament_symbolic = {
 	innovativeness_gain = 0.05
+}
+
+edict_of_konstanz_tolerance = {
+    num_accepted_cultures = 1
+    culture_conversion_cost = 0.1
+}
+
+edict_of_konstanz_absolute = {
+    unrest = 1
+    culture_conversion_cost = -0.15
 }
