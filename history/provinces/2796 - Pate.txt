@@ -1,5 +1,5 @@
-owner = PTE
-controller = PTE
+owner = AJU
+controller = AJU
 capital = "Siyu"
 is_city = yes
 culture = swahili

@@ -6,6 +6,7 @@ religion = sunni
 historical_friend = MAL
 add_historical_rival = RUM
 add_historical_rival = PER
+add_historical_rival = Z01
 primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
 capital = 410
 religious_school = hanbali_school
