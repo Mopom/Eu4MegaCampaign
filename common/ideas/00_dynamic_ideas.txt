@@ -3333,7 +3333,7 @@ dynamic-mongol-uyghur-culture-num1_ideas = {
 	}
 }
 
-Z03_ideas = {
+UBL_ideas = {
 	start = {
 		 infantry_power = 0.1
 		 church_power_modifier = 0.2
@@ -3343,27 +3343,27 @@ Z03_ideas = {
 	}
 	free = yes
 
-	Z03_1 = {
+	UBL_1 = {
 		development_cost = -0.1
 	}
-	Z03_2 = {
+	UBL_2 = {
 		max_absolutism = 20
 		max_revolutionary_zeal = 20
 		global_unrest = 2
 	}
-	Z03_3 = {
+	UBL_3 = {
 		land_morale = 0.15
 	}
-	Z03_4 = {
+	UBL_4 = {
 		artillery_shock = 1
 	}
-	Z03_5 = {
+	UBL_5 = {
 		galley_cost = -0.20
 	}
-	Z03_6 = {
+	UBL_6 = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	Z03_7 = {
+	UBL_7 = {
 		discipline = 0.05
 	}
 	bonus = {

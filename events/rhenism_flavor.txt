@@ -189,3 +189,82 @@ country_event = { #Driver for above event
 		}
 	}
 }
+
+#The Edict of Konstanz
+#1450
+country_event = {
+	id = rhenism.5
+	title = rhenism.5.t
+	desc = rhenism.5.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = { #Enact the tolerant edict
+		name = rhenism.5.a
+		add_country_modifier = {
+			name = edict_of_konstanz_tolerance
+			duration = -1
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = edict_of_konstanz_tolerance
+				duration = -1
+			}
+		}
+	}
+
+	option = { #Enact the absolute edict
+    	name = rhenism.5.b
+    	add_country_modifier = {
+    		name = edict_of_konstanz_absolute
+    		duration = -1
+    	}
+
+    	every_subject_country = {
+    		add_country_modifier = {
+    			name = edict_of_konstanz_absolute
+    			duration = -1
+    		}
+    	}
+    }
+}
+
+country_event = { #Driver for above event
+	id = rhenism.6
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			tag = Z02
+            total_development = 300
+            is_year = 1450
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 2
+			is_year = 1480
+		}
+	}
+
+	option = {
+		ai_chance = {factor = 1}
+		every_country = {
+			limit = {
+				religion = samaritan_faith
+				tag = Z02
+				is_subject = no
+			}
+			country_event = {
+				id = rhenism.5
+			}
+		}
+	}
+}

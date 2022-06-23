@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = autocracy_reform
+government = republic
+add_government_reform = dutch_republic
 government_rank = 3
 technology_group = western
 religion = samaritan_faith

@@ -16,11 +16,8 @@ Russia = RUS
 
 
 
-TODO: Fix France's mission tree and leaders according to Lot, do the Charles shatter on the Federation and France.
+TODO: Fix France's leaders according to Lot, do the Charles shatter on the Federation and France.
 Federation mission chain to get the Dutch (Saxon) republic
 Change age of reformation (trigger, names, objectives)
 Change printing press trigger
 Change loading screen picture and add quotes
-
-
-Jewish faith is affected by church_power_modifier = 0.1  => 10% increase to church power generation
