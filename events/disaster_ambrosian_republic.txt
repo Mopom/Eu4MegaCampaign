@@ -467,7 +467,7 @@ country_event = {
 	
 	option = { # all hail Duke Sforza
 		name = "ambrosian_republic.7.a"
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 0 }
 		change_government_to_monarchy = yes
 		add_government_reform = feudalism_reform
 		add_legitimacy = 50
@@ -482,7 +482,7 @@ country_event = {
 	}
 	option = { # Appoint a new dictator
 		name = "ambrosian_republic.7.b"
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 0 }
 		define_ruler = {
 			name = "Jacopo Piccinino"
 		}
@@ -556,7 +556,7 @@ country_event = {
 	
 	option = { # all hail the new dictator
 		name = "ambrosian_republic.8.a"
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 0 }
 		add_republican_tradition = -5
 		custom_tooltip = ambrosian_republic_resolved_tt
 		random_owned_province = {
