@@ -4,6 +4,7 @@ government_rank = 2
 technology_group = western
 religion = samaritan_faith
 primary_culture = dynamic-breton-normand-occitain-culture-num1
+historical_friend = Z02
 capital = 174
 1444.11.11= {
 	monarch = {

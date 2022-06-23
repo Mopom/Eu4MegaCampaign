@@ -1,5 +1,5 @@
-owner = MLI
-controller = MLI
+owner = AJU
+controller = AJU
 capital = "Malindi"
 is_city = yes
 culture = swahili

@@ -1286,6 +1286,10 @@ nepotism_reform = {
 	}
 	ai = {
 		factor = 1
+		modifier = {
+			factor = 100
+			tag = UBL
+		}
 	}
 }
 

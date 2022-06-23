@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = iqta
+government = republic
+add_government_reform = pirate_republic_reform
 government_rank = 3
 technology_group = east_african
 religion = sunni

@@ -1,5 +1,5 @@
-owner = ZAN
-controller = ZAN
+owner = AJU
+controller = AJU
 capital = "Lindi"
 is_city = yes
 culture = swahili

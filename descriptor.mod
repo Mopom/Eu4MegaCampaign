@@ -1,4 +1,4 @@
-name = "MegaCampaign"
+name = "MegaCampaign SSS Save"
 path = "C:/Users/Simon/Downloads/MegaCampaignHolder/Eu4MegaCampaign"
 normal_or_historical_nations = yes
 supported_version = "1.33.*"
