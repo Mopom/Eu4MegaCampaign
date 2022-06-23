@@ -1,5 +1,5 @@
-owner = MBA
-controller = MBA
+owner = AJU
+controller = AJU
 capital = "Vumba Kuu"
 is_city = yes
 culture = swahili

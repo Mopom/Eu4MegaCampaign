@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 3
 technology_group = chinese
+historical_friend = Z01
 religion = nestorian
 primary_culture = dynamic-chihan-culture-num1
 capital = 4678
