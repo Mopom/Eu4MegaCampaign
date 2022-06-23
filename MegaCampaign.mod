@@ -1,4 +1,4 @@
-name="MegaCampaign"
+name="MegaCampaign SSS Save"
 normal_or_historical_nations=yes
 replace_path="history/countries/"
 replace_path="history/provinces/"

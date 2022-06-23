@@ -1,6 +1,17 @@
 ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 248 96 15 }
+revolutionary_colors = { 1 5 9 }
+historical_idea_groups = {
+	innovative_ideas
+	exploration_ideas
+	expansion_ideas
+	plutocratic_ideas
+	trade_ideas
+	naval_ideas
+	humanist_ideas
+	quality_ideas
+}
 monarch_names = {
 	"Aymar #1" = 10
 	"Frederi #0" = 0
@@ -18,14 +29,4 @@ monarch_names = {
 	"Rosalind #0" = -1
 	"Suanhilde #0" = -1
 	"Walbert #0" = 0
-}
-historical_idea_groups = {
-	innovative_ideas
-	exploration_ideas
-	expansion_ideas
-	plutocratic_ideas
-	trade_ideas
-	naval_ideas
-	humanist_ideas
-	quality_ideas
 }

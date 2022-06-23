@@ -34,6 +34,6 @@ edict_of_konstanz_tolerance = {
 }
 
 edict_of_konstanz_absolute = {
-    unrest = 1
+    global_unrest = 1
     culture_conversion_cost = -0.15
 }
