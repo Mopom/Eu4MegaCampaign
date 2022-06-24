@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = mandala_reform
 government_rank = 1
-technology_group = chinese
-religion = buddhism
+technology_group = indian
+religion = gangan
 primary_culture = burmese
 capital = 584
 1345.12.7= {
