@@ -1,5 +1,5 @@
-owner = Ori
-controller = Ori
+owner = GUJ
+controller = GUJ
 capital = "Jalor"
 is_city = yes
 culture = rajput
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 add_core = MER
-add_core = Ori
+add_core = GUJ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

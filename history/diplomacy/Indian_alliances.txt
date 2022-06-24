@@ -6,5 +6,9 @@ vassal = {
 march = {
 	first = Z01
 	second = AVA
-	start_date = 1444.1.1
+	start_date = 1344.1.1
 }
+vassal = {
+	first = Z01
+	second = GUJ
+	start_date = 1444.1.1
