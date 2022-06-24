@@ -1776,8 +1776,8 @@
  tooltip_zoroastrian_cult:1 "This cult has the following benefits when selected:\nMerchants: §G+2§!"
  tooltip_jewish_cult:1 "This cult has the following benefits when selected:\nAdvisor Cost: §G-10.0%§!"
  ###JUDAISM MODIFIERS###
- judaism_abrahamic_roots:0 "Abrahamic Roots"
- desc_judaism_abrahamic_roots:0 "This province embraces the Abrahamic Roots the residents and the Jewish overlord have in common. As such, the tolerance the Christian and Muslims in this province enjoy make them more productive than otherwise."
+ judaism_abrahamic_roots:0 "Religious peace"
+ desc_judaism_abrahamic_roots:0 "This province enjoys calm and peaceful relations between the religious, following the teachings of its Rhenist overlords. As such, the tolerance the Christian and Muslims in this province enjoy makes them more productive than otherwise."
  judaism_community_wrong_culture:0 "United Community"
  desc_judaism_community_wrong_culture:0 "This province overcame the cultural differences with its overlord and see themselves as Jews first, connecting with the owner of the province."
  judaism_community_same_culture_group:0 "United Community"
