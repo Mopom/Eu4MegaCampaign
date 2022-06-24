@@ -3,12 +3,12 @@ graphical_culture = africangfx
 color = { 230 240 255 }
 revolutionary_colors = { 5 0 8 }
 historical_idea_groups = {
-	religious_ideas
-	offensive_ideas
-	economic_ideas
-	diplomatic_ideas
+	exploration_ideas
 	trade_ideas
+	economic_ideas
 	maritime_ideas
+	innovativeness_ideas
+	quantity_ideas
 	defensive_ideas
 	administrative_ideas
 }
