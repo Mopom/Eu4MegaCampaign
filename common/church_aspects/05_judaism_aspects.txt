@@ -76,7 +76,7 @@ judaism_communities_aspect = {	#DIP aspect
 			}
 			every_owned_province = {
 				limit = {
-					religion = jewish
+					religion = samaritan_faith
 				}
 				if = {
 					limit = {
@@ -113,11 +113,11 @@ judaism_communities_aspect = {	#DIP aspect
 		factor = 15
 		modifier = {
 			factor = 10
-			dominant_religion = jewish
+			dominant_religion = samaritan_faith
 		}
 		modifier = {
 			factor = 0.01
-			NOT = { dominant_religion = jewish }
+			NOT = { dominant_religion = samaritan_faith }
 		}
 	}
 }
@@ -184,7 +184,7 @@ jewish_abrahamic_aspect = {	#DIP aspect
 		factor = 15
 		modifier = {
 			factor = 0
-			dominant_religion = jewish
+			dominant_religion = samaritan_faith
 		}
 		modifier = {
 			factor = 0
@@ -192,7 +192,7 @@ jewish_abrahamic_aspect = {	#DIP aspect
 		}
 		modifier = {
 			factor = 10
-			NOT = { dominant_religion = jewish }
+			NOT = { dominant_religion = samaritan_faith }
 		}
 	}
 }

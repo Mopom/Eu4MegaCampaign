@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = POM
+controller = POM
 capital = "Kolberg"
 is_city = yes
 culture = old_pommeranian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 add_core = POM
-add_core = Z02
+add_core = POM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

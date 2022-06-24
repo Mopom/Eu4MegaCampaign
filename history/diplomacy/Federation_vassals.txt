@@ -1,0 +1,24 @@
+union = {
+	first = Z02
+	second = ENG
+	start_date = 1400.6.25
+	end_date = 1569.7.1
+}
+union = {
+ 	first = Z02
+ 	second = POM
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+ }
+ union = {
+ 	first = Z02
+ 	second = DAN
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+ }
+ vassal = {
+ 	first = Z02
+ 	second = FKN
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+ }

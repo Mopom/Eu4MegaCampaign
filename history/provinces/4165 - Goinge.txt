@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = DAN
+controller = DAN
 capital = "Gladsax"
 is_city = yes
 culture = danish
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 4
 base_manpower = 3
 add_core = DAN
-add_core = Z02
+add_core = DAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

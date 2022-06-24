@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = POM
+controller = POM
 capital = "Danzig"
 is_city = yes
 culture = old_pommeranian
@@ -11,7 +11,7 @@ base_manpower = 2
 extra_cost = 26
 center_of_trade = 2
 add_core = POM
-add_core = Z02
+add_core = POM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

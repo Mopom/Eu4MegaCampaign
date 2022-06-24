@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = ENG
+controller = ENG
 capital = "Hastings"
 is_city = yes
 culture = anglo_saxon
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 add_core = ENG
-add_core = Z02
+add_core = ENG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

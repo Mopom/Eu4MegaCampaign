@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = FKN
+controller = FKN
 capital = "Würzburg"
 is_city = yes
 culture = franconian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 4
 base_manpower = 3
 add_core = FKN
-add_core = Z02
+add_core = FKN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

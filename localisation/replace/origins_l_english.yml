@@ -782,8 +782,8 @@
  ###DISASTER###
  decline_of_mali:0 "Decline of Mali"
  ###BUILDINGS###
- building_temple_jewish:0 "Synagogue"
- building_cathedral_jewish:0 "Great Synagogue"
+ building_temple_jewish:0 "Church"
+ building_cathedral_jewish:0 "Cathedral"
  ###IDEAS###
  horn_of_african_ideas:0 "Horn of African Ideas"
  horn_of_african_ideas_start:0 "Horn of African Traditions"
@@ -1779,11 +1779,11 @@
  judaism_abrahamic_roots:0 "Religious peace"
  desc_judaism_abrahamic_roots:0 "This province enjoys calm and peaceful relations between the religious, following the teachings of its Rhenist overlords. As such, the tolerance the Christian and Muslims in this province enjoy makes them more productive than otherwise."
  judaism_community_wrong_culture:0 "United Community"
- desc_judaism_community_wrong_culture:0 "This province overcame the cultural differences with its overlord and see themselves as Jews first, connecting with the owner of the province."
+ desc_judaism_community_wrong_culture:0 "This province overcame the cultural differences with its overlord and see themselves as Rhenists first, connecting with the owner of the province."
  judaism_community_same_culture_group:0 "United Community"
- desc_judaism_community_same_culture_group:0 "This province overcame the cultural differences with its overlord and see themselves as Jews first, connecting with the owner of the province."
- judaism_yom_kippur_aspect_war_modifier:0 "Yom Kippur"
- desc_judaism_yom_kippur_aspect_war_modifier:0 "War has come, but our people will persevere. The teachings of the past help us to endure the struggles of war."
+ desc_judaism_community_same_culture_group:0 "This province overcame the cultural differences with its overlord and see themselves as Rhenists first, connecting with the owner of the province."
+ judaism_yom_kippur_aspect_war_modifier:0 "Fertility of the river"
+ desc_judaism_yom_kippur_aspect_war_modifier:0 "War has come, but our people will persevere. The teachings of Rhenism will help us stand strong, and fight back."
  judaism_yom_kippur_aspect_defensive_war_modifier:0 "Call to Arms"
  desc_judaism_yom_kippur_aspect_defensive_war_modifier:0 "The enemies of our people are at our doorstep trying to conquer us. Everyone of us is ready to take the fight to the invaders!"
  ###MECHANIC MODIFIERS###

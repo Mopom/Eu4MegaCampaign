@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = ENG
+controller = ENG
 capital = "Sheffield"
 is_city = yes
 culture = northumbrian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 7
 base_manpower = 3
 add_core = NOL
-add_core = Z02
+add_core = ENG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
