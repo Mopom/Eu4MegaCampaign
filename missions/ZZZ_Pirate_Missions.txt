@@ -14,10 +14,10 @@ pirate_1 = {
 	potential = {
 		has_dlc = "Golden Century"
 			AND {
-				NOT = { tag = AJU }
 				has_reform = pirate_republic_reform
 			}
 		NOT = { map_setup = map_setup_random }
+		NOT = { tag = AJU }
 		
 	}
 
@@ -176,10 +176,10 @@ pirate_2 = {
 	potential = {
 		has_dlc = "Golden Century"
 		AND {
-			NOT = { tag = AJU }
 			has_reform = pirate_republic_reform
 		}	
 		NOT = { map_setup = map_setup_random }
+		NOT = { tag = AJU }
 		
 		capital_scope = {
 			colonial_region = colonial_the_carribean
@@ -376,9 +376,9 @@ pirate_3 = {
 
 	potential = {
 		AND {
-			NOT = { tag = AJU }
 			has_reform = pirate_republic_reform
 		}	
+		NOT = { tag = AJU }
 
 	has_country_shield = yes
 	
@@ -492,9 +492,9 @@ pirate_5 = {
 
 	potential = {
 		AND {
-			NOT = { tag = AJU }
 			has_reform = pirate_republic_reform
 		}	
+		NOT = { tag = AJU }
 		
 	has_country_shield = yes
 	
