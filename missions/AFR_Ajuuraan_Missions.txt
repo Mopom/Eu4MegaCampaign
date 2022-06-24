@@ -545,7 +545,7 @@ potential = {
 	aju_trade_of_the_east = {
 		icon = mission_indian_empire
 		required_missions = {  }
-		position = 1
+		position = 6
 		provinces_to_highlight = {
 			is_indian_trade_node_province = yes
 		}
@@ -574,7 +574,7 @@ potential = {
 	aju_explore_the_malacca_trade = {
 		icon = mission_malayan_viceroyalty
 		required_missions = { aju_trade_of_the_east }
-		position = 2
+		position = 7
 		provinces_to_highlight = {
 			OR = {
 				region = indonesia_region
@@ -679,7 +679,7 @@ potential = {
 	aju_dominate_moluccas = {
 		icon = mission_rb_colonise_spice_islands
 		required_missions = { aju_explore_the_malacca_trade }
-		position = 4
+		position = 8
 		provinces_to_highlight = {
 			province_id = 1357
 		}
@@ -707,7 +707,7 @@ potential = {
 	aju_colonize_australia = {
 		icon = colonize_australia
 		required_missions = { aju_dominate_moluccas }
-		position = 5
+		position = 9
 		provinces_to_highlight = {
 			colonial_region = colonial_australia
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
