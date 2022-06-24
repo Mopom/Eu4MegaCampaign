@@ -1,11 +1,9 @@
-government = monarchy
-add_government_reform = indian_sultanate_reform
+government = republic
 government_rank = 1
 technology_group = indian
-religion = sunni
+religion = gangan
 primary_culture = gujarati
 capital = 2054
-religious_school = shafii_school
 1391.1.1= {
 	monarch = {
 		name = "Zafar Khan"
