@@ -1,4 +1,4 @@
-government = monarchy
+government = republic
 add_government_reform = nayankara_reform
 government_rank = 1
 technology_group = indian
@@ -83,8 +83,8 @@ capital = 552
 }
 1476.1.1= {
 	heir = {
-		name = "Pratâprudra"
-		monarch_name = "Pratâprudra"
+		name = "PratÃ¢prudra"
+		monarch_name = "PratÃ¢prudra"
 		dynasty = "Gajapati"
 		birth_date = 1470.1.1
 		death_date = 1540.1.1
@@ -109,7 +109,7 @@ capital = 552
 }
 1497.4.2= {
 	monarch = {
-		name = "Pratâprudra"
+		name = "PratÃ¢prudra"
 		dynasty = "Gajapati"
 		ADM = 1
 		DIP = 3
@@ -149,8 +149,8 @@ capital = 552
 }
 1541.1.1= {
 	heir = {
-		name = "Chakrapretâpa"
-		monarch_name = "Chakrapretâpa"
+		name = "ChakrapretÃ¢pa"
+		monarch_name = "ChakrapretÃ¢pa"
 		dynasty = "Bhoi"
 		birth_date = 1520.1.1
 		death_date = 1557.1.1
@@ -162,7 +162,7 @@ capital = 552
 }
 1549.1.1= {
 	monarch = {
-		name = "Chakrapretâpa"
+		name = "ChakrapretÃ¢pa"
 		dynasty = "Bhoi"
 		ADM = 0
 		DIP = 1
@@ -171,8 +171,8 @@ capital = 552
 }
 1549.1.1= {
 	heir = {
-		name = "Nârashima Jana"
-		monarch_name = "Nârashima Jana"
+		name = "NÃ¢rashima Jana"
+		monarch_name = "NÃ¢rashima Jana"
 		dynasty = "Bhoi"
 		birth_date = 1540.1.1
 		death_date = 1558.1.1
@@ -184,7 +184,7 @@ capital = 552
 }
 1557.1.1= {
 	monarch = {
-		name = "Nârashima Jana"
+		name = "NÃ¢rashima Jana"
 		dynasty = "Bhoi"
 		ADM = 0
 		DIP = 0
@@ -193,8 +193,8 @@ capital = 552
 }
 1557.1.1= {
 	heir = {
-		name = "Raghurâma Chhotra"
-		monarch_name = "Raghurâma Chhotra"
+		name = "RaghurÃ¢ma Chhotra"
+		monarch_name = "RaghurÃ¢ma Chhotra"
 		dynasty = "Bhoi"
 		birth_date = 1530.1.1
 		death_date = 1560.1.1
@@ -206,7 +206,7 @@ capital = 552
 }
 1558.1.1= {
 	monarch = {
-		name = "Raghurâma Chhotra"
+		name = "RaghurÃ¢ma Chhotra"
 		dynasty = "Bhoi"
 		ADM = 0
 		DIP = 1
@@ -224,8 +224,8 @@ capital = 552
 }
 1560.1.1= {
 	heir = {
-		name = "Râmchandra Deva"
-		monarch_name = "Râmchandra Deva I"
+		name = "RÃ¢mchandra Deva"
+		monarch_name = "RÃ¢mchandra Deva I"
 		dynasty = "Chalukya"
 		birth_date = 1540.1.1
 		death_date = 1607.1.1
@@ -237,7 +237,7 @@ capital = 552
 }
 1567.1.1= {
 	monarch = {
-		name = "Râmchandra Deva I"
+		name = "RÃ¢mchandra Deva I"
 		dynasty = "Chalukya"
 		ADM = 4
 		DIP = 3
