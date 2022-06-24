@@ -145,9 +145,9 @@ jewish_abrahamic_aspect = {	#DIP aspect
 			every_owned_province = {
 				limit = {
 					OR = {
-					    AND = {
-						    religion_group = christian
-						    NOT = { religion = samaritan_faith }
+						AND = {
+							religion_group = christian
+							NOT = { religion = samaritan_faith }
 						}
 						religion_group = muslim
 					}
@@ -187,6 +187,10 @@ jewish_abrahamic_aspect = {	#DIP aspect
 			dominant_religion = jewish
 		}
 		modifier = {
+			factor = 0
+			tag = UBL
+		}
+		modifier = {
 			factor = 10
 			NOT = { dominant_religion = jewish }
 		}
@@ -200,8 +204,11 @@ judaism_diplomatic_rabbi_aspect = {	#DIP aspect
 			every_known_country = {
 				limit = {
 					OR = {
-						religion_group = muslim
-						religion_group = christian
+						AND = {
+                            religion_group = christian
+                        	NOT = { religion = samaritan_faith }
+                        }
+                        religion_group = muslim
 					}
 					NOT = {
 						has_opinion_modifier = {

@@ -1233,6 +1233,7 @@ emp_ned_slot5_branch = { # Orangists
 					}
 				}
 				change_statists_vs_orangists = 0.15
+				add_adm_power = 100
 			}
 			else_if = {
 				limit = {
@@ -1240,6 +1241,7 @@ emp_ned_slot5_branch = { # Orangists
 					NOT = { has_reform = states_general_reform }
 				}
 				add_legitimacy = 15
+				add_adm_power = 100
 			}
 			else = {
 				add_adm_power = 100
