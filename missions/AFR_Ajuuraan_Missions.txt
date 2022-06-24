@@ -125,8 +125,6 @@ Budhcad_Badeed_missions_slot = {
 				name = zan_expansion_into_the_cape
 				duration = 18250
 			}
-		}
-			effect = {
 			madagascar_highlands_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -228,7 +226,7 @@ Budhcad_Badeed_missions_slot = {
 }
 #Second slot
 Ajuuraan_internal_missions_slot = {
-	slot = 1
+	slot = 2
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -324,7 +322,7 @@ kilwa_trade_conquest_missions_slot = {
 	potential_on_load = {
 		has_dlc = "Origins"
 	}
-	ppotential = {
+	potential = {
 		tag = AJU
 		NOT = { map_setup = map_setup_random }
 	}
