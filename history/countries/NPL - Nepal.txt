@@ -1,8 +1,7 @@
-government = sikh_theocracy
-add_government_reform = monastic_order_reform
+government = theocracy
 government_rank = 1
 technology_group = indian
-religion = ganga
+religion = gangan
 primary_culture = nepali
 capital = 557
 1337.1.1= {

@@ -14,8 +14,10 @@
  TEM: "Knights Templar"
  TEM_ADJ: "Templar"
 
+
  #New Countries Added By Us
  ADD:3 "Order of St. Addai"
+ AVA:3 "Burma"
  ADD_ADJ:3 "St. Addai"
  ADD_ADJ2:3 "St. Addai"
  AOL:3 "Army of Light"

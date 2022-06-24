@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = Ori
+controller = Ori
 capital = "Jalor"
 is_city = yes
 culture = rajput
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 add_core = MER
-add_core = Z01
+add_core = Ori
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
