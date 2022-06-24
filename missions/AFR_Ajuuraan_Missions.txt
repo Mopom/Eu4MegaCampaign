@@ -6,7 +6,6 @@ Budhcad_Badeed_missions_slot = {
 	potential_on_load = {
 		has_dlc = "Origins"
 	}
-}
 	potential = {
 		tag = AJU
 		NOT = { map_setup = map_setup_random }
@@ -236,9 +235,8 @@ Ajuuraan_internal_missions_slot = {
 		has_dlc = "Origins"
 	}
 	potential = {
-		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
 		tag = AJU
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
@@ -326,10 +324,9 @@ kilwa_trade_conquest_missions_slot = {
 	potential_on_load = {
 		has_dlc = "Origins"
 	}
-	potential = {
-		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
+	ppotential = {
 		tag = AJU
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
@@ -452,9 +449,8 @@ Budhcad_badeed_asia_trade_missions_slot = {
 		has_dlc = "Origins"
 	}
 	potential = {
-		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
 		tag = AJU
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
@@ -540,10 +536,10 @@ budhcad_badeed_colonization_missions_slot = {
 	potential_on_load = {
 		has_dlc = "Origins"
 	}
-	potential = {
-		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
+potential = {
 		tag = AJU
+		NOT = { map_setup = map_setup_random }
+	}
 	}
 	has_country_shield = yes
 
