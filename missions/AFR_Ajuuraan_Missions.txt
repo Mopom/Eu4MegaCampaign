@@ -61,7 +61,6 @@ Budhcad_Badeed_missions_slot = {
 		required_missions = { 
 			aju_conquer_pate
 		}
-		position = 2
 		provinces_to_highlight = {
 			OR = {
 				area = mombasa_area
@@ -96,7 +95,6 @@ Budhcad_Badeed_missions_slot = {
 		required_missions = { 
 			aju_more_coast
 		}
-		position = 3
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1100
@@ -161,7 +159,6 @@ Budhcad_Badeed_missions_slot = {
 		required_missions = { 
 			aju_islands 
 		}
-		position = 4
 		provinces_to_highlight = {
 			OR = {
 				area = madagascar_highlands_area
@@ -357,7 +354,6 @@ kilwa_trade_conquest_missions_slot = {
 	aju_centralize_trade = {
 		icon = mission_south_indian_trade
 		required_missions = { aju_trade_fleet }
-		position = 2
 		provinces_to_highlight = {
 			OR = {
 				AND = {
@@ -486,7 +482,6 @@ Budhcad_badeed_asia_trade_missions_slot = {
 	aju_trade_with_china = {
 		icon = mission_asian_city
 		required_missions = { aju_dominate_the_malacca_trade }
-		position = 5
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1371
@@ -532,7 +527,7 @@ budhcad_badeed_colonization_missions_slot = {
 	potential_on_load = {
 		has_dlc = "Origins"
 	}
-potential = {
+	potential = {
 		tag = AJU
 		NOT = { map_setup = map_setup_random }
 	}
@@ -542,7 +537,7 @@ potential = {
 	aju_trade_of_the_east = {
 		icon = mission_indian_empire
 		required_missions = {  }
-		position = 6
+		position = 1
 		provinces_to_highlight = {
 			is_indian_trade_node_province = yes
 		}
@@ -571,7 +566,6 @@ potential = {
 	aju_explore_the_malacca_trade = {
 		icon = mission_malayan_viceroyalty
 		required_missions = { aju_trade_of_the_east }
-		position = 1
 		provinces_to_highlight = {
 			OR = {
 				region = indonesia_region
@@ -676,7 +670,6 @@ potential = {
 	aju_dominate_moluccas = {
 		icon = mission_rb_colonise_spice_islands
 		required_missions = { aju_explore_the_malacca_trade }
-		position = 2
 		provinces_to_highlight = {
 			province_id = 1357
 		}
@@ -704,7 +697,6 @@ potential = {
 	aju_colonize_australia = {
 		icon = colonize_australia
 		required_missions = { aju_dominate_moluccas }
-		position = 3
 		provinces_to_highlight = {
 			colonial_region = colonial_australia
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
