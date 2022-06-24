@@ -95,7 +95,6 @@ Budhcad_Badeed_missions_slot = {
 		icon = mission_invade_island
 		required_missions = { 
 			aju_more_coast
-			aju_build_workshops
 		}
 		position = 3
 		provinces_to_highlight = {
@@ -106,10 +105,10 @@ Budhcad_Badeed_missions_slot = {
 				province_id = 4020
 				province_id = 1101
 			}
-			NOT = { country_or_non_sovereign_subject_hols = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			number_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {
 					province_id = 1100
 					province_id = 1102
@@ -166,17 +165,17 @@ Budhcad_Badeed_missions_slot = {
 		provinces_to_highlight = {
 			OR = {
 				area = madagascar_highlands_area
-				area = southern_madagascar_area
+				area = southern_madagascar
 				area = sakalava_area
 				area = betsimasaraka_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			number_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {
 					area = madagascar_highlands_area
-					area = southern_madagascar_area
+					area = southern_madagascar
 					area = sakalava_area
 					area = betsimasaraka_area
 				}
@@ -184,47 +183,45 @@ Budhcad_Badeed_missions_slot = {
 			}
 		}
 		effect = {
-			custom_tooltip = zan_conquer_madagascar_tt
-			hidden_effect = {
-				madagascar_highlands_area = {
-					limit = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					add_province_modifier = {
-						name = zan_conversion_of_fetishist
-						duration = 9125
-					}
+			madagascar_highlands_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
 				}
-				southern_madagascar = {
-					limit = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					add_province_modifier = {
-						name = zan_conversion_of_fetishist
-						duration = 9125
-					}
+				add_province_modifier = {
+					name = zan_conversion_of_fetishist
+					duration = 9125
 				}
-				sakalava_area = {
-					limit = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					add_province_modifier = {
-						name = zan_conversion_of_fetishist
-						duration = 9125
-					}
+			}
+			southern_madagascar = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
 				}
-				betsimasaraka_area = {
-					limit = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					add_province_modifier = {
-						name = zan_conversion_of_fetishist
-						duration = 9125
-					}
+				add_province_modifier = {
+					name = zan_conversion_of_fetishist
+					duration = 9125
+				}
+			}
+			sakalava_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_province_modifier = {
+					name = zan_conversion_of_fetishist
+					duration = 9125
+				}
+			}
+			betsimasaraka_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_province_modifier = {
+					name = zan_conversion_of_fetishist
+					duration = 9125
 				}
 			}
 		}
 	}
+}
 #Second slot
 Ajuuraan_internal_missions_slot = {
 	slot = 2
@@ -271,7 +268,7 @@ Ajuuraan_internal_missions_slot = {
 	aju_dig_for_treasure = {
 		icon = mission_central_asian_city
 		required_missions = { aju_build_workshops }
-		position = 2
+		position = 3
 		provinces_to_highlight = {
 			province_id = 1196
 			OR = {
@@ -441,7 +438,7 @@ kilwa_trade_conquest_missions_slot = {
 
 #Fourth slot
 Budhcad_badeed_asia_trade_missions_slot = {
-	slot = 4
+	slot = 3
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -529,7 +526,7 @@ Budhcad_badeed_asia_trade_missions_slot = {
 
 #Fith slot
 budhcad_badeed_colonization_missions_slot = {
-	slot = 5
+	slot = 4
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -538,7 +535,6 @@ budhcad_badeed_colonization_missions_slot = {
 potential = {
 		tag = AJU
 		NOT = { map_setup = map_setup_random }
-	}
 	}
 	has_country_shield = yes
 
@@ -575,7 +571,7 @@ potential = {
 	aju_explore_the_malacca_trade = {
 		icon = mission_malayan_viceroyalty
 		required_missions = { aju_trade_of_the_east }
-		position = 7
+		position = 1
 		provinces_to_highlight = {
 			OR = {
 				region = indonesia_region
@@ -680,7 +676,7 @@ potential = {
 	aju_dominate_moluccas = {
 		icon = mission_rb_colonise_spice_islands
 		required_missions = { aju_explore_the_malacca_trade }
-		position = 8
+		position = 2
 		provinces_to_highlight = {
 			province_id = 1357
 		}
@@ -708,7 +704,7 @@ potential = {
 	aju_colonize_australia = {
 		icon = colonize_australia
 		required_missions = { aju_dominate_moluccas }
-		position = 9
+		position = 3
 		provinces_to_highlight = {
 			colonial_region = colonial_australia
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
