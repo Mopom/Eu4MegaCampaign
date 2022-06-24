@@ -74,7 +74,7 @@ dlh_east_missions = {
 		has_dlc = "Dharma"
 	}
 	potential = {
-		tag = DLH
+		tag = Z01
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -429,7 +429,7 @@ dlh_west_missions = {
 		has_dlc = "Dharma"
 	}
 	potential = {
-		tag = DLH
+		tag = Z01
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -769,7 +769,7 @@ dlh_slot_4 = {
 		has_dlc = "Dharma"
 	}
 	potential = {
-		tag = DLH
+		tag = Z01
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
 	}
