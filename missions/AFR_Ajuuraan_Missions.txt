@@ -159,7 +159,9 @@ Budhcad_Badeed_missions_slot = {
 	#Madagascar
 	aju_madagascar_is_just_a_big_island = {
 		icon = mission_iberian_conquistador
-		required_missions = { aju_islands }
+		required_missions = { 
+			aju_islands 
+		}
 		position = 4
 		provinces_to_highlight = {
 			OR = {
@@ -223,7 +225,6 @@ Budhcad_Badeed_missions_slot = {
 			}
 		}
 	}
-}
 #Second slot
 Ajuuraan_internal_missions_slot = {
 	slot = 2
