@@ -6,10 +6,10 @@ Budhcad_Badeed_missions_slot = {
 	potential_on_load = {
 		has_dlc = "Origins"
 	}
+}
 	potential = {
-		has_dlc = "Origins"
-		NOT = { map_setup = map_setup_random }
 		tag = AJU
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
