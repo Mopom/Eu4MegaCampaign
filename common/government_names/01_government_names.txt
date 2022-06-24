@@ -1107,7 +1107,7 @@ sikh_theocracy = {
 	}
 
 	trigger = {
-		religion = sikhism
+		religion = gangan
 		government = theocracy
 	}
 }
