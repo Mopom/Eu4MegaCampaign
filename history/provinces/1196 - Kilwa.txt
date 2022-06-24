@@ -1,5 +1,5 @@
-owner = AJU
-controller = AJU
+owner = ZAN
+controller = ZAN
 capital = "Kilwa Kisiwani"
 is_city = yes
 culture = swahili
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = AJU
+add_core = ZAN
 discovered_by = central_african
 discovered_by = east_african
 discovered_by = indian

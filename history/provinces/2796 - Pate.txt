@@ -1,5 +1,5 @@
-owner = AJU
-controller = AJU
+owner = PTE
+controller = PTE
 capital = "Siyu"
 is_city = yes
 culture = swahili
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
+add_core = PTE
 add_core = AJU
 discovered_by = central_african
 discovered_by = east_african

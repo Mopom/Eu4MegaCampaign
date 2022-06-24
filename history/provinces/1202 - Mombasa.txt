@@ -1,5 +1,5 @@
-owner = AJU
-controller = AJU
+owner = MBA
+controller = MBA
 capital = "Mombasa"
 is_city = yes
 culture = swahili
@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
-add_core = AJU
+add_core = MBA
 discovered_by = central_african
 discovered_by = east_african
 discovered_by = indian

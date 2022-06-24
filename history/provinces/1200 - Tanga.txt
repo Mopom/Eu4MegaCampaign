@@ -1,5 +1,5 @@
-owner = AJU
-controller = AJU
+owner = MBA
+controller = MBA
 capital = "Vumba Kuu"
 is_city = yes
 culture = swahili
@@ -8,7 +8,7 @@ trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = AJU
+add_core = MBA
 discovered_by = central_african
 discovered_by = east_african
 discovered_by = indian

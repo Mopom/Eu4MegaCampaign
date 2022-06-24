@@ -1,5 +1,5 @@
-owner = AJU
-controller = AJU
+owner = MLI
+controller = MLI
 capital = "Lamu"
 is_city = yes
 culture = swahili
@@ -8,7 +8,7 @@ trade_goods = ivory
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = AJU
+add_core = MLI
 discovered_by = central_african
 discovered_by = east_african
 discovered_by = indian
