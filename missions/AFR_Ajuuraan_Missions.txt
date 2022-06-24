@@ -168,7 +168,7 @@ Budhcad_Badeed_missions_slot = {
 				area = sakalava_area
 				area = betsimasaraka_area
 			}
-			NOT = { country_or_non_sovereign_subject_hols = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			number_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
