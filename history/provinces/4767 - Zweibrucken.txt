@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = LOR
+controller = LOR
 capital = "Zweibrücken"
 is_city = yes
 culture = hessian
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = FRA
+add_core = LOR
 add_core = HES
 discovered_by = eastern
 discovered_by = indian
