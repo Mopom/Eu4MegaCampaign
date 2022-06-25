@@ -1,4 +1,4 @@
-controller = HUN
+owner = HUN
 controller = HUN
 capital = "Szolnok"
 is_city = yes

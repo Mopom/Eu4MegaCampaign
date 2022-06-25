@@ -1,4 +1,4 @@
-controller = SZO
+owner = SZO
 controller = SZO
 capital = "Saluzzo"
 is_city = yes

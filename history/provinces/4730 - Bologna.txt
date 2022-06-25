@@ -1,4 +1,4 @@
-controller = BLG
+owner = BLG
 controller = BLG
 capital = "Bologna"
 is_city = yes

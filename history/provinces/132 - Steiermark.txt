@@ -1,4 +1,4 @@
-controller = HAB
+owner = HAB
 controller = HAB
 capital = "Judenburg"
 is_city = yes

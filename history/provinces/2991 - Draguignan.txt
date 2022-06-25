@@ -1,4 +1,4 @@
-controller = UBL
+owner = UBL
 controller = UBL
 capital = "Forcalquier"
 is_city = yes
