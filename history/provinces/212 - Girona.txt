@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = CAT
+controller = CAT
 capital = "Girona"
 is_city = yes
 culture = catalan
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 add_core = CAT
-add_core = FRA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = CAT
+controller = CAT
 capital = "Barcelona"
 is_city = yes
 culture = catalan
@@ -11,7 +11,6 @@ base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
 add_core = CAT
-add_core = FRA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
