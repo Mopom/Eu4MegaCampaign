@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = HAI
+controller = HAI
 capital = "Namur"
 is_city = yes
 culture = dynamic-cosmopolitan_french-culture-num1

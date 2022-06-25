@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = HAI
+controller = HAI
 capital = "Lille"
 is_city = yes
 culture = wallonian
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 4
 base_manpower = 4
 add_core = FRA
-add_core = HAI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

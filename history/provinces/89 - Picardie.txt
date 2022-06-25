@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = HAI
+controller = HAI
 capital = "Amiens"
 is_city = yes
 culture = cosmopolitan_french
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 11
 base_production = 1
 base_manpower = 2
-add_core = FRA
+add_core = HAI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
