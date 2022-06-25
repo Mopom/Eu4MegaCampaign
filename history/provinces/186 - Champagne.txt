@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = ORL
+controller = ORL
 capital = "Reims"
 is_city = yes
 culture = cosmopolitan_french
@@ -10,7 +10,7 @@ base_production = 10
 base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
-add_core = FRA
+add_core = ORL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

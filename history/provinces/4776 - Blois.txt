@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = ORL
+controller = ORL
 capital = "Blois"
 is_city = yes
 culture = cosmopolitan_french
@@ -8,7 +8,7 @@ trade_goods = wine
 base_tax = 1
 base_production = 5
 base_manpower = 1
-add_core = FRA
+add_core = ORL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
