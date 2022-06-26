@@ -1,4 +1,4 @@
-controller = UBL
+owner = UBL
 controller = UBL
 capital = "Chur"
 is_city = yes

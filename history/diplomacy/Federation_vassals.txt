@@ -22,3 +22,15 @@ union = {
  	start_date = 1400.6.25
  	end_date = 1569.7.1
  }
+  vassal = {
+ 	first = POM
+ 	second = SOR
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+ }
+   vassal = {
+ 	first = ENG
+ 	second = NOL
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+ }

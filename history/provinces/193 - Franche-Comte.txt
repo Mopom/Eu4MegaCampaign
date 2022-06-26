@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = BUR
+controller = BUR
 capital = "Besançon"
 is_city = yes
 culture = arpitan
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 1
 base_manpower = 3
 add_core = DAU
-add_core = FRA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

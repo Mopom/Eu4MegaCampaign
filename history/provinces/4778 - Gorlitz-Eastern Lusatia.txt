@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = SOR
+controller = SOR
 capital = "Görlitz"
 is_city = yes
 culture = dynamic-polish-russian_culture-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 1
 base_production = 4
 base_manpower = 2
-add_core = Z02
+add_core = SOR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

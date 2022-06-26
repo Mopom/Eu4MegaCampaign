@@ -1,4 +1,4 @@
-controller = HAB
+owner = HAB
 controller = HAB
 capital = "Celje"
 is_city = yes

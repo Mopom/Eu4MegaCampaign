@@ -1,4 +1,4 @@
-controller = BAV
+owner = BAV
 controller = BAV
 capital = "Braunau am Inn"
 is_city = yes

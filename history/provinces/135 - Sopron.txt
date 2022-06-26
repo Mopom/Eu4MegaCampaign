@@ -1,4 +1,4 @@
-controller = SLO
+owner = SLO
 controller = SLO
 capital = "Sopron"
 is_city = yes

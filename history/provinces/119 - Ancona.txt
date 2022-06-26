@@ -1,4 +1,4 @@
-controller = URB
+owner = URB
 controller = URB
 capital = "Ancona"
 is_city = yes

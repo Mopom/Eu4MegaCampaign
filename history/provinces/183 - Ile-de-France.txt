@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = ORL
+controller = ORL
 capital = "Paris"
 is_city = yes
 culture = cosmopolitan_french
@@ -8,7 +8,7 @@ trade_goods = paper
 base_tax = 7
 base_production = 7
 base_manpower = 5
-add_core = FRA
+add_core = ORL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

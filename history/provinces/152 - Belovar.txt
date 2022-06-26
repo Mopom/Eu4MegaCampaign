@@ -1,4 +1,4 @@
-controller = DAL
+owner = DAL
 controller = DAL
 capital = "Varazdin"
 is_city = yes

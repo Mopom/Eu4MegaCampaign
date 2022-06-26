@@ -1,4 +1,4 @@
-controller = DAL
+owner = DAL
 controller = DAL
 capital = "Doboj"
 is_city = yes

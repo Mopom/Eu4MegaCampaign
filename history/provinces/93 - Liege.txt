@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = LOR
+controller = LOR
 capital = "Liège"
 is_city = yes
 culture = dynamic-cosmopolitan_french-culture-num1
@@ -8,7 +8,7 @@ trade_goods = glass
 base_tax = 1
 base_production = 4
 base_manpower = 1
-add_core = FRA
+add_core = LOR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

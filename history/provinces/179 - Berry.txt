@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = ORL
+controller = ORL
 capital = "Bourges"
 is_city = yes
 culture = cosmopolitan_french
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 5
 base_manpower = 2
-add_core = FRA
+add_core = ORL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

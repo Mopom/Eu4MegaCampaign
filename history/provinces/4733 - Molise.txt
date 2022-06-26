@@ -1,4 +1,4 @@
-controller = ADU
+owner = ADU
 controller = ADU
 capital = "Campobasso"
 is_city = yes
