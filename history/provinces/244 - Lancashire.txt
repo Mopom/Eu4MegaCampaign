@@ -1,5 +1,5 @@
-owner = ENG
-controller = ENG
+owner = NOL
+controller = NOL
 capital = "Lancaster"
 is_city = yes
 culture = northumbrian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 4
 base_manpower = 2
 add_core = NOL
-add_core = ENG
+add_core = NOL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

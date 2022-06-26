@@ -2,7 +2,7 @@ import glob
 import os
 from pathlib import Path
 
-ids_list = [4711,71,4715,4718,79,66,67,4716,4717]
+ids_list = [4375,244,245,4368,4367,4785]
 for ids in ids_list:
     replaced_content = ""
     filePath = 'provinces/' + str(ids) + ' -*.txt'
@@ -13,12 +13,12 @@ for ids in ids_list:
         for line in file:
             line = line.strip()
 
-            if "owner = Z02" in line:
-                new_line = "owner = FKN"
-            elif "add_core = Z02" in line:
-                new_line = "add_core = FKN"
-            elif "controller = Z02" in line:
-                new_line = "controller = FKN"
+            if "owner = ENG" in line:
+                new_line = "owner = NOL"
+            elif "add_core = ENG" in line:
+                new_line = "add_core = NOL"
+            elif "controller = ENG" in line:
+                new_line = "controller = NOL"
             else:
                 new_line = line
 

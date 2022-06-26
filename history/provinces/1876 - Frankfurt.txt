@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = FKN
+controller = FKN
 capital = "Frankfurt"
 is_city = yes
 culture = dynamic-franconian-culture-num1
@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 4
 extra_cost = 16
 center_of_trade = 2
-add_core = Z02
+add_core = FKN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = ENG
-controller = ENG
+owner = NOL
+controller = NOL
 capital = "Chester"
 is_city = yes
 culture = northumbrian
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 add_core = NOL
-add_core = ENG
+add_core = NOL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
