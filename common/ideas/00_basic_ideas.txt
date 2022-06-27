@@ -271,6 +271,10 @@ innovativeness_ideas = {
 religious_ideas = {
 	category = ADM
 
+    trigger = {
+    	NOT = { has_idea_group = humanist_ideas }
+    }
+
 	bonus = {
 		culture_conversion_cost = -0.25
 		brahmins_hindu_loyalty_modifier = 0.1
@@ -409,6 +413,10 @@ diplomatic_ideas = {
 offensive_ideas = {
 	category = MIL
 
+    trigger = {
+    	NOT = { has_idea_group = defensive_ideas }
+    }
+
 	bonus = {
 		recover_army_morale_speed = 0.05
 	}
@@ -443,6 +451,10 @@ offensive_ideas = {
 
 defensive_ideas = {
 	category = MIL
+
+    trigger = {
+    	NOT = { has_idea_group = offensive_ideas }
+    }
 
 	bonus = {
 		hostile_attrition = 1
@@ -1030,6 +1042,10 @@ administrative_ideas = {
 
 humanist_ideas = {
 	category = ADM
+
+    trigger = {
+    	NOT = { has_idea_group = religious_ideas }
+    }
 
 	bonus = {
 		idea_cost = -0.1
