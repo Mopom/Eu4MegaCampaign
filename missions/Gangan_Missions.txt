@@ -88,9 +88,9 @@ dlh_east_missions = {
 			war_with = BNG
 		}
 		effect = {
-			reduced_liberty_desire = 20
-			}
+			AVA = {	add_liberty_desire = -20 }
 		}
+	}
 	dlh_jnp_reconquest_2 = {
 		icon = mission_defeat_jaunpur
 		required_missions = { dlh_jnp_reconquest }
