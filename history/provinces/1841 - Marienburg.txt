@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = PRT
+controller = PRT
 capital = "Marienburg"
 is_city = yes
 culture = old_pommeranian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 2
 add_core = POM
-add_core = RUS
+add_core = PRT
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

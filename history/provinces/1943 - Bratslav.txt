@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = PTZ
+controller = PTZ
 capital = "Bratslav"
 is_city = yes
 culture = pecheneg
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = PTZ
-add_core = RUS
+add_core = PTZ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

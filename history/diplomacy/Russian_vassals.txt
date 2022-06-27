@@ -1,0 +1,36 @@
+union = {
+ 	first = RUS
+ 	second = MOS
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+ }
+vassal = {
+ 	first = RUS
+ 	second = PTZ
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+}
+vassal = {
+ 	first = RUS
+    second = VOL
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+}
+vassal = {
+ 	first = RUS
+ 	second = FIN
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+}
+vassal = {
+ 	first = RUS
+ 	second = LIT
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+}
+vassal = {
+ 	first = RUS
+ 	second = PRT
+ 	start_date = 1400.6.25
+ 	end_date = 1569.7.1
+}

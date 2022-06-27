@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = VOL
+controller = VOL
 capital = "Lwów"
 is_city = yes
 culture = kishinyov
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = RUS
+add_core = VOL
 add_core = VOL
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = MOS
+controller = MOS
 capital = "Kasimov"
 is_city = yes
 culture = meshchera
@@ -10,6 +10,7 @@ base_tax = 4
 base_production = 2
 base_manpower = 1
 add_core = MSH
+add_core = MOS
 add_core = RUS
 discovered_by = eastern
 discovered_by = indian

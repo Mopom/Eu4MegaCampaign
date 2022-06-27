@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = PTZ
+controller = PTZ
 capital = "Hajibey"
 is_city = yes
 culture = pecheneg
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 1
 extra_cost = 10
 add_core = PTZ
-add_core = RUS
+add_core = PTZ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = MOS
+controller = MOS
 capital = "Odayev"
 is_city = yes
 culture = ryazanian
@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 5
 base_manpower = 1
+add_core = MOS
 add_core = RUS
 add_core = RYA
 discovered_by = eastern

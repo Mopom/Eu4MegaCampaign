@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = MOS
+controller = MOS
 capital = "Kolomna"
 is_city = yes
 culture = dynamic-russian_culture-culture-num1
@@ -8,6 +8,7 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+add_core = MOS
 add_core = RUS
 discovered_by = eastern
 discovered_by = indian

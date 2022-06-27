@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = LIT
+controller = LIT
 capital = "Varniai"
 is_city = yes
 culture = dynamic-lithuanian-russian_culture-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 3
 base_manpower = 2
-add_core = RUS
+add_core = LIT
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

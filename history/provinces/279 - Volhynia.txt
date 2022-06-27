@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = VOL
+controller = VOL
 capital = "Volodymyr"
 is_city = yes
 culture = ruthenian
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 5
 base_manpower = 1
 add_core = KIE
-add_core = RUS
+add_core = VOL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

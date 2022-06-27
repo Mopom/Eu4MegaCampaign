@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = FIN
+controller = FIN
 capital = "Borgå"
 is_city = yes
 culture = finnish
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 1
 add_core = FIN
-add_core = RUS
+add_core = FIN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = LIT
+controller = LIT
 capital = "Vilna"
 is_city = yes
 culture = lithuanian
@@ -11,7 +11,7 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = LIT
-add_core = RUS
+add_core = LIT
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -92,7 +92,7 @@ temple = {
 	modifier = {
 		local_tax_modifier = 0.4
 		local_unrest = -1
-		culture_conversion_cost = -0.1
+		local_culture_conversion_cost = -0.1
 		local_missionary_strength = 0.01
 	}
 	on_built = {
@@ -613,7 +613,7 @@ cathedral = {
 		local_missionary_strength = 0.03
 		local_tax_modifier = 0.6
 		local_unrest = -2
-		culture_conversion_cost = -0.2
+		local_culture_conversion_cost = -0.2
 	}
 	on_built = {
 		if = {

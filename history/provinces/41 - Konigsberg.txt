@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = PRT
+controller = PRT
 capital = "Königsberg"
 is_city = yes
 culture = dynamic-lithuanian-russian_culture-culture-num1
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = RUS
+add_core = PRT
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
