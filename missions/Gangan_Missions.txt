@@ -89,6 +89,8 @@ dlh_east_missions = {
 		}
 		effect = {
 			AVA = {	add_liberty_desire = -20 }
+			GUJ = {	add_liberty_desire = -20 }
+			NPL = {	add_liberty_desire = -20 }
 		}
 	}
 	dlh_jnp_reconquest_2 = {
