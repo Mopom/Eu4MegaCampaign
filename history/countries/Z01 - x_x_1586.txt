@@ -1,8 +1,10 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = nayankara_reform
 government_rank = 3
 technology_group = indian
 historical_friend = MGE
+historical_friend = AVA
+historical_friend = GUJ
 add_historical_rival = Z00
 religion = gangan
 primary_culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
