@@ -129,7 +129,7 @@ Budhcad_Badeed_missions_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
-			southern_madagascar_area = {
+			southern_madagascar = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -256,7 +256,6 @@ Ajuuraan_internal_missions_slot = {
 				trigger = {
 					trade_goods = slaves
 				}
-				custom_tooltip = MONOPOLY_INCOME_SLAVES_DESC
 			}
 		}
 	}
@@ -583,7 +582,6 @@ budhcad_badeed_colonization_missions_slot = {
 			}
 		}
 		effect = {
-			custom_tooltip = aju_explore_the_malacca_trade_tt
 			hidden_effect = {
 				minangkabau_area = {
 					limit = {
