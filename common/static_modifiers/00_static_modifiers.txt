@@ -234,6 +234,9 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
+	local_development_cost = -0.01
+    local_governing_cost = -0.01
+    local_unrest = -0.2
 }
 
 provincial_production_size = {
@@ -251,6 +254,7 @@ cardinals_spread_institution = {
 
 manpower = {
 	garrison_growth = 0.01					#1% increase from manpower.
+	local_unrest = 0.1
 }
 
 # Caps at 600
@@ -420,6 +424,7 @@ devastation = {
 	local_sailors_modifier = -1.0
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
+	local_unrest = 4
 }
 
 prosperity = {

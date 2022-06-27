@@ -56,20 +56,14 @@ ned_reconquest_group = {
 		required_missions = { ned_lowlands_one }
 		position = 2
 		
-		provinces_to_highlight = {
-			OR = {
-				area = wallonia_area
-				province_id = 1743
-				province_id = 88		
-				province_id = 87
-			}
-			NOT = { owned_by = ROOT }
-		}
-		
 		trigger = {
 		}
 		
 		effect = {
+		    add_country_modifier = {
+            	name = "ned_unified_country"
+                duration = 8030
+            }
 		}
 	}
 	
