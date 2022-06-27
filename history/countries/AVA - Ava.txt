@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = mandala_reform
 government_rank = 1
 technology_group = indian
+historical_friend = Z01
 religion = gangan
 primary_culture = burmese
 capital = 584
