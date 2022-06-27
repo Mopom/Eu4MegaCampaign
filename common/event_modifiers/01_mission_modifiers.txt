@@ -605,6 +605,10 @@ ned_lowlands_victory = {
 	recover_army_morale_speed = 0.15
 }
 
+ned_unified_country = {
+	diplomatic_annexation_cost = -0.33
+}
+
 # Irish Missions
 trinity_college = {
 	technology_cost = -0.05

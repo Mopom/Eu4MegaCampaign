@@ -148,6 +148,7 @@ theocracy_gov_ideas = {
 	
 	trigger = {
 		has_government_attribute = enables_divine_idea_group
+        NOT = { has_idea_group = humanist_ideas }
 	}
 	servants_of_god = {
 		devotion = 1
