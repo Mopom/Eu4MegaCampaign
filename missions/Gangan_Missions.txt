@@ -163,29 +163,24 @@ dlh_east_missions = {
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				area = gaur_area
-				area = west_bengal_area
-				area = north_bengal_area
-				area = east_bengal_area
+				area = ahmedabad_area
+				area = saurashtra_area
+				area = tapti_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			gaur_area = {
+			ahmedabad_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			west_bengal_area = {
+			saurashtra_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			north_bengal_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			east_bengal_area = {
+			tapti_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -195,6 +190,7 @@ dlh_east_missions = {
 				name = dlh_bengal_modifier
 				duration = 7300
 			}
+			integrate = { GUJ }
 		}
 	}
 	dlh_grand_trunk_road = {
