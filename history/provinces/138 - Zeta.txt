@@ -8,7 +8,6 @@ trade_goods = livestock
 base_tax = 7
 base_production = 5
 base_manpower = 4
-add_core = DAL
 add_core = SER
 discovered_by = eastern
 discovered_by = indian
