@@ -332,19 +332,9 @@ kilwa_trade_conquest_missions_slot = {
 		}
 		effect = {
 			add_navy_tradition = 20
-			mombasa_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			northern_swahili_coast_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = gen_prosperous_republic
+				duration = 7300
 			}
 		}
 	}
@@ -400,7 +390,7 @@ kilwa_trade_conquest_missions_slot = {
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = aju_centralize_trade_at
+				tooltip = zan_centralize_trade_at
 				OR = {
 					1448 = { trade_share = { country = ROOT share = 85 } }
 					1460 = { trade_share = { country = ROOT share = 85 } }
@@ -408,14 +398,14 @@ kilwa_trade_conquest_missions_slot = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = aju_centralize_trade_bt
+				tooltip = zan_centralize_trade_bt
 				OR = {
 					1191 = { OR = { is_strongest_trade_power = ROOT trade_share = { country = ROOT share = 30 } } }
 					4346 = { OR = { is_strongest_trade_power = ROOT trade_share = { country = ROOT share = 30 } } }
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = aju_centralize_trade_ct
+				tooltip = zan_centralize_trade_ct
 				OR = {
 					504 = { OR = { is_strongest_trade_power = ROOT trade_share = { country = ROOT share = 10 } } }
 					1340 = { OR = { is_strongest_trade_power = ROOT trade_share = { country = ROOT share = 10 } } }
@@ -555,9 +545,9 @@ budhcad_badeed_colonization_missions_slot = {
 				name = zan_trade_with_india
 				duration = 9125
 			}
-			create_explorer = {
-				tradition = 40
-			}
+			add_mercantilism = 5
+			add_prestige = 10
+			add_adm_power = 200
 		}
 	}
 
