@@ -339,7 +339,6 @@ kilwa_trade_conquest_missions_slot = {
 			Merchant = 1
 			}
 		}
-	}
 
 	#Make Zanzibar to the best trade node
 	aju_centralize_trade = {
