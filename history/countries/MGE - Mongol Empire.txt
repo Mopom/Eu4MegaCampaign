@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = plutocratic_reform
+add_government_reform = reformed_horde_reform
 government_rank = 3
 technology_group = chinese
 historical_friend = Z01

@@ -15,6 +15,7 @@ empire_of_china_nomadic_border = {
 				OR = {
 					has_reform = steppe_horde
 					has_reform = great_mongol_state_reform
+					has_reform = reformed_horde_reform
 				}
 				total_own_and_non_tributary_subject_development = 300
 			}

@@ -20,4 +20,4 @@ TODO: Charles shatter on Abbassids
 Federation mission chain to get the Dutch (Saxon) republic
 Change age of reformation (trigger, names, objectives)
 Change printing press trigger
-Wang unique gov
+Wang Steppe Shock Bonus
