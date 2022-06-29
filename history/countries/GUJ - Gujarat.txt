@@ -1,9 +1,11 @@
 government = republic
+add_government_reform = merchants_reform
 government_rank = 1
 technology_group = indian
 religion = gangan
 primary_culture = gujarati
 capital = 2054
+mercantilism = 25
 1391.1.1= {
 	monarch = {
 		name = "Zafar Khan"

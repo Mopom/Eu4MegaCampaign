@@ -203,6 +203,52 @@ country_decisions = {
 	}
 
 	#Other
+vision_quest = {
+		potential = {
+			NOT = { has_country_modifier = rite_of_passage }
+			religion_group = pagan
+		}
+		allow = {
+			ADM = 3
+		}
+		effect = {	
+			add_country_modifier = {
+				name = "rite_of_passage"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = { stability = 1 }
+				factor = 0
+			}
+		}
+	}
+	
+	save_the_burning_world = {
+		potential = {
+			NOT = { has_country_modifier = saving_the_burning_world }
+			religion = sikhism
+		}
+		allow = {
+			ADM = 3
+		}
+		effect = {	
+			add_country_modifier = {
+				name = "saving_the_burning_world"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_idea_group = humanist_ideas
+				factor = 0
+			}
+		}
+	}
+
 	restrict_government_offices_EXTRA = {
 		potential = {
 			NOT = { has_country_modifier = restricted_offices }

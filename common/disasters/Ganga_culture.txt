@@ -56,14 +56,7 @@ ming_crisis = {
 	}
 	
 	can_end = {
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-			}
-		}
-		else = {
-			stability = 3
-		}
+		stability = 3
 		is_bankrupt = no
 		NOT = { num_of_loans = 5 }
 		NOT = { corruption = 5 }
@@ -79,16 +72,5 @@ ming_crisis = {
 		global_tax_modifier = -0.5
 		global_trade_goods_size_modifier = -0.3
 	}
-	
 	on_start = ming_crisis.1
-	
-	on_monthly = {
-		events = {
-		}
-		random_events = {
-			1000 = 0
-			100 = ming_crisis.6 # Rebellion
-			100 = ming_crisis.11
-		}
-	}
 }
