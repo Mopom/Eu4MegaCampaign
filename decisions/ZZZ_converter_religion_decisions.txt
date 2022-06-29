@@ -229,7 +229,7 @@ vision_quest = {
 	save_the_burning_world = {
 		potential = {
 			NOT = { has_country_modifier = saving_the_burning_world }
-			religion = sikhism
+			religion = gangan
 		}
 		allow = {
 			ADM = 3
