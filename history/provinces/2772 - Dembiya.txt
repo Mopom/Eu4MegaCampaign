@@ -1,5 +1,5 @@
-owner = ETH
-controller = ETH
+owner = BTI
+controller = BTI
 capital = "Gorgora"
 is_city = yes
 culture = amhara
@@ -8,6 +8,7 @@ trade_goods = cotton
 base_tax = 1
 base_production = 4
 base_manpower = 1
+add_core = BTI
 add_core = ETH
 discovered_by = eastern
 discovered_by = indian

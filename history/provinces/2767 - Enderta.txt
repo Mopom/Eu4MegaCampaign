@@ -1,5 +1,5 @@
-owner = ETH
-controller = ETH
+owner = BTI
+controller = BTI
 capital = "Antalo"
 is_city = yes
 culture = tigray
@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 8
 base_manpower = 2
+add_core = BTI
 add_core = ETH
 add_core = MED
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = BEJ
-controller = BEJ
+owner = BTI
+controller = BTI
 capital = "Qoz Rajab"
 is_city = yes
 culture = dynamic-nubian-culture-num1
@@ -10,6 +10,7 @@ base_tax = 4
 base_production = 1
 base_manpower = 1
 add_core = BEJ
+add_core = BTI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

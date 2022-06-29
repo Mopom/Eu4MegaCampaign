@@ -1,5 +1,5 @@
-owner = ETH
-controller = ETH
+owner = BTI
+controller = BTI
 capital = "Dabareq"
 is_city = yes
 culture = tigray
@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 1
+add_core = BTI
 add_core = ETH
 add_core = MED
 discovered_by = eastern

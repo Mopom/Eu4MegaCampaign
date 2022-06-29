@@ -1,5 +1,5 @@
-owner = ETH
-controller = ETH
+owner = BTI
+controller = BTI
 capital = "Hayq"
 is_city = yes
 culture = amhara
@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 5
 base_production = 4
 base_manpower = 2
+add_core = BTI
 add_core = ETH
 discovered_by = eastern
 discovered_by = indian
