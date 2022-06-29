@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = NAJ
+controller = NAJ
 capital = "Al-Qatif"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -10,7 +10,7 @@ base_production = 9
 base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
-add_core = Z00
+add_core = NAJ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

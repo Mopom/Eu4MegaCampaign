@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = NAJ
+controller = NAJ
 capital = "Diriyah"
 is_city = yes
 culture = bedouin_arabic
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 2
 base_manpower = 1
 add_core = NAJ
-add_core = Z00
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

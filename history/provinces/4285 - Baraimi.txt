@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = OMA
+controller = OMA
 capital = "Ibri"
 is_city = yes
 culture = omani_culture
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 4
 base_manpower = 1
 add_core = OMA
-add_core = Z00
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

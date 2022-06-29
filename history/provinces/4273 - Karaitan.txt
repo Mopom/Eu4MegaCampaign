@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = NAJ
+controller = NAJ
 capital = "Kariatan"
 is_city = yes
 culture = hejazi_culture
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 4
 base_manpower = 1
 add_core = HED
-add_core = Z00
+add_core = NAJ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
