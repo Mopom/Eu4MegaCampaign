@@ -16,8 +16,8 @@ Russia = RUS
 
 
 
-TODO: Fix France's leaders according to Lot, do the Charles shatter on the Federation and France.
+TODO: Charles shatter on Abbassids
 Federation mission chain to get the Dutch (Saxon) republic
 Change age of reformation (trigger, names, objectives)
 Change printing press trigger
-Change loading screen picture and add quotes
+Wang unique gov
