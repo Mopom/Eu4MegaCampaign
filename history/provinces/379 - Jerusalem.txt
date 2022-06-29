@@ -9,6 +9,7 @@ base_tax = 8
 base_production = 8
 base_manpower = 5
 add_core = MAM
+add_core = Z00
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
