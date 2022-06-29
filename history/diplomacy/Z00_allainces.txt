@@ -1,0 +1,20 @@
+vassal = {
+	first = Z00
+	second = MAM
+	start_date = 1444.1.1
+}
+vassal = {
+	first = Z00
+	second = NAJ
+	start_date = 1444.1.1
+}
+vassal = {
+	first = Z00
+	second = OMA
+	start_date = 1444.1.1
+}
+vassal = {
+	first = Z00
+	second = ADE
+	start_date = 1444.1.1
+}
