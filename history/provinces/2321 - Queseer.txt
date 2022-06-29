@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Al Qusair"
 is_city = yes
 culture = hejazi_culture
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = HED
-add_core = Z00
+add_core = MAM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

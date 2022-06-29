@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Nicosia"
 is_city = yes
 culture = anatolian
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 5
 base_manpower = 2
 add_core = BYZ
-add_core = Z00
+add_core = MAM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
