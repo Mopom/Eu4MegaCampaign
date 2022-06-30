@@ -337,7 +337,6 @@ renaissance = {
 	
 	can_start = {
 		is_year = 1450
-		region = balkan_region
 		OR = { 
 			area = macedonia_area
 			area = northern_greece_area
@@ -405,20 +404,6 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 1
-			potential = {
-				region = italy_region
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
-				is_capital = yes
-				region = italy_region
-				culture_group = latin
-			}
-			
-			
-		}
-		modifier = {
 			factor = 0.05
 			scale = yes
 			potential = {
@@ -459,18 +444,36 @@ renaissance = {
 			factor = 0.5
 			scale = yes
 			potential = {
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
+				OR = { 
+					area = macedonia_area
+					area = northern_greece_area
+					area = morea_area
+					area = thrace_area
+					area = rascia_area
+					area = albania_area
+					area = east_adriatic_coast_area
+					area = hudavendigar_area
+					area = aydin_area
+					area = aegean_archipelago_area
+					area = apulia_area
+					area = calabria_area
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_flanders_tuscany_venetia
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
+				OR = { 
+					area = macedonia_area
+					area = northern_greece_area
+					area = morea_area
+					area = thrace_area
+					area = rascia_area
+					area = albania_area
+					area = east_adriatic_coast_area
+					area = hudavendigar_area
+					area = aydin_area
+					area = aegean_archipelago_area
+					area = apulia_area
+					area = calabria_area
 				}
 			}
 		}
