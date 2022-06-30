@@ -73,4 +73,12 @@ ming_crisis = {
 		global_trade_goods_size_modifier = -0.3
 	}
 	on_start = ming_crisis.1
+
+on_monthly = {
+		random_events = {
+			1000 = 0
+			100 = ming_crisis.6 # Rebellion
+			100 = ming_crisis.11
+		}
+	}
 }
