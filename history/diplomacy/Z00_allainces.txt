@@ -1,0 +1,27 @@
+vassal = {
+	first = Z00
+	second = MAM
+	start_date = 1444.1.1
+}
+vassal = {
+	first = Z00
+	second = NAJ
+	start_date = 1444.1.1
+}
+vassal = {
+	first = Z00
+	second = OMA
+	start_date = 1444.1.1
+}
+vassal = {
+	first = Z00
+	second = ADE
+	start_date = 1444.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = Z00
+	second = BTI
+	start_date = 1444.1.1
+	end_date = 1502.1.1
+}

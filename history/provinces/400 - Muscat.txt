@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = OMA
+controller = OMA
 capital = "Masqat"
 is_city = yes
 culture = omani_culture
@@ -11,7 +11,6 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = OMA
-add_core = Z00
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

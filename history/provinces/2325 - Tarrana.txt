@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Marsa Matruh"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 4
 base_production = 4
 base_manpower = 2
-add_core = Z00
+add_core = MAM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

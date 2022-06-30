@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Medowa"
 is_city = yes
 culture = dynamic-daju-zaghawa-culture-num1
@@ -8,7 +8,7 @@ trade_goods = unknown
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = Z00
+add_core = MAM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

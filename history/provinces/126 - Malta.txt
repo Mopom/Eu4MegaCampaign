@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Mdina"
 is_city = yes
 culture = berber
@@ -9,6 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 add_core = TLC
+add_core = MAM
 add_core = Z00
 discovered_by = eastern
 discovered_by = indian

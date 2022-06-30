@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Soba"
 is_city = yes
 culture = nubian
@@ -11,7 +11,7 @@ base_manpower = 3
 extra_cost = 16
 center_of_trade = 2
 add_core = NUB
-add_core = Z00
+add_core = MAM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

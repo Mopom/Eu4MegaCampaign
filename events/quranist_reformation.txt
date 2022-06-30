@@ -1,0 +1,90 @@
+country_event = {
+	id = quranist_reformation.1
+	title = quranist_reformation.1.t
+	desc = quranist_reformation.1.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		NOT = { has_global_flag = quranist_revival }
+		is_year = 1520
+		tag = Z00
+		any_province = {
+			OR = {
+				region = egypt_region
+				area = palestine_area
+			}
+			owned_by = Z00
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = "QURANIST_REFORMATION_BEGINS"
+		ai_chance = { factor = 100 }
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = quranist_revival
+			every_owned_province = {
+				limit = {
+					region = egypt_region
+					fort_level = 1
+				}
+				spawn_rebels = {
+					type = quranist_rebels
+					size = 4
+					win = yes
+					friend = MAM
+				}
+			}
+			MAM = {
+				country_event = { id = quranist_reformation.2 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = quranist_reformation.2
+	title = quranist_reformation.2.t
+	desc = quranist_reformation.2.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "EGYPT_JOINS"
+		ai_chance = { factor = 100 }
+		change_religion = quranist
+	}
+	option = {
+		name = "EGYPT_REFUSES"
+		ai_chance = { factor = 0 }
+		change_religion = quranist
+		add_stability = -2
+		every_owned_province = {
+			limit = {
+				region = egypt_region
+				fort_level = 1
+			}
+			spawn_rebels = {
+				type = quranist_rebels
+				size = 4
+				win = yes
+			}
+		}
+	}
+	immediate = {
+		364 = {
+			change_religion = quranist
+			add_reform_center = quranist
+		}
+	}
+		
+}

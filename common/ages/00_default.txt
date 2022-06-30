@@ -262,7 +262,7 @@ age_of_reformation = {
 
 	can_start = {
 		OR = {
-			is_religion_enabled = protestant
+			has_global_flag = quranist_revival
 			is_year = 1594 #6 years before 1600, when Global Trade Can Spawn
 		}
 	}
@@ -274,13 +274,7 @@ age_of_reformation = {
 	objectives = {
 		obj_christian_convert = {
 			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-				religion = hussite
-				religion = cathar
-				religion = waldensian
-				religion = lollard
+				religion = quranist
 			}
 		}
 

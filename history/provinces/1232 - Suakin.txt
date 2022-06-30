@@ -1,5 +1,5 @@
-owner = BEJ
-controller = BEJ
+owner = BTI
+controller = BTI
 capital = "Suakin"
 is_city = yes
 culture = nubian
@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 2
 base_manpower = 2
 add_core = BEJ
+add_core = BTI
 add_core = NUB
 discovered_by = eastern
 discovered_by = indian

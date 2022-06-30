@@ -1,5 +1,5 @@
-owner = BEJ
-controller = BEJ
+owner = BTI
+controller = BTI
 capital = "Debre Asbo"
 is_city = yes
 culture = amhara
@@ -9,6 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 add_core = BEJ
+add_core = BTI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

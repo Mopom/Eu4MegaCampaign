@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = ADE
+controller = ADE
 capital = "Beihan"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 add_core = ADE
-add_core = Z00
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

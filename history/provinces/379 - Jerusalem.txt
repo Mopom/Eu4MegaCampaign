@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MAM
+controller = MAM
 capital = "Al Quds"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 8
 base_production = 8
 base_manpower = 5
+add_core = MAM
 add_core = Z00
 discovered_by = eastern
 discovered_by = indian

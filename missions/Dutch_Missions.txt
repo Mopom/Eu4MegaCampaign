@@ -57,6 +57,15 @@ ned_reconquest_group = {
 		position = 2
 		
 		trigger = {
+            calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_march = yes
+						is_vassal = yes
+					}
+				}
+			}
 		}
 		
 		effect = {
