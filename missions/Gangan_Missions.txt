@@ -111,19 +111,19 @@ dlh_conquer_gujarat = {
 		trigger = {
 			patan_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				owned_by = GUJ	
 			}
 			ahmedabad_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				owned_by = GUJ	
 			}
 			saurashtra_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				owned_by = GUJ	
 			}
 			tapti_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				owned_by = GUJ	
 			}
 		}
 		effect = {
@@ -587,6 +587,10 @@ dlh_west_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_country_modifier = {
+				name = "dlh_rajput_conquest_modifier"
+				duration = 7300
+			}
 		}
 	}
 	dlh_restore_empire = {
@@ -711,49 +715,10 @@ dlh_slot_4 = {
 			}
 		}
 	}
-	dlh_conquer_rajputs = {
-		icon = mission_conquer_rajputana
-		required_missions = { dlh_conquer_malwa }
-		provinces_to_highlight = {
-			OR = {
-				area = marwar_area
-				area = mewar_area
-				area = jaipur_area
-				area = jangladesh_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			marwar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			mewar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			jaipur_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			jangladesh_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "dlh_rajput_conquest_modifier"
-				duration = 7300
-			}
-		}
-	}
 	
 }
 dlh_slot_5 = {
-slot = 1
+slot = 5
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -768,35 +733,30 @@ slot = 1
 	
 	gan_npl_mission = {
 		icon = mission_reclaim_lost_territory
-		required_missions = { dlh_jnp_reconquest }
+		required_missions = { }
 		position = 3
-		completed_by = 1504.1.1
 		provinces_to_highlight = {
 			OR = {
-				area = Tsang_area
-				area = Bhutan_area
-				area = Ngari_area
+				area = tsang_area
+				area = bhutan_area
+				area = ngari_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			Tsang_area = {
+			tsang_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = NPL
+				owned_by = NPL
 			}
-			Bhutan_area = {
+			bhutan_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = NPL
+				owned_by = NPL
 			}
-			Ngari_area = {
+			ngari_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = NPL
-			}
-			tapti_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = NPL
+				owned_by = NPL
 			}
 		}
 	}
