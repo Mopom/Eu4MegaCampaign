@@ -23,7 +23,7 @@ union = {
  	end_date = 1569.7.1
  }
   vassal = {
- 	first = POM
+ 	first = Z02
  	second = SOR
  	start_date = 1400.6.25
  	end_date = 1569.7.1

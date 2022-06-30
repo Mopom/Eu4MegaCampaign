@@ -92,6 +92,7 @@ feudalism = {
 				NOT = { owner = { has_reform = tribal_kingdom } } #Ladakh
 			}
 			owner = { technology_group = high_american }
+			owner = { tag = MAL }
 			owner = {
 				NOT = {
 					government = tribal
