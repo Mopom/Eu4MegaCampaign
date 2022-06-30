@@ -247,6 +247,7 @@ republic = {
 				merchants_reform
 				venice_merchants_reform
 				pirate_republic_reform
+				t_pirate_reform
 				noble_elite_reform
 				free_city
 				trading_city
@@ -381,12 +382,14 @@ republic = {
 		pirate_republic_reform
 		protectorate_parliament_reform
 		prussian_republic_reform
+		t_pirate_reform
 	}
 	exclusive_reforms = {
 		lottery_reform
 		venice_merchants_reform
 		dutch_republic
 		pirate_republic_reform
+		t_pirate_reform
 		admiralty_reform
 		prussian_republic_reform
 		military_dictatorship_reform
@@ -812,6 +815,10 @@ pre_dharma_mapping = {
 		legacy_government = tsardom_legacy
 	}
 	pirate_republic_reform = {
+		government = republic
+		legacy_government = pirate_republic
+	}
+	t_pirate_reform = {
 		government = republic
 		legacy_government = pirate_republic
 	}
