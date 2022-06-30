@@ -592,7 +592,7 @@ dlh_west_missions = {
 	dlh_restore_empire = {
 		icon = mission_delhi_resurgent
 		required_missions = { dlh_conquer_deccan }
-		position = 5
+		position = 6
 		provinces_to_highlight = {
 		}
 		trigger = {
