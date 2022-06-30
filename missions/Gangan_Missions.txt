@@ -752,3 +752,52 @@ dlh_slot_4 = {
 	}
 	
 }
+dlh_slot_5 = {
+slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	gan_npl_mission = {
+		icon = mission_reclaim_lost_territory
+		required_missions = { dlh_jnp_reconquest }
+		position = 3
+		completed_by = 1504.1.1
+		provinces_to_highlight = {
+			OR = {
+				area = Tsang_area
+				area = Bhutan_area
+				area = Ngari_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			Tsang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = NPL
+			}
+			Bhutan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = NPL
+			}
+			Ngari_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = NPL
+			}
+			tapti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = NPL
+			}
+		}
+	}
+}
