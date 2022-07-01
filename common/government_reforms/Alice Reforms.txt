@@ -76,6 +76,21 @@ t_pirate_reform = {
 	}
 	
 	duration = 4
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = pirate_republic_reform
 	
 	custom_attributes = {
 		locked_government_type = yes

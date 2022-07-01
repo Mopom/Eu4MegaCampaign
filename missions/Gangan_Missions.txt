@@ -88,7 +88,6 @@ dlh_east_missions = {
 			war_with = BNG
 		}
 		effect = {
-			AVA = {	add_liberty_desire = -20 }
 			GUJ = {	add_liberty_desire = -20 }
 			NPL = {	add_liberty_desire = -20 }
 		}
@@ -737,16 +736,17 @@ slot = 5
 		position = 3
 		provinces_to_highlight = {
 			OR = {
-				area = tsang_area
+				area = utsang_area
 				area = bhutan_area
 				area = ngari_area
+				area = nepal_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			tsang_area = {
+			utsang_area = {
 				type = all
 				owned_by = NPL
 			}
@@ -757,6 +757,27 @@ slot = 5
 			ngari_area = {
 				type = all
 				owned_by = NPL
+			}
+			nepal_area = {
+				type = all
+				owned_by = NPL
+			}
+		}
+		effect = {
+			himalayan_hills_area = {
+				cede_province = Z01
+			}	
+			nepal_area = {
+				cede_province = Z01
+			}	
+			4484 = {
+				cede_province = Z01
+			}	
+			4492 = {
+				cede_province = Z01
+			}
+			554 = {
+				cede_province = Z01
 			}
 		}
 	}
