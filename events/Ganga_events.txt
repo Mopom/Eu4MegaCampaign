@@ -1,0 +1,146 @@
+country_event = {
+	id = gng_crisis.3
+	title = "flavor_mng.EVTNAME8"
+	desc = "flavor_mng.EVTDESC8"
+	picture = FAMINE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = z01
+			has_country_flag = ming_crisis
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {
+		name = "flavor_mng.EVTOPTA8" # There is nothing we can do
+		ai_chance = { factor = 25 }
+		else = {
+			add_prestige = -20
+		}
+		add_stability = -1
+		add_country_modifier = {
+			name = severe_famine
+			duration = 3650
+		}
+	}
+	option = {
+		name = "flavor_mng.EVTOPTB8" # Try to ease the suffering
+		ai_chance = { factor = 50 }
+		else = {
+			add_prestige = -10
+		}
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = famine
+			duration = 3650
+		}
+	}
+	option = {
+		name = "flavor_mng.EVTOPTC8" # Use all our resources to aim those in need
+		ai_chance = { factor = 25 }
+		add_years_of_income = -3
+		add_adm_power = -100
+		add_country_modifier = {
+			name = fighting_famine
+			duration = 1825
+		}
+	}
+}
+
+country_event = {
+	id = gng_crisis.4
+	title = "flavor_mng.EVTNAME4"
+	desc = "flavor_mng.EVTDESC4"
+	picture = IMPORTANT_STATUE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = z01
+			has_country_flag = ming_crisis
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "flavor_mng.EVTOPTB5" #Close China to the outside world
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = mng_closed_china
+			duration = -1
+		}
+	}
+	option = {
+		name = "flavor_mng.EVTOPTC5" #Keep trade open for all
+		add_stability = -1
+		add_country_modifier = {
+			name = mng_open_china
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = gng_crisis.5
+	title = "flavor_mng.EVTNAME8"
+	desc = "flavor_mng.EVTDESC8"
+	picture = FAMINE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = z01
+			has_country_flag = ming_crisis
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "flavor_mng.EVTOPTA8" # There is nothing we can do
+		ai_chance = { factor = 25 }
+		else = {
+			add_prestige = -20
+		}
+		add_stability = -1
+		add_country_modifier = {
+			name = severe_famine
+			duration = 3650
+		}
+	}
+	option = {
+		name = "flavor_mng.EVTOPTB8" # Try to ease the suffering
+		ai_chance = { factor = 50 }
+		else = {
+			add_prestige = -10
+		}
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = famine
+			duration = 3650
+		}
+	}
+	option = {
+		name = "flavor_mng.EVTOPTC8" # Use all our resources to aim those in need
+		ai_chance = { factor = 25 }
+		add_years_of_income = -3
+		add_adm_power = -100
+		add_country_modifier = {
+			name = fighting_famine
+			duration = 1825
+		}
+	}
+}
