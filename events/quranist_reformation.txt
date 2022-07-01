@@ -85,6 +85,14 @@ country_event = {
 			change_religion = quranist
 			add_reform_center = quranist
 		}
+		387 = {
+			change_religion = quranist
+			add_reform_center = quranist
+		}
+		411 = {
+			change_religion = quranist
+			add_reform_center = quranist
+		}
 	}
 		
 }
