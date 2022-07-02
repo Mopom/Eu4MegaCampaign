@@ -1,4 +1,4 @@
-ming_crisis = {
+gng_crisis = {
 	potential = {
 		tag = Z01
 		NOT = { has_country_flag = ming_crisis_happened }
