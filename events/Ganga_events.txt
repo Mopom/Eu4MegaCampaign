@@ -8,8 +8,9 @@ country_event = {
 	
 	trigger = {
 		AND = {
-			tag = z01
-			has_country_flag = ming_crisis
+			tag = Z01
+			is_year = 1450
+			NOT = { is_year = 1500 }
 		}
 	}
 	
@@ -64,7 +65,8 @@ country_event = {
 	trigger = {
 		AND = {
 			tag = z01
-			has_country_flag = ming_crisis
+			is_year = 1450
+			NOT = { is_year = 1500 }
 		}
 	}
 	
@@ -101,7 +103,8 @@ country_event = {
 	trigger = {
 		AND = {
 			tag = z01
-			has_country_flag = ming_crisis
+			is_year = 1450
+			NOT = { is_year = 1500 }
 		}
 	}
 	
