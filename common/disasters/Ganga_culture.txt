@@ -73,7 +73,7 @@ ming_crisis = {
 		global_trade_goods_size_modifier = -0.5
 		stability_cost_modifier = 0.25
 	}
-	on_start = ming_crisis.1
+	on_start = gng_crisis.1
 
 on_monthly = {
 		events = {
