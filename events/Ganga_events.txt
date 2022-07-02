@@ -60,7 +60,7 @@ country_event = {
 				spawn_rebels = {
 					type = anti_tax_rebels 
 					size = 6
-				}``
+				}
 			}
 		}
 	country_event = {
@@ -84,7 +84,7 @@ country_event = {
 
 # The Mandate Restored
 country_event = {
-	id = ming_crisis.2
+	id = gng_crisis.2
 	title = "ming_crisis.2.t"
 	desc = "ming_crisis.2.d"
 	picture = CIVIL_WAR_eventPicture

@@ -74,6 +74,7 @@ ming_crisis = {
 		stability_cost_modifier = 0.25
 	}
 	on_start = gng_crisis.1
+	on_end = gng_crisis.2
 
 on_monthly = {
 		events = {
