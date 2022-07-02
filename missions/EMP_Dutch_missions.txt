@@ -337,7 +337,7 @@ emp_ned_slot2_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_fixed_garrisons"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

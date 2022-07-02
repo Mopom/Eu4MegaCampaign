@@ -22,9 +22,10 @@ christian = {
 			advisor_pool = 1
 			tolerance_heathen = 1
 			tolerance_heretic = 1
+			female_advisor_chance = 0.5
 		}
 		province = {
-			local_missionary_strength = -0.03
+			local_missionary_strength = -0.025
 		}
 		country_as_secondary = {
 			advisor_cost = -0.3

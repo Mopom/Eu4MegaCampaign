@@ -3508,7 +3508,8 @@ ned_je_maintiendrai_mod = {
 }
 
 ned_the_admiralty_colleges_mod = {
-    navy_tradition = 0.5
+    navy_tradition = 1
+    naval_morale = 0.1
 }
 
 ser_novo_brdo_code = {
