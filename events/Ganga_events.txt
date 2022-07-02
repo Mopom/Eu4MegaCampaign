@@ -1,6 +1,6 @@
 namespace = gng_crisis
 
-# Mandate Questioned
+# Ganga Questioned
 country_event = {
 	id = gng_crisis.1
 	title = "gng_crisis.1.t"
@@ -62,22 +62,11 @@ country_event = {
 					size = 6
 				}
 			}
-		}
-	country_event = {
-		ROOT =  { 
-			declare_war_with_cb = {
-				who = BNG
-				casus_belli = cb_core
-				war_goal_province = 540
-			}
-		}
 		
-	}
 	
 	option = {
-		name = ming_crisis.1.a
+		name = gng_crisis.1.a
 		add_stability = -2
-		add_mandate = -35
 		add_corruption = 5
 	}
 }
@@ -85,14 +74,14 @@ country_event = {
 # The Mandate Restored
 country_event = {
 	id = gng_crisis.2
-	title = "ming_crisis.2.t"
-	desc = "ming_crisis.2.d"
+	title = "gng_crisis.2.t"
+	desc = "gng_crisis.2.d"
 	picture = CIVIL_WAR_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = ming_crisis.2.a
+		name = gng_crisis.2.a
 		add_stability = 1
 	}
 }
