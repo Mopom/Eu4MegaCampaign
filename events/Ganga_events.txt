@@ -64,17 +64,19 @@ country_event = {
 				}
 			}
 		}
+	}
 
 	option = {
-		name = gng_crisis.1.a
+		name = "gng_crisis.1.a"
 		add_stability = -2
 		add_corruption = 5
-		ROOT =  { 
+		BNG =  { 
 			declare_war_with_cb = {
-				who = BNG
+				who = Z01
 				casus_belli = cb_core
 				war_goal_province = 540
 			}
+		}
 	}
 }
 
@@ -88,7 +90,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = gng_crisis.2.a
+		name = "gng_crisis.2.a"
 		add_stability = 1
 	}
 }
@@ -100,11 +102,11 @@ country_event = {
 	picture = FAMINE_eventPicture
 	
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		AND = {
 			tag = Z01
-			is_year = 1450
 			NOT = { is_year = 1500 }
 		}
 	}
@@ -198,7 +200,6 @@ country_event = {
 	trigger = {
 		AND = {
 			tag = z01
-			is_year = 1450
 			NOT = { is_year = 1500 }
 		}
 	}
