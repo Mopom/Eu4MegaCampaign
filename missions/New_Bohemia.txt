@@ -514,6 +514,9 @@ ubl_missions_economy = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
+			4740 = {
+				province_event = { id = new_flavour_mlo.15 }
+			}
 		}
 	}
 	
