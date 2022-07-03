@@ -1,31 +1,21 @@
 gng_crisis = {
 	potential = {
 		tag = Z01
-		NOT = { has_country_flag = ming_crisis_happened }
+		NOT = { has_country_flag = gng_crisis_happened }
 		normal_or_historical_nations = yes
 	}
 	
 	can_start = {
 		has_any_disaster = no
-		if = {
-			limit = {	
-				has_dlc = "Mandate of Heaven"
-			}
-		}
 	}
 	
 	can_stop = {
 		has_any_disaster = yes
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-			}
-		}
 	}
 	
 	progress = {
 		modifier = {
-			factor = 10
+			factor = 50
 			NOT = { stability = 3 }
 		}
 		modifier = {
@@ -73,6 +63,7 @@ gng_crisis = {
 		global_trade_goods_size_modifier = -0.5
 		stability_cost_modifier = 0.25
 	}
+
 	on_start = gng_crisis.1
 	on_end = gng_crisis.2
 

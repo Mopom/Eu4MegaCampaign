@@ -1,4 +1,5 @@
 namespace = gng_crisis
+normal_or_historical_nations = yes
 
 # Ganga Questioned
 country_event = {
@@ -62,12 +63,18 @@ country_event = {
 					size = 6
 				}
 			}
-		
-	
+		}
+
 	option = {
 		name = gng_crisis.1.a
 		add_stability = -2
 		add_corruption = 5
+		ROOT =  { 
+			declare_war_with_cb = {
+				who = BNG
+				casus_belli = cb_core
+				war_goal_province = 540
+			}
 	}
 }
 
