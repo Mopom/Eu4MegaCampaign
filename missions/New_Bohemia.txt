@@ -667,7 +667,7 @@ bohlom_missions_4 = {
 		trigger = {
 			OR = {
 				NOT = { exists = HAB }
-				HAB = { liberty_desire = 50 }
+				NOT = { HAB = { liberty_desire = 50 } }
 			}
 		}
 		effect = {
