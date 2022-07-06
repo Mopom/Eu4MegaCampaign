@@ -779,6 +779,9 @@ slot = 5
 			554 = {
 				cede_province = Z01
 			}
+			NPL = { 
+				override_country_name = "Tibet"
+			}
 		}
 	}
 }
