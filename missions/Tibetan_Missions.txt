@@ -269,6 +269,7 @@ tib_slot_3 = {
 			tag = UTS
 			tag = KAM
 			tag = PHA
+			tag = NPL
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -465,6 +466,7 @@ tib_slot_4 = {
 			tag = UTS
 			tag = KAM
 			tag = PHA
+			tag = NPL
 		}
 		NOT = { map_setup = map_setup_random }
 	}
