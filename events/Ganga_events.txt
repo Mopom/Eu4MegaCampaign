@@ -92,8 +92,17 @@ country_event = {
 	option = {
 		name = "gng_crisis.2.a"
 		add_stability = 1
+		add_government_reform = mughal_government
+		add_government_reform = mansabdari_reform
+		add_government_reform = zabt_reform
+		if = {
+			limit = {
+				has_reform = states_general_reform
+			}
+			remove_government_reform = states_general_reform
+		}
 	}
-}
+		
 
 country_event = {
 	id = gng_crisis.3
