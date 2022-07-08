@@ -104,7 +104,7 @@ dlh_conquer_gujarat = {
 				area = tapti_area
 			}
 			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = GUJ
 			}
 		}
 		trigger = {
@@ -120,8 +120,10 @@ dlh_conquer_gujarat = {
 				type = all
 				owned_by = GUJ	
 			}
-			tapti_area = {
-				type = all
+			517 = {
+				owned_by = GUJ	
+			}
+			4430 = {
 				owned_by = GUJ	
 			}
 		}
