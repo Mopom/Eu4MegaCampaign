@@ -649,7 +649,7 @@ mansabdari_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			has_reform = ganga_reform
+			has_reform = ganga_government
 			has_reform = mughal_government
 		}
 	}
