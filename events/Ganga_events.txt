@@ -98,7 +98,6 @@ country_event = {
 		name = "gng_crisis.2.a"
 		add_stability = 1
 		add_government_reform = ganga_government
-		add_government_reform = mansabdari_reform
 		if = {
 			limit = {
 				has_reform = states_general_reform
