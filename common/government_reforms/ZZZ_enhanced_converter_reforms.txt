@@ -648,7 +648,10 @@ mansabdari_reform = {
 	icon = "noble_muslim"
 	allow_normal_conversion = yes
 	potential = {
-		has_reform = mughal_government
+		OR = {
+			has_reform = ganga_reform
+			has_reform = mughal_government
+		}
 	}
 	modifiers = {
 		army_tradition_decay = -0.003
@@ -659,7 +662,10 @@ zabt_reform = {
 	icon = "general_eastern_administrative"
 	allow_normal_conversion = yes
 	potential = {
-		has_reform = mughal_government
+		OR = {
+			has_reform = mughal_government
+			has_reform = ganga_government
+		}
 	}
 	modifiers = {
 		governing_capacity = 150
