@@ -51,7 +51,7 @@ monarchy = {
 				khalsa_reform
 				deccani_society_reform
 				mughal_government
-				gangan_government
+				ganga_government
 				black_army_reform
 				legion_of_honor_reform
 				imperial_nobility_reform
@@ -183,7 +183,7 @@ monarchy = {
 		feudal_theocracy
 		states_general_reform
 		mughal_government
-		gangan_government
+		ganga_government
 		ottoman_government
 		revolutionary_empire_reform
 		prussian_monarchy
@@ -203,7 +203,7 @@ monarchy = {
 	#Effects conflict with each other
 	exclusive_reforms = {
 		mughal_government
-		gangan_government
+		ganga_government
 		decentralize_reform
 	}
 

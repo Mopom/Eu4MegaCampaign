@@ -1135,6 +1135,7 @@ nayankara_reform = {
 			religion = buddhism
 			religion = vajrayana
 			religion = mahayana
+			religion = gangan
 		}
 		OR = {
 			culture_group = dravidian
@@ -1152,6 +1153,7 @@ nayankara_reform = {
 			religion = buddhism
 			religion = vajrayana
 			religion = mahayana
+			religion = gangan
 
 		}
 		OR = {
