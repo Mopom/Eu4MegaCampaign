@@ -1170,8 +1170,10 @@ misl_confederacy_reform = {
 	allow_normal_conversion = yes
 	icon = "misl_confederacy"
 	potential = {
-		has_dlc = "Dharma"
-		religion = sikhism
+		OR = {
+			religion = sikhism
+			religion = gangan
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -1792,9 +1794,10 @@ mansabdari_reform = {
 	icon = "noble_muslim"
 	allow_normal_conversion = yes
 	potential = {
-		tag = MUG
-		NOT = { map_setup = map_setup_random }
-		has_dlc = "Dharma"
+		OR = {
+			tag = MUG
+			tag = Z01
+		}
 	}
 	modifiers = {
 		army_tradition_decay = -0.003
@@ -2027,8 +2030,10 @@ zabt_reform = {
 	icon = "general_eastern_administrative"
 	allow_normal_conversion = yes
 	potential = {
-		has_dlc = "Dharma"
-		tag = MUG
+		OR = {
+			tag = MUG
+			tag = Z01
+		}
 	}
 	modifiers = {
 		governing_capacity = 150

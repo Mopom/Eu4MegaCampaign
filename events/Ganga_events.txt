@@ -65,7 +65,6 @@ country_event = {
 			}
 		}
 	}
-}
 
 	option = {
 		name = "gng_crisis.1.a"
@@ -90,10 +89,15 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = gng_crisis_happened
+		}
+	}
 	option = {
 		name = "gng_crisis.2.a"
 		add_stability = 1
-		add_government_reform = ganga_government
+		add_government_reform = mughal_government
 		add_government_reform = mansabdari_reform
 		add_government_reform = zabt_reform
 		if = {
