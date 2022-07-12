@@ -626,75 +626,6 @@ ubl_missions_economy = {
 	}
 }
 
-bohlom_missions_4 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		tag = UBL
-		NOT = { map_setup = map_setup_random }
-		has_dlc = "Emperor"
-	}
-	has_country_shield = yes
-	ubl_mountain_forts = {
-		icon = fortress_switzerland
-		required_missions = { }
-		provinces_to_highlight = {
-			has_terrain = mountain
-			owned_by = ROOT
-			NOT = { fort_level = 3 }
-		}
-		trigger = {
-			num_of_owned_provinces_with = {
-				value = 3
-				fort_level = 3
-				has_terrain = mountain
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "swiss_mountains_modifier"
-				duration = -1
-			}
-		}
-	}
-	ubl_loyal_austria = {
-		icon = protect_against_austria
-		required_missions = { ubl_mountain_forts }
-		provinces_to_highlight = {
-			owner = { tag = HAB }
-		}
-		trigger = {
-			OR = {
-				NOT = { exists = HAB }
-				NOT = { HAB = { liberty_desire = 50 } }
-			}
-		}
-		effect = {
-			add_dip_power = 100
-		}
-	}
-	ubl_integrate_hab = {
-		icon = end_the_habsburgs
-		required_missions = { ubl_loyal_austria }
-		provinces_to_highlight = {
-			owner = { tag = HAB }
-		}
-		trigger = {
-			NOT = { exists = HAB }
-		}
-		effect = {
-			add_country_modifier = {
-				name = "ended_the_habsburgs"
-				duration = -1
-			}
-		}
-	}
-}
-
 bohlom_1 = {
 	slot = 3
 	generic = no
@@ -824,7 +755,7 @@ bohlom_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "bergordnung_reforms"
-				duration = -1
+				duration = 7200
 			}
 		}
 	}
