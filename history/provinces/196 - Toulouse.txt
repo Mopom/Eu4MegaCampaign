@@ -8,7 +8,7 @@ trade_goods = wine
 base_tax = 6
 base_production = 1
 base_manpower = 1
-add_core =  = BUR
+add_core = BUR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
