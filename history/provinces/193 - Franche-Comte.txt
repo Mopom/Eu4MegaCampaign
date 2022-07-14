@@ -1,6 +1,6 @@
 owner = BUR
 controller = BUR
-capital = "Besançon"
+capital = "BesanÃ§on"
 is_city = yes
 culture = arpitan
 religion = cathar
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 3
 add_core = DAU
-add_core =  = BUR
+add_core = BUR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
