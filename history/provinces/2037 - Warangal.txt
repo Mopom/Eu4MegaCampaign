@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Warangal"
 is_city = yes
 culture = telegu
@@ -9,7 +9,7 @@ base_tax = 7
 base_production = 5
 base_manpower = 3
 add_core = GOC
-add_core = Z01
+add_core = MAD
 add_core = BNG
 discovered_by = indian
 discovered_by = muslim

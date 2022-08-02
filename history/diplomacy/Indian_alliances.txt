@@ -13,6 +13,11 @@ vassal = {
 	second = GUJ
 	start_date = 1444.1.1
 }
+vassal = {
+	first = Z01
+	second = MAD
+	start_date = 1444.1.1
+}
 royal_marriage = {
 	first = Z01
 	second = AVA
