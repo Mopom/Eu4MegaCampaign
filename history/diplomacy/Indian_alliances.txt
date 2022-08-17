@@ -3,7 +3,7 @@ vassal = {
 	second = NPL
 	start_date = 1444.1.1
 }
-march = {
+burma_state = {
 	first = Z01
 	second = AVA
 	start_date = 1344.1.1
