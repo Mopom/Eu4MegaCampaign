@@ -251,6 +251,7 @@ republic = {
 				merchants_reform
 				venice_merchants_reform
 				pirate_republic_reform
+				pirate_city
 				t_pirate_reform
 				noble_elite_reform
 				free_city
@@ -384,6 +385,7 @@ republic = {
 		american_republic
 		revolutionary_republic_reform
 		pirate_republic_reform
+		pirate_city
 		t_pirate_reform
 		protectorate_parliament_reform
 		prussian_republic_reform
@@ -826,6 +828,10 @@ pre_dharma_mapping = {
 	t_pirate_reform = {
 		government = republic
 		legacy_government = pirate_republic
+	}
+	pirate_city = {
+		government = republic
+		legacy_government = trading_city
 	}
 	all_mechanics = {
 		government = monarchy

@@ -108,6 +108,7 @@ dlh_conquer_gujarat = {
 			}
 		}
 		trigger = {
+			dip_power = 100
 			patan_area = {
 				type = all
 				owned_by = GUJ	
@@ -172,12 +173,15 @@ dlh_conquer_gujarat = {
 			}
 			marwar_area = {
 				cede_province = Z01
+				add_core = Z01
 			}
 			jangladesh_area = {
 				cede_province = Z01
+				add_core = Z01
 			}	
 			mewar_area = {
 				cede_province = Z01
+				add_core Z01
 			}
 				
 		}
@@ -784,6 +788,7 @@ slot = 5
 			}
 		}
 		trigger = {
+			adm_power 200
 			utsang_area = {
 				type = all
 				owned_by = NPL
@@ -804,18 +809,23 @@ slot = 5
 		effect = {
 			himalayan_hills_area = {
 				cede_province = Z01
+				add_core = Z01
 			}	
 			nepal_area = {
 				cede_province = Z01
+				add_core = Z01
 			}	
 			4484 = {
 				cede_province = Z01
+				add_core = Z01
 			}	
 			4492 = {
 				cede_province = Z01
+				add_core = Z01
 			}
 			554 = {
 				cede_province = Z01
+				add_core = Z01
 			}
 			NPL = { 
 				override_country_name = "Tibet"
