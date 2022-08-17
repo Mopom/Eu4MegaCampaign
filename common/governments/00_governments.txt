@@ -757,6 +757,10 @@ pre_dharma_mapping = {
 		government = republic
 		legacy_government = imperial_city
 	}
+	pirate_city = {
+		government = republic
+		legacy_government = imperial_city
+	}
 	ambrosian_republic = {
 		government = republic
 		legacy_government = ambrosian_republic_legacy
