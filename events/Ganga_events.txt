@@ -72,33 +72,9 @@ country_event = {
 		add_corruption = 5
 		BNG =  { 
 			declare_war_with_cb = {
-				who = MAD
-				casus_belli = cb_core
-				war_goal_province = 540
-		if = {
-			limit = {
-					540 = { owned_by = MAD }
-			}
-
-			BNG =  { 
-				declare_war_with_cb = {
-					who = MAD
-					casus_belli = cb_core
-					war_goal_province = 540
-				}
-			}
-		}
-		if = {
-			limit = {
-					540 = { owned_by = Z01 }
-			}
-
-			BNG =  { 
-				declare_war_with_cb = {
-					who = Z01
-					casus_belli = cb_core
-					war_goal_province = 540
-				}
+			who = MAD
+			casus_belli = cb_core
+			war_goal_province = 540
 			}
 		}
 	}
