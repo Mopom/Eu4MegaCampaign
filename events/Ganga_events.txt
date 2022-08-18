@@ -70,13 +70,11 @@ country_event = {
 		name = "gng_crisis.1.a"
 		add_stability = -2
 		add_corruption = 5
-<<<<<<< HEAD
 		BNG =  { 
 			declare_war_with_cb = {
 				who = MAD
 				casus_belli = cb_core
 				war_goal_province = 540
-=======
 		if = {
 			limit = {
 					540 = { owned_by = MAD }
@@ -101,7 +99,6 @@ country_event = {
 					casus_belli = cb_core
 					war_goal_province = 540
 				}
->>>>>>> fc6f3dc16034ceeeebbc2e207b3debd1443665bf
 			}
 		}
 	}
