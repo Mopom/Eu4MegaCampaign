@@ -72,7 +72,7 @@ country_event = {
 		add_corruption = 5
 		BNG =  { 
 			declare_war_with_cb = {
-				who = Z01
+				who = MAD
 				casus_belli = cb_core
 				war_goal_province = 540
 			}
