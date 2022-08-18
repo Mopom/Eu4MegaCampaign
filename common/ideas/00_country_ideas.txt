@@ -16322,7 +16322,7 @@ FRA_ideas = {
 	the_philosophes = {
 		technology_cost = -0.1
 	}
-	liberty_egalite_fraternity = {
+	Forgotten_Pasture = {
 		tolerance_heathen = 2
 		tolerance_heretic = 2
 	}
