@@ -88,12 +88,11 @@ dlh_east_missions = {
 			war_with = BNG
 		}
 		effect = {
-			GUJ = {	add_liberty_desire = -20 }
-			NPL = {	add_liberty_desire = -20 }
+			manpower_recovery_speed = 0.1
 		}
 	}
 
-dlh_conquer_gujarat = {
+gujarat_forced_migration = {
 		icon = mission_conquer_gujarat_dlh
 		required_missions = { dlh_jnp_reconquest }
 		provinces_to_highlight = {
@@ -108,7 +107,8 @@ dlh_conquer_gujarat = {
 			}
 		}
 		trigger = {
-			dip_power = 100
+			adm_power = 200
+			manpower = 2
 			patan_area = {
 				type = all
 				owned_by = GUJ	
@@ -143,6 +143,8 @@ dlh_conquer_gujarat = {
 			}
 		}
 		effect = {
+			add_adm_power = -200
+			adD_manpower = -2
 			khandesh_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -174,14 +176,17 @@ dlh_conquer_gujarat = {
 			marwar_area = {
 				cede_province = Z01
 				add_core = Z01
+				add_devastation = 5
 			}
 			jangladesh_area = {
 				cede_province = Z01
 				add_core = Z01
+				add_devastation = 5
 			}	
 			mewar_area = {
 				cede_province = Z01
 				add_core Z01
+				add_devastation = 5
 			}
 				
 		}
@@ -189,13 +194,19 @@ dlh_conquer_gujarat = {
 
 	gng_integration = {
 		icon = mission_conquer_gujarat_dlh
-		required_missions = { dlh_conquer_gujarat }
+		required_missions = { gujarat_forced_migration }
 		provinces_to_highlight = { }
 		trigger = {
 			war_with = BNG
+			dip = 200
+			stability = 3
+			manpower = 2
 		}
 		effect = { 
 			inherit = GUJ 
+			stability = -1
+			add_manpower = -2
+			add_dip = -200
 		}
 	}
 
@@ -634,7 +645,7 @@ dlh_west_missions = {
 			}
 		}
 	}
-	dlh_restore_empire = {
+	gng_restore_empire = {
 		icon = mission_delhi_resurgent
 		required_missions = { dlh_conquer_deccan }
 		position = 7
@@ -645,6 +656,7 @@ dlh_west_missions = {
 			total_development = 500
 		}
 		effect = {
+			override_country_name = "India"
 			set_government_rank = 3
 			add_mil_power = 100
 			add_adm_power = 100
@@ -788,7 +800,8 @@ slot = 5
 			}
 		}
 		trigger = {
-			adm_power 200
+			adm_power = 200
+			cash = 2000
 			utsang_area = {
 				type = all
 				owned_by = NPL
@@ -807,6 +820,8 @@ slot = 5
 			}
 		}
 		effect = {
+			add_adm_power = -200
+			add_cash = -2000
 			himalayan_hills_area = {
 				cede_province = Z01
 				add_core = Z01
