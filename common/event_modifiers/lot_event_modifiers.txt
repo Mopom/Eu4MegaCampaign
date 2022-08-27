@@ -1,0 +1,3 @@
+throne_of_charlemagne = {
+	governing_capacity = 125
+}
