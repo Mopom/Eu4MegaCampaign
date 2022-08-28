@@ -1,3 +1,9 @@
 throne_of_charlemagne = {
 	governing_capacity = 125
 }
+charlemagnes_warriors = {
+	discipline = 0.05
+}
+ae_stuff = {
+	ae_impact = -0.2
+}

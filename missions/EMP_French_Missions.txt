@@ -2028,8 +2028,289 @@ lot_legacy_of_charlemagne_1 = {
 			add_country_modifier = {
 				name = throne_of_charlemagne
 				duration = -1
+				
+			}
+		}
+	}
+	lot_euro_strengthen_our_position = {
+		icon = mission_conquer_50_development
+		required_missions = { lot_fra_throne_of_charlemagne }
+		provinces_to_highlight = {
+			area = alsace_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			alsace_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 100
+		}
+	}
+	lot_euro_cities_of_charlemagne_1 = {
+		icon = mission_guilds_of_barcelona
+		required_missions = { lot_euro_strengthen_our_position }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			NOT = { 
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				AND = {
+					1878 = {
+						owned_by = ROOT
+					}
+					85 = {
+						owned_by = ROOT
+					}
+					78 = {
+						owned_by = ROOT
+					}
+					186 = {
+						owned_by = ROOT
+					}
+					174 = {
+						owned_by = ROOT
+					}
+					203 = {
+						owned_by = ROOT
+					}
+					108 = {
+						owned_by = ROOT
+					}
+					118 = {
+						owned_by = ROOT
+					}
+					134 = {
+						owned_by = ROOT
+					}
+					2957 = {
+						owned_by = ROOT
+					}
 				}
+				amount = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = charlemagnes_warriors
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = ae_stuff
+				duration = 5475
+			
+			}
+		}
+	}
+	lot_euro_cities_of_charlemagne_2 = {
+		icon = mission_guilds_of_barcelona
+		required_missions = { lot_euro_cities_of_charlemagne_1 }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			NOT = { 
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				AND = {
+					1878 = {
+						owned_by = ROOT
+					}
+					85 = {
+						owned_by = ROOT
+					}
+					78 = {
+						owned_by = ROOT
+					}
+					186 = {
+						owned_by = ROOT
+					}
+					174 = {
+						owned_by = ROOT
+					}
+					203 = {
+						owned_by = ROOT
+					}
+					108 = {
+						owned_by = ROOT
+					}
+					118 = {
+						owned_by = ROOT
+					}
+					134 = {
+						owned_by = ROOT
+					}
+					2957 = {
+						owned_by = ROOT
+					}
+				}
+				amount = 5
+			}
+		}
+		effect = {
+			lower_rhineland_area = {
+			add_permanent_claim = ROOT
+			}
+			palatinate_area = {
+			add_permanent_claim = ROOT
+			}
+			alsace_area = {
+			add_permanent_claim = ROOT
+			}
+			upper_rhineland_area = {
+			add_permanent_claim = ROOT
+			}
+			lower_swabia_area = {
+			add_permanent_claim = ROOT
 			}
 		}
 	}
 }
+lot_legacy_of_charlemagne_2 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_euro_churches_of_charlemagne = {
+		icon = italian_riches
+		required_missions = { lot_fra_throne_of_charlemagne }
+		trigger = {
+			temple = 14
+		}
+		effect = {
+		}
+	}
+	lot_euro_capitals_of_charlemagne = {
+		icon = take_the_bishoprics
+		required_missions = { lot_euro_churches_of_charlemagne lot_euro_cities_of_charlemagne_1 }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				AND = {
+					1878 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					85 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					78 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					186 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					174 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					203 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					108 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					118 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					134 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+					2957 = {
+						AND = {
+							owned_by = ROOT
+							development = 30
+						}
+					}
+				}
+				amount = 3
+			}
+		}
+		effect = {
+			set_capital = 186
+			186 = {
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
