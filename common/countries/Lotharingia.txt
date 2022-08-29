@@ -2,6 +2,7 @@ ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 95 106 207 }
 revolutionary_colors = { 8 5 8 }
+override_country_name = CAROLINGIAN_EMPIRE
 historical_idea_groups = {
 	administrative_ideas
 	defensive_ideas
