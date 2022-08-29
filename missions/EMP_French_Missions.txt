@@ -2206,9 +2206,7 @@ lot_legacy_of_charlemagne_1 = {
 				area = upper_rhineland_area
 				area = lower_swabia_area
 			}
-			NOT = { 
-				owned_by = ROOT
-			}
+			NOT = {	owned_by = ROOT }
 		}
 		trigger = {
 			AND = {
@@ -2239,46 +2237,48 @@ lot_legacy_of_charlemagne_1 = {
 				}
 			}
 		}
-		effect = {
-			any_province = {
-				AND= {
-					region = france_region
-					region = low_countries_region
-					region = italy_region
-					region = north_german_region
-					region = south_german_region
-					province_id = 197
-					province_id = 212
-					province_id = 2987
-					province_id = 211
-				}
-				NOT = {
-					AND = {
-						province_id = 170
-						province_id = 171
-						province_id = 169
-						area = corsica_sardinia_area
-						area = sicily_area
-						area = western_sicily_area
-						area = naples_area
-						area = calabria_area
-						area = apulia_area
-						province_id = 112
-						province_id = 130
-						area = erzgebirge_area
-						area = bohemia_area
-						area = moravia_area
-						area = mecklenburg_area
-						area = vorpommern_area
-						area = hinter_pommern_area
-						area = neumark_area
-						area = mittelmark_area
-						area = lusatia_area
-						province_id = 13
-						province_id = 59
-						province_id = 61
-						province_id = 4744
-						province_id = 2965
+        	effect = {
+			every_province = {
+				limit = {
+					OR = {
+						region = france_region
+						region = low_countries_region
+						region = italy_region
+						region = north_german_region
+						region = south_german_region
+						province_id = 197
+						province_id = 212
+						province_id = 2987
+						province_id = 211
+					}
+					NOT = {
+						OR = {
+							province_id = 170
+							province_id = 171
+							province_id = 169
+							area = corsica_sardinia_area
+							area = sicily_area
+							area = western_sicily_area
+							area = naples_area
+							area = calabria_area
+							area = apulia_area
+							province_id = 112
+							province_id = 130
+							area = erzgebirge_area
+							area = bohemia_area
+							area = moravia_area
+							area = mecklenburg_area
+							area = vorpommern_area
+							area = hinter_pommern_area
+							area = neumark_area
+							area = mittelmark_area
+							area = lusatia_area
+							province_id = 13
+							province_id = 59
+							province_id = 61
+							province_id = 4744
+							province_id = 2965
+						}
 					}
 				}
 				add_permanent_claim = ROOT
