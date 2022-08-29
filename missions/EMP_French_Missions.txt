@@ -2382,6 +2382,7 @@ lot_legacy_of_charlemagne_1 = {
 		}
 		effect = {
 			change_tag = HLR
+			set_capital = 1878
 		}
 	}
 }
