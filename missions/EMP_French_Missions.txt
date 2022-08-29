@@ -2212,7 +2212,7 @@ lot_legacy_of_charlemagne_1 = {
 			AND = {
 				lower_rhineland_area = {
 					type = all
-					owned_by = ROOT
+					is_core = ROOT
 				}
 				calc_true_if = {
 					AND = {
@@ -2379,6 +2379,9 @@ lot_legacy_of_charlemagne_1 = {
 				}
 				amount = 230
 			}
+		}
+		effect = {
+			change_tag = HLR
 		}
 	}
 }
