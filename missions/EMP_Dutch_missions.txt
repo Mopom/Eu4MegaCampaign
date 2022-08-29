@@ -203,16 +203,13 @@ emp_ned_slot2_branch = {
 		icon = assert_our_sovereignty
 		required_missions = { }
 		position = 1
-		completed_by = 1568.5.23 # Battle of Heiligerlee, first Dutch victory of the Eighty Years' War
+		completed_by = 1568.5.23
 		
 		trigger = {
 			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = emp_ned_assert_dutch_sovereignty_tt
-				num_of_owned_provinces_with = {
-					value = 4
-					is_core = ROOT
-				}
+			AND = {
+			    NOT = { exists = FKN }
+			    NOT = { exists = SOR }
 			}
 		}
 		effect = {
@@ -283,15 +280,10 @@ emp_ned_slot2_branch = {
 		required_missions = { emp_ned_challenge_spanish_power }
 		position = 2
 		
-		provinces_to_highlight = {
-			region = low_countries_region
-		}
-		
 		trigger = {
 			calc_true_if = {
 				desc = emp_ned_fixed_garrison_system_tt
 				all_owned_province = {
-					region = low_countries_region
 					if = {
 						limit = {
 							ROOT = {
@@ -331,7 +323,7 @@ emp_ned_slot2_branch = {
 						has_building = fort_18th
 					}
 				}
-				amount = 3
+				amount = 15
 			}
 		}
 		effect = {
@@ -639,13 +631,13 @@ emp_ned_slot3_branch = {
 		completed_by = 1550.1.1
 		
 		provinces_to_highlight = {
-			province_id = 45
+			province_id = 97
 		}
 		trigger = {
-			45 = {
+			97 = {
 				trade_share = {
 					country = ROOT
-					share = 33
+					share = 50
 				}
 			}
 		}
@@ -667,9 +659,9 @@ emp_ned_slot3_branch = {
 			has_discovered = ROOT
 		}
 		trigger = {
-        	trade_company_west_africa = {
-        		has_discovered = ROOT
-        	}
+        	north_america = {
+                has_discovered = ROOT
+            }
         }
 		effect = {
 			add_country_modifier = {
@@ -694,7 +686,7 @@ emp_ned_slot3_branch = {
 		trigger = {
 			num_of_owned_provinces_with = {
 				region = guinea_region
-				value = 2
+				value = 1
 			}
 		}
 		effect = {
@@ -873,7 +865,7 @@ emp_ned_slot4_branch = { # Statists
 		position = 3
 		
 		provinces_to_highlight = {
-			region = low_countries_region
+			region = north_german_region
 			owned_by = ROOT
 			NOT = { base_tax = 8 }
 		}
@@ -882,10 +874,10 @@ emp_ned_slot4_branch = { # Statists
 			calc_true_if = {
 				desc = emp_ned_adjust_the_general_means_tt
 				all_owned_province = {
-					region = low_countries_region
+					region = north_german_region
 					base_tax = 8
 				}
-				amount = 5
+				amount = 10
 			}
 		}
 		effect = {
@@ -1316,22 +1308,27 @@ emp_ned_slot5_branch = { # Orangists
 		
 		provinces_to_highlight = {
 			OR = {
-				area = home_counties_area
-				area = east_anglia_area
-				area = east_midlands_area
+				area = svealand_area
+				area = gotaland_area
+				area = vastra_gotaland_area
+				area = ostra_svealand_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			home_counties_area = {
+			svealand_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			east_anglia_area = {
+			gotaland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			east_midlands_area = {
+			vastra_gotaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ostra_svealand_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1381,15 +1378,26 @@ emp_ned_slot5_branch = { # Orangists
 		position = 6
 		#completed_by
 		
+		provinces_to_highlight = {
+			OR = {
+				area = scottish_marches_area
+				area = lowlands_area
+				area = highlands_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Common Sense"
-				}
-				government_rank	= 3
-				else = {
-					total_development	= 1000
-				}
+			scottish_marches_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -1451,7 +1459,7 @@ emp_ned_slot5_colony_branch = {
 		completed_by = 1650.1.1
 		
 		provinces_to_highlight = {
-			colonial_region = colonial_brazil
+			colonial_region = colonial_the_carribean
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -1459,7 +1467,7 @@ emp_ned_slot5_colony_branch = {
 		trigger = {
 			custom_trigger_tooltip = {
 			tooltip = miss_discover_brazil
-				colonial_brazil = {
+				colonial_the_carribean = {
 					has_discovered = ROOT
 				}
 			}
@@ -1467,14 +1475,14 @@ emp_ned_slot5_colony_branch = {
 				tooltip = miss_colonize_brazil
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 1
-					colonial_region = colonial_brazil
+					colonial_region = colonial_the_carribean
 					is_city = yes
 				}
 			}
 		}
 		
 		effect = {
-			colonial_brazil = {
+			colonial_the_carribean = {
 				limit = { 
 					OR = {
 						country_or_non_sovereign_subject_holds = CAS
