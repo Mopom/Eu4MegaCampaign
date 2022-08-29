@@ -2377,7 +2377,7 @@ lot_legacy_of_charlemagne_1 = {
 					owned_by = root
 					is_core = root
 				}
-				amount = 231
+				amount = 230
 			}
 		}
 	}
