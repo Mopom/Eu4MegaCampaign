@@ -91,7 +91,7 @@ dlh_east_missions = {
 			add_country_modifier = {
 				name = disfranchised_population
 				duration = 240
-				manpower_recovery_speed = -0.1
+				manpower_recovery_speed = -0.2
 			}
 		}
 	}
