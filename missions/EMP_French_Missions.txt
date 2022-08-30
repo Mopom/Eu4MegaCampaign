@@ -2407,6 +2407,10 @@ lot_legacy_of_charlemagne_2 = {
 			temple = 14
 		}
 		effect = {
+			add_country_modifier = {
+				name = charlemagnes_churches
+				duration = 7300
+			}
 		}
 	}
 	lot_euro_capitals_of_charlemagne = {

@@ -7,3 +7,6 @@ charlemagnes_warriors = {
 ae_stuff = {
 	ae_impact = -0.2
 }
+charlemagnes_churches = {
+	global_missionary_strength = 0.03
+}
