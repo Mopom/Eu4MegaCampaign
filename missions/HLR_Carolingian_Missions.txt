@@ -1,0 +1,283 @@
+hlr_karl_scourge_of_islam_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_vasconia = {
+		icon = mission_golden_century
+		required_missions = {  }
+		provinces_to_highlight = {
+			area = basque_country
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			owns_core_province = 210
+			owns_core_province = 209
+			owns_core_province = 2989
+		}
+		effect = {
+			asturias_area = {
+				add_permanent_claim = ROOT
+			}
+			castille_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_asturias_castille = {
+		icon = mission_occupy_alexandria
+		required_missions = { hlr_karl_vasconia }
+		provinces_to_highlight = {
+			OR = {
+				area = asturias_area
+				area = castille_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			asturias_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			castille_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			toledo_area = {
+				add_permanent_claim = ROOT
+			}
+			extremadura_area = {
+				add_permanent_claim = ROOT
+			}
+			leon_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_heart_of_iberia = {
+		icon = mission_develop_alhambra
+		required_missions = { hlr_karl_asturias_castille hlr_karl_conversos }
+		provinces_to_highlight = {
+			OR = {
+				area = toledo_area
+				area = extremadura_area
+				area = leon_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			toledo_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			extremadura_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			leon_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			lower_andalucia_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+				add_permanent_claim = ROOT
+			}
+			galicia_area = {
+				add_permanent_claim = ROOT
+			}
+			beieras_area = {
+				add_permanent_claim = ROOT
+			}
+			alentejo_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_atlantico = {
+		icon = mission_portuguese_interference
+		required_missions = { hlr_karl_heart_of_iberia }
+		provinces_to_highlight = {
+			OR = {
+				area = galicia_area
+				area = beieras_area
+				area = alentejo_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			galicia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			beieras_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			alentejo_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = views_of_the_atlantic
+				duration = 7300
+			}
+		}
+	}
+}
+hlr_karl_scourge_of_islam_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_aragon = {
+		icon = mission_al-wadi_al-kabir
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = catalonia_area
+				area = aragon_area
+				area = valencia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			catalonia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			aragon_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			valencia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ae_stuff
+				duration = 5475
+			}
+		}
+	}
+	hlr_karl_conversos = {
+		icon = spread_piety
+		required_missions = { hlr_karl_vasconia hlr_karl_aragon }
+		provinces_to_highlight = {
+			OR = {
+				area = catalonia_area
+				area = aragon_area
+				area = basque_country
+			}
+		}
+		trigger = {
+			catalonia_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			aragon_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			basque_country = {
+				type = all
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = charlemagnes_churches
+				duration = 5475
+			}
+		}
+	}
+	hlr_karl_the_cross = {
+		icon = show_piety
+		required_missions = { hlr_karl_conversos }
+		provinces_to_highlight = {
+			OR = {
+				area = valencia_area
+				area = toledo_area
+				area = extremadura_area
+				area = castille_area
+				area = leon_area
+				area = asturias_area
+			}
+		}
+		trigger = {
+			valencia_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			toledo_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			extremadura_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			castille_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			leon_area = {
+				type = all
+				has_owner_religion = yes
+			}
+			asturias_area = {
+				type = all
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = cross_iberia
+				duration = 7300
+			}
+		}
+	}
+	
+}

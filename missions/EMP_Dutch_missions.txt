@@ -1499,3 +1499,498 @@ emp_ned_slot5_colony_branch = {
 		}
 	}
 }
+lot_legacy_of_charlemagne_1 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = Z02
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_ned_reichskrone = {
+		icon = mission_empire
+		required_missions = {  }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				region = low_countries_region
+				region = north_german_region
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					fort_level = 1
+				}
+				amount = 15
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_reichskrone
+				duration = 7300
+				
+			}
+		}
+	}
+	lot_euro_strengthen_our_position = {
+		icon = mission_conquer_50_development
+		required_missions = { lot_ned_reichskrone }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4714
+				province_id = 70
+				province_id = 74
+				province_id = 72
+				province_id = 4713
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			4714 = {
+				owned_by = ROOT
+			}
+			70 = {
+				owned_by = ROOT
+			}
+			74 = {
+				owned_by = ROOT
+			}
+			72 = {
+				owned_by = ROOT
+			}
+			4713 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 100
+		}
+	}
+	lot_euro_cities_of_charlemagne_1 = {
+		icon = mission_guilds_of_barcelona
+		required_missions = { lot_euro_strengthen_our_position }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			NOT = { 
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				AND = {
+					1878 = {
+						owned_by = ROOT
+					}
+					85 = {
+						owned_by = ROOT
+					}
+					78 = {
+						owned_by = ROOT
+					}
+					186 = {
+						owned_by = ROOT
+					}
+					174 = {
+						owned_by = ROOT
+					}
+					203 = {
+						owned_by = ROOT
+					}
+					108 = {
+						owned_by = ROOT
+					}
+					118 = {
+						owned_by = ROOT
+					}
+					134 = {
+						owned_by = ROOT
+					}
+					2957 = {
+						owned_by = ROOT
+					}
+				}
+				amount = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = charlemagnes_warriors
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = ae_stuff
+				duration = 5475
+			
+			}
+		}
+	}
+	lot_euro_cities_of_charlemagne_2 = {
+		icon = mission_guilds_of_barcelona
+		required_missions = { lot_euro_cities_of_charlemagne_1 }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			NOT = { 
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				AND = {
+					1878 = {
+						owned_by = ROOT
+					}
+					85 = {
+						owned_by = ROOT
+					}
+					78 = {
+						owned_by = ROOT
+					}
+					186 = {
+						owned_by = ROOT
+					}
+					174 = {
+						owned_by = ROOT
+					}
+					203 = {
+						owned_by = ROOT
+					}
+					108 = {
+						owned_by = ROOT
+					}
+					118 = {
+						owned_by = ROOT
+					}
+					134 = {
+						owned_by = ROOT
+					}
+					2957 = {
+						owned_by = ROOT
+					}
+				}
+				amount = 5
+			}
+		}
+		effect = {
+			lower_rhineland_area = {
+				add_permanent_claim = ROOT
+			}
+			palatinate_area = {
+				add_permanent_claim = ROOT
+			}
+			alsace_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_rhineland_area = {
+				add_permanent_claim = ROOT
+			}
+			lower_swabia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_euro_aachen_conquest = {
+		icon = mission_cannons_firing
+		required_missions = { lot_euro_capitals_of_charlemagne lot_euro_cities_of_charlemagne_2 }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				area = lower_rhineland_area
+				area = palatinate_area
+				area = alsace_area
+				area = upper_rhineland_area
+				area = lower_swabia_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			AND = {
+				lower_rhineland_area = {
+					type = all
+					is_core = ROOT
+				}
+				calc_true_if = {
+					AND = {
+						palatinate_area = {
+							type = all
+							owned_by = ROOT
+						}
+						alsace_area = {
+							type = all
+							owned_by = ROOT
+						}
+						upper_rhineland_area = {
+							type = all
+							owned_by = ROOT
+						}
+						lower_swabia_area = {
+							type = all
+							owned_by = ROOT
+						}
+					}
+					amount = 9
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						region = france_region
+						region = low_countries_region
+						region = italy_region
+						region = north_german_region
+						region = south_german_region
+						province_id = 197
+						province_id = 212
+						province_id = 2987
+						province_id = 211
+					}
+					NOT = {
+						OR = {
+							province_id = 170
+							province_id = 171
+							province_id = 169
+							area = corsica_sardinia_area
+							area = sicily_area
+							area = western_sicily_area
+							area = naples_area
+							area = calabria_area
+							area = apulia_area
+							province_id = 112
+							province_id = 130
+							area = erzgebirge_area
+							area = bohemia_area
+							area = moravia_area
+							area = mecklenburg_area
+							area = vorpommern_area
+							area = hinter_pommern_area
+							area = neumark_area
+							area = mittelmark_area
+							area = lusatia_area
+							province_id = 13
+							province_id = 59
+							province_id = 61
+							province_id = 4744
+							province_id = 2965
+						}
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_euro_charlemagnes_dream = {
+		icon = carolingian_empire
+		required_missions = { lot_euro_aachen_conquest }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				region = france_region
+				region = low_countries_region
+				region = italy_region
+				region = north_german_region
+				region = south_german_region
+				province_id = 197
+				province_id = 212
+				province_id = 2987
+				province_id = 211
+			}
+			NOT = {
+				OR = {
+					province_id = 170
+					province_id = 171
+					province_id = 169
+					area = corsica_sardinia_area
+					area = sicily_area
+					area = western_sicily_area
+					area = naples_area
+					area = calabria_area
+					area = apulia_area
+					province_id = 112
+					province_id = 130
+					area = erzgebirge_area
+					area = bohemia_area
+					area = moravia_area
+					area = mecklenburg_area
+					area = vorpommern_area
+					area = hinter_pommern_area
+					area = neumark_area
+					area = mittelmark_area
+					area = lusatia_area
+					province_id = 13
+					province_id = 59
+					province_id = 61
+					province_id = 4744
+					province_id = 2965
+				}
+			}
+			NOT = {owned_by = ROOT }
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					OR = {
+						region = france_region
+						region = low_countries_region
+						region = italy_region
+						region = north_german_region
+						region = south_german_region
+						province_id = 197
+						province_id = 212
+						province_id = 2987
+						province_id = 211
+					}
+					NOT = {
+						OR = {
+							province_id = 170
+							province_id = 171
+							province_id = 169
+							area = corsica_sardinia_area
+							area = sicily_area
+							area = western_sicily_area
+							area = naples_area
+							area = calabria_area
+							area = apulia_area
+							province_id = 112
+							province_id = 130
+							area = erzgebirge_area
+							area = bohemia_area
+							area = moravia_area
+							area = mecklenburg_area
+							area = vorpommern_area
+							area = hinter_pommern_area
+							area = neumark_area
+							area = mittelmark_area
+							area = lusatia_area
+							province_id = 13
+							province_id = 59
+							province_id = 61
+							province_id = 4744
+							province_id = 2965
+						}
+					}
+					owned_by = root
+					is_core = root
+				}
+				amount = 230
+			}
+		}
+		effect = {
+			change_tag = HLR
+			set_capital = 1878
+			swap_non_generic_missions = yes
+		}
+	}
+}
+lot_legacy_of_charlemagne_2 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = Z02
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_euro_churches_of_charlemagne = {
+		icon = italian_riches
+		required_missions = { lot_ned_reichskrone }
+		position = 9
+		trigger = {
+			temple = 14
+		}
+		effect = {
+			add_country_modifier = {
+				name = charlemagnes_churches
+				duration = 7300
+			}
+		}
+	}
+	lot_euro_capitals_of_charlemagne = {
+		icon = take_the_bishoprics
+		required_missions = { lot_euro_churches_of_charlemagne lot_euro_cities_of_charlemagne_1 }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					development = 30
+					OR = {
+						province_id = 1878
+						province_id = 85
+						province_id = 78
+						province_id = 186
+						province_id = 174
+						province_id = 203
+						province_id = 108
+						province_id = 118
+						province_id = 134
+						province_id = 2957
+					}
+				}
+				amount = 3
+			}
+		}
+		effect = {
+			set_capital = 1878
+			1878 = {
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+}

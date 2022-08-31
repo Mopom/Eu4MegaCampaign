@@ -8,5 +8,18 @@ ae_stuff = {
 	ae_impact = -0.2
 }
 charlemagnes_churches = {
-	global_missionary_strength = 0.03
+	global_missionary_strength = 0.02
+}
+cross_iberia = {
+	tolerance_own = 1
+	missionary_maintenance_cost = -0.1
+}
+views_of_the_atlantic = {
+	range = 0.4
+}
+the_reichskrone = {
+	global_tax_modifier = 0.1
+}
+iron_crown = {
+	development_cost = -0.1
 }
