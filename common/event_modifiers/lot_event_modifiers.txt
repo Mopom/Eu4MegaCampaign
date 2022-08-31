@@ -23,3 +23,17 @@ the_reichskrone = {
 iron_crown = {
 	development_cost = -0.1
 }
+unity_of_iberia = {
+	diplomats = 1
+	diplomatic_reputation = 1
+}
+the_african_front = {
+	war_exhaustion = -0.10
+}
+papal_gifts = {
+	papal_influence = 0.5
+	prestige = 0.4
+}
+catholic_conversion_karl = {
+	global_missionary_strength = 0.03
+}

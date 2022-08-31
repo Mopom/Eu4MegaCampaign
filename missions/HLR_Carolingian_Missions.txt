@@ -70,7 +70,7 @@ hlr_karl_scourge_of_islam_1 = {
 		}
 	}
 	hlr_karl_heart_of_iberia = {
-		icon = mission_develop_alhambra
+		icon = mission_tear_down_spanish_strongholds
 		required_missions = { hlr_karl_asturias_castille hlr_karl_conversos }
 		provinces_to_highlight = {
 			OR = {
@@ -279,5 +279,205 @@ hlr_karl_scourge_of_islam_2 = {
 			}
 		}
 	}
+	hlr_karl_iberia_united = {
+		icon = mission_develop_alhambra
+		required_missions = { hlr_karl_heart_of_iberia }
+		provinces_to_highlight = {
+			OR = {
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			lower_andalucia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			upper_andalucia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = unity_of_iberia
+				duration = -1
+			}
+		}
+	}
+	hlr_karl_religion_united = {
+		icon = chivalry_is_not_dead
+		required_missions = { hlr_karl_iberia_united }
+		provinces_to_highlight = {
+			OR = {
+				area = basque_country
+				area = catalonia_area
+				area = aragon_area
+				area = valencia_area
+				area = asturias_area
+				area = castille_area
+				area = toledo_area
+				area = extremadura_area
+				area = leon_area
+				area = galicia_area
+				area = beieras_area
+				area = alentejo_area
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+			}
+			NOT = { has_owner_religion = yes }
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					OR = {
+						area = basque_country
+						area = catalonia_area
+						area = aragon_area
+						area = valencia_area
+						area = asturias_area
+						area = castille_area
+						area = toledo_area
+						area = extremadura_area
+						area = leon_area
+						area = galicia_area
+						area = beieras_area
+						area = alentejo_area
+						area = lower_andalucia_area
+						area = upper_andalucia_area
+					}
+				owned_by = ROOT
+				has_owner_religion = yes
+				}
+				amount = 53
+			}
+		}
+		effect = {
+			1751 = {
+				add_claim = ROOT
+			}
+			335 = {
+				add_claim = ROOT
+			}
+			add_country_modifier = {
+				name = the_african_front
+				duration = 3650
+			}
+		}
+	}
+	hlr_karl_cities_of_conversion_2 = {
+		icon = mission_occupy_alexandria
+		required_missions = { hlr_karl_religion_united }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 338
+				province_id = 341
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			338 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+			341 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_gift_for_pope = {
+		icon = holy_state
+		required_missions = { hlr_karl_cities_of_conversion_2 }
+		provinces_to_highlight = {
+			area = tunisia_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			AND = {
+				tunisia_area = {
+					type = all
+					is_core = ROOT
+					owned_by = ROOT
+					religion = catholic
+				}
+				OR = {
+					AND = {
+						127 = {
+							owned_by = PAP
+						}
+						4735 = {
+							owned_by = PAP
+						}
+						2986 = {
+							owned_by = PAP
+						}
+					}
+					AND = {
+						125 = {
+							owned_by = PAP
+						}
+						4736 = {
+							owned_by = PAP
+						}
+						4737 = {
+							owned_by = PAP
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			tunisia_area = {
+				type = all
+				cede_province = PAP
+				add_core = PAP
+				remove_core = HLR
+			}
+			add_country_modifier = {
+				name = papal_gifts
+				duration = -1
+			}
+		}
+	}
+}
+hlr_karl_mending_the_schism_1 = {
+	slot = 1
+	generic = no
+	ai = yes
 	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_catholicism = {
+		icon = mission_european_church
+		required_missions = {  }
+		trigger = {
+			religion = catholic
+		}
+		effect = {
+			add_country_modifier = {
+				name = catholic_conversion_karl
+				duration = 7300
+			}
+		}
+	}
 }
