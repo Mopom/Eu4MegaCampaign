@@ -398,7 +398,7 @@ hlr_karl_scourge_of_islam_2 = {
 	}
 	hlr_karl_gift_for_pope = {
 		icon = holy_state
-		required_missions = { hlr_karl_cities_of_conversion_2 }
+		required_missions = { hlr_karl_cities_of_conversion_2 hlr_karl_papacy }
 		provinces_to_highlight = {
 			area = tunisia_area
 			NOT = { owned_by = ROOT }
@@ -471,13 +471,109 @@ hlr_karl_mending_the_schism_1 = {
 		icon = mission_european_church
 		required_missions = {  }
 		trigger = {
-			religion = catholic
+			118 = {
+				has_building = cathedral
+			}
+			116 = {
+				has_building = cathedral
+			}
+			4730 = {
+				has_building = cathedral
+			}
+			101 = {
+				has_building = cathedral
+			}
+			109 = {
+				has_building = cathedral
+			}
+			112 = {
+				has_building = cathedral
+			}
+			104 = {
+				has_building = cathedral
+			}
 		}
 		effect = {
+			change_religion = catholic
 			add_country_modifier = {
 				name = catholic_conversion_karl
 				duration = 7300
 			}
+			hidden_effect = {
+				every_province = {
+					if = {
+						limit = {
+							region = italy_region
+							owned_by = ROOT
+						}
+						change_religion = catholic
+					}
+				}
+			}
+		}
+	}
+	hlr_karl_papacy = {
+		icon = holy_state
+		required_missions { hlr_karl_catholicism }
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+				area = central_italy_area
+				area = tuscany_area
+				area = emilia_romagna_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			lazio_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			central_italy_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			tuscany_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			emilia_romagna_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			religion = catholic
+			religious_unity = 0.9
+		}
+		effect = {
+			lazio_area = {
+				type = all
+				add_core = PAP
+				cede_province = PAP
+				remove_core = HLR
+			}
+			central_italy_area = {
+				type = all
+				add_core = PAP
+				cede_province = PAP
+				remove_core = HLR
+			}
+			tuscany_area = {
+				type = all
+				add_core = PAP
+				cede_province = PAP
+				remove_core = HLR
+			}
+			emilia_romagna_area = {
+				type = all
+				add_core = PAP
+				cede_province = PAP
+				remove_core = HLR
+			}
+			vassalize = PAP
 		}
 	}
 }
