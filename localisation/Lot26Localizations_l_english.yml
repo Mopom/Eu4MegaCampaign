@@ -48,8 +48,8 @@
  hlr_karl_religion_united_title:0 "Religious Unity"
  hlr_karl_religion_united_desc:0 "We are a paragon of the Christian world and our mission into Iberia has proven this."
  the_african_front:0 "The Front in Africa"
- hlr_karl_cities_of_conversion_2_title:0 "Cities of Conversion pt. II"
- hlr_karl_cities_of_conversion_2_desc:0 "Across the Mediterranean are several strong cities, powerful in trade and military strength. If we wish to shephard all men to the Cross then we must secure these cities."
+ hlr_karl_cities_of_conversion_1_title:0 "Cities of Conversion pt. I"
+ hlr_karl_cities_of_conversion_1_desc:0 "Across the Mediterranean are several strong cities, powerful in trade and military. If we wish to shephard all men to the Cross then we must secure these cities."
  papal_gifts:0 "A Papal Gift"
  hlr_karl_gift_for_pope_title:0 "A Gift for the Pope"
  hlr_karl_gift_for_pope_desc:0 "Tunisia is a beautiful colony in North Africa. And converted to Catholicism it would be a beautiful gift to the Pope. His own model colony!"
@@ -58,5 +58,9 @@
  hlr_karl_catholicism_desc:0 "Catholicism was the religion of Charlemagne. It is only right that we now follow Catholicism too."
  hlr_karl_papacy_title:0 "Return of the Papacy"
  hlr_karl_papacy_desc:0 "After the Papal-Lombardian War of 1385 the Papal States ceased to exist. It is not right for the papacy to be beholden to any worldly power. We should return the lands and guarantee papal independence."
-
+ hlr_karl_norf_africa_title:0 "Foothold in Africa"
+ hlr_karl_norf_africa_desc:0 "Now we hold a foothold in Africa from which to spread the words of the Apostles."
+ foothold_africa:0 "A Foothold in Africa"
+ hlr_karl_cities_of_conversion_2_title:0 "Cities of Conversion pt. II"
+ hlr_karl_cities_of_conversion_2_desc:0 "Across the Mediterranean are several strong cities, powerful in trade and military. If we wish to shephard all men to the Cross then we must secure these cities."
 #

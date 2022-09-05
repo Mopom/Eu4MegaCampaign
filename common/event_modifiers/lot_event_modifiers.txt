@@ -37,3 +37,6 @@ papal_gifts = {
 catholic_conversion_karl = {
 	global_missionary_strength = 0.03
 }
+foothold_africa = {
+	institution_spread_from_true_faith = 0.05
+}

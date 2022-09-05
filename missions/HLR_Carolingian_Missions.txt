@@ -368,7 +368,7 @@ hlr_karl_scourge_of_islam_2 = {
 			}
 		}
 	}
-	hlr_karl_cities_of_conversion_2 = {
+	hlr_karl_cities_of_conversion_1 = {
 		icon = mission_occupy_alexandria
 		required_missions = { hlr_karl_religion_united }
 		provinces_to_highlight = {
@@ -398,7 +398,7 @@ hlr_karl_scourge_of_islam_2 = {
 	}
 	hlr_karl_gift_for_pope = {
 		icon = holy_state
-		required_missions = { hlr_karl_cities_of_conversion_2 hlr_karl_papacy }
+		required_missions = { hlr_karl_cities_of_conversion_1 hlr_karl_papacy }
 		provinces_to_highlight = {
 			area = tunisia_area
 			NOT = { owned_by = ROOT }
@@ -574,6 +574,84 @@ hlr_karl_mending_the_schism_1 = {
 				remove_core = HLR
 			}
 			vassalize = PAP
+		}
+	}
+}
+hlr_karl_scourge_of_islam_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_cities_of_conversion_2 = {
+		icon = mission_imperial_cities
+		required_missions = { hlr_karl_religion_united }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1751
+				province_id = 335
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			1751 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+			335 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			343 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_norf_africa = {
+		icon = mission_conquer_tunisia
+		required_missions = { hlr_karl_cities_of_conversion_2 }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = northern_morocco_area
+				province_id = 343
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			northern_morocco_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			343 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = foothold_africa
+				duration = -1
+			}
 		}
 	}
 }
