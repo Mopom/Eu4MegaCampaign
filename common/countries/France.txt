@@ -30,85 +30,108 @@ historical_units = {
 	western_men_at_arms
 }
 Monarch_names = {
-    “Enric #4” = 15
-    “Sulcar #1” = -15
-    “Joan #1” = 13
-    “Herbert #1” = 12
-    “Dolça #1” = -12
-    “Guilhèm #1” = 11
-    “Avenie #1” = -11
-    “Norah #0” = -11
-    “Éléonore #0” = -10
-    “Centolh #1” = 9
-    “Grifuid #1” = 9
-    “Arnalt #1” = 9
-    “Luke #1” = 9
-    “Meinwerk #2” = 8
-    “Godefroi #0” = 8
-    “Isaldis #0” = -8
-    “Adeltrudis #0” = -7
-    “Gervas #0” = 7
-    “Iedechael #0” = 6
-    “Paol #0” = 6
-    “Bertrand #0” = 5
-    “Caradec #0” = 5
-    “Alix #0” = -5
-    “Aïna #0” = -4
-    “Adèla #0” = -4
-    “Arnulf #0” = 4
-    “Elena #0” = -4
-    “Melisènda #0” = -4
-    “Sarah #0” = -4
-    “Enora #0” = -4
-    “Leonore #0” = -4
-    “Dauid #0” = 4
-    “Elesbed #0” = -4
-    “Estefania #0” = -4
-    “Gerard #0” = 4
-    “Clara #0” = -4
-    “Raymond #0” = 4
-    “Marcus #0” = 4
-    “Adalaïda #0” = -4
-    “Jaufré #0” = 4
-    “Aliç #0” = -3
-    “Gautier #0” = 3
-    “Elysande #0” = -3
-    “Millicent #0” = -3
-    “Elise #0” = -3
-    “Sança #0” = -3
-    “Isabèla #0” = -2
-    “Faidida #0” = -2
-    “Agata #0” = -2
-    “Abdallah #0” = 2
-    “Gertrude #0” = -2
-    “Mafalda #0” = -2
-    “Clemenza #0” = -2
-    “Turstin #0” = 2
-    “Thibaud #0” = 1
-    “Rorgues #0” = 1
-    “Adémar #0” = 1
-    “Isabeau #0” = -1
-    “Ancelmes #0” = 1
-    “Godafres #0” = -1
-    “Carles #0” = 1
-    “Raimon #0” = 1
-    “Matilda #0” = -1
-    “Aimeric #0” = 1
-    “Cyrus #0” = 1
-    “Aldebert #0” = 1
-    “Folquet #0” = 1
-    “Giselle #0” = -1
-    “Catgoulort #0” = 1
-    “Oswyn #0” = 1
-    “Stephanie #0” = -1
-    “Gui #0” = 1
-    “Gualter #0” = 1
-    “Pèronelle #0” = -1
-    “Hamelin #0” = 1
-    “Amelie #0” = -1
-    “Heloise #0” = -1
-    “Eleanor #0” = -1
-    “Miquel #0” = 1
+	"Clovis #3" = 0
+	"Clotaire #4" = 0
+	"Chilp�ric #2" = 0
+	"Dagobert #2" = 0
+	"Th�oderic #2" = 0
+	"Child�ric #2" = 0
+	"Child�bert #2" = 0
+	"Pepin #1" = 0
+	"Carloman #2" = 0
+	"Charles #4" = 2
+	"Louis #5" = 1
+	"Eudes #1" = 0
+	"Robert #2" = 0
+	"Raoul #1" = 0
+	"Lothaire #1" = 0
+	"Hugues #1" = 0
+	"Henri #4" = 0
+	"Philippe #2" = 0
+	"Boudewijn #2" = 0
+	"Arnulf #1" = 4
+	"G�raud #1" = 0
+	"Adelaide #1" = -0
+	"Thibault #1" = 0
+	"Savary #1" = 0
+	"Raymond #1" = 4
+	"Ebbon #1" = 0
+	"Joan #1" = 13
+	"Enric #4" = 15
+	"Sulcar #1" = -15
+	"Avenie #1" = -11
+	"Meinwerk #2" = 8
+	"Dol�a #1" = -12
+	"Grifiud #1" = 9
+	"Arnalt #1" = 9
+	"Luke #1" = 9
+	"Herbert #0" = 12
+	"Guilh�m #0" = 11
+	"Norah #0" = -11
+	"�l�onore #0" = -10
+	"Centolh #1" = 9
+	"Godefroi #0" = 8
+	"Isaldis #0" = -8
+	"Adeltrudis #0" = -7
+	"Gervas #0" = 7
+	"Idechael #0" = 6
+	"Paol #0" = 6
+	"Bertrand #0" = 5
+	"Caradec #0" = 5
+	"Alix #0" = -5
+	"A�na #0" = -4
+	"Ad�la #0" = -4
+	"Elena #0" = -4
+	"Melis�nda #0" = -4
+	"Sarah #0" = -4
+	"Enora #0" = -4
+	"Leonore #0" = -4
+	"Dauid #0" = 4
+	"Elesbed #0" = -4
+	"Estefania #0" = -4
+	"Gerard #0" = 4
+	"Clara #0" = -4
+	"Marcus #0" = 4
+	"Adala�da #0" = -4
+	"Jaufr� #0" = 4
+	"Ali� #0" = -3
+	"Gautier #0" = 3
+	"Elysande #0" = -3
+	"Millicent #0" = -3
+	"Elise #0" = -3
+	"San�a #0" = -3
+	"Isab�la #0" = -2
+	"Faidida #0" = -2
+	"Agata #0" = -2
+	"Abdallah #0" = 2
+	"Gertrude #0" = -2
+	"Mafalda #0" = -2
+	"Clemenza #0" = -2
+	"Turstin #0" = 2
+	"Thibaud #0" = 1
+	"Rorgues #0" = 1
+	"Ad�mar #0" = 1
+	"Isabeau #0" = -1
+	"Ancelmes #0" = 5
+	"Godafres #0" = -1
+	"Raimon #0" = 1
+	"Matilda #0" = -1
+	"Aimeric #0" = 1
+	"Cyrus #0" = 1
+	"Aldebert #0" = 1
+	"Folquet #0" = 1
+	"Giselle #0" = -1
+	"Catgoulort #0" = 1
+	"Oswyn #0" = 1
+	"Stephanie #0" = -1
+	"Gui #0" = 1
+	"Gualter #0" = 1
+	"P�ronelle #0" = -1
+	"Hamelin #0" = 21
+	"Amelie #0" = -1
+	"Heloise #0" = -1
+	"Eleanor #0" = -1
+	"Miquel #0" = 1
 }
 leader_names = {
 	"Desgouttes"
@@ -126,7 +149,6 @@ leader_names = {
 	"de Bonnefoy"
 	"de Bonneuil"
 	"de Broglie"
-	"de B thune"
 	"de Castaing"
 	"de Caumartin"
 	"de Chambly"
@@ -145,7 +167,7 @@ leader_names = {
 	"de Luynes"
 	"de Marguerye"
 	"de Maurepas"
-	"de Neufchâtel"
+	"de Neufch�tel"
 	"de Pellefort"
 	"de Richemont"
 	"de Rieu"
@@ -162,10 +184,10 @@ leader_names = {
 	"de Vibien"
 	"de Vigny"
 	"de Villeneuve"
-	"de la Bretonniôre"
+	"de la Bretonni�re"
 	"des Coulons"
 	"des Herbiers"
-	"des Écures"
+	"des �cures"
 	"du Bosquet"
 	"du Fournay"
 	"du Valentinois"
@@ -264,7 +286,7 @@ ship_names = {
 	"Christine"
 	"Citoyen"
 	"Clorinde"
-	"Cléopâtre"
+	"Cl�op�tre"
 	"Colosse"
 	"Commerce de Bordeaux"
 	"Commerce de Marseille"
@@ -292,7 +314,7 @@ ship_names = {
 	"Dego"
 	"Desaix"
 	"Destin"
-	"Deux Fréres"
+	"Deux Fr�res"
 	"Diamant"
 	"Dictateur"
 	"Don de Dieu"
@@ -301,7 +323,7 @@ ship_names = {
 	"Dryade"
 	"Dubois"
 	"Duc"
-	"Duc d'Angoulème"
+	"Duc d'Angoul�me"
 	"Duc d'Aquitaine"
 	"Duc de Berry"
 	"Duc de Bourgogne"
@@ -336,9 +358,9 @@ ship_names = {
 	"Fortune"
 	"Foudroyant"
 	"Fougueux"
-	"Français"
+	"Fran�ais"
 	"Friponne"
-	"Frédèric"
+	"Fr�d�ric"
 	"Fulminant"
 	"Gaillard"
 	"Galant"
@@ -459,10 +481,10 @@ ship_names = {
 	"Pompeux"
 	"Pourvoyeuse"
 	"Prince"
-	"Prince Henri"
+	"Prince Enric"
 	"Princesse"
 	"Prompt"
-	"Provençal"
+	"Proven�al"
 	"Prudent"
 	"Pucelle"
 	"Puissant"
@@ -480,14 +502,12 @@ ship_names = {
 	"Rouen"
 	"Royal"
 	"Royal Duc"
-	"Royal Hollandais"
-	"Royal Italien"
 	"Royal Louis"
 	"Rubis"
 	"Sage"
 	"Sagittaire"
 	"Saint Antoine"
-	"Saint Antoine de Gênes"
+	"Saint Antoine de G�nes"
 	"Saint Augustin"
 	"Saint Basile"
 	"Saint Catherine"
@@ -517,7 +537,7 @@ ship_names = {
 	"Saint-Malo"
 	"Saint-Sacrement"
 	"Sainte Croix"
-	"Sainte Genevi ve"
+	"Sainte Genevive"
 	"Sainte Marie"
 	"Salamandre"
 	"Sans Pareil"
@@ -526,14 +546,11 @@ ship_names = {
 	"Seine"
 	"Soleil"
 	"Soleil Royal"
-	"Soleil d'Afrique"
-	"Soleil d'Alger"
 	"Solide"
 	"Sophie"
 	"Sorlingue"
 	"Sourdis"
 	"Souverain"
-	"Sphinx"
 	"Subtile"
 	"Suffisant"
 	"Suffren"
@@ -565,7 +582,7 @@ ship_names = {
 	"Vaisseau de Torais"
 	"Vaisseau du Roi"
 	"Valeur"
-	"Vendôme"
+	"Vend�me"
 	"Vengeur"
 	"Vertu"
 	"Vestale"
@@ -575,32 +592,34 @@ ship_names = {
 	"Ville-de-Marseille"
 	"Ville-de-Paris"
 	"Ville-de-Rouen"
+	"Ville-de-Reims"
+	"Ville-de-Bordeaux"
 	"Volage"
 	"Volontaire"
 	"Wallon"
 	"Zodiaque"
 }
 army_names = {
-	"Armée d'Italie"
-	"Armée de $PROVINCE$"
-	"Armée de Bretagne"
-	"Armée de l'Atlantique"
-	"Armée de l'Est"
-	"Armée des Alpes"
-	"Armée des Flandres"
-	"Armée des Pyr n es"
-	"Armée du Jura"
-	"Armée du Lyonnais"
-	"Armée du Midi"
-	"Armée du Nord"
-	"Armée royale"
+	"Arm�e d'Italie"
+	"Arm�e de $PROVINCE$"
+	"Arm�e de Bretagne"
+	"Arm�e de l'Atlantique"
+	"Arm�e de l'Est"
+	"Arm�e des Alpes"
+	"Arm�e des Flandres"
+	"Arm�e des Pyr n es"
+	"Arm�e du Jura"
+	"Arm�e du Lyonnais"
+	"Arm�e du Midi"
+	"Arm�e du Nord"
+	"Arm�e royale"
 }
 fleet_names = {
 	"Escadre Blanche"
 	"Escadre Bleue"
 	"Escadre Rouge"
 	"Escadre de Gascogne"
-	"Escadre de Méditerraníe"
+	"Escadre de M�diterran�e"
 	"Escadre de l'Atlantique"
 	"Escadre de la Manche"
 }

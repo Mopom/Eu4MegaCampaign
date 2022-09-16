@@ -16288,7 +16288,7 @@ AJU_ideas = {
 
 FRA_ideas = {
 	start = {		
-		female_advisor_chance = 0.5
+		heir_chance = 0.4
 		may_recruit_female_generals = yes
 		global_manpower_modifier = 0.20
 	}
