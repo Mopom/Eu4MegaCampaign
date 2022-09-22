@@ -1,0 +1,82 @@
+israelite = {
+	ashkenazi = {
+		primary = ISR
+		dynasty_names = {
+			Abramovitch Ashkenazi Bernstein Birnbaum Bloch Cantor Cohen Frank Friedländer Ginsberg Goldstein Horowitz Israel Jacobsohn Kagan Kaplan Klein
+			Levin Luria Morgenstern Nathan Oren Rosenthal Sachs Schapiro Schwartz Weinstein Weiss
+		}
+	}
+	sephardi = {
+		primary = ISR
+		dynasty_names = {
+			Banai Barak "Ben Ami" Benveniste Canetti Cantor Cardoso Cohen Disraeli Gaon Golan Halevi Levy Maimon Mizrachi Montefiore Peretz Rafaeli Saban
+			Sassoon Sebag
+		}
+	}
+	knaanic = { primary = ISR }
+	kuzarim = { primary = ISR }
+	magogic = { primary = ISR }
+	yevanic = { primary = ISR }
+	mizrahi = {
+		primary = ISR
+		male_names = {
+			Chaikeh Eli Jonah Asher Aron Abel Abraham Avraam Gabriel Gershon Gideon Isaac
+			Israel Issachar Jacob Joel Joseph Mordecai Manasseh Moses Naftali Nathan Reuven Samson Samuel
+			Simeon Simon Solomon Yohanan Zachariah Chaim Moshe Malachi Jaffe Maimon Melamed Nathan
+			Amiel Benjamin Lazarus Matai Meshach Noah Shulamith Shylock Seraphim Seth Shafir Shailen
+			Saul Tivon Yechezkel Yehudi Yan Yanis Ronas Yosef Tobias Tov Dov Zakai Zakur Zamir Zabulon
+		}
+		dynasty_names = {
+			Abrach Abocassis Abu Habibi Hadad Haziz Hysh Jamil Khalili Maklof Mofaz Mograbi
+			Nazarian Naqqash Sabag Sassoon Shamy Sharabani Sheriki Shirazi Soliman Yarkoni Zangi Zeitouni
+		}
+	}
+	hebrew = { primary = ISR }
+	israeli = { primary = ISR }
+	misrayim = { primary = ISR }
+	zarphatic = { primary = ISR }
+	laaz = {
+		primary = ISR
+		male_names = {
+			Primo Elia Elìas Elio Giona Aronne Abele Abramo Ciro Prospero Manuele Immanuel
+			Emanuele Esaù Davide David Gabriele Gideone Michele Isacco Israel Issachar Giacobbe Gioele
+			Giuseppe Mordecai Moses Naftali Sansone Samuel Samuele Simeone Simon Simone Solomone
+			Zaccaria Malachia Beniamino Giobbe Lazzaro Noè Shulamith Tullio Serafino Seth Saulo Taddeo
+			Giovanni Yanis Ronas Silvio Tobia Giacomo Enrico Emilio René Salvatore Franco Felice Sergio
+			Oscar Hugo Ugo Haim Aldo Arturo Angelo Azaria Shlomo Sisto Vittorio Umberto Giacomo Cino
+		}
+		dynasty_names = {
+			Artom Ascoli Brescia Colombo Cohen Coen Como Cremona Barzilai Behar Benetton
+			Bachi Calabresi Carpi Cantoni Fano Ferri Finzi Fiorentini Foà Franceschini Fubini Efrati
+			"de Benedetti" D'Ancona "da Como" "di Segni" "della Seta" "della Rocca" Ezra Guastalla Gattegno
+			Ginzburg Gluck Iezzi Liegi Lombroso Luzzatto Mayer Milano Montalcino Montefiore Levi
+			Livorno Luna Piperno Ravenna Ottolenghi Schiff Segre Sinigallia Spizzichino Supino Venezia
+			Vivanti Zargani Orvieto Galante Petito Modiano Modigliani Morpurgo Canetti Treves Parenzo
+		}
+	}
+	kaifeng = { primary = ISR }
+	beta_israeli = { primary = ISR }
+	#Names are shared throughout the entire group
+		male_names = {
+			Abraham Albert Benjamin Daniel David Franz Gustav Heinrich Hermann Isaak Ignatz Jakob Jeremias Josef Leonhard Michael Mose Salomon Saul Shmuel
+			Sigmund Simon Theodor
+			Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak Baruch Belshazar Costobarus Deror Dori
+			Eiran Eleazar Erotimus Ezra Hadasa Herod Hillel Hyrkanus Jannaeus Joazar Yosef Josiada Kahana Hodaviah Honio Meir Nahum
+			Nathan Nehemiah Nikanor Nir Obadiah  Ofer Omri Pinchas Phannias Phasael Raanan Malichus Manasseh Nogah Shamgar Shammai
+			Shaul Shemaiah Shemida Silas Simeon Sosa Talmon Tarfon Tovia Yair Yochanan Zadok
+		}
+		female_names = {
+			Adah Adinah Alte Asenath Avigail Aviva Batya Bilha Bina Breina Bunah Chana Charna Chasha Chava Chaya Devorah Dobah Drozah Esther Freida Gentille Gruna Gracia Illa Kuna Leah Machla Malka Margola Masheh Matilda Matrona Mazal Menuchah
+			Miriam Miryam Muskat Nachalah Nechamah Puah Peninah Rachel Rivkah Rhoda Ruth Sarah Shoshanah Shulamit Simchat "Anna Frank" Tamar Tikvah Tirtzah Tzipporah Tzitta Tziviah Yael Yehudit Yaffah Yiska Yochanah Yocheved Yonah Zelda Zlata
+			"Rosa Luxembourg" Salome
+			Adena Adi Adva Ahuva Alexandra Aliza Alte Arieh Asher Basia Boaz Chanah Cypros Danya Dara Dina Doris Dov Dvora Elisheva Esther
+			Galia Galit Leah Liat Liora Machla Mariamne Marni Maya Meital Menahem Milka Naamah Nahal Nava Nissa Orah Orit Osher Rachel Raisa
+			Rivka Salampsio Sarah Shayna Tamar Tirtza Yael Yocheved
+		}
+		dynasty_names = {
+			Abramovitch Ashkenazi Bernstein Birnbaum Bloch Cantor Cohen Frank Friedländer Ginsberg Goldstein Horowitz Israel Jacobsohn Kagan Kaplan Klein
+			Levin Luria Morgenstern Nathan Oren Rosenthal Sachs Schapiro Schwartz Weinstein Weiss
+			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid
+			Oferid Omrid Pinchasid Raananid Shemidid Yairid
+		}
+}

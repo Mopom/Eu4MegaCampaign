@@ -1,0 +1,57 @@
+lost_cultures_group = {
+	oldspain = { #Pre-Roman Iberia
+		primary = SPA
+		male_names = {
+			Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+			Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
+		}
+		female_names = {
+			Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
+		}
+		dynasty_names = {
+			Andosinus Ausetanus Bastetanus Mastienus Bergistanus
+			Castellanus Cessetanus Cerretanus Contestanus Deitanus
+			Edetanus Helisyx Ilercavo Ilergeta Indigeta Lacetanus
+			Laietanus Oretanus Sedetanus Sordo Vescetanus
+		}
+	}
+	nuragic = {
+		primary = SAR
+		male_names = {
+			Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+			Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
+		}
+		female_names = {
+			Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
+		}
+		dynasty_names = {
+			Ligur Corsus Belato Cervinus Cilebensis Cumanensis
+			Lestrigo Licininus Longonensis Macrinus Opinus Subasanus
+			Sumbrus Tarabenus Tibulatus Titianus Venacinus Balar
+			Buduntinus Coracensis Giddilitanus Lucuidonensis Nurritanus
+			Perfuga Turritanus Uddadhaddaritanus Iliensis Iolaes
+			Diagesbes Acconitis Aechilenensis Aesaronenses Alcitanus
+			Alticiensis Barbaricinus Barsanis Beronicenssi Bulgar
+			Campanus Caralitanus Carensis Celsitanus Corpicensis
+			Cunusitanus Euthychianus Fifensis Galillensis Hypsitanus
+			Lesitanus Maltamonensis Martensis Maurus Moddol
+			Muthonensis Neapolitanus Noritanus Norensis Nurrensis
+			Paratus Patulcensis Patulcius Rubrensis Ruber Rubrinsis
+			Rucensis Salcitanus Sarrapitanus Scapitanus Semilitensis
+			Siculensis Sossinatis Sulcitanus Uterinus Uthicensis
+			Othocensis Valentinus Vitensis Numisiarus
+		}
+	}
+}
+byzantine = {	
+	alexandrine = { primary = BYZ }
+	prettanian = { primary = BYZ }
+	hyperborean_greek = { primary = BYZ }
+	gaulish_greek = { primary = BYZ }
+	spanish_greek = { primary = BYZ }
+	german_greek = { primary = BYZ }
+	mena_greek = { primary = BYZ }
+	
+	athenian = { primary = ATH }
+	spartan = { primary = SPR }
+}
