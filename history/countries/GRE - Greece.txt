@@ -16,8 +16,8 @@ capital = 146
 		religion = orthodox
 		culture = greek
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = bold_fighter_personality
 	queen = {
 		name = "Fedelm"
 		dynasty = "Barry"
@@ -31,8 +31,8 @@ capital = 146
 		religion = orthodox
 		culture = dynamic-irish-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = calm_personality
+	add_queen_personality = tactical_genius_personality
 	heir = {
 		name = "Lazaros"
 		monarch_name = "Lazaros"
@@ -46,8 +46,8 @@ capital = 146
 		religion = orthodox
 		culture = greek
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = strict_personality
+	add_heir_personality = tactical_genius_personality
 }
 1444.11.11= {
 	add_prestige = 90

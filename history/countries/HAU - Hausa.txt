@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 2
 technology_group = sub_saharan
 religion = sunni
@@ -9,7 +9,7 @@ religious_school = hanbali_school
 1444.11.11= {
 	monarch = {
 		name = "Kisha"
-		dynasty = "Durbawa"
+		dynasty = "Durbawa-Kano"
 		adm = 5
 		dip = 3
 		mil = 3
@@ -17,8 +17,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hausa
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = silver_tongue_personality
 	queen = {
 		name = "Daurama"
 		dynasty = "Orsini"
@@ -32,12 +32,12 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hausa
 	}
-	add_queen_personality = well_connected_personality
+	add_queen_personality = craven_personality
 	add_queen_personality = zealot_personality
 	heir = {
 		name = "Ouati"
 		monarch_name = "Ouati II"
-		dynasty = "Durbawa"
+		dynasty = "Durbawa-Kano"
 		adm = 6
 		dip = 5
 		mil = 6
@@ -47,8 +47,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hausa
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = lawgiver_personality
+	add_heir_personality = pious_personality
 }
 1444.11.11= {
 	add_prestige = 90

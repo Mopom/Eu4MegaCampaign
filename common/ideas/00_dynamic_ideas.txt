@@ -1,40 +1,38 @@
 ### National idea groups generated via cultural traditions. 
 
-abba_ideas = {
+dynamic-bedouin_arabic-culture-num1_ideas = {
 	start = {
-		 global_manpower_modifier = 0.15
-		 land_attrition = -0.15
+		 yearly_corruption = -0.1
+		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		tag = Z00
+		culture = dynamic-bedouin_arabic-culture-num1
 	}
 	free = yes
 
-	abba_1 = {
-        technology_cost = -0.05
+	tradition_desert_nomads = {
+		cavalry_shock = 1
 	}
-	abba_2 = {
-		cavalry_power = 0.2
-		cavalry_flanking = 0.25
+	tradition_caravaneers = {
+		caravan_power = 0.2
 	}
-	abba_3 = {
-		tolerance_own = 2
-		global_missionary_strength = 0.01 
+	tradition_merciful_blindings = {
+		harsh_treatment_cost = -0.2
 	}
-	abba_4 = {
-		development_cost = -0.1
+	tradition_artisans = {
+		global_prov_trade_power_modifier = 0.1
 	}
-	abba_5 = {
-		trade_steering = 0.2
+	increase_discipline = {
+		discipline = 0.025
 	}
-	abba_6 = {
-		global_tax_modifier = 0.2
+	increase_taxation = {
+		global_tax_modifier = 0.05
 	}
-	abba_7 = {
-		prestige = 1
+	cheaper_mercenaries = {
+		merc_maintenance_modifier = -0.10
 	}
 	bonus = {
-		land_morale = 0.1
+		global_trade_power = 0.05
 	}
 }
 
@@ -50,7 +48,7 @@ dynamic-russian_culture-culture-num1_ideas = {
 	free = yes
 
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_storytellers = {
 		possible_dip_policy = 1
@@ -175,7 +173,7 @@ dynamic-mali-bozo-culture-num1_ideas = {
 		gold_depletion_chance_modifier = -0.2
 	}
 	tradition_sorcerous_metallurgy = {
-		institution_spread = 0.1
+		institution_spread_from_true_faith = 0.1
 	}
 	tradition_xenophilic = {
 		num_accepted_cultures = 1
@@ -234,7 +232,7 @@ dynamic-kannada-marathi-culture-num1_ideas = {
 
 dynamic-mali-culture-num1_ideas = {
 	start = {
-		 missonaries = 1
+		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
@@ -311,7 +309,7 @@ dynamic-bedouin_arabic-culture-num2_ideas = {
 
 dynamic-hungarian-culture-num1_ideas = {
 	start = {
-		 missonaries = 1
+		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
@@ -439,7 +437,7 @@ dynamic-greek-al_suryah_arabic-culture-num1_ideas = {
 		reserves_organisation = -0.05
 	}
 	tradition_roman_legacy = {
-		land_maintenence_modifier = -0.1
+		land_maintenance_modifier = -0.1
 	}
 	tradition_dryland_dwellers = {
 		development_cost = -0.1
@@ -592,10 +590,10 @@ dynamic-dyola-culture-num1_ideas = {
 	free = yes
 
 	tradition_practiced_pirates = {
-		 = 
+		may_perform_slave_raid = yes
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_highland_warriors = {
 		global_supply_limit_modifier = 0.10
@@ -618,13 +616,13 @@ dynamic-dyola-culture-num1_ideas = {
 }
 
 
-dynamic-turkish-culture-num1_ideas = {
+dynamic-oghuz-culture-num1_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-turkish-culture-num1
+		culture = dynamic-oghuz-culture-num1
 	}
 	free = yes
 
@@ -788,8 +786,7 @@ dynamic-assamese-nepali-culture-num1_ideas = {
 		global_supply_limit_modifier = 0.10
 	}
 	tradition_collective_lands = {
-		global_trade_goods_size_modifier = 0.1
-		nobility_influence_modifier = -0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 	tradition_culture_blending = {
 		promote_culture_cost = -0.25
@@ -968,45 +965,42 @@ dynamic-tibetan-culture-num2_ideas = {
 }
 
 
-Z02_ideas = {
+dynamic-saxon-culture-num1_ideas = {
 	start = {
-		 female_advisor_chance = 0.5
-		 may_recruit_female_generals = yes
-		 tolerance_heathen = 2
-		 tolerance_heretic = 2
+		 yearly_corruption = -0.1
+		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
 		culture = dynamic-saxon-culture-num1
 	}
 	free = yes
 
-	Z02_1 = {
-		native_assimilation = 1
+	tradition_forest_fighters = {
+		global_supply_limit_modifier = 0.10
 	}
-	Z02_2 = {
-		cavalry_flanking = 0.25
-		movement_speed = 0.1
+	tradition_stand_and_fight = {
+		land_morale = 0.10
 	}
-	Z02_3 = {
-		global_trade_goods_size_modifier = 0.15
+	tradition_polders = {
+		development_cost = -0.1
 	}
-	Z02_4 = {
-		defensiveness = 0.2
+	tradition_hereditary_hierarchy = {
+		free_adm_policy = 1
 	}
-	Z02_5 = {
-		heavy_ship_power = 0.15
-		leader_naval_manuever = 1
+	tradition_agrarian = {
+		global_trade_goods_size_modifier = 0.1
 	}
-	Z02_6 = {
-		trade_efficiency = 0.2
+	tradition_parochialism = {
+		build_time = -0.2
 	}
-	Z02_7 = {
-		fire_damage_received = -0.1
+	tradition_maritime_mercantilism = {
+		mercantilism_cost = -0.2
 	}
 	bonus = {
-		country_admin_power = 1
+		global_own_trade_power = 0.15
 	}
 }
+
 
 dynamic-fon-aka-culture-num1_ideas = {
 	start = {
@@ -1023,7 +1017,7 @@ dynamic-fon-aka-culture-num1_ideas = {
 		infantry_fire = 1
 	}
 	tradition_legalistic = {
-		 = 
+		governing_capacity_modifier = 0.1
 	}
 	tradition_festivities = {
 		stability_cost_modifier = -0.1
@@ -1151,8 +1145,7 @@ dynamic-irish-culture-num1_ideas = {
 		mercantilism_cost = -0.2
 	}
 	tradition_monastic_communities = {
-		church_loyalty_modifier = 0.1
-		nobility_influence_modifier = -0.1
+		church_loyalty_modifier = 0.15
 	}
 	tradition_xenophilic = {
 		num_accepted_cultures = 1
@@ -1168,7 +1161,7 @@ dynamic-irish-culture-num1_ideas = {
 
 dynamic-tibetan-culture-num3_ideas = {
 	start = {
-		 missonaries = 1
+		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
@@ -1362,13 +1355,13 @@ dynamic-lithuanian-russian_culture-culture-num1_ideas = {
 }
 
 
-dynamic-mongol-yakut-culture-num1_ideas = {
+dynamic-mongol-tuvan-culture-num1_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-mongol-yakut-culture-num1
+		culture = dynamic-mongol-tuvan-culture-num1
 	}
 	free = yes
 
@@ -1387,7 +1380,7 @@ dynamic-mongol-yakut-culture-num1_ideas = {
 		trade_efficiency = 0.1
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	increase_discipline = {
 		discipline = 0.025
@@ -1738,7 +1731,7 @@ dynamic-tibetan-culture-num5_ideas = {
 		nobles_loyalty_modifier = 0.1
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_hard_working = {
 		build_cost = -0.1
@@ -2146,13 +2139,13 @@ dynamic-ostyaki-kirgiz-culture-num1_ideas = {
 }
 
 
-dynamic-oirats-yakut-culture-num1_ideas = {
+dynamic-oirats-tuvan-culture-num1_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-oirats-yakut-culture-num1
+		culture = dynamic-oirats-tuvan-culture-num1
 	}
 	free = yes
 
@@ -2169,7 +2162,7 @@ dynamic-oirats-yakut-culture-num1_ideas = {
 		trade_efficiency = 0.1
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_zealous_people = {
 		cb_on_religious_enemies = yes
@@ -2303,13 +2296,13 @@ dynamic-norwegian-culture-num1_ideas = {
 }
 
 
-dynamic-uralic-karelian-culture-num1_ideas = {
+dynamic-uralic-vepsian-culture-num1_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-uralic-karelian-culture-num1
+		culture = dynamic-uralic-vepsian-culture-num1
 	}
 	free = yes
 
@@ -2341,13 +2334,13 @@ dynamic-uralic-karelian-culture-num1_ideas = {
 }
 
 
-dynamic-turkish-culture-num2_ideas = {
+dynamic-oghuz-culture-num2_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-turkish-culture-num2
+		culture = dynamic-oghuz-culture-num2
 	}
 	free = yes
 
@@ -2565,7 +2558,7 @@ dynamic-polish-russian_culture-culture-num1_ideas = {
 		stability_cost_modifier = -0.05
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_astute_diplomats = {
 		diplomats = 1
@@ -2958,7 +2951,7 @@ dynamic-telegu-culture-num1_ideas = {
 		recover_army_morale_speed = 0.10
 	}
 	tradition_sorcerous_metallurgy = {
-		institution_spread = 0.1
+		institution_spread_from_true_faith = 0.1
 	}
 	tradition_xenophilic = {
 		num_accepted_cultures = 1
@@ -3021,7 +3014,7 @@ dynamic-ostyaki-culture-num2_ideas = {
 
 dynamic-sumpa-culture-num1_ideas = {
 	start = {
-		 missonaries = 1
+		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
@@ -3058,13 +3051,13 @@ dynamic-sumpa-culture-num1_ideas = {
 }
 
 
-dynamic-mongol-turkish-culture-num1_ideas = {
+dynamic-mongol-oghuz-culture-num1_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-mongol-turkish-culture-num1
+		culture = dynamic-mongol-oghuz-culture-num1
 	}
 	free = yes
 
@@ -3099,13 +3092,13 @@ dynamic-mongol-turkish-culture-num1_ideas = {
 }
 
 
-dynamic-turkish-culture-num3_ideas = {
+dynamic-oghuz-culture-num3_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-turkish-culture-num3
+		culture = dynamic-oghuz-culture-num3
 	}
 	free = yes
 
@@ -3161,7 +3154,7 @@ dynamic-nubian-culture-num1_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_hunters = {
 		trade_efficiency = 0.1
@@ -3179,40 +3172,41 @@ dynamic-nubian-culture-num1_ideas = {
 }
 
 
-Z01_ideas = {
+dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1_ideas = {
 	start = {
-		 state_governing_cost = -0.1
-		 infantry_power = 0.1
+		 monarch_lifespan = 0.1
+		 all_estate_loyalty_equilibrium = 0.05
 	}
 	trigger = {
-		tag = Z01
+		culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
 	}
 	free = yes
 
-	Z01_1 = {
+	tradition_vegetarianism = {
+		monthly_karma = 0.1
+	}
+	tradition_philosopher_culture = {
+		adm_tech_cost_modifier = -0.15
+	}
+	tradition_mystical_ancestors = {
+		monthly_heir_claim_increase = 0.05
+		idea_cost = -0.05
+	}
+	tradition_lords_of_the_elephant = {
 		cavalry_power = 0.15
 	}
-	Z01_2 = {
-		core_creation = -0.1
+	tradition_ruling_caste = {
+		global_rebel_suppression_efficiency = 0.2
+		improve_relation_modifier = -0.05
 	}
-	Z01_3 = {
-		development_cost = -0.15
-		global_unrest = 1.5
+	tradition_culture_blending = {
+		promote_culture_cost = -0.25
 	}
-	Z01_4 = {
+	tradition_agrarian = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	Z01_5 = {
-		tolerance_own = 2
-	}
-	Z01_6 = {
-		global_own_trade_power = 0.15
-	}
-	Z01_7 = {
-		merchants = 1
-	}
 	bonus = {
-		trade_steering = 0.1
+		development_cost = -0.1
 	}
 }
 
@@ -3259,7 +3253,7 @@ dynamic-berber-culture-num3_ideas = {
 
 dynamic-sinhala-tamil-culture-num1_ideas = {
 	start = {
-		 missonaries = 1
+		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
@@ -3297,7 +3291,7 @@ dynamic-sinhala-tamil-culture-num1_ideas = {
 
 dynamic-mongol-uyghur-culture-num1_ideas = {
 	start = {
-		 missonaries = 1
+		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
@@ -3333,40 +3327,4 @@ dynamic-mongol-uyghur-culture-num1_ideas = {
 	}
 }
 
-UBL_ideas = {
-	start = {
-		 infantry_power = 0.1
-		 church_power_modifier = 0.2
-	}
-	trigger = {
-		tag = UBL
-	}
-	free = yes
 
-	UBL_1 = {
-		development_cost = -0.1
-	}
-	UBL_2 = {
-		max_absolutism = 20
-		max_revolutionary_zeal = 20
-		global_unrest = 2
-	}
-	UBL_3 = {
-		land_morale = 0.15
-	}
-	UBL_4 = {
-		artillery_shock = 1
-	}
-	UBL_5 = {
-		galley_cost = -0.20
-	}
-	UBL_6 = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	UBL_7 = {
-		discipline = 0.05
-	}
-	bonus = {
-		galley_power = 0.2
-	}
-}

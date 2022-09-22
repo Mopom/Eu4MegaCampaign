@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = nomad_group
 religion = orthodox
 primary_culture = cuman
-capital = 466
+capital = 2417
 1444.11.11= {
 	monarch = {
 		name = "Zhaojun"
@@ -17,8 +17,8 @@ capital = 466
 		religion = orthodox
 		culture = cuman
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = tactical_genius_personality
 	queen = {
 		name = "Mongke"
 		dynasty = "Subetei"
@@ -31,8 +31,8 @@ capital = 466
 		religion = orthodox
 		culture = mongol
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = secretive_personality
+	add_queen_personality = silver_tongue_personality
 	heir = {
 		name = "Dayir"
 		monarch_name = "Dayir"
@@ -46,8 +46,8 @@ capital = 466
 		religion = orthodox
 		culture = mongol
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = sinner_personality
 }
 1444.11.11= {
 	add_prestige = 62

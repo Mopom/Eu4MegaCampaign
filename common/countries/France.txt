@@ -29,109 +29,43 @@ historical_units = {
 	western_medieval_infantry
 	western_men_at_arms
 }
-Monarch_names = {
-	"Clovis #3" = 0
-	"Clotaire #4" = 0
-	"Chilpéric #2" = 0
-	"Dagobert #2" = 0
-	"Théoderic #2" = 0
-	"Childéric #2" = 0
-	"Childébert #2" = 0
-	"Pepin #1" = 0
-	"Carloman #2" = 0
-	"Charles #4" = 2
-	"Louis #5" = 1
-	"Eudes #1" = 0
-	"Robert #2" = 0
-	"Raoul #1" = 0
-	"Lothaire #1" = 0
-	"Hugues #1" = 0
-	"Henri #4" = 0
-	"Philippe #2" = 0
-	"Boudewijn #2" = 0
-	"Arnulf #1" = 4
-	"Géraud #1" = 0
-	"Adelaide #1" = -0
-	"Thibault #1" = 0
-	"Savary #1" = 0
-	"Raymond #1" = 4
-	"Ebbon #1" = 0
-	"Joan #1" = 13
-	"Enric #4" = 15
-	"Sulcar #1" = -15
-	"Avenie #1" = -11
-	"Meinwerk #2" = 8
-	"Dolça #1" = -12
-	"Grifiud #1" = 9
-	"Arnalt #1" = 9
-	"Luke #1" = 9
-	"Herbert #0" = 12
-	"Guilhèm #0" = 11
-	"Norah #0" = -11
-	"Éléonore #0" = -10
-	"Centolh #1" = 9
-	"Godefroi #0" = 8
-	"Isaldis #0" = -8
-	"Adeltrudis #0" = -7
-	"Gervas #0" = 7
-	"Idechael #0" = 6
-	"Paol #0" = 6
-	"Bertrand #0" = 5
-	"Caradec #0" = 5
-	"Alix #0" = -5
-	"Aïna #0" = -4
-	"Adèla #0" = -4
-	"Elena #0" = -4
-	"Melisènda #0" = -4
-	"Sarah #0" = -4
-	"Enora #0" = -4
-	"Leonore #0" = -4
-	"Dauid #0" = 4
-	"Elesbed #0" = -4
-	"Estefania #0" = -4
-	"Gerard #0" = 4
-	"Clara #0" = -4
-	"Marcus #0" = 4
-	"Adalaïda #0" = -4
-	"Jaufré #0" = 4
-	"Aliç #0" = -3
-	"Gautier #0" = 3
-	"Elysande #0" = -3
-	"Millicent #0" = -3
-	"Elise #0" = -3
-	"Sança #0" = -3
-	"Isabèla #0" = -2
-	"Faidida #0" = -2
-	"Agata #0" = -2
-	"Abdallah #0" = 2
-	"Gertrude #0" = -2
-	"Mafalda #0" = -2
-	"Clemenza #0" = -2
-	"Turstin #0" = 2
-	"Thibaud #0" = 1
-	"Rorgues #0" = 1
-	"Adémar #0" = 1
-	"Isabeau #0" = -1
-	"Ancelmes #0" = 5
-	"Godafres #0" = -1
-	"Raimon #0" = 1
-	"Matilda #0" = -1
-	"Aimeric #0" = 1
-	"Cyrus #0" = 1
-	"Aldebert #0" = 1
-	"Folquet #0" = 1
-	"Giselle #0" = -1
-	"Catgoulort #0" = 1
-	"Oswyn #0" = 1
-	"Stephanie #0" = -1
-	"Gui #0" = 1
-	"Gualter #0" = 1
-	"Pèronelle #0" = -1
-	"Hamelin #0" = 21
-	"Amelie #0" = -1
-	"Heloise #0" = -1
-	"Eleanor #0" = -1
-	"Miquel #0" = 1
+monarch_names = {
+	"Adelheid #0" = -1
+	"Ali-Zalil #0" = 0
+	"Aoua #0" = -1
+	"Arnalt #1" = 10
+	"Arnulf #1" = 10
+	"Avenie #1" = -1
+	"Barakissa #0" = -1
+	"Carloman #1" = 10
+	"Charles #2" = 10
+	"Childébert #1" = 10
+	"Childéric #2" = 10
+	"Chilpéric #3" = 10
+	"Clotaire #4" = 10
+	"Clovis #3" = 10
+	"Dagobert #2" = 10
+	"Dolça #1" = -1
+	"Enric #1" = 10
+	"Eudes #1" = 10
+	"Grifiud #1" = 10
+	"Henri #3" = 10
+	"Hugues #1" = 10
+	"Karl #2" = 10
+	"Karloman #1" = 10
+	"Lothaire #1" = 10
+	"Louis #5" = 10
+	"Luke #1" = 10
+	"Meinwerk #2" = 10
+	"Paol #0" = 0
+	"Pepin #1" = 10
+	"Philippe #2" = 10
+	"Raoul #1" = 10
+	"Raymond #1" = 10
+	"Robert #2" = 10
+	"Sulcar #1" = -1
+	"Théoderic #3" = 10
+	"Turstin #0" = 0
 }
 leader_names = {
 	"Desgouttes"
@@ -140,7 +74,7 @@ leader_names = {
 	"d'Ambleteuse"
 	"d'Aulnay"
 	"d'Entraigues"
-	"d'Estr es"
+	"d'Estrées"
 	"d'Ornano"
 	"d'Usson"
 	"de Beauharnais"
@@ -149,6 +83,7 @@ leader_names = {
 	"de Bonnefoy"
 	"de Bonneuil"
 	"de Broglie"
+	"de Béthune"
 	"de Castaing"
 	"de Caumartin"
 	"de Chambly"
@@ -156,14 +91,17 @@ leader_names = {
 	"de Champmartin"
 	"de Chevigny"
 	"de Crussol"
+	"de Crèvecœur"
 	"de Dampierre"
 	"de Galard"
 	"de La Barthe"
 	"de La Ferrandie"
+	"de La Galissonière"
 	"de La Mothe"
 	"de La Motte d'Airan"
 	"de La Porte"
 	"de La Tour d'Auvergne"
+	"de Lhéry"
 	"de Luynes"
 	"de Marguerye"
 	"de Maurepas"
@@ -179,12 +117,12 @@ leader_names = {
 	"de Saint-Omer"
 	"de Siorac"
 	"de Tocqueville"
-	"de Troville"
+	"de Tréville"
 	"de Vergennes"
 	"de Vibien"
 	"de Vigny"
 	"de Villeneuve"
-	"de la Bretonniôre"
+	"de la Bretonnière"
 	"des Coulons"
 	"des Herbiers"
 	"des Écures"
@@ -196,7 +134,7 @@ ship_names = {
 	"Achille"
 	"Actif"
 	"Actionnaire"
-	"Adela de"
+	"Adelaïde"
 	"Admirable"
 	"Adroit"
 	"Africain"
@@ -232,8 +170,13 @@ ship_names = {
 	"Arcole"
 	"Ardent"
 	"Argonaute"
+	"Artésien"
+	"Aréthuse"
 	"Asie"
+	"Assuré"
 	"Astrolabe"
+	"Astrée"
+	"Athénien"
 	"Atlante"
 	"Audacieux"
 	"Auguste"
@@ -247,12 +190,13 @@ ship_names = {
 	"Belle Poule"
 	"Belliqueux"
 	"Bellone"
-	"Bien-Aim "
+	"Bien-Aimé"
 	"Bienfaisant"
 	"Bizarre"
 	"Bon"
 	"Bonne"
 	"Bordelais"
+	"Borée"
 	"Boudeuse"
 	"Bouffonne"
 	"Bourbon"
@@ -262,6 +206,7 @@ ship_names = {
 	"Breton"
 	"Brillant"
 	"Brutal"
+	"Brélé"
 	"Bucentaure"
 	"Calypso"
 	"Capable"
@@ -293,8 +238,9 @@ ship_names = {
 	"Commerce de Paris"
 	"Commerce du Lyon"
 	"Comte"
-	"ComÃ©te"
+	"Comète"
 	"Concorde"
+	"Conquérant"
 	"Consolante"
 	"Content"
 	"Coq"
@@ -307,14 +253,17 @@ ship_names = {
 	"Croissant d'Afrique"
 	"Curieux"
 	"Cygne"
+	"César"
 	"Dalmate"
+	"Dansé"
 	"Dantzig"
 	"Dauphin"
 	"Dauphin Royal"
 	"Dego"
 	"Desaix"
 	"Destin"
-	"Deux Fréres"
+	"Deux Frères"
+	"Diadème"
 	"Diamant"
 	"Dictateur"
 	"Don de Dieu"
@@ -332,6 +281,8 @@ ship_names = {
 	"Duperre"
 	"Duquesne"
 	"Dur"
+	"Dédaigneuse"
+	"Défenseur"
 	"Elbeuf"
 	"Embuscade"
 	"Empereur"
@@ -347,6 +298,8 @@ ship_names = {
 	"Faucon Anglais"
 	"Favori"
 	"Fendant"
+	"Ferronière"
+	"Fidèle"
 	"Fier"
 	"Fiesque"
 	"Flamand"
@@ -360,10 +313,15 @@ ship_names = {
 	"Fougueux"
 	"Français"
 	"Friponne"
-	"Frédèric"
+	"Frédéric"
+	"Frégate Royale"
 	"Fulminant"
+	"Fâcheux"
+	"Fée"
+	"Félicité"
 	"Gaillard"
 	"Galant"
+	"Galathée"
 	"Galion de Guise"
 	"Gaulois"
 	"Gazelle"
@@ -380,10 +338,13 @@ ship_names = {
 	"Grand Vainqueur"
 	"Grand Vasseau du Roi"
 	"Grande Galion de Malte"
+	"Grande Nef d'Écosse"
 	"Grande Saint Jean"
 	"Griffon"
 	"Guerrier"
 	"Guirlande"
+	"Généreux"
+	"Gênois"
 	"Hardi"
 	"Hasardeux"
 	"Havre"
@@ -394,12 +355,17 @@ ship_names = {
 	"Hippopotame"
 	"Hirondelle"
 	"Hymen"
+	"Hébé"
+	"Héros"
+	"Héroïne"
 	"Inconstante"
 	"Indien"
 	"Indomptable"
 	"Infante"
 	"Inflexible"
+	"Intrépide"
 	"Invincible"
+	"Iphighénie"
 	"Isabelle"
 	"Jason"
 	"Jemmapes"
@@ -415,11 +381,14 @@ ship_names = {
 	"Licorne"
 	"Ligourois"
 	"Lion"
+	"Lion Couronné"
 	"Lion d'Or"
 	"Lionne"
 	"Lune"
 	"Lutine"
 	"Lys"
+	"Léger"
+	"Léopard"
 	"Madame"
 	"Madeleine"
 	"Madeleine de Brest"
@@ -432,6 +401,7 @@ ship_names = {
 	"Marabout"
 	"Marguerite"
 	"Marguerite du Ponant"
+	"Marie la Cordelière"
 	"Marie-Elisabeth"
 	"Marin"
 	"Marquise"
@@ -440,9 +410,11 @@ ship_names = {
 	"Maurepas"
 	"Mazarin"
 	"Mercure"
+	"Mercœur"
 	"Merveilleux"
 	"Mignonne"
 	"Minotaure"
+	"Modéré"
 	"Monarque"
 	"Mont Saint-Bernard"
 	"Montebello"
@@ -450,21 +422,27 @@ ship_names = {
 	"Montmorency"
 	"Montolieu"
 	"Mutine"
+	"Méduse"
 	"Nassau"
 	"Navarrais"
 	"Navire-du-Roi"
 	"Neptune"
 	"Nieuport"
+	"Noire Galère"
 	"Normand"
 	"Notre Dame"
 	"Notre Dame de la Victoire"
 	"Notre Dame des Martyres"
 	"Notre Dame du Peuple"
+	"Néréide"
+	"Océan"
 	"Oiseau"
+	"Opiniâtre"
 	"Orgueilleux"
 	"Orient"
 	"Oriflamme"
 	"Orion"
+	"Orphée"
 	"Ours"
 	"Ours Blanc"
 	"Ours d'Or"
@@ -474,27 +452,39 @@ ship_names = {
 	"Paris"
 	"Patriote"
 	"Perle"
+	"Persée"
+	"Persévérante"
 	"Petit Saint Jean"
 	"Petit Saint Louis"
+	"Pléiade"
 	"Poli"
 	"Polonais"
+	"Polyphème"
 	"Pompeux"
+	"Pompée"
 	"Pourvoyeuse"
 	"Prince"
-	"Prince Enric"
+	"Prince Henri"
 	"Princesse"
 	"Prompt"
+	"Prosélyte"
+	"Protée"
 	"Provençal"
 	"Prudent"
 	"Pucelle"
 	"Puissant"
 	"Pyrrhus"
+	"Pégase"
+	"Pélican"
+	"Pélicorne"
+	"Quatre Frères"
 	"Railleuse"
 	"Raisonnable"
 	"Redoutable"
 	"Regina"
 	"Regulus"
 	"Reine"
+	"Renommée"
 	"Robuste"
 	"Rochefort"
 	"Roi de Rome"
@@ -502,10 +492,17 @@ ship_names = {
 	"Rouen"
 	"Royal"
 	"Royal Duc"
+	"Royal Hollandais"
+	"Royal Italien"
 	"Royal Louis"
+	"Royale Thérèse"
 	"Rubis"
+	"Réfléchi"
+	"Régénérateur"
+	"Résistance"
 	"Sage"
 	"Sagittaire"
+	"Saint André"
 	"Saint Antoine"
 	"Saint Antoine de Gênes"
 	"Saint Augustin"
@@ -514,8 +511,9 @@ ship_names = {
 	"Saint Charles"
 	"Saint Cosme"
 	"Saint Dominique"
-	"Saint Edm "
+	"Saint Edmé"
 	"Saint Esprit"
+	"Saint François"
 	"Saint Georges de Londres"
 	"Saint Ignace"
 	"Saint Jacques"
@@ -532,25 +530,30 @@ ship_names = {
 	"Saint Paul"
 	"Saint Philippe"
 	"Saint Pierre"
+	"Saint Sébastien"
 	"Saint Thomas d'Aquin"
 	"Saint Vincent"
 	"Saint-Malo"
 	"Saint-Sacrement"
 	"Sainte Croix"
-	"Sainte Genevive"
+	"Sainte Geneviève"
 	"Sainte Marie"
 	"Salamandre"
 	"Sans Pareil"
 	"Sceptre"
 	"Scipion"
 	"Seine"
+	"Sirène"
 	"Soleil"
 	"Soleil Royal"
+	"Soleil d'Afrique"
+	"Soleil d'Alger"
 	"Solide"
 	"Sophie"
 	"Sorlingue"
 	"Sourdis"
 	"Souverain"
+	"Sphinx"
 	"Subtile"
 	"Suffisant"
 	"Suffren"
@@ -558,9 +561,17 @@ ship_names = {
 	"Surveillante"
 	"Suzanne"
 	"Sylvie"
+	"Séduisant"
+	"Sémillante"
+	"Sérieux"
+	"Tempête"
 	"Terpsichore"
 	"Terreur"
 	"Terrible"
+	"Thémistocle"
+	"Thérèse"
+	"Thésée"
+	"Thétis"
 	"Tigre"
 	"Tonnant"
 	"Topaze"
@@ -575,6 +586,7 @@ ship_names = {
 	"Trois Fanaux"
 	"Trois Rois"
 	"Trompeuse"
+	"Téméraire"
 	"Uranie"
 	"Utile"
 	"Vaillant"
@@ -592,12 +604,29 @@ ship_names = {
 	"Ville-de-Marseille"
 	"Ville-de-Paris"
 	"Ville-de-Rouen"
-	"Ville-de-Reims"
-	"Ville-de-Bordeaux"
 	"Volage"
 	"Volontaire"
+	"Vénus"
+	"Vétéran"
 	"Wallon"
 	"Zodiaque"
+	"Zélandais"
+	"Zélé"
+	"Éclatant"
+	"Écueil"
+	"Écureuil"
+	"Église"
+	"Émerillon"
+	"Éminent"
+	"Éole"
+	"Ésperance"
+	"Ésperance d'Angleterre"
+	"Ésperance de Dieu"
+	"Ésperance en Dieu"
+	"États de Bourgogne"
+	"Étoile de Diane"
+	"Éveillé"
+	"Île de France"
 }
 army_names = {
 	"Armée d'Italie"
@@ -607,7 +636,7 @@ army_names = {
 	"Armée de l'Est"
 	"Armée des Alpes"
 	"Armée des Flandres"
-	"Armée des Pyr n es"
+	"Armée des Pyrénées"
 	"Armée du Jura"
 	"Armée du Lyonnais"
 	"Armée du Midi"

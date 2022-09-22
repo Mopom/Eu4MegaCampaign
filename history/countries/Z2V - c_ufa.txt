@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = nomad_group
+religion = orthodox
+primary_culture = dynamic-bashkir-culture-num1
+capital = 2444
+fixed_capital = 2444
+add_accepted_culture = bashkir
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Hulegu II"
+		dynasty = "Khadaid"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1406.7.19
+		religion = orthodox
+		culture = dynamic-bashkir-culture-num1
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Chagur"
+		dynasty = "Aydin"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = Z2V
+		birth_date = 1412.10.10
+		death_date = 1472.10.10
+		female = yes
+		religion = orthodox
+		culture = dynamic-mongol-tuvan-culture-num1
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = righteous_personality
+	heir = {
+		name = "Dukum"
+		monarch_name = "Dukum"
+		dynasty = "Khadaid"
+		adm = 2
+		dip = 5
+		mil = 4
+		birth_date = 1434.3.10
+		death_date = 1499.3.10
+		claim = 89
+		religion = orthodox
+		culture = dynamic-bashkir-culture-num1
+	}
+	add_heir_personality = careful_personality
+	add_heir_personality = craven_personality
+}
+1444.11.11= {
+	add_prestige = 55
+	add_treasury = 30
+}

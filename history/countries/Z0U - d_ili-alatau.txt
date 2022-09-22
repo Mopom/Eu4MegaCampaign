@@ -6,6 +6,7 @@ religion = tengri_pagan
 primary_culture = dynamic-uzbehk-mongol-culture-num1
 capital = 715
 add_accepted_culture = uyghur
+set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {
 		name = "Chanai"
@@ -17,7 +18,7 @@ add_accepted_culture = uyghur
 		religion = tengri_pagan
 		culture = dynamic-uzbehk-mongol-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
+	add_ruler_personality = entrepreneur_personality
 	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Nazgol"
@@ -32,8 +33,8 @@ add_accepted_culture = uyghur
 		religion = tengri_pagan
 		culture = shirvani
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = benevolent_personality
+	add_queen_personality = kind_hearted_personality
 	heir = {
 		name = "Yesugun"
 		monarch_name = "Yesugun"
@@ -48,7 +49,7 @@ add_accepted_culture = uyghur
 		religion = tengri_pagan
 		culture = dynamic-uzbehk-mongol-culture-num1
 	}
-	add_heir_personality = well_connected_personality
+	add_heir_personality = pious_personality
 	add_heir_personality = zealot_personality
 }
 1444.11.11= {

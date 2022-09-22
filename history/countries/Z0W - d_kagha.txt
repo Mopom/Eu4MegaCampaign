@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 1
 technology_group = nomad_group
 religion = sunni
@@ -7,6 +7,7 @@ primary_culture = turko_iranian
 capital = 2283
 religious_school = hanbali_school
 add_accepted_culture = kanuri
+set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {
 		name = "Dogan"
@@ -18,8 +19,8 @@ add_accepted_culture = kanuri
 		religion = sunni
 		culture = turko_iranian
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = pious_personality
 	heir = {
 		name = "Balaban"
 		monarch_name = "Balaban II"
@@ -33,7 +34,7 @@ add_accepted_culture = kanuri
 		religion = sunni
 		culture = turko_iranian
 	}
-	add_heir_personality = well_connected_personality
+	add_heir_personality = cruel_personality
 	add_heir_personality = zealot_personality
 }
 1444.11.11= {

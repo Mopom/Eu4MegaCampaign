@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 5
 base_manpower = 3
+center_of_trade = 1
 add_core = CDL
 add_core = MNG
 discovered_by = chinese

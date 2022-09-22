@@ -12,6 +12,7 @@ historical_idea_groups = {
 	economic_ideas
 	quality_ideas
 }
+historical_score = 5300
 historical_units = {
 	bardiche_infantry
 	druzhina_cavalry
@@ -31,20 +32,56 @@ historical_units = {
 	slavic_stradioti
 }
 monarch_names = {
-	"Boleslava #1" = -1
-	"Boris #0" = 0
-	"Fedot #2" = 10
-	"Feodosia #0" = -1
-	"Koz'ma #0" = 0
-	"Markos #0" = 0
-	"Rodislav #1" = 10
-	"Rostislava #0" = -1
-	"Stanislav #1" = 10
-	"Svetozar #0" = 0
-	"Trifon #1" = 10
-	"Vasilisa #0" = -1
-	"Vseslava #0" = -1
-	"Yekaterina #2" = -1
+	"Afanasiy #0" = 0
+	"Aleksandr #0" = 20
+	"Alexei #0" = 20
+	"Anatoliy #0" = 0
+	"Andrei #3" = 10
+	"Anna #0" = -15
+	"Anton #0" = 0
+	"Arseniy #0" = 0
+	"Artamon #0" = 0
+	"Artemiy #0" = 0
+	"Bogdan #0" = 0
+	"Boris #0" = 20
+	"Demyan #0" = 0
+	"Dmitriy #6" = 15
+	"Elizaveta #0" = -15
+	"Epifaniy #0" = 0
+	"Feofan #0" = 0
+	"Fyodor #1" = 60
+	"Gavriil #0" = 0
+	"Grigoriy #0" = 0
+	"Iosif #0" = 0
+	"Isaak #0" = 0
+	"Ivan #3" = 60
+	"Kirill #0" = 0
+	"Konstantin #0" = 15
+	"Lavrentiy #0" = 0
+	"Lazar #0" = 0
+	"Lev #0" = 0
+	"Malyuta #0" = 0
+	"Mark #0" = 0
+	"Mefodiy #0" = 0
+	"Mikhail #0" = 20
+	"Nikifor #0" = 0
+	"Nikita #0" = 0
+	"Nikodim #0" = 0
+	"Nikolai #0" = 10
+	"Oleg #0" = 0
+	"Pavel #0" = 20
+	"Platon #0" = 0
+	"Prokopiy #0" = 0
+	"Pyotr #0" = 60
+	"Semen #1" = 10
+	"Sergei #0" = 0
+	"Stanislav #0" = 0
+	"Varfolomey #0" = 0
+	"Vasiliy #2" = 20
+	"Yefim #0" = 0
+	"Yekaterina #0" = -20
+	"Yulian #0" = 0
+	"Yuriy #4" = 15
 }
 leader_names = {
 	"Adashev"

@@ -519,6 +519,7 @@ add_harmonized_religion = mahayana
 	queen = {
 		country_of_origin = KOR
 		name = "Jung Soon"
+		dynasty = "Gyeongju Kim"
 		birth_date = 1745.12.2
 		death_date = 1805.2.11
 		female = yes

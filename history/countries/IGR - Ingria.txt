@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = ingrian
+capital = 34
+mercantilism = 25
+1444.11.11= {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		mil = 3
+		dip = 3
+		regent = yes
+	}
+}

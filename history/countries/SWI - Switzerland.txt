@@ -1,19 +1,55 @@
-government = republic
-add_government_reform = united_cantons_reform
-government_rank = 1
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
 technology_group = western
-religion = catholic
+religion = converted_dynamic_faith_104
 primary_culture = swiss
-capital = 165
-add_army_professionalism = 0.1
-1399.1.1= {
+capital = 205
+1444.11.11= {
 	monarch = {
-		name = "Die Tagsatzung"
-		adm = 3
+		name = "Bohdana"
+		dynasty = "Premyslid-Švýcarský"
+		adm = 6
 		dip = 3
-		mil = 3
-		regent = yes
+		mil = 5
+		birth_date = 1388.10.21
+		female = yes
+		religion = converted_dynamic_faith_104
+		culture = swiss
 	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Antuninu"
+		dynasty = "Orsini"
+		adm = 6
+		dip = 2
+		mil = 5
+		country_of_origin = SWI
+		birth_date = 1413.6.17
+		death_date = 1473.6.17
+		religion = catholic
+		culture = sicilian
+	}
+	add_queen_personality = infertile_personality
+	add_queen_personality = lawgiver_personality
+	heir = {
+		name = "Nacerat"
+		monarch_name = "Nacerat"
+		dynasty = "Premyslid-Švýcarský"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1437.2.9
+		death_date = 1502.2.9
+		claim = 89
+		religion = converted_dynamic_faith_104
+		culture = swiss
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = tactical_genius_personality
 }
-1528.1.1= { religion = reformed }
-1798.1.1= { set_legacy_government = constitutional_republic }
+1444.11.11= {
+	add_prestige = 112
+	add_treasury = 58
+}

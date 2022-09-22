@@ -1,11 +1,7 @@
 capital = "Kurgan"
-is_city = yes
 culture = dynamic-bashkir-culture-num1
 religion = tengri_pagan
 trade_goods = fur
 base_tax = 1
 base_production = 1
-base_manpower = 2
-discovered_by = eastern
-discovered_by = nomad_group
-discovered_by = ottoman
+base_manpower = 3

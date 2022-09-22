@@ -322,7 +322,7 @@ christian = {
 		}
 		country = {
 			development_cost = -0.1
-			innovativeness_gain = 0.5
+			technology_cost = -0.05
 		}
 
 		country_as_secondary = {
@@ -337,6 +337,10 @@ christian = {
 			dissolve_monasteries_aspect
 			monopoly_aspect
 			stability_aspect
+			innovativeness_aspect
+			expel_heretics_aspect
+			diplomats_of_the_reformation_aspect
+			icons_of_the_church_aspect
 		}
 		aspects_name = ANGLICAN_ASPECTS
 
@@ -415,6 +419,9 @@ christian = {
 			individual_creeds_aspect
 			allow_usury_aspect
 			translated_bibles_aspect
+			justified_religious_war_aspect
+			war_preaches_aspect
+			head_of_the_church_aspect
 		}
 		aspects_name = PROTESTANT_ASPECTS
 
@@ -668,6 +675,11 @@ christian = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.05
 					modifier = {
@@ -688,6 +700,11 @@ christian = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.02
 					modifier = {
@@ -720,6 +737,11 @@ christian = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0
 				}
@@ -731,6 +753,11 @@ christian = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.1
 				}
@@ -742,6 +769,11 @@ christian = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.02
 					modifier = {
@@ -1333,89 +1365,10 @@ muslim = {
 		}
 
 	}
-	
-	quranist = { 
-		color = { 0.2 0.7 0.1 } #51 178.5 25.5
-		icon = 133
-		allowed_center_conversion = {
-			sunni
-		}
-		country = {
-			tolerance_own = 2
-			heir_chance = 1.0
-		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-		country_as_secondary = {
-			tolerance_own = 2
-			heir_chance = 1.0
-		}
-		heretic = { BEKTASHI AHMADI YAZIDI }
-		
-		fervor = yes			# Uses fervor mechanics
-
-		will_get_center = { #Refered to even for initial CoR Spawn
-			any_owned_province = {
-				religion = quranist
-			}
-		}
-
-		on_convert = {
-			change_religion = quranist
-			add_prestige = -100
-
-			if = {
-				limit = {
-					has_global_flag = quranist_revival
-					NOT = {
-						calc_true_if = {
-							all_province = {
-								religion = quranist
-								is_reformation_center = yes
-							}
-							amount = 3
-						}
-					}
-				}
-				hidden_effect = {
-					random_owned_province = {
-						limit = {
-							can_have_quranist_center_of_reformation_trigger = {
-								RELIGION = quranist
-							}
-						}
-						change_religion = quranist
-						add_reform_center = quranist
-					}
-				}
-				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
-			}
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-
-	}
 
 	sunni = {
 		color = { 0 153 0 }
 		icon = 5
-		allowed_conversion = { 
-			sunni
-			shiite
-			ibadi
-			mutazila
-			quranist
-			alawite
-			zikri
-			kharijite
-			druze
-			hurufi
-			qarmatian
-		}
 		country = {
 			cav_to_inf_ratio = 0.10
 			heir_chance = 1.0
@@ -1652,7 +1605,7 @@ dharmic = {
 		heretic = { BHAKTI }
 	}
 
-	gangan = {
+	sikhism = {
 		color = { 0 153 153 }
 		icon = 15
 		allowed_conversion = {
@@ -1661,7 +1614,7 @@ dharmic = {
 			shiite
 		}
 		country = {
-			monarch_lifespan = 0.15
+			mil_tech_cost_modifier = -0.1
 			land_morale = 0.1
 		}
 		country_as_secondary = {
@@ -1673,7 +1626,7 @@ dharmic = {
 		}
 
 		on_convert = {
-			change_religion = gangan
+			change_religion = sikhism
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -1684,7 +1637,7 @@ dharmic = {
 
 		heretic = { MASANDIS }
 
-		date = 1459.01.01
+		date = 1499.01.01
 
 		gurus = {
 			guru_nanak = {
@@ -1720,7 +1673,7 @@ dharmic = {
 			}
 			guru_angad = {
 				trigger = {
-					is_year = 1489
+					is_year = 1539
 					is_month = 9
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -1728,23 +1681,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1490
+						is_year = 1540
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1491
+						is_year = 1541
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1492
+						is_year = 1542
 					}
 					modifier = {
 						factor = 2
-						is_year = 1493
+						is_year = 1543
 					}
 					modifier = {
 						factor = 2
-						is_year = 1494
+						is_year = 1544
 					}
 				}
 				modifier = {
@@ -2519,7 +2472,7 @@ jewish_group = {
 					limit = {
 						has_church_aspect = judaism_simchat_torah_aspect
 					}
-					change_government_reform_progress = 20
+					change_government_reform_progress = 25
 					add_legitimacy_equivalent = {
 						amount = 5
 						republican_tradition = 5
@@ -2537,6 +2490,21 @@ jewish_group = {
 					}
 					add_years_of_income = 0.3
 					add_inflation = -1
+				}
+				if = {
+					limit = {
+						has_government_attribute = loyalty_from_celebration
+					}
+					add_estate_loyalty = {
+						estate = estate_church
+						loyalty = 20
+					}
+				}
+				hidden_effect = {
+					if = {
+						limit = { NOT = { has_country_flag = has_celebrated_festival } }
+						set_country_flag = has_celebrated_festival
+					}
 				}
 			}
 			ai_will_do = {

@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 1
 technology_group = muslim
 religion = sunni
@@ -18,8 +18,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-berber-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = scholar_personality
 	queen = {
 		name = "Iiju"
 		dynasty = "Orsini"
@@ -33,8 +33,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-berber-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = fertile_personality
+	add_queen_personality = tactical_genius_personality
 	heir = {
 		name = "Muzaffaraddin"
 		monarch_name = "Muzaffaraddin"
@@ -48,8 +48,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-berber-culture-num1
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = kind_hearted_personality
 }
 1444.11.11= {
 	add_prestige = 78

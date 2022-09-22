@@ -2,7 +2,6 @@ ck2_converter_generated = yes
 graphical_culture = asiangfx
 color = { 55 165 25 }
 monarch_names = {
-	"Al-Alta #0" = -1
 	"Bodonchar #1" = 10
 	"Buri #1" = 10
 	"Burkhan #0" = 0
@@ -33,4 +32,5 @@ monarch_names = {
 	"Suyiketu #0" = 0
 	"Uighurtai #0" = 0
 	"Yakut #1" = 10
+	"al-Alta #0" = -1
 }

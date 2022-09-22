@@ -1,10 +1,10 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = feudal_theocracy
 government_rank = 2
 technology_group = muslim
 religion = converted_dynamic_faith_102
 primary_culture = moroccan
-capital = 344
+capital = 228
 1444.11.11= {
 	monarch = {
 		name = "Galussa"
@@ -16,8 +16,8 @@ capital = 344
 		religion = converted_dynamic_faith_102
 		culture = moroccan
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = strict_personality
 	queen = {
 		name = "Kenwa"
 		dynasty = "Yahyavid"
@@ -31,8 +31,8 @@ capital = 344
 		religion = converted_dynamic_faith_102
 		culture = berber
 	}
+	add_queen_personality = charismatic_negotiator_personality
 	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
 	heir = {
 		name = "Adilah"
 		monarch_name = "Adilah"
@@ -47,8 +47,8 @@ capital = 344
 		religion = converted_dynamic_faith_102
 		culture = berber
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = strict_personality
+	add_heir_personality = tolerant_personality
 }
 1444.11.11= {
 	add_prestige = 80

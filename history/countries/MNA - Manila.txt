@@ -23,6 +23,9 @@ capital = 656
 		dip = 4
 		adm = 4
 		mil = 3
+		birth_date = 1420.1.1
+		death_date = 1490.1.1
+		country_of_origin = MNA
 	}
 }
 1480.1.1= {

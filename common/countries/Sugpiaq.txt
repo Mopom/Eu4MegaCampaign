@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 230 230 230 }
+revolutionary_colors = { 10 5 10 }
+historical_idea_groups = {
+	quality_ideas
+	innovativeness_ideas
+	maritime_ideas
+	naval_ideas
+	influence_ideas
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}
+monarch_names = {
+	"Cumshewa #0" = 20
+	"Cuneah #0" = 20
+	"Koya #0" = 20
+	"Kwoiyang #0" = -1
+	"Masset #0" = 20
+	"Nasnan #0" = -1
+	"Qawkúna #0" = -1
+	"Sadzea #0" = -1
+	"Sadzi #0" = -1
+	"Sadzyah #0" = -1
+	"Skaay #0" = 20
+	"Tahaygen #0" = 20
+}
+leader_names = {
+	"Atewaas"
+	"Cha'atl"
+	"Cumshewa"
+	"Haina"
+	"Hiellan"
+	"Hlk'yah GaawGa"
+	"Howkan"
+	"Jaahguhl"
+	"Kaisun"
+	"Kasaan"
+	"Kayung"
+	"Kiusta"
+	"Klinkwan"
+	"Kung"
+	"Masset"
+	"Ninstints"
+	"Skedans"
+	"Skidegate"
+	"Sukkwan"
+	"Tanu"
+	"Yan"
+}
+ship_names = {
+	"Atewaas"
+	"Cha'atl"
+	"Chiin"
+	"Cumshewa"
+	"Ghaltsaakw"
+	"Haina"
+	"Hiellan"
+	"Hlgitun"
+	"Hlk'yah GaawGa"
+	"Howkan"
+	"Jaahguhl"
+	"Kaat"
+	"Kagan"
+	"Kaisun"
+	"Kasaan"
+	"Kayung"
+	"Kiusta"
+	"Klinkwan"
+	"Kun"
+	"Kung"
+	"Masset"
+	"Ninstints"
+	"S'gana"
+	"Sgaal"
+	"Skedans"
+	"Skidegate"
+	"Sukkwan"
+	"Taan"
+	"Tanu"
+	"Tsaak"
+	"Tsahtsaa"
+	"Tsang"
+	"Xa"
+	"Xhalkuts"
+	"Xunts"
+	"Xuut"
+	"Yaahl"
+	"Yan"
+}

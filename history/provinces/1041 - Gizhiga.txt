@@ -1,14 +1,11 @@
-owner = CHV
-controller = CHV
 capital = "Gizhiga"
 is_city = yes
 culture = kamchatkan
 religion = tengri_pagan
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = CHV
 discovered_by = ANU
 discovered_by = CHU
 discovered_by = CHV

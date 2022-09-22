@@ -6,6 +6,7 @@ religion = tengri_pagan
 primary_culture = mongol
 capital = 1968
 add_accepted_culture = tajik
+set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {
 		name = "Bodonchar"
@@ -17,10 +18,10 @@ add_accepted_culture = tajik
 		religion = tengri_pagan
 		culture = mongol
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = tactical_genius_personality
 	queen = {
-		name = "Al-Alta"
+		name = "al-Alta"
 		dynasty = "Chormakhan"
 		adm = 4
 		dip = 5
@@ -32,7 +33,7 @@ add_accepted_culture = tajik
 		religion = tengri_pagan
 		culture = mongol
 	}
-	add_queen_personality = well_connected_personality
+	add_queen_personality = pious_personality
 	add_queen_personality = zealot_personality
 	heir = {
 		name = "Buri"
@@ -47,8 +48,8 @@ add_accepted_culture = tajik
 		religion = tengri_pagan
 		culture = mongol
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = embezzler_personality
+	add_heir_personality = kind_hearted_personality
 }
 1444.11.11= {
 	add_prestige = 68

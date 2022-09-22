@@ -13,5 +13,5 @@ center_of_trade = 2
 add_core = CEB
 discovered_by = chinese
 latent_trade_goods = {
-coal
+	coal
 }

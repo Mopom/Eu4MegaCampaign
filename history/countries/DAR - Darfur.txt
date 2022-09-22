@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 2
 technology_group = east_african
 religion = sunni
@@ -19,8 +19,8 @@ add_accepted_culture = kanuri
 		religion = sunni
 		culture = dynamic-daju-zaghawa-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = scholar_personality
 	queen = {
 		name = "Mariam"
 		dynasty = "Konaté"
@@ -34,7 +34,7 @@ add_accepted_culture = kanuri
 		religion = sunni
 		culture = dynamic-mali-culture-num1
 	}
-	add_queen_personality = well_connected_personality
+	add_queen_personality = industrious_personality
 	add_queen_personality = zealot_personality
 	heir = {
 		name = "Gaguwe"
@@ -49,8 +49,8 @@ add_accepted_culture = kanuri
 		religion = sunni
 		culture = dynamic-daju-zaghawa-culture-num1
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = calm_personality
+	add_heir_personality = tactical_genius_personality
 }
 1444.11.11= {
 	add_prestige = 74

@@ -1,11 +1,9 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 2
 technology_group = eastern
 religion = sunni
 primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
-add_historical_rival = Z00
-add_historical_rival = PER
 capital = 327
 religious_school = hanbali_school
 add_accepted_culture = anatolian
@@ -20,8 +18,8 @@ add_accepted_culture = anatolian
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = tactical_genius_personality
 	queen = {
 		name = "Echrad"
 		dynasty = "ua Dubgaill"
@@ -35,8 +33,8 @@ add_accepted_culture = anatolian
 		religion = converted_dynamic_faith_102
 		culture = dynamic-irish-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = free_thinker_personality
+	add_queen_personality = righteous_personality
 	heir = {
 		name = "Hussayn"
 		monarch_name = "Hussayn"
@@ -50,7 +48,7 @@ add_accepted_culture = anatolian
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_heir_personality = well_connected_personality
+	add_heir_personality = obsessive_perfectionist_personality
 	add_heir_personality = zealot_personality
 }
 1444.11.11= {

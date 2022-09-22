@@ -1,0 +1,19 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = central_african
+religion = shamanism
+primary_culture = jukun
+capital = 1162
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = mwari_cult
+1444.11.11= {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		mil = 3
+		dip = 3
+		regent = yes
+	}
+}

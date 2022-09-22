@@ -1,5 +1,4 @@
 capital = "Makoua"
-is_city = yes
 culture = anishinabe
 religion = totemism
 trade_goods = unknown

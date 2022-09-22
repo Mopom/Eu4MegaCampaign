@@ -1,14 +1,14 @@
 union=
 {
-	first="Z1Z"
-	second="Z2L"
+	first="Z24"
+	second="Z2R"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
 
 union=
 {
-	first="Z0I"
+	first="Z0G"
 	second="Z0S"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
@@ -16,8 +16,8 @@ union=
 
 union=
 {
-	first="Z2R"
-	second="Z2S"
+	first="Z2X"
+	second="Z2Y"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
@@ -33,7 +33,7 @@ union=
 union=
 {
 	first="NAX"
-	second="Z13"
+	second="Z15"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }

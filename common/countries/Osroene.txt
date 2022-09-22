@@ -1,0 +1,33 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 175 100 }
+revolutionary_colors = { 16 14 14 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	quantity_ideas
+	influence_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_azab
+	ottoman_janissary
+	ottoman_lancer
+	ottoman_musellem
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_timariot
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	ottoman_yaya
+}

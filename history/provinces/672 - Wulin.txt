@@ -9,7 +9,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 extra_cost = 8
-center_of_trade = 1
 add_core = CHC
 add_core = CXI
 add_core = MNG

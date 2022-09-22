@@ -11,7 +11,6 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = PTE
-add_core = AJU
 discovered_by = central_african
 discovered_by = east_african
 discovered_by = indian

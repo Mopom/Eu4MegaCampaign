@@ -17,8 +17,8 @@ add_accepted_culture = greek
 		religion = orthodox
 		culture = anatolian
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = strict_personality
 	queen = {
 		name = "Aikaterine"
 		dynasty = "Palaiologos-Velbazhd"
@@ -32,8 +32,8 @@ add_accepted_culture = greek
 		religion = orthodox
 		culture = greek
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = just_personality
+	add_queen_personality = strict_personality
 	heir = {
 		name = "Georgios"
 		monarch_name = "Georgios"
@@ -47,8 +47,8 @@ add_accepted_culture = greek
 		religion = orthodox
 		culture = greek
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = malevolent_personality
+	add_heir_personality = obsessive_perfectionist_personality
 }
 1444.11.11= {
 	add_prestige = 76

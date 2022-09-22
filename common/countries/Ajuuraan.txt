@@ -3,12 +3,12 @@ graphical_culture = africangfx
 color = { 230 240 255 }
 revolutionary_colors = { 5 0 8 }
 historical_idea_groups = {
-	exploration_ideas
-	trade_ideas
+	religious_ideas
+	offensive_ideas
 	economic_ideas
+	diplomatic_ideas
+	trade_ideas
 	maritime_ideas
-	innovativeness_ideas
-	quantity_ideas
 	defensive_ideas
 	administrative_ideas
 }
@@ -43,6 +43,8 @@ monarch_names = {
 	"Saartif #1" = 10
 	"Selassie #0" = -1
 	"Shararah #0" = -1
+	"Steve Senior #1" = 10
+	"Steven #1" = 10
 }
 leader_names = {
 	"Abdallah"
@@ -62,7 +64,6 @@ leader_names = {
 	"Rahim"
 	"Saad"
 	"Sadiq"
-	"Saartif"
 	"Sharif"
 }
 ship_names = {

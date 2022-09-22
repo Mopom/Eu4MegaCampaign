@@ -7,6 +7,7 @@ primary_culture = novgorodian
 capital = 310
 fixed_capital = 310
 mercantilism = 25
+add_accepted_culture = karelian
 historical_rival = MOS
 1429.1.1= {
 	monarch = {

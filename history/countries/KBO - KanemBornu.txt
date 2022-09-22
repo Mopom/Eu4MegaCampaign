@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 2
 technology_group = sub_saharan
 religion = sunni
@@ -9,7 +9,7 @@ religious_school = hanbali_school
 1444.11.11= {
 	monarch = {
 		name = "Zala"
-		dynasty = "Durbawa"
+		dynasty = "Durbawa-Katagum"
 		adm = 3
 		dip = 2
 		mil = 4
@@ -17,7 +17,7 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hausa
 	}
-	add_ruler_personality = well_connected_personality
+	add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Eunike"
@@ -32,12 +32,12 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
 	heir = {
 		name = "Igoumou"
 		monarch_name = "Igoumou"
-		dynasty = "Durbawa"
+		dynasty = "Durbawa-Katagum"
 		adm = 6
 		dip = 5
 		mil = 6
@@ -47,7 +47,7 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hausa
 	}
-	add_heir_personality = well_connected_personality
+	add_heir_personality = intricate_web_weaver_personality
 	add_heir_personality = zealot_personality
 }
 1444.11.11= {

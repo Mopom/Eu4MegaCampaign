@@ -1,31 +1,15 @@
-christian = {
+jewish_group = {
 	samaritan_faith = {
-		color = { 88 26 37 }
-		icon =  173
-
-		allowed_conversion = { 
-		sunni
-		shiite
-		ibadi
-		mutazila
-		quranist
-		alawite
-		zikri
-		kharijite
-		druze
-		hurufi
-		qarmatian
-		}
-
+		icon = 50
+		color = { 200 0 200 }
 		country = {
-			advisor_cost = -0.2
-			advisor_pool = 1
-			tolerance_heathen = 1
-			tolerance_heretic = 1
-			female_advisor_chance = 0.5
+			advisor_cost = -0.15
+			adm_tech_cost_modifier = -0.05
+			tolerance_heathen = -2
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.01
+			local_tax_modifier = 0.02
 		}
 		country_as_secondary = {
 			advisor_cost = -0.3
@@ -95,7 +79,7 @@ christian = {
 					limit = {
 						has_church_aspect = judaism_sukkot_aspect
 					}
-					add_years_of_income = 1
+					add_years_of_income = 0.3
 					add_inflation = -1
 				}
 			}
@@ -119,11 +103,11 @@ christian = {
 			}
 		}
 		
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+		heretic = { KARAITE }
 	}
 	karaite_faith = { #
 		icon = 51
-		color = { 255 83 255 }
+		color = { 250 80 250 }
 		country = {
 			governing_capacity = 250
 			idea_cost = -0.1

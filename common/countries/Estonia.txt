@@ -1,5 +1,5 @@
 ck2_converter_generated = yes
-graphical_culture = westerngfx
+graphical_culture = easterngfx
 color = { 248 125 125 }
 revolutionary_colors = { 15 1 0 }
 historical_idea_groups = {
@@ -30,22 +30,17 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Aabraham #0" = 10
-	"Eerikki #0" = 20
-	"Ilmar #0" = 20
-	"Jaak #0" = 20
-	"Jaakko #0" = 5
-	"Juta #0" = -1
-	"J0rgen #0" = 5
-	"Kaarel #0" = 0
-	"Kauri #0" = 10
-	"K0tlin #0" = -1
-	"Marten #0" = 5
-	"Meeme #0" = 0
-	"Otto #0" = 5
-	"Priidu #0" = 10
-	"Riivo #0" = 0
-	"Silja #0" = -1
+	"Bukantas #2" = 10
+	"Gavriil #0" = 0
+	"Gundes #0" = -1
+	"Kenna #0" = -1
+	"Lible #1" = 10
+	"Nyayka #0" = -1
+	"Pirvu #0" = 0
+	"Rimgaila #1" = 10
+	"Treniota #1" = 10
+	"Treniotas #0" = 0
+	"Ámmot #0" = 0
 }
 leader_names = {
 	"Aminoff"

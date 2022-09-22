@@ -1,19 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = muslim
-religion = sunni
-primary_culture = dynamic-andalucian-berber-culture-num1
+technology_group = western
+religion = catholic
+primary_culture = catalan
 capital = 220
-add_accepted_culture = andalucian
-add_accepted_culture = algerian
-
-1444.1.1 = {
-	monarch = {
-		name = "Simeoni II"
-		dynasty = "Bakkid"
-		dip = 3
-		mil = 3
-		adm = 3
-	}
-}

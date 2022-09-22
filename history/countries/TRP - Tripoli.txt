@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 1
 technology_group = muslim
 religion = sunni
@@ -19,8 +19,8 @@ add_accepted_culture = tunisian
 		religion = sunni
 		culture = dynamic-bedouin_arabic-culture-num2
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = lawgiver_personality
 	queen = {
 		name = "Paywand"
 		dynasty = "Gafurid"
@@ -34,8 +34,8 @@ add_accepted_culture = tunisian
 		religion = sunni
 		culture = dynamic-bedouin_arabic-culture-num2
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = secretive_personality
+	add_queen_personality = silver_tongue_personality
 	heir = {
 		name = "Bahir"
 		monarch_name = "Bahir"
@@ -49,8 +49,8 @@ add_accepted_culture = tunisian
 		religion = sunni
 		culture = dynamic-bedouin_arabic-culture-num2
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = bold_fighter_personality
+	add_heir_personality = intricate_web_weaver_personality
 }
 1444.11.11= {
 	add_prestige = 69

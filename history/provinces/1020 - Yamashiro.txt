@@ -16,6 +16,6 @@ discovered_by = OIR
 discovered_by = QNG
 discovered_by = chinese
 add_permanent_province_modifier = {
-name = heian_kyo
-duration = -1
+	name = heian_kyo
+	duration = -1
 }

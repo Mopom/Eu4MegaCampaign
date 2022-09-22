@@ -5,3 +5,12 @@ technology_group = polynesian_tech
 religion = animism
 primary_culture = melanesian
 capital = 4938
+1444.11.11= {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

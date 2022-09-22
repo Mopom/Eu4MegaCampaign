@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KHA
+controller = KHA
 capital = "Ereen"
 is_city = yes
 culture = mongol
@@ -10,6 +10,5 @@ base_production = 2
 base_manpower = 3
 add_core = CHH
 add_core = KHA
-add_core = MGE
 discovered_by = chinese
 discovered_by = nomad_group

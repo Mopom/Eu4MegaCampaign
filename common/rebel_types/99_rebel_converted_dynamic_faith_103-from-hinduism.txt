@@ -1,8 +1,8 @@
-gangan = {
+converted_dynamic_faith_103_rebels = {
 
 	area = nation
 	government = theocracy
-	religion = gangan
+	religion = converted_dynamic_faith_103
 	defection = religion
 	defect_delay = 120
 	independence = none
@@ -37,7 +37,7 @@ gangan = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = gangan }
+			NOT = { religion = converted_dynamic_faith_103 }
 		}
 		modifier = {
 			factor = 0.001
@@ -81,14 +81,14 @@ gangan = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = gangan
-			owner = { religion = gangan }
+			religion = converted_dynamic_faith_103
+			owner = { religion = converted_dynamic_faith_103 }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = gangan }
+			NOT = { religion = converted_dynamic_faith_103 }
 			any_neighbor_province = {
-				religion = gangan
+				religion = converted_dynamic_faith_103
 				NOT = { has_province_modifier = "forced_conversion" }
 			}
 		}
@@ -116,15 +116,15 @@ gangan = {
 	}
 	siege_won_effect = {
 		if = {
-			limit = { religion = gangan }
+			limit = { religion = converted_dynamic_faith_103 }
 			add_province_modifier = {
 				name = "religious_violence"
 				duration = 730
 			}
 		}
 		if = {
-			limit = { NOT = { religion = gangan } }
-			change_religion = gangan
+			limit = { NOT = { religion = converted_dynamic_faith_103 } }
+			change_religion = converted_dynamic_faith_103
 			add_province_modifier = {
 				name = "religious_violence"
 				duration = 730
@@ -156,7 +156,7 @@ gangan = {
 			add_stability = -1
 		}
 		if = {
-			limit = { religion = gangan }
+			limit = { religion = converted_dynamic_faith_103 }
 			add_country_modifier  = {
 				name = "religious_intolerance"
 				duration = 3650
@@ -165,9 +165,9 @@ gangan = {
 		if = {
 			limit = {
 				religion_group = dharmic
-				NOT = { religion = gangan }
+				NOT = { religion = converted_dynamic_faith_103 }
 			}
-			change_religion = gangan
+			change_religion = converted_dynamic_faith_103
 			force_converted = yes
 		}
 	}

@@ -1,10 +1,13 @@
+owner = HOD
+controller = HOD
 capital = "Karalveyem"
 culture = yukagyr
 religion = tengri_pagan
-trade_goods = unknown
+trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = HOD
 discovered_by = CHU
 discovered_by = CHV
 discovered_by = HOD

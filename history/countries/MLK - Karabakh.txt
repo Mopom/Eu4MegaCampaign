@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
 government_rank = 1
 technology_group = eastern
 religion = sunni
@@ -18,10 +18,11 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = armenian
 	}
-	add_ruler_personality = well_connected_personality
+	add_ruler_personality = fertile_personality
 	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Saghar"
+		dynasty = "Zoghbadid"
 		adm = 4
 		dip = 4
 		mil = 5
@@ -32,8 +33,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = bedouin_arabic
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = industrious_personality
+	add_queen_personality = lawgiver_personality
 	heir = {
 		name = "Tovmas"
 		monarch_name = "Tovmas"
@@ -47,7 +48,7 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = armenian
 	}
-	add_heir_personality = well_connected_personality
+	add_heir_personality = pious_personality
 	add_heir_personality = zealot_personality
 }
 1444.11.11= {

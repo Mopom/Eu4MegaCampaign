@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = english_monarchy
 government_rank = 2
 technology_group = eastern
 religion = sunni
@@ -7,10 +7,11 @@ primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
 capital = 1115
 religious_school = hanbali_school
 add_accepted_culture = berber
+set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {
 		name = "Mahdokht"
-		dynasty = "Abbasid"
+		dynasty = "Aegyptos"
 		adm = 4
 		dip = 5
 		mil = 6
@@ -19,8 +20,8 @@ add_accepted_culture = berber
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = drunkard_personality
 	queen = {
 		name = "Yattuy"
 		dynasty = "Tehlawa"
@@ -33,8 +34,8 @@ add_accepted_culture = berber
 		religion = sunni
 		culture = berber
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = righteous_personality
+	add_queen_personality = strict_personality
 	heir = {
 		name = "Esma'il"
 		monarch_name = "Esma'il"
@@ -48,8 +49,8 @@ add_accepted_culture = berber
 		religion = sunni
 		culture = turko_iranian
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = righteous_personality
+	add_heir_personality = tactical_genius_personality
 }
 1444.11.11= {
 	add_prestige = 82

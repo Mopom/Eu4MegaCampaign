@@ -1,0 +1,39 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = indian
+religion = zoroastrian
+primary_culture = parsi
+capital = 529
+unit_type = muslim
+1444.11.11= {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		mil = 3
+		dip = 3
+		regent = yes
+	}
+}
+1800.1.1= {
+	monarch = {
+		name = "Hormusji Bomanji"
+		dynasty = "Wadia"
+		birth_date = 1746.1.1
+		death_date = 1826.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1808.1.1= {
+	heir = {
+		name = "Bomanji Hormusji"
+		dynasty = "Wadia"
+		birth_date = 1808.1.1
+		death_date = 1862.6.6
+		adm = 0
+		dip = 1
+		mil = 2
+	}
+}

@@ -16,8 +16,8 @@ capital = 1827
 		religion = orthodox
 		culture = dalmatian
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
 	queen = {
 		name = "Khatira"
 		dynasty = "Abbasid"
@@ -31,8 +31,8 @@ capital = 1827
 		religion = orthodox
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = righteous_personality
+	add_queen_personality = tactical_genius_personality
 	heir = {
 		name = "Zacharias"
 		monarch_name = "Zacharias III"
@@ -46,8 +46,8 @@ capital = 1827
 		religion = orthodox
 		culture = dalmatian
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = righteous_personality
 }
 1444.11.11= {
 	add_prestige = 100

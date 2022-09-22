@@ -11,5 +11,5 @@ base_manpower = 1
 add_core = WAI
 discovered_by = polynesian_tech
 latent_trade_goods = {
-coal
+	coal
 }

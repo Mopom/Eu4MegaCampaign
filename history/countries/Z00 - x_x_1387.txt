@@ -3,13 +3,10 @@ add_government_reform = ottoman_government
 government_rank = 3
 technology_group = eastern
 religion = sunni
-historical_friend = MAL
-add_historical_rival = RUM
-add_historical_rival = PER
-add_historical_rival = Z01
 primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
 capital = 410
 religious_school = hanbali_school
+set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {
 		name = "Muhammad IV"
@@ -21,8 +18,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = charismatic_negotiator_personality
 	queen = {
 		name = "Sheeva"
 		dynasty = "Walashma"
@@ -36,8 +33,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hejazi_culture
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = architectural_visionary_personality
+	add_queen_personality = scholar_personality
 	heir = {
 		name = "Muhammad"
 		monarch_name = "Muhammad V"
@@ -51,8 +48,8 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = malevolent_personality
+	add_heir_personality = obsessive_perfectionist_personality
 }
 1444.11.11= {
 	add_prestige = 129

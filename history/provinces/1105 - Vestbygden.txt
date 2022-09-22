@@ -1,6 +1,6 @@
 capital = "Vestbygden"
 culture = inuit
-religion = animism
+religion = totemism
 trade_goods = unknown
 base_tax = 1
 base_production = 1

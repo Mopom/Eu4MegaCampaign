@@ -622,11 +622,11 @@ defined_text = {
 			religion = hinduism
         }
     }
-	#Gangan
+	#Sikh
 	text = {
         localisation_key = string_start_religion_sikh
         trigger = {
-			religion = gangan
+			religion = sikhism
         }
     }
 	#Fetishist

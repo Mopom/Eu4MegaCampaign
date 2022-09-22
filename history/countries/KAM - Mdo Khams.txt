@@ -3,7 +3,7 @@ add_government_reform = english_monarchy
 government_rank = 2
 technology_group = chinese
 religion = nestorian
-primary_culture = dynamic-oirats-yakut-culture-num1
+primary_culture = dynamic-oirats-tuvan-culture-num1
 capital = 2131
 add_accepted_culture = dynamic-tibetan-culture-num5
 1444.11.11= {
@@ -15,9 +15,9 @@ add_accepted_culture = dynamic-tibetan-culture-num5
 		mil = 2
 		birth_date = 1385.4.20
 		religion = nestorian
-		culture = dynamic-oirats-yakut-culture-num1
+		culture = dynamic-oirats-tuvan-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
+	add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Khertek"
@@ -30,9 +30,9 @@ add_accepted_culture = dynamic-tibetan-culture-num5
 		death_date = 1446.8.20
 		female = yes
 		religion = nestorian
-		culture = dynamic-oirats-yakut-culture-num1
+		culture = dynamic-oirats-tuvan-culture-num1
 	}
-	add_queen_personality = well_connected_personality
+	add_queen_personality = pious_personality
 	add_queen_personality = zealot_personality
 	heir = {
 		name = "Buinta"
@@ -45,10 +45,10 @@ add_accepted_culture = dynamic-tibetan-culture-num5
 		death_date = 1496.11.17
 		claim = 89
 		religion = nestorian
-		culture = dynamic-oirats-yakut-culture-num1
+		culture = dynamic-oirats-tuvan-culture-num1
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = pious_personality
 }
 1444.11.11= {
 	add_prestige = 61

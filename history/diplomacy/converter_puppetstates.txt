@@ -115,3 +115,99 @@ dependency=
 	end_date="1836.1.1"
 }
 
+vassal=
+{
+	first="BNG"
+	second="PUN"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="EPI"
+	second="ALB"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="KHO"
+	second="Z12"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="KSH"
+	second="Z0N"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MAL"
+	second="JNN"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="MOR"
+	second="FEZ"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="POL"
+	second="Z1F"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="RUM"
+	second="Z0Q"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="UKR"
+	second="EST"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="Z00"
+	second="EGY"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="Z03"
+	second="SWI"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="Z0C"
+	second="Z1G"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

@@ -16,8 +16,8 @@ capital = 4689
 		religion = tengri_pagan
 		culture = dynamic-ostyaki-culture-num2
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = entrepreneur_personality
 	queen = {
 		name = "Çiltanesi"
 		dynasty = "Ufaan"
@@ -31,8 +31,8 @@ capital = 4689
 		religion = tengri_pagan
 		culture = bashkir
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = greedy_personality
 	heir = {
 		name = "Khugurchin"
 		monarch_name = "Khugurchin"
@@ -47,8 +47,8 @@ capital = 4689
 		religion = tengri_pagan
 		culture = dynamic-ostyaki-culture-num2
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
+	add_heir_personality = malevolent_personality
+	add_heir_personality = obsessive_perfectionist_personality
 }
 1444.11.11= {
 	add_prestige = 80

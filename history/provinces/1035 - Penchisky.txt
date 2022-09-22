@@ -1,10 +1,13 @@
+owner = CHU
+controller = CHU
 capital = "Penzhinsky"
 culture = kamchatkan
 religion = tengri_pagan
-trade_goods = unknown
+trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = CHU
 discovered_by = ANU
 discovered_by = CHU
 discovered_by = CHV
