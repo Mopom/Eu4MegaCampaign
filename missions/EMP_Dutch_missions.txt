@@ -1514,7 +1514,7 @@ lot_legacy_of_charlemagne_1 = {
 	has_country_shield = yes
 	
 	lot_ned_reichskrone = {
-		icon = mission_empire
+		icon = centralized_empire
 		required_missions = {  }
 		position = 8
 		provinces_to_highlight = {

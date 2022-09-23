@@ -40,3 +40,25 @@ catholic_conversion_karl = {
 foothold_africa = {
 	institution_spread_from_true_faith = 0.05
 }
+roman_invasion_iminent = {
+	local_hostile_attrition = 3
+	local_garrison_size = 0.12
+	local_manpower_modifier = 0.33
+	local_defender_dice_roll_bonus = 3
+	local_own_coast_naval_combat_bonus = 1
+}
+charlemagne_in_england = {
+	local_hostile_attrition = 5
+	local_garrison_size = 0.10
+	local_defender_dice_roll_bonus = 2
+	local_manpower_modifier = 0.33
+	local_defensiveness = 0.1
+}
+celtic_warriors = {
+	land_morale = 0.10
+}
+control_over_adriatic = {
+	province_trade_power_value = 1
+}
+
+	

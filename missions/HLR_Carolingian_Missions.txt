@@ -280,7 +280,7 @@ hlr_karl_scourge_of_islam_2 = {
 		}
 	}
 	hlr_karl_iberia_united = {
-		icon = mission_develop_alhambra
+		icon = mission_reclaim_andalucia
 		required_missions = { hlr_karl_heart_of_iberia }
 		provinces_to_highlight = {
 			OR = {
@@ -370,7 +370,7 @@ hlr_karl_scourge_of_islam_2 = {
 	}
 	hlr_karl_cities_of_conversion_1 = {
 		icon = mission_occupy_alexandria
-		required_missions = { hlr_karl_religion_united }
+		required_missions = { hlr_karl_religion_united hlr_rome_mediterranean_islands_2 }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 338
@@ -577,6 +577,296 @@ hlr_karl_mending_the_schism_1 = {
 		}
 	}
 }
+hlr_rome_return_northern_route = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_rome_brittany = {
+		icon = mission_have_two_subjects
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				area = brittany_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			brittany_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			wessex_area = {
+				add_permanent_claim = ROOT
+			}
+			home_counties_area = {
+				add_permanent_claim = ROOT
+			}
+			east_anglia_area = {
+				add_permanent_claim = ROOT
+			}
+			british_isles_region = {
+				type = all
+				add_province_modifier = {
+					name = roman_invasion_iminent
+					duration = 7300
+				}
+			}
+		}
+	}
+	hlr_rome_gloucester_londen = {
+		icon = mission_unite_home_region
+		required_missions = { hlr_rome_brittany }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = wessex_area
+				area = home_counties_area
+				area = east_anglia_area
+				province_id = 239
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wessex_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			home_counties_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_anglia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			239 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			west_midlands_area = {
+				add_permanent_claim = ROOT
+				type = all
+			}
+			east_midlands_area = {
+				add_permanent_claim = ROOT
+				type = all
+			}
+			yorkshire_area = {
+				add_permanent_claim = ROOT
+				type = all
+			}
+			scottish_marches_area = {
+				add_permanent_claim = ROOT
+				type = all
+			}
+			west_midlands_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			east_midlands_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			yorkshire_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			scottish_marches_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			wales_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			munster_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			connacht_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			leinster_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			ulster_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			kingdom_of_the_isles_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			highlands_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+			lowlands_area = {
+				type = all
+				add_province_modifier = {
+					name = charlemagne_in_england
+					duration = -1
+				}
+			}
+		}
+	}
+	hlr_rome_land_of_the_angles = {
+		icon = mission_rb_into_england
+		required_missions = { hlr_rome_gloucester_londen }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = wessex_area
+				area = west_midlands_area
+				area = home_counties_area
+				area = east_anglia_area
+				area = east_midlands_area
+				area = scottish_marches_area
+				area = yorkshire_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wessex_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			west_midlands_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			home_counties_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_anglia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_midlands_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			scottish_marches_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			yorkshire_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			british_isles_region = {
+				add_permanent_claim = ROOT
+			}
+			west_midlands_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			east_midlands_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			scottish_marches_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			yorkshire_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+		}
+	}
+	hlr_rome_brittania = {
+		icon = mission_rb_angevin_kingdom
+		required_missions = { hlr_rome_land_of_the_angles }
+		position = 4
+		provinces_to_highlight = {
+			area = wales_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wales_area = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			british_isles_region = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			add_country_modifier = {
+				name = celtic_warriors
+				duration = 18260
+			}
+		}
+	}
+}
 hlr_karl_scourge_of_islam_3 = {
 	slot = 3
 	generic = no
@@ -651,6 +941,177 @@ hlr_karl_scourge_of_islam_3 = {
 			add_country_modifier = {
 				name = foothold_africa
 				duration = -1
+			}
+		}
+	}
+}
+hlr_rome_return_eastern_route_1 = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_rome_venice = {
+		icon = nuova_promissione_ducale
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				area = east_adriatic_coast_area
+				province_id = 130
+				province_id = 112
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			east_adriatic_coast_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			130 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			112 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			east_adriatic_coast_area = {
+				type = all
+				add_province_modifier = {
+					name = control_over_adriatic
+					duration = -1
+				}
+			}
+			130 = {
+				add_province_modifier = {
+					name = control_over_adriatic
+					duration = -1
+				}
+			}
+			112 = {
+				add_province_modifier = {
+					name = control_over_adriatic
+					duration = -1
+				}
+			}
+		}
+	}
+	hlr_rome_italia = {
+		icon = complete_the_risorgimento
+		required_missions = { hlr_rome_venice }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = naples_area
+				area = apulia_area
+				area = calabria_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			naples_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			apulia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			calabria_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			sicily_area = {
+				type = all
+				add_claim = ROOT
+			}
+			western_sicily_area = {
+				type = all
+				add_claim = ROOT
+			}
+		}
+	}
+}
+hlr_rome_return_western_route = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_rome_mediterranean_islands_1 = {
+		icon = mission_dominate_genoa
+		required_missions = {  }
+		position = 4
+		provinces_to_highlight = {
+			area = corsica_sardinia_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			corsica_sardinia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			baleares_area = {
+				type = all
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_mediterranean_islands_2 = {
+		icon = mission_mediterranean_islands
+		required_missions = { hlr_rome_mediterranean_islands_1 }
+		position = 5
+		provinces_to_highlight = {
+			area = baleares_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			baleares_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			kabylia_area = {
+				type = all
+				add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+				type = all
+				add_permanent_claim = ROOT
 			}
 		}
 	}
