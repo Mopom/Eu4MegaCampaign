@@ -1817,6 +1817,12 @@ lot_legacy_of_charlemagne_1 = {
 	lot_euro_charlemagnes_dream = {
 		icon = carolingian_empire
 		required_missions = { lot_euro_aachen_conquest }
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 2
+		}
 		position = 13
 		provinces_to_highlight = {
 			OR = {
