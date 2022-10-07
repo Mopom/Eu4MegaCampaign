@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = CMN
 add_core = Z2L
+discovered_by = chinese
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

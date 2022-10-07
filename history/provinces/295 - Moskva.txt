@@ -12,6 +12,7 @@ extra_cost = 16
 center_of_trade = 2
 add_core = MOS
 add_core = RUS
+discovered_by = chinese
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
