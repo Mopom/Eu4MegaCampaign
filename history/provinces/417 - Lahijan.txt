@@ -11,6 +11,7 @@ base_production = 5
 base_manpower = 2
 add_core = TAB
 add_core = Z07
+discovered_by = chinese
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

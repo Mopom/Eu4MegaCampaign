@@ -11,6 +11,7 @@ base_manpower = 2
 extra_cost = 10
 add_core = AST
 add_core = Z2F
+discovered_by = chinese
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

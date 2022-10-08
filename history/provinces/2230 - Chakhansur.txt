@@ -10,6 +10,7 @@ base_production = 4
 base_manpower = 1
 add_core = AFG
 add_core = BAL
+discovered_by = chinese
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

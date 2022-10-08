@@ -11,6 +11,7 @@ base_manpower = 1
 add_core = KAS
 add_core = KSH
 add_core = Z0A
+discovered_by = chinese
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

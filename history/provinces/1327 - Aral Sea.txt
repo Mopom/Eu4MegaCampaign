@@ -1,3 +1,4 @@
+discovered_by = chinese
 discovered_by = KAS
 discovered_by = eastern
 discovered_by = muslim
