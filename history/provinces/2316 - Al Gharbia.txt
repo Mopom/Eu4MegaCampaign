@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Manuf"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -9,7 +9,7 @@ base_tax = 7
 base_production = 13
 base_manpower = 4
 extra_cost = 10
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

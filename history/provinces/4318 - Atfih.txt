@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Atfih"
 is_city = yes
 culture = al_misr_arabic
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 6
 base_manpower = 3
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

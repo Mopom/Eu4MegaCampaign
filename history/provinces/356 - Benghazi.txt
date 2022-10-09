@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Benghazi"
 is_city = yes
 culture = bedouin_arabic
@@ -11,7 +11,7 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = NAJ
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

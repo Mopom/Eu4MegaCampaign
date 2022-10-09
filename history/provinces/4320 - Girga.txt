@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Girga"
 is_city = yes
 culture = al_misr_arabic
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 6
 base_manpower = 1
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

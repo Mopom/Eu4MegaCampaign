@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Sennar"
 is_city = yes
 culture = nubian
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 add_core = NUB
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

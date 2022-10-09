@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Nablus"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 1
 base_production = 5
 base_manpower = 2
-add_core = MAM
+add_core = EGY
 add_core = Z00
 discovered_by = eastern
 discovered_by = indian

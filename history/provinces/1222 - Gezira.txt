@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Wad Madani"
 is_city = yes
 culture = nubian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 3
 add_core = NUB
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

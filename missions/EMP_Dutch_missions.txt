@@ -1513,7 +1513,7 @@ lot_legacy_of_charlemagne_1 = {
 	}
 	has_country_shield = yes
 	
-	lot_ned_reichskrone = {
+	lot_tnf_reichskrone = {
 		icon = centralized_empire
 		required_missions = {  }
 		position = 8
@@ -1540,9 +1540,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_strengthen_our_position = {
+	lot_tnf_strengthen_our_position = {
 		icon = mission_conquer_50_development
-		required_missions = { lot_ned_reichskrone }
+		required_missions = { lot_tnf_reichskrone }
 		position = 9
 		provinces_to_highlight = {
 			OR = {
@@ -1577,9 +1577,9 @@ lot_legacy_of_charlemagne_1 = {
 			add_adm_power = 100
 		}
 	}
-	lot_euro_cities_of_charlemagne_1 = {
+	lot_tnf_cities_of_charlemagne_1 = {
 		icon = mission_guilds_of_barcelona
-		required_missions = { lot_euro_strengthen_our_position }
+		required_missions = { lot_tnf_strengthen_our_position }
 		position = 10
 		provinces_to_highlight = {
 			OR = {
@@ -1647,9 +1647,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_cities_of_charlemagne_2 = {
+	lot_tnf_cities_of_charlemagne_2 = {
 		icon = mission_guilds_of_barcelona
-		required_missions = { lot_euro_cities_of_charlemagne_1 }
+		required_missions = { lot_tnf_cities_of_charlemagne_1 }
 		position = 11
 		provinces_to_highlight = {
 			OR = {
@@ -1723,9 +1723,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_aachen_conquest = {
+	lot_tnf_aachen_conquest = {
 		icon = mission_cannons_firing
-		required_missions = { lot_euro_capitals_of_charlemagne lot_euro_cities_of_charlemagne_2 }
+		required_missions = { lot_tnf_capitals_of_charlemagne lot_tnf_cities_of_charlemagne_2 }
 		position = 12
 		provinces_to_highlight = {
 			OR = {
@@ -1814,9 +1814,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_charlemagnes_dream = {
+	lot_tnf_charlemagnes_dream = {
 		icon = carolingian_empire
-		required_missions = { lot_euro_aachen_conquest }
+		required_missions = { lot_tnf_aachen_conquest }
 		ai_weight = {
 			factor = 3
 		}
@@ -1937,7 +1937,7 @@ lot_legacy_of_charlemagne_2 = {
 	}
 	has_country_shield = yes
 	
-	lot_euro_churches_of_charlemagne = {
+	lot_tnf_churches_of_charlemagne = {
 		icon = italian_riches
 		required_missions = { lot_ned_reichskrone }
 		position = 9
@@ -1951,9 +1951,9 @@ lot_legacy_of_charlemagne_2 = {
 			}
 		}
 	}
-	lot_euro_capitals_of_charlemagne = {
+	lot_tnf_capitals_of_charlemagne = {
 		icon = take_the_bishoprics
-		required_missions = { lot_euro_churches_of_charlemagne lot_euro_cities_of_charlemagne_1 }
+		required_missions = { lot_tnf_churches_of_charlemagne lot_tnf_cities_of_charlemagne_1 }
 		position = 11
 		provinces_to_highlight = {
 			OR = {

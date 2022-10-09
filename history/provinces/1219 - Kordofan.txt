@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Al-Fashir"
 is_city = yes
 culture = dynamic-daju-zaghawa-culture-num1
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

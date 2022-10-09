@@ -2032,7 +2032,7 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_strengthen_our_position = {
+	lot_fra_strengthen_our_position = {
 		icon = mission_conquer_50_development
 		required_missions = { lot_fra_throne_of_charlemagne }
 		provinces_to_highlight = {
@@ -2051,9 +2051,9 @@ lot_legacy_of_charlemagne_1 = {
 			add_adm_power = 100
 		}
 	}
-	lot_euro_cities_of_charlemagne_1 = {
+	lot_fra_cities_of_charlemagne_1 = {
 		icon = mission_guilds_of_barcelona
-		required_missions = { lot_euro_strengthen_our_position }
+		required_missions = { lot_fra_strengthen_our_position }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1878
@@ -2120,9 +2120,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_cities_of_charlemagne_2 = {
+	lot_fra_cities_of_charlemagne_2 = {
 		icon = mission_guilds_of_barcelona
-		required_missions = { lot_euro_cities_of_charlemagne_1 }
+		required_missions = { lot_fra_cities_of_charlemagne_1 }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1878
@@ -2195,9 +2195,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_aachen_conquest = {
+	lot_fra_aachen_conquest = {
 		icon = mission_cannons_firing
-		required_missions = { lot_euro_capitals_of_charlemagne lot_euro_cities_of_charlemagne_2 }
+		required_missions = { lot_fra_capitals_of_charlemagne lot_fra_cities_of_charlemagne_2 }
 		provinces_to_highlight = {
 			OR = {
 				area = lower_rhineland_area
@@ -2285,9 +2285,9 @@ lot_legacy_of_charlemagne_1 = {
 			}
 		}
 	}
-	lot_euro_charlemagnes_dream = {
+	lot_fra_charlemagnes_dream = {
 		icon = carolingian_empire
-		required_missions = { lot_euro_aachen_conquest }
+		required_missions = { lot_fra_aachen_conquest }
 		ai_weight = {
 			factor = 3
 		}
@@ -2407,7 +2407,7 @@ lot_legacy_of_charlemagne_2 = {
 	}
 	has_country_shield = yes
 	
-	lot_euro_churches_of_charlemagne = {
+	lot_fra_churches_of_charlemagne = {
 		icon = italian_riches
 		required_missions = { lot_fra_throne_of_charlemagne }
 		trigger = {
@@ -2420,9 +2420,9 @@ lot_legacy_of_charlemagne_2 = {
 			}
 		}
 	}
-	lot_euro_capitals_of_charlemagne = {
+	lot_fra_capitals_of_charlemagne = {
 		icon = take_the_bishoprics
-		required_missions = { lot_euro_churches_of_charlemagne lot_euro_cities_of_charlemagne_1 }
+		required_missions = { lot_fra_churches_of_charlemagne lot_fra_cities_of_charlemagne_1 }
 		position = 11
 		provinces_to_highlight = {
 			OR = {

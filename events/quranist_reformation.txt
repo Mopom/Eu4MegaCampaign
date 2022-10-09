@@ -39,7 +39,7 @@ country_event = {
 					type = quranist_rebels
 					size = 4
 					win = yes
-					friend = MAM
+					friend = EGY
 				}
 			}
 			MAM = {

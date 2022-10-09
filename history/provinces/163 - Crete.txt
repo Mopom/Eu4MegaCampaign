@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Heraklion"
 is_city = yes
 culture = greek
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 5
 base_production = 5
 base_manpower = 2
-add_core = MAM
+add_core = EGY
 add_core = Z00
 discovered_by = eastern
 discovered_by = indian

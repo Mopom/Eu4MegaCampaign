@@ -1,6 +1,6 @@
 vassal = {
 	first = Z00
-	second = MAM
+	second = EGY
 	start_date = 1444.1.1
 }
 vassal = {

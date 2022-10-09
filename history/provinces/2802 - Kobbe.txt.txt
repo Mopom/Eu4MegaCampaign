@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Kobbe"
 is_city = yes
 culture = dynamic-daju-zaghawa-culture-num1
@@ -8,7 +8,7 @@ trade_goods = unknown
 base_tax = 3
 base_production = 2
 base_manpower = 1
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

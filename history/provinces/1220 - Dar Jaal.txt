@@ -1,5 +1,5 @@
-owner = MAM
-controller = MAM
+owner = EGY
+controller = EGY
 capital = "Bayuda"
 is_city = yes
 culture = nubian
@@ -10,7 +10,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 add_core = NUB
-add_core = MAM
+add_core = EGY
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -6,6 +6,8 @@ historical_friend = Z01
 religion = nestorian
 primary_culture = dynamic-chihan-culture-num1
 capital = 4678
+add_accepted_culture = mongol
+add_accepted_culture = khalkha
 mercantilism = 15
 1444.11.11= {
 	monarch = {
@@ -19,8 +21,6 @@ mercantilism = 15
 		religion = nestorian
 		culture = dynamic-chihan-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
 	heir = {
 		name = "Elisabeth"
 		monarch_name = "Elisabeth"
@@ -35,8 +35,6 @@ mercantilism = 15
 		religion = nestorian
 		culture = dynamic-chihan-culture-num1
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
 }
 1444.11.11= {
 	add_prestige = 72
