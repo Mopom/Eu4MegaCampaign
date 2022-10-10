@@ -28,9 +28,9 @@ union = {
  	start_date = 1444.1.1
  	end_date = 1569.7.1
  }
-   vassal = {
+  vassal = {
  	first = ENG
  	second = NOL
- 	start_date = 14044.1.1
+ 	start_date = 1444.1.1
  	end_date = 1569.7.1
  }
