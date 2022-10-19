@@ -346,7 +346,6 @@ renaissance = {
 			area = albania_area
 			area = east_adriatic_coast_area
 			area = hudavendigar_area
-			area = aydin_area
 			area = aegean_archipelago_area
 			area = apulia_area
 			area = calabria_area
