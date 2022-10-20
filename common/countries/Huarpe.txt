@@ -1,0 +1,79 @@
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 30 215 255 }
+revolutionary_colors = { 16 0 2 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	quality_ideas
+	trade_ideas
+	quantity_ideas
+	diplomatic_ideas
+	offensive_ideas
+}
+historical_units = {
+	inca_mountain_warfare
+	incan_axemen
+	incan_guerilla_warfare
+	incan_slingshots
+	reformed_westernized_incan
+	south_american_arquebusier
+	south_american_gunpowder_warfare
+	south_american_horsemen
+	south_american_reformed_gunpowder_warfare
+	south_american_spearmen
+	south_american_warfare
+	westernized_incan
+}
+monarch_names = {
+	"Aillavilu #0" = 30
+	"Ailén #0" = -1
+	"Ancamilla #0" = 10
+	"Catrileo #0" = 10
+	"Caupolicán #0" = 35
+	"Colipí #0" = 10
+	"Coñoepán #0" = 10
+	"Huenecura #0" = 30
+	"Illangulién #0" = 10
+	"Lautaro #0" = 30
+	"Mañil #0" = 10
+	"Melín #0" = 10
+	"Millalelmo #0" = 10
+	"Millarapue #0" = 10
+	"Nahueltripai #0" = 10
+	"Nampai #0" = 10
+	"Paillamachu #0" = 30
+	"Pelantaro #0" = 10
+	"Pichiñán #0" = 10
+	"Pinolevi #0" = 10
+	"Purrán #0" = 10
+	"Quilapán #0" = 10
+	"Suyai #0" = -1
+	"Yaima #0" = -1
+	"Ñanco #0" = 10
+}
+leader_names = {
+	"Abajino"
+	"AraucanÃ­a"
+	"Choll-Choll"
+	"Huilliche"
+	"Lafquenche"
+	"Lonko"
+	"Nguluche"
+	"Picunche"
+	"Promaucae"
+	"Toqui"
+}
+ship_names = {
+	"BiobÃ­o"
+	"CaupolicÃ¡n"
+	"Chonos"
+	"Curalaba"
+	"Loncoche"
+	"MarihueÃ±u"
+	"Mataquito"
+	"Poya"
+	"PurÃ©n"
+	"Tucapel"
+}

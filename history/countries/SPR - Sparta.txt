@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = prussian_monarchy
+government_rank = 2
+technology_group = western
+religion = animism
+primary_culture = spartan
+capital = 145
+1444.11.11= {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

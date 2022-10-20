@@ -1,0 +1,69 @@
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 70 70 80 }
+revolutionary_colors = { 16 8 10 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	trade_ideas
+	humanist_ideas
+	quality_ideas
+	diplomatic_ideas
+	quantity_ideas
+	spy_ideas
+}
+historical_units = {
+	inca_mountain_warfare
+	incan_axemen
+	incan_guerilla_warfare
+	incan_slingshots
+	reformed_westernized_incan
+	south_american_arquebusier
+	south_american_gunpowder_warfare
+	south_american_horsemen
+	south_american_reformed_gunpowder_warfare
+	south_american_spearmen
+	south_american_warfare
+	westernized_incan
+}
+monarch_names = {
+	"Amorotahe Haubariria #0" = 10
+	"Arah #0" = 10
+	"Arata #0" = 10
+	"Haubariria #0" = 10
+	"Kaigouchi #0" = 10
+	"Mbicy #0" = 10
+	"Neyawa #0" = -1
+	"Pirijá #0" = 10
+	"Shoko Laliwa #0" = 10
+	"Takuiba #0" = -1
+	"Toratora #0" = 10
+	"Toruí #0" = 10
+	"Twengga #0" = -1
+	"Wiwakaleme #0" = 10
+}
+leader_names = {
+	"Fararinno"
+	"Kafotay"
+	"Kapongong"
+	"Korobahado"
+	"Madinina"
+	"Makushi"
+	"Mudaukaho"
+	"Muritaro"
+	"Panapi"
+	"Waia"
+}
+ship_names = {
+	"Adaiahuli"
+	"Aiyunbana"
+	"Camerhogne"
+	"Demerara"
+	"Hairoun"
+	"Hiwanarau"
+	"Kairi"
+	"Kayryouacou"
+	"Koyaha Maka"
+	"Madinina"
+	"Waia"
+}
