@@ -41,7 +41,7 @@ Monarch_names = {
 	"Philippe #2" = 0
 	"Boudewijn #2" = 0
 	"Arnulf #1" = 4
-	"Géraud #1" = 0
+	"GÃ©raud #1" = 0
 	"Adelaide #1" = -0
 	"Thibault #1" = 0
 	"Savary #1" = 0
@@ -52,14 +52,14 @@ Monarch_names = {
 	"Sulcar #1" = -15
 	"Avenie #2" = -11
 	"Meinwerk #2" = 8
-	"Dolça #1" = -12
+	"DolÃ§a #1" = -12
 	"Grifiud #1" = 9
 	"Arnalt #1" = 9
 	"Luke #1" = 9
 	"Herbert #0" = 12
-	"Guilhèm #0" = 11
+	"GuilhÃ¨m #0" = 11
 	"Norah #0" = -11
-	"Éléonore #0" = -10
+	"Ã‰lÃ©onore #0" = -10
 	"Centolh #1" = 9
 	"Godefroi #0" = 8
 	"Isaldis #0" = -8
@@ -70,10 +70,10 @@ Monarch_names = {
 	"Bertrand #0" = 5
 	"Caradec #0" = 5
 	"Alix #0" = -5
-	"Aïna #0" = -4
-	"Adèla #0" = -4
+	"AÃ¯na #0" = -4
+	"AdÃ¨la #0" = -4
 	"Elena #0" = -4
-	"Melisènda #0" = -4
+	"MelisÃ¨nda #0" = -4
 	"Sarah #0" = -4
 	"Enora #0" = -4
 	"Leonore #0" = -4
@@ -83,15 +83,15 @@ Monarch_names = {
 	"Gerard #0" = 4
 	"Clara #0" = -4
 	"Marcus #0" = 4
-	"Adalaïda #0" = -4
-	"Jaufré #0" = 4
-	"Aliç #0" = -3
+	"AdalaÃ¯da #0" = -4
+	"JaufrÃ© #0" = 4
+	"AliÃ§ #0" = -3
 	"Gautier #0" = 3
 	"Elysande #0" = -3
 	"Millicent #0" = -3
 	"Elise #0" = -3
-	"Sança #0" = -3
-	"Isabèla #0" = -2
+	"SanÃ§a #0" = -3
+	"IsabÃ¨la #0" = -2
 	"Faidida #0" = -2
 	"Agata #0" = -2
 	"Abdallah #0" = 2
@@ -101,7 +101,7 @@ Monarch_names = {
 	"Turstin #0" = 2
 	"Thibaud #0" = 1
 	"Rorgues #0" = 1
-	"Adémar #0" = 1
+	"AdÃ©mar #0" = 1
 	"Isabeau #0" = -1
 	"Ancelmes #0" = 5
 	"Godafres #0" = -1
@@ -112,12 +112,11 @@ Monarch_names = {
 	"Aldebert #0" = 1
 	"Folquet #0" = 1
 	"Giselle #0" = -1
-	"Catgoulort #0" = 1
 	"Oswyn #0" = 1
 	"Stephanie #0" = -1
 	"Gui #0" = 1
 	"Gualter #0" = 1
-	"Pèronelle #0" = -1
+	"PÃ¨ronelle #0" = -1
 	"Hamelin #0" = 10
 	"Amelie #0" = -1
 	"Heloise #0" = -1
@@ -158,7 +157,7 @@ leader_names = {
 	"de Luynes"
 	"de Marguerye"
 	"de Maurepas"
-	"de Neufchâtel"
+	"de NeufchÃ¢tel"
 	"de Pellefort"
 	"de Richemont"
 	"de Rieu"
@@ -175,10 +174,10 @@ leader_names = {
 	"de Vibien"
 	"de Vigny"
 	"de Villeneuve"
-	"de la Bretonniôre"
+	"de la BretonniÃ´re"
 	"des Coulons"
 	"des Herbiers"
-	"des Écures"
+	"des Ã‰cures"
 	"du Bosquet"
 	"du Fournay"
 	"du Valentinois"
@@ -277,14 +276,14 @@ ship_names = {
 	"Christine"
 	"Citoyen"
 	"Clorinde"
-	"Cléopâtre"
+	"ClÃ©opÃ¢tre"
 	"Colosse"
 	"Commerce de Bordeaux"
 	"Commerce de Marseille"
 	"Commerce de Paris"
 	"Commerce du Lyon"
 	"Comte"
-	"ComÃ©te"
+	"ComÃƒÂ©te"
 	"Concorde"
 	"Consolante"
 	"Content"
@@ -305,7 +304,7 @@ ship_names = {
 	"Dego"
 	"Desaix"
 	"Destin"
-	"Deux Fréres"
+	"Deux FrÃ©res"
 	"Diamant"
 	"Dictateur"
 	"Don de Dieu"
@@ -314,7 +313,7 @@ ship_names = {
 	"Dryade"
 	"Dubois"
 	"Duc"
-	"Duc d'Angoulême"
+	"Duc d'AngoulÃªme"
 	"Duc d'Aquitaine"
 	"Duc de Berry"
 	"Duc de Bourgogne"
@@ -349,9 +348,9 @@ ship_names = {
 	"Fortune"
 	"Foudroyant"
 	"Fougueux"
-	"Français"
+	"FranÃ§ais"
 	"Friponne"
-	"Frédèric"
+	"FrÃ©dÃ¨ric"
 	"Fulminant"
 	"Gaillard"
 	"Galant"
@@ -475,7 +474,7 @@ ship_names = {
 	"Prince Enric"
 	"Princesse"
 	"Prompt"
-	"Provençal"
+	"ProvenÃ§al"
 	"Prudent"
 	"Pucelle"
 	"Puissant"
@@ -498,7 +497,7 @@ ship_names = {
 	"Sage"
 	"Sagittaire"
 	"Saint Antoine"
-	"Saint Antoine de Gênes"
+	"Saint Antoine de GÃªnes"
 	"Saint Augustin"
 	"Saint Basile"
 	"Saint Catherine"
@@ -573,7 +572,7 @@ ship_names = {
 	"Vaisseau de Torais"
 	"Vaisseau du Roi"
 	"Valeur"
-	"Vendôme"
+	"VendÃ´me"
 	"Vengeur"
 	"Vertu"
 	"Vestale"
@@ -591,26 +590,26 @@ ship_names = {
 	"Zodiaque"
 }
 army_names = {
-	"Armée d'Italie"
-	"Armée de $PROVINCE$"
-	"Armée de Bretagne"
-	"Armée de l'Atlantique"
-	"Armée de l'Est"
-	"Armée des Alpes"
-	"Armée des Flandres"
-	"Armée des Pyr n es"
-	"Armée du Jura"
-	"Armée du Lyonnais"
-	"Armée du Midi"
-	"Armée du Nord"
-	"Armée royale"
+	"ArmÃ©e d'Italie"
+	"ArmÃ©e de $PROVINCE$"
+	"ArmÃ©e de Bretagne"
+	"ArmÃ©e de l'Atlantique"
+	"ArmÃ©e de l'Est"
+	"ArmÃ©e des Alpes"
+	"ArmÃ©e des Flandres"
+	"ArmÃ©e des Pyr n es"
+	"ArmÃ©e du Jura"
+	"ArmÃ©e du Lyonnais"
+	"ArmÃ©e du Midi"
+	"ArmÃ©e du Nord"
+	"ArmÃ©e royale"
 }
 fleet_names = {
 	"Escadre Blanche"
 	"Escadre Bleue"
 	"Escadre Rouge"
 	"Escadre de Gascogne"
-	"Escadre de Méditerranée"
+	"Escadre de MÃ©diterranÃ©e"
 	"Escadre de l'Atlantique"
 	"Escadre de la Manche"
 }
