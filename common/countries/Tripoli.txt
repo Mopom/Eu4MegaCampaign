@@ -23,8 +23,8 @@ historical_units = {
 }
 monarch_names = {
 	"Aarif #2" = 10
+	"Abd al-Qawi #2" = 10
 	"Abd-'Allah #1" = 10
-	"Abd-al-Qawi #2" = 10
 	"Abdallah #1" = 10
 	"Abdul-Gafur #1" = 10
 	"Abdullah #0" = 0
