@@ -112,7 +112,6 @@ Monarch_names = {
 	"Aldebert #0" = 1
 	"Folquet #0" = 1
 	"Giselle #0" = -1
-	"Catgoulort #0" = 1
 	"Oswyn #0" = 1
 	"Stephanie #0" = -1
 	"Gui #0" = 1
