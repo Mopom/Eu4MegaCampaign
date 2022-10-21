@@ -1,7 +1,7 @@
 christian = {
 	samaritan_faith = {
 		color = { 88 26 37 }
-		icon =  173
+		icon =  174
 
 		allowed_conversion = { 
 		sunni
@@ -15,6 +15,22 @@ christian = {
 		druze
 		hurufi
 		qarmatian
+		catholic
+		protestant
+		reformed
+		orthodox
+		coptic
+		nestorian
+		messalian
+		adamites
+		cathar
+		waldensian
+		lollard
+		monophysite
+		bogomilist
+		monothelite
+		iconoclast
+		paulician
 		}
 
 		country = {
