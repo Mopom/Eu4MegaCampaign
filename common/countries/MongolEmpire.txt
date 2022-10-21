@@ -25,8 +25,8 @@ historical_units = {
 	steppe_uhlans
 }
 monarch_names = {
-	"Anya #0" = -1
-	"Benedict #1" = 10
+	"Anya 00 #0" = -1
+	"Benedict 0000 #1" = 10
 	"Bhoja #0" = 0
 	"Christina #1" = -1
 	"Chuhou #0" = 0
@@ -61,7 +61,7 @@ leader_names = {
 	"Noyan"
 	"Onriut"
 	"Ordos"
-	"TÃ¼med"
+	"Tümed"
 	"Ulanqab"
 	"Uriankhai"
 	"Wang"
@@ -74,33 +74,33 @@ ship_names = {
 	"Batu"
 	"Bo'orchu"
 	"Borokhula"
-	"BÃ¶ke"
+	"Böke"
 	"Chagaan"
 	"Chilaun"
 	"Dharmapala"
-	"DÃ¶rben KÃ¼lÃ¼'Ã¼d"
-	"DÃ¶rben Noyas"
+	"Dörben Külü'üd"
+	"Dörben Noyas"
 	"Elbeg"
 	"Ghengis Khan"
 	"Hohhot"
-	"HÃ¼legÃ¼"
+	"Hülegü"
 	"Jebe"
 	"Jelme"
 	"Jinggim"
-	"JÃ¶chi"
+	"Jöchi"
 	"Kamala"
 	"Karakorum"
 	"Khar Khiruge"
 	"Khubilai"
 	"Mugali"
-	"MÃ¶ngke"
+	"Möngke"
 	"Qubilai"
 	"Shikhikhutug"
 	"Sorqan Shira"
 	"Subutai"
 	"Tolui"
-	"YelÃ¼ Chucai"
+	"Yelü Chucai"
 	"Yingchang"
-	"Ã–gÃ¶dei"
-	"Ã–rÃ¼g TemÃ¼r"
+	"Ögödei"
+	"Örüg Temür"
 }
