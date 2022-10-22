@@ -561,6 +561,12 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = zahrai_school
+		trigger = {
+			has_country_modifier = zahrai_scholar_modifier
+		}
+	}
+	text = {
 		localisation_key = shafii_school
 		trigger = {
 			has_country_modifier = shafii_scholar_modifier

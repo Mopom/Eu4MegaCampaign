@@ -1,7 +1,7 @@
 muslim = {
 	converted_dynamic_faith_102 = {
 		color = { 192 76 127 }
-		icon =  173
+		icon =  45
 		allowed_conversion = {
  
 		catholic
