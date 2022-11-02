@@ -23,7 +23,7 @@ country_event = {
 				}
 				owns_or_subject_of = Z00
 			}
-			is_year = 1550
+			is_year = 1540
 		}
 	}
 
