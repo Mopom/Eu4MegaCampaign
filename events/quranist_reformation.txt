@@ -8,13 +8,21 @@ country_event = {
 	trigger = {
 		NOT = { has_global_flag = quranist_revival }
 		is_year = 1520
-		tag = Z00
-		any_province = {
-			OR = {
-				region = egypt_region
-				area = palestine_area
+		OR = {
+			tag = Z00
+			AND = {
+				NOT = { Z00 = exists }
+				owner = 385
 			}
-			owned_by = Z00
+		OR = {
+			any_province = {
+				OR = {
+					region = egypt_region
+					area = palestine_area
+				}
+				owns_or_subject_of = Z00
+			}
+			is_year = 1550
 		}
 	}
 
@@ -42,7 +50,19 @@ country_event = {
 					friend = EGY
 				}
 			}
-			MAM = {
+			364 = {
+				change_religion = quranist
+				add_reform_center = quranist
+			}
+			387 = {
+				change_religion = quranist
+				add_reform_center = quranist
+			}
+			411 = {
+				change_religion = quranist
+				add_reform_center = quranist
+			}
+			EGY = {
 				country_event = { id = quranist_reformation.2 }
 			}
 		}
@@ -62,6 +82,19 @@ country_event = {
 		name = "EGYPT_JOINS"
 		ai_chance = { factor = 100 }
 		change_religion = quranist
+		if = {
+			limit = {
+				EGY = {
+					vassal_of = Z00
+				}
+			}
+			EGY =  { 
+				declare_war_with_cb = {
+				who = Z00
+				casus_belli = cb_independence_war
+				}
+			}
+		}
 	}
 	option = {
 		name = "EGYPT_REFUSES"
@@ -80,19 +113,4 @@ country_event = {
 			}
 		}
 	}
-	immediate = {
-		364 = {
-			change_religion = quranist
-			add_reform_center = quranist
-		}
-		387 = {
-			change_religion = quranist
-			add_reform_center = quranist
-		}
-		411 = {
-			change_religion = quranist
-			add_reform_center = quranist
-		}
-	}
-		
 }
