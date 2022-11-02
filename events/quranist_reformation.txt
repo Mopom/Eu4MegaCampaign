@@ -14,6 +14,7 @@ country_event = {
 				NOT = { Z00 = exists }
 				owner = 385
 			}
+		}
 		OR = {
 			any_province = {
 				OR = {
