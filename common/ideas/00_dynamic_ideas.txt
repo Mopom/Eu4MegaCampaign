@@ -50,7 +50,7 @@ dynamic-russian_culture-culture-num1_ideas = {
 	free = yes
 
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_storytellers = {
 		possible_dip_policy = 1
@@ -788,8 +788,6 @@ dynamic-assamese-nepali-culture-num1_ideas = {
 		global_supply_limit_modifier = 0.10
 	}
 	tradition_collective_lands = {
-		global_trade_goods_size_modifier = 0.1
-		nobility_influence_modifier = -0.1
 	}
 	tradition_culture_blending = {
 		promote_culture_cost = -0.25
@@ -1023,7 +1021,6 @@ dynamic-fon-aka-culture-num1_ideas = {
 		infantry_fire = 1
 	}
 	tradition_legalistic = {
-		 = 
 	}
 	tradition_festivities = {
 		stability_cost_modifier = -0.1
@@ -2565,7 +2562,7 @@ dynamic-polish-russian_culture-culture-num1_ideas = {
 		stability_cost_modifier = -0.05
 	}
 	tradition_mendicant_mystics = {
-		merchant = 1
+		merchants = 1
 	}
 	tradition_astute_diplomats = {
 		diplomats = 1
