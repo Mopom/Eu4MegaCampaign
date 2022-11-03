@@ -1,7 +1,7 @@
 christian = {
 	converted_dynamic_faith_104 = {
 		color = { 88 26 37 }
-		icon =  174
+		icon =  175
 		allowed_conversion = {
  
 		sunni
