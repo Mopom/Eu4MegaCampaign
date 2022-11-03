@@ -1,0 +1,22 @@
+country_event = {
+	id = FRA.Balance.1
+	title = FRA.Balance.1.t
+	desc = FRA.Balance.1.d
+	picture = STREET_SPEECH_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = throne_of_charlemagne
+		government_rank	= 3
+		}
+
+	option = {
+		name = "FRA_GETS_BALANCED"
+		ai_chance = { factor = 100 }
+	}
+
+	immediate = {
+		remove_country_modifier = throne_of_charlemagne
+	}
+}
