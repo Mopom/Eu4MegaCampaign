@@ -4,12 +4,14 @@ country_event = {
 	desc = FRA.Balance.1.d
 	picture = STREET_SPEECH_eventPicture
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		has_country_modifier = throne_of_charlemagne
 		government_rank	= 3
 		}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = "FRA_GETS_BALANCED"
