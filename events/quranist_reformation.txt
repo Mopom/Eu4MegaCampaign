@@ -11,19 +11,19 @@ country_event = {
 		OR = {
 			tag = Z00
 			AND = {
-				NOT = { Z00 = exists }
-				owner = 385
+				NOT = { exists = Z00 }
+				owns = 385
 			}
 		}
 		OR = {
-			any_province = {
+			is_year = 1540
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 1
 				OR = {
 					region = egypt_region
 					area = palestine_area
 				}
-				owns_or_subject_of = Z00
 			}
-			is_year = 1540
 		}
 	}
 
