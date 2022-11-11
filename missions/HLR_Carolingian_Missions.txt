@@ -1816,6 +1816,148 @@ hlr_rome_return_eastern_route_1 = {
 			}
 		}
 	}
+	hlr_rome_senate = {
+		icon = a_place_among_the_great_powers
+		required_missions = { hlr_rome_judea }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				province_id = 118
+				province_id = 2982
+				province_id = 2986
+				province_id = 341
+				province_id = 114
+				province_id = 101
+				province_id = 239
+				province_id = 236
+				province_id = 4376
+				province_id = 85
+				province_id = 1744
+				province_id = 134
+				province_id = 1761
+				province_id = 4173
+				province_id = 146
+				province_id = 159
+				province_id = 151
+				province_id = 321
+				province_id = 379
+				province_id = 1231
+				province_id = 361
+				province_id = 410
+				province_id = 4563
+				province_id = 354
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			AND = {
+				118 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				2982 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				2986 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				341 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				114 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				101 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				239 = {
+				is_core = ROOT
+				owned_by = ROOT
+				}
+				236 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				4376 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				85 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				1744 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				134 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				1761 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				4173 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				146 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+					159 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				151 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				321 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				379 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				1231 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				361 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				410 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				4563 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				354 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = ROM
+			set_capital = 118
+			add_country_modifier = {
+				name = restoration_rome
+				duration = -1
+			}
+		}
+	}
 }
 hlr_rome_return_eastern_route_2 = {
 	slot = 4
@@ -1937,150 +2079,6 @@ hlr_rome_return_eastern_route_2 = {
 					name = "no_king_of_jews"
 					duration = -1
 				}
-			}
-		}
-	}
-	hlr_rome_senate = {
-		icon = a_place_among_the_great_powers
-		required_missions = { hlr_rome_judea }
-		provinces_to_highlight = {
-			OR = {
-				province_id = 118
-				province_id = 2982
-				province_id = 2986
-				province_id = 341
-				province_id = 114
-				province_id = 101
-				province_id = 239
-				province_id = 236
-				province_id = 4376
-				province_id = 85
-				province_id = 1744
-				province_id = 134
-				province_id = 1761
-				province_id = 4173
-				province_id = 146
-				province_id = 159
-				province_id = 151
-				province_id = 321
-				province_id = 379
-				province_id = 1231
-				province_id = 361
-				province_id = 410
-				province_id = 4563
-				province_id = 354
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			118 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			2982 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			2986 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			341 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			114 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			101 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			239 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			236 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			4376 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			85 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			1744 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			134 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			1761 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			4173 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			146 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			159 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			151 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			321 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			379 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			1231 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			361 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			410 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			4563 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			354 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			change_tag = ROM
-			set_capital = 118
-			swap_non_generic_missions = yes
-			set_government_and_rank = {
-				government = republic
-				rank = 3
-			}
-			add_country_modifier = {
-				name = restoration_rome
-				duration = -1
 			}
 		}
 	}
