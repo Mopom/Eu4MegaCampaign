@@ -60,5 +60,21 @@ celtic_warriors = {
 control_over_adriatic = {
 	province_trade_power_value = 1
 }
-
-	
+emperor_of_africa = {
+	no_stability_loss_on_monarch_death = yes
+	prestige_decay = -0.03
+}
+cradle_of_civ_and_hum = {
+	prestige_decay = -0.02
+	stability_cost_modifier = -0.15
+}
+no_king_of_jews = {
+	local_unrest = 2
+	local_missionary_strength = -0.05
+}
+restoration_rome = {
+	prestige = 1
+}
+talking_past_the_schism = {
+	no_religion_penalty = yes
+}

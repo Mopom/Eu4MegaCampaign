@@ -34,8 +34,6 @@ capital = 266
 		religion = samaritan_faith
 		culture = dynamic-mali-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
 	heir = {
 		name = "Alice"
 		monarch_name = "Alice"
