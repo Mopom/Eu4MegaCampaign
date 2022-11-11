@@ -1422,11 +1422,7 @@ hlr_karl_mending_the_schism_2 = {
 		position = 5
 		required_missions = { hlr_karl_crusade }
 		provinces_to_highlight = {
-			region = russia_region
-			OR = {
-				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { religion = ROOT }
-			}
+			province_id = 151
 		}
 		trigger = {
 			OR = {
@@ -1434,30 +1430,10 @@ hlr_karl_mending_the_schism_2 = {
 					151 = { religion = catholic }
 					151 = { religion = orthodox }
 				}
-				custom_trigger_tooltip = {
-					tooltip = catholics_healed_schism_tt
-					has_global_flag = catholics_healed_schism
-				}
 			}
 		}
 		effect = {
-			if = {
-				limit = { NOT = { has_global_flag = catholics_healed_schism } }
-				custom_tooltip = emp_pap_end_the_schism_tt
-				hidden_effect = {
-					set_global_flag = catholics_healed_schism
-					every_country = {
-						limit = { 
-							religion = orthodox 
-							knows_country = PAP
-						}
-						country_event = { id = flavor_pap.11 }
-					}
-				}
-			}
-			else = {
-				add_papal_influence = 100
-			}
+			add_papal_influence = 100
 			add_country_modifier = {
 				name = teu_crusade_end_of_the_schism
 				duration = -1
