@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = greek
+capital = 4702
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Dorothea"
+		dynasty = "Basiliakos"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1380.11.29
+		female = yes
+		religion = orthodox
+		culture = greek
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Methodios"
+		dynasty = "Makrembolites"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z1B
+		birth_date = 1419.1.22
+		death_date = 1479.1.22
+		religion = orthodox
+		culture = greek
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Theophylaktos"
+		monarch_name = "Theophylaktos"
+		dynasty = "Makrembolites"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1399.11.7
+		death_date = 1464.11.7
+		claim = 89
+		religion = orthodox
+		culture = greek
+	}
+	add_heir_personality = lawgiver_personality
+	add_heir_personality = strict_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 73
+}
