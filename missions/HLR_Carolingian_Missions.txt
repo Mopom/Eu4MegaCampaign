@@ -684,84 +684,84 @@ hlr_rome_return_northern_route = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			east_midlands_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			yorkshire_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			scottish_marches_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			wales_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			munster_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			connacht_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -36500
+					duration = -1
 				}
 			}
 			leinster_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			ulster_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			kingdom_of_the_isles_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			highlands_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 			lowlands_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = 36500
+					duration = -1
 				}
 			}
 		}
@@ -823,6 +823,22 @@ hlr_rome_return_northern_route = {
 			british_isles_region = {
 				add_permanent_claim = ROOT
 			}
+			west_midlands_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			east_midlands_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			scottish_marches_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
+			yorkshire_area = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
 		}
 	}
 	hlr_rome_brittania = {
@@ -840,6 +856,10 @@ hlr_rome_return_northern_route = {
 			}
 		}
 		effect = {
+			british_isles_region = {
+				type = all
+				remove_province_modifier = charlemagne_in_england
+			}
 			add_country_modifier = {
 				name = celtic_warriors
 				duration = 18260
@@ -847,7 +867,85 @@ hlr_rome_return_northern_route = {
 		}
 	}
 }
-hlr_rome_return_eastern_route_3 = {
+hlr_karl_scourge_of_islam_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_cities_of_conversion_2 = {
+		icon = mission_imperial_cities
+		required_missions = { hlr_karl_religion_united }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1751
+				province_id = 335
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			1751 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+			335 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			343 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_norf_africa = {
+		icon = mission_conquer_tunisia
+		required_missions = { hlr_karl_cities_of_conversion_2 }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = northern_morocco_area
+				province_id = 343
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			northern_morocco_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			343 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = foothold_africa
+				duration = -1
+			}
+		}
+	}
+}
+hlr_rome_return_eastern_route_1 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -953,85 +1051,7 @@ hlr_rome_return_eastern_route_3 = {
 		}
 	}
 }
-hlr_karl_scourge_of_islam_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		has_dlc = "Emperor"
-		tag = HLR
-		NOT = { map_setup = map_setup_random }
-	}
-	
-	has_country_shield = yes
-	
-	hlr_karl_cities_of_conversion_2 = {
-		icon = mission_imperial_cities
-		required_missions = { hlr_karl_religion_united }
-		position = 6
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1751
-				province_id = 335
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			1751 = {
-				is_core = ROOT
-				owned_by = ROOT
-				has_owner_religion = yes
-			}
-			335 = {
-				is_core = ROOT
-				owned_by = ROOT
-				has_owner_religion = yes
-			}
-		}
-		effect = {
-			northern_morocco_area = {
-				add_permanent_claim = ROOT
-			}
-			343 = {
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-	hlr_karl_norf_africa = {
-		icon = mission_conquer_tunisia
-		required_missions = { hlr_karl_cities_of_conversion_2 }
-		position = 7
-		provinces_to_highlight = {
-			OR = {
-				area = northern_morocco_area
-				province_id = 343
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			northern_morocco_area = {
-				type = all
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			343 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = foothold_africa
-				duration = -1
-			}
-		}
-	}
-}
-hlr_rome_return_western_route_1 = {
+hlr_rome_return_western_route = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1095,6 +1115,7 @@ hlr_rome_return_western_route_1 = {
 			}
 		}
 	}
+<<<<<<< HEAD
 	hlr_rome_caesariensis = {
 		icon = mission_pacify_the_berbers
 		required_missions = { hlr_rome_mediterranean_islands_2 }
