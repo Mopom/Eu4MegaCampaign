@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = cathar
+primary_culture = norwegian
+capital = 4143
+fixed_capital = 4143
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	add_prestige = 76
+	add_treasury = 68
+}
