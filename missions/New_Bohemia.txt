@@ -1476,7 +1476,7 @@ ubl_more_italy_branch = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_1 = {
+lot_ubl_legacy_of_charlemagne_1 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -1889,7 +1889,7 @@ lot_legacy_of_charlemagne_1 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_2 = {
+lot_ubl_legacy_of_charlemagne_2 = {
 	slot = 1
 	generic = no
 	ai = yes

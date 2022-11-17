@@ -28,7 +28,7 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Egelina #0" = -0
+	"Egelina #0" = -1
 	"Raimbaut #0" = 0
 	"Ubert #0" = 0
 	"Adèle #0" = -1

@@ -1499,7 +1499,7 @@ emp_ned_slot5_colony_branch = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_1 = {
+lot_tnf_legacy_of_charlemagne_1 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1923,7 +1923,7 @@ lot_legacy_of_charlemagne_1 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_2 = {
+lot_tnf_legacy_of_charlemagne_2 = {
 	slot = 3
 	generic = no
 	ai = yes

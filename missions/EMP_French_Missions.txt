@@ -1976,7 +1976,7 @@ emp_france_missions_5 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_1 = {
+lot_fra_legacy_of_charlemagne_1 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -2393,7 +2393,7 @@ lot_legacy_of_charlemagne_1 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_2 = {
+lot_fra_legacy_of_charlemagne_2 = {
 	slot = 4
 	generic = no
 	ai = yes
