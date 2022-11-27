@@ -842,7 +842,7 @@ hlr_rome_return_northern_route = {
 		effect = {
 			add_country_modifier = {
 				name = celtic_warriors
-				duration = 18260
+				duration = 18250
 			}
 		}
 	}
@@ -1332,7 +1332,7 @@ hlr_karl_mending_the_schism_2 = {
 	hlr_karl_two_empires = {
 		icon = mission_the_third_rome
 		position = 2
-		required_missions = { hlr_karl_schims }
+		required_missions = { hlr_karl_schisms }
 		provinces_to_highlight = {
 			owned_by = RUS
 		}
@@ -1999,7 +1999,7 @@ hlr_rome_return_eastern_route_2 = {
 				type = all
 				add_claim = ROOT
 			}
-			trans_jordan = {
+			trans_jordan_area = {
 				type = all
 				add_claim = ROOT
 			}
@@ -2016,7 +2016,7 @@ hlr_rome_return_eastern_route_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = palestine_area
-				area = trans_jordan
+				area = trans_jordan_area
 				province_id = 4268
 			}
 			NOT = { owned_by = ROOT }
@@ -2027,7 +2027,7 @@ hlr_rome_return_eastern_route_2 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			trans_jordan = {
+			trans_jordan_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT

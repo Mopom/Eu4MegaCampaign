@@ -1,0 +1,644 @@
+islam_swords_of_muhammad = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		has_dlc = "Dharma"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	isl_ar-rasub_dhu_al-faqar = {
+		icon = mission_restore_caliphate_of_cordoba
+		required_missions = {  }
+		position = 1
+		trigger = {
+			prestige = 85
+			treasury = 500
+		}
+		effect = {
+			add_country_modifier = {
+				name = ar-rasub_sword
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = dhu_al-faqar_sword
+				duration = 7300
+			}
+		}
+	}
+}
+
+al_Abbas_traders_and_merchants_1 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+
+}
+
+al_Abbas_conquest_1 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	abbas_buildforces = {
+		icon = mission_bedouins
+		required_missions = {  }
+		position = 6
+		
+		trigger = {
+			army_size_percentage = 1
+			manpower_percentage = 0.8
+			num_of_generals = 2
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "oma_buildforces_mod"
+				duration = 5475
+			}
+		}
+	}
+}
+
+al_Abbas_traders_and_merchants_2 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+}
+al_Abbas_centres_of_learning = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	abs_centres_of_learning_uni = {
+		icon = mission_central_asian_city
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 361
+				province_id = 1132
+				province_id = 217
+			}
+		}
+		trigger = {
+			361 = {
+				development = 25
+			}
+			1132 = {
+				development = 25
+			}
+			217 = {
+				development = 25
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = unis_of_islam
+				duration = -1
+			}
+		}
+	}
+
+	abs_centres_of_learning_city = {
+		icon = mission_arabian_fort
+		required_missions = { abs_centres_of_learning_uni }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4566
+				province_id = 4568
+				province_id = 1196
+			}
+		}
+		trigger = {
+			4566 = {
+				development = 20
+			}
+			4568 = {
+				development = 20
+			}
+			1196 = {
+				development = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = cities_of_isl_learning
+				duration = -1
+			}
+		}
+	}
+}
+
+al_Abbas_the_star_and_crescent_1 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		has_dlc = "Dharma"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	abs_jerusalem = {
+		icon = jerusalem
+		required_missions = { abs_mecca_holy }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 379
+		}
+		trigger = {
+			379 = {
+				development = 25
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = holy_city_jerusalem
+						tier = 3
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+		}
+		effect = { 
+			379 = {
+				add_base_tax = 5
+				add_province_modifier = {
+					name = another_pilgrimage
+					duration = -1
+				}
+			}
+		}
+	}
+	abs_question_jews = {
+		icon = personal_diplomacy
+		required_missions = { abs_jerusalem }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+				area = trans_jordan
+			}
+		}
+		trigger = {
+			AND = {
+				palestine_area = {
+					type = all
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				trans_jordan_area = {
+					type = all
+					owned_by = ROOT
+					is_core = ROOT
+				}
+			}
+		}
+		effect = {
+			palestine_area = {
+				type = all
+				add_core = ISR
+				cede_province = ISR
+				remove_core = Z00
+			}
+			trans_jordan_area = {
+				type = all
+				add_core = ISR
+				cede_province = ISR
+				remove_core = Z00
+			}
+			vassalize = ISR
+			379 = {
+				add_province_modifier = {
+					name = king_of_jews_isr
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = king_of_the_jews
+				duration = 18250
+			}
+		}
+	}
+	abs_persian_greats = {
+		icon = mission_pacify_punjab
+		required_missions = { abs_spiral_samarra }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2220
+				province_id = 429
+			}
+		}
+		trigger = {
+			429 = {
+				development = 25
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = maidan-e_naqsh-e_jahan
+						tier = 3
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+			2220 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = bam_citadel
+						tier = 2
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+		}
+		effect = {
+			410 = {
+				change_trade_goods = silk
+			}
+			add_legitimacy = 10
+			change_government_reform_progress = 50
+		}
+	}
+}
+
+al_Abbas_the_star_and_crescent_2 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Golden Century"
+	}
+	potential = {
+		has_dlc = "Golden Century"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	abs_holy_city_mission = {
+		icon = mission_into_persia_2
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			area = mecca_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			mecca_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			if = {
+				limit = {
+					uses_piety = yes
+				}
+				piety = 0.5
+			}
+		}
+		effect = {
+			add_piety = -0.25
+			385 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+	abs_house_of_wisdom = {
+		icon = mission_mosque
+		required_missions = { abs_holy_city_mission }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 410
+		}
+		trigger = {
+			410 = {
+				development = 45
+			}
+			if = {
+				limit = {
+					uses_piety = yes
+				}
+				NOT = { piety = -0.5 }
+			}
+		}
+		effect = {
+			add_piety = 0.25
+			410 = {
+				add_province_modifier = {
+					name = baghdad_house_of_wisdom
+					duration = -1
+				}
+			}
+		}
+	}
+	abs_mecca_holy = {
+		icon = mission_into_arabia
+		required_missions = { abs_house_of_wisdom }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 385
+		}
+		trigger = {
+			owns_core_province = 385
+			385 = {
+				development = 30
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = kaaba
+						tier = 3
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+			if = {
+				limit = {
+					uses_piety = yes
+				}
+				piety = 0.5
+			}
+		}
+		effect = {
+			add_piety = -0.30
+			385 = {
+				add_base_tax = 5
+				add_base_production = 3
+				add_base_manpower = 2
+			}
+		}
+	}
+	abs_great_mosques = {
+		icon = mission_into_persia_1
+		required_missions = { abs_mecca_holy }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 384
+				province_id = 225
+				province_id = 1134
+			}
+		}
+		trigger = {
+			384 = {
+				development = 30
+				religion = ROOT
+			}
+			225 = {
+				development = 30
+				religion = ROOT
+			}
+			1134 = {
+				development = 30
+				religion = ROOT
+			}
+			if = {
+				limit = {
+					uses_piety = yes
+				}
+				piety = 0.5
+			}
+		}
+		effect = {
+			add_prestige = 35
+			add_historical_friend = ADU
+			1134 = {
+				add_great_project_tier = {
+					type = great_mosque_djenne
+					tier = 1
+				}
+			}
+		}
+	}
+	abs_spiral_samarra = {
+		icon = mission_into_africa
+		required_missions = { abs_great_mosques }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2310
+				province_id = 409
+			}
+		}
+		trigger = {
+			2310 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = spiral_minaret_samarra
+						tier = 3
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+			409 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = imam_hussein_al-abbas
+						tier = 2
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = light_of_samarra
+				duration = 18250
+			}
+		}
+	}
+	abs_burn_the_heretics = {
+		icon = mission_kon_repel_the_missionaries
+		required_missions = { abs_spiral_samarra }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 319
+				province_id = 419
+				province_id = 2769
+			}
+		}
+		trigger = {
+			owns_core_province = 319
+			owns_core_province = 419
+			owns_core_province = 2769
+			319 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					NOT = {
+						has_great_project = {
+							type = mausoleum_at_halicarnassus
+							tier = 1
+						}
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+			419 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					NOT = {
+						has_great_project = {
+							type = etchimiadzin_cathedral
+							tier = 1
+						}
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+			2769 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					NOT = {
+						has_great_project = {
+							type = churches_lalibela
+							tier = 1
+						}
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+		}
+		effect = {
+			add_treasury = 6000
+			add_country_modifier = {
+				name = end_of_jizya_abb
+				duration = 36500
+			}
+		}
+	}
+	abs_konstantiyye = {
+		icon = the_latin_empire
+		required_missions = { abs_burn_the_heretics }
+		position = 7
+		provinces_to_highlight = {
+			province_id = 151
+		}
+		trigger = {
+			owns_core_province = 151
+			151 = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = sultan_ahmed_mosque
+						tier = 3
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+		}
+		effect = {
+			151 = {
+				add_province_modifier = {
+					name = capital_of_byz_et_rom
+					duration = -1
+				}
+				add_base_tax = 5
+				add_base_production = 5
+				add_base_manpower = 5
+			}
+		}
+	}
+}
