@@ -122,3 +122,14 @@ ar-rasub_sword = {
 dhu_al-faqar_sword = {
 	yearly_army_professionalism = 0.02
 }
+al-mathur_sword = {
+	cav_to_inf_ratio = 0.10
+	cavalry_flanking = 0.20
+}
+al-mikhdam_sword = {
+	hostile_attrition = 1.5
+	max_hostile_attrition = 3
+}
+al-battar_sword = {
+	manpower_recovery_speed = 0.17
+}

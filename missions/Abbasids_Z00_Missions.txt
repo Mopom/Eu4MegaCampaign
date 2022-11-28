@@ -23,11 +23,110 @@ islam_swords_of_muhammad = {
 		effect = {
 			add_country_modifier = {
 				name = ar-rasub_sword
-				duration = 7300
+				duration = 14600
 			}
 			add_country_modifier = {
 				name = dhu_al-faqar_sword
-				duration = 7300
+				duration = 14600
+			}
+		}
+	}
+	isl_al-mathur = {
+		icon = mission_afghan_frontier
+		required_missions = { isl_ar-rasub_dhu_al-faqar }
+		position = 2
+		trigger = {
+			OR = {
+				AND = {
+					ADE = {
+						has_opinion = {
+							who = ROOT
+							value = 160
+						}
+					}
+					treasury = 150
+				}
+				NOT = {
+					exists = ADE
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = ADE
+				}
+				add_treasury = -150
+				ADE = {
+					add_treasury = 150
+				}
+			}
+			add_country_modifier = {
+				name = al-mathur_sword
+				duration = 14600
+			}
+		}
+	}
+	isl_al-mikhdam = {
+		icon = mission_abu_saids_dream
+		required_missions = { isl_al-mathur }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 431
+				province_id = 4327
+				province_id = 2220
+				province_id = 4345
+				province_id = 432
+				province_id = 2234
+			}
+		}
+		trigger = {
+			OR = {
+				AND = {
+					owns_core_province = 431
+					owns_core_province = 4327
+					owns_core_province = 2220
+					owns_core_province = 4345
+					owns_core_province = 432
+					owns_core_province = 2234
+				}
+				NOT = {
+					exists = PER
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = al-mikhdam_sword
+				duration = 14600
+			}
+		}
+	}
+	isl_al-battar = {
+		icon = mission_control_the_ganges_delta
+		required_missions = { isl_al-mikhdam }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 225
+		}
+		trigger = {
+			ADU = {
+				has_opinion = {
+					who = ROOT
+					value = 150
+				}
+			}
+			treasury = 2500
+		}
+		effect = {
+			add_treasury = -2500
+			ADU = {
+				add_treasury = 2500
+			}
+			add_country_modifier = {
+				name = al-battar_sword
+				duration = 14600
 			}
 		}
 	}
