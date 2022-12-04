@@ -170,3 +170,30 @@ malta_fortification = {
 	local_defender_dice_roll_bonus = 3
 	local_own_coast_naval_combat_bonus = 2
 }
+emperor_east_africa = {
+	global_own_trade_power = 0.2
+	prestige = 0.4
+}
+maldives_resort = {
+	range = 0.7
+	trade_range_modifier = 0.25
+}
+seat_of_the_senate = {
+	institution_growth = 1.2
+}
+trade_ot_black_sea = {
+	province_trade_power_modifier = 0.2
+	trade_value_modifier = 0.15
+}
+more_mocha_mod = {
+	trade_goods_size_modifier = 0.6
+	province_trade_power_modifier = 0.15
+}
+capital_caliphornia = {
+	local_institution_spread = 0.1
+	local_prosperity_growth = 0.12
+}
+port_departure = {
+	tax_income = 5
+	local_institution_spread = 0.12
+}

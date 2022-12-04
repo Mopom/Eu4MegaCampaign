@@ -536,7 +536,7 @@ al_Abbas_conquest_1 = {
 	}
 	abbas_beta_israel = {
 		icon = mission_end_tamil_insurgency
-		required_missions = { abbas_budhcad_badeed_2 }
+		required_missions = { abbas_budhcad_badeed_2 abbas_upper_nile }
 		position = 11
 		provinces_to_highlight = {
 			OR = {
@@ -590,6 +590,98 @@ al_Abbas_conquest_1 = {
 			}
 		}
 	}
+	abbas_kilwa = {
+		icon = mission_bengal_entrepot
+		required_missions = { abbas_beta_israel }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				area = northern_swahili_coast_area
+				area = mombasa_area
+				area = central_swahili_coast_area
+				province_id = 4049
+				province_id = 1195
+				province_id = 788
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			northern_swahili_coast_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			mombasa_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			central_swahili_coast_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 4049
+			owns_core_province = 1195
+			owns_core_province = 788
+		}
+		effect = {
+			sakalava_area = {
+				add_permanent_claim = ROOT
+			}
+			betsimasaraka_area = {
+				add_permanent_claim = ROOT
+			}
+			madagascar_highlands_area = {
+				add_permanent_claim = ROOT
+			}
+			southern_madagascar = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abbas_madagascar = {
+		icon = mission_kon_conquer_ksj
+		required_missions = { abbas_kilwa }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				area = sakalava_area
+				area = betsimasaraka_area
+				area = madagascar_highlands_area
+				area = southern_madagascar
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			sakalava_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			betsimasaraka_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			madagascar_highlands_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			southern_madagascar = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = emperor_east_africa
+				duration = 36500
+			}
+		}
+	}
 }
 al_Abbas_conquest_2 = {
 	slot = 2
@@ -608,7 +700,7 @@ al_Abbas_conquest_2 = {
 	abbas_buildforces = {
 		icon = mission_bedouins
 		required_missions = {  }
-		position = 6
+		position = 7
 		trigger = {
 			army_size_percentage = 1
 			manpower_percentage = 0.8
@@ -618,6 +710,204 @@ al_Abbas_conquest_2 = {
 			add_country_modifier = {
 				name = "oma_buildforces_mod"
 				duration = 5475
+			}
+		}
+	}
+	abbas_lower_nile = {
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { abbas_integrate_aden }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				region = egypt_region
+				area = palestine_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			egypt_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			dongola_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_nubia_area = {
+				add_permanent_claim = ROOT
+			}
+			kurdufan_area = {
+				add_permanent_claim = ROOT
+			}
+			sennar_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abbas_upper_nile = {
+		icon = mission_son_military_expertise
+		required_missions = { abbas_lower_nile }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = dongola_area
+				area = upper_nubia_area
+				area = kurdufan_area
+				area = sennar_area
+				province_id = 2324
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			dongola_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			upper_nubia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kurdufan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			sennar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2324
+		}
+		effect = {
+			fezzan_area = {
+				add_permanent_claim = ROOT
+			}
+			tripolitania_area = {
+				add_permanent_claim = ROOT
+			}
+			north_saharan_area = {
+				add_permanent_claim = ROOT
+			}
+			djerba_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abbas_norf_africa = {
+		icon = mission_levantine_restoration
+		required_missions = { abbas_upper_nile }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				area = tripolitania_area
+				area = djerba_area
+				area = tunisia_area
+				province_id = 2449
+				province_id = 4567
+				province_id = 2450
+				province_id = 352
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			tripolitania_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			djerba_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			tunisia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2449
+			owns_core_province = 4567
+			owns_core_province = 2450
+			owns_core_province = 352
+		}
+		effect = {
+			western_sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			calabria_area = {
+				add_permanent_claim = ROOT
+			}
+			apulia_area = {
+				add_permanent_claim = ROOT
+			}
+			naples_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abbas_naples = {
+		icon = mission_break_sicily
+		required_missions = { abbas_norf_africa }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				area = western_sicily_area
+				area = sicily_area
+				area = calabria_area
+				area = apulia_area
+				area = naples_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			western_sicily_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			sicily_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			calabria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			apulia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			naples_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			lazio_area = {
+				add_permanent_claim = ROOT
+			}
+			central_italy_area = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -787,6 +1077,374 @@ al_Abbas_traders_and_merchants_2 = {
 			kanara_area = {
 				add_permanent_claim = ROOT
 			}
+			add_country_modifier = {
+				name = maldives_resort
+				duration = 14600
+			}
+		}
+	}
+}
+al_Abbas_conquest_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	abbas_integrate_oman_najd = {
+		icon = mission_zim_strong_rulership
+		required_missions = { abbas_buildforces }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = nafud_area
+				area = qasim_area
+				area = bahrain_area
+				area = yamamah_area
+				area = pirate_coast_area
+				area = oman_area
+				area = mascat_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			nafud_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			qasim_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bahrain_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			yamamah_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			pirate_coast_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			oman_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			mascat_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = PER
+				months = 300
+			}
+		}
+	}
+	abbas_anatolia = {
+		icon = mission_non-western_soldiers
+		required_missions = { abbas_integrate_oman_najd }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = erzurum_area
+				area = rum_area
+				area = hudavendigar_area
+				area = germiyan_area
+				area = aydin_area
+				area = ankara_area
+				area = kastamonu_area
+				area = karaman_area
+				province_id = 2302
+				province_id = 327
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			erzurum_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			rum_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			hudavendigar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			germiyan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			aydin_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			ankara_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kastamonu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			karaman_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2302
+			owns_core_province = 327
+		}
+		effect = {
+			aegean_archipelago_area = {
+				add_claim = ROOT
+			}
+			321 = {
+				add_claim = ROOT
+			}
+			163 = {
+				add_claim = ROOT
+			}
+		}
+	}
+	abbas_crete_cyprus = {
+		icon = mission_secure_hajj_ports
+		required_missions = { abbas_anatolia abbas_lower_nile }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = aegean_archipelago_area
+				province_id = 321
+				province_id = 163
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			aegean_archipelago_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 321
+			owns_core_province = 163
+		}
+		effect = {
+			macedonia_area = {
+				add_permanent_claim = ROOT
+			}
+			morea_area = {
+				add_permanent_claim = ROOT
+			}
+			northern_greece_area = {
+				add_permanent_claim = ROOT
+			}
+			thrace_area = {
+				add_permanent_claim = ROOT
+			}
+			bulgaria_area = {
+				add_permanent_claim = ROOT
+			}
+			silistria_area = {
+				add_permanent_claim = ROOT
+			}
+			albania_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abbas_greater_greece = {
+		icon = mission_early_game_buildings
+		required_missions = { abbas_crete_cyprus }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				area = macedonia_area
+				area = morea_area
+				area = northern_greece_area
+				area = albania_area
+				area = thrace_area
+				area = silistria_area
+				province_id = 2750
+				province_id = 4703
+				province_id = 150
+				province_id = 1765
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			macedonia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			morea_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			albania_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			thrace_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			silistria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2750
+			owns_core_province = 4703
+			owns_core_province = 150
+			owns_core_province = 1765
+		}
+		effect = {
+			serbia_area = {
+				add_permanent_claim = ROOT
+			}
+			rascia_area = {
+				add_permanent_claim = ROOT
+			}
+			bosnia_area = {
+				add_permanent_claim = ROOT
+			}
+			croatia_area = {
+				add_permanent_claim = ROOT
+			}
+			east_adriatic_coast_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abbas_balkans = {
+		icon = mission_impaled_soldies
+		required_missions = { abbas_greater_greece }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				area = serbia_area
+				area = rascia_area
+				area = bosnia_area
+				area = croatia_area
+				area = east_adriatic_coast_area
+				area = bulgaria_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			serbia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			rascia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bosnia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			croatia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			east_adriatic_coast_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bulgaria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			east_adriatic_coast_area = {
+				type = all
+				add_province_modifier = {
+					name = control_over_adriatic
+					duration = -1
+				}
+			}
+		}
+	}
+	abbas_rome_senate = {
+		icon = a_place_among_the_great_powers
+		required_missions = { abbas_naples abbas_balkans }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+				area = central_italy_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			lazio_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			central_italy_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			change_tag = ROM
+			set_capital = 151
+			add_country_modifier = {
+				name = restoration_rome
+				duration = -1
+			}
+			118 = {
+				add_province_modifier = {
+					name = seat_of_the_senate
+					duration = -1
+				}
+			}
 		}
 	}
 }
@@ -833,7 +1491,6 @@ al_Abbas_centres_of_learning = {
 			}
 		}
 	}
-
 	abs_centres_of_learning_city = {
 		icon = mission_arabian_fort
 		required_missions = { abs_centres_of_learning_uni }
@@ -863,7 +1520,6 @@ al_Abbas_centres_of_learning = {
 		}
 	}
 }
-
 al_Abbas_the_star_and_crescent_1 = {
 	slot = 4
 	generic = no
@@ -1012,6 +1668,196 @@ al_Abbas_the_star_and_crescent_1 = {
 			}
 			add_legitimacy = 10
 			change_government_reform_progress = 50
+		}
+	}
+}
+
+al_Abbas_conquest_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	abbas_persia_conquest = {
+		icon = mission_conquer_central_deccan
+		required_missions = { abbas_integrate_oman_najd }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = khuzestan_area
+				area = luristan_area
+				area = persian_gulf_coast
+				area = farsistan_area
+				area = isfahan_area
+				area = kerman_area
+				area = mogostan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			khuzestan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			luristan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			persian_gulf_coast = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			farsistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			isfahan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kerman_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mogostan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			makran_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+			sistan_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+			birjand_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+		}
+	}
+	abbas_caucasus = {
+		icon = alpine_fortifications
+		required_missions = { abbas_persia_conquest abbas_anatolia }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = shirvan_area
+				area = armenia_area
+				area = samtskhe_area
+				area = kartli_kakheti_area
+				area = imereti_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			shirvan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			armenia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			samtskhe_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kartli_kakheti_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			imereti_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			1856 = {
+				add_latest_building = { builder = ROOT fort = yes }
+			}
+			4299 = {
+				add_latest_building = { builder = ROOT fort = yes }
+			}
+			330 = {
+				add_building = shipyard
+			}
+			328 = {
+				add_building = shipyard
+			}
+		}
+	}
+	abbas_black_sea_navy = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { abbas_caucasus }
+		position = 11
+		trigger = {
+			navy_size = 60
+		}
+		effect = {
+			285 = {
+				add_claim = ROOT
+			}
+			2410 = {
+				add_claim = ROOT
+			}
+			284 = {
+				add_claim = ROOT
+			}
+		}
+	}
+	abbas_crimea = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { abbas_black_sea_navy }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				province_id = 285
+				province_id = 2410
+				province_id = 284
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			285 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2410 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			284 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			yedisan_area = {
+				add_permanent_claim = ROOT
+			}
+			zaporizhia_area = {
+				add_permanent_claim = ROOT
+			}
+			285 = {
+				add_province_modifier = {
+					name = trade_ot_black_sea
+					duration = -1
+				}
+			}
 		}
 	}
 }
@@ -1329,6 +2175,164 @@ al_Abbas_the_star_and_crescent_2 = {
 				add_base_tax = 5
 				add_base_production = 5
 				add_base_manpower = 5
+			}
+		}
+	}
+}
+
+al_Abbas_conquest_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	abbas_makran = {
+		icon = mission_control_the_desh
+		required_missions = { abbas_persia_conquest }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = makran_area
+				area = sistan_area
+				area = birjand_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			2233 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			434 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			575 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2232 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			birjand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			iraq_e_ajam_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+			azerbaijan_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+			tabarestan_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+			mashhad_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = PER
+			}
+		}
+	}
+}
+al_Abbas_silly_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	abs_cili_mocha = {
+		icon = mission_rb_colonise_spice_islands
+		required_missions = {  }
+		position = 12
+		provinces_to_highlight = {
+			province_id = 387
+		}
+		trigger = {
+			owns_core_province = 387
+			387 = {
+				base_production = 10
+				has_building = plantations
+			}
+		}
+		effect = {
+			387 = {
+				add_province_modifier = {
+					name = more_mocha_mod
+					duration = -1
+				}
+			}
+		}
+	}
+	abs_cili_caliphornia = {
+		icon = mission_colonize_california
+		required_missions = {  }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				area = baja_california_area
+				area = sonora_area
+				area = arizona_area
+				area = california_area
+				area = central_valley_area
+				area = northern_california_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			4637 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			calc_true_if = {
+				all_province = {
+					OR = {
+						area = baja_california_area
+						area = sonora_area
+						area = arizona_area
+						area = california_area
+						area = central_valley_area
+						area = northern_california_area
+					}
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 12
+			}
+		}
+		effect = {
+			4637 = {
+				change_province_name = "Nuz' al-Khalifa"
+				rename_capital = "Nuz' al-Khalifa"
+				add_province_modifier = {
+					name = capital_caliphornia
+					duration = -1
+				}
+			}
+			408 = {
+				add_province_modifier = {
+					name = port_departure
+					duration = -1
+				}
 			}
 		}
 	}
