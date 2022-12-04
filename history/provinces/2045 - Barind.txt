@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Rangpur"
 is_city = yes
 culture = kochi
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = Z01
+add_core = MAD
 add_core = KMT
 discovered_by = indian
 discovered_by = muslim

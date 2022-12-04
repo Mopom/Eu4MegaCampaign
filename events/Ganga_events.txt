@@ -20,7 +20,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = anti_tax_rebels 
-					size = 6
+					size = 3
 				}
 			}
 			random_owned_province = {
@@ -30,7 +30,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = anti_tax_rebels 
-					size = 6
+					size = 3
 				}
 			}
 			random_owned_province = {
@@ -40,7 +40,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = anti_tax_rebels 
-					size = 6
+					size = 3
 				}
 			}
 			random_owned_province = {
@@ -50,7 +50,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = anti_tax_rebels 
-					size = 6
+					size = 3
 				}
 			}
 			random_owned_province = {
@@ -60,7 +60,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = anti_tax_rebels 
-					size = 6
+					size = 3
 				}
 			}
 		}
@@ -69,7 +69,7 @@ country_event = {
 	option = {
 		name = "gng_crisis.1.a"
 		add_stability = -2
-		add_corruption = 5
+		add_corruption = 7
 		BNG =  { 
 			declare_war_with_cb = {
 			who = MAD

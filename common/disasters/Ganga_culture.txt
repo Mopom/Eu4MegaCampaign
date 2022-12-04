@@ -46,17 +46,17 @@ gng_crisis = {
 	}
 	
 	can_end = {
-		stability = 3
+		stability = 1
 		is_bankrupt = no
 		NOT = { num_of_loans = 5 }
-		NOT = { corruption = 5 }
+		NOT = { corruption = 0 }
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 	}
 	
 	modifier = {
 		all_power_cost = 0.2
-		global_unrest = 15
+		global_unrest = 5
 		stability_cost_modifier = 1.5
 	}
 
@@ -68,11 +68,6 @@ on_monthly = {
 			gng_crisis.3
 			gng_crisis.4
 			gng_crisis.5
-		}
-		random_events = {
-			1000 = 0
-			100 = ming_crisis.6 # Rebellion
-			100 = ming_crisis.11
 		}
 	}
 }

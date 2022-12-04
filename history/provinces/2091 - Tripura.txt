@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Udaipur"
 is_city = yes
 culture = dynamic-bengali-culture-num1
@@ -8,7 +8,7 @@ trade_goods = tropical_wood
 base_tax = 6
 base_production = 7
 base_manpower = 3
-add_core = Z01
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
