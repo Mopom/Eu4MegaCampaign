@@ -133,3 +133,40 @@ al-mikhdam_sword = {
 al-battar_sword = {
 	manpower_recovery_speed = 0.17
 }
+al-adb_sword = {
+	infantry_cost = -0.05
+	infantry_power = 0.07
+}
+hatf_sword = {
+	fire_damage = 0.05
+	shock_damage = 0.05
+}
+qali_sword = {
+	manpower_in_true_faith_provinces = 0.09
+}
+al-qadib_sword = {
+	cavalry_fire = 1
+	cavalry_shock = 1
+}
+muscat_and_aden_mod = {
+	global_own_trade_power = 0.2
+	center_of_trade_upgrade_cost = -0.1
+}
+antioch_citadel = {
+	local_hostile_attrition = 5
+	local_garrison_size = 0.15
+	local_defensiveness = 0.1
+}
+alexandria_harbour = {
+	blockade_force_required = 0.9
+	local_sailors_modifier = 0.1
+	province_trade_power_modifier = 0.15
+}
+malta_fortification = {
+	max_attrition = 5
+	local_hostile_attrition = 5
+	local_garrison_size = 0.5
+	fort_level = 2
+	local_defender_dice_roll_bonus = 3
+	local_own_coast_naval_combat_bonus = 2
+}
