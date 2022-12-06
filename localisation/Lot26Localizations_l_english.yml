@@ -296,4 +296,12 @@
  french_callais_1:0 "Port de Calais"
  emp_fra_reconquer_gascony_title:0 "Ducs de Gascogne"
  emp_fra_reconquer_gascony_desc:0 "Birthplace of the House 'de Poitou' that now rules all of France. This is our home and our capital."
+ lot_bri_cel_wales_title:0 "Attack on Wales"
+ lot_bri_cel_wales_desc:0 "Wales is independant under the Premyslid dynasty. But would the celts not be safer under our protection?"
+ lot_bri_cel_duchies_title:0 "Celtic Duchy"
+ lot_bri_cel_duchies_desc:0 "Now that we have gathered a few celtic lands we can release them as our vassal. Our mutual bond shall bring us strength."
+ lot_ddu_cel_mann_pale_title:0 "Mann and the Pale"
+ lot_ddu_cel_mann_pale_desc:0 "In the Irish Sea lies Mann, an island upon which live the Manx. These too are the brothers to our celtic vassal and they shall help in the conquest of Ireland."
+ lot_ddu_cel_ireland_title:0 "Celtic Union of Duchies"
+ lot_ddu_cel_ireland_desc:0  "Under our Kingdom we can now form a Union of Celtic Duchies, how far they have progressed from their humble beginnings."
  #

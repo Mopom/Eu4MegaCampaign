@@ -211,6 +211,209 @@ emp_france_missions_1 = {
 		}
 	}
 }
+lot_bri_celtic_tree = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no 
+	}
+	has_country_shield = yes
+	
+	lot_bri_cel_wales = {
+		icon = mission_rb_conquer_wales
+		required_missions = {  }
+		position = 5
+		provinces_to_highlight = {
+			area = wales_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wales_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			4365 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			373 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			374 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			4120 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			brittany_area = {
+				add_core = BRI
+			}
+		}
+	}
+	lot_bri_cel_duchies = {
+		icon = mission_rb_conquer_the_highlands
+		required_missions = { lot_bri_cel_wales }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = brittany_area
+				area = wessex_area
+				area = wales_area
+			}
+			NOT = { province_id = 234 }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			brittany_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			wales_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 4130
+			owns_core_province = 4374
+			owns_core_province = 4373
+			owns_core_province = 233
+			
+			169 = {
+				development = 15
+			}
+			4369 = {
+				development = 10
+			}
+		}
+		effect = {
+			wales_area = {
+				add_core = BRI
+			}
+			4130 = {
+				add_core = BRI
+			}
+			4374 = {
+				add_core = BRI
+			}
+			4373 = {
+				add_core = BRI
+			}
+			233 = {
+				add_core = BRI
+			}
+			create_vassal = BRI
+			BRI = {
+				set_capital = 169
+				override_country_name = Y_DDUGAETH
+			}
+		}
+	}
+	lot_ddu_cel_mann_pale = {
+		icon = mission_rb_unite_the_clans
+		required_missions = { lot_bri_cel_duchies }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4365
+				province_id = 373
+				province_id = 374
+				province_id = 4120
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			BRI = {
+				AND = {
+					owns_core_province = 4365
+					owns_core_province = 373
+					owns_core_province = 374
+					owns_core_province = 4120
+				}
+			}
+		}
+		effect = {
+			leinster_area = {
+				add_permanent_claim = BRI
+			}
+			munster_area = {
+				add_permanent_claim = BRI
+			}
+			connacht_area = {
+				add_permanent_claim = BRI
+			}
+			ulster_area = {
+				add_permanent_claim = BRI
+			}
+			BRI = {
+				set_capital = 4369
+				change_primary_culture = welsh
+				add_accepted_culture = dynamic-breton-normand-occitain-culture-num1
+			}
+		}
+	}
+	lot_ddu_cel_ireland = {
+		icon = mission_rb_conquer_leinster
+		required_missions = { lot_ddu_cel_mann_pale }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = leinster_area
+				area = munster_area
+				area = connacht_area
+				area = ulster_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			leinster_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			munster_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			connacht_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			ulster_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+		}
+		effect = {
+			4365 = {
+				add_base_tax = 5
+				add_base_production = 5
+				add_base_manpower = 5
+			BRI = {
+				set_capital = 4365
+				override_country_name = DIUCACHTAI
+				change_primary_culture = dynamic-irish-culture-num1
+				add_accepted_culture = welsh
+			}
+		}
+	}
+}
 emp_france_missions_1_b = {
 	slot = 1
 	generic = no
@@ -230,7 +433,7 @@ emp_france_missions_1_b = {
 		icon = mission_establish_high_seas_navy
 		required_missions = {  }
 		completed_by = 1535.1.1
-		position = 7
+		position = 11
 		trigger = {
 			has_idea_group = exploration_ideas
 			has_idea = quest_for_the_new_world
@@ -264,7 +467,7 @@ emp_france_missions_1_b = {
 		icon = mission_colonial
 		required_missions = { emp_fra_france_discovers_north_america }
 		completed_by = 1608.7.3
-		position = 8
+		position = 12
 		provinces_to_highlight = {
 			has_discovered = ROOT
 			OR = {
@@ -610,7 +813,7 @@ emp_france_missions_2_b = {
 			continent = south_america
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
-		position = 8
+		position = 12
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				continent = south_america
