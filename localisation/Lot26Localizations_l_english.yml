@@ -287,4 +287,13 @@
  abs_cili_caliphornia_desc:0 "We, the Caliph, have heard rumours of a land in the East, by the Europeans called California. For us this name seems in need of an upgrade, thus we proclaim the Crown Colony of Caliphornia."
  capital_caliphornia:0 "Capital of Caliphornia"
  port_departure:0 "Departing Port for Caliphornia"
+ lot_fra_aqui_war_title:0 "The Aquitanian Wars"
+ lot_fra_aqui_war_desc:0 "In the 11th and 12th century the Aquitanian Kings marched their armies across France and took their crown. As their descendants we must avenge their hardships and end the French."
+ lot_fra_integrate_hai_title:0 "Integrate Hainaut"
+ lot_fra_integrate_hai_desc:0 "To the north of France lies our vassal of Hainaut. Time has come to welcome them to the fold."
+ emp_fra_port_calais_title:0 "Port of Calais"
+ emp_fra_port_calais_desc:0 "Calais sits across Kent at the shortest point of the English Channel. Such a prime trading position, one would almost consider it a shame..."
+ french_callais_1:0 "Port de Calais"
+ emp_fra_reconquer_gascony_title:0 "Ducs de Gascogne"
+ emp_fra_reconquer_gascony_desc:0 "Birthplace of the House 'de Poitou' that now rules all of France. This is our home and our capital."
  #

@@ -197,3 +197,6 @@ port_departure = {
 	tax_income = 5
 	local_institution_spread = 0.12
 }
+french_callais_1 = {
+	province_trade_power_modifier = 0.25
+}
