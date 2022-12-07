@@ -89,10 +89,10 @@ dlh_jnp_reconquest = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = "Focused on war"
-				duration = 10
-				}
+				name = "focused_on_war"
+				duration = -1
 			}
+		}
 		}
 
 gujarat_forced_migration = {
