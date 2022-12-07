@@ -1,5 +1,5 @@
 government = republic
-add_government_reform = t_pirate_reform
+add_government_reform = pirate_republic_reform
 government_rank = 2
 technology_group = east_african
 religion = sunni
