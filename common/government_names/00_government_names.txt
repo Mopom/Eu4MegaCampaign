@@ -619,7 +619,6 @@ pirate_government = {
 
 	trigger = {
 		has_reform = pirate_republic_reform
-		has_reform = t_pirate_reform
 		NOT = { has_reform = pirate_king_reform }
 		NOT = { primary_culture = greek }
 	}
