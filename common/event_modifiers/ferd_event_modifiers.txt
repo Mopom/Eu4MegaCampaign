@@ -2,3 +2,10 @@ Bhagalpul_mod = {
 	local_goods_produced_modifier = 0.1
 	province_trade_power_modifier = 0.15
 }
+Focused_on_war = {
+	liberty_desire_from_subject_development = -0.25
+	global_manpower = 10
+	global_tax_modifier = -0.2
+	global_trade_modifier = -0.2
+	mil_tech_cost_modifier = -0.2
+}
