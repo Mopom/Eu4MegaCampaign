@@ -91,7 +91,6 @@ dlh_jnp_reconquest = {
 			liberty_desire_from_subject_development = -0.15
 			}
 		}
-	}
 
 gujarat_forced_migration = {
 		icon = mission_conquer_gujarat_dlh
