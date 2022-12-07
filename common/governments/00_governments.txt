@@ -252,7 +252,6 @@ republic = {
 				venice_merchants_reform
 				pirate_republic_reform
 				pirate_city
-				t_pirate_reform
 				noble_elite_reform
 				free_city
 				trading_city

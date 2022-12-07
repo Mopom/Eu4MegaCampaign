@@ -1249,10 +1249,7 @@ republican_authoritarianism_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {
-			OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 		}
 		OR = {
 			is_revolutionary = no
@@ -1272,10 +1269,7 @@ nepotism_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {
-			OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 		}
 		NOT = { has_reform = signoria_reform }
 		OR = {
@@ -1304,10 +1298,7 @@ republicanism_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {
-			OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 		}
 		OR = {
 			is_revolutionary = no
@@ -1327,10 +1318,7 @@ council_of_captains_reform = {
 	allow_normal_conversion = yes
 	legacy_equivalent = oligarchic_republic
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	modifiers = {
 		pr_captains_influence = 0.1
@@ -1345,10 +1333,7 @@ articles_of_agreement_reform = {
 	icon = "articles_of_agreement"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	modifiers = {
 		pr_buccaneers_influence = 0.1
@@ -1364,10 +1349,7 @@ smugglers_haven_reform = {
 	icon = "smugglers_haven"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	modifiers = {
 		pr_smugglers_influence = 0.1
@@ -1826,10 +1808,7 @@ pirate_king_reform = {
 	allow_normal_conversion = yes
 	legacy_equivalent = pirate_kingdom
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	modifiers = {
 		pr_captains_influence = 0.1
@@ -1851,10 +1830,7 @@ war_against_the_world_doctrine_reform = {
 	legacy_equivalent = war_against_the_world_government
 	disallowed_trade_goods = { slaves }
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	modifiers = {
 		pr_buccaneers_influence = 0.1
@@ -1874,10 +1850,7 @@ black_market_consortium_reform = {
 	allow_normal_conversion = yes
 	legacy_equivalent = black_market_consortium_government
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	modifiers = {
 		pr_smugglers_influence = 0.1
@@ -2041,10 +2014,7 @@ admiralty_reform = {
 	trigger = {
 		full_idea_group = naval_ideas
 		NOT = { 
-			OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 		}
 	}
 	modifiers = {
@@ -2166,14 +2136,10 @@ pirates_become_republic_reform = {
 	allow_normal_conversion = yes
 	
 	potential = {
-		OR = {
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
-			}
 	}
 	effect = {
 		remove_government_reform = pirate_republic_reform
-		remove_government_reform = t_pirate_reform
 		set_country_flag = populists_in_government
 	}
 	ai = {
