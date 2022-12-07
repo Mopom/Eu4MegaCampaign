@@ -1667,6 +1667,15 @@ shafii_scholar_modifier = {
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	merchants = 1
 }
+zahrai_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expier_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	may_recruit_female_generals = yes
+	female_advisor_chance = 0.48
+	heir_chance = 0.60
+}
 
 ismaili_scholar_modifier = {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier

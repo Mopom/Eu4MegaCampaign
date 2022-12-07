@@ -717,6 +717,16 @@ age_of_absolutism = {
 					num_of_banners = 10
 				}
 			}
+			effect = {
+				if = {
+					limit = {
+						NOT = { primary_culture = manchu }
+						NOT = { primary_culture = manchu_new }
+						NOT = { has_government_attribute = allow_banners }
+					}
+					custom_tooltip = ab_manchu_banner_tt
+				}
+			}
 			modifier = {
 				amount_of_banners = 0.5
 			}

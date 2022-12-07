@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = MAD
+controller = MAD
 capital = "Bishnupur"
 is_city = yes
 culture = oriya
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = BNG
 add_core = ORI
-add_core = Z01
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

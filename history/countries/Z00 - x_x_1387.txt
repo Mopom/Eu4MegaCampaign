@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = ottoman_government
 government_rank = 3
-technology_group = eastern
+technology_group = muslim
 religion = sunni
 historical_friend = MAL
 add_historical_rival = RUM

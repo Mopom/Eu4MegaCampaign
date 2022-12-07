@@ -1,0 +1,24 @@
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 60 70 70 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	quality_ideas
+	innovativeness_ideas
+	maritime_ideas
+	naval_ideas
+	influence_ideas
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+}
+historical_units = {
+	algonkin_tomahawk_charge
+	american_western_franchise_warfare
+	commanche_swarm
+	native_indian_archer
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	native_indian_tribal_warfare
+	sioux_dragoon
+}

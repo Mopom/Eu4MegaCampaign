@@ -82,7 +82,7 @@ emp_france_missions_1 = {
 	
 	emp_fra_auld_alliance = {
 		icon = the_auld_alliance
-		required_missions = { emp_fra_brest emp_fra_end_hyw }
+		required_missions = { emp_fra_brest lot_fra_aqui_war }
 		provinces_to_highlight = {
 			owner = {
 				NOT = { tag = ENG }
@@ -210,52 +210,206 @@ emp_france_missions_1 = {
 			}
 		}
 	}
-	emp_fra_conquer_flanders_wallonia = {
-		icon = mission_cannons_firing
-		required_missions = { emp_fra_recover_calais }
+}
+lot_bri_celtic_tree = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no 
+	}
+	has_country_shield = yes
+	
+	lot_bri_cel_wales = {
+		icon = mission_rb_conquer_wales
+		required_missions = {  }
 		position = 5
 		provinces_to_highlight = {
-			OR = {
-				area = wallonia_area
-				area = brabant_area
-				area = flanders_area
-			}
-			NOT = {
-				owned_by = ROOT
-			}
+			area = wales_area
+			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			wallonia_area = {
+			wales_area = {
 				type = all
 				owned_by = ROOT
-			}
-			brabant_area = {
-				type = all
-				owned_by = ROOT
-			}
-			flanders_area = {
-				type = all
-				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
-			wallonia_area = {
-				add_province_modifier = {
-					name = "faster_integration"
-					duration = 7300
+			4365 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			373 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			374 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			4120 = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = BRI
+			}
+			brittany_area = {
+				add_core = BRI
+			}
+		}
+	}
+	lot_bri_cel_duchies = {
+		icon = mission_rb_conquer_the_highlands
+		required_missions = { lot_bri_cel_wales }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = brittany_area
+				area = wessex_area
+				area = wales_area
+			}
+			NOT = { province_id = 234 }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			brittany_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			wales_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 4130
+			owns_core_province = 4374
+			owns_core_province = 4373
+			owns_core_province = 233
+			
+			169 = {
+				development = 15
+			}
+			4369 = {
+				development = 10
+			}
+		}
+		effect = {
+			wales_area = {
+				add_core = BRI
+			}
+			4130 = {
+				add_core = BRI
+			}
+			4374 = {
+				add_core = BRI
+			}
+			4373 = {
+				add_core = BRI
+			}
+			233 = {
+				add_core = BRI
+			}
+			create_vassal = BRI
+			BRI = {
+				set_capital = 169
+				override_country_name = Y_DDUGAETH
+			}
+		}
+	}
+	lot_ddu_cel_mann_pale = {
+		icon = mission_rb_unite_the_clans
+		required_missions = { lot_bri_cel_duchies }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4365
+				province_id = 373
+				province_id = 374
+				province_id = 4120
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			BRI = {
+				AND = {
+					owns_core_province = 4365
+					owns_core_province = 373
+					owns_core_province = 374
+					owns_core_province = 4120
 				}
 			}
-			brabant_area = {
-				add_province_modifier = {
-					name = "faster_integration"
-					duration = 7300
-				}
+		}
+		effect = {
+			leinster_area = {
+				add_permanent_claim = BRI
 			}
-			flanders_area = {
-				add_province_modifier = {
-					name = "faster_integration"
-					duration = 7300
-				}
+			munster_area = {
+				add_permanent_claim = BRI
+			}
+			connacht_area = {
+				add_permanent_claim = BRI
+			}
+			ulster_area = {
+				add_permanent_claim = BRI
+			}
+			BRI = {
+				set_capital = 4369
+				change_primary_culture = welsh
+				add_accepted_culture = dynamic-breton-normand-occitain-culture-num1
+			}
+		}
+	}
+	lot_ddu_cel_ireland = {
+		icon = mission_rb_conquer_leinster
+		required_missions = { lot_ddu_cel_mann_pale }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = leinster_area
+				area = munster_area
+				area = connacht_area
+				area = ulster_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			leinster_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			munster_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			connacht_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			ulster_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+		}
+		effect = {
+			4365 = {
+				add_base_tax = 5
+				add_base_production = 5
+				add_base_manpower = 5
+			BRI = {
+				set_capital = 4365
+				override_country_name = DIUCACHTAI
+				change_primary_culture = dynamic-irish-culture-num1
+				add_accepted_culture = welsh
 			}
 		}
 	}
@@ -279,7 +433,7 @@ emp_france_missions_1_b = {
 		icon = mission_establish_high_seas_navy
 		required_missions = {  }
 		completed_by = 1535.1.1
-		position = 7
+		position = 11
 		trigger = {
 			has_idea_group = exploration_ideas
 			has_idea = quest_for_the_new_world
@@ -313,7 +467,7 @@ emp_france_missions_1_b = {
 		icon = mission_colonial
 		required_missions = { emp_fra_france_discovers_north_america }
 		completed_by = 1608.7.3
-		position = 8
+		position = 12
 		provinces_to_highlight = {
 			has_discovered = ROOT
 			OR = {
@@ -422,7 +576,6 @@ emp_france_missions_1_b = {
 		}
 	}
 }
-
 emp_france_missions_2 = {
 	slot = 2
 	generic = no
@@ -479,56 +632,45 @@ emp_france_missions_2 = {
 			factor = 100
 		}
 	}
-	
-	emp_fra_end_hyw = {
+	lot_fra_aqui_war = {
 		icon = the_hundred_years_war
 		required_missions = { emp_fra_reconquer_normandy emp_fra_reconquer_gascony }
 		provinces_to_highlight = {
 			region = france_region
 			NOT = { province_id = 87 }
-			OR = {
-				owned_by = ENG
-				owned_by = GBR
+			AND = {
+				owned_by = ROOT
+				culture = cosmopolitan_french
 			}
 		}
 		trigger = {
 			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = fra_hyw_tt
-				france_region = {
-					type = all
-					OR = {
-						province_id = 87
-						AND = {
-							NOT = { owned_by = ENG }
-							NOT = { owned_by = GBR }
-						}
-					}
-				}
+			178 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
 			}
-			if = {
-				limit = {
-					exists = ENG
-				}
-				NOT = { war_with = ENG }
+			177 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
 			}
-			if = {
-				limit = {
-					exists = GBR
-				}
-				NOT = { war_with = GBR }
+			1877 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
 			}
+			191 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
+			}
+			4392 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
+			}
+			4390 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
+			}
+			4766 = {
+				culture = dynamic-breton-normand-occitain-culture-num1
+			}
+			NOT = { is_at_war = yes }
 		}
 		effect = {
-			if = {
-				limit = {
-					exists = ENG
-					NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
-					NOT = { has_country_flag = had_end_of_HYW_france }
-				}
-				set_global_flag = hyw_mission_resolution
-				country_event = { id = flavor_fra.9104 }
-			}		
+			add_stability = 1
+			add_dip_power = 150
 			champagne_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -571,47 +713,46 @@ emp_france_missions_2 = {
 			}
 		}
 	}
-	emp_fra_conquer_picardy_fra = {
+	lot_fra_integrate_hai = {
 		icon = mission_assemble_an_army
-		required_missions = { emp_fra_end_hyw }
+		required_missions = { lot_fra_aqui_war }
 		completed_by = 1477.1.5
 		provinces_to_highlight = {
 			OR = {
-				area = champagne_area
-				province_id = 89
-				province_id = 88
-				province_id = 1743
+					area = picardy_area
+					province_id = 4769
+					province_id = 90
+					province_id = 91
+					province_id = 1866
 			}
 			NOT = {
 				owned_by = ROOT
 			}
 		}
 		trigger = {
-			champagne_area = {
+			picardy_area = {
 				type = all
 				owned_by = ROOT
 			}
-			89 = {
+			4769 = {
 				owned_by = ROOT
 			}
-			88 = {
+			90 = {
 				owned_by = ROOT
 			}
-			1743 = {
+			91 = {
+				owned_by = ROOT
+			}
+			1866 = {
 				owned_by = ROOT
 			}
 		}
 		effect = {
-			87 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
+			brabant_area = {
+				add_permanent_claim = ROOT
+			}
+			flanders_area = {
+				add_permanent_claim = ROOT
 			}
 		}
 		ai_priority = {
@@ -621,48 +762,24 @@ emp_france_missions_2 = {
 			factor = 1000
 		}
 	}
-	emp_fra_recover_calais = {
+	emp_fra_port_calais = {
 		icon = mission_galleys_in_port
-		required_missions = { emp_fra_conquer_picardy_fra }
+		required_missions = { lot_fra_integrate_hai }
 		completed_by = 1558.1.7
 		provinces_to_highlight = {
 			province_id = 87
-			NOT = {
-				owned_by = ROOT
-			}
 		}
 		trigger = {
 			87 = {
-				owned_by = ROOT
+				province_has_center_of_trade_of_level = 3
 			}
 		}
 		effect = {
 			87 = {
 				add_province_modifier = {
-					name = "french_callais"
+					name = "french_callais_1"
 					duration = 7300
 				}
-			}
-			wallonia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			brabant_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			flanders_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
 			}
 		}
 		ai_priority = {
@@ -670,238 +787,6 @@ emp_france_missions_2 = {
 		}
 		ai_weight = {
 			factor = 1000
-		}
-	}
-	emp_fra_conquer_milan = {
-		icon = mission_italian_condottiere
-		required_missions = { alice_fra_annex_genoa }
-		provinces_to_highlight = {
-			area = lombardy_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			lombardy_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					exists = NAP
-					valid_for_personal_unions_trigger = yes
-					NAP = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = NAP
-				}
-			}
-			else = {
-				calabria_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				apulia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				naples_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				120 = {
-					if = {
-						limit = {
-							NOT = {
-								is_permanent_claim = ROOT
-								is_core = ROOT
-							}
-						}
-						add_permanent_claim = ROOT
-					}
-				}
-			}
-		}
-	}
-	emp_fra_french_claim_to_naples = {
-		icon = mission_monarch_in_throne_room
-		required_missions = { emp_fra_conquer_milan }
-		provinces_to_highlight = {
-			OR = {
-				area = calabria_area
-				area = apulia_area
-				province_id = 121
-				province_id = 120
-				province_id = 2983
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			OR = {
-				NAP = {
-					junior_union_with = ROOT
-				}
-				AND = {
-					calabria_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					apulia_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					naples_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					120 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-			}
-		}
-		effect = {
-			add_prestige = 20
-			hidden_effect = {
-				remove_casus_belli = {
-					type = cb_restore_personal_union
-					target = NAP
-				}
-			}
-			if = {
-				limit = {
-					exists = SPA
-					valid_for_personal_unions_trigger = yes
-					SPA = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = SPA
-				}
-			}
-			else_if = {
-				limit = {
-					exists = CAS
-					valid_for_personal_unions_trigger = yes
-					CAS = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = CAS
-				}
-			}
-			else = {
-				castille_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				toledo_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				asturias_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				leon_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				extremadura_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				basque_country = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-		}
-	}
-	emp_fra_spanish_succession = {
-		icon = the_spanish_succession
-		required_missions = { emp_fra_french_claim_to_naples }
-		provinces_to_highlight = {
-			OR = {
-				area = castille_area
-				area = toledo_area
-				area = asturias_area
-				area = leon_area
-				area = extremadura_area
-				area = basque_country
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			castille_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			toledo_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			asturias_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			leon_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			extremadura_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			basque_country = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			add_prestige = 20
-			add_dip_power = 100
 		}
 	}
 }
@@ -928,7 +813,7 @@ emp_france_missions_2_b = {
 			continent = south_america
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
-		position = 8
+		position = 12
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				continent = south_america
@@ -1976,7 +1861,7 @@ emp_france_missions_5 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_1 = {
+lot_fra_legacy_of_charlemagne_1 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -2393,7 +2278,7 @@ lot_legacy_of_charlemagne_1 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_2 = {
+lot_fra_legacy_of_charlemagne_2 = {
 	slot = 4
 	generic = no
 	ai = yes

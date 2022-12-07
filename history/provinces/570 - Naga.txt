@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Dimapur"
 is_city = yes
 culture = assamese
@@ -10,7 +10,7 @@ base_tax = 5
 base_production = 1
 base_manpower = 1
 add_core = ASS
-add_core = Z01
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -112,7 +112,6 @@ Monarch_names = {
 	"Aldebert #0" = 1
 	"Folquet #0" = 1
 	"Giselle #0" = -1
-	"Catgoulort #0" = 1
 	"Oswyn #0" = 1
 	"Stephanie #0" = -1
 	"Gui #0" = 1
@@ -129,16 +128,21 @@ leader_names = {
 	"Duquesne"
 	"Le Tellier"
 	"d'Ambleteuse"
+	"d'Anjou"
+	"d'Artois"
 	"d'Aulnay"
+	"d'Aubigny"
 	"d'Entraigues"
-	"d'Estr es"
+	"d'Estres"
 	"d'Ornano"
 	"d'Usson"
 	"de Beauharnais"
 	"de Bercy"
+	"de Blois"
 	"de Boissieu"
 	"de Bonnefoy"
 	"de Bonneuil"
+	"de Bourgogne"
 	"de Broglie"
 	"de Castaing"
 	"de Caumartin"
@@ -148,6 +152,8 @@ leader_names = {
 	"de Chevigny"
 	"de Crussol"
 	"de Dampierre"
+	"de Dreux-Montfort"
+	"de Flandre"
 	"de Galard"
 	"de La Barthe"
 	"de La Ferrandie"
@@ -171,6 +177,7 @@ leader_names = {
 	"de Siorac"
 	"de Tocqueville"
 	"de Troville"
+	"de Valois"
 	"de Vergennes"
 	"de Vibien"
 	"de Vigny"
@@ -182,6 +189,11 @@ leader_names = {
 	"du Bosquet"
 	"du Fournay"
 	"du Valentinois"
+	"Plantagenet-Angevin"
+	"Plantagenet"
+	"Rouergue"
+	"Valois-Bourgogne"
+	"Valois-Angoulême"
 }
 ship_names = {
 	"Achille"

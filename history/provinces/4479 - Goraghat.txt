@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Goraghat"
 is_city = yes
 culture = dynamic-bengali-gondi-avadhi-rajput-culture-num2
@@ -8,7 +8,7 @@ trade_goods = silk
 base_tax = 7
 base_production = 8
 base_manpower = 4
-add_core = Z01
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

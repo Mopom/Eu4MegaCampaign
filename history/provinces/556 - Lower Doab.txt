@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Allahabad"
 is_city = yes
 culture = avadhi
@@ -13,6 +13,7 @@ extra_cost = 16
 center_of_trade = 2
 add_core = ODH
 add_core = Z01
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

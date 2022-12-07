@@ -25,8 +25,8 @@ historical_units = {
 	steppe_uhlans
 }
 monarch_names = {
-	"Anya 00 #0" = -1
-	"Benedict 0000 #1" = 10
+	"Anya #0" = -1
+	"Benedict #1" = 10
 	"Bhoja #0" = 0
 	"Christina #1" = -1
 	"Chuhou #0" = 0

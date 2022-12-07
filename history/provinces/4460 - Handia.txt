@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Handia"
 is_city = yes
 culture = gondi
@@ -10,6 +10,7 @@ base_production = 7
 base_manpower = 2
 add_core = GDW
 add_core = Z01
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

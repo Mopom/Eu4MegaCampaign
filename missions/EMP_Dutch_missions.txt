@@ -1499,7 +1499,7 @@ emp_ned_slot5_colony_branch = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_1 = {
+lot_tnf_legacy_of_charlemagne_1 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1923,7 +1923,7 @@ lot_legacy_of_charlemagne_1 = {
 		}
 	}
 }
-lot_legacy_of_charlemagne_2 = {
+lot_tnf_legacy_of_charlemagne_2 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -1939,7 +1939,7 @@ lot_legacy_of_charlemagne_2 = {
 	
 	lot_tnf_churches_of_charlemagne = {
 		icon = italian_riches
-		required_missions = { lot_ned_reichskrone }
+		required_missions = { lot_tnf_reichskrone }
 		position = 9
 		trigger = {
 			temple = 14

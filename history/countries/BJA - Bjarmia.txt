@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = feudal_tribe
+government_rank = 2
+technology_group = eastern
+religion = finnish_pagan
+primary_culture = bjarmian
+capital = 4258
+1444.11.11= {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

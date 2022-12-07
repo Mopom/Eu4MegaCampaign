@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = MAD
+controller = MAD
 capital = "Hajipur"
 is_city = yes
 culture = dynamic-bengali-gondi-avadhi-rajput-culture-num2

@@ -684,84 +684,84 @@ hlr_rome_return_northern_route = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			east_midlands_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			yorkshire_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			scottish_marches_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			wales_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			munster_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			connacht_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = -36500
 				}
 			}
 			leinster_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			ulster_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			kingdom_of_the_isles_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			highlands_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 			lowlands_area = {
 				type = all
 				add_province_modifier = {
 					name = charlemagne_in_england
-					duration = -1
+					duration = 36500
 				}
 			}
 		}
@@ -823,22 +823,6 @@ hlr_rome_return_northern_route = {
 			british_isles_region = {
 				add_permanent_claim = ROOT
 			}
-			west_midlands_area = {
-				type = all
-				remove_province_modifier = charlemagne_in_england
-			}
-			east_midlands_area = {
-				type = all
-				remove_province_modifier = charlemagne_in_england
-			}
-			scottish_marches_area = {
-				type = all
-				remove_province_modifier = charlemagne_in_england
-			}
-			yorkshire_area = {
-				type = all
-				remove_province_modifier = charlemagne_in_england
-			}
 		}
 	}
 	hlr_rome_brittania = {
@@ -856,96 +840,14 @@ hlr_rome_return_northern_route = {
 			}
 		}
 		effect = {
-			british_isles_region = {
-				type = all
-				remove_province_modifier = charlemagne_in_england
-			}
 			add_country_modifier = {
 				name = celtic_warriors
-				duration = 18260
+				duration = 18250
 			}
 		}
 	}
 }
-hlr_karl_scourge_of_islam_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		has_dlc = "Emperor"
-		tag = HLR
-		NOT = { map_setup = map_setup_random }
-	}
-	
-	has_country_shield = yes
-	
-	hlr_karl_cities_of_conversion_2 = {
-		icon = mission_imperial_cities
-		required_missions = { hlr_karl_religion_united }
-		position = 6
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1751
-				province_id = 335
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			1751 = {
-				is_core = ROOT
-				owned_by = ROOT
-				has_owner_religion = yes
-			}
-			335 = {
-				is_core = ROOT
-				owned_by = ROOT
-				has_owner_religion = yes
-			}
-		}
-		effect = {
-			northern_morocco_area = {
-				add_permanent_claim = ROOT
-			}
-			343 = {
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-	hlr_karl_norf_africa = {
-		icon = mission_conquer_tunisia
-		required_missions = { hlr_karl_cities_of_conversion_2 }
-		position = 7
-		provinces_to_highlight = {
-			OR = {
-				area = northern_morocco_area
-				province_id = 343
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			northern_morocco_area = {
-				type = all
-				is_core = ROOT
-				owned_by = ROOT
-			}
-			343 = {
-				is_core = ROOT
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = foothold_africa
-				duration = -1
-			}
-		}
-	}
-}
-hlr_rome_return_eastern_route_1 = {
+hlr_rome_return_eastern_route_3 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1051,7 +953,85 @@ hlr_rome_return_eastern_route_1 = {
 		}
 	}
 }
-hlr_rome_return_western_route = {
+hlr_karl_scourge_of_islam_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_cities_of_conversion_2 = {
+		icon = mission_imperial_cities
+		required_missions = { hlr_karl_religion_united }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1751
+				province_id = 335
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			1751 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+			335 = {
+				is_core = ROOT
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			343 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_karl_norf_africa = {
+		icon = mission_conquer_tunisia
+		required_missions = { hlr_karl_cities_of_conversion_2 }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = northern_morocco_area
+				province_id = 343
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			northern_morocco_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			343 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = foothold_africa
+				duration = -1
+			}
+		}
+	}
+}
+hlr_rome_return_western_route_1 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1112,6 +1092,969 @@ hlr_rome_return_western_route = {
 			barbary_coast_area = {
 				type = all
 				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_caesariensis = {
+		icon = mission_pacify_the_berbers
+		required_missions = { hlr_rome_mediterranean_islands_2 }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = kabylia_area
+				area = barbary_coast_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			kabylia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			barbary_coast_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			ouled_nail_area = {
+				type = all
+				add_claim = ROOT
+			}
+			hautes_plaines_area = {
+				type = all
+				add_claim = ROOT
+			}
+			algiers_area = {
+				type = all
+				add_claim = ROOT
+			}
+			4564 = {
+				add_claim = ROOT
+			}
+			342 = {
+				add_claim = ROOT
+			}
+			2467 = {
+				add_claim = ROOT
+			}
+		}
+	}
+}
+hlr_rome_return_western_route_2 = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_rome_norf_africa = {
+		icon = mission_reconquer_ceuta
+		required_missions = { hlr_rome_caesariensis hlr_karl_norf_africa }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				province_id = 342
+				province_id = 4564
+				province_id = 2467
+				province_id = 349
+				area = algiers_area
+				area = hautes_plaines_area
+				area = ouled_nail_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			algiers_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			hautes_plaines_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			ouled_nail_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			342 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			349 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			2467 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			4564 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			maghreb_region = {
+				type = all
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_africa_proper = {
+		icon = mission_traverse_the_sahara
+		required_missions = { hlr_rome_norf_africa hlr_rome_creta }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2449
+				province_id = 4567
+				area = tripolitania_area
+				area = north_saharan_area
+				area = djerba_area
+				area = tunisia_area
+				area = tafilalt_area
+				area = sus_area
+				area = southern_morocco_area
+				area = western_morocco_area
+				area = marrekesh_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			2449 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			4567 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			tripolitania_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			north_saharan_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			djerba_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			tunisia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			tafilalt_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			sus_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			southern_morocco_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			western_morocco_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			marrekesh_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = emperor_of_africa
+				duration = -1
+			}
+		}
+	}
+}
+hlr_karl_mending_the_schism_2 = {
+	slot = 5
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_karl_schisms = {
+		icon = answer_the_roman_question
+		position = 1
+		required_missions = {  }
+		
+		trigger = {
+			is_papal_controller = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = talking_past_the_schism
+				duration = -1
+			}
+		}
+	}
+	hlr_karl_two_empires = {
+		icon = mission_the_third_rome
+		position = 2
+		required_missions = { hlr_karl_schisms }
+		provinces_to_highlight = {
+			owned_by = RUS
+		}
+		trigger = {
+			RUS = {
+				has_opinion = {
+					who = ROOT
+					value = 120
+				}
+			}
+		}
+		effect = {
+			118 = {
+				add_building = cathedral
+			}
+			151 = {
+				add_building = cathedral
+			}
+			295 = {
+				add_building = cathedral
+			}
+			Z0E = {
+				capital_scope = {
+					add_building = cathedral
+				}
+			}
+		}
+	}
+	hlr_karl_churches = {
+		icon = mission_russian_patriarchatee
+		position = 3
+		required_missions = { hlr_karl_two_empires }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = Z0E
+				owned_by = RUS
+			}
+		}
+		trigger = {
+			if = {
+				limit = { exists = Z0E }
+				Z0E = {
+					has_opinion = {
+						who = ROOT
+						value = 160
+					}
+				}
+			}
+			else = {
+				RUS = {
+					has_opinion = {
+						who = ROOT
+						value = 160
+					}
+				}
+			}
+		}
+		effect = {
+			add_papal_influence = 50
+		}
+	}
+	hlr_karl_crusade = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { hlr_karl_churches }
+		provinces_to_highlight = {
+			province_id = 151
+		}
+		trigger = {
+			151 = {
+				OR = {
+					owned_by = RUS
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			151 = {
+				add_base_tax = 10
+				add_base_production = 5
+				add_base_manpower = 5
+			}
+		}
+	}
+	hlr_karl_constantinople = {
+		icon = end_the_schism
+		position = 5
+		required_missions = { hlr_karl_crusade }
+		provinces_to_highlight = {
+			province_id = 151
+		}
+		trigger = {
+			OR = {
+				OR = {
+					151 = { religion = catholic }
+					151 = { religion = orthodox }
+				}
+			}
+		}
+		effect = {
+			add_papal_influence = 100
+			add_country_modifier = {
+				name = teu_crusade_end_of_the_schism
+				duration = -1
+			}
+			every_country = {
+				limit = {
+					religion = orthodox
+					}
+				change_religion = catholic
+			}
+			every_province = {
+				limit = {
+					religion = orthodox
+					}
+				change_religion = catholic
+			}
+		}
+	}
+}
+hlr_rome_return_eastern_route_1 = {
+	slot = 5
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_rome_danube = {
+		icon = mission_eastern_european_city
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = croatia_area
+				area = bosnia_area
+				area = slavonia_area
+				province_id = 135
+				province_id = 1864
+				province_id = 4240
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			croatia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			bosnia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			slavonia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			135 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			1864 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			4240 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			balkan_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_grecia = {
+		icon = cross_the_pindus
+		required_missions = { hlr_rome_danube }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				region = balkan_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			serbia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			rascia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			bulgaria_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			macedonia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			silistria_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			thrace_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			albania_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			146 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			4701 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			1773 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			145 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			3003 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			anatolia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_asia_minor = {
+		icon = mission_persian_soldiers
+		required_missions = { hlr_rome_grecia }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				region = anatolia_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			rum_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			erzurum_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			hudavendigar_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			germiyan_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			aydin_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			ankara_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			karaman_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			north_kurdistan_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			north_kurdistan_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			dulkadir_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			327 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			2302 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			aegean_archipelago_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			aleppo_area = {
+				add_claim = ROOT
+			}
+			syria_area = {
+				add_claim = ROOT
+			}
+			al_jazira_area = {
+				add_claim = ROOT
+			}
+			syrian_desert_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_syria = {
+		icon = mission_arabian_fort
+		required_missions = { hlr_rome_asia_minor }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = syria_area
+				area = al_jazira_area
+				area = syrian_desert_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			aleppo_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			syria_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			al_jazira_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			syrian_desert_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			iraq_arabi_area = {
+				add_claim = ROOT
+			}
+			shahrizor_area = {
+				add_claim = ROOT
+			}
+			2311 = {
+				add_claim = ROOT
+			}
+			2312 = {
+				add_claim = ROOT
+			}
+			2209 = {
+				add_claim = ROOT
+			}
+			2210 = {
+				add_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_between_rivers = {
+		icon = mission_unite_home_region
+		required_missions = { hlr_rome_syria }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = iraq_arabi_area
+				area = shahrizor_area
+				province_id = 2311
+				province_id = 2312
+				province_id = 2209
+				province_id = 2210
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			iraq_arabi_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			shahrizor_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			2311 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			2312 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			2209 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			2210 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = cradle_of_civ_and_hum
+				duration = -1
+			}
+		}
+	}
+	hlr_rome_senate = {
+		icon = a_place_among_the_great_powers
+		required_missions = { hlr_rome_judea }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				province_id = 118
+				province_id = 2982
+				province_id = 2986
+				province_id = 341
+				province_id = 114
+				province_id = 101
+				province_id = 239
+				province_id = 236
+				province_id = 4376
+				province_id = 85
+				province_id = 1744
+				province_id = 134
+				province_id = 1761
+				province_id = 4173
+				province_id = 146
+				province_id = 159
+				province_id = 151
+				province_id = 321
+				province_id = 379
+				province_id = 1231
+				province_id = 361
+				province_id = 410
+				province_id = 4563
+				province_id = 354
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			AND = {
+				118 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				2982 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				2986 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				341 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				114 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				101 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				239 = {
+				is_core = ROOT
+				owned_by = ROOT
+				}
+				236 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				4376 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				85 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				1744 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				134 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				1761 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				4173 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				146 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+					159 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				151 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				321 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				379 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				1231 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				361 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				410 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				4563 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				354 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = ROM
+			set_capital = 118
+			add_country_modifier = {
+				name = restoration_rome
+				duration = -1
+			}
+		}
+	}
+}
+hlr_rome_return_eastern_route_2 = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = HLR
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	hlr_rome_creta = {
+		icon = mission_control_the_barbary_coast
+		required_missions = { hlr_rome_grecia }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				province_id = 163
+				province_id = 321
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			163 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			321 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			egypt_region = {
+				type = all
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_aegyptos = {
+		icon = mission_traverse_the_sahara
+		required_missions = { hlr_rome_creta }
+		position = 9
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			egypt_region = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			palestine_area = {
+				type = all
+				add_claim = ROOT
+			}
+			trans_jordan_area = {
+				type = all
+				add_claim = ROOT
+			}
+			4268 = {
+				type = all
+				add_claim = ROOT
+			}
+		}
+	}
+	hlr_rome_judea = {
+		icon = the_land_of_moses
+		required_missions = { hlr_rome_aegyptos hlr_rome_syria }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+				area = trans_jordan_area
+				province_id = 4268
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			trans_jordan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4268 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					religion = catholic
+				}
+				358 = {
+					add_province_modifier = {
+						name = "kni_alexandrian_archbishopric"
+						duration = -1
+					}
+				}
+			}
+			palestine_area = {
+				type = all
+				add_province_modifier = {
+					name = "no_king_of_jews"
+					duration = -1
+				}
 			}
 		}
 	}
