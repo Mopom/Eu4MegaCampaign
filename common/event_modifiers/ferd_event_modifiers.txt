@@ -10,5 +10,7 @@ focused_on_war = {
 	production_efficiency = -0.2
 	mil_tech_cost_modifier = -0.2
 	global_spy_defence = -0.1
-	add_mil_power = 400
+	mil_tech_cost_modifier = -0.2
+	general_cost = -0.1
+	
 }
