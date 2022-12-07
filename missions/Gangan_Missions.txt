@@ -87,8 +87,11 @@ dlh_jnp_reconquest = {
 		trigger = {
 			war_with = BNG
 		}
-		modifiers = {
-			liberty_desire_from_subject_development = -0.15
+		effect = {
+			add_country_modifier = {
+				name = "Focused on war"
+				duration = 10
+				}
 			}
 		}
 
@@ -144,7 +147,9 @@ gujarat_forced_migration = {
 		}
 		effect = {
 			add_adm_power = -200
-			adD_manpower = -2
+			add_manpower = -2
+			yearly_corruption = - 0.01
+
 			khandesh_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
