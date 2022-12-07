@@ -147,19 +147,19 @@ islam_swords_of_muhammad = {
 			add_treasury = -7200
 			add_country_modifier = {
 				name = al-adb_sword
-				duration = -1
+				duration = 36500
 			}
 			add_country_modifier = {
 				name = hatf_sword
-				duration = -1
+				duration = 36500
 			}
 			add_country_modifier = {
 				name = qali_sword
-				duration = -1
+				duration = 36500
 			}
 			add_country_modifier = {
 				name = al-qadib_sword
-				duration = -1
+				duration = 36500
 			}
 		}
 	}
@@ -941,9 +941,11 @@ al_Abbas_notables_tree = {
 			}
 		}
 		effect = {
-			add_province_modifier = {
-				name = antioch_citadel
-				duration = -1
+			2313 = {
+				add_province_modifier = {
+					name = antioch_citadel
+					duration = -1
+				}
 			}
 		}
 	}
@@ -960,9 +962,11 @@ al_Abbas_notables_tree = {
 			}
 		}
 		effect = {
-			add_province_modifier = {
-				name = alexandria_harbour
-				duration = -1
+			358 = {
+				add_province_modifier = {
+					name = alexandria_harbour
+					duration = -1
+				}
 			}
 		}
 	}
@@ -993,9 +997,11 @@ al_Abbas_notables_tree = {
 			}
 		}
 		effect = {
-			add_province_modifier = {
-				name = malta_fortification
-				duration = -1
+			126 = {
+				add_province_modifier = {
+					name = malta_fortification
+					duration = -1
+				}
 			}
 		}
 	}

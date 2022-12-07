@@ -405,16 +405,90 @@ lot_bri_celtic_tree = {
 				add_base_tax = 5
 				add_base_production = 5
 				add_base_manpower = 5
+			}
 			BRI = {
 				set_capital = 4365
 				override_country_name = DIUCACHTAI
 				change_primary_culture = dynamic-irish-culture-num1
 				add_accepted_culture = welsh
 			}
+			kingdom_of_the_isles_area = {
+				add_permanent_claim = BRI
+			}
+			lowlands_area = {
+				add_permanent_claim = BRI
+			}
+			highlands_area = {
+				add_permanent_claim = BRI
+			}
+		}
+	}
+	lot_diu_cel_scotland = {
+		icon = mission_rb_conquer_scotland
+		required_missions = { lot_ddu_cel_ireland }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = kingdom_of_the_isles_area
+				area = lowlands_area
+				area = highlands_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			kingdom_of_the_isles_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			lowlands_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+			highlands_area = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+		}
+		effect = {
+			BRI = {
+				add_country_modifier = {
+					name = another_duchy_cel
+					duration = 10950
+				}
+			}
+			british_isles_region = {
+				add_permanent_claim = BRI
+			}
+		}
+	}
+	lot_diu_rex_britannica = {
+		icon = mission_rb_rule_britannia_irish_version
+		required_missions = { lot_diu_cel_scotland }
+		position = 10
+		provinces_to_highlight = {
+			region =  british_isles_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			british_isles_region = {
+				type = all
+				owned_by = BRI
+				is_core = BRI
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			BRI = {
+				set_government_rank = 2
+				override_country_name = CEILTEACH
+			}
 		}
 	}
 }
-emp_france_missions_1_b = {
+emp_france_american_colonial_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -576,7 +650,7 @@ emp_france_missions_1_b = {
 		}
 	}
 }
-emp_france_missions_2 = {
+emp_france_north_missions = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -790,7 +864,191 @@ emp_france_missions_2 = {
 		}
 	}
 }
-emp_france_missions_2_b = {
+lot_fra_ita_expansion_1 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no 
+	}
+	has_country_shield = yes
+	
+	emp_fra_annex_savoy = {
+		icon = mission_unite_home_region
+		required_missions = { alice_fra_annex_genoa }
+		provinces_to_highlight = {
+			OR = {
+				area = savoy_dauphine_area
+				area = provence_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			savoy_dauphine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			provence_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "italian_ambition_modifier"
+				duration = 7300
+			}
+			piedmont_area = {
+				add_claim = ROOT
+			}
+			liguria_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	lot_fra_ita_piedmont = {
+		icon = unify_piedmont
+		required_missions = { emp_fra_annex_savoy }
+		provinces_to_highlight = {
+			OR = {
+				area = piedmont_area
+				area = liguria_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			piedmont_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			liguria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			lombardy_area = {
+				add_permanent_claim = ROOT
+			}
+			po_valley_area = {
+				add_permanent_claim = ROOT
+			}
+			venetia_area = {
+				add_permanent_claim = ROOT
+			}
+			110 = {
+				add_permanent_claim = ROOT
+			}
+			105 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_fra_ita_nord_italy = {
+		icon = prosper_in_piedmont
+		required_missions = { lot_fra_ita_piedmont }
+		provinces_to_highlight = {
+			OR = {
+				area = lombardy_area
+				area = po_valley_area
+				province_id = 105
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			lombardy_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			po_valley_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+				owns_core_province = 105
+		}
+		effect = {
+			set_government_rank = 3
+			override_country_name = FRAITA
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = BLG
+				months = 300
+			}
+		}
+	}
+	lot_ita_subjugate_blg = {
+		icon = the_gallic_wars
+		required_missions = { lot_fra_ita_nord_italy }
+		provinces_to_highlight = {
+			OR = {
+				area = tuscany_area
+				area = emilia_romagna_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			BLG = {
+				vassal_of = ROOT
+				owns_core_province = 113
+				owns_core_province = 114
+				owns_core_province = 4730
+				owns_core_province = 106
+			}
+			tuscany_area = {
+				type = all
+				owned_by = BLG
+				is_core = BLG
+			}
+		}
+		effect = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = URB
+				months = 300
+			}
+		}
+	}
+	lot_ita_subjugate_urb = {
+		icon = mission_rule_italy
+		required_missions = { lot_ita_subjugate_blg }
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+				area = central_italy_area
+			}
+		}
+		trigger = {
+			URB = {
+				vassal_of = ROOT
+			}
+			lazio_area = {
+				type = all
+				owned_by = URB
+				is_core = URB
+			}
+			central_italy_area = {
+				type = all
+				owned_by = URB
+				is_core = URB
+			}
+		}
+	}
+}
+emp_france_american_colonial_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -883,7 +1141,7 @@ emp_france_missions_2_b = {
 		}
 	}
 }
-emp_france_missions_2_c = {
+emp_france_indian_colonial_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -907,7 +1165,7 @@ emp_france_missions_2_c = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-		position = 10
+		position = 15
 		trigger = {
 			current_age = age_of_revolutions
 			india_superregion = {
@@ -1106,35 +1364,6 @@ emp_france_missions_3 = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
-			}
-		}
-	}
-	emp_fra_annex_savoy = {
-		icon = mission_unite_home_region
-		required_missions = { alice_fra_annex_genoa }
-		provinces_to_highlight = {
-			OR = {
-				area = savoy_dauphine_area
-				area = piedmont_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			savoy_dauphine_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			piedmont_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "italian_ambition_modifier"
-				duration = 7300
 			}
 		}
 	}
