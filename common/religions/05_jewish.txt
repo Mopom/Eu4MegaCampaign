@@ -1,7 +1,7 @@
 christian = {
 	samaritan_faith = {
 		color = { 88 26 37 }
-		icon =  174
+		icon =  173
 
 		allowed_conversion = { 
 		sunni

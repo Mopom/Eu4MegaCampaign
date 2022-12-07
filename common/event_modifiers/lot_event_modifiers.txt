@@ -160,7 +160,7 @@ antioch_citadel = {
 alexandria_harbour = {
 	blockade_force_required = 0.9
 	local_sailors_modifier = 0.1
-	province_trade_power_modifier = 0.15
+	province_trade_power_modifier = 0.09
 }
 malta_fortification = {
 	max_attrition = 5
@@ -168,7 +168,7 @@ malta_fortification = {
 	local_garrison_size = 0.5
 	fort_level = 2
 	local_defender_dice_roll_bonus = 3
-	local_own_coast_naval_combat_bonus = 2
+	local_own_coast_naval_combat_bonus = 1
 }
 emperor_east_africa = {
 	global_own_trade_power = 0.2
@@ -199,4 +199,7 @@ port_departure = {
 }
 french_callais_1 = {
 	province_trade_power_modifier = 0.25
+}
+another_duchy_cel = {
+	prestige = 0.75
 }
