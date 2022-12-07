@@ -4,6 +4,7 @@ government_rank = 3
 technology_group = muslim
 religion = sunni
 historical_friend = MAL
+historical_friend = AJU
 add_historical_rival = RUM
 add_historical_rival = PER
 add_historical_rival = Z01
