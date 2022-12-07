@@ -88,10 +88,7 @@ dlh_jnp_reconquest = {
 			war_with = BNG
 		}
 		effect = {
-			add_country_modifier = {
-				NPL = {	add_liberty_desire = -20 }
-				MAD = {	add_liberty_desire = -20 }
-				GUJ = {	add_liberty_desire = -20 }
+			liberty_desire_from_subject_development = -0.15
 			}
 		}
 	}
