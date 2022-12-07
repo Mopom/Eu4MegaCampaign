@@ -11,6 +11,6 @@ focused_on_war = {
 	mil_tech_cost_modifier = -0.2
 	global_spy_defence = -0.1
 	mil_tech_cost_modifier = -0.2
+	siege_ability = 0.10
 	general_cost = -0.1
-	
 }
