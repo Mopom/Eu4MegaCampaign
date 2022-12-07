@@ -49,15 +49,17 @@ gng_crisis = {
 		stability = 1
 		is_bankrupt = no
 		NOT = { num_of_loans = 5 }
-		NOT = { corruption = 0 }
+		NOT = { corruption = 1 }
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }
+		mission_completed = gujarat_forced_migration
 	}
 	
 	modifier = {
 		all_power_cost = 0.2
 		global_unrest = 5
 		stability_cost_modifier = 1.5
+		manpower_modifier = 0.2
 	}
 
 	on_start = gng_crisis.1
