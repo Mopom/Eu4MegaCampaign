@@ -148,8 +148,7 @@ gujarat_forced_migration = {
 		effect = {
 			add_adm_power = -200
 			add_manpower = -2
-			yearly_corruption = - 0.01
-
+			yearly_corruption = -0.1
 			khandesh_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
