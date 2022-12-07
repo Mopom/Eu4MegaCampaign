@@ -80,7 +80,7 @@ dlh_east_missions = {
 	}
 	has_country_shield = yes
 	
-	dlh_jnp_reconquest = {
+dlh_jnp_reconquest = {
 		icon = mission_reclaim_lost_territory
 		required_missions = { }
 		completed_by = 1486.1.1
@@ -89,9 +89,9 @@ dlh_east_missions = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = disfranchised_population
-				duration = 240
-				manpower_recovery_speed = -0.2
+				NPL = {	add_liberty_desire = -20 }
+				MAD = {	add_liberty_desire = -20 }
+				GUJ = {	add_liberty_desire = -20 }
 			}
 		}
 	}
@@ -202,7 +202,7 @@ gujarat_forced_migration = {
 		provinces_to_highlight = { }
 		trigger = {
 			war_with = BNG
-			dip = 200
+			dip_power = 200
 			stability = 3
 			manpower = 2
 		}
@@ -210,7 +210,7 @@ gujarat_forced_migration = {
 			inherit = GUJ 
 			stability = -1
 			add_manpower = -2
-			add_dip = -200
+			add_dip_power = -200
 		}
 	}
 
