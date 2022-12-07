@@ -1760,7 +1760,7 @@ dharmic = {
 
 	gangan = {
 		color = { 0 153 153 }
-		icon = 15
+		icon = 174
 		allowed_conversion = {
 			hinduism
 			sunni
