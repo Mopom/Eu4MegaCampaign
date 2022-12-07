@@ -87,8 +87,11 @@ dlh_jnp_reconquest = {
 		trigger = {
 			war_with = BNG
 		}
-		modifiers = {
-			liberty_desire_from_subject_development = -0.15
+		effect = {
+			add_country_modifier = {
+				liberty_desire_from_subject_development = -0.25
+				duration = 10
+
 			}
 		}
 
