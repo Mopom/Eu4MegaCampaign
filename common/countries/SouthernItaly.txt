@@ -1,0 +1,188 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 67 80 128 }
+revolutionary_colors = { 15 6 16 }
+historical_idea_groups = {
+	trade_ideas
+	quantity_ideas
+	economic_ideas
+	maritime_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_score = 120
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Siconulf #1" = 1
+	"Sico #1" = 3
+	"Petrus #1" = 3
+	"Ademar #1" = 2
+	"Daufer #1" = 2
+	"Guaifer #1" = 1
+	"Guaimar #5" = 1
+	"Gisulf #2" = 1
+	"Landolf #1" = 2
+	"Pandolf #3" = 2
+	"Manso #1" = 1
+	"Ioannes #3" = 2
+	"Wymund #1" = 1
+	"Gervas #1" = 4
+	"Rafiqa #1" = -2
+	"Vittoria #1" = -4
+	"Fausta #1" = -1
+	"Guidi #3" = 5
+	"Agrippina #0" = -2
+	"Guiseppa #0" = -4
+	"Lurenzu #0" = 3
+}
+leader_names = {
+	"Siconidi"
+	"Dauferidi"
+	"Landolfidi"
+	"Musconidi"
+	"Lantpertidi"
+	"de Jumièges"
+	"Marki"
+	"Roderissidi"
+	"Sawdanid"
+	"de Hauteville"
+	"Hauteville-Camarda"
+	"Hauteville-Lanciano"
+	"Daufingi"
+	"Petridi"
+	"Gausi"
+	"Hermenricidi"
+	"Radelchisidi"
+	"Makedon"
+	"Lekapenos"
+	"Phokas"
+	"Argyros"
+	"Kalaphates"
+	"Helmehytte"
+	"de Conversano"
+	"Tarawaile-Cosenza"
+}
+ship_names = {
+	"Achille"
+	"Amalia"
+	"Archimede"
+	"Aretusa"
+	"Aurora"
+	"Brava"
+	"Capitana"
+	"Capri"
+	"Caracciolo"
+	"Carolana"
+	"Cerere"
+	"Cingana"
+	"Constanza"
+	"Cristina"
+	"Determinada"
+	"Etna"
+	"Fama"
+	"Fiamma"
+	"Flora"
+	"Fortuna"
+	"Galantuomo"
+	"Galatea"
+	"Gioacchino"
+	"Gioia"
+	"Gru"
+	"Guiscardo"
+	"Gusmana"
+	"Idra"
+	"Intrepido"
+	"Invidia"
+	"Lampreda"
+	"Leonessa"
+	"Letiza"
+	"Lucien Charles"
+	"Luna"
+	"Lupa"
+	"Marchesa"
+	"Margherita"
+	"Mendoza"
+	"Minerva"
+	"Monarca"
+	"Ocasion"
+	"Padrona"
+	"Padrone di Davide Imperiale"
+	"Pallade"
+	"Partenope"
+	"Piemontese"
+	"Piramide con Cane"
+	"Pugliese"
+	"Pylades"
+	"Regina"
+	"Regina Isabella"
+	"Roma"
+	"Ruggiero"
+	"Sagittaria"
+	"Samnita"
+	"San Antonio"
+	"San Carlo"
+	"San Ferdinando"
+	"San Filippo"
+	"San Gabriele"
+	"San Genaro"
+	"San Gioacchino"
+	"San Giorgio"
+	"San Giovanni"
+	"San Giuseppe"
+	"San Guilian"
+	"San Jacopo"
+	"San Leopoldo"
+	"San Luigi"
+	"San Luigi Gonzaga"
+	"San Michele"
+	"San Nicola"
+	"San Pasquale"
+	"Sant'Andrea"
+	"Sant'Angelo"
+	"Santa Amalia"
+	"Santa Barbara"
+	"Santa Caterina"
+	"Santa Chiara"
+	"Santa Dorotea"
+	"Santa Elisabetta"
+	"Santa Lucia"
+	"Santa Teresa"
+	"Santissima Concezione"
+	"Sibilla"
+	"Sicilia"
+	"Simplon"
+	"Sirena"
+	"Sparviero"
+	"Speranza"
+	"Stabia"
+	"Stromboli"
+	"Tancredi"
+	"Taranto"
+	"Terana"
+	"Turca"
+	"Urania"
+	"Venere"
+	"Vesuvio"
+	"Vittoria"
+	"Volpe"
+	"Vulcano"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}
