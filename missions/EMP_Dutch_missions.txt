@@ -1643,7 +1643,10 @@ lot_tnf_legacy_of_charlemagne_1 = {
 			add_country_modifier = {
 				name = ae_stuff
 				duration = 5475
-			
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
 			}
 		}
 	}
@@ -1940,7 +1943,6 @@ lot_tnf_legacy_of_charlemagne_2 = {
 	lot_tnf_churches_of_charlemagne = {
 		icon = italian_riches
 		required_missions = { lot_tnf_reichskrone }
-		position = 9
 		trigger = {
 			temple = 14
 		}
@@ -1948,6 +1950,16 @@ lot_tnf_legacy_of_charlemagne_2 = {
 			add_country_modifier = {
 				name = charlemagnes_churches
 				duration = 7300
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = MANY_CHURCHES_OF_FED
+				influence = 5
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
 			}
 		}
 	}
@@ -1996,6 +2008,10 @@ lot_tnf_legacy_of_charlemagne_2 = {
 				add_base_tax = 1
 				add_base_production = 2
 				add_base_manpower = 2
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
 			}
 		}
 	}
