@@ -1929,6 +1929,7 @@ lot_fra_iberian_4 = {
 					owned_by = CAT
 					is_core = CAT
 				}
+			}
 			else = {
 				baleares_area = {
 					type = all
