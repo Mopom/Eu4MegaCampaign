@@ -1609,7 +1609,10 @@ lot_ubl_legacy_of_charlemagne_1 = {
 			add_country_modifier = {
 				name = ae_stuff
 				duration = 5475
-			
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
 			}
 		}
 	}
@@ -1915,6 +1918,16 @@ lot_ubl_legacy_of_charlemagne_2 = {
 				name = charlemagnes_churches
 				duration = 7300
 			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = MANY_CHURCHES_OF_BOHLOM
+				influence = 5
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
+			}
 		}
 	}
 	lot_ubl_capitals_of_charlemagne = {
@@ -1962,6 +1975,10 @@ lot_ubl_legacy_of_charlemagne_2 = {
 				add_base_tax = 1
 				add_base_production = 2
 				add_base_manpower = 2
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
 			}
 		}
 	}
