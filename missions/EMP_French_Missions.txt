@@ -2619,6 +2619,7 @@ lot_fra_legacy_of_charlemagne_2 = {
 	lot_fra_churches_of_charlemagne = {
 		icon = italian_riches
 		required_missions = { lot_fra_throne_of_charlemagne }
+		position = 9
 		trigger = {
 			temple = 14
 		}
