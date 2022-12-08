@@ -608,22 +608,25 @@ al_Abbas_conquest_1 = {
 		trigger = {
 			northern_swahili_coast_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			mombasa_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			central_swahili_coast_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			owns_core_province = 4049
-			owns_core_province = 1195
-			owns_core_province = 788
+			4049 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1195 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			788 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			sakalava_area = {
@@ -656,23 +659,19 @@ al_Abbas_conquest_1 = {
 		trigger = {
 			sakalava_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			betsimasaraka_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			madagascar_highlands_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			southern_madagascar = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -1493,7 +1492,7 @@ al_Abbas_centres_of_learning = {
 		effect = {
 			add_country_modifier = {
 				name = unis_of_islam
-				duration = -1
+				duration = 18250
 			}
 		}
 	}
@@ -2178,9 +2177,9 @@ al_Abbas_the_star_and_crescent_2 = {
 					name = capital_of_byz_et_rom
 					duration = -1
 				}
-				add_base_tax = 5
-				add_base_production = 5
-				add_base_manpower = 5
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
 			}
 		}
 	}

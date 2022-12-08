@@ -302,18 +302,26 @@ lot_bri_celtic_tree = {
 		effect = {
 			wales_area = {
 				add_core = BRI
+				remove_core = FRA
 			}
 			4130 = {
 				add_core = BRI
+				remove_core = FRA
 			}
 			4374 = {
 				add_core = BRI
+				remove_core = FRA
 			}
 			4373 = {
 				add_core = BRI
+				remove_core = FRA
 			}
 			233 = {
 				add_core = BRI
+				remove_core = FRA
+			}
+			brittany_area = {
+				remove_core = FRA
 			}
 			create_vassal = BRI
 			BRI = {
@@ -864,7 +872,7 @@ emp_france_north_missions = {
 		}
 	}
 }
-lot_fra_ita_expansion_1 = {
+lot_fra_ita_expansion_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -881,7 +889,7 @@ lot_fra_ita_expansion_1 = {
 	
 	emp_fra_annex_savoy = {
 		icon = mission_unite_home_region
-		required_missions = { alice_fra_annex_genoa }
+		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
 				area = savoy_dauphine_area
@@ -1046,6 +1054,116 @@ lot_fra_ita_expansion_1 = {
 				is_core = URB
 			}
 		}
+		effect = {
+			122 = {
+				add_core = SEO
+				add_permanent_claim = ROOT
+			}
+			124 = {
+				add_core = SIC
+				add_permanent_claim = ROOT
+			}
+			2982 = {
+				add_core = SIC
+				add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+				add_core = SIC
+				add_permanent_claim = ROOT
+			}
+			123 = {
+				add_core = SIC
+				add_permanent_claim = ROOT
+			}
+			121 = {
+				add_core = NAP
+				add_permanent_claim = ROOT
+			}
+			1934 = {
+				add_core = NAI
+				add_permanent_claim = ROOT
+			}
+			2984 = {
+				add_core = NAI
+				add_permanent_claim = ROOT
+			}
+			2983 = {
+				add_core = NAI
+				add_permanent_claim = ROOT
+			}
+			4733 = {
+				add_core = NAI
+				add_permanent_claim = ROOT
+			}
+			4734 = {
+				add_core = NAI
+				add_core = CAP
+				add_permanent_claim = ROOT
+			}
+			2985 = {
+				add_core = CAP
+				add_permanent_claim = ROOT
+			}
+			1933 = {
+				add_core = BAI
+				add_permanent_claim = ROOT
+			}
+			
+		}
+	}
+	lot_ita_south_italia = {
+		icon = king_of_naples
+		required_missions = { lot_ita_subjugate_urb }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = naples_area
+				area = apulia_area
+				area = calabria_area
+				area = western_sicily_area
+				province_id = 124
+				province_id = 2982
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			western_sicily_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			naples_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			calabria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			apulia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 124
+			owns_core_province = 2982
+		}
+		effect = {
+			create_vassal = SEO
+			create_vassal = BAI
+			create_vassal = CAP
+			create_vassal = SIC
+			create_vassal = NAI
+			create_vassal = NAP
+			104 = {
+				add_province_modifier = {
+					name = milan_second_capital
+					duration = 36500
+				}
+			}
+		}
 	}
 }
 emp_france_american_colonial_2 = {
@@ -1154,6 +1272,7 @@ emp_france_indian_colonial_2 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
+	
 	emp_fra_indian_dominance = {
 		icon = indian_dominance
 		required_missions = { emp_fra_india_expansion }
@@ -1200,7 +1319,7 @@ emp_france_indian_colonial_2 = {
 	}
 }
 
-emp_france_missions_3 = {
+emp_france_local_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -1336,13 +1455,29 @@ emp_france_missions_3 = {
 			}
 		}
 	}
-	alice_fra_annex_genoa = {
+}
+lot_pax_francia_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_fra_defend_genoa = {
 		icon = mission_galleys_in_port
 		required_missions = { emp_fra_conquer_burgundy_area }
 		provinces_to_highlight = {
 			province_id = 101
 		}
 		trigger = {
+			treasury = 250
 			AND = {
 				is_year = 1580
 				101 = {
@@ -1351,25 +1486,36 @@ emp_france_missions_3 = {
 			}
 		}
 		effect = {
-			liguria_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+			add_treasury = -250
+			101 = {
+				change_culture = ADU
+				add_province_modifier = {
+					name = genes_port_du_monde
+					duration = -1
 				}
-				add_permanent_claim = ROOT
-			}
-			lombardy_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
 			}
 		}
 	}
+}
+lot_fra_ita_expansion_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no 
+	}
+	has_country_shield = yes
+	
 	emp_fra_switzerland = {
 		icon = helvetic_conquest
-		required_missions = { emp_fra_annex_alsace }
+		required_missions = { emp_fra_annex_savoy }
+		position = 6
 		provinces_to_highlight = {
 			OR = {
 				area = switzerland_area
@@ -1407,10 +1553,54 @@ emp_france_missions_3 = {
 			}
 		}
 	}
+	lot_ita_venice = {
+		icon = mission_control_venice
+		required_missions = { lot_fra_ita_nord_italy }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = venetia_area
+				province_id = 110
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			venetia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 110
+		}
+		effect = {
+			112 = {
+				add_province_modifier = {
+					name = control_over_adriatic
+					duration = -1
+				}
+			}
+			set_capital = 203
+		}
+	}
+}
+emp_france_indian_colonial_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
 	emp_fra_france_discovers_the_carribean = {
 		icon = mission_sea_battles
 		required_missions = {  }
-		position = 8
+		position = 13
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = fra_bengal_discovery.tooltip
@@ -1449,7 +1639,7 @@ emp_france_missions_3 = {
 	emp_fra_india_expansion = {
 		icon = mission_trade_company_region_abroad
 		required_missions = { emp_fra_france_discovers_the_carribean }
-		position = 9
+		position = 14
 		provinces_to_highlight = {
 			has_discovered = ROOT
 			OR = {
