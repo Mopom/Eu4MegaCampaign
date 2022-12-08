@@ -196,11 +196,7 @@ age_of_discovery = {
 
 			allow = {
 				OR = {
-					tag = POR
-					AND = {
-						has_idea_group = exploration_ideas
-						num_of_total_ports = 15
-					}
+					tag = MAL
 				}
 			}
 			modifier = {
@@ -214,12 +210,11 @@ age_of_discovery = {
 
 			allow = {
 				OR = {
-					tag = DAN
-					personal_union = 2
+					tag = MGE
 				}
 			}
 			modifier = {
-				reduced_liberty_desire = 30
+				cavalry_power = 0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -413,7 +408,7 @@ age_of_reformation = {
 		ab_spain_tercio = {
 			allow = {
 				OR = {
-					tag = SPA
+					tag = ADU
 					AND = {
 						government_rank = 2
 						culture_group = iberian
@@ -431,7 +426,7 @@ age_of_reformation = {
 		ab_mughal_artillery = {
 			allow = {
 				OR = {
-					tag = MUG
+					tag = Z01
 					AND = {
 						government_rank = 3
 						OR = {
@@ -495,16 +490,11 @@ age_of_reformation = {
 
 		ab_persia_reinforce = {
 			allow = {
-				OR = {
-					tag = PER
-					AND = {
-						government_rank = 3
-						culture_group = iranian
-					}
-				}
+			    tag = Z02
 			}
 			modifier = {
-				reinforce_cost_modifier = -0.3
+				can_colony_boost_development = yes
+				native_assimilation = 0.5
 			}
 			ai_will_do = {
 				factor = 100
@@ -659,7 +649,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				fire_damage = 0.2
+				culture_conversion_cost = -0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -668,7 +658,7 @@ age_of_absolutism = {
 		ab_dutch_anti_corruption = {
 			allow = {
 				OR = {
-					tag = NED
+					tag = RUS
 					AND = {
 						government_rank = 2
 						OR = {
@@ -680,7 +670,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				yearly_corruption = -0.2
+				backrow_artillery_damage = 0.20
 			}
 			ai_will_do = {
 				factor = 100
@@ -890,14 +880,13 @@ age_of_revolutions = {
 		ab_pru_military = {
 			allow = {
 				OR = {
-					tag = PRU
-					tag = GER
+					tag = UBL
 					has_reform = prussian_monarchy
 					has_reform = prussian_republic_reform
 				}
 			}
 			modifier = {
-				fire_damage_received = -0.2
+				land_morale = 0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -920,8 +909,7 @@ age_of_revolutions = {
 		ab_russia_boost = {
 			allow = {
 				OR = {
-					tag = RUS
-					has_reform = tsardom
+					tag = Z00
 				}
 			}
 			modifier = {

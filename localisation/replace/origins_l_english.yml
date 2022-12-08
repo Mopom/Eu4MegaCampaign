@@ -861,7 +861,7 @@
  RHENIST_HAS_ADM_ASPECT:0 "Has any adm Aspect active."
  celebrate:0 "Celebrate Festival"
  aspect_1:0 "All Equals"
- desc_aspect_1:0 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G+1§! Stability.\n\desc."
+ desc_aspect_1:0 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G+1§! Stability.\n\ndesc."
  aspect_2:0 "Islamic Teachings"
  desc_aspect_2:1 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G+20§! Reform Progress, §G+5§! Legitimacy (or its equivalent for other governments) and §G+5§! Claim Strength of Heir.\n\ndesc."
  aspect_3:0 "The Poor Church"
