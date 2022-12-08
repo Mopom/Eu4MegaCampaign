@@ -1818,6 +1818,7 @@ lot_pax_francia_4 = {
 				}
 				create_marriage = ADU
 				add_historical_friend = ADU
+			}
 			else = {
 				add_truce_with = ADU
 				add_trust = {
@@ -1949,7 +1950,6 @@ lot_fra_iberian_4 = {
 		}
 	}
 }
-
 emp_france_missions_5 = {
 	slot = 5
 	generic = no
