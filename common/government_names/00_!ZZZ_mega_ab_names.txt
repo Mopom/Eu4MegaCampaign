@@ -61,7 +61,7 @@ northern_zahrai_kingdom = {
 		OR = {
 			culture_group = germanic
 			culture_group = british
-			culture_group = nordic
+			culture_group = scandinavian
 			culture_group = baltic
 		}
 		government = monarchy
