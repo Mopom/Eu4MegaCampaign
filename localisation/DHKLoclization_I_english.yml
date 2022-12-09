@@ -1,4 +1,5 @@
-flavor_dhk.EVTNAME10: "A True Pirate Paradise"
-flavor_dhk.EVTDESC10: "Since the establishment of the colonies in The Southern Lands more and more of our finest pirates have left the home lands in the search of more booty. There is talk of this new enterprise forming it's own nation; one every pirate, prince and king will evny. Will we join our brothers in this new venture?"
-flavor_dhk.EVTOPTA10: "No, let us stay in our home lands. And as these pirates leave we can forge a new nation, one free from the grips of these thugs"
-flavor_dhk.EVTOPTB10: "Yes. We head for The Southern Lands. A Paradise for all Pirates"
+l_english:
+flavor_dhk.EVTNAME10:0 "A True Pirate Paradise"
+flavor_dhk.EVTDESC10:0 "Since the establishment of the colonies in The Southern Lands more and more of our finest pirates have left the home lands in the search of more booty. There is talk of this new enterprise forming it's own nation; one every pirate, prince and king will evny. Will we join our brothers in this new venture?"
+flavor_dhk.EVTOPTA10:0 "No, let us stay in our home lands. And as these pirates leave we can forge a new nation, one free from the grips of these thugs"
+flavor_dhk.EVTOPTB10:0 "Yes. We head for The Southern Lands. A Paradise for all Pirates"
