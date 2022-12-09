@@ -55,4 +55,5 @@ religious_school = hanbali_school
 1444.11.11= {
 	add_prestige = 87
 	add_treasury = 1000
+	add_manpower = 10
 }

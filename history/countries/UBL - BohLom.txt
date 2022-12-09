@@ -53,4 +53,5 @@ capital = 266
 	add_prestige = 78
 	add_treasury = 68
 	set_estate_privilege = estate_nobles_strong_duchies
+	add_manpower = 13
 }

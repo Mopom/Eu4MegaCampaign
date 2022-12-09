@@ -53,5 +53,6 @@ capital = 4742
 }
 1444.11.11= {
 	add_prestige = 73
-	add_treasury = 87
+	add_treasury = 500
+	add_manpower = 14
 }

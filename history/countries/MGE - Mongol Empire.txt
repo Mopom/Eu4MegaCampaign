@@ -39,4 +39,5 @@ mercantilism = 15
 1444.11.11= {
 	add_prestige = 72
 	add_treasury = 27
+	add_manpower = 10
 }

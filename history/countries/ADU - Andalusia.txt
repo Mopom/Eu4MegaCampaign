@@ -49,4 +49,5 @@ religious_school = zahrai_school
 1444.11.11= {
 	add_prestige = 112
 	add_treasury = 62
+	add_manpower = 4
 }

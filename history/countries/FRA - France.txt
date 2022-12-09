@@ -19,8 +19,8 @@ capital = 174
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 	heir = {
-		name = "Dolça"
-		monarch_name = "Dolça II"
+		name = "Dolï¿½a"
+		monarch_name = "Dolï¿½a II"
 		dynasty = "de Poitou"
 		adm = 3
 		dip = 4
@@ -46,4 +46,5 @@ capital = 174
 1444.11.11= {
 	add_prestige = 81
 	add_treasury = 100
+	add_manpower = 9
 }
