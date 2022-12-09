@@ -3,7 +3,7 @@ normal_or_historical_nations = yes
 
 #pirateisland
 country_event = {
-	id = flavor_dhk
+	id = flavor_dhk.1
 	title = "flavor_dhk.t"
 	desc = "flavor_dhk.d"
 	picture = BUCCANEERS_eventPicture
