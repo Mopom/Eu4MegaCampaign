@@ -11,7 +11,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = { #Early Ships
 	# Tech 0
-	year = 1
+	year = 1350
 
 	naval_morale			=	2.0
 	range					=	60
@@ -24,7 +24,7 @@ technology = { #Early Ships
 
 technology = { #Merchants & Trade
 	# Tech 1
-	year = 700
+	year = 1390
 	expects_institution = {
 		feudalism = 0.25
 	}
@@ -36,7 +36,7 @@ technology = { #Merchants & Trade
 
 technology = { #The Barque
 	# Tech 2
-	year = 750
+	year = 1420
 	expects_institution = {
 		feudalism = 0.5
 	}
@@ -54,7 +54,7 @@ technology = { #The Barque
 
 technology = { #The Early Carrack
 	# Tech 3
-	year = 769
+	year = 1440
 	expects_institution = {
 		feudalism = 0.5
 	}
