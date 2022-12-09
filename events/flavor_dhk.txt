@@ -3,7 +3,7 @@ normal_or_historical_nations = yes
 
 #pirateisland
 country_event = {
-	id = flavor_DHK
+	id = flavor_dhk
 	title = "flavor_dhk.t"
 	desc = "flavor_dhk.d"
 	picture = BUCCANEERS_eventPicture
@@ -37,7 +37,7 @@ country_event = {
 		}
 	
 	option = {
-		name = "flavor_dhk.EVTOPTA10"
+		name = "flavor_dhk.a"
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -56,7 +56,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "flavor_dhk.EVTOPTB10"
+		name = "flavor_dhk.b"
 		trigger = {
 			ai = yes
 		}
