@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = ottoman_government
+add_government_reform = musa_rule
 government_rank = 3
 technology_group = sub_saharan
 religion = sunni
