@@ -86,7 +86,7 @@ cities_of_isl_learning = {
 	prestige_per_development_from_conversion = 0.5
 }
 baghdad_house_of_wisdom = {
-	local_institution_spread = 0.1
+	local_institution_spread = 0.011
 	allowed_num_of_buildings = 1
 }
 light_of_samarra = {

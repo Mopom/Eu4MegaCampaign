@@ -1,0 +1,35 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = western
+religion = samaritan_faith
+primary_culture = dynamic-saxon-culture-num1
+capital = 1841
+add_army_professionalism = 0.1
+1345.8.12 = {
+	monarch = {
+		name = "Immed von Arnsberg"
+		birth_date = 1298.2.25
+		adm = 2
+		dip = 0
+		mil = 5
+	}
+}
+1369.1.25= {
+	monarch = {
+		name = "Aliyah Matiyid"
+		birth_date = 1310.9.26
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1376.4.24= {
+	monarch = {
+		name = "Suleyman di Saluzzo"
+		birth_date = 1350.2.14
+		adm = 2
+		dip = 3
+		mil = 6
+	}
+}
