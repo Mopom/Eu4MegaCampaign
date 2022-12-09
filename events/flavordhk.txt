@@ -13,22 +13,12 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					region = australia_region
-					is_capital = no
+					any_province = {
+						region = australia_region
+						country_or_non_sovereign_subject_holds = ROOT
+					discover_country = DHK
+					add_core = DHK
 					}
-				discover_country = DHK
-				add_core = DHK
-				}
-				every_subject_province = {
-				limit = {
-					region = australia_region
-					is_capital = no
-					}
-				discover_country = DHK
-				add_core = DHK
-				}
 			release = DHK
 			DHK = {
 				change_government = republic
@@ -55,41 +45,19 @@ country_event = {
 				add_claim = DHK
 				remove_claim = AJU
 			}
-			collapse_nation = yes
 			AJU = {
 				change_government = republic
+				add_unrest = 20
 				}
 			}
 		}
 	
 	option = {
 		name = "flavor_dhk.a"
-		hidden_effect = {
-			every_country = {
-				limit = {
-					NOT = { tag = ROOT }
-					NOT = { tag = DHK }
-					any_owned_province = {
-						region = australia_region
-					}
-				}
-			}
-		}
 	}
 	
 	option = {
 		name = "flavor_dhk.b"
-		hidden_effect = {
-			every_country = {
-				limit = {
-					NOT = { tag = ROOT }
-					NOT = { tag = DHK }
-					any_owned_province = {
-						region = australia_region
-					}
-				}
-			}
-		}
 		switch_tag = DHK
 	}
 }
