@@ -724,6 +724,7 @@ budhcad_badeed_colonization_missions_slot = {
 				name = zan_australian_colony
 				duration = -1
 			}
+			country_event = { id = flavor_dhk.10}
 		}
 	}
 }
