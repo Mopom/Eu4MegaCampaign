@@ -1481,6 +1481,7 @@ lot_pax_francia_3 = {
 	lot_pax_defend_genoa = {
 		icon = mission_galleys_in_port
 		required_missions = { lot_pax_alcaniz_renew }
+		position = 4
 		provinces_to_highlight = {
 			province_id = 101
 		}
@@ -1505,6 +1506,47 @@ lot_pax_francia_3 = {
 			change_estate_land_share = {
 				estate = estate_burghers
 				share = 5
+			}
+		}
+	}
+	lot_pax_muhammadiin = {
+		icon = mission_pirate_havens
+		required_missions = { lot_pax_joyeuse }
+		position = 5
+		trigger = {
+			Z00 = {
+				has_opinion = {
+					who = ROOT
+					value = 130
+				}
+			}
+			ADU = {
+				has_opinion = {
+					who = ROOT
+					value = 130
+				}
+			}
+		}
+		effect = {
+			change_religion = sunni
+			174 = {
+				change_religion = sunni
+			}
+			173 = {
+				change_religion = sunni
+			}
+			175 = {
+				change_religion = sunni
+			}
+			4386 = {
+				change_religion = sunni
+			}
+			101 = {
+				change_religion = sunni
+				change_province_name = "Junwa"
+			}
+			203 = {
+				change_province_name = "Liunih"
 			}
 		}
 	}
@@ -1866,7 +1908,7 @@ lot_pax_francia_4 = {
 		}
 	}
 }
-lot_fra_iberian_4 = {
+lot_fra_islamics_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1947,6 +1989,99 @@ lot_fra_iberian_4 = {
 		effect = {
 			add_prestige = 30
 			add_splendor = 50
+		}
+	}
+	lot_fra_pirates = {
+		icon = mission_raid_on_venice
+		required_missions = {  }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = kabylia_area
+				area = barbary_coast_area
+				area = hautes_plaines_area
+				area = algiers_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			197 = {
+				devastation = 10
+			}
+			2753 = {
+				devastation = 10
+			}
+			200 = {
+				devastation = 10
+			}
+			navy_size = 40
+			num_of_galley = 10
+		}
+		effect = {
+			kabylia_area = {
+				add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+				add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+				add_permanent_claim = ROOT
+			}
+			algiers_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_fra_algeria = {
+		icon = mission_control_the_barbary_coast
+		required_missions = { lot_fra_pirates }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = kabylia_area
+				area = barbary_coast_area
+				area = hautes_plaines_area
+				area = algiers_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			338 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			calc_true_if = {
+				all_province = {
+					OR = {
+						area = kabylia_area
+						area = barbary_coast_area
+						area = hautes_plaines_area
+						area = algiers_area
+					}
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 8
+			}
+		}
+		effect = {
+			kabylia_area = {
+				add_core = ALG
+			}
+			barbary_coast_area = {
+				add_core = ALG
+			}
+			hautes_plaines_area = {
+				add_core = ALG
+			}
+			algiers_area = {
+				add_core = ALG
+			}
+			338 = {
+				change_province_name = "Algiers"
+				add_province_modifier = {
+					name = algeria_gem_of_africa
+					duration = 14600
+				}
+			}
 		}
 	}
 }

@@ -1,0 +1,83 @@
+# Netherlands Declare Independence!
+# ends the disaster by virtue of NED existing
+country_event = {
+	id = flavor_DHK.10
+	title = "flavor_dhk.EVTNAME10"
+	desc = "flavor_dhk.EVTDESC10"
+	picture = BUCCANEERS_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { exists = DHK }
+		is_free_or_tributary_trigger = yes
+		}
+	
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					region = australia_region
+					}
+					is_capital = no
+				}
+				discover_country = DHK
+				add_core = DHK
+			}
+			release = DHK
+			DHK = {
+				change_government = republic
+				add_government_reform = pirate_republic_reform
+				}
+			every_province = {
+				limit = {
+					region = australia_region
+				}
+				add_claim = DHK
+				remove_claim = AJU
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_dhk.EVTOPTA10"
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = ROOT }
+					NOT = { tag = DHK }
+					any_owned_province = {
+						region = australia_region
+					}
+				}
+			}
+		}
+		collapse_nation = yes
+		AJU = {
+				change_government = republic
+				}
+	}
+	
+	option = {
+		name = "flavor_dhk.EVTOPTB10"
+		trigger = {
+			ai = yes
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = ROOT }
+					NOT = { tag = DHK }
+					any_owned_province = {
+						region = australia_region
+					}
+				}
+			}
+		}
+		switch_tag = DHK
+	}
+
+	
