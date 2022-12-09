@@ -688,7 +688,7 @@ budhcad_badeed_colonization_missions_slot = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				colonial_region = colonial_australia
-				value = 10
+				value = 8
 			}
 		}
 		effect = {
