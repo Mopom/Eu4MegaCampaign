@@ -7,8 +7,8 @@ primary_culture = transylvanian
 capital = 4128
 1444.11.11= {
 	monarch = {
-		name = "P√©ter II"
-		dynasty = "√Årp√°d"
+		name = "PÈter II"
+		dynasty = "¡rp·d"
 		adm = 5
 		dip = 3
 		mil = 5
@@ -16,8 +16,6 @@ capital = 4128
 		religion = catholic
 		culture = transylvanian
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Sbyslava"
 		dynasty = "Dunkeld"
@@ -31,12 +29,10 @@ capital = 4128
 		religion = catholic
 		culture = dynamic-polish-russian_culture-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
 	heir = {
 		name = "Csaba"
 		monarch_name = "Csaba II"
-		dynasty = "√Årp√°d"
+		dynasty = "¡rp·d"
 		adm = 0
 		dip = 0
 		mil = 0
@@ -46,8 +42,6 @@ capital = 4128
 		religion = catholic
 		culture = hungarian
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
 }
 1444.11.11= {
 	add_prestige = 72
