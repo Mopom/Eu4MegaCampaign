@@ -863,6 +863,10 @@ emp_france_north_missions = {
 					duration = 7300
 				}
 			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
+			}
 		}
 		ai_priority = {
 			factor = 1000
@@ -995,6 +999,10 @@ lot_fra_ita_expansion_2 = {
 				type = cb_vassalize_mission
 				target = BLG
 				months = 300
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
 			}
 		}
 	}
@@ -1470,9 +1478,9 @@ lot_pax_francia_3 = {
 	}
 	has_country_shield = yes
 	
-	lot_fra_defend_genoa = {
+	lot_pax_defend_genoa = {
 		icon = mission_galleys_in_port
-		required_missions = { emp_fra_conquer_burgundy_area }
+		required_missions = { lot_pax_alcaniz_renew }
 		provinces_to_highlight = {
 			province_id = 101
 		}
@@ -1488,11 +1496,15 @@ lot_pax_francia_3 = {
 		effect = {
 			add_treasury = -250
 			101 = {
-				change_culture = ADU
+				change_culture = andalucian
 				add_province_modifier = {
 					name = genes_port_du_monde
 					duration = -1
 				}
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
 			}
 		}
 	}
@@ -1771,283 +1783,173 @@ emp_france_missions_4 = {
 				duration = -1
 			}
 		}
-	}	
-	emp_fra_conquer_burgundy_area = {
-		icon = mission_landsknecht_soldier
+	}
+}
+lot_pax_francia_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_pax_alcaniz_renew = {
+		icon = mission_taula_de_canvi
 		required_missions = { alice_fra_conquer_provence }
 		position = 3
-		provinces_to_highlight = {
-			OR = {
-				area = bourgogne_area
-				area = west_burgundy_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
 		trigger = {
-			west_burgundy_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			bourgogne_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			lorraine_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+			ADU = {
+				has_opinion = {
+					who = ROOT
+					value = 125
 				}
-				add_permanent_claim = ROOT
-			}
-			savoy_dauphine_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			piedmont_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-		ai_priority = {
-			factor = 100
-		}
-		ai_weight = {
-			factor = 100
-		}
-	}
-	emp_fra_subjugate_lorraine = {
-		icon = mission_build_up_to_force_limit
-		required_missions = { emp_fra_conquer_burgundy_area }
-		provinces_to_highlight = {
-			area = lorraine_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			lorraine_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			alsace_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-		ai_priority = {
-			factor = 100
-		}
-		ai_weight = {
-			factor = 100
-		}
-	}
-	emp_fra_annex_alsace = {
-		icon = mission_assemble_an_army
-		required_missions = { emp_fra_subjugate_lorraine }
-		provinces_to_highlight = {
-			area = alsace_area
-			NOT = {
-				owned_by = ROOT
-			}
-		}
-		trigger = {
-			alsace_area = {
-				type = all
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "fra_into_germany"
-				duration = 7300
-			}
-			upper_rhineland_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-			romandie_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			switzerland_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-	emp_fra_germany = {
-		icon = interfere_in_germany
-		required_missions = { emp_fra_annex_alsace }
-		provinces_to_highlight = {
-			NOT = {
-				owned_by = ROOT
-			}
-			owner = {
-				is_emperor = yes
-			}
-		}
-		trigger = {
-			OR = {
-				is_emperor = yes
-				NOT = { hre_size = 1 }
 			}
 		}
 		effect = {
 			if = {
 				limit = {
-					NOT = { government_rank = 3 }
+					alliance_with = ADU
 				}
-				set_government_rank = 3
-			}
-			if = {
-				limit = {
-					exists = PLC
-					
-				}
-				add_casus_belli = {
-					target = PLC
-					type = cb_vassalize_mission
-				}
-			}
-			else_if = {
-				limit = {
-					exists = POL
-				}
-				add_casus_belli = {
-					target = POL
-					type = cb_vassalize_mission
-				}
+				create_marriage = ADU
+				add_historical_friend = ADU
 			}
 			else = {
-				mazovia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
+				add_truce_with = ADU
+				add_trust = {
+					who = ADU
+					value = 20
+					mutual = yes
 				}
 			}
 		}
+		ai_priority = {
+			factor = 100
+		}
+		ai_weight = {
+			factor = 100
+		}
 	}
-	emp_fra_poland = {
-		icon = polish_subjects
-		required_missions = { emp_fra_germany }
+	lot_pax_joyeuse = {
+		icon = carolingian_empire
+		required_missions = { lot_pax_alcaniz_renew }
+		position = 4
+		trigger = {
+			ADU = {
+				has_opinion = {
+					who = ROOT
+					value = 140
+				}
+			}
+			treasury = 1000
+		}
+		effect = {
+			add_treasury = -1000
+			add_country_modifier = {
+				name = joyeuse_sword_charlemagne
+				duration = 36500
+			}
+			ADU = {
+				add_treasury = 1000
+			}
+		}
+		ai_priority = {
+			factor = 100
+		}
+		ai_weight = {
+			factor = 100
+		}
+	}
+}
+lot_fra_iberian_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_fra_corse_sardinia = {
+		icon = mission_mediterranean_islands
+		required_missions = { lot_pax_joyeuse }
+		provinces_to_highlight = {
+			area = corsica_sardinia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			corsica_sardinia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			baleares_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = CAT
+			}
+			valencia_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = CAT
+			}
+		}
+	}
+	lot_fra_exp_catalonia = {
+		icon = mission_golden_century
+		required_missions = { lot_fra_corse_sardinia }
 		provinces_to_highlight = {
 			OR = {
-				province_id = 257
-				if = {
-					limit = {
-						257 = {
-							owner = {
-								primary_culture = polish
-								is_subject_of = ROOT
-							}
-						}
-					}
-					region = poland_region
-				}
-				else = {
-					always = no
-				}
+				area = baleares_area
+				area = valencia_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			257 = {
-				owner = {
-					primary_culture = polish
-					is_subject_of = ROOT
-				}
-			}
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = poland_region
-				value = 10
-			}
-		}
-		effect = {
-			295 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			custom_tooltip = duchy_of_warsaw_tt
-			hidden_effect = {
-				257 = {
-					owner = {
-						save_event_target_as = duchy_of_warsaw
-					}
-				}
-				poland_region = {
-					limit = {
-						NOT = { is_core = event_target:duchy_of_warsaw }
-						NOT = { is_permanent_claim = event_target:duchy_of_warsaw }
-					}
-					add_permanent_claim = event_target:duchy_of_warsaw
-				}
-			}
-		}
-	}
-	emp_fra_russia = {
-		icon = the_russian_campaign
-		required_missions = { emp_fra_poland }
-		provinces_to_highlight = {
-			province_id = 295
-			NOT = { controlled_by = ROOT }
-		}
-		trigger = {
-			295 = {
-				controlled_by = ROOT
-			}
-		}
-		effect = {
-			add_power_projection = {
-				type = mission_rewards_power_projection
-				amount = 25
-			}
 			if = {
-				limit = {
-					NOT = {
-						295 = {
-							country_or_non_sovereign_subject_holds = ROOT
-						}
-					}
+				limit = { exists = CAT }
+				baleares_area = {
+					type = all
+					owned_by = CAT
+					is_core = CAT
 				}
-				country_event = { id = emp_mission_events.6 }
+				valencia_area = {
+					type = all
+					owned_by = CAT
+					is_core = CAT
+				}
 			}
+			else = {
+				baleares_area = {
+					type = all
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				valencia_area = {
+					type = all
+					owned_by = ROOT
+					is_core = ROOT
+				}
+			}
+		}
+		effect = {
+			add_prestige = 30
+			add_splendor = 50
 		}
 	}
 }
-
 emp_france_missions_5 = {
 	slot = 5
 	generic = no
@@ -2420,7 +2322,10 @@ lot_fra_legacy_of_charlemagne_1 = {
 			add_country_modifier = {
 				name = ae_stuff
 				duration = 5475
-			
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
 			}
 		}
 	}
@@ -2714,6 +2619,7 @@ lot_fra_legacy_of_charlemagne_2 = {
 	lot_fra_churches_of_charlemagne = {
 		icon = italian_riches
 		required_missions = { lot_fra_throne_of_charlemagne }
+		position = 9
 		trigger = {
 			temple = 14
 		}
@@ -2721,6 +2627,16 @@ lot_fra_legacy_of_charlemagne_2 = {
 			add_country_modifier = {
 				name = charlemagnes_churches
 				duration = 7300
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = MANY_CHURCHES_OF_FRANCE
+				influence = 5
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
 			}
 		}
 	}
@@ -2769,6 +2685,10 @@ lot_fra_legacy_of_charlemagne_2 = {
 				add_base_tax = 1
 				add_base_production = 2
 				add_base_manpower = 2
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
 			}
 		}
 	}

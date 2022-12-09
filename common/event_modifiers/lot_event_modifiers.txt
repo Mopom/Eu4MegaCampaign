@@ -211,3 +211,7 @@ genes_port_du_monde = {
 	mercantilism_cost = -0.1
 	allowed_num_of_buildings = 1
 }
+joyeuse_sword_charlemagne = {
+	prestige = 0.3
+	military_tactics = 0.25
+}
