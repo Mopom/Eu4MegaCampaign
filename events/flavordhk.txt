@@ -4,8 +4,8 @@ normal_or_historical_nations = yes
 #pirateisland
 country_event = {
 	id = flavor_dhk.1
-	title = "flavor_dhk.t"
-	desc = "flavor_dhk.d"
+	title = "flavor_dhk.1.t"
+	desc = "flavor_dhk.1.d"
 	picture = BUCCANEERS_eventPicture
 
 	is_triggered_only = yes
@@ -13,12 +13,13 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-					any_province = {
+					every_province = {
 						region = australia_region
 						country_or_non_sovereign_subject_holds = ROOT
+					} 
+					= {
 					discover_country = DHK
-					add_core = DHK
-					}
+					add_core = DHK}
 			release = DHK
 			DHK = {
 				change_government = republic
@@ -53,11 +54,11 @@ country_event = {
 		}
 	
 	option = {
-		name = "flavor_dhk.a"
+		name = "flavor_dhk.1.a"
 	}
 	
 	option = {
-		name = "flavor_dhk.b"
+		name = "flavor_dhk.1.b"
 		switch_tag = DHK
 	}
 }
