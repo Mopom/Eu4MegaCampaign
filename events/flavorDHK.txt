@@ -1,3 +1,7 @@
+namespace = flavor_dhk
+normal_or_historical_nations = yes
+
+
 # Netherlands Declare Independence!
 # ends the disaster by virtue of NED existing
 country_event = {
