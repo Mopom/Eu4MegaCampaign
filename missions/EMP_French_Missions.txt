@@ -1680,7 +1680,7 @@ lot_cru_fra_rhenism_3 = {
 	}
 	lot_cru_independant_egy = {
 		icon = mission_eliminate_pretenders
-		required_missions = {  }
+		required_missions = { lot_cru_prep_crusade }
 		position = 10
 		provinces_to_highlight = {
 			region = egypt_region
@@ -1697,6 +1697,42 @@ lot_cru_fra_rhenism_3 = {
 			}
 		}
 		effect = {
+			365 = {
+				add_core = REL
+				add_permanent_claim = ROOT
+			}
+			361 = {
+				add_core = REL
+				add_permanent_claim = ROOT
+			}
+			2320 = {
+				add_core = REL
+				add_permanent_claim = ROOT
+			}
+			vostani_area = {
+				add_core = REL
+				add_permanent_claim = ROOT
+			}
+			2319 = {
+				add_core = REL
+				add_permanent_claim = ROOT
+			}
+			delta_area = {
+				add_core = GSR
+				add_permanent_claim = ROOT
+			}
+			4316 = {
+				add_core = GSR
+				add_permanent_claim = ROOT
+			}
+			2316 = {
+				add_core = GSR
+				add_permanent_claim = ROOT
+			}
+			4317 = {
+				add_core = GSR
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 }
