@@ -15,11 +15,11 @@ gng_crisis = {
 	
 	progress = {
 		modifier = {
-			factor = 10
+			factor = 5
 			NOT = { stability = 3 }
 		}
 		modifier = {
-			factor = 5
+			factor = 2
 			NOT = { stability = 2 }
 		}
 		modifier = {
