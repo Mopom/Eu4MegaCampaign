@@ -1,0 +1,130 @@
+graphical_culture = westerngfx
+color = { 102 105 104 }
+revolutionary_colors = { 5 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_score = 50
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ava #0" = -1
+	"Gurgen #0" = 0
+	"Gottschalk #0" = 10
+	"Wernhard #0" = 0
+	"Otto #0" = 0
+	"Gaillard #0" = 0
+	"Umfreda #0" = -1
+	"Bocek #0" = 1
+	"Mubashir #0" = 1
+	"Ahmad #0" = 1
+	"Yahaff #0" = 1
+	"Aelle #0" = 1
+	"Helene #0" = -2
+	"Wecta #0" = 1
+	"Brun #0" = 1
+	"Alionor #0" = -2
+	"Theodwin #0" = 5
+	"Gunzelin #0" = 1
+	"Wulff #0" = 1
+	"Klara #0" = -2
+	"Gui #0" = 1
+	"Simon #0" = 2
+	"Immed #1" = 3
+	"Aliyah #1" = -2
+	"Suleyman #1" = 1
+}
+leader_names = {
+	"von Kiel"
+	"de Aragón"
+	"von Parchim"
+	"von Calw"
+	"Leon"
+	"van Rotterdam"
+	"de Montluçon"
+	"van Emmen"
+	"de Sant-Maloù"
+	"de Pontarlier"
+	"van Amersfoort"
+	"de Courtenay"
+	"de Saint-Quentin"
+	"de Oloron"
+	"de Tarascon"
+	"von Schwedt"
+	"von Arnsberg"
+	"Matiyid"
+	"von Limbourg"
+	"di Grasse"
+	"von Taulov"
+	"di Saluzzo"
+	"z Cammina"
+	"di Voghera"
+	"van Appingedam"
+	"iz Kamnika"
+	"von Brene"
+}
+ship_names = {
+	"Burkhard von Schwanden"
+	"Danzig"
+	"Dietrich von Altenburg"
+	"Elbing"
+	"Gerhard von Malberg"
+	"Goldingen"
+	"Gottersweder"
+	"Heinrich von Plauen"
+	"Heinrich von Tunna"
+	"Hermann von Salza"
+	"Johann von Tiefen"
+	"Konrad V von Jungingen"
+	"Konrad von Thüringen"
+	"Königsberg"
+	"Marienburg"
+	"Mitau"
+	"Mittenburg"
+	"Otto von Kerpen"
+	"Poppo von Osterna"
+	"Thorn"
+	"Ulrich von Jungingen"
+	"Walter von Cronberg"
+	"Werner von Orseln"
+	"Windau"
+	"Winrich von Kniprode"
+	"von Arfberg"
+	"von Bassenheim"
+	"von Braunschweig"
+	"von Feuchtwangen"
+	"von Heldrungen"
+	"von Hohenlohe"
+	"von Rotenstein"
+	"von Sangershausen"
+	"von Sternberg"
+	"von Trier"
+	"von Wallenrode"
+	"von Wattzau"
+	"von Wetzhausen"
+	"von Wüllersleben"
+}
+army_names = {
+	"Banner"
+}

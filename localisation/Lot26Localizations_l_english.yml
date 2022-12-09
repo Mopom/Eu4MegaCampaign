@@ -344,5 +344,10 @@
  algeria_gem_of_africa:0 "Algiers, the African Gem"
  lot_fra_algeria_title:0 "Algerie"
  lot_fra_algeria_desc:0 "French control over North Africa is secured, and more importantly; French safety from piracy is secured."
+ CRUSADE_IS_HAPPENING:0 "Crusaders and Knights of the Orders"
+ lot_cru_prep_crusade_title:0 "Prepare a Crusade"
+ lot_cru_prep_crusade_desc:0 "Though we preach Isolationism as one of our base tenets it is wrong to leave Bethlehem, birthplace of the Son, in Saracen hands."
+ lot_cru_independant_egy_title:0 "Independent Egypt"
+ lot_cru_independant_egy_desc:0 "Egypt is a highly disloyal vassal of the Caliph. If we can push her to independence the Islamic world will be divided, opening a path to a Christian Bethlehem."
  
  #
