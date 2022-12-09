@@ -84,12 +84,24 @@ islam_swords_of_muhammad = {
 		trigger = {
 			OR = {
 				AND = {
-					owns_core_province = 431
-					owns_core_province = 4327
-					owns_core_province = 2220
-					owns_core_province = 4345
-					owns_core_province = 432
-					owns_core_province = 2234
+					431 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4327 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					2220 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4345 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					432 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					2234 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
 				}
 				NOT = {
 					exists = PER

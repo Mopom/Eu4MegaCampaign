@@ -120,7 +120,7 @@ ar-rasub_sword = {
 	land_morale = 0.10
 }
 dhu_al-faqar_sword = {
-	yearly_army_professionalism = 0.02
+	yearly_army_professionalism = 0.002
 }
 al-mathur_sword = {
 	cav_to_inf_ratio = 0.10
@@ -214,4 +214,8 @@ genes_port_du_monde = {
 joyeuse_sword_charlemagne = {
 	prestige = 0.3
 	military_tactics = 0.25
+}
+algeria_gem_of_africa = {
+	relation_with_other_culture = 5
+	local_friendly_movement_speed = 0.1
 }
