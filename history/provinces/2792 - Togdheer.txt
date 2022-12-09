@@ -9,6 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = AJU
+add_core = WAR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

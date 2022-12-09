@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 1
 add_core = ADA
 add_core = AJU
+add_core = AFA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

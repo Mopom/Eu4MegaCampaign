@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 1
 base_manpower = 1
 add_core = AJU
+add_core = OGD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
