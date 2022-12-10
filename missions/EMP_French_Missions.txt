@@ -1759,6 +1759,10 @@ lot_cru_fra_rhenism_3 = {
 				add_core = GSR
 				add_permanent_claim = ROOT
 			}
+			2315 = {
+				add_core = REL
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	lot_cru_vas_africa = {
@@ -1798,12 +1802,54 @@ lot_cru_fra_rhenism_3 = {
 			owns_core_province = 2320
 		}
 		effect = {
-			create_vassal = REL
-			create_vassal = GSR
+			delta_area = {
+				type = all
+				cede_province = GSR
+				remove_core = FRA
+			}
+			4317 = {
+				cede_province = GSR
+				remove_core = FRA
+			}
+			2316 = {
+				cede_province = GSR
+				remove_core = FRA
+			}
+			4316 = {
+				cede_province = GSR
+				remove_core = FRA
+			}
+			361 = {
+				cede_province = REL
+				remove_core = FRA
+			}
+			vostani_area = {
+				type = all
+				cede_province = REL
+				remove_core = FRA
+			}
+			2319 = {
+				cede_province = REL
+				remove_core = FRA
+			}
+			365 = {
+				cede_province = REL
+				remove_core = FRA
+			}
+			2315 = {
+				cede_province = REL
+				remove_core = FRA
+			}
+			2320 = {
+				cede_province = REL
+				remove_core = FRA
+			}
 			palestine_area = {
 				add_core = KOJ
 				add_permanent_claim = ROOT
 			}
+			vassalize = REL
+			vassalize = GSR
 		}
 	}
 	lot_cru_rhenist_holy = {
@@ -1824,7 +1870,11 @@ lot_cru_fra_rhenism_3 = {
 			379 = {
 				change_province_name = "Bethlehem"
 			}
-			create_vassal = KOJ
+			palestine_area = {
+				cede_province = KOJ
+				remove_core = FRA
+			}
+			vassalize = KOJ
 			KOJ = {
 				change_religion = ROOT
 			}
@@ -2269,6 +2319,13 @@ lot_fra_islamics_4 = {
 			}
 		}
 		effect = {
+			338 = {
+				change_province_name = "Algiers"
+				add_province_modifier = {
+					name = algeria_gem_of_africa
+					duration = 14600
+				}
+			}
 			kabylia_area = {
 				add_core = ALG
 			}
@@ -2280,13 +2337,6 @@ lot_fra_islamics_4 = {
 			}
 			algiers_area = {
 				add_core = ALG
-			}
-			338 = {
-				change_province_name = "Algiers"
-				add_province_modifier = {
-					name = algeria_gem_of_africa
-					duration = 14600
-				}
 			}
 			create_vassal = ALG
 		}
