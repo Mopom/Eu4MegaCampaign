@@ -553,7 +553,7 @@ emp_france_american_colonial_1 = {
 		provinces_to_highlight = {
 			has_discovered = ROOT
 			OR = {
-				colonial_region = colonial_canada
+				colonial_region = colonial_eastern_america
 				colonial_region = colonial_louisiana
 				colonial_region = colonial_the_carribean
 			}
@@ -562,27 +562,18 @@ emp_france_american_colonial_1 = {
 			}
 		}
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = fra_carib_colony.tooltip
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_eastern_america
+			}
+			OR = {
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 5
 					colonial_region = colonial_the_carribean
 				}
-			}
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = fra_canada_colony.tooltip
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_canada
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = fra_louisiana_colony.tooltip
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_louisiana
-					}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5
+					colonial_region = colonial_louisiana
 				}
 			}
 		}
@@ -1174,6 +1165,41 @@ lot_fra_ita_expansion_2 = {
 		}
 	}
 }
+lot_cru_fra_rhenism_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no 
+	}
+	has_country_shield = yes
+	
+	lot_cru_malta = {
+		icon = medici_bank_ledgers
+		required_missions = { lot_cru_independant_egy }
+		position = 11
+		provinces_to_highlight = {
+			province_id = 126
+		}
+		trigger = {
+			owns_core_province = 126
+			126 = {
+				development = 12
+			}
+		}
+		effect = {
+			add_splendor = 100
+			add_prestige = 25
+			add_historical_rival = Z00
+		}
+	}
+}
 emp_france_american_colonial_2 = {
 	slot = 2
 	generic = no
@@ -1735,6 +1761,87 @@ lot_cru_fra_rhenism_3 = {
 			}
 		}
 	}
+	lot_cru_vas_africa = {
+		icon = restore_the_hospitallers
+		required_missions = { lot_cru_independant_egy }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				area = delta_area
+				area = bahari_area
+				area = vostani_area
+				area = gulf_of_arabia_area
+			}
+			NOT = {
+				owned_by = ROOT
+				province_id = 2321
+			}
+		}
+		trigger = {
+			delta_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bahari_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			vostani_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 365
+			owns_core_province = 2315
+			owns_core_province = 2320
+		}
+		effect = {
+			create_vassal = REL
+			create_vassal = GSR
+			palestine_area = {
+				add_core = KOJ
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_cru_rhenist_holy = {
+		icon = kingdom_of_heaven
+		required_missions = { lot_cru_vas_africa }
+		position = 12
+		provinces_to_highlight = {
+			area = palestine_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			379 = {
+				change_province_name = "Bethlehem"
+			}
+			create_vassal = KOJ
+			KOJ = {
+				change_religion = ROOT
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = BETHLEHEM_RECAPTURED
+				influence = 7.5
+				duration = 7300
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_church
+				desc = BETHLEHEM_MISSION_COMPLETED
+				loyalty = 14.5
+				duration = -1
+			}
+		}
+	}
 }
 emp_france_indian_colonial_3 = {
 	slot = 3
@@ -2181,6 +2288,191 @@ lot_fra_islamics_4 = {
 					duration = 14600
 				}
 			}
+			create_vassal = ALG
+		}
+	}
+}
+lot_fra_legacy_of_charlemagne_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_fra_churches_of_charlemagne = {
+		icon = italian_riches
+		required_missions = { lot_fra_throne_of_charlemagne }
+		position = 9
+		trigger = {
+			temple = 14
+		}
+		effect = {
+			add_country_modifier = {
+				name = charlemagnes_churches
+				duration = 7300
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = MANY_CHURCHES_OF_FRANCE
+				influence = 5
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
+			}
+		}
+	}
+	lot_fra_capitals_of_charlemagne = {
+		icon = take_the_bishoprics
+		required_missions = { lot_fra_churches_of_charlemagne lot_fra_cities_of_charlemagne_1 }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1878
+				province_id = 85
+				province_id = 78
+				province_id = 186
+				province_id = 174
+				province_id = 203
+				province_id = 108
+				province_id = 118
+				province_id = 134
+				province_id = 2957
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					development = 30
+					OR = {
+						province_id = 1878
+						province_id = 85
+						province_id = 78
+						province_id = 186
+						province_id = 174
+						province_id = 203
+						province_id = 108
+						province_id = 118
+						province_id = 134
+						province_id = 2957
+					}
+				}
+				amount = 3
+			}
+		}
+		effect = {
+			set_capital = 186
+			186 = {
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
+			}
+		}
+	}
+}
+lot_cities_france_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Emperor"
+	}
+	potential = {
+		has_dlc = "Emperor"
+		tag = FRA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_cities_lyon = {
+		icon = give_him_back_his_legions
+		required_missions = {  }
+		position = 13
+		provinces_to_highlight = {
+			province_id = 203
+		}
+		trigger = {
+			203 = {
+				base_production = 10
+			}
+		}
+		effect = {
+			203 = {
+				add_building = mills
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
+			}
+		}
+	}
+	lot_cities_parisien = {
+		icon = mission_early_modern_university
+		required_missions = {  }
+		position = 14
+		provinces_to_highlight = {
+			province_id = 183
+		}
+		trigger = {
+			183 = {
+				development = 40
+			}
+		}
+		effect = {
+			183 = {
+				add_province_modifier = {
+					name = paris_big_city
+					duration = -1
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
+			}
+			add_estate_influence_modifier = {
+				estate = estate_burghers
+				desc = PARIS_LA_VILLE_GRAND
+				influence = 10
+				duration = 18250
+			}
+		}
+	}
+	lot_cities_strassbourg = {
+		icon = promote_urbanization
+		required_missions = {  }
+		position = 15
+		provinces_to_highlight = {
+			province_id = 75
+		}
+		trigger = {
+			75 = {
+				has_building = cathedral
+			}
+		}
+		effect = {
+			75 = {
+				add_province_modifier = {
+					name = strassbourg_relig
+					duration = 7300
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
+			}
 		}
 	}
 }
@@ -2416,7 +2708,7 @@ emp_france_missions_5 = {
 		}
 	}
 }
-lot_fra_legacy_of_charlemagne_1 = {
+lot_fra_legacy_of_charlemagne_5 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -2833,97 +3125,6 @@ lot_fra_legacy_of_charlemagne_1 = {
 			change_tag = HLR
 			set_capital = 1878
 			swap_non_generic_missions = yes
-		}
-	}
-}
-lot_fra_legacy_of_charlemagne_2 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		has_dlc = "Emperor"
-		tag = FRA
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	lot_fra_churches_of_charlemagne = {
-		icon = italian_riches
-		required_missions = { lot_fra_throne_of_charlemagne }
-		position = 9
-		trigger = {
-			temple = 14
-		}
-		effect = {
-			add_country_modifier = {
-				name = charlemagnes_churches
-				duration = 7300
-			}
-			add_estate_influence_modifier = {
-				estate = estate_church
-				desc = MANY_CHURCHES_OF_FRANCE
-				influence = 5
-				duration = 9125
-			}
-			change_estate_land_share = {
-				estate = estate_church
-				share = 5
-			}
-		}
-	}
-	lot_fra_capitals_of_charlemagne = {
-		icon = take_the_bishoprics
-		required_missions = { lot_fra_churches_of_charlemagne lot_fra_cities_of_charlemagne_1 }
-		position = 11
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1878
-				province_id = 85
-				province_id = 78
-				province_id = 186
-				province_id = 174
-				province_id = 203
-				province_id = 108
-				province_id = 118
-				province_id = 134
-				province_id = 2957
-			}
-			owned_by = ROOT
-		}
-		trigger = {
-			calc_true_if = {
-				all_owned_province = {
-					development = 30
-					OR = {
-						province_id = 1878
-						province_id = 85
-						province_id = 78
-						province_id = 186
-						province_id = 174
-						province_id = 203
-						province_id = 108
-						province_id = 118
-						province_id = 134
-						province_id = 2957
-					}
-				}
-				amount = 3
-			}
-		}
-		effect = {
-			set_capital = 186
-			186 = {
-				add_base_tax = 1
-				add_base_production = 2
-				add_base_manpower = 2
-			}
-			change_estate_land_share = {
-				estate = estate_nobles
-				share = 5
-			}
 		}
 	}
 }
