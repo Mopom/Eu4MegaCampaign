@@ -7,6 +7,7 @@ primary_culture = dynamic-andalucian-berber-culture-num1
 capital = 220
 add_accepted_culture = andalucian
 add_accepted_culture = algerian
+religious_school = zahrai_school
 
 1444.1.1 = {
 	monarch = {
