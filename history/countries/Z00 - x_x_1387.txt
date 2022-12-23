@@ -11,14 +11,14 @@ add_historical_rival = Z01
 primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
 capital = 410
 religious_school = hanbali_school
-1384.6.27= {
+1423.7.22= {
 	monarch = {
-		name = "Muhammad VI"
+		name = "Muhammad VII"
 		dynasty = "Abbasid"
 		adm = 6
-		dip = 5
+		dip = 6
 		mil = 6
-		birth_date = 1347.11.21
+		birth_date = 1385.11.21
 		religion = sunni
 		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
@@ -35,16 +35,14 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = hejazi_culture
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
 	heir = {
 		name = "Muhammad"
-		monarch_name = "Muhammad VII"
+		monarch_name = "Muhammad VIII"
 		dynasty = "Abbasid"
-		adm = 6
-		dip = 6
-		mil = 6
-		birth_date = 1385.11.21
+		adm = 2
+		dip = 4
+		mil = 5
+		birth_date = 1402.11.12
 		death_date = 1471.9.6
 		claim = 89
 		religion = sunni
@@ -59,6 +57,18 @@ religious_school = hanbali_school
 		dip = 6
 		adm = 3
 		mil = 1
+	}
+}
+1384.6.27= {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = "Abbasid"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1347.11.21
+		religion = sunni
+		culture = dynamic-greek-al_suryah_arabic-culture-num1
 	}
 }
 1444.11.11= {
