@@ -1442,6 +1442,10 @@ dutch_republic = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
+				tag = Z02
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = dutch_republic
 			}
