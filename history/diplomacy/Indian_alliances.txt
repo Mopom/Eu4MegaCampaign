@@ -35,3 +35,9 @@ royal_marriage = {
 	second = MAD
 	start_date = 1344.1.1
 	end_date = 1479.10.14
+}
+vassal = {
+	first = Z01
+	second = GDW
+	start_date = 1444.1.1
+}
