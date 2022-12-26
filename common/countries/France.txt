@@ -30,7 +30,6 @@ historical_units = {
 	western_men_at_arms
 }
 Monarch_names = {
-	"Pepin #1" = 1
 	"Charles #4" = 2
 	"Louis #5" = 1
 	"Eudes #1" = 0
