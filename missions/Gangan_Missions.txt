@@ -92,8 +92,14 @@ dlh_jnp_reconquest = {
 				name = "focused_on_war"
 				duration = 1825
 			}
+			define_general = {
+				shock = 5
+				manuever = 3
+				siege = 2
+				name = Binks
+			}
 		}
-		}
+	}
 
 gujarat_forced_migration = {
 		icon = mission_conquer_gujarat_dlh

@@ -1,5 +1,6 @@
 ﻿l_english:
  ############## MISSION ###############################
+gng_crisis_title: "Corruption of the Nayankara System"
 gng_crisis.1.t:0 "Ganga is Questioned"
 gng_crisis.1.d:0 "Gangan dynasty has been ruling for 500 years, it is now questioned for it's long lived rulers and it's ways"
 gng_crisis.1.a:0 "The End is near"
@@ -11,3 +12,4 @@ ganga_government:0 "Ganga Government"
 gng_integration:0 "Integration of Rajputana"
 gujarat_forced_migration:0 "Rajputana_Migration"
 focused_on_war:0 "Focused on war"
+ganga_corruption:0 "The cost of friends"
