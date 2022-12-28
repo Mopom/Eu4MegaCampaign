@@ -5,3 +5,41 @@ technology_group = nomad_group
 religion = orthodox
 primary_culture = pecheneg
 capital = 284
+1444.11.11= {
+	monarch = {
+		name = "Volodar"
+		dynasty = "Romanov"
+		adm = 6
+		dip = 3
+		mil = 5
+		birth_date = 1376.4.6
+		religion = orthodox
+		culture = ruthenian
+	}
+	queen = {
+		name = "Varvara"
+		dynasty = "Rurikid"
+		adm = 6
+		dip = 4
+		mil = 5
+		female = yes
+		country_of_origin = RUS
+		birth_date = 1393.3.13
+		death_date = 1453.3.13
+		religion = orthodox
+		culture = ruthenian
+	}
+	heir = {
+		name = "Alryk"
+		monarch_name = "Alryk"
+		dynasty = "Romanov"
+		adm = 5
+		dip = 6
+		mil = 2
+		birth_date = 1423.3.5
+		death_date = 1488.3.5
+		claim = 89
+		religion = orthodox
+		culture = ruthenian
+	}
+}

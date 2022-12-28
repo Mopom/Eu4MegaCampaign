@@ -5,3 +5,41 @@ technology_group = eastern
 religion = orthodox
 primary_culture = ruthenian
 capital = 279
+1444.11.11= {
+	monarch = {
+		name = "Aristarkh II"
+		dynasty = "Romanov"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1386.4.6
+		religion = orthodox
+		culture = ruthenian
+	}
+	queen = {
+		name = "Verkhoslava"
+		dynasty = "Rurikid"
+		adm = 6
+		dip = 4
+		mil = 5
+		female = yes
+		country_of_origin = RUS
+		birth_date = 1393.3.13
+		death_date = 1453.3.13
+		religion = orthodox
+		culture = ruthenian
+	}
+	heir = {
+		name = "Aristarkh"
+		monarch_name = "Aristarkh III"
+		dynasty = "Romanov"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1423.3.5
+		death_date = 1488.3.5
+		claim = 89
+		religion = orthodox
+		culture = ruthenian
+	}
+}

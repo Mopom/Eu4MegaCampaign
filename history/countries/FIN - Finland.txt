@@ -6,3 +6,41 @@ religion = orthodox
 primary_culture = finnish
 capital = 28
 add_accepted_culture = swedish
+1444.11.11= {
+	monarch = {
+		name = "Lutuveras"
+		dynasty = "Palemonaitas"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1396.4.5
+		religion = orthodox
+		culture = byelorussian
+	}
+	queen = {
+		name = "Ausra"
+		dynasty = "Romanov"
+		adm = 6
+		dip = 4
+		mil = 5
+		female = yes
+		country_of_origin = RUS
+		birth_date = 1393.3.13
+		death_date = 1453.3.13
+		religion = orthodox
+		culture = lithuanian
+	}
+	heir = {
+		name = "Siegfried"
+		monarch_name = "Siegfried"
+		dynasty = "Palemonaitas"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1427.11.30
+		death_date = 1488.3.5
+		claim = 89
+		religion = orthodox
+		culture = byelorussian
+	}
+}
