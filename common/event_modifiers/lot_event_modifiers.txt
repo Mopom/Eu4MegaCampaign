@@ -230,3 +230,12 @@ khan_in_manchuria = {
 	vassal_income = 0.1
 	diplomatic_reputation = 1
 }
+guards_of_mong = {
+	local_hostile_attrition = 2
+	local_defender_dice_roll_bonus = 1
+}
+prep_o_war = {
+	siege_ability = 0.15
+	can_bypass_forts = yes
+	morale_damage = 0.2
+}

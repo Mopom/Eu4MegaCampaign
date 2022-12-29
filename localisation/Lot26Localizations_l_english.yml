@@ -377,4 +377,13 @@
  mge_east_korea_desc:0 "Chinggis Khaan conquered Korea in his Great Conquest of the East. We now are able to restore our power over them. We surely are the legacy of the Borjigin Khans!"
  mge_exp_army_size_title:0 "Khan's Army"
  mge_exp_army_size_desc:0 "Only with a strong army can we hope to rule over our neighbours."
+ mge_south_gyalrong_title:0 "The Hills of Amdo"
+ mge_south_gyalrong_desc:0 "South of Mongolia lie the foothills of the Tibetan Plateau. These Hills of Amdo and Gansu are of vital importance for power in China and Tibet."
+ guards_of_mong:0 "Guardians of the Pass of Mong Kawng"
+ mge_south_kham_title:0 "The Valleys of Kham"
+ mge_south_kham_desc:0 "Behind the Mountains of Sichuan we are laid in perfect wait to ambush the sleeping giant of Ming. The children of Chengdu will sleep calmly no longer."
+ prep_o_war:0 "In Preparation of War"
+ mge_fort_and_ally_title:0 "Forts and Friends"
+ mge_fort_and_ally_desc:0 "With forts to protect our lands and friends to fight the foe, what else would we desire?"
+ 
  #
