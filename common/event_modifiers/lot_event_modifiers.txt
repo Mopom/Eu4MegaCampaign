@@ -225,3 +225,8 @@ paris_big_city = {
 strassbourg_relig = {
 	prestige_per_development_from_conversion = 0.2
 }
+khan_in_manchuria = {
+	vassal_forcelimit_bonus = 0.25
+	vassal_income = 0.1
+	diplomatic_reputation = 1
+}

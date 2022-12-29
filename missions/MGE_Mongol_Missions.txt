@@ -1,0 +1,299 @@
+mge_exp_east_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_east_korchin = {
+		icon = mission_chinese_general_riding
+		required_missions = { mge_exp_army_size }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = cicigar_area
+				area = eastern_mongolia
+				area = chahar_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			cicigar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			eastern_mongolia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			chahar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			heilongjiang_area = {
+				add_permanent_claim = ROOT
+			}
+			east_heilongjiang_area = {
+				add_permanent_claim = ROOT
+			}
+			central_heilongjiang_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_east_heilong = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { mge_east_korchin }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = heilongjiang_area
+				area = east_heilongjiang_area
+				area = central_heilongjiang_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			heilongjiang_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			east_heilongjiang_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			central_heilongjiang_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			ilan_hala_area = {
+				add_permanent_claim = ROOT
+			}
+			central_jilin_area = {
+				add_permanent_claim = ROOT
+			}
+			furdan_area = {
+				add_permanent_claim = ROOT
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = EJZ
+				months = 240
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = NVK
+				months = 240
+			}
+		}
+	}
+	mge_east_ilin_hala = {
+		icon = mission_invade_island
+		required_missions = { mge_east_heilong }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = ilan_hala_area
+				area = central_jilin_area
+				area = furdan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			ilan_hala_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_jilin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			furdan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			liaoning_area = {
+				add_permanent_claim = ROOT
+			}
+			jilin_area = {
+				add_permanent_claim = ROOT
+			}
+			ningguta_area = {
+				add_permanent_claim = ROOT
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = KOR
+				months = 300
+			}
+		}
+	}
+	mge_east_korea = {
+		icon = mission_kowtow
+		required_missions = { mge_east_ilin_hala }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = liaoning_area
+				area = jilin_area
+				area = ningguta_area
+				area = hamgyeong_area
+				area = pyongan_area
+				area = western_korea_area
+				area = eastern_korea_area
+				province_id = 4229
+				province_id = 1013
+				province_id = 737
+				province_id = 4228
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			liaoning_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jilin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ningguta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hamgyeong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			pyongan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_korea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eastern_korea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4229 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1013 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			737 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4228 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			KOR = {
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			liaoning_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			jilin_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			ningguta_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			hamgyeong_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			pyongan_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			western_korea_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			eastern_korea_area = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			4229 = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			1013 = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			737 = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			4228 = {
+				add_core = KOR
+				cede_province = KOR
+				remove_core = MGE
+			}
+			add_country_modifier = {
+				name = khan_in_manchuria
+				duration = 18250
+			}
+		}
+	}
+}
+mge_exp_south_branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_exp_army_size = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 0.9
+		}
+		effect = {
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125
+			}
+		}
+	}
+}
