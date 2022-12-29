@@ -1,5 +1,5 @@
-owner = SMZ
-controller = SMZ
+owner = HIK
+controller = HIK
 capital = "Kagoshima"
 is_city = yes
 culture = kyushuan
@@ -8,6 +8,7 @@ trade_goods = tea
 base_tax = 3
 base_production = 3
 base_manpower = 3
+add_core = HIK
 add_core = SMZ
 discovered_by = KHA
 discovered_by = MCH

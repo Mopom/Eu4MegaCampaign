@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+technology_group = chinese
+religion = shinto
+primary_culture = japanese
+capital = 1021
+1440.1.1= {
+	monarch = {
+		name = "Hisanaga"
+		dynasty = "Oda"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = incorruptible_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = zealot_personality
+}

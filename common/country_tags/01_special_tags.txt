@@ -45,3 +45,6 @@ ZLT = "countries/Zealots.txt"
 
 #The Fraticelli Pope
 FAP = "countries/Fraticelli.txt"
+
+#Unified Southern Japan
+HIK = "countries/Hikaru.txt"

@@ -1,5 +1,5 @@
-owner = OUC
-controller = OUC
+owner = HIK
+controller = HIK
 capital = "Yamaguchi"
 is_city = yes
 culture = japanese
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
+add_core = HIK
 add_core = OUC
 discovered_by = KHA
 discovered_by = MCH

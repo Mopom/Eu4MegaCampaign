@@ -12,3 +12,4 @@ add_core = NVK
 discovered_by = ANU
 discovered_by = SOL
 discovered_by = nomad_group
+discovered_by = chinese

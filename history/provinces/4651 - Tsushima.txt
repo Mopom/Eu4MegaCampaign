@@ -1,5 +1,5 @@
-owner = SOO
-controller = SOO
+owner = HIK
+controller = HIK
 capital = "Tsushima"
 is_city = yes
 culture = kyushuan
@@ -8,6 +8,7 @@ trade_goods = chinaware
 base_tax = 2
 base_production = 1
 base_manpower = 1
+add_core = HIK
 add_core = SOO
 discovered_by = KHA
 discovered_by = MCH

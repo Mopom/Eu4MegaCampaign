@@ -43,3 +43,4 @@ discovered_by = TTI
 discovered_by = UES
 discovered_by = UTN
 discovered_by = YMN
+discovered_by = HIK

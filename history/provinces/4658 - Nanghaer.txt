@@ -53,6 +53,7 @@ discovered_by = TTI
 discovered_by = UES
 discovered_by = UTN
 discovered_by = YMN
+discovered_by = HIK
 native_size = 5
 native_ferocity = 1
 native_hostileness = 1

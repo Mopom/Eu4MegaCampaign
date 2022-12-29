@@ -1,5 +1,5 @@
-owner = OUC
-controller = OUC
+owner = HIK
+controller = HIK
 capital = "Hakata"
 is_city = yes
 culture = kyushuan
@@ -11,6 +11,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
+add_core = HIK
 add_core = OUC
 discovered_by = KHA
 discovered_by = MCH
