@@ -239,3 +239,20 @@ prep_o_war = {
 	can_bypass_forts = yes
 	morale_damage = 0.2
 }
+raiding_beijing = {
+	cav_to_inf_ratio = 0.15
+	cavalry_shock = 1
+}
+crusade_on_xina = {
+	missionaries = 1
+	global_missionary_strength = 0.01
+	cb_on_religious_enemies = yes
+}
+raiding_nanjing = {
+	cav_to_inf_ratio = 0.15
+	cavalry_shock = 1
+}
+raid_of_nanking = {
+	land_morale = -0.05
+	war_exhaustion = 0.07
+}

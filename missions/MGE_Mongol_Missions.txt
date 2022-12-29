@@ -272,6 +272,66 @@ mge_exp_east_branch_1 = {
 		}
 	}
 }
+mge_exp_south_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_ming_xian = {
+		icon = mission_hands_praying
+		required_missions = { mge_ming_norf_hebei }
+		position = 8
+		provinces_to_highlight = {
+			province_id = 700
+		}
+		trigger = {
+			owns_core_province = 700
+			700 = {
+				religion = nestorian
+			}
+		}
+		effect = {
+			700 = {
+				add_province_modifier = {
+					name = crusade_on_xina
+					duration = 18250
+				}
+			}
+		}
+	}
+	mge_ming_nanjing = {
+		icon = mission_steppe_warriors
+		required_missions = { mge_ming_norf_china }
+		position = 9
+		provinces_to_highlight = {
+			province_id = 1821
+		}
+		trigger = {
+			war_with = MNG
+			1821 = {
+				devastation = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = raiding_nanjing
+				duration = 7300
+			}
+			1821 = {
+				add_province_modifier = {
+					name = raid_of_nanking
+					duration = 5475
+				}
+			}
+		}
+	}
+}
 mge_exp_south_branch_2 = {
 	slot = 2
 	generic = no
@@ -393,6 +453,100 @@ mge_exp_south_branch_2 = {
 			add_country_modifier = {
 				name = prep_o_war
 				duration = 10950
+			}
+		}
+	}
+	mge_ming_big_army = {
+		icon = mission_mnd_dai_control_the_army
+		required_missions = { mge_fort_and_ally }
+		position = 5
+		trigger = {
+			army_size_percentage = 1
+			num_of_generals = 3
+			num_of_generals_with_traits = 1
+			army_strength = {
+				who = MNG
+				value = 0.75
+			}
+		}
+		effect = {
+			hebei_area = {
+				add_permanent_claim = ROOT
+			}
+			mongolia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_ming_beijing = {
+		icon = mission_steppe_warriors
+		required_missions = { mge_ming_big_army }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 1816
+		}
+		trigger = {
+			war_with = MNG
+			1816 = {
+				devastation = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = raiding_beijing
+				duration = 7300
+			}
+		}
+	}
+	mge_ming_norf_hebei = {
+		icon = mission_great_wall
+		required_missions = { mge_ming_beijing }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = hebei_area
+				province_id = 702
+				province_id = 4223
+				province_id = 701
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			hebei_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 703
+			owns_core_province = 4223
+			owns_core_province = 701
+		}
+		effect = {
+			north_china_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_ming_norf_china = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { mge_ming_norf_hebei }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				region = north_china_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			north_china_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			xinan_region = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
