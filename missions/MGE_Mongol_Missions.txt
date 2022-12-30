@@ -796,6 +796,7 @@ mge_exp_west_branch_3 = {
 				is_core = ROOT
 			}
 			owns_core_province = 2074
+			NOT = { exists = TIB }
 		}
 		effect = {
 			shanshan_area = {
@@ -828,6 +829,184 @@ mge_exp_west_branch_3 = {
 				change_religion = nestorian
 				change_government = theocracy
 				add_government_reform = monastic_order_reform
+			}
+		}
+	}
+}
+mge_trade_path_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_trade_samarkand = {
+		icon = mission_recruit_the_cossacks
+		required_missions = { mge_trade_silk_road }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 454
+		}
+		trigger = {
+			454 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_treasury = 100
+			add_prestige = 10
+		}
+	}
+	mge_trade_astrakhan = {
+		icon = mission_unite_the_princes
+		required_missions = { mge_trade_samarkand }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 464
+		}
+		trigger = {
+			464 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = control_of_astrakhan
+				duration = -1
+			}
+		}
+	}
+}
+mge_trade_path_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_trade_silk_road = {
+		icon = mission_chinese_general_riding
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 707
+		}
+		trigger = {
+			707 = {
+				trade_share = {
+					country = ROOT
+					share = 80
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 2.5
+		}
+	}
+	mge_trade_beijing = {
+		icon = mission_junk_boat
+		required_missions = { mge_trade_silk_road }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 1816
+		}
+		trigger = {
+			4233 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			695 = {
+				add_building = marketplace
+			}
+			4194 = {
+				add_building = marketplace
+			}
+			704 = {
+				add_building = marketplace
+			}
+			2113 = {
+				add_building = marketplace
+			}
+		}
+	}
+	mge_trade_xian = {
+		icon = mission_scholar_officials
+		required_missions = { mge_trade_beijing }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 700
+		}
+		trigger = {
+			700 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			700 = {
+				add_center_of_trade_level = 1
+			}
+			1816 = {
+				add_center_of_trade_level = 1
+			}
+			707 = {
+				add_center_of_trade_level = 1
+			}
+			4678 = {
+				add_center_of_trade_level = 1
+			}
+		}
+	}
+	mge_trade_hangzhou = {
+		icon = mission_indian_soldier_elephant
+		required_missions = { mge_trade_xian }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 684
+				province_id = 667
+			}
+		}
+		trigger = {
+			684 = {
+				trade_share = {
+					country = ROOT
+					share = 60
+				}
+			}
+			1371 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = control_china_trade
+				duration = -1
 			}
 		}
 	}

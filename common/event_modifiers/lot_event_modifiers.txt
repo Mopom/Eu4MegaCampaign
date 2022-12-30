@@ -231,7 +231,7 @@ khan_in_manchuria = {
 	diplomatic_reputation = 1
 }
 guards_of_mong = {
-	local_hostile_attrition = 2
+	local_hostile_attrition = 1
 	local_defender_dice_roll_bonus = 1
 }
 prep_o_war = {
@@ -259,4 +259,12 @@ raid_of_nanking = {
 emperor_of_sinos = {
 	imperial_mandate = 0.005
 	prestige = 0.02
+}
+control_china_trade = {
+	merchants = 1
+	trade_steering = 0.05
+}
+control_of_astrakhan = {
+	merchants = 1
+	caravan_power = 0.03
 }
