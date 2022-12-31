@@ -38,7 +38,7 @@ catholic_conversion_karl = {
 	global_missionary_strength = 0.03
 }
 foothold_africa = {
-	institution_spread_from_true_faith = 0.05
+	institution_spread_from_true_faith = 0.04
 }
 roman_invasion_iminent = {
 	local_hostile_attrition = 3
@@ -267,4 +267,19 @@ control_china_trade = {
 control_of_astrakhan = {
 	merchants = 1
 	caravan_power = 0.03
+}
+khorasan_march_mong = {
+	global_manpower = 5
+	own_territory_dice_roll_bonus = 1
+	cb_on_religious_enemies = yes
+}
+raiding_baghdad = {
+	global_heathen_missionary_strength = 0.03
+	institution_spread_from_true_faith = 0.02
+}
+end_gold_islam = {
+	global_missionary_strength = -0.01
+	tolerance_own = -1
+	relation_with_same_religion = -10
+	religious_unity = -0.15
 }

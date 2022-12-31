@@ -430,5 +430,18 @@
  control_of_astrakhan:0 "Control of Astrakhan"
  mge_trade_astrakhan_title:0 "Contacts in Europe"
  mge_trade_astrakhan_desc:0 "With the control of the Caspian we hold a link to Europe and their traders. We can truly guarantee peace along the western Silk Road."
+ mge_west_kipchak_title:0 "Eastern Golden Horde"
+ mge_west_kipchak_desc:0 "The nations in Syr Darya, Balchash, and Aqmola are the remnants of the Golden Horde that succeeded the glorious Mongol Empire."
+ mge_west_qibilis_title:0 "Floodplains of the Gozan"
+ mge_west_qibilis_desc:0 "The floodplains of the Gozan River provide fertile land for the people of Mongolia.
+ mge_west_khorasan_title:0 "Subjugate Khorasan"
+ mge_west_khorasan_desc:0 "Khorasan, legacy kingdom of the Mongol Empire, is the perfect buffer between ourselves, the Caliphate of Baghdad and the Gangan and Oriyan Empires."
+ khorasan_march_mong:0 "Khorasan, March of Mongolia"
+ mge_west_expand_kho_title:0 "Expand Khorasan"
+ mge_west_expand_kho_desc:0 "If Khorasan runs from the Caspian Sea in the West to the Tibetan Plateau in the East, it will truly protect us from our southern enemies."
+ raiding_baghdad:0 "The Raid to End Islam"
+ end_gold_islam:0 "The End of the Golden Age of Islam"
+ mge_west_califate_title:0 "End of a Golden Age"
+ mge_west_califate_desc:0 "With the Raid of Baghdad comes an end to the golden age of Islam. The seat of the Caliph's power has been struck and has fallen."
  
  #

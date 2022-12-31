@@ -832,6 +832,206 @@ mge_exp_west_branch_3 = {
 			}
 		}
 	}
+	mge_west_qibilis = {
+		icon = mission_advance_to_the_dnieper
+		required_missions = { mge_west_kipchak }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = khiva_area
+				area = transoxiana_area
+				area = termez_area
+				area = ferghana_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			khiva_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			transoxiana_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			termez_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			ferghana_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = KHO
+				months = 300
+			}
+			443 = {
+				add_permanent_claim = ROOT
+			}
+			439 = {
+				add_permanent_claim = ROOT
+			}
+			nogai_area = {
+				add_permanent_claim = ROOT
+			}
+			2351 = {
+				add_permanent_claim = ROOT
+			}
+			1966 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_west_khorasan = {
+		icon = mission_sovereign_principality
+		required_missions = { mge_west_qibilis }
+		position = 6
+		provinces_to_highlight = {
+			AND = {
+				region = khorasan_region
+				owned_by = KHO
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			KHO = {
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			balkh_area = {
+				add_permanent_claim = KHO
+			}
+			451 = {
+				add_permanent_claim = KHO
+			}
+			2225 = {
+				add_permanent_claim = KHO
+			}
+			449 = {
+				add_permanent_claim = KHO
+			}
+			merv_area = {
+				add_permanent_claim = KHO
+			}
+			herat_area = {
+				add_permanent_claim = KHO
+			}
+			mashhad_area = {
+				add_permanent_claim = KHO
+			}
+			2214 = {
+				add_permanent_claim = KHO
+			}
+			437 = {
+				add_permanent_claim = KHO
+			}
+			438 = {
+				add_permanent_claim = KHO
+			}
+			2349 = {
+				add_permanent_claim = KHO
+			}
+		}
+	}
+	mge_west_expand_kho = {
+		icon = mission_asian_cannon
+		required_missions = { mge_west_khorasan }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = balkh_area
+				area = merv_area
+				area = herat_area
+				area = mashhad_area
+				province_id = 451
+				province_id = 2225
+				province_id = 449
+				province_id = 2214
+				province_id = 437
+				province_id = 438
+				province_id = 2349
+			}
+			NOT = {	owned_by = KHO }
+		}
+		trigger = {
+			balkh_area = {
+				type = all
+				owned_by = KHO
+				is_core = KHO
+			}
+			merv_area = {
+				type = all
+				owned_by = KHO
+				is_core = KHO
+			}
+			herat_area = {
+				type = all
+				owned_by = KHO
+				is_core = KHO
+			}
+			mashhad_area = {
+				type = all
+				owned_by = KHO
+				is_core = KHO
+			}
+			KHO = {
+				owns_core_province = 451
+				owns_core_province = 2225
+				owns_core_province = 449
+				owns_core_province = 2214
+				owns_core_province = 437
+				owns_core_province = 438
+				owns_core_province = 2349
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = khorasan_march_mong
+				duration = 7300
+			}
+		}
+	}
+	mge_west_califate = {
+		icon = mission_control_the_ganges_delta
+		required_missions = { mge_west_expand_kho }
+		position = 8
+		provinces_to_highlight = {
+			province_id = 410
+		}
+		trigger = {
+			OR = {
+				war_with = Z00
+				has_won_war_against = {
+					who = Z00
+					max_years_since = 10
+				}
+			}
+			410 = {
+				devastation = 15
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = raiding_baghdad
+				duration = 36500
+			}
+			410 = {
+				add_province_modifier = {
+					name = end_gold_islam
+					duration = 18250
+				}
+			}
+		}
+	}
 }
 mge_trade_path_4 = {
 	slot = 4
@@ -887,6 +1087,82 @@ mge_trade_path_4 = {
 			}
 		}
 	}
+}
+mge_exp_west_branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_west_kipchak = {
+		icon = mission_crusade_for_varna
+		required_missions = { mge_west_kashmir }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2355
+				province_id = 478
+				province_id = 4685
+				province_id = 477
+				province_id = 4686
+				province_id = 2354
+				province_id = 479
+				province_id = 476
+				area = syr_darya_area
+				area = arys_area
+				area = kyzylkum_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			syr_darya_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			arys_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kyzylkum_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2355
+			owns_core_province = 478
+			owns_core_province = 4685
+			owns_core_province = 477
+			owns_core_province = 4686
+			owns_core_province = 2354
+			owns_core_province = 479
+			owns_core_province = 476
+		}
+		effect = {
+			west_siberia_region = {
+				add_permanent_claim = ROOT
+			}
+			ferghana_area = {
+				add_permanent_claim = ROOT
+			}
+			termez_area = {
+				add_permanent_claim = ROOT
+			}
+			transoxiana_area = {
+				add_permanent_claim = ROOT
+			}
+			khiva_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
 }
 mge_trade_path_5 = {
 	slot = 5
