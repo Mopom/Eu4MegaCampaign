@@ -283,3 +283,30 @@ end_gold_islam = {
 	relation_with_same_religion = -10
 	religious_unity = -0.15
 }
+protector_of_hordes = {
+	diplomatic_upkeep = 1
+	prestige = 0.3
+}
+league_of_urals = {
+	diplomatic_upkeep = 2
+	prestige = 0.1
+	vassal_income = 0.2
+}
+transuralian_union = {
+	vassal_forcelimit_bonus = 0.2
+	can_bypass_forts = yes
+	capped_by_forcelimit = yes
+	morale_damage = 0.005
+}
+raiding_konstantiniyye = {
+	cav_to_inf_ratio = 0.15
+	cavalry_shock = 1
+}
+raid_of_konstantiniyye = {
+	land_morale = -0.05
+	war_exhaustion = 0.07
+}
+raiding_moscow = {
+	cav_to_inf_ratio = 0.15
+	cavalry_shock = 1
+}
