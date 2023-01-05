@@ -880,9 +880,19 @@ veche_republic = {
 		NOT = { have_had_reform = great_veche_republic }
 		OR = {
 			culture_group = east_slavic
-			AND = {
+			OR = {
 				is_playing_custom_nation = yes
+				has_reform = veche_republic
 				have_had_reform = veche_republic
+			}
+			OR = {
+			religion = orthodox
+			religion = monothelite
+			religion = iconoclast
+			religion = paulician
+			religion = bogomilist
+			religion = slavic_pagan
+			religion = slavic_pagan_reformed
 			}
 		}
 	}
@@ -992,7 +1002,17 @@ great_veche_republic = {
 	allow_normal_conversion = yes
 	potential = {
 		culture_group = east_slavic
-		religion = orthodox
+		OR = {
+			religion = orthodox
+			religion = monothelite
+			religion = iconoclast
+			religion = paulician
+			religion = bogomilist
+			religion_group = pagan
+			AND = {
+				religion_group = christian
+				uses_patriarch_authority = yes
+			}
 		OR = {
 			AND = {
 				tag = RUS
@@ -1441,10 +1461,7 @@ dutch_republic = {
 				tag = NED
 				NOT = { map_setup = map_setup_random }
 			}
-			AND = {
-				tag = Z02
-				NOT = { map_setup = map_setup_random }
-			}
+			tag = Z02
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = dutch_republic

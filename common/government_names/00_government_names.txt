@@ -5044,7 +5044,10 @@ dutch_colonial_government = {
 	}
 
 	trigger = {
-		primary_culture = dutch
+		OR = {
+			primary_culture = dutch
+			primary_culture = dynamic-saxon-culture-num1
+		}
 		OR = {
 			has_reform = colonial_government
 			has_reform = crown_colony_government
