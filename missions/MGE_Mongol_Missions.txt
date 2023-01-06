@@ -670,6 +670,111 @@ mge_exp_south_branch_2 = {
 		}
 	}
 }
+mge_exp_japan_branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_jap_navy = {
+		icon = mission_junk_boat
+		required_missions = {  }
+		position = 12
+		trigger = {
+			navy_size_percentage = 0.9
+		}
+		effect = {
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125
+			}
+			1015 = {
+				add_claim = ROOT
+			}
+			2741 = {
+				add_claim = ROOT
+			}
+			4651 = {
+				add_claim = ROOT
+			}
+		}
+	}
+	mge_jap_jeju_ryukyu = {
+		icon = mission_invade_island
+		required_missions = { mge_jap_navy }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1015
+				province_id = 2741
+				province_id = 4651
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			owns_core_province = 1015
+			owns_core_province = 2741
+			owns_core_province = 4651
+			if = {
+				limit = {
+					exists = JAP
+				}
+				navy_size = JAP
+			}
+			else = {
+				navy_size = HIK
+			}
+		}
+		effect = {
+			northern_kyushu = {
+				add_permanent_claim = ROOT
+			}
+			kyushu_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_jap_kyushu = {
+		icon = mission_manchu_warrior
+		required_missions = { mge_jap_jeju_ryukyu }
+		position = 14
+		provinces_to_highlight = {
+			OR = {
+				area = northern_kyushu
+				area = kyushu_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			northern_kyushu = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kyushu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			shikoku_area = {
+				add_claim = ROOT
+			}
+			1818 = {
+				add_province_modifier = {
+					name = jap_adm_city
+					duration = 10950
+				}
+			}
+		}
+	}
+}
 mge_exp_west_branch_3 = {
 	slot = 3
 	generic = no
@@ -1865,7 +1970,7 @@ mge_religion_path_4 = {
 	has_country_shield = yes
 	
 	mge_relig_tengri_convert = {
-		icon = mission_non-western_cavalry_raid
+		icon = mission_kon_repel_the_missionaries
 		required_missions = {  }
 		position = 10
 		trigger = {
@@ -1913,6 +2018,50 @@ mge_religion_path_4 = {
 			}
 			2182 = {
 				change_religion = tengri_pagan
+			}
+		}
+	}
+	mge_relig_arabia = {
+		icon = mission_bedouins
+		required_missions = { mge_relig_islam }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				region = arabia_region
+				region = mashriq_region
+			}
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 410
+			owns_or_non_sovereign_subject_of = 379
+			owns_or_non_sovereign_subject_of = 385
+			calc_true_if = {
+				all_province = {
+					OR = {
+						region = arabia_region
+						region = mashriq_region
+					}
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 65
+			}
+		}
+		effect = {
+			379 = {
+				add_province_modifier = {
+					name = held_by_christians
+					duration = 36500
+				}
+			}
+			every_country = {
+				limit = {
+					religion_group = muslim
+				}
+				add_country_modifier = {
+					name = mecca_lost_chr
+					duration = 14600
+				}
 			}
 		}
 	}
@@ -2124,6 +2273,59 @@ mge_religion_path_5 = {
 						name = brothers_of_faith
 						duration = -1
 					}
+				}
+			}
+		}
+	}
+	mge_relig_ortho_convert = {
+		icon = mission_russian_patriarchatee
+		required_missions = { mge_relig_orthodox }
+		position = 10
+		trigger = {
+			Z0E = {
+				has_opinion = {
+					who = ROOT
+					value = 130
+				}
+			}
+			RUS = {
+				has_opinion = {
+					who = ROOT
+					value = 130
+				}
+			}
+		}
+		effect = {
+			change_religion = orthodox
+			4678 = {
+				change_religion = orthodox
+				remove_province_modifier = brothers_of_faith
+				add_province_modifier = {
+					name = brothers_in_faith
+					duration = -1
+				}
+			}
+			4221 = {
+				change_religion = orthodox
+			}
+			2116 = {
+				change_religion = orthodox
+			}
+			1063 = {
+				change_religion = orthodox
+			}
+			716 = {
+				change_religion = orthodox
+				change_province_name = "Tannu Tuva"
+			}
+			4208 = {
+				change_province_name = "Ycy"
+			}
+			295 = {
+				remove_province_modifier = brothers_of_faith
+				add_province_modifier = {
+					name = brothers_in_faith
+					duration = -1
 				}
 			}
 		}
