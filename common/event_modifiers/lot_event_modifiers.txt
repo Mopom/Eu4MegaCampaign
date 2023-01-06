@@ -270,7 +270,7 @@ control_of_astrakhan = {
 }
 khorasan_march_mong = {
 	global_manpower = 5
-	own_territory_dice_roll_bonus = 1
+	infantry_power = 0.1
 	cb_on_religious_enemies = yes
 }
 raiding_baghdad = {
@@ -309,4 +309,18 @@ raid_of_konstantiniyye = {
 raiding_moscow = {
 	cav_to_inf_ratio = 0.15
 	cavalry_shock = 1
+}
+condemnation_of_the_east = {
+	missionaries = 1
+	global_heathen_missionary_strength = 0.01
+	tolerance_heathen = -1
+}
+victors_of_crusades = {
+	global_missionary_strength = 0.02
+	army_tradition_from_battle = 0.01
+	yearly_army_professionalism = 0.005
+}
+brothers_of_faith = {
+	relation_with_heretics = 5
+	global_missionary_strength = 0.01
 }

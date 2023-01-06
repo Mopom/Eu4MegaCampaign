@@ -1033,6 +1033,109 @@ mge_exp_west_branch_3 = {
 		}
 	}
 }
+mge_religion_path_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_relig_tengri_condemn = {
+		icon = mission_pol_negotiate_nunciature
+		required_missions = {  }
+		position = 9
+		trigger = {
+			temple = 12
+		}
+		effect = {
+			add_country_modifier = {
+				name = condemnation_of_the_east
+				duration = 9125
+			}
+		}
+	}
+	mge_relig_confusion = {
+		icon = mission_to_china
+		required_missions = { mge_relig_tengri_condemn }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				region = mongolia_region
+				region = north_china_region
+				region = central_asia_region
+				region = tibet_region
+				region = west_siberia_region
+				region = east_siberia_region
+			}
+			country_or_non_sovereign_subject_holds = ROOT
+			religion = tengri_pagan
+		}
+		trigger = {
+			NOT = {
+				num_of_religion = {
+					religion = tengri_pagan
+					value = 1
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusade_on_xina
+				duration = 18250
+			}
+		}
+	}
+	mge_relig_islam = {
+		icon = mission_impaled_soldies
+		required_missions = { mge_relig_confusion }
+		position = 11
+		provinces_to_highlight = {
+			province_id = 410
+		}
+		trigger = {
+			war_with = Z00
+			NOT = {
+				religion = sunni
+			}
+		}
+		effect = {
+			define_general = {
+				shock = 2
+				fire = 5
+				manuever = 5
+				siege = 3
+			}
+			add_army_professionalism = 0.12
+		}
+	}
+	mge_relig_gangan = {
+		icon = mission_invade_maharashtra
+		required_missions = { mge_relig_islam }
+		position = 12
+		provinces_to_highlight = {
+			province_id = 522
+		}
+		trigger = {
+			has_won_war_against = {
+				who = MGE
+				max_years_since = 10
+			}
+			NOT = {
+				religion = gangan
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = victors_of_crusades
+				duration = 36500
+			}
+		}
+	}
+}
 mge_trade_path_4 = {
 	slot = 4
 	generic = no
@@ -1720,7 +1823,7 @@ mge_exp_west_branch_4 = {
 			}
 			add_country_modifier = {
 				name = transuralian_union
-				duration = 14600
+				duration = 7300
 			}
 		}
 	}
@@ -1746,6 +1849,70 @@ mge_exp_west_branch_4 = {
 					name = raid_of_konstantiniyye
 					duration = 5475
 				}
+			}
+		}
+	}
+}
+mge_religion_path_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_relig_tengri_convert = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = {  }
+		position = 10
+		trigger = {
+			if = {
+				limit = { exists = KRC }
+				KRC = {
+					has_opinion = {
+						who = ROOT
+						value = 160
+					}
+				}
+			}
+			else_if = {
+				limit = { exists = SOL }
+				SOL = {
+					has_opinion = {
+						who = ROOT
+						value = 160
+					}
+				}
+			}
+			else = {
+				num_of_religion = {
+					religion = tengri_pagan
+					value = 10
+				}
+			}
+		}
+		effect = {
+			change_religion = tengri_pagan
+			4678 = {
+				change_religion = tengri_pagan
+			}
+			716 = {
+				change_religion = tengri_pagan
+			}
+			4681 = {
+				change_religion = tengri_pagan
+			}
+			1066 = {
+				change_religion = tengri_pagan
+			}
+			1063 = {
+				change_religion = tengri_pagan
+			}
+			2182 = {
+				change_religion = tengri_pagan
 			}
 		}
 	}
@@ -1907,6 +2074,57 @@ mge_exp_west_branch_5 = {
 			add_country_modifier = {
 				name = raiding_moscow
 				duration = 7300
+			}
+		}
+	}
+}
+mge_religion_path_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_relig_orthodox = {
+		icon = mission_autocephalous_archbishopric
+		required_missions = {  }
+		position = 9
+		trigger = {
+			any_neighbor_province = {
+				religion = orthodox	
+			}
+		}
+		effect = {
+			4678 = {
+				add_province_modifier = {
+					name = brothers_of_faith
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					exists = Z0E
+				}
+				Z0E = {
+					capital_scope = {
+						add_province_modifier = {
+							name = brothers_of_faith
+							duration = -1
+						}
+					}
+				}
+			}
+			else = {
+				295 = {
+					add_province_modifier = {
+						name = brothers_of_faith
+						duration = -1
+					}
+				}
 			}
 		}
 	}
