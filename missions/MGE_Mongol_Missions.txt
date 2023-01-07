@@ -363,6 +363,69 @@ mge_exp_south_branch_1 = {
 		}
 	}
 }
+mge_exp_japan_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_jap_shikoku = {
+		icon = mission_japanese_samurai
+		required_missions = { mge_jap_kyushu }
+		position = 15
+		provinces_to_highlight = {
+			area = shikoku_area
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			shikoku_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			kinai_area = {
+				add_claim = ROOT
+			}
+			1818 = {
+				add_province_modifier = {
+					name = jap_adm_city
+					duration = 10950
+				}
+			}
+		}
+	}
+	mge_jap_kinai = {
+		icon = mission_japanese_fort
+		required_missions = { mge_jap_shikoku }
+		position = 16
+		provinces_to_highlight = {
+			area = kinai_area
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			kinai_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			chubu_area = {
+				add_permanent_claim = ROOT
+			}
+			eastern_chubu_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
 mge_exp_south_branch_2 = {
 	slot = 2
 	generic = no
@@ -763,16 +826,91 @@ mge_exp_japan_branch_2 = {
 			}
 		}
 		effect = {
+			saigoku_area = {
+				add_permanent_claim = ROOT
+			}
+			sanindo_area = {
+				add_permanent_claim = ROOT
+			}
 			shikoku_area = {
 				add_claim = ROOT
 			}
-			1818 = {
-				add_province_modifier = {
-					name = jap_adm_city
-					duration = 10950
-				}
+		}
+	}
+	mge_jap_sanyodo = {
+		icon = mission_chinese_general_riding
+		required_missions = { mge_jap_kyushu }
+		position = 16
+		provinces_to_highlight = {
+			OR = {
+				area = saigoku_area
+				area = sanindo_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			saigoku_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			sanindo_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
+		effect = {
+			1023 = {
+				add_permanent_claim = ROOT
+			}
+			1837 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_jap_chubu = {
+		icon = mission_to_japan
+		required_missions = { mge_jap_kinai mge_jap_sanyodo }
+		position = 17
+		provinces_to_highlight = {
+			OR = {
+				area = eastern_chubu_area
+				area = chubu_area
+				province_id = 1023
+				province_id = 1837
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			chubu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			eastern_chubu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 1023
+			owns_core_province = 1837
+		}
+		effect = {
+			hokuriku_area = {
+				add_permanent_claim = ROOT
+			}
+			kanto_area = {
+				add_permanent_claim = ROOT
+			}
+			eastern_kanto_area = {
+				add_permanent_claim = ROOT
+			}
+			thohoku_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+		
 	}
 }
 mge_exp_west_branch_3 = {

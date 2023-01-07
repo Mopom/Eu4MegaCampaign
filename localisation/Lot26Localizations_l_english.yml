@@ -485,8 +485,16 @@
  mge_jap_navy_desc:0 "Always have we looked east and across the Korean Seas lies an island chain of peculair traditions. Japan intrigues us."
  mge_jap_jeju_ryukyu_title:0 "Jeju, Ryukyu and Tsushima"
  mge_jap_jeju_ryukyu_desc:0 "The islands of Jeju, Ryukyu and Tsushima form the perfect bases for an invasion of the southern island of Kyushu."
- jap_adm_city:0 "Centre of Japanese Administration"
+ jap_adm_city:0 "Centre for Japanese Administration"
  mge_jap_kyushu_title:0 "Kyushu"
  mge_jap_kyushu_desc:0 "Kyushu, southern island of Japan and the start of our invasion. The Shogun and Emperor will tremble like the earth."
+ mge_jap_sanyodo_title:0 "Hiroshima & Okayama"
+ mge_jap_sanyodo_desc:0 "Through the Crossings of Chikuzen and the Ports of Hiroshima and Okayama we enter the Island of Honshu, the main island of Japan."
+ mge_jap_shikoku_title:0 "Shikoku"
+ mge_jap_shikoku_desc:0 "Shikoku is the other secondary island of Japan besides Kyushu. It lies with prime crossings to Hiroshima and Osaka in the curve of Honshu."
+ mge_jap_kinai_title:0 "Kyoto, Seat of the Emperor"
+ mge_jap_kinai_desc:0 "With our conquest of Kyoto the Emperor is dethroned and all power in Japan rests in us or the weakened Shogun. May the Lord grant us victory over this land."
+ mge_jap_chubu_title:0 "Conquest of Central Japan"
+ mge_jap_chubu_desc:0 "With the conquests of the Daimyos of central Japan we are truly unmatched in Honshu, if not the whole of Japan."
  
  #
