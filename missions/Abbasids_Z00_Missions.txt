@@ -713,8 +713,8 @@ al_Abbas_conquest_2 = {
 		required_missions = {  }
 		position = 7
 		trigger = {
-			army_size_percentage = 1
-			manpower_percentage = 0.8
+			army_size_percentage = 0.9
+			manpower_percentage = 0.7
 			num_of_generals = 2
 		}
 		effect = {
