@@ -358,3 +358,17 @@ assylum_seekers = {
 	local_culture_conversion_cost = 0.35
 	local_autonomy = 0.10
 }
+western_ifluenced = {
+	ship_recruit_speed = -0.2
+	local_institution_spread = 0.03
+	spy_offense = 0.1
+}
+across_vistula = {
+	innovativeness_gain = 0.1
+	institution_spread_from_true_faith = 0.025
+}
+riga_relig = {
+	prestige_per_development_from_conversion = 0.2
+	yearly_patriarch_authority = 0.025
+}
+	

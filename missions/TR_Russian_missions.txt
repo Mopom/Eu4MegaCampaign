@@ -1,0 +1,258 @@
+rus_city_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_kiev = {
+		icon = mission_restore_kiev
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 280
+		}
+		trigger = {
+			OR = {
+				has_building = courthouse
+				has_building = town_hall
+			}
+		}
+		effect = {
+			add_base_tax = 3
+			add_base_production = 5
+			add_base_manpower = 2
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
+			}
+		}
+	}
+}
+rus_city_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_moscow = {
+		icon = mission_conquer_moscow
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 295
+		}
+		trigger = {
+			295 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 40
+			}
+		}
+		effect = {
+			set_capital = 295
+			295 = {
+				add_building = barracks
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
+			}
+		}
+	}
+}
+rus_exp_gen_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_exp_army_size = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 0.9
+			manpower_percentage = 0.3
+			num_of_generals = 2
+		}
+		effect = {
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125
+			}
+			260 = {
+				add_permanent_claim = VOL
+			}
+			2959 = {
+				add_permanent_claim = VOL
+			}
+			1859 = {
+				add_permanent_claim = PRT
+			}
+			4524 = {
+				add_permanent_claim = PRT
+			}
+			256 = {
+				add_permanent_claim = PRT
+			}
+			1938 = {
+				add_permanent_claim = PRT
+				add_permanent_claim = ROOT
+			}
+			269 = {
+				add_permanent_claim = ROOT
+			}
+			257 = {
+				add_permanent_claim = ROOT
+			}
+			east_prussia_area = {
+				add_permanent_claim = PRT
+			}
+			ruthenia_region = {
+				add_permanent_claim = ROOT
+			}
+			russia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+rus_city_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_petrograd = {
+		icon = mission_develop_nevas_port
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 33
+		}
+		trigger = {
+			33 = {
+				owned_by = ROOT
+				is_core = ROOT
+				global_trade = 100
+			}
+			Z02 = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+			}
+		}
+		effect = {
+			33 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+				add_great_project_tier = {
+					type = winter_palace
+					tier = 1
+				}
+				add_province_modifier = {
+					name = western_ifluenced
+					duration = -1
+				}
+				change_province_name = "Petrograd"
+				rename_capital = "Sviatopol"
+			}
+			add_country_modifier = {
+				name = across_vistula
+				duration = 10950
+			}
+		}
+	}
+}
+rus_city_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_riga = {
+		icon = mission_conquer_riga
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 38
+		}
+		trigger = {
+			33 = {
+				owned_by = ROOT
+				is_core = ROOT
+				has_building = cathedral
+			}
+		}
+		effect = {
+			38 = {
+				add_province_modifier = {
+					name = riga_relig
+					duration = 7300
+				}
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = RIGA_BALTIC_CENTRE_OF_ORTHODOX
+				influence = 12
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
+			}
+		}
+	}
+}
