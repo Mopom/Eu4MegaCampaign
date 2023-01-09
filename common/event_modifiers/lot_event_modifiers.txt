@@ -348,3 +348,13 @@ khan_in_japan = {
 tea_over_coffee = {
 	global_unrest = -2
 }
+forebearers_of_japan = {
+	culture_conversion_cost = -0.15
+	relation_with_accepted_culture = 5
+	local_tax_modifier = 0.1
+	trade_value = 0.5
+}
+assylum_seekers = {
+	local_culture_conversion_cost = 0.35
+	local_autonomy = 0.10
+}
