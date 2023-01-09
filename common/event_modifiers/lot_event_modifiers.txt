@@ -186,7 +186,7 @@ trade_ot_black_sea = {
 	trade_value_modifier = 0.15
 }
 more_mocha_mod = {
-	trade_goods_size_modifier = 0.6
+	trade_goods_size_modifier = 0.45
 	province_trade_power_modifier = 0.15
 }
 capital_caliphornia = {
