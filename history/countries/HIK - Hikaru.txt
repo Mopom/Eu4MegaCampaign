@@ -8,14 +8,10 @@ capital = 1021
 1440.1.1= {
 	monarch = {
 		name = "Hisanaga"
-		dynasty = "Oda"
+		dynasty = "Hikaru"
 		birth_date = 1420.1.1
 		adm = 3
-		dip = 4
-		mil = 3
+		dip = 1
+		mil = 6
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = incorruptible_personality
-	add_ruler_personality = lawgiver_personality
-	add_ruler_personality = zealot_personality
 }
