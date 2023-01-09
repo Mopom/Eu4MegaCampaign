@@ -910,7 +910,156 @@ mge_exp_japan_branch_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
-		
+	}
+	mge_jap_japan = {
+		icon = mission_kowtow
+		required_missions = { mge_jap_chubu }
+		position = 18
+		provinces_to_highlight = {
+			OR = {
+				area = hokuriku_area
+				area = kanto_area
+				area = eastern_kanto_area
+				area = thohoku_area
+				area = eastern_chubu_area
+				area = chubu_area
+				area = sanindo_area
+				area = saigoku_area
+			}
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			thohoku_area = {
+				type = all
+				owned_by = ROOT
+			}
+			eastern_kanto_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kanto_area = {
+				type = all
+				owned_by = ROOT
+			}
+			hokuriku_area = {
+				type = all
+				owned_by = ROOT
+			}
+			eastern_chubu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			chubu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kinai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sanindo_area = {
+				type = all
+				owned_by = ROOT
+			}
+			saigoku_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shikoku_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kyushu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			northern_kyushu = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = {
+				exists = JAP
+			}
+		}
+		effect = {
+			thohoku_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			eastern_kanto_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			kanto_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			hokuriku_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			eastern_chubu_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			chubu_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			kinai_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			sanindo_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			saigoku_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			shikoku_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			kyushu_area = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			1014 = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			1818 = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			4182 = {
+				add_core = JAP
+				remove_core = MGE
+			}
+			if = {
+				limit = {
+					KOR = {
+						vassal_of = ROOT
+					}
+				}
+				4651 = {
+					add_core = KOR
+					cede_province = KOR
+					remove_core = MGE
+				}
+			}
+			create_vassal = JAP
+			add_country_modifier = {
+				name = khan_in_japan
+				duration = 18250
+			}
+			hokkaido_area = {
+				add_claim = ROOT
+				add_claim = JAP
+			}
+		}
 	}
 }
 mge_exp_west_branch_3 = {
@@ -1375,6 +1524,85 @@ mge_religion_path_3 = {
 			add_country_modifier = {
 				name = victors_of_crusades
 				duration = 36500
+			}
+		}
+	}
+}
+mge_exp_japan_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_jap_ally = {
+		icon = mission_noble_council
+		required_missions = { mge_jap_jeju_ryukyu }
+		position = 14
+		provinces_to_highlight = {
+			region = japan_region
+			OR = {
+				owned_by = JAP
+				owned_by = ANU
+				owned_by = HIK
+				owned_by = ASK
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = JAP
+				}
+				AND = {
+					alliance_with = JAP
+					marriage_with  = JAP
+				}
+			}
+			else = {
+				OR = {
+					AND = {
+						alliance_with = ANU
+						marriage_with = ANU
+					}
+					AND = {
+						alliance_with = HIK
+						marriage_with = HIK
+					}
+					AND = {
+						alliance_with = ASK
+						marriage_with = ASK
+					}
+				}
+			}
+		}
+		effect = {
+			sakhalin_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mge_jap_sakhalin = {
+		icon = mission_invade_island
+		required_missions = { mge_jap_ally }
+		position = 15
+		provinces_to_highlight = {
+			area = sakhalin_area
+			NOT = {	owned_by = ROOT }
+		}
+		trigger = {
+			sakhalin_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			hokkaido_area = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -2465,6 +2693,92 @@ mge_religion_path_5 = {
 					name = brothers_in_faith
 					duration = -1
 				}
+			}
+		}
+	}
+}
+mge_cilli_path_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_cilli_tea = {
+		icon = mission_asian_trader
+		required_missions = {  }
+		position = 16
+		provinces_to_highlight = {
+			OR = {
+				region = north_china_region
+				region = south_china_region
+				region = xinan_region
+				region = indo_china_region
+				region = burma_region
+				region = tibet_region
+				region = central_asia_region
+				region = bengal_region
+				region = hindusthan_region
+				region = west_india_region
+				region = khorasan_region
+				region = persia_region
+			}
+			trade_goods = tea
+		}
+		trigger = {
+			production_leader = {
+				trade_goods = tea
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = tea_over_coffee
+				duration = 18252
+			}
+			add_historical_rival = Z00
+		}
+	}
+	mge_cilli_new_world = {
+		icon = native_royal_marriage
+		required_missions = {  }
+		position = 17
+		trigger = {
+			any_country = {
+				technology_group = north_american
+				alliance_with = MGE
+			}
+		}
+		effect = {
+			add_prestige = 40
+			every_ally = {
+				limit = {
+					technology_group = north_american
+				}
+				change_technology_group = high_american
+				capital_scope = {
+					change_province_name = "Khaan Y-Beleg"
+				}
+			}
+		}
+	}
+	mge_cilli_industrialised_horde = {
+		icon = mission_rb_build_furnaces
+		required_missions = {  }
+		position = 18
+		trigger = {
+			any_owned_province = {
+				is_institution_origin = industrialization
+			}
+		}
+		effect = {
+			add_prestige = 40
+			2189 = {
+				add_base_production = 7
+				add_building = furnace
 			}
 		}
 	}

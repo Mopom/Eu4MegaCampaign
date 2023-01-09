@@ -341,3 +341,10 @@ jap_adm_city = {
 	global_unrest = -1
 	province_trade_power_modifier = 0.07
 }
+khan_in_japan = {
+	global_trade_power = 0.15
+	mercantilism_cost = -0.2
+}
+tea_over_coffee = {
+	global_unrest = -2
+}
