@@ -382,3 +382,17 @@ tsar_of_south_slavs = {
 	global_own_trade_power = 0.2
 	prestige = 0.4
 }
+boyar_priv_armies = {
+	free_land_leader_pool = 2
+	regiment_manpower_usage = -0.15
+	manpower_in_culture_group_provinces = 0.1
+}
+tsar_of_all_slavs = {
+	prestige = 0.5
+	relation_with_other_culture = 5
+}
+crusade_on_mong = {
+	missionaries = 1
+	global_missionary_strength = 0.01
+	cb_on_religious_enemies = yes
+}

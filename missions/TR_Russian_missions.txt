@@ -156,6 +156,53 @@ rus_exp_west_branch_1 = {
 		}
 	}
 }
+rus_boyar_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_boyar_fort = {
+		icon = fight_bosnian_heresies
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				province_has_current_tech_fort_trigger = yes
+				value = 19
+			}
+		}
+		effect = {
+			add_estate_loyalty_modifier = {
+				estate = estate_nobles
+				desc = FORTIFYING_MISSION_COMPLETED
+				loyalty = 14
+				duration = 7300
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 7.6
+			}
+			add_country_modifier = {
+				name = boyar_priv_armies
+				duration = 10950
+			}
+		}
+	}
+}
 rus_city_missions_2 = {
 	slot = 2
 	generic = no
@@ -395,6 +442,90 @@ rus_exp_west_branch_2 = {
 			add_country_modifier = {
 				name = tsar_of_south_slavs
 				duration = 18250
+			}
+		}
+	}
+	rus_west_slavic = {
+		icon = imperial_ascendancy
+		required_missions = { rus_west_serbia }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				OR = {
+					culture_group = east_slavic
+					culture_group = south_slavic
+					culture = czech
+					culture = polish
+					culture = schlesian
+					culture = sorbian
+					culture = pommeranian
+				}
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			all_province = {
+				OR = {
+					culture_group = east_slavic
+					culture_group = south_slavic
+					culture = czech
+					culture = polish
+					culture = pommeranian
+					culture = schlesian
+					culture = sorbian
+				}
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			all_province = {
+				limit = {
+					culture_group = south_slavic
+				}
+				add_core = SER
+				cede_province = SER
+				remove_core = RUS
+			}
+			all_province = {
+				limit = {
+					OR = {
+						culture = czech
+						culture = polish
+						culture = schlesian
+						culture = sorbian
+						culture = pommeranian
+						culture = dynamic-polish-russian_culture-culture-num1
+					}
+				}
+				add_core = POL
+				remove_core = RUS
+			}
+			all_province = {
+				limit = {
+					culture = dynamic-polish-russian_culture-culture-num1
+				}
+				change_culture = polish
+			}
+			if = {
+				limit = {
+					exists = POL
+				}
+				all_province = {
+					limit = {
+						is_core = POL
+					}
+					cede_province = POL
+				}
+			}
+			else = {
+				create_vassal = POL
+			}
+			override_country_name = SCLAVIA
+			add_country_modifier = {
+				name = tsar_of_all_slavs
+				duration = -1
 			}
 		}
 	}
@@ -875,6 +1006,40 @@ rus_exp_east_branch_4 = {
 			}
 		}
 	}
+	rus_east_mong = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { rus_east_central_asia }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = north_zungaria
+				area = tannu_uriankhai_area
+				province_id  = 4222
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			north_zungaria = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tannu_uriankhai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4222 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusade_on_mong
+				duration = 14600
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -1161,6 +1326,68 @@ rus_exp_east_branch_5 = {
 				estate = estate_church
 				loyalty = 10
 			}
+		}
+	}
+}
+rus_exp_colon_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_colon_muscovy = {
+		icon = mission_sovereign_principality
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+					area = oka_area
+					area = moscow_area
+					area = ryazan_area
+					area = vladimir_area
+					area = suzdal_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			oka_area = {
+				type = all
+				owned_by = ROOT
+			}
+			moscow_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ryazan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			vladimir_area = {
+				type = all
+				owned_by = ROOT
+			}
+			suzdal_area = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = { exists = MOS }
+		}
+		effect = {
+			add_dip_power = 200
+			change_government_reform_progress = 35
 		}
 	}
 }

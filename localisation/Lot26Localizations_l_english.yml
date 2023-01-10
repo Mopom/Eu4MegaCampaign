@@ -564,5 +564,17 @@
  rus_east_caffa_desc:0 "One of the east's biggest ports lies on Crimea. It is the city of Caffa and control of the Black Sea will serve us well."
  rus_east_central_asia_title:0 "Central Asian Hordles"
  rus_east_central_asia_desc:0 "Across the central Asian steppe rumours speak of a great khanate to the east. But for know we can only concern ourselves with even more minor hordles."
+ FORTIFYING_MISSION_COMPLETED:0 "The Right to Fortification"
+ boyar_priv_armies:0 "Boyar Private Armies"
+ rus_boyar_fort_title:0 "Right to Fortification"
+ rus_boyar_fort_desc:0 "The Boyars have come to the Tsar to demand their ancient right to fortification. Perhaps appaesing their demands will silence them."
+ tsar_of_all_slavs:0 "Tsar of All Slavs"
+ rus_west_slavic_title:0 "United Slavic Empire"
+ rus_west_slavic_desc:0 "All slavic people are united under the Tsar."
+ crusade_on_mong:0 "Crusade on Mongolia"
+ rus_east_mong_title:0 "Eastern Mongolia"
+ rus_east_mong_desc:0 "In Eastern Mongolia live a multitude of nestorian altaic peoples. The Kazakh, Kyrgyz and Uriankho-Oirat deserve to know the true nature of God."
+ rus_colon_muscovy_title:0 "Integrate Muscovy"
+ rus_colon_muscovy_desc:0 "Muscovy lies to the east and very practically blocks us from eastward expansion. We should deal with this situation."
  
  #

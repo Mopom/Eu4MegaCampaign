@@ -1536,7 +1536,6 @@ lot_tnf_legacy_of_charlemagne_1 = {
 			add_country_modifier = {
 				name = the_reichskrone
 				duration = 7300
-				
 			}
 		}
 	}
