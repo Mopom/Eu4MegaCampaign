@@ -117,6 +117,44 @@ rus_exp_west_branch_1 = {
 			}
 		}
 	}
+	rus_third_rome_mission = {
+		icon = mission_the_third_rome
+		required_missions = { rus_west_thrace }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = bulgaria_area
+						area = thrace_area
+						area = silistria_area
+					}
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				AND = {
+					province_id = 151
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		trigger = {
+			silistria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns = 151
+		}
+		effect = {
+			country_event = { id = flavor_rus.2001 }
+		}
+	}
 }
 rus_city_missions_2 = {
 	slot = 2
@@ -233,9 +271,9 @@ rus_exp_west_branch_2 = {
 				duration = 7300
 			}
 			moldavia_area = {
-				add_permanent_claim = ROOT
-				add_permanent_claim = VOL
-				add_permanent_claim = PTZ
+				add_claim = ROOT
+				add_claim = VOL
+				add_claim = PTZ
 			}
 			transylvania_area = {
 				add_permanent_claim = ROOT
@@ -253,6 +291,56 @@ rus_exp_west_branch_2 = {
 				add_permanent_claim = ROOT
 			}
 			2960 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_west_hungary = {
+		icon = the_great_city_of_buda
+		required_missions = { rus_west_e_poland }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = transylvania_area
+				area = southern_transylvania_area
+				area = alfold_area
+				province_id = 162
+				province_id = 1318
+				province_id = 2960
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			transylvania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			southern_transylvania_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			alfold_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			162 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1318 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2960 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			rascia_area = {
+				add_permanent_claim = ROOT
+			}
+			serbia_area = {
+				add_permanent_claim = ROOT
+			}
+			bosnia_area = {
 				add_permanent_claim = ROOT
 			}
 		}
@@ -329,6 +417,59 @@ rus_exp_gen_branch_3 = {
 				add_permanent_claim = ROOT
 			}
 			2422 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+rus_exp_east_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_east_crim = {
+		icon = mission_galleys_in_port
+		required_missions = { rus_east_pontic }
+		position = 4
+		provinces_to_highlight = {
+			area = crimea_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			crimea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_cossacks
+				share = 2
+			}
+			330 = {
+				add_permanent_claim = ROOT
+			}
+			2304 = {
+				add_permanent_claim = ROOT
+			}
+			328 = {
+				add_permanent_claim = ROOT
+			}
+			2299 = {
 				add_permanent_claim = ROOT
 			}
 		}
@@ -546,6 +687,59 @@ rus_exp_east_branch_4 = {
 			}
 		}
 	}
+	rus_east_causasus = {
+		icon = mission_castle_construction
+		required_missions = { rus_east_pontic }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = circassia_area
+				province_id = 2416
+				province_id = 468
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			circassia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2416 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			468 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			imereti_area = {
+				add_claim = ROOT
+			}
+			463 = {
+				add_latest_building = { builder = ROOT fort = yes }
+				add_province_modifier = {
+					name = teu_pru_fortified_border
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					4306 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4306 = {
+					add_latest_building = { builder = ROOT fort = yes }
+					add_province_modifier = {
+						name = teu_pru_fortified_border
+						duration = -1
+					}
+				}
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -716,15 +910,20 @@ rus_exp_east_branch_5 = {
 			}
 			lower_yik_area = {
 				add_permanent_claim = ROOT
+				add_permanent_claim = Z0E
 			}
 			nogai_area = {
 				add_permanent_claim = ROOT
+				add_permanent_claim = Z0E
 			}
 			astrakhan_area = {
 				add_permanent_claim = ROOT
 			}
 			dagestan_area = {
 				add_permanent_claim = ROOT
+			}
+			2351 = {
+				add_permanent_claim = Z0E
 			}
 			add_country_modifier = {
 				name = "gen_eur_defender"
@@ -737,6 +936,95 @@ rus_exp_east_branch_5 = {
 			add_estate_loyalty = {
 				estate = estate_church
 				loyalty = -15
+			}
+		}
+	}
+	rus_east_caspian = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { rus_east_patriarchate }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = lower_yik_area
+				area = nogai_area
+				area = astrakhan_area
+				area = dagestan_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			dagestan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			astrakhan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_yik_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nogai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Z0E = {
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			lower_yik_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			nogai_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			transcaspia_area = {
+				add_permanent_claim = ROOT
+			}
+			khiva_area = {
+				add_permanent_claim = ROOT
+			}
+			merv_area = {
+				add_permanent_claim = ROOT
+			}
+			transoxiana_area = {
+				add_permanent_claim = ROOT
+			}
+			kyzylkum_area = {
+				add_permanent_claim = ROOT
+			}
+			syr_darya_area = {
+				add_permanent_claim = ROOT
+			}
+			kazakhstan_area = {
+				add_permanent_claim = ROOT
+			}
+			balchasj_area = {
+				add_permanent_claim = ROOT
+			}
+			jetysuu_area = {
+				add_permanent_claim = ROOT
+			}
+			arys_area = {
+				add_permanent_claim = ROOT
+			}
+			ferghana_area = {
+				add_permanent_claim = ROOT
+			}
+			termez_area = {
+				add_permanent_claim = ROOT
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
 			}
 		}
 	}

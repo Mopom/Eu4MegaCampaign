@@ -548,5 +548,14 @@
  rus_east_patriarchate_desc:0 "The Ecumenical Patriarchate would gain much from our protection. And with the church so close to our administration we can be little but holy."
  rus_west_thrace_title:0 "Wallachia and Thrace"
  rus_west_thrace_desc:0 "In Wallachia and Thrace lay several Orthodox Kingdoms and Duchies. They lie precariously between a Rhenist Empire to the west, a Catholic Kingdom to the north, and an Islamic Sultanate to the east. It is our God given duty to take these righteous believers into our fold."
+ rus_west_hungary_title:0 "The Carpathian Basin"
+ rus_west_hungary_desc:0 "In the Carpathian Basin lies a heretic nation who adhere to Catholicism. We cannot tolerate heretics so close to Kiev."
+ rus_east_crim_title:0 "Crimea"
+ rus_east_crim_desc:0 "The Crimean Peninsula is home to a heretic Princedom and an Islamic Sultanate that blocks our trade in the Black Sea and further. They will regret their meddling."
+ rus_east_causasus_title:0 "Fortify the Caucasus"
+ rus_east_causasus_desc:0 "The Caucasus is the natural border between Europe and Asia in the south. As this mountain range is also the border between our state and the Muslims it is always at risk of being overrun in a moment notice. We should conquer the northern part of the Caucasus and fortify it."
+ teu_pru_fortified_border:0 "Fortified Border"
+ rus_east_caspian_title:0 "Caspian Hordes"
+ rus_east_caspian_desc:0 "The further east we conquer the more hordes we find. Will there be an end to these nomads?"
  
  #

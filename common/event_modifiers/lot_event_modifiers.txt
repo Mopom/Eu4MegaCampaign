@@ -371,4 +371,8 @@ riga_relig = {
 	prestige_per_development_from_conversion = 0.2
 	yearly_patriarch_authority = 0.025
 }
-	
+teu_pru_fortified_border = {	#Permanent, province
+	local_defensiveness = 0.5
+	local_garrison_size = 0.25
+	local_fort_maintenance_modifier = -0.9
+}
