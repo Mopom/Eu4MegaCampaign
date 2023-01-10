@@ -120,11 +120,11 @@ rus_exp_west_branch_1 = {
 	rus_third_rome_mission = {
 		icon = mission_the_third_rome
 		required_missions = { rus_west_thrace }
+		position = 5
 		provinces_to_highlight = {
 			OR = {
 				AND = {
 					OR = {
-						area = bulgaria_area
 						area = thrace_area
 						area = silistria_area
 					}
@@ -345,6 +345,59 @@ rus_exp_west_branch_2 = {
 			}
 		}
 	}
+	rus_west_serbia = {
+		icon = legacy_of_the_sclavinias
+		required_missions = { rus_west_hungary rus_west_thrace }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = rascia_area
+				area = serbia_area
+				area = bosnia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			serbia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bosnia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			rascia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = { exists = SER }
+		}
+		effect = {
+			serbia_area = {
+				add_core = SER
+				remove_core = RUS
+			}
+			bosnia_area = {
+				add_core = SER
+				remove_core = RUS
+			}
+			rascia_area = {
+				add_core = SER
+				remove_core = RUS
+			}
+			create_vassal = SER
+			macedonia_area = {
+				add_permanent_claim = SER
+			}
+			4703 = {
+				add_permanent_claim = SER
+			}
+			add_country_modifier = {
+				name = tsar_of_south_slavs
+				duration = 18250
+			}
+		}
+	}
 }
 rus_exp_gen_branch_3 = {
 	slot = 3
@@ -474,6 +527,41 @@ rus_exp_east_branch_3 = {
 			}
 		}
 	}
+	rus_east_caffa = {
+		icon = capture_adriatic_ports
+		required_missions = { rus_east_crim }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 285
+		}
+		trigger = {
+			285 = {
+				owned_by = ROOT
+				is_core = ROOT
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				development = 20
+			}
+		}
+		effect = {
+			285 = {
+				add_center_of_trade_level = 1
+				add_province_modifier = {
+					name = trade_ot_black_sea
+					duration = -1
+				}
+				change_province_name = "Sviatopol"
+				rename_capital = "Feodosiya"
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.7
+			}
+		}
+	}
 }
 rus_city_missions_4 = {
 	slot = 4
@@ -525,7 +613,6 @@ rus_city_missions_4 = {
 					duration = -1
 				}
 				change_province_name = "Petrograd"
-				rename_capital = "Sviatopol"
 			}
 			add_country_modifier = {
 				name = across_vistula
@@ -737,6 +824,54 @@ rus_exp_east_branch_4 = {
 						duration = -1
 					}
 				}
+			}
+		}
+	}
+	rus_east_central_asia = {
+		icon = mission_chinese_general_riding
+		required_missions = { rus_east_causasus rus_east_caspian }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = transcaspia_area
+				area = khiva_area
+				area = merv_area
+				area = transoxiana_area
+				area = kyzylkum_area
+				area = syr_darya_area
+				area = kazakhstan_area
+				area = balchasj_area
+				area = jetysuu_area
+				area = arys_area
+				area = ferghana_area
+				area = termez_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					region = central_asia_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 40
+			}
+		}
+		effect = {
+			north_zungaria = {
+				add_permanent_claim = ROOT
+			}
+			tannu_uriankhai_area = {
+				add_permanent_claim = ROOT
+			}
+			4222 = {
+				add_permanent_claim = ROOT
+			}
+			change_estate_land_share = {
+				estate = estate_cossacks
+				share = 4.12
 			}
 		}
 	}

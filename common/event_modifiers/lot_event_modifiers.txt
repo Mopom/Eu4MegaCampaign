@@ -376,3 +376,9 @@ teu_pru_fortified_border = {	#Permanent, province
 	local_garrison_size = 0.25
 	local_fort_maintenance_modifier = -0.9
 }
+tsar_of_south_slavs = {
+	global_tax_modifier = 0.05
+	global_unrest = -0.5
+	global_own_trade_power = 0.2
+	prestige = 0.4
+}
