@@ -38,6 +38,86 @@ rus_city_missions_1 = {
 		}
 	}
 }
+rus_exp_west_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_west_moldova = {
+		icon = mission_consolidate_the_state
+		required_missions = { rus_west_e_poland }
+		position = 3
+		provinces_to_highlight = {
+			area = moldavia_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			moldavia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			wallachia_area = {
+				add_permanent_claim = ROOT
+			}
+			silistria_area = {
+				add_permanent_claim = ROOT
+			}
+			bulgaria_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_west_thrace = {
+		icon = mission_conquer_romania
+		required_missions = { rus_west_moldova }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = wallachia_area
+				area = silistria_area
+				area = bulgaria_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			wallachia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			silistria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bulgaria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			thrace_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
 rus_city_missions_2 = {
 	slot = 2
 	generic = no
@@ -313,7 +393,7 @@ rus_city_missions_4 = {
 		}
 	}
 }
-rus_exp_west_branch_4 = {
+rus_exp_east_branch_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -330,7 +410,7 @@ rus_exp_west_branch_4 = {
 	}
 	has_country_shield = yes
 	
-	rus_west_urals = {
+	rus_east_urals = {
 		icon = mission_cossack_cavalry
 		required_missions = { rus_exp_army_size }
 		position = 2
@@ -410,6 +490,62 @@ rus_exp_west_branch_4 = {
 			}
 		}
 	}
+	rus_east_pontic = {
+		icon = mission_recruit_the_cossacks
+		required_missions = { rus_east_urals }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = lower_don_area
+				area = azov_area
+				area = zaporizhia_area
+				area = yedisan_area
+				province_id = 2447
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			yedisan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zaporizhia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			azov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_don_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2447 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_cossacks
+				share = 7.6
+			}
+			crimea_area = {
+				add_permanent_claim = ROOT
+			}
+			circassia_area = {
+				add_permanent_claim = ROOT
+			}
+			2416 = {
+				add_permanent_claim = ROOT
+			}
+			468 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -457,6 +593,150 @@ rus_city_missions_5 = {
 			change_estate_land_share = {
 				estate = estate_church
 				share = 5
+			}
+		}
+	}
+}
+rus_exp_east_branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_east_patriarchate = {
+		icon = mission_autocephalous_archbishopric
+		required_missions = { rus_east_urals }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				region = ural_region
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			saratov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			samara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kazan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1964 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1963 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kama_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			volga_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bashkiria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Z0E = {
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			saratov_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			473 = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			Z0E = {
+				bashkiria_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				volga_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				kazan_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				kama_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				1964 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				1963 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				1081 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				2423 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+			}
+			lower_yik_area = {
+				add_permanent_claim = ROOT
+			}
+			nogai_area = {
+				add_permanent_claim = ROOT
+			}
+			astrakhan_area = {
+				add_permanent_claim = ROOT
+			}
+			dagestan_area = {
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = "gen_eur_defender"
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 7.6
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -15
 			}
 		}
 	}

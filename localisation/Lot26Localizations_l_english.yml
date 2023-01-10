@@ -538,7 +538,15 @@
  rus_city_riga_desc:0 "Riga is a centre of trade and power in the Baltics. To designate it as a seat of an Orthodox archbishop would allow our faith to propagate in the West."
  rus_west_e_poland_title:0 "Eastern Expansion"
  rus_west_e_poland_desc:0 "In the 1218 Treaty of Danzig we signed a border treaty between ourselves and The Northern Federation. And though it's term has passed it is only right to respect the Vistula as our natural border."
- rus_west_urals_title:0 "Uralian Hordes"
- rus_west_urals_desc:0 "To the east, between us and the Urals, lie a plentitude of hordes and the Ecumenical Patriarchate. Let us assimilate these backwards peoples into our realm."
+ rus_east_urals_title:0 "Uralian Hordes"
+ rus_east_urals_desc:0 "To the east, between us and the Urals, lie a plentitude of hordes and the Ecumenical Patriarchate. Let us assimilate these backwards peoples into our realm."
+ rus_west_moldova_title:0 "Moldova, the Borderland"
+ rus_west_moldova_desc:0 "Moldova lies on the border of the Eurasian Steppe. It blocks the gap between the Carpathian Mountains and the Danube River. This land is of vital importance to Kiev's security."
+ rus_east_pontic_title:0 "Cossacks and the Steppe"
+ rus_east_pontic_desc:0 "On the Pontic Steppe even more hordes roam. They lie too close to Kiev for comfort."
+ rus_east_patriarchate_title:0 "A Patriarchal Vassal"
+ rus_east_patriarchate_desc:0 "The Ecumenical Patriarchate would gain much from our protection. And with the church so close to our administration we can be little but holy."
+ rus_west_thrace_title:0 "Wallachia and Thrace"
+ rus_west_thrace_desc:0 "In Wallachia and Thrace lay several Orthodox Kingdoms and Duchies. They lie precariously between a Rhenist Empire to the west, a Catholic Kingdom to the north, and an Islamic Sultanate to the east. It is our God given duty to take these righteous believers into our fold."
  
  #
