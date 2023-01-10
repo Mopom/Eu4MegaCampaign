@@ -536,5 +536,9 @@
  RIGA_BALTIC_CENTRE_OF_ORTHODOX:0 "Riga, Seat of the Baltic Archbishop"
  rus_city_riga_title:0 "Riga, Seat of the Archbishop"
  rus_city_riga_desc:0 "Riga is a centre of trade and power in the Baltics. To designate it as a seat of an Orthodox archbishop would allow our faith to propagate in the West."
+ rus_west_e_poland_title:0 "Eastern Expansion"
+ rus_west_e_poland_desc:0 "In the 1218 Treaty of Danzig we signed a border treaty between ourselves and The Northern Federation. And though it's term has passed it is only right to respect the Vistula as our natural border."
+ rus_west_urals_title:0 "Uralian Hordes"
+ rus_west_urals_desc:0 "To the east, between us and the Urals, lie a plentitude of hordes and the Ecumenical Patriarchate. Let us assimilate these backwards peoples into our realm."
  
  #

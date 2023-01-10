@@ -80,6 +80,104 @@ rus_city_missions_2 = {
 		}
 	}
 }
+rus_exp_west_branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_west_e_poland = {
+		icon = mission_conquer_5_states
+		required_missions = { rus_exp_army_size }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 260
+				province_id = 2959
+				province_id = 269
+				province_id = 1938
+				province_id = 256
+				province_id = 4524
+				province_id = 1859
+				province_id = 1841
+				area = east_prussia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			east_prussia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			260 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2959 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			269 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1938 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			256 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4524 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1859 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1841 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "rus_partition_poland_modifier"
+				duration = 7300
+			}
+			moldavia_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = VOL
+				add_permanent_claim = PTZ
+			}
+			transylvania_area = {
+				add_permanent_claim = ROOT
+			}
+			southern_transylvania_area = {
+				add_permanent_claim = ROOT
+			}
+			alfold_area = {
+				add_permanent_claim = ROOT
+			}
+			162 = {
+				add_permanent_claim = ROOT
+			}
+			1318 = {
+				add_permanent_claim = ROOT
+			}
+			2960 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
 rus_exp_gen_branch_3 = {
 	slot = 3
 	generic = no
@@ -141,7 +239,16 @@ rus_exp_gen_branch_3 = {
 			ruthenia_region = {
 				add_permanent_claim = ROOT
 			}
-			russia_region = {
+			tambov_area = {
+				add_permanent_claim = ROOT
+			}
+			galich_area = {
+				add_permanent_claim = ROOT
+			}
+			2423 = {
+				add_permanent_claim = ROOT
+			}
+			2422 = {
 				add_permanent_claim = ROOT
 			}
 		}
@@ -202,6 +309,104 @@ rus_city_missions_4 = {
 			add_country_modifier = {
 				name = across_vistula
 				duration = 10950
+			}
+		}
+	}
+}
+rus_exp_west_branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_west_urals = {
+		icon = mission_cossack_cavalry
+		required_missions = { rus_exp_army_size }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				region = ruthenia_region
+				area = tambov_area
+				area = galich_area
+				province_id = 2423
+				province_id = 2422
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			ruthenia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tambov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			galich_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2423 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2422 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			tambov_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "convert_the_steppes"
+					duration = 5475
+				}
+			}
+			galich_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "convert_the_steppes"
+					duration = 5475
+				}
+			}
+			lower_don_area = {
+				add_permanent_claim = ROOT
+			}
+			azov_area = {
+				add_permanent_claim = ROOT
+			}
+			zaporizhia_area = {
+				add_permanent_claim = ROOT
+			}
+			yedisan_area = {
+				add_permanent_claim = ROOT
+			}
+			2447 = {
+				add_permanent_claim = ROOT
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = Z0E
+				months = 300
+			}
+			ural_region = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
