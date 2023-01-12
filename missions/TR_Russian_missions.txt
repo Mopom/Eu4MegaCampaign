@@ -202,6 +202,66 @@ rus_boyar_missions_1 = {
 			}
 		}
 	}
+	rus_boyar_serfdom = {
+		icon = mission_pol_tend_east
+		required_missions = { rus_boyar_fort }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = tver_area
+				area = white_ruthenia_area
+				area = moscow_area
+				area = oka_area
+				area = smolensk_area
+				area = minsk_area
+				area = west_dniepr_area
+				area = east_dniepr_area
+				area = chernigov_area
+				area = sloboda_ukraine_area
+			}
+			trade_goods = grain
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						area = tver_area
+						area = white_ruthenia_area
+						area = moscow_area
+						area = oka_area
+						area = smolensk_area
+						area = minsk_area
+						area = west_dniepr_area
+						area = east_dniepr_area
+						area = chernigov_area
+						area = sloboda_ukraine_area
+					}
+					trade_goods = grain
+					has_building = farm_estate
+				}
+				amount = 10
+			}
+		}
+		effect = {
+			280 = {
+				add_center_of_trade_level = 1
+				add_building = trade_depot
+			}
+			293 = {
+				add_center_of_trade_level = 1
+			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = SERFDOM_MISSION_COMPLETE
+				influence = 12.9
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 4.7
+			}
+		}
+	}
 }
 rus_city_missions_2 = {
 	slot = 2
@@ -526,6 +586,71 @@ rus_exp_west_branch_2 = {
 			add_country_modifier = {
 				name = tsar_of_all_slavs
 				duration = -1
+			}
+		}
+	}
+}
+rus_boyar_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_boyar_islamic = {
+		icon = mission_reconquer_ceuta
+		required_missions = { rus_boyar_fort }
+		position = 7
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+				religion = sunni
+				num_of_owned_provinces_with = {
+					religion = sunni
+					value = 6
+				}
+				calc_true_if = {
+					all_subject_country = {
+						religion = sunni
+					}
+					amount = 2
+				}
+			}
+		}
+		effect = {
+			set_country_flag = enables_estate_dhimmi_flag
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 10
+			}
+			add_estate_loyalty = {
+				estate = estate_dhimmi
+				loyalty = 10
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -7.4
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = DHIMMI_EXIIST
+				influence = -6.6
+				duration = 9125
+			}
+			add_country_modifier = {
+				name = boyar_isl_happy
+				duration = 10950
 			}
 		}
 	}
@@ -1040,6 +1165,40 @@ rus_exp_east_branch_4 = {
 			}
 		}
 	}
+	rus_east_nestorian = {
+		icon = subiaco_press
+		required_missions = { rus_east_mong }
+		position = 7
+		provinces_to_highlight = {
+		}
+		trigger = {
+			MGE = {
+				religion = orthodox
+			}
+		}
+		effect = {
+			280 = {
+				add_province_modifier = {
+					name = brothers_in_faith
+					duration = -1
+				}
+			}
+			295 = {
+				add_province_modifier = {
+					name = brothers_in_faith
+					duration = -1
+				}
+			}
+			MGE = {
+				capital_scope = {
+					add_province_modifier = {
+						name = brothers_in_faith
+						duration = -1
+					}
+				}
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -1388,6 +1547,56 @@ rus_exp_colon_5 = {
 		effect = {
 			add_dip_power = 200
 			change_government_reform_progress = 35
+			ishim_area = {
+				add_permanent_claim = ROOT
+			}
+			aqmola_area = {
+				add_permanent_claim = ROOT
+			}
+			yrtesh_area = {
+				add_permanent_claim = ROOT
+			}
+			ob_area = {
+				add_permanent_claim = ROOT
+			}
+			kara_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_colon_sib_1 = {
+		icon = mission_colonial
+		required_missions = { rus_colon_muscovy }
+		position = 7
+		provinces_to_highlight = {
+			region = west_siberia_region
+			has_discovered = ROOT
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = ishim_area
+					area = aqmola_area
+					area = yrtesh_area
+					area = ob_area
+					area = kara_area
+					area = central_siberia_area
+				}
+				value = 25
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			define_conquistador = {
+				name = "Yermak Bryachislavich"
+				shock = 6
+				fire = 6
+				manuever = 5
+				siege = 0
+			}
 		}
 	}
 }

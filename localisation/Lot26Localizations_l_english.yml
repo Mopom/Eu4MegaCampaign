@@ -576,5 +576,16 @@
  rus_east_mong_desc:0 "In Eastern Mongolia live a multitude of nestorian altaic peoples. The Kazakh, Kyrgyz and Uriankho-Oirat deserve to know the true nature of God."
  rus_colon_muscovy_title:0 "Integrate Muscovy"
  rus_colon_muscovy_desc:0 "Muscovy lies to the east and very practically blocks us from eastward expansion. We should deal with this situation."
+ SERFDOM_MISSION_COMPLETE:0 "The Right to Serfdom"
+ rus_boyar_serfdom_title:0 "Right to Serfdom"
+ rus_boyar_serfdom_desc:0 "The Boyars appeal to the Tsar to reenforce the right to serfdom. Just as after the Black Death the peasants are growing disloyal."
+ DHIMMI_EXIIST:0 "Accepted Dhimmi"
+ boyar_isl_happy:0 "Islamic Boyars Accepted"
+ rus_boyar_islamic_title:0 "Islamic Boyars"
+ rus_boyar_islamic_desc:0 "Ever since the marriage between Tsaritsa Boleslava I and Caliph Muhammad III of the Abbasid Caliphate our Russia has drifted ever closer to Islam. Even Tsaritsa Yekaterina II converted to Islam during her life. Though we do not believe her right it is best to accept these Islamic Boayrs."
+ rus_east_nestorian_title:0 "Crusade on the Nestorians"
+ rus_east_nestorian_desc:0 "Ever since making contact with Greater Wang we feel an obligation to bring them into the right Christian fold. A crusade is the clearest and most effective method to achieve this."
+ rus_colon_sib_1_title:0 "Colonise Siberia I"
+ rus_colon_sib_1_desc:0 "We have started to drive the Ugrics out of Siberia, to strengthen our hold on these regions we must establish forts so they can be brought into Russian control."
  
  #

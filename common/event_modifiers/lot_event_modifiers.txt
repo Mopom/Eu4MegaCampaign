@@ -396,3 +396,9 @@ crusade_on_mong = {
 	global_missionary_strength = 0.01
 	cb_on_religious_enemies = yes
 }
+boyar_isl_happy = {
+	global_unrest = -2
+	relation_with_heretics = 5
+	relation_with_heathens = 10
+	technology_cost = -0.1
+}
