@@ -5,42 +5,68 @@ technology_group = eastern
 religion = orthodox
 primary_culture = ruthenian
 capital = 280
-1444.11.11= {
+1416.6.25= {
+	monarch = {
+		name = "Boris"
+		dynasty = "Rurikid"
+		adm = 1
+		dip = 6
+		mil = 5
+		birth_date = 1382.11.7
+		religion = orthodox
+		culture = ruthenian
+	}
+	queen = {
+		name = "Praskovya"
+		dynasty = "Rurikid"
+		adm = 2
+		dip = 3
+		mil = 3
+		country_of_origin = RUS
+		birth_date = 1383.12.2
+		death_date = 1453.7.25
+		female = yes
+		religion = orthodox
+		culture = ruthenian
+	}
+	heir = {
+		name = "Fedot"
+		monarch_name = "Fedot III"
+		dynasty = "Rurikid"
+		adm = 5
+		dip = 6
+		mil = 4
+		birth_date = 1401.1.6
+		death_date = 1476.1.6
+		claim = 89
+		religion = orthodox
+		culture = ruthenian
+	}
+}
+1375.6.26 = {
 	monarch = {
 		name = "Yekaterina II"
 		dynasty = "Rurikid"
 		adm = 3
 		dip = 4
 		mil = 4
-		birth_date = 1394.5.28
+		birth_date = 1335.5.28
 		female = yes
-		religion = orthodox
+		religion = sunni
 		culture = ruthenian
 	}
-	queen = {
-		name = "Boris"
-		dynasty = "Petrilov"
-		adm = 4
-		dip = 4
-		mil = 4
-		country_of_origin = RUS
-		birth_date = 1394.7.25
-		death_date = 1454.7.25
-		religion = orthodox
-		culture = russian_culture
-	}
-	heir = {
+}
+1399.3.18 = {
+	monarch = {
 		name = "Oleg"
 		monarch_name = "Oleg"
 		dynasty = "Rurikid"
 		adm = 5
 		dip = 6
 		mil = 4
-		birth_date = 1421.1.6
-		death_date = 1486.1.6
-		claim = 89
+		birth_date = 1362.1.6
 		religion = orthodox
-		culture = russian_culture
+		culture = ruthenian
 	}
 }
 1444.11.11= {

@@ -18,6 +18,8 @@ capital = 174
 		religion = samaritan_faith
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
+}
+1423.2.26 = {
 	heir = {
 		name = "Dolça"
 		monarch_name = "Dolça II"
