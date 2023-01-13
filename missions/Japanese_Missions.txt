@@ -326,164 +326,6 @@ japanse_missions_china = {
 			}
 		}
 	}
-	
-	JAP_emperor_of_china = {
-		icon = mission_chinese_general_riding
-		required_missions = { establish_footholding_in_manchuria jap_colonize_taiwan }
-		position = 6
-		provinces_to_highlight = {
-			OR = {
-				area = hebei_area
-				area = liaoning_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		
-		trigger = {
-			tag = JAP
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				OR = {
-					is_emperor_of_china = yes
-					NOT = {
-						any_country = {
-							is_emperor_of_china = yes
-						}
-					}
-				}
-			}
-			hebei_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			liaoning_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-					is_emperor_of_china = yes
-				}
-				add_mandate_large_effect = yes
-			}
-			else_if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-					any_country = {
-						is_emperor_of_china = yes
-					}
-				}
-				custom_tooltip = tau_dragon_throne_fake_mandate
-			}
-			else = {
-				add_prestige = 20
-				add_stability_or_adm_power = yes
-			}
-			add_adm_power = 100
-			add_dip_power = 100
-			add_mil_power = 100
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-					is_emperor_of_china = yes
-				}
-				every_known_country = {
-					limit = {
-						capital_scope = {
-							OR = {
-								area = vietnam_area
-								area = cambodia_area
-								area = central_thai_area
-								area = red_river_delta_area
-							}
-						}
-					}
-					ROOT = {
-						add_casus_belli = {
-							type = cb_force_tributary_mission
-							months = 300
-							target = PREV
-						}
-					}
-				}
-			}
-			else = {
-				every_known_country = {
-					limit = {
-						capital_scope = {
-							OR = {
-								area = vietnam_area
-								area = cambodia_area
-								area = central_thai_area
-								area = red_river_delta_area
-							}
-						}
-					}
-					ROOT = {
-						add_casus_belli = {
-							type = cb_vassalize_mission
-							months = 300
-							target = PREV
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	JAP_go_to_indochina = {
-		icon = mission_junk_boat
-		required_missions = { JAP_emperor_of_china }
-		
-		provinces_to_highlight = {
-			OR = {
-				area = central_thai_area
-				area = vietnam_area
-			}
-			NOT = {
-				owner = { 
-					OR = {
-						tag = ROOT 
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		
-		trigger = {
-			central_thai_area = {
-				type = all
-				owner = { 
-					OR = {
-						tag = ROOT 
-						is_subject_of = ROOT
-					}
-				}
-			}
-			vietnam_area = {
-				type = all
-				owner = { 
-					OR = {
-						tag = ROOT 
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = JAP_indochinese_trade
-				duration = 7300
-			}
-		}
-	}
 }
 
 japanse_missions_the_empire = {
@@ -594,6 +436,7 @@ japanse_missions_the_empire = {
 			create_explorer = {
 				tradition = 60
 			}
+			# Philippine Claims
 			luzon_area = {
 				if = {
 					limit = {
@@ -648,6 +491,7 @@ japanse_missions_the_empire = {
 					add_claim = ROOT
 				}
 			}
+			# Oceania Claims
 			northern_polynesia_area = {
 				if = {
 					limit = {
@@ -662,7 +506,7 @@ japanse_missions_the_empire = {
 
 	jap_conquer_philippines = {
 		icon = mission_colonial
-		required_missions = { colonize_taiwan }
+		required_missions = { jap_colonize_taiwan }
 		provinces_to_highlight = {
 			OR = {
 				area = luzon_area
@@ -954,6 +798,15 @@ japanse_missions_the_empire = {
 					add_claim = ROOT
 				}
 			}
+			north_sumatra_area = {
+				if = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
 		}
 	}
 
@@ -995,94 +848,6 @@ japanse_missions_the_empire = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			banten_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-	}
-
-	jap_conquer_sumatra = {
-		icon = mission_colonial
-		required_missions = { jap_conquer_borneo }
-		provinces_to_highlight = {
-			OR = {
-				area = south_sumatra_area
-				area = jambi_area
-				area = central_sumatra_area
-				area = shanshan_area
-				area = batak_area
-				area = minangkabau_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			south_sumatra_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			jambi_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			central_sumatra_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			shanshan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			batak_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			minangkabau_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-	}
-
-	jap_conquer_mollucas = {
-		icon = mission_colonial
-		required_missions = { jap_conquer_philippines }
-		provinces_to_highlight = {
-			OR = {
-				area = molluca_area
-				area = spice_islands_area
-				area = sulawesi_area
-				area = south_sulawesi_area
-				area = makassar_area
-				area = timor_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			molluca_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			spice_islands_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			sulawesi_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			south_sulawesi_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			makassar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			timor_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1336,7 +1101,7 @@ japanse_missions_domestic = {
 		icon = mission_buddhist_monk_praying
 		required_missions = { JAP_sankin_kotai }
 		
-		position = 7
+		position = 6
 		
 		trigger = {
 			religious_unity = 1
@@ -1638,6 +1403,165 @@ japanse_missions_economic = {
 			add_country_modifier = {
 				name = "JAP_trade_hegemon"
 				duration = -1
+			}
+		}
+	}
+}
+
+japanse_expansion_tree_mollucas = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = daimyo
+			has_reform = shogunate
+			tag = JAP
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	jap_conquer_mollucas = {
+		icon = mission_colonial
+		required_missions = { jap_conquer_philippines }
+		provinces_to_highlight = {
+			OR = {
+				area = molluca_area
+				area = spice_islands_area
+				area = sulawesi_area
+				area = south_sulawesi_area
+				area = makassar_area
+				area = timor_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			molluca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			spice_islands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sulawesi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_sulawesi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			makassar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			timor_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+}
+
+japanse_expansion_tree_sumatra = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = daimyo
+			has_reform = shogunate
+			tag = JAP
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	jap_conquer_sumatra = {
+		icon = mission_colonial
+		required_missions = { jap_conquer_borneo }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = south_sumatra_area
+				area = jambi_area
+				area = central_sumatra_area
+				area = shanshan_area
+				area = batak_area
+				area = minangkabau_area
+				area = north_sumatra_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			south_sumatra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jambi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_sumatra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			shanshan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			batak_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			minangkabau_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_sumatra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+	}
+
+	jap_conquer_malaya = {
+		icon = mission_colonial
+		required_missions = { jap_conquer_sumatra }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = johor_area
+				area = malaya_area
+				area = malacca_area
+				area = north_malaya_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			johor_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			malacca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 	}
