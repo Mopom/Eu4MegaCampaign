@@ -818,7 +818,7 @@ ortho_church_gen_missions_2 = {
 		trigger = {
 			estate_loyalty = {
 				estate = estate_church
-				loyalty = 75
+				loyalty = 65
 			}
 		}
 		effect = {
