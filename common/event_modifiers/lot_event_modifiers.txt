@@ -402,3 +402,12 @@ boyar_isl_happy = {
 	relation_with_heathens = 10
 	technology_cost = -0.1
 }
+russian_stayed_patriarchal = {
+	missionaries = 1
+	prestige_per_development_from_conversion = 0.1
+	warscore_cost_vs_other_religion = -0.1
+}
+control_of_yilinn = {
+	merchants = 1
+	caravan_power = 0.03
+}

@@ -601,7 +601,15 @@
  rus_colon_transib_desc:0 "Trade across Siberia takes the power of wealth away from Greater Wang. We shall control all between east and west."
  rus_colon_pacific_title:0 "Reach Pacific"
  rus_colon_pacific_desc:0 "Our expansion eastwards ends with access of the Pacific Ocean. The Port of Okhotsk shall be our centre for the Orient."
- ortho_abandon_churches_title:0 "Abandon the Patriarchate"
- ortho_abandon_churches_desc:0 "Constantinople cannot be the spiritual center of Orthodox Christianity without the legitimacy of the Byzantine Emperor or the Ecumenical Patriarch. We need to pick up the mantle and establish a Third Rome!"
+ ortho_abandon_patriach_title:0 "Abandon the Patriarchate"
+ ortho_abandon_patriach_desc:0 "Constantinople cannot be the spiritual center of Orthodox Christianity without the legitimacy of the Byzantine Emperor or the Ecumenical Patriarch. We need to pick up the mantle and establish a Third Rome!"
+ russian_stayed_patriarchal:0 "Stayed with the Patriarch"
+ ortho_maintain_patriach_title:0 "Heed the Patriarch"
+ ortho_maintain_patriach_desc:0 "Heed the Word of the Patriarch, His is true as God's."
+ control_of_yilinn:0 "Control of Eastern Trade"
+ rus_colon_oriental_title:0 "Oriental Trade"
+ rus_colon_oriental_desc:0 "Trade of the east brings with it many riches. But we must collect them ourselves."
+ rus_colon_alaska_title:0 "Colonise Alyeska"
+ rus_colon_alaska_desc:0 "Our quest to monopolise the fur trade takes us even further eastward. It is time to set sail for the shores of the Americas and establish a colony in Alyeska, where new opportunities for fur will be abundant."
  
  #

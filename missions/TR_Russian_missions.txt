@@ -323,9 +323,9 @@ ortho_church_abandon_missions_1 = {
 	}
 	has_country_shield = yes
 	
-	ortho_abandon_churches = {
+	ortho_abandon_patriach = {
 		icon = mission_russian_patriarchatee
-		required_missions = { rus_churches_mission }
+		required_missions = { ortho_gen_loyalty }
 		position = 10
 		provinces_to_highlight = {
 			OR = {
@@ -1033,6 +1033,46 @@ rus_exp_east_branch_3 = {
 		}
 	}
 }
+ortho_church_maintain_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_maintain_patriach = {
+		icon = promote_the_patriarchate
+		required_missions = { ortho_gen_loyalty }
+		position = 10
+		provinces_to_highlight = {
+		}
+		trigger = {
+			Z0E = {
+				has_opinion = {
+					who = ROOT
+					value = 170
+				}
+			}
+			patriarch_authority = 0.9
+		}
+		effect = {
+			add_country_modifier = {
+				name = "russian_stayed_patriarchal"
+				duration = 36500
+			}
+		}
+	}
+}
 rus_city_missions_4 = {
 	slot = 4
 	generic = no
@@ -1519,9 +1559,38 @@ rus_exp_colon_4 = {
 			1064 = {
 				center_of_trade = 1
 			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.1
+			}
 		}
 	}
-	
+	rus_colon_oriental = {
+		icon = mission_secure_hajj_ports
+		required_missions = { rus_colon_pacific rus_colon_transib }
+		position = 10
+		provinces_to_highlight = {
+			province_id = 730
+		}
+		trigger = {
+			730 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = control_of_yilinn
+				duration = 73000
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.8
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -2037,6 +2106,42 @@ rus_exp_colon_5 = {
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_colon_alaska = {
+		icon = mission_colonize_alaska
+		required_missions = { rus_colon_pacific }
+		provinces_to_highlight = {
+			colonial_region = colonial_alaska
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					colonial_region = colonial_alaska
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 8
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "rus_alaska_modifier"
+				duration = 7300
+			}
+			2611 = {
+				change_province_name = "Staniskaya"
+			}
+			2613 = {
+				change_province_name = "Novo-Arkhangelsk"
+				rename_capital = "Novo-Arkhangelsk"
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
