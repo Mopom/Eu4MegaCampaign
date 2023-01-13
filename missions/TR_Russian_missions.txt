@@ -203,7 +203,7 @@ rus_boyar_missions_1 = {
 		}
 	}
 	rus_boyar_serfdom = {
-		icon = mission_pol_tend_east
+		icon = prosperity_for_all
 		required_missions = { rus_boyar_fort }
 		position = 7
 		provinces_to_highlight = {
@@ -259,6 +259,112 @@ rus_boyar_missions_1 = {
 			change_estate_land_share = {
 				estate = estate_nobles
 				share = 4.7
+			}
+		}
+	}
+	rus_boyar_corrupt = {
+		icon = mission_high_income
+		required_missions = { rus_boyar_serfdom }
+		position = 8
+		provinces_to_highlight = {
+		}
+		trigger = {
+			treasury = 1500
+			estate_influence = {
+				estate = estate_nobles
+				influence = 55
+			}
+		}
+		effect = {
+			add_corruption = 1
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = -2.6
+			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = CORRUPT_BOYARRS_NOW
+				influence = -10
+				duration = 36500
+			}
+			if = {
+				limit = {
+					has_country_flag = enables_estate_dhimmi_flag
+				}
+				add_corruption = 1
+				change_estate_land_share = {
+					estate = estate_dhimmi
+					share = -2.1
+				}
+				add_estate_influence_modifier = {
+					estate = estate_dhimmi
+					desc = CORRUPT_BOYARRS_NOW
+					influence = -10
+					duration = -1
+				}
+			}
+		}
+	}
+}
+ortho_church_abandon_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_abandon_churches = {
+		icon = mission_russian_patriarchatee
+		required_missions = { rus_churches_mission }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 151
+					OR = {
+						owned_by = BYZ
+						owned_by = Z0E
+					}
+				}
+				AND = {
+					province_id = 295
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		trigger = {
+			NOT = { 
+				151 = { 
+					OR = {
+						owned_by = BYZ
+						owned_by = Z0E
+					}
+				}
+			}
+			religion = orthodox
+			295 = {
+				owned_by = ROOT
+				has_state_patriach = yes
+			}
+		}
+		effect = {
+			set_country_flag = patriarchate_mission
+			country_event = { id = flavor_rus.9 }
+			add_country_modifier = {
+				name = "russian_patriarchate"
+				duration = -1
 			}
 		}
 	}
@@ -651,6 +757,114 @@ rus_boyar_missions_2 = {
 			add_country_modifier = {
 				name = boyar_isl_happy
 				duration = 10950
+			}
+		}
+	}
+}
+ortho_church_gen_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_gen_churches = {
+		icon = mission_land_of_churches
+		required_missions = {  }
+		position = 8
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 20
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.1
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+			if = {
+				limit = {
+					NOT = {
+						religion = orthodox
+					}
+				}
+				add_prestige = 10
+			}
+		}
+	}
+	ortho_gen_loyalty = {
+		icon = mission_saint_basils_cathedral
+		required_missions = { ortho_gen_churches }
+		position = 9
+		provinces_to_highlight = {
+		}
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 75
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.4
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = LOYAL_BELIEF_ORTH
+				influence = 10
+				duration = 10950
+			}
+			if = {
+				limit = {
+					NOT = {
+						religion = orthodox
+					}
+				}
+				add_prestige = 10
+			}
+			if = {
+				limit = {
+					33 = {
+						NOT = {
+							has_building = cathedral
+						}
+					}
+				}
+				33 = {
+					add_building = cathedral
+				}
+			}
+			else_if = {
+				limit = {
+					293 = {
+						NOT = {
+							has_building = cathedral
+						}
+					}
+				}
+				293 = {
+					add_building = cathedral
+				}
+			}
+			else = {
+				310 = {
+					add_building = cathedral
+				}
 			}
 		}
 	}
@@ -1200,6 +1414,115 @@ rus_exp_east_branch_4 = {
 		}
 	}
 }
+rus_exp_colon_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_complete_west_siberia = {
+		icon = mission_collect_yasak
+		required_missions = { rus_colon_sib_1 }
+		position = 8
+		provinces_to_highlight = {
+			region = west_siberia_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			1074 = {
+				owned_by = ROOT
+			}
+			1075 = {
+				owned_by = ROOT
+			}
+			west_siberia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			1074 = {
+				change_religion = ROOT
+				change_culture = ROOT
+				add_base_production = 2
+			}
+			1075 = {
+				change_religion = ROOT
+				change_culture = ROOT
+				add_base_production = 1
+			}
+			west_siberia_region = {
+				limit = {
+					trade_goods = fur
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "siberian_fur_production"
+					duration = 7300
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.6
+			}
+		}
+	}
+	rus_colon_transib = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { rus_colon_sib_2 }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1064
+				province_id = 1082
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			1064 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+			1082 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			1082 = {
+				add_center_of_trade_level = 1
+			}
+			306 = {
+				add_center_of_trade_level = 1
+			}
+			1963 = {
+				add_center_of_trade_level = 1
+			}
+			1064 = {
+				center_of_trade = 1
+			}
+		}
+	}
+	
+}
 rus_city_missions_5 = {
 	slot = 5
 	generic = no
@@ -1589,6 +1912,9 @@ rus_exp_colon_5 = {
 			}
 		}
 		effect = {
+			1078 = {
+				change_province_name = "Yekaterinburg"
+			}
 			add_dip_power = 100
 			define_conquistador = {
 				name = "Yermak Bryachislavich"
@@ -1596,6 +1922,121 @@ rus_exp_colon_5 = {
 				fire = 6
 				manuever = 5
 				siege = 0
+			}
+		}
+	}
+	rus_colon_sib_2 = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { rus_colon_sib_1 }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = central_siberia_area
+				area = tunguska_area
+				area = irkutsk_area
+				area = tannu_uriankhai_area
+				area = buryatia_area
+				area = yakutia_area
+			}
+			has_discovered = ROOT
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = central_siberia_area
+					area = tunguska_area
+					area = irkutsk_area
+					area = tannu_uriankhai_area
+					area = buryatia_area
+					area = yakutia_area
+				}
+				value = 25
+			}
+		}
+		effect = {
+			2443 = {
+				change_province_name = "Boryis"
+			}
+			add_prestige = 15
+			add_years_of_income = 0.75
+		}
+	}
+	rus_colon_pacific = {
+		icon = mission_galleys_in_port
+		required_missions = { rus_colon_sib_2 }
+		position = 9
+		provinces_to_highlight = {
+			region = east_siberia_region
+			has_discovered = ROOT
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				region = east_siberia_region
+				value = 20
+			}
+			owns_core_province = 1043
+		}
+		effect = {
+			define_explorer = {
+				name = "Vitus Bering"
+				fire = 4
+				shock = 2
+				manuever = 5
+			}
+			if = {
+				limit = {
+					1043 = {
+						NOT = {
+							has_building = shipyard
+						}
+						NOT = {
+							has_building = grand_shipyard
+						}
+					}
+				}
+				1043 = {
+					add_building = shipyard
+				}
+			}
+			1043 = {
+				add_province_modifier = {
+					name = "russian_pacific_port"
+					duration = -1
+				}
+			}
+			furdan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ilan_hala_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			central_jilin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			sakhalin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
