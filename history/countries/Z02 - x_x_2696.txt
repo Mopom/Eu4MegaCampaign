@@ -2,7 +2,7 @@ government = republic
 add_government_reform = dutch_republic
 government_rank = 3
 technology_group = western
-religion = samaritan_faith
+religion = german_rhenism
 primary_culture = dynamic-saxon-culture-num1
 historical_friend = FRA
 capital = 4742
@@ -14,7 +14,7 @@ capital = 4742
 		dip = 6
 		mil = 4
 		birth_date = 1406.2.21
-		religion = samaritan_faith
+		religion = german_rhenism
 		culture = dynamic-saxon-culture-num1
 	}
 	add_ruler_personality = well_connected_personality
@@ -29,7 +29,7 @@ capital = 4742
 		birth_date = 1382.3.29
 		death_date = 1442.3.29
 		female = yes
-		religion = samaritan_faith
+		religion = german_rhenism
 		culture = dynamic-irish-culture-num1
 	}
 	add_queen_personality = well_connected_personality
@@ -45,7 +45,7 @@ capital = 4742
 		death_date = 1489.12.23
 		female = yes
 		claim = 89
-		religion = samaritan_faith
+		religion = german_rhenism
 		culture = dynamic-irish-culture-num1
 	}
 	add_heir_personality = well_connected_personality

@@ -1,0 +1,4 @@
+anti_heathen_aspect = {
+    tolerance_own = 1
+    tolerance_heathen = -1
+}

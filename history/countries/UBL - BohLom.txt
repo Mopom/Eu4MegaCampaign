@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 3
 technology_group = western
-religion = samaritan_faith
+religion = bohemian_rhenism
 primary_culture = swiss
 add_accepted_culture = lombard
 add_accepted_culture = venetian
@@ -16,7 +16,7 @@ capital = 266
 		dip = 6
 		mil = 6
 		birth_date = 1369.1.1
-		religion = samaritan_faith
+		religion = bohemian_rhenism
 		culture = swiss
 	}
 	add_ruler_personality = charismatic_negotiator_personality
@@ -31,7 +31,7 @@ capital = 266
 		country_of_origin = Z03
 		birth_date = 1372.3.24
 		death_date = 1459.3.24
-		religion = samaritan_faith
+		religion = bohemian_rhenism
 		culture = dynamic-mali-culture-num1
 	}
 	heir = {
@@ -45,7 +45,7 @@ capital = 266
 		death_date = 1503.6.19
 		female = yes
 		claim = 42
-		religion = samaritan_faith
+		religion = bohemian_rhenism
 		culture = swiss
 	}
 }

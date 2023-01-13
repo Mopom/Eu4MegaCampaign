@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = western
-religion = samaritan_faith
+religion = french_rhenism
 primary_culture = dynamic-breton-normand-occitain-culture-num1
 historical_friend = Z02
 capital = 174
@@ -15,12 +15,12 @@ capital = 174
 		mil = 4
 		female = yes
 		birth_date = 1398.1.1
-		religion = samaritan_faith
+		religion = french_rhenism
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 	heir = {
-		name = "Dolça"
-		monarch_name = "Dolça II"
+		name = "Dolï¿½a"
+		monarch_name = "Dolï¿½a II"
 		dynasty = "de Poitou"
 		adm = 3
 		dip = 4
@@ -29,7 +29,7 @@ capital = 174
 		death_date = 1484.4.23
 		claim = 100
 		female = yes
-		religion = samaritan_faith
+		religion = french_rhenism
 		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 }

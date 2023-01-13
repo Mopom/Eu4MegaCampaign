@@ -1,0 +1,53 @@
+christian = {
+    bohemian_rhenism = { #Keep-Off-My-Lawn-ism
+        country = {
+            tolerance_heretic = 1
+		    tolerance_heathen = 1
+            female_advisor_chance = 0.5
+        }
+        province = {
+			local_missionary_strength = -0.02
+		}
+
+        misguided_heretic = yes
+        fervor = yes
+
+        on_convert = {
+			change_religion = bohemian_rhenism
+        }
+    }
+
+    german_rhenism = { # Hyper-tolerance, no conversion
+        country = {
+            tolerance_heretic = 2
+		    tolerance_heathen = 2
+            female_advisor_chance = 0.5
+            global_missionary_strength = -0.05
+        }
+
+        misguided_heretic = yes
+        no_religion_penalty = yes
+
+        on_convert = {
+			change_religion = german_rhenism
+        }
+    }
+
+    french_rhenism = { # More potential for central authority
+        country = {
+            tolerance_heretic = 1
+		    tolerance_heathen = 1
+            female_advisor_chance = 0.5
+        }
+
+        misguided_heretic = yes
+        uses_church_power = yes	# Uses church power/aspect mechanics
+		aspects = {
+            anti_heathen_aspect
+        }
+
+        on_convert = {
+			change_religion = french_rhenism
+        }
+    }
+}
