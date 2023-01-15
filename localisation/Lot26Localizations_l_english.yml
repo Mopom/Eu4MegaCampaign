@@ -620,5 +620,18 @@
  ortho_maintain_land_grant_desc:0 "Land grants to the clergy would allow more churches to be built. More faithful to be guided. More tithes to be collected."
  ortho_crus_finland_title:0 "Crusade on Finland"
  ortho_crus_finland_desc:0 "The Finnish Lakes and Forests have hidden countless heresies from our influence. We must prove diligent and root out its heretics and heathens."
+ ortho_abandon_sweden_title:0 "Protectorate Sweden"
+ ortho_abandon_sweden_desc:0 "Sweden is a regional power of the Baltic Sea but she lacks the power to defend our faith. Best be if she were a protectorate under our oversight."
+ restore_daddy_paypal:0 "Restorer of the Papacy"
+ ortho_abandon_papacy_title:0 "Restore the Papcy"
+ ortho_abandon_papacy_desc:0 "No good Catholic conscience can rest easy when the Papacy and Curia are beholden to secular powers. We must restore the Papacy in Rome."
+ huss_gothan:0 "Missionaries of God's House"
+ ortho_maintain_house_god_title:0 "House of God"
+ ortho_maintain_house_god_desc:0 "This is the place where God's presence is high. His Spirit eternal. And His Word speaks clearer than any where else."
+ ortho_crus_vassal_title:0 "Guiding Our Flock"
+ ortho_crus_vassal_desc:0 "As much as heretics outside our borders must be converted, so too must heretics within and within our vassals. They too are members of our flock, our duty does not allow us to neglect them."
+ crusades_of_ortho:0 "Orthodox Crusades"
+ ortho_crus_sami_title:0 "Crusade on the Sami"
+ ortho_crus_sami_desc:0 "After Finland the north of Scandinavia follows. Laponia or Lapland goes by many names but its inhabitants, the Sámi, call it Sápmi. These inhabitants are also those whom we wish to convert to the right, Orthodox, faith."
  
  #

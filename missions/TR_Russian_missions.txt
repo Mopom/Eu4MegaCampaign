@@ -405,6 +405,33 @@ ortho_church_abandon_missions_1 = {
 				change_religion = sunni
 				change_province_name = "Sefirah"
 			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = SWE
+				months = 300
+			}
+		}
+	}
+	ortho_abandon_sweden = {
+		icon = mission_the_finns
+		required_missions = { ortho_abandon_sunni }
+		position = 12
+		trigger = {
+			SWE = {
+				religion = sunni
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 30
+			reverse_add_opinion = {
+				who = SCO
+				modifier = defended_allied_territory
+			}
+			reverse_add_opinion = {
+				who = ADU
+				modifier = defended_allied_territory
+			}
 		}
 	}
 }
@@ -974,6 +1001,62 @@ ortho_church_abandon_missions_2 = {
 			}
 		}
 	}
+	ortho_abandon_papacy = {
+		icon = sway_the_pope
+		required_missions = { ortho_abandon_catholic }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+				area = central_italy_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			lazio_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_italy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			lazio_area = {
+				cede_province = PAP
+			}
+			central_italy_area = {
+				cede_province = PAP
+			}
+			if = {
+				limit = {
+					1752 = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				1752 = {
+					add_cardinal = yes
+					add_building = cathedral
+					add_province_modifier = {
+						name = restore_daddy_paypal
+						duration = -1
+					}
+				}
+			}
+			else = {
+				capital_scope = {
+					add_cardinal = yes
+					add_building = cathedral
+					add_province_modifier = {
+						name = restore_daddy_paypal
+						duration = -1
+					}
+				}
+			}
+		}
+	}
 }
 rus_exp_gen_branch_3 = {
 	slot = 3
@@ -1196,6 +1279,56 @@ ortho_church_maintain_missions_3 = {
 			add_country_modifier = {
 				name = church_tithe_rus
 				duration = 36500
+			}
+		}
+	}
+	ortho_maintain_house_god = {
+		icon = protectors_of_christendom
+		required_missions = { ortho_maintain_land_grant }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				province_id = 280
+				province_id = 295
+			}
+			owns_core_province = ROOT
+		}
+		trigger = {
+			OR = {
+				AND = {
+					owns_core_province = 280
+					280 = {
+						if = {
+							limit = {
+								has_dlc = "Leviathan"
+							}
+							has_great_project = {
+								type = kiev_pechersk_lavra
+								tier = 3
+							}
+						}
+						else = {
+							has_tax_building_trigger = yes
+							has_trade_building_trigger = yes
+						}
+					}
+				}
+				AND = {
+					owns_core_province = 295
+					295 = {
+						has_building = cathedral
+					}
+				}
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = 1.2
+			}
+			add_country_modifier = {
+				name = huss_gothan
+				duration = 10950
 			}
 		}
 	}
@@ -1790,6 +1923,29 @@ ortho_church_crusade_missions_4 = {
 			add_patriarch_authority = 0.3
 		}
 	}
+	ortho_crus_vassal = {
+		icon = mission_king_of_eastern_europe
+		required_missions = { ortho_crus_finland }
+		position = 12
+		provinces_to_highlight = {
+		}
+		trigger = {
+			all_subject_country = {
+				religion = orthodox
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 14600
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = POL
+				months = 240
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -2342,6 +2498,63 @@ rus_exp_colon_5 = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
+		}
+	}
+}
+ortho_church_crusade_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_crus_sami = {
+		icon = mission_the_sami
+		required_missions = { ortho_crus_finland }
+		position = 12
+		provinces_to_highlight = {
+			area = laponia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			SMI = {
+				vassal_of = ROOT
+			}
+			laponia_area = {
+				type = all
+				owned_by = SMI
+				is_core = SMI
+				religion = orthodox
+			}
+		}
+		effect = {
+			21 = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			20 = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			western_norway = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			eastern_norway = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
 		}
 	}
 }

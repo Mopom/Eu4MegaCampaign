@@ -417,3 +417,14 @@ church_tithe_rus = {
 	church_loyalty_modifier = 0.12
 	global_tax_modifier = 0.2
 }
+restore_daddy_paypal = {
+	papal_influence = 0.5
+}
+huss_gothan = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+}
+crusades_of_ortho = {
+	cb_on_religious_enemies = yes
+	enforce_religion_cost = -0.15
+}
