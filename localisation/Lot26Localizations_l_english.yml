@@ -633,5 +633,13 @@
  crusades_of_ortho:0 "Orthodox Crusades"
  ortho_crus_sami_title:0 "Crusade on the Sami"
  ortho_crus_sami_desc:0 "After Finland the north of Scandinavia follows. Laponia or Lapland goes by many names but its inhabitants, the Sámi, call it Sápmi. These inhabitants are also those whom we wish to convert to the right, Orthodox, faith."
+ ortho_abandon_tripartite_title:0 "Tripartite Islamic Alliance"
+ ortho_abandon_tripartite_desc:0 "In Europe there are two Islamic powers besides ourself. An alliance between the three of us would be prudent." 
+ ortho_maintain_unity_title:0 "Religious Unity"
+ ortho_maintain_unity_desc:0 "To lead a country divided is to be a leader divided. So preach your clergy and your court."
+ ortho_crus_poland_title:0 "Crusade on Poland"
+ ortho_crus_poland_desc:0 "The Polish, or Rolish, are the western brothers to the Russian people. We cannot let them live misguided under a wrong religion."
+ ortho_crus_norge_title:0 "Crusade on Norway"
+ ortho_crus_norge_desc:0 "The Coast of Norway may be dominated by mountains and fjords but its low habitability makes for easier conquest than the fields and valleys of Sweden."
  
  #

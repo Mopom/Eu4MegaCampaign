@@ -434,6 +434,36 @@ ortho_church_abandon_missions_1 = {
 			}
 		}
 	}
+	ortho_abandon_tripartite = {
+		icon = mission_restore_caliphate_of_cordoba
+		required_missions = { ortho_abandon_sweden }
+		position = 13
+		trigger = {
+			AND = {
+				alliance_with = SCO
+				SCO = {
+					religion = sunni
+				}
+			}
+			AND = {
+				alliance_with = ADU
+				ADU = {
+					religion = sunni
+				}
+			}
+		}
+		effect = {
+			add_piety = 0.20
+			add_prestige = 10
+			define_advisor = {
+				type = natural_scientist
+				name = "Asad ibn Atissi al-Qaffa"
+				skill = 2
+				culture = ruthenian
+				religion = sunni
+			}
+		}
+	}
 }
 rus_city_missions_2 = {
 	slot = 2
@@ -1332,6 +1362,25 @@ ortho_church_maintain_missions_3 = {
 			}
 		}
 	}
+	ortho_maintain_unity = {
+		icon = mission_pf_cross
+		required_missions = { ortho_maintain_house_god }
+		position = 13
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT
+				NOT = { religion = orthodox }
+			}
+		}
+		trigger = {
+			religious_unity = 1
+		}
+		effect = {
+			add_patriarch_authority = 0.5
+			add_stability = 1
+			create_advisor = theologian
+		}
+	}
 }
 rus_city_missions_4 = {
 	slot = 4
@@ -1946,6 +1995,47 @@ ortho_church_crusade_missions_4 = {
 			}
 		}
 	}
+	ortho_crus_poland = {
+		icon = mission_plc_proclaim_polish_hegemony
+		required_missions = { ortho_crus_vassal }
+		position = 13
+		provinces_to_highlight = {
+			region = poland_region
+			NOT = { religion = orthodox }
+		}
+		trigger = {
+			OR = {
+				AND = {
+					exists = POL
+					POL = {
+						religion = orthodox
+					}
+				}
+				calc_true_if = {
+					all_province = {
+						region = poland_region
+						religion = orthodox
+					}
+					amount = 20
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 14600
+			}
+			moldavia_area = {
+				add_claim = ROOT
+			}
+			wallachia_area = {
+				add_claim = ROOT
+			}
+			silistria_area = {
+				add_claim = ROOT
+			}
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -2552,6 +2642,90 @@ ortho_church_crusade_missions_5 = {
 			}
 			eastern_norway = {
 				add_core = NOR
+				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_norge = {
+		icon = mission_norwegian_independence
+		required_missions = { ortho_crus_sami }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 21
+				province_id = 20
+				area = western_norway
+				area = eastern_norway
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			NOR = {
+				vassal_of = ROOT
+			}
+			21 = {
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+			20 = {
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+			western_norway = {
+				type = all
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+			eastern_norway = {
+				type = all
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+		}
+		effect = {
+			norrland_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			10 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			svealand_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			4 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			1 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			vastra_gotaland_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			2 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			3 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			4166 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			skaneland_area = {
+				add_core = SWE
 				add_claim = RUS
 			}
 			add_patriarch_authority = 0.3
