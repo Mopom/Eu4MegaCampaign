@@ -411,3 +411,9 @@ control_of_yilinn = {
 	merchants = 1
 	caravan_power = 0.03
 }
+church_tithe_rus = {
+	global_unrest = 1
+	church_influence_modifier = 0.11
+	church_loyalty_modifier = 0.12
+	global_tax_modifier = 0.2
+}

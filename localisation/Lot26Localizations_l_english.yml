@@ -145,7 +145,7 @@
  hlr_karl_schisms_title:0 "Schisms and Tides"
  hlr_karl_schisms_desc:0 "The Tides of History fare as they will and schisms will mend."
  hlr_karl_two_empires_title:0 "Compromise of Two Empires"
- hlr_karl_two_empirese_desc:0 "What better to bridge the schisms of Christianity than their two greatest empires?"
+ hlr_karl_two_empires_desc:0 "What better to bridge the schisms of Christianity than their two greatest empires?"
  hlr_karl_churches_title:0 "Talking Churches"
  hlr_karl_churches_desc:0 "After talks with the Russian Empire we continue talks with Orthodoxy through the Ecumenical Patriarchate."
  hlr_karl_crusade_title:0 "One Last Crusade"
@@ -611,5 +611,14 @@
  rus_colon_oriental_desc:0 "Trade of the east brings with it many riches. But we must collect them ourselves."
  rus_colon_alaska_title:0 "Colonise Alyeska"
  rus_colon_alaska_desc:0 "Our quest to monopolise the fur trade takes us even further eastward. It is time to set sail for the shores of the Americas and establish a colony in Alyeska, where new opportunities for fur will be abundant."
+ ortho_abandon_sunni_title:0 "Convert Sunni"
+ ortho_abandon_sunni_desc:0 "Stepping away from the Patriarchate brought us into the arms of the Caliphate. Who is this Muhammad they preach about?"
+ ortho_abandon_catholic_title:0 "Convert Catholicism"
+ ortho_abandon_catholic_desc:0 "To step away from the Patriarch is to step towards the Pope. In His words we find the Voice of God!"
+ church_tithe_rus:0 "Loyalty and Tithes"
+ ortho_maintain_land_grant_title:0 "Ecclesiastic Land Gants"
+ ortho_maintain_land_grant_desc:0 "Land grants to the clergy would allow more churches to be built. More faithful to be guided. More tithes to be collected."
+ ortho_crus_finland_title:0 "Crusade on Finland"
+ ortho_crus_finland_desc:0 "The Finnish Lakes and Forests have hidden countless heresies from our influence. We must prove diligent and root out its heretics and heathens."
  
  #

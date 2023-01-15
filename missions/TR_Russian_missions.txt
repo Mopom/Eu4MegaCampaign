@@ -368,6 +368,45 @@ ortho_church_abandon_missions_1 = {
 			}
 		}
 	}
+	ortho_abandon_sunni = {
+		icon = mission_into_arabia
+		required_missions = { ortho_abandon_patriach }
+		position = 11
+		trigger = {
+			Z00 = {
+				has_opinion = {
+					who = ROOT
+					value = 160
+				}
+			}
+		}
+		effect = {
+			change_religion = sunni
+			280 = {
+				change_religion = sunni
+			}
+			295 = {
+				change_religion = sunni
+			}
+			293 = {
+				change_religion = sunni
+			}
+			289 = {
+				change_religion = sunni
+				change_province_name = "Tishirnighuf"
+			}
+			4545 = {
+				change_religion = sunni
+			}
+			1941 = {
+				change_religion = sunni
+			}
+			1945 = {
+				change_religion = sunni
+				change_province_name = "Sefirah"
+			}
+		}
+	}
 }
 rus_city_missions_2 = {
 	slot = 2
@@ -869,6 +908,73 @@ ortho_church_gen_missions_2 = {
 		}
 	}
 }
+ortho_church_abandon_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_abandon_catholic = {
+		icon = chivalry_is_not_dead
+		required_missions = { ortho_abandon_patriach }
+		position = 11
+		trigger = {
+			any_country = {
+				AND = {
+					is_papal_controller = yes
+					has_opinion = {
+						who = ROOT
+						value = 160
+					}
+				}
+			}
+		}
+		effect = {
+			change_religion = catholic
+			280 = {
+				change_religion = catholic
+			}
+			295 = {
+				change_religion = catholic
+			}
+			293 = {
+				change_religion = catholic
+			}
+			35 = {
+				change_religion = catholic
+			}
+			33 = {
+				change_religion = catholic
+			}
+			310 = {
+				change_religion = catholic
+				change_province_name = "Mikhilsk"
+				rename_capital = "Mikhilgrad"
+			}
+			34 = {
+				change_religion = catholic
+				change_province_name = "Novo-Paprinsk"
+			}
+			lazio_area = {
+				add_core = PAP
+			}
+			central_italy_area = {
+				add_core = PAP
+			}
+		}
+	}
+}
 rus_exp_gen_branch_3 = {
 	slot = 3
 	generic = no
@@ -1068,6 +1174,27 @@ ortho_church_maintain_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "russian_stayed_patriarchal"
+				duration = 36500
+			}
+		}
+	}
+	ortho_maintain_land_grant = {
+		icon = mission_cathedral_cities
+		required_missions = { ortho_maintain_patriach }
+		position = 11
+		provinces_to_highlight = {
+		}
+		trigger = {
+			crown_land_share = 50
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = 15
+			}
+			add_treasury = 6000
+			add_country_modifier = {
+				name = church_tithe_rus
 				duration = 36500
 			}
 		}
@@ -1589,6 +1716,78 @@ rus_exp_colon_4 = {
 				estate = estate_burghers
 				share = 3.8
 			}
+		}
+	}
+}
+ortho_church_crusade_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_crus_finland = {
+		icon = mission_conquer_finland
+		required_missions = { ortho_maintain_patriach }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				area = finland_area
+				area = bothnia_area
+				area = pomor_area
+				area = north_karelia
+				area = karelia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			FIN = {
+				vassal_of = ROOT
+			}
+			finland_area = {
+				type = all
+				owned_by = FIN
+				is_core = FIN
+				religion = orthodox
+			}
+			bothnia_area = {
+				type = all
+				owned_by = FIN
+				is_core = FIN
+				religion = orthodox
+			}
+			pomor_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = orthodox
+			}
+			north_karelia = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = orthodox
+			}
+			karelia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = orthodox
+			}
+		}
+		effect = {
+			laponia_area = {
+				add_core = SMI
+				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
 		}
 	}
 }
