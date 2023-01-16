@@ -428,3 +428,12 @@ crusades_of_ortho = {
 	cb_on_religious_enemies = yes
 	enforce_religion_cost = -0.15
 }
+patri_infl_scary = {
+	church_influence_modifier = 0.25
+	monarch_admin_power = 1
+}
+domination_of_scandes = {
+	province_trade_power_modifier = 0.25
+	trade_goods_size_modifier = 0.1
+	monthly_reform_progress_modifier = 0.1
+}

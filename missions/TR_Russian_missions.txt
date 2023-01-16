@@ -464,6 +464,48 @@ ortho_church_abandon_missions_1 = {
 			}
 		}
 	}
+	ortho_abandon_rome = {
+		icon = a_place_among_the_great_powers
+		required_missions = { ortho_abandon_tripartite }
+		position = 14
+		trigger = {
+			OR = {
+				AND = {
+					alliance_with = RUM
+					OR = {
+						owns_core_province = 118
+						RUM = {
+							owns_core_province = 118
+						}
+					}
+				}
+				AND = {
+					alliance_with = Z00
+					OR = {
+						owns_core_province = 118
+						Z00 = {
+							owns_core_province = 118
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = restoration_rome
+				duration = -1
+			}
+			add_adm_power = 60
+			add_dip_power = 60
+			add_mil_power = 60
+			if = {
+				limit = {
+					owns_core_province = 151
+				}
+				set_capital = 151
+			}
+		}
+	}
 }
 rus_city_missions_2 = {
 	slot = 2
@@ -1087,6 +1129,56 @@ ortho_church_abandon_missions_2 = {
 			}
 		}
 	}
+	ortho_abandon_france = {
+		icon = mission_pirate_havens
+		required_missions = { ortho_abandon_tripartite }
+		position = 14
+		trigger = {
+			FRA = {
+				religion = sunni
+			}
+			alliance_with = FRA
+		}
+		effect = {
+			add_legitimacy = 12
+			add_years_of_income = 0.3
+			change_technology_group = western
+		}
+	}
+}
+ortho_church_maintain_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_maintain_hre = {
+		icon = emperor_and_autocrat
+		required_missions = { ortho_maintain_influence }
+		position = 15
+		provinces_to_highlight = {
+		}
+		trigger = {
+			estate_influence = {
+				estate = estate_church
+				influence = 85
+			}
+		}
+		effect = {
+			
+		}
+	}
 }
 rus_exp_gen_branch_3 = {
 	slot = 3
@@ -1379,6 +1471,35 @@ ortho_church_maintain_missions_3 = {
 			add_patriarch_authority = 0.5
 			add_stability = 1
 			create_advisor = theologian
+		}
+	}
+	ortho_maintain_influence = {
+		icon = promote_the_patriarchate
+		required_missions = { ortho_maintain_unity }
+		position = 14
+		provinces_to_highlight = {
+			owned_by = Z0E
+		}
+		trigger = {
+			NOT = {
+				stability = 3
+			}
+			reverse_has_opinion = {
+				who = Z0E
+				value = 185
+			}
+			estate_territory = {
+				estate = estate_church
+				territory = 45
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.2
+			add_years_of_income = 2
+			add_country_modifier = {
+				name = patri_infl_scary
+				duration = 36500
+			}
 		}
 	}
 }
@@ -1986,7 +2107,7 @@ ortho_church_crusade_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = crusades_of_ortho
-				duration = 14600
+				duration = 10950
 			}
 			add_casus_belli = {
 				type = cb_vassalize_mission
@@ -2023,7 +2144,7 @@ ortho_church_crusade_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = crusades_of_ortho
-				duration = 14600
+				duration = 10950
 			}
 			moldavia_area = {
 				add_claim = ROOT
@@ -2032,6 +2153,54 @@ ortho_church_crusade_missions_4 = {
 				add_claim = ROOT
 			}
 			silistria_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	ortho_crus_moldrom = {
+		icon = mission_crusade_for_varna
+		required_missions = { ortho_crus_poland }
+		position = 14
+		provinces_to_highlight = {
+			OR = {
+				area = moldavia_area
+				area = wallachia_area
+				area = silistria_area
+			}
+			NOT = { religion = orthodox }
+		}
+		trigger = {
+			moldavia_area = {
+				type = all
+				religion = orthodox
+			}
+			wallachia_area = {
+				type = all
+				religion = orthodox
+			}
+			silistria_area = {
+				type = all
+				religion = orthodox
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 10950
+			}
+			transylvania_area = {
+				add_claim = ROOT
+			}
+			southern_transylvania_area = {
+				add_claim = ROOT
+			}
+			slovakia_area = {
+				add_claim = ROOT
+			}
+			alfold_area = {
+				add_claim = ROOT
+			}
+			transdanubia_area = {
 				add_claim = ROOT
 			}
 		}
@@ -2727,6 +2896,124 @@ ortho_church_crusade_missions_5 = {
 			skaneland_area = {
 				add_core = SWE
 				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_sweden = {
+		icon = mission_swedish_great_power
+		required_missions = { ortho_crus_norge }
+		position = 14
+		provinces_to_highlight = {
+			OR = {
+				province_id = 10
+				province_id = 4
+				province_id = 1
+				province_id = 2
+				province_id = 3
+				province_id = 4166
+				area = norrland_area
+				area = svealand_area
+				area = vastra_gotaland_area
+				area = skaneland_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			SWE = {
+				vassal_of = ROOT
+			}
+			norrland_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			10 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			svealand_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			4 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			1 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			vastra_gotaland_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			2 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			3 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			4166 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			skaneland_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+		}
+		effect = {
+			1930 = {
+				add_core = SWE
+				add_core = FIN
+				add_claim = RUS
+			}
+			25 = {
+				add_core = SWE
+				add_core = RUS
+				add_claim = RUS
+			}
+			1981 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			if = {
+				limit = {
+					owns_core_province = 35
+				}
+				35 = {
+					add_province_modifier = {
+						name = domination_of_scandes
+						duration = 36500
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					owns_core_province = 33
+				}
+				33 = {
+					add_province_modifier = {
+						name = domination_of_scandes
+						duration = 36500
+					}
+				}
 			}
 			add_patriarch_authority = 0.3
 		}

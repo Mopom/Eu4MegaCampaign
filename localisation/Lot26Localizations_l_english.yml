@@ -641,5 +641,17 @@
  ortho_crus_poland_desc:0 "The Polish, or Rolish, are the western brothers to the Russian people. We cannot let them live misguided under a wrong religion."
  ortho_crus_norge_title:0 "Crusade on Norway"
  ortho_crus_norge_desc:0 "The Coast of Norway may be dominated by mountains and fjords but its low habitability makes for easier conquest than the fields and valleys of Sweden."
+ ortho_abandon_rome_title:0 "Islamic Romans"
+ ortho_abandon_rome_desc:0 "Three Islamic Empires claim the legacy of Rome and even we all focus more heavily on the Eastern Roman Empire. But with Rome held by us Islam is truly the dominant religion."
+ ortho_abandon_france_title:0 "L'Ancienne Alliance"
+ ortho_abandon_france_desc:0 "The French where there to form our nation and we have aided them in their countless times of need. A brotherhood has truly formed between our peoples."
+ patri_infl_scary:0 "An Ecclesiastic Court"
+ ortho_maintain_influence_title:0 "Influence of the Patriarch"
+ ortho_maintain_influence_desc:0 "The Patriarch and the clergy have bought their way into the Russian Court. The Tsar can no longer govern unmitigated by the influences of the Orthodox Church."
+ ortho_crus_moldrom_title:0 "Crusade on Moldova and Romania"
+ ortho_crus_moldrom_desc:0 "With their backs to the Carpathians countless heretics live in lands rightfully belonging to Orthodox Christians."
+ domination_of_scandes:0 "Domination of Scandinavia"
+ ortho_crus_sweden_title:0 "Crusade on Sweden"
+ ortho_crus_sweden_desc:0 "Now, with the Coast of Norway, and the Forests of Finland secured, we can finally expand into the Swedish plains. Let's see how long these irreligious bastards live on."
  
  #
