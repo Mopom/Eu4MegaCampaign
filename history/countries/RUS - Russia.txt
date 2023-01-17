@@ -36,9 +36,9 @@ capital = 280
 		adm = 5
 		dip = 6
 		mil = 4
-		birth_date = 1401.1.6
+		birth_date = 1409.1.6
 		death_date = 1476.1.6
-		claim = 89
+		claim = 93
 		religion = orthodox
 		culture = ruthenian
 	}

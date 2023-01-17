@@ -1384,7 +1384,7 @@ hlr_karl_mending_the_schism_2 = {
 					}
 				}
 			}
-			if_else = {
+			else_if = {
 				limit = { exists = RUS }
 				RUS = {
 					has_opinion = {
