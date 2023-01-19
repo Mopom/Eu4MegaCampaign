@@ -507,6 +507,75 @@ ortho_church_abandon_missions_1 = {
 		}
 	}
 }
+tr_russia_exclusive_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		tag = RUS
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_streltsy_mission = {
+		icon = mission_recruit_streltsy
+		required_missions = { time_of_troubles_mission }
+		position = 17
+		trigger = {
+			num_of_streltsy = 30
+			army_size_percentage = 1
+		}
+		effect = {
+			add_army_tradition = 15
+			add_country_modifier = {
+				name = "loyal_streltsy"
+				duration = 7300
+			}
+		}
+	}
+	russian_abolutism_mission = {
+		icon = mission_autocratic_rule
+		required_missions = { rus_streltsy_mission }
+		trigger = {
+			if = {
+				limit = {
+					is_revolutionary = no
+				}
+				absolutism = 50
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_church
+					influence = 50
+				}
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_burghers
+					influence = 50
+				}
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 50
+				}
+			}
+			crown_land_share = 75
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "russian_autocracy"
+				duration = 7300
+			}
+		}
+	}
+}
 rus_city_missions_2 = {
 	slot = 2
 	generic = no
@@ -5923,6 +5992,18 @@ ortho_church_maintain_missions_2 = {
 			}
 			if = {
 				limit = {
+					1981 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1981 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
 					12 = {
 						country_or_non_sovereign_subject_holds = ROOT
 					}
@@ -6173,6 +6254,138 @@ ortho_church_maintain_missions_2 = {
 					add_core = VEP
 					cede_province = VEP
 					set_in_empire = yes
+				}
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					continent = asia
+				}
+				cede_province = PRE
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					OR = {
+						region = south_german_region
+						region = italy_region
+					}
+				}
+				cede_province = UBL
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					OR = {
+						region = north_german_region
+						region = low_countries_region
+					}
+				}
+				cede_province = Z02
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					region = france_region
+				}
+				cede_province = FRA
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					region = iberia_region
+				}
+				cede_province = ADU
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					region = british_isles_region
+				}
+				cede_province = GBR
+			}
+		}
+	}
+}
+tr_russia_exclusive_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		tag = RUS
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	time_of_troubles_mission = {
+		icon = mission_weather_the_troubles
+		required_missions = {  }
+		position = 16
+		completed_by = 1620.1.1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = had_time_of_troubles.tooltip
+				OR = {
+					has_country_flag = rus_had_time_of_troubles
+					AND = {
+						NOT = { current_age = age_of_discovery }
+						NOT = { current_age = age_of_reformation }
+					}
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	tr_revolution_mission = {
+		icon = mission_russian_revolution
+		required_missions = { russian_abolutism_mission tr_state_manufactories }
+		position = 19
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+				has_reform = revolutionary_empire_reform
+				has_reform = revolutionary_republic_reform
+				custom_trigger_tooltip = {
+					tooltip = center_of_revolution.3000.A.tt
+					has_global_flag = no_more_revolutions_ever
+				}
+				any_known_country = {
+					is_revolution_target = yes
+					war_with = ROOT
+					capital_scope = {
+						controlled_by = ROOT
+					}
+				}
+			}
+			
+		}
+		effect = {
+			add_army_tradition = 25
+			if = {
+				limit = {
+					OR = {
+						has_reform = revolutionary_empire_reform
+						has_reform = revolutionary_republic_reform
+					}
+				}		
+				add_country_modifier = {
+					name = "rus_revolutionary_zeal"
+					duration = -1
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = "rus_reactionary_zeal"
+					duration = -1
 				}
 			}
 		}
@@ -6498,6 +6711,129 @@ ortho_church_maintain_missions_3 = {
 				name = patri_infl_scary
 				duration = 36500
 			}
+		}
+	}
+	ortho_maintain_ecu = {
+		icon = guardians_of_saint_sava
+		required_missions = { ortho_maintain_influence }
+		position = 15
+		provinces_to_highlight = {
+			owned_by = Z0E
+		}
+		trigger = {
+			estate_influence = {
+				estate = estate_church
+				influence = 85
+			}
+			estate_territory = {
+				estate = estate_church
+				territory = 65
+			}
+		}
+		effect = {
+			override_country_name = ECUMENRIM
+			change_government = theocracy
+			add_government_reform = leading_clergy_reform
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
+		}
+	}
+}
+tr_russia_exclusive_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		tag = RUS
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	tr_prikazy_mission = {
+		icon = mission_establish_the_prikazy
+		required_missions = { time_of_troubles_mission }
+		position = 17
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = tr_prikazy_mission.tooltip.1
+				OR = {
+					philosopher = 3
+					natural_scientist = 3
+					artist = 3
+					treasurer = 3
+					theologian = 3
+					master_of_mint = 3
+					inquisitor = 3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tr_prikazy_mission.tooltip.2
+				OR = {
+					statesman = 3
+					naval_reformer = 3
+					trader = 3
+					spymaster = 3
+					colonial_governor = 3
+					diplomat = 3
+					navigator = 3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tr_prikazy_mission.tooltip.3
+				OR = {
+					army_reformer = 3
+					army_organiser = 3
+					commandant = 3
+					quartermaster = 3
+					recruitmaster = 3
+					fortification_expert = 3
+					grand_captain = 3
+				}
+			}
+			NOT = {
+				num_of_loans = 1
+			}
+			is_in_deficit = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "prikazy_modifier"
+				duration = 7300
+			}
+		}
+	}
+	
+	tr_state_manufactories = {
+		icon = mission_state_manufactories
+		required_missions = { tr_prikazy_mission }
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "proto_industrialization"
+				duration = 9125
+			}
+			add_years_of_income = 1.5
 		}
 	}
 }
@@ -7200,6 +7536,53 @@ ortho_church_crusade_missions_4 = {
 			}
 			transdanubia_area = {
 				add_claim = ROOT
+			}
+		}
+	}
+	ortho_crus_patvas = {
+		icon = take_constantinople
+		required_missions = { ortho_crus_moldrom }
+		position = 15
+		provinces_to_highlight = {
+			OR = {
+				area = thrace_area
+				province_id = 2750
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_or_non_sovereign_subject_of = 2750
+			OR = {
+				Z0E = {
+					vassal_of = ROOT
+				}
+				NOT = { exists = Z0E }
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					owned_by = Z0E
+				}
+				cede_province = RUS
+			}
+			thrace_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = RUS
+			}
+			2750 = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = RUS
+			}
+			vassalize = Z0E
+			Z0E = {
+				set_capital = 151
 			}
 		}
 	}
@@ -8014,6 +8397,64 @@ ortho_church_crusade_missions_5 = {
 				}
 			}
 			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_magyar = {
+		icon = mission_pol_protect_hungary
+		required_missions = { ortho_crus_moldrom }
+		position = 15
+		provinces_to_highlight = {
+			OR = {
+				area = transylvania_area
+				area = southern_transylvania_area
+				area = slovakia_area
+				area = alfold_area
+				area = transdanubia_area
+			}
+			NOT = { religion = orthodox }
+		}
+		trigger = {
+			OR = {
+				AND = {
+					transylvania_area = {
+						type = all
+						religion = orthodox
+					}
+					southern_transylvania_area = {
+						type = all
+						religion = orthodox
+					}
+					slovakia_area = {
+						type = all
+						religion = orthodox
+					}
+					alfold_area = {
+						type = all
+						religion = orthodox
+					}
+					transdanubia_area = {
+						type = all
+						religion = orthodox
+					}
+				}
+				AND = {
+					HUN = {
+						religion = orthodox
+					}
+					SLO = {
+						religion = orthodox
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 10950
+			}
+			balkan_region = {
+				add_claim = ROOT
+			}
 		}
 	}
 }
