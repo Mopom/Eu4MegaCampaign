@@ -27,4 +27,15 @@
  GSR_ADJ: "Guardian"
  SCLAVIA: "Slavic Empire"
  SCLAVIA_ADJ: "Slavic"
+ NOVTRA: "Novgorodian Trade Republic"
+ NOVTRA_ADJ: "Novogordian"
+ LES: "Lesbos"
+ LES_ADJ: "Lesbian"
+ SPB: "Sankt-Peterburg"
+ SPB_ADJ: "Petrogradian"
+ AKH: "Arkhangelsk"
+ AKH_ADJ: "Angel'skiy"
+ VEP: "Eastern Kingdom"
+ VEP_ADJ: "Vologdian"
+ 
  

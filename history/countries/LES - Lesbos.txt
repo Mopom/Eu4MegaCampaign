@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = anatolian
+capital = 4700
+add_accepted_culture = greek
+add_country_modifier = {
+	name = lesbos_heirs
+	duration = -1
+}

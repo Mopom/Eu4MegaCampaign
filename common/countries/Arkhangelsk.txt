@@ -1,0 +1,525 @@
+graphical_culture = easterngfx
+color = { 132 108 72 }
+revolutionary_colors = { 0 13 5 }
+historical_idea_groups = {
+	expansion_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	maritime_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Agatha #0" = -1
+	"Agrafena #0" = -14
+	"Alexandr #0" = 7
+	"Alexandra #0" = -5
+	"Alexei #0" = 4
+	"Anastasia #0" = -1
+	"Anna #0" = -1
+	"Aristarkh #0" = 1
+	"Boleslava #0" = -2
+	"Boris #0" = 2
+	"Briachislav #0" = 7
+	"Daniil #0" = 2
+	"Darya #0" = -1
+	"Davyd #0" = 4
+	"Dmitriy #0" = 16
+	"Dobronega #0" = -4
+	"Dobroslava #0" = -7
+	"Dobrynia #0" = 2
+	"Fedot #0" = 1
+	"Feodor #0" = 3
+	"Feodosia #0" = -8
+	"Fevronia #0" = -7
+	"Gavriil #0" = 5
+	"Gebhard #0" = 1
+	"Gleb #0" = 7
+	"Gorislava #0" = -7
+	"Gradislava #0" = -1
+	"Iakov #0" = 2
+	"Igor #0" = 1
+	"Ingvar #0" = 9
+	"Irina #0" = -2
+	"Ivan #0" = 8
+	"Iziaslav #0" = 1
+	"Kirill #0" = 1
+	"Konstantin #0" = 11
+	"Koz'ma #0" = 5
+	"Lev #0" = 5
+	"Liubava #0" = -2
+	"Liudmila #0" = -7
+	"Malfrida #0" = -4
+	"Maria #0" = -7
+	"Mikhail #0" = 20
+	"Mitrofan #0" = 1
+	"Mstislav #0" = 8
+	"Oleg #0" = 11
+	"Olena #0" = -5
+	"Olga #0" = -6
+	"Pavel #0" = 1
+	"Pereyaslava #0" = -4
+	"Praskovya #0" = -9
+	"Praxida #0" = -8
+	"Prebrana #0" = -6
+	"Premyslava #0" = -7
+	"Radoslav #0" = 4
+	"Rodislav #0" = 8
+	"Rogneda #0" = -16
+	"Rogvolod #0" = 4
+	"Roman #0" = 12
+	"Rostislav #0" = 8
+	"Rostislava #0" = -2
+	"Rurik #1" = 9
+	"Sbyslava #0" = -9
+	"Simeon #0" = 1
+	"Sofia #0" = -4
+	"Stanislav #0" = 9
+	"Stepan #0" = 7
+	"Sudislav #0" = 5
+	"Svetozar #0" = 9
+	"Sviatopolk #0" = 1
+	"Sviatoslav #0" = 1
+	"Sviatoslava #0" = -4
+	"Tatyana #0" = -3
+	"Terentiy #0" = 2
+	"Trifon #0" = 8
+	"Ulita #0" = -8
+	"Ulyana #0" = -12
+	"Varvara #0" = -11
+	"Vasilisa #0" = -8
+	"Vasiliy #0" = 7
+	"Veleslava #0" = -2
+	"Viacheslav #0" = 9
+	"Vladimir #0" = 1
+	"Vladislav #0" = 4
+	"Volodar #0" = 8
+	"Vseslav #0" = 1
+	"Vseslava #0" = -1
+	"Vsevolod #0" = 8
+	"Vyshata #0" = 1
+	"Xenia #0" = -4
+	"Yaropolk #0" = 1
+	"Yaroslav #0" = 17
+	"Yaroslava #0" = -1
+	"Yefemia #0" = -2
+	"Yefemiy #0" = 1
+	"Yekaterina #0" = -1
+	"Yelizaveta #0" = -7
+	"Yeremey #0" = 2
+	"Yevdokia #0" = -7
+	"Yevpraxia #0" = -9
+	"Yevstafiy #0" = 19
+	"Yuriy #0" = 5
+	"Zvenislava #0" = -4
+}
+leader_names = {
+	"Adashev"
+	"Apraxine"
+	"Atlasov"
+	"Baranov"
+	"Baryatiski"
+	"Basmanov"
+	"Beketov"
+	"Bibikov"
+	"Chelyuskin"
+	"Chernigovets"
+	"Chuiski"
+	"Dezhnev"
+	"Dolgorukov"
+	"Dubenski"
+	"Ermolov"
+	"Fermor"
+	"Gagarin"
+	"Glinski"
+	"Godunov"
+	"Golitsyn"
+	"Kasimovskiy"
+	"Khabarov"
+	"Khovanski"
+	"Koltsov-Mosalski"
+	"Kurbski"
+	"Kutuzov"
+	"Mansurov"
+	"Menshikov"
+	"Mikulinski"
+	"Minih"
+	"Moskvitin"
+	"Orlov"
+	"Osterman-Tolstoy"
+	"Ovchina-Obolenski"
+	"Patrikeev"
+	"Petrov"
+	"Potemkin"
+	"Poyarkov"
+	"Pozharski"
+	"Rebrov"
+	"Repnin"
+	"Romodanovski"
+	"Rumyantsev"
+	"Semenov"
+	"Senyavin"
+	"Shein"
+	"Sheremetev"
+	"Shuiski"
+	"Skopin"
+	"Soltikov"
+	"Spiridof"
+	"Stroganov"
+	"Tomasov"
+	"Tottleben"
+	"Ushakov"
+	"Vishnevetski"
+	"Vorotinski"
+	"Wittgenstein"
+	"Yalichev"
+	"Yermak"
+	"de Tolly"
+}
+ship_names = {
+	"Afrika"
+	"Aist"
+	"Amur"
+	"Apollo"
+	"Archistratig Michail"
+	"Arkhangel Gavriil"
+	"Arkhangel Mikhail"
+	"Arkhangel Rafail"
+	"Arkhangel Uriil"
+	"Arkhipelag"
+	"Armont"
+	"Arondel"
+	"Astrakhan"
+	"Aziia"
+	"Azov"
+	"Blagodat"
+	"Blagopoluchie"
+	"Bogoiavlenie Gospodne"
+	"Boris i Gleb"
+	"Bozhiye Predvideniye"
+	"Britanniia"
+	"Bulinbrok"
+	"Bystraia"
+	"Cherepakha"
+	"Chesma"
+	"Chestnaia"
+	"Cvet Vojny"
+	"Degas"
+	"Dekrondelivde"
+	"Delfin"
+	"Delos"
+	"Derbent"
+	"Derpt"
+	"Devonshir"
+	"Diana"
+	"Dimitrii Donskoi"
+	"Dobraia"
+	"Donder"
+	"Drumkrakht"
+	"Dumkrat"
+	"Dvenadtsat Apostolov"
+	"Eingorn"
+	"Elena"
+	"Emgeiten"
+	"Emmanuil"
+	"Endrakht"
+	"Esperans"
+	"Etna"
+	"Evropa"
+	"Evva Elenora"
+	"Evva Katerina"
+	"Falk"
+	"Favoritka"
+	"Feniks"
+	"Flag"
+	"Fortuna"
+	"Fredrikhshtadt"
+	"Fridemaker"
+	"Fyodor"
+	"Gamburg"
+	"Gangut"
+	"Gektor"
+	"Generalissimus Rossiiskaia"
+	"Gorod Arkhangelsk"
+	"Goto Predestinatsia"
+	"Graf Orlov"
+	"Gremiashchii"
+	"Grigorii"
+	"Grom"
+	"II"
+	"Iagudiil"
+	"Iamburg"
+	"Iaroslav"
+	"Iassy"
+	"Iezekiil"
+	"Imperatritsa Anna"
+	"Ingermanland"
+	"Ioann"
+	"Ioann Zlatoust Pervyi"
+	"Isaak Viktoriia"
+	"Iupiter"
+	"Ivan Gorod"
+	"Kamen"
+	"Kavaler Sviatoi Aleksandr"
+	"Kavaler Sviatoi Andrei"
+	"Kazanskaya Bogoroditsa"
+	"Khobot"
+	"Khotin"
+	"Khvalnaia"
+	"Kir Ioann"
+	"Kiriil Belozerskiy"
+	"Kit"
+	"Konstantin"
+	"Kopore"
+	"Korona"
+	"Kreiser"
+	"Krepost"
+	"Kronshlot"
+	"Kronshtadt"
+	"Kruis"
+	"Krym"
+	"Landsdou"
+	"Laskovaia"
+	"Lastka"
+	"Leferm"
+	"Legkii"
+	"Lesnoye"
+	"Lev"
+	"Liliia"
+	"Lizet"
+	"London"
+	"Luks"
+	"Mariia Magdalina"
+	"Mariia Magdalina Pervaia"
+	"Mariia Magdalina Vtoraja"
+	"Marlburg"
+	"Matvei Evangelist"
+	"Merkurii"
+	"Miach"
+	"Milo"
+	"Minerva"
+	"Mittau"
+	"Modon"
+	"Molniia"
+	"Monbekend"
+	"Monplezir"
+	"Moreia"
+	"Moris"
+	"Moskva"
+	"Munker"
+	"Nadezhda"
+	"Nadezhda Blagopoluchiia"
+	"Naktsiia"
+	"Narva"
+	"Natalia"
+	"Nazaret"
+	"Ne Tron Menia"
+	"Nepobedimaia"
+	"Neptunus"
+	"Nishtadt"
+	"Nord Adler"
+	"Novaia Nadezhada"
+	"Novopavlovsk"
+	"Oksford"
+	"Olga"
+	"Olifant"
+	"Orfei"
+	"Oryol"
+	"Osnovanie Blagopoluchiia"
+	"Out Adler"
+	"Out Eketbom"
+	"Palyulos"
+	"Pamiat Evstafii"
+	"Panagiia Aporogrilli"
+	"Panagiia Apotumengano"
+	"Panagiia Kaligati"
+	"Panagiia Popandi"
+	"Panteleimon Viktoriia"
+	"Parizh"
+	"Paros"
+	"Patriklii"
+	"Perl"
+	"Pernov"
+	"Pervyi"
+	"Peterburg"
+	"Piotr"
+	"Piotr I i II"
+	"Plato"
+	"Pobeda"
+	"Pochtalon"
+	"Poltava"
+	"Poluks"
+	"Pomoshchnyi"
+	"Portsmut"
+	"Pospeshnyi"
+	"Pravitelnitsa Rossiiskaia"
+	"Prevoskhoditeinaia"
+	"Prints Evgenii"
+	"Prints Gustav"
+	"Printsessa"
+	"Printsessa Anna"
+	"Priyatelnaya"
+	"Prokhor"
+	"Provornyi"
+	"Rafail"
+	"Rak"
+	"Randolf"
+	"Razumnaia"
+	"Razzhyonnoe Zhelezo"
+	"Revel"
+	"Riga"
+	"Rossia"
+	"Rostislav"
+	"Roza"
+	"Rozhdestrvo Khristovo"
+	"Rys"
+	"Salamandra"
+	"Samson"
+	"Sankt Michail"
+	"Sant Iakim"
+	"Saratov"
+	"Schastie"
+	"Schastlivyi"
+	"Selafail"
+	"Severnyj Oryol"
+	"Shkhelpol"
+	"Shlisselburg"
+	"Shpaga"
+	"Shtandart"
+	"Shval"
+	"Siiatelnaia"
+	"Sion"
+	"Sklonnaia"
+	"Skorpion"
+	"Slava Ekateriny"
+	"Slava Rossii"
+	"Snuk"
+	"Sobaka"
+	"Sokol"
+	"Spiashchii Lev"
+	"Starn"
+	"Staryi Dub"
+	"Staryi Oryol"
+	"Stein"
+	"Straford"
+	"Strakh"
+	"Strela"
+	"Strus"
+	"Sulitsa"
+	"Sviataia Anna"
+	"Sviataia Velikomuchenitsa Varvara"
+	"Sviatogo Dukha"
+	"Sviatoi Aleksandr"
+	"Sviatoi Aleksandr Nevskij"
+	"Sviatoi Andrei"
+	"Sviatoi Andrei Pervozvannii"
+	"Sviatoi Antonii"
+	"Sviatoi Dmitrii Rostovskii"
+	"Sviatoi Evstafii Plakida"
+	"Sviatoi Fyodor"
+	"Sviatoi Georgii"
+	"Sviatoi Georgii Pobedonosets"
+	"Sviatoi Iakov"
+	"Sviatoi Ieronim"
+	"Sviatoi Ilia"
+	"Sviatoi Isakii"
+	"Sviatoi Januarii"
+	"Sviatoi Kliment Papa Rimskii"
+	"Sviatoi Nikolai"
+	"Sviatoi Panteleimon"
+	"Sviatoi Pavel"
+	"Sviatoi Piotr"
+	"Sviatoi Sergii"
+	"Sviatoi Velikomuchenik Isidor"
+	"Sviatoslav"
+	"Svietaia Ekaterina"
+	"Svietaia Mariia"
+	"Svirepaia"
+	"Sysoi Velikii"
+	"Taganrog"
+	"Taimalar"
+	"Telemakus"
+	"Terpelivaia"
+	"Tino"
+	"Tolskaya Bogoroditsa"
+	"Trekh Ierarkhov"
+	"Trekh Sviatitelei"
+	"Tsar Konstantin"
+	"Tsvet Voiny"
+	"Tver"
+	"Tvyordyi"
+	"Ubornaia"
+	"Uchtivaia"
+	"Uliss"
+	"Ulriksdal"
+	"Upovanie"
+	"Uriil"
+	"Vakhmeister"
+	"Varakhail"
+	"Vedraia"
+	"Venera"
+	"Venker"
+	"Venus"
+	"Vestovoi"
+	"Vesuvii"
+	"Viacheslav"
+	"Viktoriia"
+	"Vinkelgak"
+	"Vinogradnaia Vetv"
+	"Voin"
+	"Voronez"
+	"Voznesenie Gospodne"
+	"Vsevolod"
+	"Vtoroi"
+	"Vyborg"
+	"Vydra"
+	"Yanos"
+	"Zabavnaia"
+	"Zadornaia"
+	"Zakharii i Elisavet"
+	"Zhemchug"
+	"Zhuravl Steregushchii"
+	"Zhurzha"
+	"Zmeia"
+	"Zolotaia Zvezda"
+	"Zolotoe Iaboloko"
+	"Zvezda"
+}
+army_names = {
+	"Army of Crimea"
+	"Army of Finland"
+	"Army of Poland"
+	"Army of Siberia"
+	"Army of Ukraine"
+	"Army of the Baltic"
+	"Army of the Caucasus"
+	"Army of the Ural"
+	"Russian Imperial Army"
+}
+fleet_names = {
+	"Baltic Squadron"
+	"Black Sea Squadron"
+	"Blue Squadron"
+	"Red Squadron"
+	"White Squadron"
+}

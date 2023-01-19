@@ -437,3 +437,6 @@ domination_of_scandes = {
 	trade_goods_size_modifier = 0.1
 	monthly_reform_progress_modifier = 0.1
 }
+lesbos_heirs = {
+	female_advisor_chance = 1
+}
