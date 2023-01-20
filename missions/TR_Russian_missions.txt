@@ -7586,6 +7586,88 @@ ortho_church_crusade_missions_4 = {
 			}
 		}
 	}
+	ortho_crus_byzantios = {
+		icon = mission_plc_purple_phoenix
+		required_missions = { ortho_crus_patvas }
+		position = 16
+		provinces_to_highlight = {
+			OR = {
+				area = northern_greece_area
+				area = morea_area
+				area = macedonia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = { exists = BYZ }
+		}
+		effect = {
+			northern_greece_area = {
+				add_core = BYZ
+				cede_province = BYZ
+				remove_core = BYZ
+			}
+			morea_area = {
+				add_core = BYZ
+				cede_province = BYZ
+				remove_core = BYZ
+			}
+			macedonia_area = {
+				add_core = BYZ
+				cede_province = BYZ
+				remove_core = BYZ
+			}
+			vassalize = BYZ
+			add_splendor = 10
+			add_next_institution_embracement = 5
+			118 = {
+				add_permanent_claim = RUS
+				add_permanent_claim = BYZ
+			}
+		}
+	}
+	ortho_crus_cathol = {
+		icon = mission_raid_on_genoa
+		required_missions = { ortho_crus_byzantios }
+		position = 17
+		provinces_to_highlight = {
+			province_id = 118
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 118
+			118 = {
+				religion = orthodox
+			}
+		}
+		effect = {
+			every_country = {
+				limit = {
+					religion = catholic
+					}
+				change_religion = orthodox
+			}
+			every_province = {
+				limit = {
+					religion = catholic
+					}
+				change_religion = orthodox
+			}
+			add_adm_power = 150
+		}
+	}
 }
 rus_city_missions_5 = {
 	slot = 5
@@ -8455,6 +8537,44 @@ ortho_church_crusade_missions_5 = {
 			balkan_region = {
 				add_claim = ROOT
 			}
+		}
+	}
+}
+rus_cilli_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_cilli_hawaii = {
+		icon = mission_oceania_assemble_an_army
+		required_missions = {  }
+		position = 19
+		provinces_to_highlight = {
+			province_id = 4936
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 4936
+		}
+		effect = {
+			4936 = {
+				change_province_name = "Fort Elizavety"
+				rename_capital = "Pa'ula'ula o Hipo"
+				add_province_modifier = {
+					name = rus_hawaii_frt
+					duration = -1
+				}
 		}
 	}
 }
