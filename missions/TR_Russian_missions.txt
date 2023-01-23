@@ -6262,6 +6262,7 @@ ortho_church_maintain_missions_2 = {
 					continent = asia
 				}
 				cede_province = PRE
+				remove_core = RUS
 			}
 			every_province = {
 				limit = {
@@ -6272,6 +6273,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				cede_province = UBL
+				remove_core = RUS
 			}
 			every_province = {
 				limit = {
@@ -6282,6 +6284,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				cede_province = Z02
+				remove_core = RUS
 			}
 			every_province = {
 				limit = {
@@ -6289,6 +6292,7 @@ ortho_church_maintain_missions_2 = {
 					region = france_region
 				}
 				cede_province = FRA
+				remove_core = RUS
 			}
 			every_province = {
 				limit = {
@@ -6296,6 +6300,7 @@ ortho_church_maintain_missions_2 = {
 					region = iberia_region
 				}
 				cede_province = ADU
+				remove_core = RUS
 			}
 			every_province = {
 				limit = {
@@ -6303,6 +6308,7 @@ ortho_church_maintain_missions_2 = {
 					region = british_isles_region
 				}
 				cede_province = GBR
+				remove_core = RUS
 			}
 		}
 	}
