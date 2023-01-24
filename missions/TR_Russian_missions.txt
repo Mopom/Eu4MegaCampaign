@@ -7785,8 +7785,11 @@ rus_exp_east_branch_5 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			Z0E = {
-				vassal_of = ROOT
+			OR = {
+				Z0E = {
+					vassal_of = ROOT
+				}
+				NOT = { exists = Z0E }
 			}
 		}
 		effect = {
