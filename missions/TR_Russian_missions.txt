@@ -7699,7 +7699,7 @@ rus_city_missions_5 = {
 			province_id = 38
 		}
 		trigger = {
-			33 = {
+			38 = {
 				owned_by = ROOT
 				is_core = ROOT
 				has_building = cathedral
