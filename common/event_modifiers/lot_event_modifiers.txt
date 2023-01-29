@@ -443,3 +443,7 @@ lesbos_heirs = {
 rus_hawaii_frt = {
 	province_trade_power_modifier = 0.4
 }
+pursecution_of_buddh = {
+	local_unrest = 3.5
+	min_local_autonomy = 60
+}
