@@ -447,3 +447,10 @@ pursecution_of_buddh = {
 	local_unrest = 3.5
 	min_local_autonomy = 60
 }
+temple_privs = {
+	liberty_desire = -15
+	global_tax_modifier = 0.2
+}
+relax_disas = {
+	stability_cost_modifier = -0.25
+}

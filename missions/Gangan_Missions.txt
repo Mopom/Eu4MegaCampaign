@@ -1,4 +1,4 @@
-dlh_slot_1 = {
+ind_guj_slot_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -12,98 +12,10 @@ dlh_slot_1 = {
 	}
 	has_country_shield = yes
 	
-	dlh_agra_mission = {
-		icon = mission_found_the_city_of_agra
-		required_missions = { dlh_jnp_reconquest }
-		position = 2
-		completed_by = 1504.1.1
-		provinces_to_highlight = {
-			province_id = 524
-		}
-		trigger = {
-			owns_core_province = 524
-			524 = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-				development = 25
-			}
-		}
-		effect = {
-			country_event = { id = flavor_dlh.8 }
-		}
-	}
-	dlh_textile_industry = {
-		icon = mission_expand_textile_industry
-		required_missions = { dlh_agra_mission }
-		provinces_to_highlight = {
-		}
-		trigger = {
-			num_of_owned_provinces_with = {
-				value = 10
-				OR = {
-					has_building = textile
-					AND = {
-						has_building = plantations
-						trade_goods = cotton
-					}
-				}
-			}
-		}
-		effect = {
-			add_dip_power = 100
-			add_country_modifier = {
-				name = dlh_textile_modifier
-				duration = 7300
-			}
-		}
-	}
-}
-
-dlh_east_missions = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Dharma"
-	}
-	potential = {
-		tag = Z01
-		has_dlc = "Dharma"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-dlh_jnp_reconquest = {
-		icon = mission_reclaim_lost_territory
-		required_missions = { }
-		completed_by = 1486.1.1
-		trigger = {
-			war_with = BNG
-		}
-		effect = {
-			add_country_modifier = {
-				name = "focused_on_war"
-				duration = 1825
-			}
-			define_general = {
-				shock = 5
-				manuever = 3
-				siege = 2
-				name = Binks
-			}
-		}
-	}
-
-gujarat_forced_migration = {
+	gujarat_forced_migration = {
 		icon = mission_conquer_gujarat_dlh
 		required_missions = { dlh_jnp_reconquest }
+		position = 2
 		provinces_to_highlight = {
 			OR = {
 				area = ahmedabad_area
@@ -198,10 +110,147 @@ gujarat_forced_migration = {
 				add_core Z01
 				add_devastation = 5
 			}
-				
+			GUJ = {
+				restore_country_name = yes
+			}
 		}
 	}
+}
+dlh_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_agra_mission = {
+		icon = mission_found_the_city_of_agra
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
+		completed_by = 1504.1.1
+		provinces_to_highlight = {
+			province_id = 524
+		}
+		trigger = {
+			owns_core_province = 524
+			524 = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				development = 25
+			}
+		}
+		effect = {
+			country_event = { id = flavor_dlh.8 }
+		}
+	}
+	dlh_textile_industry = {
+		icon = mission_expand_textile_industry
+		required_missions = { dlh_agra_mission }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					has_building = textile
+					AND = {
+						has_building = plantations
+						trade_goods = cotton
+					}
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			add_country_modifier = {
+				name = dlh_textile_modifier
+				duration = 7300
+			}
+		}
+	}
+}
+ind_dis_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_jnp_reconquest = {
+		icon = mission_reclaim_lost_territory
+		required_missions = { }
+		position = 1
+		trigger = {
+			war_with = BNG
+		}
+		effect = {
+			add_country_modifier = {
+				name = "focused_on_war"
+				duration = 1825
+			}
+			define_general = {
+				shock = 5
+				manuever = 3
+				siege = 2
+				name = Binks
+			}
+		}
+	}
+	mad_temp_priv = {
+		icon = mission_across_the_vindhyas
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
+		trigger = {
+			MAD = {
+				liberty_desire = 75
+			}
+		}
+		effect = {
+			MAD = {
+				add_country_modifier = {
+					name = temple_privs
+					duration = 10950
+				}
+			}
+		}
+	}
+}
 
+dlh_east_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
 	gng_integration = {
 		icon = mission_conquer_gujarat_dlh
 		required_missions = { gujarat_forced_migration }
@@ -381,7 +430,7 @@ gujarat_forced_migration = {
 			}
 		}
 	}
-dlh_conquer_deccan = {
+	dlh_conquer_deccan = {
 		icon = mission_invade_the_deccan_dlh
 		required_missions = { dlh_conquer_orissa  }
 		provinces_to_highlight = {
@@ -422,8 +471,7 @@ dlh_conquer_deccan = {
 		}
 	}
 }
-
-dlh_west_missions = {
+ind_heir_missions_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -437,10 +485,118 @@ dlh_west_missions = {
 	}
 	has_country_shield = yes
 	
-	dlh_lodi_sayyids = {
+	gan_lot_heir = {
+		icon = mission_integrate_the_purbias
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
+		trigger = {
+			has_heir = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = relax_disas
+				duration = 7300
+			}
+			add_years_of_income = 0.17
+		}
+	}
+}
+
+dlh_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_conquer_afghans = {
+		icon = mission_subdue_the_afghans
+		required_missions = { dlh_lot_lahore }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = kabulistan_area
+				area = sind_sagar_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			kabulistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			sind_sagar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+			add_country_modifier = {
+				name = "dlh_afghan_conquest_modifier"
+				duration = 7300
+			}
+		}
+	}
+	dlh_conquer_sind = {
+		icon = mission_conquer_sindh_dlh
+		required_missions = { dlh_restore_sultanate }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = sindh_area
+				area = northern_sindh_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			northern_sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "dlh_sind_conquest_modifier"
+				duration = 7300
+			}
+		}
+	}
+	
+}
+dlh_west_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_lot_lahore = {
 		icon = mission_assert_control_over_delhi
-		required_missions = {  }
-		completed_by = 1451.1.1
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
 		provinces_to_highlight = {
 			OR = {
 				area = upper_doab_area
@@ -491,7 +647,7 @@ dlh_west_missions = {
 	}
 	dlh_reconquer_multan = {
 		icon = mission_restore_rule_over_multan
-		required_missions = { dlh_lodi_sayyids  }
+		required_missions = { dlh_lot_lahore  }
 		provinces_to_highlight = {
 			area = multan_area
 			NOT = {
@@ -703,83 +859,6 @@ dlh_west_missions = {
 	}
 }
 
-dlh_slot_4 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Dharma"
-	}
-	potential = {
-		tag = Z01
-		has_dlc = "Dharma"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	dlh_conquer_afghans = {
-		icon = mission_subdue_the_afghans
-		required_missions = { dlh_lodi_sayyids }
-		position = 2
-		provinces_to_highlight = {
-			OR = {
-				area = kabulistan_area
-				area = sind_sagar_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			kabulistan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			sind_sagar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {
-			add_army_tradition = 10
-			add_country_modifier = {
-				name = "dlh_afghan_conquest_modifier"
-				duration = 7300
-			}
-		}
-	}
-	dlh_conquer_sind = {
-		icon = mission_conquer_sindh_dlh
-		required_missions = { dlh_restore_sultanate }
-		position = 4
-		provinces_to_highlight = {
-			OR = {
-				area = sindh_area
-				area = northern_sindh_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			sindh_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			northern_sindh_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "dlh_sind_conquest_modifier"
-				duration = 7300
-			}
-		}
-	}
-	
-}
 dlh_slot_5 = {
 slot = 5
 	generic = no
