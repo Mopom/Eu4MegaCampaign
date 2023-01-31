@@ -1,6 +1,6 @@
 ck2_converter_generated = yes
 graphical_culture = asiangfx
-color = { 162 32 65 }
+color = { 65 32 162 }
 revolutionary_colors = { 0 13 0 }
 historical_idea_groups = {
 	offensive_ideas
