@@ -1337,11 +1337,14 @@ hlr_karl_mending_the_schism_2 = {
 			owned_by = RUS
 		}
 		trigger = {
-			RUS = {
-				has_opinion = {
-					who = ROOT
-					value = 120
+			OR = {
+				RUS = {
+					has_opinion = {
+						who = ROOT
+						value = 120
+					}
 				}
+				NOT = { exists = RUS }
 			}
 		}
 		effect = {
@@ -1381,7 +1384,8 @@ hlr_karl_mending_the_schism_2 = {
 					}
 				}
 			}
-			else = {
+			else_if = {
+				limit = { exists = RUS }
 				RUS = {
 					has_opinion = {
 						who = ROOT

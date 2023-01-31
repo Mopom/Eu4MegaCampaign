@@ -1215,7 +1215,7 @@ muslim = {
 			
 			may_recruit_female_generals = yes
 			female_advisor_chance = 0.48
-			heir_chance = 0.60
+			religious_unity = 0.1
 		}
 		#Shias
 		ismaili_school = {

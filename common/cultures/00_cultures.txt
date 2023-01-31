@@ -1839,8 +1839,8 @@ west_slavic = {
 	czech = {
 		primary = BOH
 		dynasty_names = {
-			"Jankovsk� z Vla�imi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
-			"Kounic" "V�tkovec" "Zerot�n" "Czern�n" "von Harrach" Kinsky Rosenberg
+			"Jankovskí z Vladimi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
+			"Kounic" "Votkovec" "Zerotón" "Czernón" "von Harrach" Kinsky Rosenberg
 			Waldstein Jeszenszky
 		}
 		male_names = {
@@ -1858,7 +1858,7 @@ west_slavic = {
 		male_names = {
 			Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert 
 			Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich 
-			Vinzenz Andr� Charles Didier Emmanuel Fr�d�ric G�rard Henri Jules Matthieu Nicolas Pascal 
+			Vinzenz Andrz Charles Didier Emmanuel Frédéric Gerard Henri Jules Matthieu Nicolas Pascal 
 			Vincent Claudio Edmondo Leonardo Timoteo
 		}
 		female_names = {

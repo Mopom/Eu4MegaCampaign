@@ -186,7 +186,7 @@ trade_ot_black_sea = {
 	trade_value_modifier = 0.15
 }
 more_mocha_mod = {
-	trade_goods_size_modifier = 0.6
+	trade_goods_size_modifier = 0.45
 	province_trade_power_modifier = 0.15
 }
 capital_caliphornia = {
@@ -347,4 +347,127 @@ khan_in_japan = {
 }
 tea_over_coffee = {
 	global_unrest = -2
+}
+forebearers_of_japan = {
+	culture_conversion_cost = -0.15
+	relation_with_accepted_culture = 5
+	local_tax_modifier = 0.1
+	trade_value = 0.5
+}
+assylum_seekers = {
+	local_culture_conversion_cost = 0.35
+	local_autonomy = 0.10
+}
+western_ifluenced = {
+	ship_recruit_speed = -0.2
+	local_institution_spread = 0.03
+	spy_offense = 0.1
+}
+across_vistula = {
+	innovativeness_gain = 0.1
+	institution_spread_from_true_faith = 0.025
+}
+riga_relig = {
+	prestige_per_development_from_conversion = 0.2
+	yearly_patriarch_authority = 0.025
+}
+teu_pru_fortified_border = {	#Permanent, province
+	local_defensiveness = 0.5
+	local_garrison_size = 0.25
+	local_fort_maintenance_modifier = -0.9
+}
+tsar_of_south_slavs = {
+	global_tax_modifier = 0.05
+	global_unrest = -0.5
+	global_own_trade_power = 0.2
+	prestige = 0.4
+}
+boyar_priv_armies = {
+	free_land_leader_pool = 2
+	regiment_manpower_usage = -0.15
+	manpower_in_culture_group_provinces = 0.1
+}
+tsar_of_all_slavs = {
+	prestige = 0.5
+	relation_with_other_culture = 5
+}
+crusade_on_mong = {
+	missionaries = 1
+	global_missionary_strength = 0.01
+	cb_on_religious_enemies = yes
+}
+boyar_isl_happy = {
+	global_unrest = -2
+	relation_with_heretics = 5
+	relation_with_heathens = 10
+	technology_cost = -0.1
+}
+russian_stayed_patriarchal = {
+	missionaries = 1
+	prestige_per_development_from_conversion = 0.1
+	warscore_cost_vs_other_religion = -0.1
+}
+control_of_yilinn = {
+	merchants = 1
+	caravan_power = 0.03
+}
+church_tithe_rus = {
+	global_unrest = 1
+	church_influence_modifier = 0.11
+	church_loyalty_modifier = 0.12
+	global_tax_modifier = 0.2
+}
+restore_daddy_paypal = {
+	papal_influence = 0.5
+}
+huss_gothan = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+}
+crusades_of_ortho = {
+	cb_on_religious_enemies = yes
+	enforce_religion_cost = -0.15
+}
+patri_infl_scary = {
+	church_influence_modifier = 0.25
+	monarch_admin_power = 1
+}
+domination_of_scandes = {
+	province_trade_power_modifier = 0.25
+	trade_goods_size_modifier = 0.1
+	monthly_reform_progress_modifier = 0.1
+}
+lesbos_heirs = {
+	female_advisor_chance = 1
+}
+rus_hawaii_frt = {
+	province_trade_power_modifier = 0.4
+}
+pursecution_of_buddh = {
+	local_unrest = 3.5
+	min_local_autonomy = 60
+}
+temple_privs = {
+	liberty_desire = -15
+	global_tax_modifier = 0.2
+}
+relax_disas = {
+	stability_cost_modifier = -0.25
+}
+ganga_trade_mod = {
+	province_trade_power_modifier = 0.2
+	trade_value_modifier = 0.1
+}
+ganges_riv_traders = {
+	global_own_trade_power = 0.3
+}
+bharatpur_relig = {
+	tolerance_own = 2
+}
+relig_tib_conv = {
+	global_missionary_strength = 0.03
+	missionaries = 1
+}
+varanasi_relig = {
+	enforce_religion_cost = -0.33
 }

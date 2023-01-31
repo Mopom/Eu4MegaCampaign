@@ -1,4 +1,4 @@
-dlh_slot_1 = {
+ind_guj_slot_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -12,98 +12,10 @@ dlh_slot_1 = {
 	}
 	has_country_shield = yes
 	
-	dlh_agra_mission = {
-		icon = mission_found_the_city_of_agra
-		required_missions = { dlh_jnp_reconquest }
-		position = 2
-		completed_by = 1504.1.1
-		provinces_to_highlight = {
-			province_id = 524
-		}
-		trigger = {
-			owns_core_province = 524
-			524 = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-				development = 25
-			}
-		}
-		effect = {
-			country_event = { id = flavor_dlh.8 }
-		}
-	}
-	dlh_textile_industry = {
-		icon = mission_expand_textile_industry
-		required_missions = { dlh_agra_mission }
-		provinces_to_highlight = {
-		}
-		trigger = {
-			num_of_owned_provinces_with = {
-				value = 10
-				OR = {
-					has_building = textile
-					AND = {
-						has_building = plantations
-						trade_goods = cotton
-					}
-				}
-			}
-		}
-		effect = {
-			add_dip_power = 100
-			add_country_modifier = {
-				name = dlh_textile_modifier
-				duration = 7300
-			}
-		}
-	}
-}
-
-dlh_east_missions = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Dharma"
-	}
-	potential = {
-		tag = Z01
-		has_dlc = "Dharma"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-dlh_jnp_reconquest = {
-		icon = mission_reclaim_lost_territory
-		required_missions = { }
-		completed_by = 1486.1.1
-		trigger = {
-			war_with = BNG
-		}
-		effect = {
-			add_country_modifier = {
-				name = "focused_on_war"
-				duration = 1825
-			}
-			define_general = {
-				shock = 5
-				manuever = 3
-				siege = 2
-				name = Binks
-			}
-		}
-	}
-
-gujarat_forced_migration = {
+	gujarat_forced_migration = {
 		icon = mission_conquer_gujarat_dlh
 		required_missions = { dlh_jnp_reconquest }
+		position = 2
 		provinces_to_highlight = {
 			OR = {
 				area = ahmedabad_area
@@ -198,31 +110,344 @@ gujarat_forced_migration = {
 				add_core Z01
 				add_devastation = 5
 			}
-				
+			GUJ = {
+				restore_country_name = yes
+			}
 		}
 	}
-
-	gng_integration = {
-		icon = mission_conquer_gujarat_dlh
-		required_missions = { gujarat_forced_migration }
-		provinces_to_highlight = { }
+}
+ind_ganges_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	no_vas_ganges = {
+		icon = mission_follow_the_brahmaputra
+		required_missions = {  }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = east_bengal_area
+				area = west_bengal_area
+				area = gaur_area
+				area = bihar_area
+				area = purvanchal_area
+				area = lower_doab_area
+				area = oudh_area
+				area = katehar_area
+				area = upper_doab_area
+				province_id = 2096
+				province_id = 4487
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
 		trigger = {
-			war_with = BNG
-			dip_power = 200
-			stability = 3
-			manpower = 2
+			east_bengal_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			west_bengal_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			gaur_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bihar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			purvanchal_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			lower_doab_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			oudh_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			katehar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			upper_doab_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2096
+			owns_core_province = 4487
 		}
-		effect = { 
-			inherit = GUJ 
-			stability = -1
-			add_manpower = -2
-			add_dip_power = -200
+		effect = {
+			564 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			556 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			4489 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
 		}
 	}
-
+	delhi_and_dhaka = {
+		icon = mission_the_tamil_trade_guilds
+		required_missions = { no_vas_ganges }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 561
+				province_id = 563
+				province_id = 558
+				province_id = 556
+				province_id = 524
+				province_id = 522
+			}
+		}
+		trigger = {
+			owns_core_province = 561
+			owns_core_province = 563
+			owns_core_province = 558
+			owns_core_province = 556
+			owns_core_province = 524
+			owns_core_province = 522
+			561 = {
+				province_has_center_of_trade_of_level = 2
+			}
+			563 = {
+				province_has_center_of_trade_of_level = 2
+			}
+			558 = {
+				province_has_center_of_trade_of_level = 2
+			}
+			556 = {
+				province_has_center_of_trade_of_level = 3
+			}
+			524 = {
+				province_has_center_of_trade_of_level = 3
+			}
+			522 = {
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+		effect = {
+			522 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			524 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			556 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			558 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			561 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+			563 = {
+				add_province_modifier = {
+					name = ganga_trade_mod
+					duration = 7300
+				}
+			}
+		}
+	}
+	development_of_ganges = {
+		icon = mission_growth_of_golcond
+		required_missions = { delhi_and_dhaka }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 564
+				province_id = 4475
+				province_id = 4476
+				province_id = 4479
+				province_id = 2081
+				province_id = 563
+				province_id = 2096
+				province_id = 2044
+				province_id = 4472
+				province_id = 4489
+				province_id = 558
+				province_id = 4487
+				province_id = 4490
+				province_id = 2095
+				province_id = 556
+				province_id = 4496
+				province_id = 523
+				province_id = 2063
+				province_id = 4497
+				province_id = 4499
+				province_id = 524
+				province_id = 4498
+				province_id = 2061
+				province_id = 522
+				province_id = 2060
+			}
+		}
+		trigger = {
+			564 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4498 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2061 = {
+				owned_by = ROOT
+				development = 15
+			}
+			522 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2060 = {
+				owned_by = ROOT
+				development = 15
+			}
+			524 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4497 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4499 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2063 = {
+				owned_by = ROOT
+				development = 15
+			}
+			523 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4496 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4490 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2095 = {
+				owned_by = ROOT
+				development = 15
+			}
+			556 = {
+				owned_by = ROOT
+				development = 15
+			}
+			558 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4487 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4489 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4475 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4476 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4479 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2081 = {
+				owned_by = ROOT
+				development = 15
+			}
+			563 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2096 = {
+				owned_by = ROOT
+				development = 15
+			}
+			2044 = {
+				owned_by = ROOT
+				development = 15
+			}
+			4472 = {
+				owned_by = ROOT
+				development = 15
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ganges_riv_traders
+				duration = 10950
+			}
+			add_years_of_income = 1.5
+		}
+	}
 	dlh_grand_trunk_road = {
 		icon = mission_the_grand_trunk_road_dlh
-		required_missions = { gng_integration }
+		required_missions = { development_of_ganges }
+		position = 6
 		provinces_to_highlight = {
 			OR = {
 				area = lahore_area
@@ -351,79 +576,373 @@ gujarat_forced_migration = {
 			}
 		}
 	}
-	dlh_conquer_orissa = {
-		icon = mission_conquer_orissa_dlh
-		required_missions = { dlh_grand_trunk_road }
-		provinces_to_highlight = {
-			OR = {
-				area = jharkhand_area
-				area = orissa_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			jharkhand_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			orissa_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {	
-			add_adm_power = 100
-			add_country_modifier = {
-				name = "dlh_orissa_conquest_modifier"
-				duration = 7300
-			}
-		}
+}
+ind_lot_migrate_nep = {
+slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
 	}
-dlh_conquer_deccan = {
-		icon = mission_invade_the_deccan_dlh
-		required_missions = { dlh_conquer_orissa  }
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	gan_npl_mission = {
+		icon = mission_reclaim_lost_territory
+		required_missions = { }
+		position = 7
 		provinces_to_highlight = {
 			OR = {
-				region = deccan_region
-				area = kongu_area
-				area = south_carnatic_area
-				area = north_carnatic_area
+				area = utsang_area
+				area = bhutan_area
+				area = ngari_area
+				area = nepal_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			deccan_region = {
+			adm_power = 200
+			cash = 2000
+			utsang_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				OR = {
+					owned_by = NPL
+					owned_by = ROOT
+				}
 			}
-			kongu_area = {
+			bhutan_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				OR = {
+					owned_by = NPL
+					owned_by = ROOT
+				}
 			}
-			south_carnatic_area = {
+			ngari_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				OR = {
+					owned_by = NPL
+					owned_by = ROOT
+				}
 			}
-			north_carnatic_area = {
+			nepal_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
+				OR = {
+					owned_by = NPL
+					owned_by = ROOT
+				}
 			}
 		}
 		effect = {
-			add_mil_power = 100
+			add_adm_power = -200
+			add_cash = -2000
+			himalayan_hills_area = {
+				cede_province = Z01
+				add_core = Z01
+			}	
+			nepal_area = {
+				cede_province = Z01
+				add_core = Z01
+			}
+			utsang_area = {
+				cede_province = NPL
+				add_core = NPL
+			}
+			bhutan_area = {
+				cede_province = NPL
+				add_core = NPL
+			}
+			ngari_area = {
+				cede_province = NPL
+				add_core = NPL
+			}
+			4484 = {
+				cede_province = Z01
+				add_core = Z01
+			}	
+			4492 = {
+				cede_province = Z01
+				add_core = Z01
+			}
+			554 = {
+				cede_province = Z01
+				add_core = Z01
+			}
+			NPL = { 
+				override_country_name = NPLTIB
+			}
+		}
+	}
+	gan_npl_expand = {
+		icon = mission_invade_the_deccan_ori
+		required_missions = { gan_npl_mission }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = tsang_area
+				province_id = 710
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			tsang_area = {
+				type = all
+				owned_by = NPL
+			}
+			NPL = {
+				owns_core_province = 710
+			}
+		}
+		effect = {
+			amdo_area = {
+				add_permanent_claim = NPL
+			}
+			shanshan_area = {
+				add_permanent_claim = NPL
+			}
+			NPL = { 
+				add_government_reform = monastic_order_reform
+			}
+		}
+	}
+	gan_npl_tibet = {
+		icon = mission_asian_city
+		required_missions = { gan_npl_expand }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = amdo_area
+				area = shanshan_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			amdo_area = {
+				type = all
+				owned_by = NPL
+			}
+			shanshan_area = {
+				type = all
+				owned_by = NPL
+			}
+		}
+		effect = {
+			add_prestige = 15
+			NPL = {
+				add_country_modifier = {
+					name = relig_tib_conv
+					duration = 7300
+				}
+			}
+		}
+	}
+}
+ind_dis_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_jnp_reconquest = {
+		icon = mission_reclaim_lost_territory
+		required_missions = { }
+		position = 1
+		trigger = {
+			war_with = BNG
+		}
+		effect = {
 			add_country_modifier = {
-				name = "dlh_deccan_conquest_modifier"
-				duration = 7300
+				name = "focused_on_war"
+				duration = 1825
+			}
+			define_general = {
+				shock = 5
+				manuever = 3
+				siege = 2
+				name = Binks
+			}
+		}
+	}
+	mad_temp_priv = {
+		icon = mission_across_the_vindhyas
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
+		trigger = {
+			MAD = {
+				liberty_desire = 75
+			}
+		}
+		effect = {
+			MAD = {
+				add_country_modifier = {
+					name = temple_privs
+					duration = 10950
+				}
+			}
+		}
+	}
+	mad_consolidate_ind = {
+		icon = mission_marathi_fiefs
+		required_missions = { mad_temp_priv }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 570
+				province_id = 571
+				province_id = 2042
+				province_id = 562
+				province_id = 556
+				province_id = 555
+				province_id = 2095
+				province_id = 4490
+				province_id = 2055
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			MAD = {
+				NOT = { liberty_desire = 50 }
+			}
+			owns_core_province = 570
+			owns_core_province = 571
+			owns_core_province = 2042
+			owns_core_province = 562
+			MAD = {
+				owns_core_province = 556
+				owns_core_province = 555
+				owns_core_province = 2095
+				owns_core_province = 4490
+				owns_core_province = 2055
+			}
+		}
+		effect = {
+			570 = {
+				add_core = MAD
+				remove_core = Z01
+				cede_province = MAD
+			}
+			571 = {
+				add_core = MAD
+				remove_core = Z01
+				cede_province = MAD
+			}
+			2042 = {
+				add_core = MAD
+				remove_core = Z01
+				cede_province = MAD
+			}
+			562 = {
+				add_core = MAD
+				remove_core = Z01
+				cede_province = MAD
+			}
+			556 = {
+				add_core = Z01
+				cede_province = Z01
+			}
+			555 = {
+				add_core = Z01
+				cede_province = Z01
+			}
+			2095 = {
+				add_core = Z01
+				cede_province = Z01
+			}
+			4490 = {
+				add_core = Z01
+				cede_province = Z01
+			}
+			2055 = {
+				add_core = Z01
+				cede_province = Z01
 			}
 		}
 	}
 }
 
-dlh_west_missions = {
+raj_east_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	gng_raj_integration = {
+		icon = mission_conquer_gujarat_dlh
+		required_missions = { development_of_ganges }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = jangladesh_area
+				area = marwar_area
+				area = mewar_area
+				area = patan_area
+				area = saurashtra_area
+				area = ahmedabad_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			jangladesh_area = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			marwar_area = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			mewar_area = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			patan_area = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			saurashtra_area = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			ahmedabad_area = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			NOT = { exists = GUJ }
+		}
+		effect = { 
+			add_stability = 1
+			add_manpower = 2
+			add_dip_power = 200
+		}
+	}
+}
+ind_heir_missions_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -437,10 +956,118 @@ dlh_west_missions = {
 	}
 	has_country_shield = yes
 	
-	dlh_lodi_sayyids = {
+	gan_lot_heir = {
+		icon = mission_integrate_the_purbias
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
+		trigger = {
+			has_heir = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = relax_disas
+				duration = 7300
+			}
+			add_years_of_income = 0.17
+		}
+	}
+}
+
+dlh_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_conquer_afghans = {
+		icon = mission_subdue_the_afghans
+		required_missions = { dlh_lot_lahore }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = kabulistan_area
+				area = sind_sagar_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			kabulistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			sind_sagar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+			add_country_modifier = {
+				name = "dlh_afghan_conquest_modifier"
+				duration = 7300
+			}
+		}
+	}
+	dlh_conquer_sind = {
+		icon = mission_conquer_sindh_dlh
+		required_missions = { dlh_restore_sultanate }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = sindh_area
+				area = northern_sindh_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			northern_sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "dlh_sind_conquest_modifier"
+				duration = 7300
+			}
+		}
+	}
+	
+}
+dlh_west_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dlh_lot_lahore = {
 		icon = mission_assert_control_over_delhi
-		required_missions = {  }
-		completed_by = 1451.1.1
+		required_missions = { dlh_jnp_reconquest }
+		position = 2
 		provinces_to_highlight = {
 			OR = {
 				area = upper_doab_area
@@ -491,7 +1118,7 @@ dlh_west_missions = {
 	}
 	dlh_reconquer_multan = {
 		icon = mission_restore_rule_over_multan
-		required_missions = { dlh_lodi_sayyids  }
+		required_missions = { dlh_lot_lahore  }
 		provinces_to_highlight = {
 			area = multan_area
 			NOT = {
@@ -655,132 +1282,9 @@ dlh_west_missions = {
 			}
 		}
 	}
-	gng_restore_empire = {
-		icon = mission_delhi_resurgent
-		required_missions = { dlh_conquer_deccan }
-		position = 7
-		provinces_to_highlight = {
-		}
-		trigger = {
-			prestige = 50
-			total_development = 500
-		}
-		effect = {
-			override_country_name = "India"
-			set_government_rank = 3
-			add_mil_power = 100
-			add_adm_power = 100
-			add_dip_power = 100
-			west_india_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			deccan_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			bengal_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			coromandel_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
 }
 
-dlh_slot_4 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Dharma"
-	}
-	potential = {
-		tag = Z01
-		has_dlc = "Dharma"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	dlh_conquer_afghans = {
-		icon = mission_subdue_the_afghans
-		required_missions = { dlh_lodi_sayyids }
-		position = 2
-		provinces_to_highlight = {
-			OR = {
-				area = kabulistan_area
-				area = sind_sagar_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			kabulistan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			sind_sagar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {
-			add_army_tradition = 10
-			add_country_modifier = {
-				name = "dlh_afghan_conquest_modifier"
-				duration = 7300
-			}
-		}
-	}
-	dlh_conquer_sind = {
-		icon = mission_conquer_sindh_dlh
-		required_missions = { dlh_restore_sultanate }
-		position = 4
-		provinces_to_highlight = {
-			OR = {
-				area = sindh_area
-				area = northern_sindh_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			sindh_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-			northern_sindh_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "dlh_sind_conquest_modifier"
-				duration = 7300
-			}
-		}
-	}
-	
-}
-dlh_slot_5 = {
+ind_cities_slot_5 = {
 slot = 5
 	generic = no
 	ai = yes
@@ -794,66 +1298,68 @@ slot = 5
 	}
 	has_country_shield = yes
 	
-	gan_npl_mission = {
-		icon = mission_reclaim_lost_territory
-		required_missions = { }
+	ind_cities_bharatpur = {
+		icon = mission_crush_delhi
+		required_missions = {  }
 		position = 3
 		provinces_to_highlight = {
-			OR = {
-				area = utsang_area
-				area = bhutan_area
-				area = ngari_area
-				area = nepal_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			province_id = 4500
 		}
 		trigger = {
-			adm_power = 200
-			cash = 2000
-			utsang_area = {
-				type = all
-				owned_by = NPL
+			4500 = {
+				has_building = cathedral
 			}
-			bhutan_area = {
-				type = all
-				owned_by = NPL
-			}
-			ngari_area = {
-				type = all
-				owned_by = NPL
-			}
-			nepal_area = {
-				type = all
-				owned_by = NPL
-			}
+			religion = gangan
 		}
 		effect = {
-			add_adm_power = -200
-			add_cash = -2000
-			himalayan_hills_area = {
-				cede_province = Z01
-				add_core = Z01
-			}	
-			nepal_area = {
-				cede_province = Z01
-				add_core = Z01
-			}	
-			4484 = {
-				cede_province = Z01
-				add_core = Z01
-			}	
-			4492 = {
-				cede_province = Z01
-				add_core = Z01
+			4500 = {
+				add_province_modifier = {
+					name = bharatpur_relig
+					duration = 10950
+				}
 			}
-			554 = {
-				cede_province = Z01
-				add_core = Z01
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
 			}
-			NPL = { 
-				override_country_name = "Tibet"
+		}
+	}
+	ind_cities_varanasi = {
+		icon = mission_magadna_and_varanasi
+		required_missions = {  }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 2095
+		}
+		trigger = {
+			2095 = {
+				development = 20
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					has_great_project = {
+						type = kashi_vishwanath
+						tier = 3
+					}
+				}
+				else = {
+					has_tax_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+			}
+			religion = gangan
+		}
+		effect = {
+			4500 = {
+				add_province_modifier = {
+					name = varanasi_relig
+					duration = 10950
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 2
 			}
 		}
 	}

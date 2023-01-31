@@ -726,6 +726,7 @@ mge_exp_south_branch_2 = {
 			}
 		}
 		effect = {
+			dismantle_empire_of_china = yes
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
@@ -1607,6 +1608,88 @@ mge_exp_japan_branch_3 = {
 		}
 	}
 }
+mge_culture_chin_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_culture_ningyuan = {
+		icon = mission_manchu_warrior
+		required_missions = { mge_culture_laizhou }
+		position = 16
+		provinces_to_highlight = {
+			area = liaoning_area
+			owned_by = ROOT
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = JAP
+				}
+				AND = {
+					alliance_with = JAP
+					JAP = {
+						has_opinion = {
+							who = ROOT
+							value = 140
+						}
+					}
+				}
+			}
+			else = {
+				OR = {
+					AND = {
+						alliance_with = HIK
+						HIK = {
+							has_opinion = {
+								who = ROOT
+								value = 140
+							}
+						}
+					}
+					AND = {
+						alliance_with = ASK
+						ASK = {
+							has_opinion = {
+								who = ROOT
+								value = 140
+							}
+						}
+					}
+				}
+			}
+			liaoning_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			704 = {
+				change_culture = kyushuan
+				change_province_name = "Kojoshi"
+				add_province_modifier = {
+					name = assylum_seekers
+					duration = 36500
+				}
+			}
+			4652 = {
+				change_culture = kyushuan
+				change_province_name = "Kaijoshi"
+				add_province_modifier = {
+					name = assylum_seekers
+					duration = 36500
+				}
+			}
+		}
+	}
+}
 mge_trade_path_4 = {
 	slot = 4
 	generic = no
@@ -2428,6 +2511,271 @@ mge_religion_path_4 = {
 					name = mecca_lost_chr
 					duration = 14600
 				}
+			}
+		}
+	}
+}
+mge_culture_chin_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = MGE
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	mge_culture_laizhou = {
+		icon = mission_to_japan
+		required_missions = { mge_jap_ally }
+		position = 15
+		provinces_to_highlight = {
+			area = shandong_area
+			owned_by = ROOT
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = JAP
+				}
+				AND = {
+					alliance_with = JAP
+					marriage_with  = JAP
+					JAP = {
+						has_opinion = {
+							who = ROOT
+							value = 120
+						}
+					}
+				}
+			}
+			else = {
+				OR = {
+					AND = {
+						alliance_with = HIK
+						marriage_with = HIK
+						HIK = {
+							has_opinion = {
+								who = ROOT
+								value = 120
+							}
+						}
+					}
+					AND = {
+						alliance_with = ASK
+						marriage_with = ASK
+						ASK = {
+							has_opinion = {
+								who = ROOT
+								value = 120
+							}
+						}
+					}
+				}
+			}
+			shandong_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			2139 = {
+				change_culture = japanese
+				change_province_name = "Raishu"
+			}
+			2138 = {
+				change_culture = japanese
+				change_province_name = "Yane"
+			}
+		}
+	}
+	mge_culture_nanjing = {
+		icon = mission_japanese_samurai
+		required_missions = { mge_culture_laizhou }
+		position = 16
+		provinces_to_highlight = {
+			OR = {
+				area = jiangsu_area
+				area = south_jiangsu_area
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = JAP
+				}
+				AND = {
+					alliance_with = JAP
+					JAP = {
+						has_opinion = {
+							who = ROOT
+							value = 140
+						}
+					}
+				}
+			}
+			else = {
+				OR = {
+					AND = {
+						alliance_with = HIK
+						HIK = {
+							has_opinion = {
+								who = ROOT
+								value = 140
+							}
+						}
+					}
+					AND = {
+						alliance_with = ASK
+						ASK = {
+							has_opinion = {
+								who = ROOT
+								value = 140
+							}
+						}
+					}
+				}
+			}
+			jiangsu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			south_jiangsu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			jiangsu_area = {
+				change_culture = japanese
+			}
+			south_jiangsu_area = {
+				change_culture = japanese
+			}
+			1821 = {
+				change_province_name = "Nankin"
+				add_province_modifier = {
+					name = forebearers_of_japan
+					duration = -1
+				}
+			}
+			2145 = {
+				change_province_name = "Shizue"
+			}
+			685 = {
+				change_province_name = "Age-shu"
+			}
+			2141 = {
+				change_province_name = "Joshu"
+			}
+			add_accepted_culture = japanese
+		}
+	}
+	mge_culture_canton = {
+		icon = mission_mnd_dai_imperial_citadel
+		required_missions = { mge_culture_nanjing }
+		position = 17
+		provinces_to_highlight = {
+			OR = {
+				area = guangdong_area
+				area = west_guangdong_area
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			alliance_with = JAP
+			JAP = {
+				has_opinion = {
+					who = ROOT
+					value = 150
+				}
+			}
+			calc_true_if = {
+				all_province = {
+					OR = {
+						area = taiwan_area
+						area = luzon_area
+						area = southern_luzon_area
+					}
+					country_or_non_sovereign_subject_holds = JAP
+				}
+				amount = 5
+			}
+			guangdong_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			west_guangdong_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			guangdong_area = {
+				change_culture = japanese
+			}
+			west_guangdong_area = {
+				change_culture = japanese
+			}
+			667 = {
+				change_province_name = "Koshu"
+			}
+			2157 = {
+				change_province_name = "Sanbishi"
+			}
+			2156 = {
+				change_province_name = "Keiyo"
+			}
+			666 = {
+				change_province_name = "Kaiko"
+			}
+			2160 = {
+				change_province_name = "Hainan"
+			}
+			1367 = {
+				change_province_name = "South Japan Sea"
+			}
+		}
+	}
+	mge_culture_shinto = {
+		icon = mission_buddhist_monk_praying
+		required_missions = { mge_culture_canton }
+		position = 18
+		trigger = {
+			alliance_with = JAP
+			JAP = {
+				has_opinion = {
+					who = ROOT
+					value = 180
+				}
+			}
+		}
+		effect = {
+			change_religion = shinto
+			2139 = {
+				change_religion = shinto
+			}
+			2138 = {
+				change_religion = shinto
+			}
+			jiangsu_area = {
+				change_religion = shinto
+			}
+			south_jiangsu_area = {
+				change_religion = shinto
+			}
+			guangdong_area = {
+				change_religion = shinto
+			}
+			west_guangdong_area = {
+				change_religion = shinto
 			}
 		}
 	}

@@ -1,0 +1,8589 @@
+rus_city_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_kiev = {
+		icon = mission_restore_kiev
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 280
+		}
+		trigger = {
+			OR = {
+				has_building = courthouse
+				has_building = town_hall
+			}
+		}
+		effect = {
+			add_base_tax = 3
+			add_base_production = 5
+			add_base_manpower = 2
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 5
+			}
+		}
+	}
+}
+rus_exp_west_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_west_moldova = {
+		icon = mission_consolidate_the_state
+		required_missions = { rus_west_e_poland }
+		position = 3
+		provinces_to_highlight = {
+			area = moldavia_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			moldavia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			wallachia_area = {
+				add_permanent_claim = ROOT
+			}
+			silistria_area = {
+				add_permanent_claim = ROOT
+			}
+			bulgaria_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_west_thrace = {
+		icon = mission_conquer_romania
+		required_missions = { rus_west_moldova }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = wallachia_area
+				area = silistria_area
+				area = bulgaria_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			wallachia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			silistria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bulgaria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			thrace_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_third_rome_mission = {
+		icon = mission_the_third_rome
+		required_missions = { rus_west_thrace }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = thrace_area
+						area = silistria_area
+					}
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				AND = {
+					province_id = 151
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		trigger = {
+			silistria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns = 151
+		}
+		effect = {
+			country_event = { id = flavor_rus.2001 }
+		}
+	}
+}
+rus_boyar_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_boyar_fort = {
+		icon = fight_bosnian_heresies
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				province_has_current_tech_fort_trigger = yes
+				value = 19
+			}
+		}
+		effect = {
+			add_estate_loyalty_modifier = {
+				estate = estate_nobles
+				desc = FORTIFYING_MISSION_COMPLETED
+				loyalty = 14
+				duration = 7300
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 7.6
+			}
+			add_country_modifier = {
+				name = boyar_priv_armies
+				duration = 10950
+			}
+		}
+	}
+	rus_boyar_serfdom = {
+		icon = prosperity_for_all
+		required_missions = { rus_boyar_fort }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = tver_area
+				area = white_ruthenia_area
+				area = moscow_area
+				area = oka_area
+				area = smolensk_area
+				area = minsk_area
+				area = west_dniepr_area
+				area = east_dniepr_area
+				area = chernigov_area
+				area = sloboda_ukraine_area
+			}
+			trade_goods = grain
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						area = tver_area
+						area = white_ruthenia_area
+						area = moscow_area
+						area = oka_area
+						area = smolensk_area
+						area = minsk_area
+						area = west_dniepr_area
+						area = east_dniepr_area
+						area = chernigov_area
+						area = sloboda_ukraine_area
+					}
+					trade_goods = grain
+					has_building = farm_estate
+				}
+				amount = 10
+			}
+		}
+		effect = {
+			280 = {
+				add_center_of_trade_level = 1
+				add_building = trade_depot
+			}
+			293 = {
+				add_center_of_trade_level = 1
+			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = SERFDOM_MISSION_COMPLETE
+				influence = 12.9
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 4.7
+			}
+		}
+	}
+	rus_boyar_corrupt = {
+		icon = mission_high_income
+		required_missions = { rus_boyar_serfdom }
+		position = 8
+		provinces_to_highlight = {
+		}
+		trigger = {
+			treasury = 1500
+			estate_influence = {
+				estate = estate_nobles
+				influence = 55
+			}
+		}
+		effect = {
+			add_corruption = 1
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = -2.6
+			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = CORRUPT_BOYARRS_NOW
+				influence = -10
+				duration = 36500
+			}
+			if = {
+				limit = {
+					has_country_flag = enables_estate_dhimmi_flag
+				}
+				add_corruption = 1
+				change_estate_land_share = {
+					estate = estate_dhimmi
+					share = -2.1
+				}
+				add_estate_influence_modifier = {
+					estate = estate_dhimmi
+					desc = CORRUPT_BOYARRS_NOW
+					influence = -10
+					duration = -1
+				}
+			}
+		}
+	}
+}
+ortho_church_abandon_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_abandon_patriach = {
+		icon = mission_russian_patriarchatee
+		required_missions = { ortho_gen_loyalty }
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 151
+					OR = {
+						owned_by = BYZ
+						owned_by = Z0E
+					}
+				}
+				AND = {
+					province_id = 295
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		trigger = {
+			NOT = { 
+				151 = { 
+					OR = {
+						owned_by = BYZ
+						owned_by = Z0E
+					}
+				}
+			}
+			religion = orthodox
+			295 = {
+				owned_by = ROOT
+				has_state_patriach = yes
+			}
+		}
+		effect = {
+			set_country_flag = patriarchate_mission
+			country_event = { id = flavor_rus.9 }
+			add_country_modifier = {
+				name = "russian_patriarchate"
+				duration = -1
+			}
+		}
+	}
+	ortho_abandon_sunni = {
+		icon = mission_into_arabia
+		required_missions = { ortho_abandon_patriach }
+		position = 11
+		trigger = {
+			Z00 = {
+				has_opinion = {
+					who = ROOT
+					value = 160
+				}
+			}
+		}
+		effect = {
+			change_religion = sunni
+			280 = {
+				change_religion = sunni
+			}
+			295 = {
+				change_religion = sunni
+			}
+			293 = {
+				change_religion = sunni
+			}
+			289 = {
+				change_religion = sunni
+				change_province_name = "Tishirnighuf"
+			}
+			4545 = {
+				change_religion = sunni
+			}
+			1941 = {
+				change_religion = sunni
+			}
+			1945 = {
+				change_religion = sunni
+				change_province_name = "Sefirah"
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = SWE
+				months = 300
+			}
+		}
+	}
+	ortho_abandon_sweden = {
+		icon = mission_the_finns
+		required_missions = { ortho_abandon_sunni }
+		position = 12
+		trigger = {
+			SWE = {
+				religion = sunni
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 30
+			reverse_add_opinion = {
+				who = SCO
+				modifier = defended_allied_territory
+			}
+			reverse_add_opinion = {
+				who = ADU
+				modifier = defended_allied_territory
+			}
+		}
+	}
+	ortho_abandon_tripartite = {
+		icon = mission_restore_caliphate_of_cordoba
+		required_missions = { ortho_abandon_sweden }
+		position = 13
+		trigger = {
+			AND = {
+				alliance_with = SCO
+				SCO = {
+					religion = sunni
+				}
+			}
+			AND = {
+				alliance_with = ADU
+				ADU = {
+					religion = sunni
+				}
+			}
+		}
+		effect = {
+			add_piety = 0.20
+			add_prestige = 10
+			define_advisor = {
+				type = natural_scientist
+				name = "Asad ibn Atissi al-Qaffa"
+				skill = 2
+				culture = ruthenian
+				religion = sunni
+			}
+		}
+	}
+	ortho_abandon_rome = {
+		icon = a_place_among_the_great_powers
+		required_missions = { ortho_abandon_tripartite }
+		position = 14
+		trigger = {
+			OR = {
+				AND = {
+					alliance_with = RUM
+					OR = {
+						owns_core_province = 118
+						RUM = {
+							owns_core_province = 118
+						}
+					}
+				}
+				AND = {
+					alliance_with = Z00
+					OR = {
+						owns_core_province = 118
+						Z00 = {
+							owns_core_province = 118
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = restoration_rome
+				duration = -1
+			}
+			add_adm_power = 60
+			add_dip_power = 60
+			add_mil_power = 60
+			if = {
+				limit = {
+					owns_core_province = 151
+				}
+				set_capital = 151
+			}
+		}
+	}
+}
+tr_russia_exclusive_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		tag = RUS
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_streltsy_mission = {
+		icon = mission_recruit_streltsy
+		required_missions = { time_of_troubles_mission }
+		position = 17
+		trigger = {
+			num_of_streltsy = 30
+			army_size_percentage = 1
+		}
+		effect = {
+			add_army_tradition = 15
+			add_country_modifier = {
+				name = "loyal_streltsy"
+				duration = 7300
+			}
+		}
+	}
+	russian_abolutism_mission = {
+		icon = mission_autocratic_rule
+		required_missions = { rus_streltsy_mission }
+		trigger = {
+			if = {
+				limit = {
+					is_revolutionary = no
+				}
+				absolutism = 50
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_church
+					influence = 50
+				}
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_burghers
+					influence = 50
+				}
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 50
+				}
+			}
+			crown_land_share = 75
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "russian_autocracy"
+				duration = 7300
+			}
+		}
+	}
+}
+rus_city_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_moscow = {
+		icon = mission_conquer_moscow
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 295
+		}
+		trigger = {
+			295 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 40
+			}
+		}
+		effect = {
+			set_capital = 295
+			295 = {
+				add_building = barracks
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 5
+			}
+		}
+	}
+}
+rus_exp_west_branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_west_e_poland = {
+		icon = mission_conquer_5_states
+		required_missions = { rus_exp_army_size }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 260
+				province_id = 2959
+				province_id = 269
+				province_id = 1938
+				province_id = 256
+				province_id = 4524
+				province_id = 1859
+				province_id = 1841
+				area = east_prussia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			east_prussia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			260 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2959 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			269 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1938 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			256 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4524 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1859 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1841 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "rus_partition_poland_modifier"
+				duration = 7300
+			}
+			moldavia_area = {
+				add_claim = ROOT
+				add_claim = VOL
+				add_claim = PTZ
+			}
+			transylvania_area = {
+				add_permanent_claim = ROOT
+			}
+			southern_transylvania_area = {
+				add_permanent_claim = ROOT
+			}
+			alfold_area = {
+				add_permanent_claim = ROOT
+			}
+			162 = {
+				add_permanent_claim = ROOT
+			}
+			1318 = {
+				add_permanent_claim = ROOT
+			}
+			2960 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_west_hungary = {
+		icon = the_great_city_of_buda
+		required_missions = { rus_west_e_poland }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = transylvania_area
+				area = southern_transylvania_area
+				area = alfold_area
+				province_id = 162
+				province_id = 1318
+				province_id = 2960
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			transylvania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			southern_transylvania_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			alfold_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			162 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1318 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2960 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			rascia_area = {
+				add_permanent_claim = ROOT
+			}
+			serbia_area = {
+				add_permanent_claim = ROOT
+			}
+			bosnia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_west_serbia = {
+		icon = legacy_of_the_sclavinias
+		required_missions = { rus_west_hungary rus_west_thrace }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = rascia_area
+				area = serbia_area
+				area = bosnia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			serbia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bosnia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			rascia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = { exists = SER }
+		}
+		effect = {
+			serbia_area = {
+				add_core = SER
+				remove_core = RUS
+			}
+			bosnia_area = {
+				add_core = SER
+				remove_core = RUS
+			}
+			rascia_area = {
+				add_core = SER
+				remove_core = RUS
+			}
+			create_vassal = SER
+			macedonia_area = {
+				add_permanent_claim = SER
+			}
+			4703 = {
+				add_permanent_claim = SER
+			}
+			add_country_modifier = {
+				name = tsar_of_south_slavs
+				duration = 18250
+			}
+		}
+	}
+	rus_west_slavic = {
+		icon = imperial_ascendancy
+		required_missions = { rus_west_serbia }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				OR = {
+					culture_group = east_slavic
+					culture_group = south_slavic
+					culture = czech
+					culture = polish
+					culture = schlesian
+					culture = sorbian
+					culture = pommeranian
+				}
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			all_province = {
+				OR = {
+					culture_group = east_slavic
+					culture_group = south_slavic
+					culture = czech
+					culture = polish
+					culture = pommeranian
+					culture = schlesian
+					culture = sorbian
+				}
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			all_province = {
+				limit = {
+					culture_group = south_slavic
+				}
+				add_core = SER
+				cede_province = SER
+				remove_core = RUS
+			}
+			all_province = {
+				limit = {
+					OR = {
+						culture = czech
+						culture = polish
+						culture = schlesian
+						culture = sorbian
+						culture = pommeranian
+						culture = dynamic-polish-russian_culture-culture-num1
+					}
+				}
+				add_core = POL
+				remove_core = RUS
+			}
+			all_province = {
+				limit = {
+					culture = dynamic-polish-russian_culture-culture-num1
+				}
+				change_culture = polish
+			}
+			if = {
+				limit = {
+					exists = POL
+				}
+				all_province = {
+					limit = {
+						is_core = POL
+					}
+					cede_province = POL
+				}
+			}
+			else = {
+				create_vassal = POL
+			}
+			override_country_name = SCLAVIA
+			add_country_modifier = {
+				name = tsar_of_all_slavs
+				duration = -1
+			}
+		}
+	}
+}
+rus_boyar_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_boyar_islamic = {
+		icon = mission_reconquer_ceuta
+		required_missions = { rus_boyar_fort }
+		position = 7
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+				religion = sunni
+				num_of_owned_provinces_with = {
+					religion = sunni
+					value = 6
+				}
+				calc_true_if = {
+					all_subject_country = {
+						religion = sunni
+					}
+					amount = 2
+				}
+			}
+		}
+		effect = {
+			set_country_flag = enables_estate_dhimmi_flag
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 10
+			}
+			add_estate_loyalty = {
+				estate = estate_dhimmi
+				loyalty = 10
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -7.4
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = DHIMMI_EXIIST
+				influence = -6.6
+				duration = 9125
+			}
+			add_country_modifier = {
+				name = boyar_isl_happy
+				duration = 10950
+			}
+		}
+	}
+}
+ortho_church_gen_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_gen_churches = {
+		icon = mission_land_of_churches
+		required_missions = {  }
+		position = 8
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 20
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.1
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+			if = {
+				limit = {
+					NOT = {
+						religion = orthodox
+					}
+				}
+				add_prestige = 10
+			}
+		}
+	}
+	ortho_gen_loyalty = {
+		icon = mission_saint_basils_cathedral
+		required_missions = { ortho_gen_churches }
+		position = 9
+		provinces_to_highlight = {
+		}
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 65
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.4
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = LOYAL_BELIEF_ORTH
+				influence = 10
+				duration = 10950
+			}
+			if = {
+				limit = {
+					NOT = {
+						religion = orthodox
+					}
+				}
+				add_prestige = 10
+			}
+			if = {
+				limit = {
+					33 = {
+						NOT = {
+							has_building = cathedral
+						}
+					}
+				}
+				33 = {
+					add_building = cathedral
+				}
+			}
+			else_if = {
+				limit = {
+					293 = {
+						NOT = {
+							has_building = cathedral
+						}
+					}
+				}
+				293 = {
+					add_building = cathedral
+				}
+			}
+			else = {
+				310 = {
+					add_building = cathedral
+				}
+			}
+		}
+	}
+}
+ortho_church_abandon_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_abandon_catholic = {
+		icon = chivalry_is_not_dead
+		required_missions = { ortho_abandon_patriach }
+		position = 11
+		trigger = {
+			any_country = {
+				AND = {
+					is_papal_controller = yes
+					has_opinion = {
+						who = ROOT
+						value = 160
+					}
+				}
+			}
+		}
+		effect = {
+			change_religion = catholic
+			280 = {
+				change_religion = catholic
+			}
+			295 = {
+				change_religion = catholic
+			}
+			293 = {
+				change_religion = catholic
+			}
+			35 = {
+				change_religion = catholic
+			}
+			33 = {
+				change_religion = catholic
+			}
+			310 = {
+				change_religion = catholic
+				change_province_name = "Mikhilsk"
+				rename_capital = "Mikhilgrad"
+			}
+			34 = {
+				change_religion = catholic
+				change_province_name = "Novo-Paprinsk"
+			}
+			lazio_area = {
+				add_core = PAP
+			}
+			central_italy_area = {
+				add_core = PAP
+			}
+		}
+	}
+	ortho_abandon_papacy = {
+		icon = sway_the_pope
+		required_missions = { ortho_abandon_catholic }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+				area = central_italy_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			lazio_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_italy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			lazio_area = {
+				cede_province = PAP
+			}
+			central_italy_area = {
+				cede_province = PAP
+			}
+			if = {
+				limit = {
+					1752 = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				1752 = {
+					add_cardinal = yes
+					add_building = cathedral
+					add_province_modifier = {
+						name = restore_daddy_paypal
+						duration = -1
+					}
+				}
+			}
+			else = {
+				capital_scope = {
+					add_cardinal = yes
+					add_building = cathedral
+					add_province_modifier = {
+						name = restore_daddy_paypal
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	ortho_abandon_france = {
+		icon = mission_pirate_havens
+		required_missions = { ortho_abandon_tripartite }
+		position = 14
+		trigger = {
+			FRA = {
+				religion = sunni
+			}
+			alliance_with = FRA
+		}
+		effect = {
+			add_legitimacy = 12
+			add_years_of_income = 0.3
+			change_technology_group = western
+		}
+	}
+}
+ortho_church_maintain_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_maintain_hre = {
+		icon = emperor_and_autocrat
+		required_missions = { ortho_maintain_influence }
+		position = 15
+		provinces_to_highlight = {
+		}
+		trigger = {
+			estate_influence = {
+				estate = estate_church
+				influence = 85
+			}
+			west_dniepr_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			podolia_volhynia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			2962 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4539 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			east_dniepr_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			chernigov_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4115 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4244 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			298 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			291 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			2411 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			set_emperor = yes
+			set_hre_religion = orthodox
+			set_hre_heretic_religion = samaritan_faith
+			remove_country_modifier = patri_infl_scary
+			if = {
+				limit = {
+					283 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				283 = {
+					add_core = ZAZ
+					cede_province = ZAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2406 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2406 = {
+					add_core = ZAZ
+					cede_province = ZAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					282 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				282 = {
+					add_core = ZAZ
+					cede_province = ZAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					284 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				284 = {
+					add_core = CRI
+					cede_province = CRI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1974 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1974 = {
+					add_core = CRI
+					cede_province = CRI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2412 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2412 = {
+					add_core = CRI
+					cede_province = CRI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2447 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2447 = {
+					add_core = CRI
+					cede_province = CRI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					287 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				287 = {
+					add_core = CRI
+					cede_province = CRI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2413 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2413 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2409 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2409 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					299 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				299 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					467 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				467 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					288 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				288 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1971 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1971 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					466 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				466 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					468 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				468 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2416 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2416 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2414 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2414 = {
+					add_core = GOL
+					cede_province = GOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2408 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2408 = {
+					add_core = RYA
+					cede_province = RYA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4255 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4255 = {
+					add_core = RYA
+					cede_province = RYA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					300 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				300 = {
+					add_core = RYA
+					cede_province = RYA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					301 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				301 = {
+					add_core = RYA
+					cede_province = RYA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4116 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4116 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					296 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				296 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4251 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4251 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					295 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				295 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4252 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4252 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4253 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4253 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					307 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				307 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1778 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1778 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1754 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1754 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1956 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1956 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4254 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4254 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4263 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4263 = {
+					add_core = MOS
+					cede_province = MOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					297 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				297 = {
+					add_core = SMO
+					cede_province = SMO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4245 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4245 = {
+					add_core = SMO
+					cede_province = SMO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					293 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				293 = {
+					add_core = SMO
+					cede_province = SMO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4246 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4246 = {
+					add_core = SMO
+					cede_province = SMO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					292 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				292 = {
+					add_core = SMO
+					cede_province = SMO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					771 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				771 = {
+					add_core = SMO
+					cede_province = SMO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					271 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				271 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4534 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4534 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1936 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1936 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					270 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				270 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4535 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4535 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					770 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				770 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					272 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				272 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4536 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4536 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					276 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				276 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4544 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4544 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4537 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4537 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					278 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				278 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4545 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4545 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1941 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1941 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1937 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1937 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					277 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				277 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					269 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				269 = {
+					add_core = LIT
+					cede_province = LIT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4538 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4538 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					279 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				279 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2961 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2961 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2424 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2424 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4541 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4541 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					261 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				261 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					268 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				268 = {
+					add_core = VOL
+					cede_province = VOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4529 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4529 = {
+					add_core = Z1S
+					cede_province = Z1S
+					set_in_empire = yes
+				}
+				Z1S = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					2405 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2405 = {
+					add_core = MOL
+					cede_province = MOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4530 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4530 = {
+					add_core = MOL
+					cede_province = MOL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1756 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1756 = {
+					add_core = Z1M
+					cede_province = Z1M
+					set_in_empire = yes
+				}
+				Z1M = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					285 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				285 = {
+					add_core = FEO
+					cede_province = FEO
+					set_in_empire = yes
+				}
+				FEO = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					286 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				286 = {
+					add_core = Z1H
+					cede_province = Z1H
+					set_in_empire = yes
+				}
+				Z1H = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					2195 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2195 = {
+					add_core = CIR
+					cede_province = CIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					463 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				463 = {
+					add_core = CIR
+					cede_province = CIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2197 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2197 = {
+					add_core = CIR
+					cede_province = CIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					464 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				464 = {
+					add_core = AST
+					cede_province = AST
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2417 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2417 = {
+					add_core = AST
+					cede_province = AST
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2208 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2208 = {
+					add_core = AST
+					cede_province = AST
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2201 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2201 = {
+					add_core = AST
+					cede_province = AST
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2198 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2198 = {
+					add_core = AST
+					cede_province = AST
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2199 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2199 = {
+					add_core = AST
+					cede_province = AST
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					302 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				302 = {
+					add_core = QAS
+					cede_province = QAS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2415 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2415 = {
+					add_core = QAS
+					cede_province = QAS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					304 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				304 = {
+					add_core = QAS
+					cede_province = QAS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2423 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2423 = {
+					add_core = QAS
+					cede_province = QAS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					306 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				306 = {
+					add_core = NZH
+					cede_province = NZH
+					set_in_empire = yes
+				}
+				NZH = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					308 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				308 = {
+					add_core = YAR
+					cede_province = YAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4250 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4250 = {
+					add_core = YAR
+					cede_province = YAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4147 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4147 = {
+					add_core = RSO
+					cede_province = RSO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4248 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4248 = {
+					add_core = TVE
+					cede_province = TVE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					294 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				294 = {
+					add_core = TVE
+					cede_province = TVE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4249 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4249 = {
+					add_core = TVE
+					cede_province = TVE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1752 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1752 = {
+					add_core = TVE
+					cede_province = TVE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1959 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1959 = {
+					add_core = TVE
+					cede_province = TVE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4243 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4243 = {
+					add_core = PLT
+					cede_province = PLT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					275 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				275 = {
+					add_core = PLT
+					cede_province = PLT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4242 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4242 = {
+					add_core = PLT
+					cede_province = PLT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4148 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4148 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					311 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				311 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					310 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				310 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+				NOV = {
+					override_country_name = NOVTRA
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					2749 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2749 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4260 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4260 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					34 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				34 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1961 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1961 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					309 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				309 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+				NOV = {
+					override_country_name = NOVTRA
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					1958 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1958 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					313 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				313 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4258 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4258 = {
+					add_core = NOV
+					cede_province = NOV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					273 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				273 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4241 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4241 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					37 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				37 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+				LIV = {
+					change_religion = orthodox
+				}
+			}
+			if = {
+				limit = {
+					1834 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1834 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1842 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1842 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					36 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				36 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					35 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				35 = {
+					add_core = LIV
+					cede_province = LIV
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1935 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1935 = {
+					add_core = KUR
+					cede_province = KUR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					39 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				39 = {
+					add_core = KUR
+					cede_province = KUR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					41 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				41 = {
+					add_core = PRT
+					cede_province = PRT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					40 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				40 = {
+					add_core = PRT
+					cede_province = PRT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					42 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				42 = {
+					add_core = PRT
+					cede_province = PRT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1841 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1841 = {
+					add_core = TEU
+					cede_province = TEU
+					set_in_empire = yes
+				}
+				TEU = {
+					change_religion = orthodox
+				}
+			}
+			if = {
+				limit = {
+					767 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				767 = {
+					add_core = TEU
+					cede_province = TEU
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2958 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2958 = {
+					add_core = TEU
+					cede_province = TEU
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1859 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1859 = {
+					add_core = TEU
+					cede_province = TEU
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2997 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2997 = {
+					add_core = TEU
+					cede_province = TEU
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					43 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				43 = {
+					add_core = TEU
+					cede_province = TEU
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					257 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				257 = {
+					add_core = MAZ
+					cede_province = MAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1938 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1938 = {
+					add_core = MAZ
+					cede_province = MAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					256 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				256 = {
+					add_core = MAZ
+					cede_province = MAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4525 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4525 = {
+					add_core = MAZ
+					cede_province = MAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1940 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1940 = {
+					add_core = MAZ
+					cede_province = MAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					262 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				262 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4527 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4527 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4524 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4524 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4528 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4528 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4523 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4523 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2963 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2963 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					254 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				254 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4526 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4526 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					255 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				255 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4533 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4533 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					258 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				258 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1939 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1939 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2960 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2960 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2959 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2959 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					259 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				259 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					260 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				260 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1318 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1318 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4236 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4236 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1772 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1772 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					154 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				154 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					162 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				162 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1952 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1952 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					157 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				157 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4127 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4127 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					158 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				158 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4128 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4128 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1951 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1951 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					161 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				161 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4532 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4532 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					160 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				160 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4531 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4531 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2998 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2998 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					150 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				150 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1765 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1765 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4704 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4704 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					159 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				159 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4706 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4706 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2746 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2746 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1764 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1764 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2750 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2750 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4703 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4703 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					462 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				462 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1856 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1856 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					422 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				422 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4301 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4301 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2203 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2203 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					423 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				423 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2196 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2196 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2204 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2204 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4303 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4303 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4306 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4306 = {
+					add_core = GAZ
+					cede_province = GAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					425 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				425 = {
+					add_core = GAZ
+					cede_province = GAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					312 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				312 = {
+					add_core = BLO
+					cede_province = BLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4261 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4261 = {
+					add_core = BLO
+					cede_province = BLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4124 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4124 = {
+					add_core = KRL
+					cede_province = KRL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					32 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				32 = {
+					add_core = KRL
+					cede_province = KRL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1776 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1776 = {
+					add_core = KRL
+					cede_province = KRL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					274 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				274 = {
+					add_core = PSK
+					cede_province = PSK
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1960 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1960 = {
+					add_core = PSK
+					cede_province = PSK
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					38 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				38 = {
+					add_core = RIG
+					cede_province = RIG
+					set_in_empire = yes
+				}
+				RIG = {
+					change_religion = orthodox
+				}
+			}
+			if = {
+				limit = {
+					25 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				25 = {
+					add_core = GOT
+					cede_province = GOT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2966 = {
+					add_core = GLG
+					cede_province = GLG
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4238 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4238 = {
+					add_core = GLG
+					cede_province = GLG
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4723 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4723 = {
+					add_core = OPL
+					cede_province = OPL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					264 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				264 = {
+					add_core = OPL
+					cede_province = OPL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					263 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				263 = {
+					add_core = OPL
+					cede_province = OPL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					153 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				153 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					155 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				155 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1953 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1953 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4125 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4125 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					156 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				156 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1954 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1954 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4126 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4126 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4240 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4240 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1864 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1864 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					135 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				135 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1827 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1827 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4239 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4239 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4176 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4176 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					141 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				141 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4757 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4757 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3000 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3000 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					138 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				138 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4754 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4754 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1766 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1766 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3001 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3001 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4780 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4780 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4702 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4702 = {
+					add_core = Z19
+					cede_province = Z19
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					148 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				148 = {
+					add_core = Z19
+					cede_province = Z19
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					151 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				151 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					149 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				149 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4705 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4705 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4779 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4779 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2296 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2296 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4312 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4312 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					317 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				317 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					316 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				316 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2299 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2299 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2304 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2304 = {
+					add_core = Z0E
+					cede_province = Z0E
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					330 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				330 = {
+					add_core = TRE
+					cede_province = TRE
+					set_in_empire = yes
+				}
+				TRE = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					329 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				329 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2300 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2300 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4314 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4314 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1846 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1846 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4315 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4315 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					331 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				331 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2305 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2305 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4313 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4313 = {
+					add_core = ERE
+					cede_province = ERE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					473 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					473 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					473 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				473 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					303 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					303 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					303 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				303 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1082 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					1082 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					1082 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				1082 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2418 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					2418 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					2418 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				2418 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2419 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					2419 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					2419 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				2419 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1081 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					1081 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					1081 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				1081 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2422 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					2422 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					2422 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				2422 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4264 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					4264 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					4264 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				4264 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4267 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					4267 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					4267 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				4267 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2421 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					2421 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					2421 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				2421 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4265 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					4265 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					4265 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				4265 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1972 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				if = {
+					limit = {
+						Z0E = {
+							owns_core_province = 151
+							owns_core_province = 4779
+							owns_core_province = 149
+							owns_core_province = 4705
+						}
+					}
+					1972 = {
+						add_core = MDV
+						cede_province = MDV
+					}
+				}
+				else = {
+					1972 = {
+						add_core = Z0E
+						cede_province = Z0E
+					}
+				}
+				1972 = {
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4151 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4151 = {
+					add_core = SMI
+					cede_province = SMI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1777 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1777 = {
+					add_core = SMI
+					cede_province = SMI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					315 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				315 = {
+					add_core = SMI
+					cede_province = SMI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					28 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				28 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					27 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				27 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					29 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				29 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4123 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4123 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					31 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				31 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					19 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				19 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4152 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4152 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4113 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4113 = {
+					add_core = FIN
+					cede_province = FIN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					30 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				30 = {
+					add_core = Z1W
+					cede_province = Z1W
+					set_in_empire = yes
+				}
+				Z1W = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					136 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				136 = {
+					add_core = VEN
+					cede_province = VEN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4753 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4753 = {
+					add_core = VEN
+					cede_province = VEN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					131 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				131 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1767 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1767 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4752 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4752 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1826 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1826 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					152 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				152 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4173 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4173 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4756 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4756 = {
+					add_core = DAL
+					cede_province = DAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					140 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				140 = {
+					add_core = BOS
+					cede_province = BOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1828 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1828 = {
+					add_core = BOS
+					cede_province = BOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					139 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				139 = {
+					add_core = BOS
+					cede_province = BOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4755 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4755 = {
+					add_core = BOS
+					cede_province = BOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3002 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3002 = {
+					add_core = BOS
+					cede_province = BOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1831 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1831 = {
+					add_core = BOS
+					cede_province = BOS
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					137 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				137 = {
+					add_core = RAG
+					cede_province = RAG
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4175 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4175 = {
+					add_core = ALB
+					cede_province = ALB
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4750 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4750 = {
+					add_core = ALB
+					cede_province = ALB
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					142 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				142 = {
+					add_core = EPI
+					cede_province = EPI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					144 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				144 = {
+					add_core = EPI
+					cede_province = EPI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4698 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4698 = {
+					add_core = EPI
+					cede_province = EPI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4699 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4699 = {
+					add_core = EPI
+					cede_province = EPI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					143 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				143 = {
+					add_core = EPI
+					cede_province = EPI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4174 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4174 = {
+					add_core = EPI
+					cede_province = EPI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4701 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4701 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					147 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				147 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3003 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3003 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1773 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1773 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					145 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				145 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1853 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1853 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					164 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				164 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					163 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				163 = {
+					add_core = BYZ
+					cede_province = BYZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2297 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2297 = {
+					add_core = SRU
+					cede_province = SRU
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					326 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				326 = {
+					add_core = GRM
+					cede_province = GRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4311 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4311 = {
+					add_core = GRM
+					cede_province = GRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					322 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				322 = {
+					add_core = GRM
+					cede_province = GRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4308 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4308 = {
+					add_core = GRM
+					cede_province = GRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					328 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				328 = {
+					add_core = CND
+					cede_province = CND
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					325 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				325 = {
+					add_core = CND
+					cede_province = CND
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					324 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				324 = {
+					add_core = KAR
+					cede_province = KAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2302 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2302 = {
+					add_core = KAR
+					cede_province = KAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2301 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2301 = {
+					add_core = KAR
+					cede_province = KAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4307 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4307 = {
+					add_core = KAR
+					cede_province = KAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					323 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				323 = {
+					add_core = KAR
+					cede_province = KAR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2308 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2308 = {
+					add_core = DUL
+					cede_province = DUL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4310 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4310 = {
+					add_core = DUL
+					cede_province = DUL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					332 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				332 = {
+					add_core = DUL
+					cede_province = DUL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2303 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2303 = {
+					add_core = DUL
+					cede_province = DUL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1965 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1965 = {
+					add_core = Z26
+					cede_province = Z26
+					set_in_empire = yes
+				}
+				Z26 = {
+					change_government = republic
+					change_religion = orthodox
+				}
+			}
+			if = {
+				limit = {
+					2420 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2420 = {
+					add_core = Z0J
+					cede_province = Z0J
+					set_in_empire = yes
+				}
+				Z0J = {
+					change_government = republic
+					change_religion = orthodox
+				}
+			}
+			if = {
+				limit = {
+					1966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1966 = {
+					add_core = Z11
+					cede_province = Z11
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2441 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2441 = {
+					add_core = Z11
+					cede_province = Z11
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					475 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				475 = {
+					add_core = BSH
+					cede_province = BSH
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2444 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2444 = {
+					add_core = BSH
+					cede_province = BSH
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					305 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				305 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4266 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4266 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1962 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1962 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1077 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1077 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1079 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1079 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1964 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1964 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4129 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4129 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1963 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1963 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1078 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1078 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1080 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1080 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2427 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2427 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1780 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1780 = {
+					add_core = PRM
+					cede_province = PRM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4145 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4145 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					17 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				17 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					23 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				23 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					20 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				20 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4144 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4144 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					24 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				24 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2752 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2752 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					22 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				22 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					21 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				21 = {
+					add_core = NOR
+					cede_province = NOR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4163 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4163 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					18 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				18 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					9 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				9 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					11 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				11 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4114 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4114 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1930 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1930 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					7 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				7 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1985 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1985 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4164 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4164 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					5 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				5 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					16 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				16 = {
+					add_core = SWE
+					cede_province = SWE
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					146 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				146 = {
+					add_core = ATH
+					cede_province = ATH
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4309 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4309 = {
+					add_core = AYD
+					cede_province = AYD
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					318 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				318 = {
+					add_core = AYD
+					cede_province = AYD
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2348 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2348 = {
+					add_core = AYD
+					cede_province = AYD
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					320 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				320 = {
+					add_core = KNI
+					cede_province = KNI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					319 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				319 = {
+					add_core = MEN
+					cede_province = MEN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1848 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1848 = {
+					add_core = MEN
+					cede_province = MEN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2298 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2298 = {
+					add_core = MEN
+					cede_province = MEN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					321 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				321 = {
+					add_core = CYP
+					cede_province = CYP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					327 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				327 = {
+					add_core = RAM
+					cede_province = RAM
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					10 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				10 = {
+					add_core = Z0V
+					cede_province = Z0V
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					8 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				8 = {
+					add_core = Z1P
+					cede_province = Z1P
+					set_in_empire = yes
+				}
+				Z1P = {
+					change_government = republic
+				}
+			}
+			if = {
+				limit = {
+					4143 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4143 = {
+					add_core = Z2S
+					cede_province = Z2S
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1982 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1982 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4166 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4166 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4165 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4165 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					6 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				6 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					26 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				26 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1981 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1981 = {
+					add_core = Z15
+					cede_province = Z15
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					12 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				12 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4142 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4142 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4149 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4149 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					14 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				14 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					15 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				15 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1983 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1983 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1984 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1984 = {
+					add_core = DAN
+					cede_province = DAN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4700 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4700 = {
+					add_core = LES
+					cede_province = LES
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					33 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				33 = {
+					add_core = SPB
+					cede_province = SPB
+					set_in_empire = yes
+					change_province_name = "Petrograd"
+				}
+			}
+			if = {
+				limit = {
+					1955 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1955 = {
+					add_core = AKH
+					cede_province = AKH
+					set_in_empire = yes
+					change_province_name = "Arkhangelsk"
+				}
+			}
+			if = {
+				limit = {
+					314 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				314 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1753 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1753 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4117 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4117 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4259 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4259 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1957 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1957 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4262 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4262 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1083 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1083 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1755 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1755 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4122 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4122 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4256 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4256 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4257 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4257 = {
+					add_core = VEP
+					cede_province = VEP
+					set_in_empire = yes
+				}
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					continent = asia
+				}
+				cede_province = PRE
+				remove_core = RUS
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					OR = {
+						region = south_german_region
+						region = italy_region
+					}
+				}
+				cede_province = UBL
+				remove_core = RUS
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					OR = {
+						region = north_german_region
+						region = low_countries_region
+					}
+				}
+				cede_province = Z02
+				remove_core = RUS
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					region = france_region
+				}
+				cede_province = FRA
+				remove_core = RUS
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					region = iberia_region
+				}
+				cede_province = ADU
+				remove_core = RUS
+			}
+			every_province = {
+				limit = {
+					owned_by = RUS
+					region = british_isles_region
+				}
+				cede_province = GBR
+				remove_core = RUS
+			}
+		}
+	}
+}
+tr_russia_exclusive_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		tag = RUS
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	time_of_troubles_mission = {
+		icon = mission_weather_the_troubles
+		required_missions = {  }
+		position = 16
+		completed_by = 1620.1.1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = had_time_of_troubles.tooltip
+				OR = {
+					has_country_flag = rus_had_time_of_troubles
+					AND = {
+						NOT = { current_age = age_of_discovery }
+						NOT = { current_age = age_of_reformation }
+					}
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	tr_revolution_mission = {
+		icon = mission_russian_revolution
+		required_missions = { russian_abolutism_mission tr_state_manufactories }
+		position = 19
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+				has_reform = revolutionary_empire_reform
+				has_reform = revolutionary_republic_reform
+				custom_trigger_tooltip = {
+					tooltip = center_of_revolution.3000.A.tt
+					has_global_flag = no_more_revolutions_ever
+				}
+				any_known_country = {
+					is_revolution_target = yes
+					war_with = ROOT
+					capital_scope = {
+						controlled_by = ROOT
+					}
+				}
+			}
+			
+		}
+		effect = {
+			add_army_tradition = 25
+			if = {
+				limit = {
+					OR = {
+						has_reform = revolutionary_empire_reform
+						has_reform = revolutionary_republic_reform
+					}
+				}		
+				add_country_modifier = {
+					name = "rus_revolutionary_zeal"
+					duration = -1
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = "rus_reactionary_zeal"
+					duration = -1
+				}
+			}
+		}
+	}
+}
+rus_exp_gen_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_exp_army_size = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 0.9
+			manpower_percentage = 0.3
+			num_of_generals = 2
+		}
+		effect = {
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125
+			}
+			260 = {
+				add_permanent_claim = VOL
+			}
+			2959 = {
+				add_permanent_claim = VOL
+			}
+			1859 = {
+				add_permanent_claim = PRT
+			}
+			4524 = {
+				add_permanent_claim = PRT
+			}
+			256 = {
+				add_permanent_claim = PRT
+			}
+			1938 = {
+				add_permanent_claim = PRT
+				add_permanent_claim = ROOT
+			}
+			269 = {
+				add_permanent_claim = ROOT
+			}
+			257 = {
+				add_permanent_claim = ROOT
+			}
+			east_prussia_area = {
+				add_permanent_claim = PRT
+			}
+			ruthenia_region = {
+				add_permanent_claim = ROOT
+			}
+			tambov_area = {
+				add_permanent_claim = ROOT
+			}
+			galich_area = {
+				add_permanent_claim = ROOT
+			}
+			2423 = {
+				add_permanent_claim = ROOT
+			}
+			2422 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+rus_exp_east_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_east_crim = {
+		icon = mission_galleys_in_port
+		required_missions = { rus_east_pontic }
+		position = 4
+		provinces_to_highlight = {
+			area = crimea_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			crimea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_cossacks
+				share = 2
+			}
+			330 = {
+				add_permanent_claim = ROOT
+			}
+			2304 = {
+				add_permanent_claim = ROOT
+			}
+			328 = {
+				add_permanent_claim = ROOT
+			}
+			2299 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_east_caffa = {
+		icon = capture_adriatic_ports
+		required_missions = { rus_east_crim }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 285
+		}
+		trigger = {
+			285 = {
+				owned_by = ROOT
+				is_core = ROOT
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				development = 20
+			}
+		}
+		effect = {
+			285 = {
+				add_center_of_trade_level = 1
+				add_province_modifier = {
+					name = trade_ot_black_sea
+					duration = -1
+				}
+				change_province_name = "Sviatopol"
+				rename_capital = "Feodosiya"
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.7
+			}
+		}
+	}
+}
+ortho_church_maintain_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_maintain_patriach = {
+		icon = promote_the_patriarchate
+		required_missions = { ortho_gen_loyalty }
+		position = 10
+		provinces_to_highlight = {
+		}
+		trigger = {
+			Z0E = {
+				has_opinion = {
+					who = ROOT
+					value = 170
+				}
+			}
+			patriarch_authority = 0.9
+		}
+		effect = {
+			add_country_modifier = {
+				name = "russian_stayed_patriarchal"
+				duration = 36500
+			}
+		}
+	}
+	ortho_maintain_land_grant = {
+		icon = mission_cathedral_cities
+		required_missions = { ortho_maintain_patriach }
+		position = 11
+		provinces_to_highlight = {
+		}
+		trigger = {
+			crown_land_share = 50
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = 15
+			}
+			add_treasury = 6000
+			add_country_modifier = {
+				name = church_tithe_rus
+				duration = 36500
+			}
+		}
+	}
+	ortho_maintain_house_god = {
+		icon = protectors_of_christendom
+		required_missions = { ortho_maintain_land_grant }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				province_id = 280
+				province_id = 295
+			}
+			owns_core_province = ROOT
+		}
+		trigger = {
+			OR = {
+				AND = {
+					owns_core_province = 280
+					280 = {
+						if = {
+							limit = {
+								has_dlc = "Leviathan"
+							}
+							has_great_project = {
+								type = kiev_pechersk_lavra
+								tier = 3
+							}
+						}
+						else = {
+							has_tax_building_trigger = yes
+							has_trade_building_trigger = yes
+						}
+					}
+				}
+				AND = {
+					owns_core_province = 295
+					295 = {
+						has_building = cathedral
+					}
+				}
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = 1.2
+			}
+			add_country_modifier = {
+				name = huss_gothan
+				duration = 10950
+			}
+		}
+	}
+	ortho_maintain_unity = {
+		icon = mission_pf_cross
+		required_missions = { ortho_maintain_house_god }
+		position = 13
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT
+				NOT = { religion = orthodox }
+			}
+		}
+		trigger = {
+			religious_unity = 1
+		}
+		effect = {
+			add_patriarch_authority = 0.5
+			add_stability = 1
+			create_advisor = theologian
+		}
+	}
+	ortho_maintain_influence = {
+		icon = promote_the_patriarchate
+		required_missions = { ortho_maintain_unity }
+		position = 14
+		provinces_to_highlight = {
+			owned_by = Z0E
+		}
+		trigger = {
+			NOT = {
+				stability = 3
+			}
+			reverse_has_opinion = {
+				who = Z0E
+				value = 185
+			}
+			estate_territory = {
+				estate = estate_church
+				territory = 45
+			}
+		}
+		effect = {
+			add_patriarch_authority = 0.2
+			add_years_of_income = 2
+			add_country_modifier = {
+				name = patri_infl_scary
+				duration = 36500
+			}
+		}
+	}
+	ortho_maintain_ecu = {
+		icon = guardians_of_saint_sava
+		required_missions = { ortho_maintain_influence }
+		position = 15
+		provinces_to_highlight = {
+			owned_by = Z0E
+		}
+		trigger = {
+			estate_influence = {
+				estate = estate_church
+				influence = 85
+			}
+			estate_territory = {
+				estate = estate_church
+				territory = 65
+			}
+		}
+		effect = {
+			override_country_name = ECUMENRIM
+			change_government = theocracy
+			add_government_reform = leading_clergy_reform
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
+		}
+	}
+}
+tr_russia_exclusive_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		tag = RUS
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	tr_prikazy_mission = {
+		icon = mission_establish_the_prikazy
+		required_missions = { time_of_troubles_mission }
+		position = 17
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = tr_prikazy_mission.tooltip.1
+				OR = {
+					philosopher = 3
+					natural_scientist = 3
+					artist = 3
+					treasurer = 3
+					theologian = 3
+					master_of_mint = 3
+					inquisitor = 3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tr_prikazy_mission.tooltip.2
+				OR = {
+					statesman = 3
+					naval_reformer = 3
+					trader = 3
+					spymaster = 3
+					colonial_governor = 3
+					diplomat = 3
+					navigator = 3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tr_prikazy_mission.tooltip.3
+				OR = {
+					army_reformer = 3
+					army_organiser = 3
+					commandant = 3
+					quartermaster = 3
+					recruitmaster = 3
+					fortification_expert = 3
+					grand_captain = 3
+				}
+			}
+			NOT = {
+				num_of_loans = 1
+			}
+			is_in_deficit = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "prikazy_modifier"
+				duration = 7300
+			}
+		}
+	}
+	
+	tr_state_manufactories = {
+		icon = mission_state_manufactories
+		required_missions = { tr_prikazy_mission }
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "proto_industrialization"
+				duration = 9125
+			}
+			add_years_of_income = 1.5
+		}
+	}
+}
+rus_city_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_petrograd = {
+		icon = mission_develop_nevas_port
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 33
+		}
+		trigger = {
+			33 = {
+				owned_by = ROOT
+				is_core = ROOT
+				global_trade = 100
+			}
+			Z02 = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+			}
+		}
+		effect = {
+			33 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+				add_great_project_tier = {
+					type = winter_palace
+					tier = 1
+				}
+				add_province_modifier = {
+					name = western_ifluenced
+					duration = -1
+				}
+				change_province_name = "Petrograd"
+			}
+			add_country_modifier = {
+				name = across_vistula
+				duration = 10950
+			}
+		}
+	}
+}
+rus_exp_east_branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_east_urals = {
+		icon = mission_cossack_cavalry
+		required_missions = { rus_exp_army_size }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				region = ruthenia_region
+				area = tambov_area
+				area = galich_area
+				province_id = 2423
+				province_id = 2422
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			ruthenia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tambov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			galich_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2423 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2422 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			tambov_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "convert_the_steppes"
+					duration = 5475
+				}
+			}
+			galich_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "convert_the_steppes"
+					duration = 5475
+				}
+			}
+			lower_don_area = {
+				add_permanent_claim = ROOT
+			}
+			azov_area = {
+				add_permanent_claim = ROOT
+			}
+			zaporizhia_area = {
+				add_permanent_claim = ROOT
+			}
+			yedisan_area = {
+				add_permanent_claim = ROOT
+			}
+			2447 = {
+				add_permanent_claim = ROOT
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = Z0E
+				months = 300
+			}
+			ural_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_east_pontic = {
+		icon = mission_recruit_the_cossacks
+		required_missions = { rus_east_urals }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = lower_don_area
+				area = azov_area
+				area = zaporizhia_area
+				area = yedisan_area
+				province_id = 2447
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			yedisan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zaporizhia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			azov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_don_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2447 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_cossacks
+				share = 7.6
+			}
+			crimea_area = {
+				add_permanent_claim = ROOT
+			}
+			circassia_area = {
+				add_permanent_claim = ROOT
+			}
+			2416 = {
+				add_permanent_claim = ROOT
+			}
+			468 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_east_causasus = {
+		icon = mission_castle_construction
+		required_missions = { rus_east_pontic }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = circassia_area
+				province_id = 2416
+				province_id = 468
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			circassia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2416 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			468 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			imereti_area = {
+				add_claim = ROOT
+			}
+			463 = {
+				add_latest_building = { builder = ROOT fort = yes }
+				add_province_modifier = {
+					name = teu_pru_fortified_border
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					4306 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4306 = {
+					add_latest_building = { builder = ROOT fort = yes }
+					add_province_modifier = {
+						name = teu_pru_fortified_border
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	rus_east_central_asia = {
+		icon = mission_chinese_general_riding
+		required_missions = { rus_east_causasus rus_east_caspian }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = transcaspia_area
+				area = khiva_area
+				area = merv_area
+				area = transoxiana_area
+				area = kyzylkum_area
+				area = syr_darya_area
+				area = kazakhstan_area
+				area = balchasj_area
+				area = jetysuu_area
+				area = arys_area
+				area = ferghana_area
+				area = termez_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					region = central_asia_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 40
+			}
+		}
+		effect = {
+			north_zungaria = {
+				add_permanent_claim = ROOT
+			}
+			tannu_uriankhai_area = {
+				add_permanent_claim = ROOT
+			}
+			4222 = {
+				add_permanent_claim = ROOT
+			}
+			change_estate_land_share = {
+				estate = estate_cossacks
+				share = 4.12
+			}
+		}
+	}
+	rus_east_mong = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { rus_east_central_asia }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = north_zungaria
+				area = tannu_uriankhai_area
+				province_id  = 4222
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			north_zungaria = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tannu_uriankhai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4222 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusade_on_mong
+				duration = 14600
+			}
+		}
+	}
+	rus_east_nestorian = {
+		icon = subiaco_press
+		required_missions = { rus_east_mong }
+		position = 7
+		provinces_to_highlight = {
+		}
+		trigger = {
+			MGE = {
+				religion = orthodox
+			}
+		}
+		effect = {
+			280 = {
+				add_province_modifier = {
+					name = brothers_in_faith
+					duration = -1
+				}
+			}
+			295 = {
+				add_province_modifier = {
+					name = brothers_in_faith
+					duration = -1
+				}
+			}
+			MGE = {
+				capital_scope = {
+					add_province_modifier = {
+						name = brothers_in_faith
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+rus_exp_colon_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_complete_west_siberia = {
+		icon = mission_collect_yasak
+		required_missions = { rus_colon_sib_1 }
+		position = 8
+		provinces_to_highlight = {
+			region = west_siberia_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			1074 = {
+				owned_by = ROOT
+			}
+			1075 = {
+				owned_by = ROOT
+			}
+			west_siberia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			1074 = {
+				change_religion = ROOT
+				change_culture = ROOT
+				add_base_production = 2
+			}
+			1075 = {
+				change_religion = ROOT
+				change_culture = ROOT
+				add_base_production = 1
+			}
+			west_siberia_region = {
+				limit = {
+					trade_goods = fur
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "siberian_fur_production"
+					duration = 7300
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.6
+			}
+		}
+	}
+	rus_colon_transib = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { rus_colon_sib_2 }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1064
+				province_id = 1082
+			}
+			owned_by = ROOT
+		}
+		trigger = {
+			1064 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+			1082 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			1082 = {
+				add_center_of_trade_level = 1
+			}
+			306 = {
+				add_center_of_trade_level = 1
+			}
+			1963 = {
+				add_center_of_trade_level = 1
+			}
+			1064 = {
+				center_of_trade = 1
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.1
+			}
+		}
+	}
+	rus_colon_oriental = {
+		icon = mission_secure_hajj_ports
+		required_missions = { rus_colon_pacific rus_colon_transib }
+		position = 10
+		provinces_to_highlight = {
+			province_id = 730
+		}
+		trigger = {
+			730 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = control_of_yilinn
+				duration = 73000
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 3.8
+			}
+		}
+	}
+}
+ortho_church_crusade_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_crus_finland = {
+		icon = mission_conquer_finland
+		required_missions = { ortho_maintain_patriach }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				area = finland_area
+				area = bothnia_area
+				area = pomor_area
+				area = north_karelia
+				area = karelia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			FIN = {
+				vassal_of = ROOT
+			}
+			finland_area = {
+				type = all
+				owned_by = FIN
+				is_core = FIN
+				religion = orthodox
+			}
+			bothnia_area = {
+				type = all
+				owned_by = FIN
+				is_core = FIN
+				religion = orthodox
+			}
+			pomor_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = orthodox
+			}
+			north_karelia = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = orthodox
+			}
+			karelia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = orthodox
+			}
+		}
+		effect = {
+			laponia_area = {
+				add_core = SMI
+				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_vassal = {
+		icon = mission_king_of_eastern_europe
+		required_missions = { ortho_crus_finland }
+		position = 12
+		provinces_to_highlight = {
+		}
+		trigger = {
+			all_subject_country = {
+				religion = orthodox
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 10950
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = POL
+				months = 240
+			}
+		}
+	}
+	ortho_crus_poland = {
+		icon = mission_plc_proclaim_polish_hegemony
+		required_missions = { ortho_crus_vassal }
+		position = 13
+		provinces_to_highlight = {
+			region = poland_region
+			NOT = { religion = orthodox }
+		}
+		trigger = {
+			OR = {
+				AND = {
+					exists = POL
+					POL = {
+						religion = orthodox
+					}
+				}
+				calc_true_if = {
+					all_province = {
+						region = poland_region
+						religion = orthodox
+					}
+					amount = 20
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 10950
+			}
+			moldavia_area = {
+				add_claim = ROOT
+			}
+			wallachia_area = {
+				add_claim = ROOT
+			}
+			silistria_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	ortho_crus_moldrom = {
+		icon = mission_crusade_for_varna
+		required_missions = { ortho_crus_poland }
+		position = 14
+		provinces_to_highlight = {
+			OR = {
+				area = moldavia_area
+				area = wallachia_area
+				area = silistria_area
+			}
+			NOT = { religion = orthodox }
+		}
+		trigger = {
+			moldavia_area = {
+				type = all
+				religion = orthodox
+			}
+			wallachia_area = {
+				type = all
+				religion = orthodox
+			}
+			silistria_area = {
+				type = all
+				religion = orthodox
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 10950
+			}
+			transylvania_area = {
+				add_claim = ROOT
+			}
+			southern_transylvania_area = {
+				add_claim = ROOT
+			}
+			slovakia_area = {
+				add_claim = ROOT
+			}
+			alfold_area = {
+				add_claim = ROOT
+			}
+			transdanubia_area = {
+				add_claim = ROOT
+			}
+		}
+	}
+	ortho_crus_patvas = {
+		icon = take_constantinople
+		required_missions = { ortho_crus_moldrom }
+		position = 15
+		provinces_to_highlight = {
+			OR = {
+				area = thrace_area
+				province_id = 2750
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_or_non_sovereign_subject_of = 2750
+			OR = {
+				Z0E = {
+					vassal_of = ROOT
+				}
+				NOT = { exists = Z0E }
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					owned_by = Z0E
+				}
+				cede_province = RUS
+			}
+			thrace_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = RUS
+			}
+			2750 = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = RUS
+			}
+			vassalize = Z0E
+			Z0E = {
+				set_capital = 151
+			}
+		}
+	}
+	ortho_crus_byzantios = {
+		icon = mission_plc_purple_phoenix
+		required_missions = { ortho_crus_patvas }
+		position = 16
+		provinces_to_highlight = {
+			OR = {
+				area = northern_greece_area
+				area = morea_area
+				area = macedonia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = { exists = BYZ }
+		}
+		effect = {
+			northern_greece_area = {
+				add_core = BYZ
+				cede_province = BYZ
+				remove_core = BYZ
+			}
+			morea_area = {
+				add_core = BYZ
+				cede_province = BYZ
+				remove_core = BYZ
+			}
+			macedonia_area = {
+				add_core = BYZ
+				cede_province = BYZ
+				remove_core = BYZ
+			}
+			vassalize = BYZ
+			add_splendor = 10
+			add_next_institution_embracement = 5
+			118 = {
+				add_permanent_claim = RUS
+				add_permanent_claim = BYZ
+			}
+		}
+	}
+	ortho_crus_cathol = {
+		icon = mission_raid_on_genoa
+		required_missions = { ortho_crus_byzantios }
+		position = 17
+		provinces_to_highlight = {
+			province_id = 118
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 118
+			118 = {
+				religion = orthodox
+			}
+		}
+		effect = {
+			every_country = {
+				limit = {
+					religion = catholic
+					}
+				change_religion = orthodox
+			}
+			every_province = {
+				limit = {
+					religion = catholic
+					}
+				change_religion = orthodox
+			}
+			add_adm_power = 150
+		}
+	}
+}
+rus_city_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_city_riga = {
+		icon = mission_conquer_riga
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 38
+		}
+		trigger = {
+			38 = {
+				owned_by = ROOT
+				is_core = ROOT
+				has_building = cathedral
+			}
+		}
+		effect = {
+			38 = {
+				add_province_modifier = {
+					name = riga_relig
+					duration = 7300
+				}
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = RIGA_BALTIC_CENTRE_OF_ORTHODOX
+				influence = 12
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 5
+			}
+		}
+	}
+}
+rus_exp_east_branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_east_patriarchate = {
+		icon = mission_autocephalous_archbishopric
+		required_missions = { rus_east_urals }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				region = ural_region
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			saratov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			samara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kazan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1964 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1963 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kama_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			volga_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bashkiria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			OR = {
+				Z0E = {
+					vassal_of = ROOT
+				}
+				NOT = { exists = Z0E }
+			}
+		}
+		effect = {
+			saratov_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			473 = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			Z0E = {
+				bashkiria_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				volga_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				kazan_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				kama_area = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				1964 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				1963 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				1081 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+				2423 = {
+					add_core = RUS
+					cede_province = RUS
+					remove_core = Z0E
+				}
+			}
+			lower_yik_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = Z0E
+			}
+			nogai_area = {
+				add_permanent_claim = ROOT
+				add_permanent_claim = Z0E
+			}
+			astrakhan_area = {
+				add_permanent_claim = ROOT
+			}
+			dagestan_area = {
+				add_permanent_claim = ROOT
+			}
+			2351 = {
+				add_permanent_claim = Z0E
+			}
+			add_country_modifier = {
+				name = "gen_eur_defender"
+				duration = 9125
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 7.6
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -15
+			}
+		}
+	}
+	rus_east_caspian = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { rus_east_patriarchate }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = lower_yik_area
+				area = nogai_area
+				area = astrakhan_area
+				area = dagestan_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			dagestan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			astrakhan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_yik_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nogai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Z0E = {
+				vassal_of = ROOT
+			}
+		}
+		effect = {
+			lower_yik_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			nogai_area = {
+				add_core = Z0E
+				cede_province = Z0E
+				remove_core = ROOT
+			}
+			transcaspia_area = {
+				add_permanent_claim = ROOT
+			}
+			khiva_area = {
+				add_permanent_claim = ROOT
+			}
+			merv_area = {
+				add_permanent_claim = ROOT
+			}
+			transoxiana_area = {
+				add_permanent_claim = ROOT
+			}
+			kyzylkum_area = {
+				add_permanent_claim = ROOT
+			}
+			syr_darya_area = {
+				add_permanent_claim = ROOT
+			}
+			kazakhstan_area = {
+				add_permanent_claim = ROOT
+			}
+			balchasj_area = {
+				add_permanent_claim = ROOT
+			}
+			jetysuu_area = {
+				add_permanent_claim = ROOT
+			}
+			arys_area = {
+				add_permanent_claim = ROOT
+			}
+			ferghana_area = {
+				add_permanent_claim = ROOT
+			}
+			termez_area = {
+				add_permanent_claim = ROOT
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+		}
+	}
+}
+rus_exp_colon_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_colon_muscovy = {
+		icon = mission_sovereign_principality
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+					area = oka_area
+					area = moscow_area
+					area = ryazan_area
+					area = vladimir_area
+					area = suzdal_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			oka_area = {
+				type = all
+				owned_by = ROOT
+			}
+			moscow_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ryazan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			vladimir_area = {
+				type = all
+				owned_by = ROOT
+			}
+			suzdal_area = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = { exists = MOS }
+		}
+		effect = {
+			add_dip_power = 200
+			change_government_reform_progress = 35
+			ishim_area = {
+				add_permanent_claim = ROOT
+			}
+			aqmola_area = {
+				add_permanent_claim = ROOT
+			}
+			yrtesh_area = {
+				add_permanent_claim = ROOT
+			}
+			ob_area = {
+				add_permanent_claim = ROOT
+			}
+			kara_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_colon_sib_1 = {
+		icon = mission_colonial
+		required_missions = { rus_colon_muscovy }
+		position = 7
+		provinces_to_highlight = {
+			region = west_siberia_region
+			has_discovered = ROOT
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = ishim_area
+					area = aqmola_area
+					area = yrtesh_area
+					area = ob_area
+					area = kara_area
+					area = central_siberia_area
+				}
+				value = 25
+			}
+		}
+		effect = {
+			1078 = {
+				change_province_name = "Yekaterinburg"
+			}
+			add_dip_power = 100
+			define_conquistador = {
+				name = "Yermak Bryachislavich"
+				shock = 6
+				fire = 6
+				manuever = 5
+				siege = 0
+			}
+		}
+	}
+	rus_colon_sib_2 = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { rus_colon_sib_1 }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = central_siberia_area
+				area = tunguska_area
+				area = irkutsk_area
+				area = tannu_uriankhai_area
+				area = buryatia_area
+				area = yakutia_area
+			}
+			has_discovered = ROOT
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = central_siberia_area
+					area = tunguska_area
+					area = irkutsk_area
+					area = tannu_uriankhai_area
+					area = buryatia_area
+					area = yakutia_area
+				}
+				value = 25
+			}
+		}
+		effect = {
+			2443 = {
+				change_province_name = "Boryis"
+			}
+			add_prestige = 15
+			add_years_of_income = 0.75
+		}
+	}
+	rus_colon_pacific = {
+		icon = mission_galleys_in_port
+		required_missions = { rus_colon_sib_2 }
+		position = 9
+		provinces_to_highlight = {
+			region = east_siberia_region
+			has_discovered = ROOT
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				region = east_siberia_region
+				value = 20
+			}
+			owns_core_province = 1043
+		}
+		effect = {
+			define_explorer = {
+				name = "Vitus Bering"
+				fire = 4
+				shock = 2
+				manuever = 5
+			}
+			if = {
+				limit = {
+					1043 = {
+						NOT = {
+							has_building = shipyard
+						}
+						NOT = {
+							has_building = grand_shipyard
+						}
+					}
+				}
+				1043 = {
+					add_building = shipyard
+				}
+			}
+			1043 = {
+				add_province_modifier = {
+					name = "russian_pacific_port"
+					duration = -1
+				}
+			}
+			furdan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ilan_hala_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			central_jilin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			sakhalin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	rus_colon_alaska = {
+		icon = mission_colonize_alaska
+		required_missions = { rus_colon_pacific }
+		provinces_to_highlight = {
+			colonial_region = colonial_alaska
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					colonial_region = colonial_alaska
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				amount = 8
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "rus_alaska_modifier"
+				duration = 7300
+			}
+			2611 = {
+				change_province_name = "Staniskaya"
+			}
+			2613 = {
+				change_province_name = "Novo-Arkhangelsk"
+				rename_capital = "Novo-Arkhangelsk"
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+}
+ortho_church_crusade_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ortho_crus_sami = {
+		icon = mission_the_sami
+		required_missions = { ortho_crus_finland }
+		position = 12
+		provinces_to_highlight = {
+			area = laponia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			SMI = {
+				vassal_of = ROOT
+			}
+			laponia_area = {
+				type = all
+				owned_by = SMI
+				is_core = SMI
+				religion = orthodox
+			}
+		}
+		effect = {
+			21 = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			20 = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			western_norway = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			eastern_norway = {
+				add_core = NOR
+				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_norge = {
+		icon = mission_norwegian_independence
+		required_missions = { ortho_crus_sami }
+		position = 13
+		provinces_to_highlight = {
+			OR = {
+				province_id = 21
+				province_id = 20
+				area = western_norway
+				area = eastern_norway
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			NOR = {
+				vassal_of = ROOT
+			}
+			21 = {
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+			20 = {
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+			western_norway = {
+				type = all
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+			eastern_norway = {
+				type = all
+				owned_by = NOR
+				is_core = NOR
+				religion = orthodox
+			}
+		}
+		effect = {
+			norrland_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			10 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			svealand_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			4 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			1 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			vastra_gotaland_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			2 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			3 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			4166 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			skaneland_area = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_sweden = {
+		icon = mission_swedish_great_power
+		required_missions = { ortho_crus_norge }
+		position = 14
+		provinces_to_highlight = {
+			OR = {
+				province_id = 10
+				province_id = 4
+				province_id = 1
+				province_id = 2
+				province_id = 3
+				province_id = 4166
+				area = norrland_area
+				area = svealand_area
+				area = vastra_gotaland_area
+				area = skaneland_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			SWE = {
+				vassal_of = ROOT
+			}
+			norrland_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			10 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			svealand_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			4 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			1 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			vastra_gotaland_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			2 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			3 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			4166 = {
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+			skaneland_area = {
+				type = all
+				owned_by = SWE
+				is_core = SWE
+				religion = orthodox
+			}
+		}
+		effect = {
+			1930 = {
+				add_core = SWE
+				add_core = FIN
+				add_claim = RUS
+			}
+			25 = {
+				add_core = SWE
+				add_core = RUS
+				add_claim = RUS
+			}
+			1981 = {
+				add_core = SWE
+				add_claim = RUS
+			}
+			if = {
+				limit = {
+					owns_core_province = 35
+				}
+				35 = {
+					add_province_modifier = {
+						name = domination_of_scandes
+						duration = 36500
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					owns_core_province = 33
+				}
+				33 = {
+					add_province_modifier = {
+						name = domination_of_scandes
+						duration = 36500
+					}
+				}
+			}
+			add_patriarch_authority = 0.3
+		}
+	}
+	ortho_crus_magyar = {
+		icon = mission_pol_protect_hungary
+		required_missions = { ortho_crus_moldrom }
+		position = 15
+		provinces_to_highlight = {
+			OR = {
+				area = transylvania_area
+				area = southern_transylvania_area
+				area = slovakia_area
+				area = alfold_area
+				area = transdanubia_area
+			}
+			NOT = { religion = orthodox }
+		}
+		trigger = {
+			OR = {
+				AND = {
+					transylvania_area = {
+						type = all
+						religion = orthodox
+					}
+					southern_transylvania_area = {
+						type = all
+						religion = orthodox
+					}
+					slovakia_area = {
+						type = all
+						religion = orthodox
+					}
+					alfold_area = {
+						type = all
+						religion = orthodox
+					}
+					transdanubia_area = {
+						type = all
+						religion = orthodox
+					}
+				}
+				AND = {
+					HUN = {
+						religion = orthodox
+					}
+					SLO = {
+						religion = orthodox
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = crusades_of_ortho
+				duration = 10950
+			}
+			balkan_region = {
+				add_claim = ROOT
+			}
+		}
+	}
+}
+rus_cilli_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Third Rome"
+	}
+	potential = {
+		OR = {
+			tag = MOS
+			tag = RUS
+		}
+		has_dlc = "Third Rome"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rus_cilli_hawaii = {
+		icon = mission_oceania_assemble_an_army
+		required_missions = {  }
+		position = 19
+		provinces_to_highlight = {
+			province_id = 4936
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 4936
+		}
+		effect = {
+			4936 = {
+				change_province_name = "Fort Elizavety"
+				rename_capital = "Pa'ula'ula o Hipo"
+				add_province_modifier = {
+					name = rus_hawaii_frt
+					duration = -1
+				}
+		}
+	}
+}

@@ -1,5 +1,5 @@
-owner = MAD
-controller = MAD
+owner = Z01
+controller = Z01
 capital = "Simraon"
 is_city = yes
 culture = dynamic-bengali-gondi-avadhi-rajput-culture-num2
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 6
 base_production = 2
 base_manpower = 3
-add_core = MAD
+add_core = Z01
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

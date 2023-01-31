@@ -3,7 +3,7 @@ controller = MGE
 capital = "Udinskoye"
 is_city = yes
 culture = khalkha
-religion = mahayana
+religion = nestorian
 trade_goods = unknown
 base_tax = 3
 base_production = 2
@@ -18,3 +18,9 @@ discovered_by = ottoman
 native_size = 10
 native_ferocity = 1
 native_hostileness = 3
+1444.11.11 = {
+	add_province_modifier = {
+		name = pursecution_of_buddh
+		duration  = 10950
+	}
+}
