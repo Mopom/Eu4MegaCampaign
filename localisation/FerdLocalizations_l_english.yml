@@ -1,6 +1,6 @@
 ﻿l_english:
  ############## MISSION ###############################
-gng_crisis_title: "Corruption of the Nayankara System"
+gng_crisis:0 "Corruption of the Nayankara System"
 gng_crisis.1.t:0 "Ganga is Questioned"
 gng_crisis.1.d:0 "Gangan dynasty has been ruling for 500 years, it is now questioned for it's long lived rulers and it's ways"
 gng_crisis.1.a:0 "The End is near"
