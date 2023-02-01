@@ -448,7 +448,7 @@ pursecution_of_buddh = {
 	min_local_autonomy = 60
 }
 temple_privs = {
-	liberty_desire = -15
+	liberty_desire = -25
 	global_tax_modifier = 0.2
 }
 relax_disas = {
@@ -470,4 +470,29 @@ relig_tib_conv = {
 }
 varanasi_relig = {
 	enforce_religion_cost = -0.33
+}
+ujjain_relig = {
+	caravan_power = 0.2
+	trade_efficiency = 0.1
+}
+feyzabad_relig = {
+	land_attrition = -0.1
+}
+panipat_relig = {
+	rival_border_fort_maintenance = -0.2
+}
+kanchipuram_relig = {
+	tolerance_heathen = 2
+}
+halar_relig = {
+	cb_on_religious_enemies = yes
+}
+relig_siam_conv = {
+	global_missionary_strength = 0.03
+	missionaries = 1
+}
+emp_of_ind = {
+	global_tax_modifier = 0.02
+	prestige_decay = -0.01
+	prestige_from_naval = 0.1
 }

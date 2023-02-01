@@ -577,7 +577,7 @@ ind_ganges_slot_1 = {
 		}
 	}
 }
-ind_lot_migrate_nep = {
+ind_lot_migrate_nep_1 = {
 slot = 1
 	generic = no
 	ai = yes
@@ -879,7 +879,7 @@ ind_dis_missions_2 = {
 	}
 }
 
-raj_east_missions = {
+raj_east_missions_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -942,6 +942,157 @@ raj_east_missions = {
 		}
 	}
 }
+ind_unif_slot_2 = {
+slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_ind_unified_region = {
+		icon = mission_the_ganges_campaign
+		required_missions = {  }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				region = hindusthan_region
+				region = west_india_region
+				region = bengal_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			NOT = {
+				any_subject_country = {
+					capital_scope = {
+						region = hindusthan_region
+					}
+				}
+			}
+			NOT = {
+				any_subject_country = {
+					capital_scope = {
+						region = bengal_region
+					}
+				}
+			}
+			NOT = {
+				any_subject_country = {
+					capital_scope = {
+						region = west_india_region
+					}
+				}
+			}
+		}
+		effect = {
+			bengal_region = {
+				add_permanent_claim = ROOT
+			}
+			hindusthan_region = {	
+				add_permanent_claim = ROOT
+			}
+			west_india_region = {	
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_ind_bengal = {
+		icon = mission_clear_the_delta
+		required_missions = { lot_ind_unified_region }
+		position = 9
+		provinces_to_highlight = {
+			region = bengal_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			bengal_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			deccan_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_ind_deccan = {
+		icon = mission_invade_the_deccan_ori
+		required_missions = { lot_ind_bengal lot_ind_west_india }
+		position = 10
+		provinces_to_highlight = {
+			region = deccan_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			deccan_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			coromandel_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_ind_coromandel = {
+		icon = mission_riches_of_golconda
+		required_missions = { lot_ind_deccan }
+		position = 11
+		provinces_to_highlight = {
+			region = coromandel_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			andhra_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			north_carnatic_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			south_carnatic_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			kongu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			tanjore_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			madura_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = emp_of_ind
+				duration = -1
+			}
+		}
+	}
+}
 ind_heir_missions_3 = {
 	slot = 3
 	generic = no
@@ -972,7 +1123,6 @@ ind_heir_missions_3 = {
 		}
 	}
 }
-
 dlh_slot_3 = {
 	slot = 3
 	generic = no
@@ -1048,7 +1198,212 @@ dlh_slot_3 = {
 			}
 		}
 	}
+}
+ind_lot_migrate_bur_3 = {
+slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
 	
+	gan_bur_exp_kachin = {
+		icon = mission_order_in_the_domain
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = chindwin_area
+				area = kachin_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			chindwin_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			kachin_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+		}
+		effect = {
+			2396 = {
+				add_latest_building = { builder = ROOT fort = yes }
+				add_province_modifier = {
+					name = guards_of_mong
+					duration = 18250
+				}
+			}
+			shan_hill_area = {
+				add_claim = AVA
+			}
+			karenni_area = {
+				add_claim = AVA
+			}
+		}
+	}
+	gan_bur_exp_karenni = {
+		icon = mission_hills_of_gondwana
+		required_missions = { gan_bur_exp_kachin }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = shan_hill_area
+				area = karenni_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			shan_hill_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			karenni_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+		}
+		effect = {
+			lower_burma_area = {
+				add_permanent_claim = AVA
+			}
+			sukhothai_area = {
+				add_permanent_claim = AVA
+			}
+			north_tenasserim_area = {
+				add_permanent_claim = AVA
+			}
+			central_thai_area = {
+				add_permanent_claim = AVA
+			}
+			yun_gui_borderland_area = {
+				add_permanent_claim = AVA
+			}
+			north_laos_area = {
+				add_permanent_claim = AVA
+			}
+			northern_thai_area = {
+				add_permanent_claim = AVA
+			}
+		}
+	}
+	gan_bur_exp_minithai = {
+		icon = mission_conquer_siam
+		required_missions = { gan_bur_exp_karenni }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = lower_burma_area
+				area = sukhothai_area
+				area = north_tenasserim_area
+				area = central_thai_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			lower_burma_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			sukhothai_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			north_tenasserim_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			central_thai_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+		}
+		effect = {
+			add_prestige = 15
+			AVA = {
+				add_country_modifier = {
+					name = relig_siam_conv
+					duration = 7300
+				}
+			}
+			khorat_area = {
+				add_permanent_claim = AVA
+			}
+		}
+	}
+}
+ind_unif_slot_3 = {
+slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	lot_ind_west_india = {
+		icon = mission_conquer_kannauj
+		required_missions = { lot_ind_unified_region }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				region = west_india_region
+				region = hindusthan_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			west_india_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			hindusthan_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = PUN
+				months = 300
+			}
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = BAL
+				months = 300
+			}
+		}
+	}
 }
 dlh_west_missions_4 = {
 	slot = 4
@@ -1283,7 +1638,65 @@ dlh_west_missions_4 = {
 		}
 	}
 }
-
+ind_lot_migrate_bur_4 = {
+slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		tag = Z01
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	gan_bur_exp_indochina = {
+		icon = mission_mnd_siam_subjugate_vietnam
+		required_missions = { gan_bur_exp_karenni }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = yun_gui_borderland_area
+				area = north_laos_area
+				area = northern_thai_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			yun_gui_borderland_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			north_laos_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+			northern_thai_area = {
+				type = all
+				owned_by = AVA
+				is_core = AVA
+			}
+		}
+		effect = {
+			add_prestige = 15
+			AVA = {
+				add_country_modifier = {
+					name = relig_siam_conv
+					duration = 7300
+				}
+			}
+			vientiane_area = {
+				add_permanent_claim = AVA
+			}
+		}
+	}
+}
 ind_cities_slot_5 = {
 slot = 5
 	generic = no
@@ -1354,6 +1767,143 @@ slot = 5
 			4500 = {
 				add_province_modifier = {
 					name = varanasi_relig
+					duration = 10950
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 2
+			}
+		}
+	}
+	ind_cities_ujjain = {
+		icon = mission_city_of_gondwana
+		required_missions = {  }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 4461
+		}
+		trigger = {
+			4461 = {
+				has_building = cathedral
+				province_has_center_of_trade_of_level = 2
+			}
+			religion = gangan
+		}
+		effect = {
+			4461 = {
+				add_province_modifier = {
+					name = ujjain_relig
+					duration = 10950
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 2
+			}
+		}
+	}
+	ind_cities_feyzabad = {
+		icon = mission_control_the_desh
+		required_missions = {  }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 4495
+		}
+		trigger = {
+			4495 = {
+				has_building = cathedral
+			}
+			religion = gangan
+		}
+		effect = {
+			4495 = {
+				add_province_modifier = {
+					name = feyzabad_relig
+					duration = 10950
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 2
+			}
+		}
+	}
+	ind_cities_panipat = {
+		icon = mission_secure_khandesh
+		required_missions = {  }
+		position = 7
+		provinces_to_highlight = {
+			province_id = 2062
+		}
+		trigger = {
+			2062 = {
+				AND = {
+					has_building = cathedral
+					has_building = fort_16th
+				}
+			}
+			religion = gangan
+		}
+		effect = {
+			2062 = {
+				add_province_modifier = {
+					name = panipat_relig
+					duration = 10950
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 2
+			}
+		}
+	}
+	ind_cities_kanchipuram = {
+		icon = mission_seize_the_bengal_coast
+		required_missions = {  }
+		position = 8
+		provinces_to_highlight = {
+			province_id = 4417
+		}
+		trigger = {
+			4417 = {
+				has_building = cathedral
+			}
+			religion = gangan
+		}
+		effect = {
+			2062 = {
+				add_province_modifier = {
+					name = kanchipuram_relig
+					duration = 10950
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 2
+			}
+		}
+	}
+	ind_cities_halar = {
+		icon = mission_coromandel_trade
+		required_missions = {  }
+		position = 9
+		provinces_to_highlight = {
+			province_id = 2052
+		}
+		trigger = {
+			2052 = {
+				AND = {
+					has_building = cathedral
+					has_building = trade_depot
+				}
+			}
+			religion = gangan
+		}
+		effect = {
+			2062 = {
+				add_province_modifier = {
+					name = halar_relig
 					duration = 10950
 				}
 			}
