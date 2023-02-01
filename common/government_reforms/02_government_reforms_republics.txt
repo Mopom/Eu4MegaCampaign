@@ -1013,6 +1013,7 @@ great_veche_republic = {
 				religion_group = christian
 				uses_patriarch_authority = yes
 			}
+	    }
 		OR = {
 			AND = {
 				tag = RUS
@@ -1452,6 +1453,7 @@ self_governing_colony_government = {
 	}
 	duration = 4
 }
+
 dutch_republic = {
 	icon = "dutch_republic"
 	allow_normal_conversion = yes
@@ -1520,7 +1522,6 @@ dutch_republic = {
 	}
 	duration = 4
 }
-
 
 cossacks_reform = {
 	icon = "horde_riding"

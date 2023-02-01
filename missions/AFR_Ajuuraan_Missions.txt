@@ -336,7 +336,7 @@ kilwa_trade_conquest_missions_slot = {
 		}
 		effect = {
 			add_navy_tradition = 20
-			merchants = 1
+			# TODO fix merchant = 1
 			}
 		}
 
