@@ -72,7 +72,7 @@ province_event = {
 	}
 
 	immediate = {
-		hidden_effect = {
+		effect = {
 			if = {
 				limit = { has_province_modifier = golden_highway_stage_1 }
 				
