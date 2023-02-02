@@ -570,9 +570,16 @@ was_never_end_game_tag_trigger = {	#Country Scope
 				NOT = { was_tag = ETH }
 				NOT = { was_tag = AKS }
 				NOT = { was_tag = GZI }
+				NOT = { was_tag = SOM }
 				NOT = { was_tag = RZI }
 				NOT = { was_tag = MAL }
 				NOT = { was_tag = SCA }
+				NOT = { was_tag = UBL }
+				NOT = { was_tag = AJU }
+				NOT = { was_tag = FRA }
+				NOT = { was_tag = Z00 }
+				NOT = { was_tag = Z01 }
+				NOT = { was_tag = Z02 }
 				NOT = { tag = MUG }
 				NOT = { tag = TUR }
 				NOT = { tag = BYZ }
@@ -605,9 +612,16 @@ was_never_end_game_tag_trigger = {	#Country Scope
 				NOT = { tag = ETH }
 				NOT = { tag = AKS }
 				NOT = { tag = GZI }
+				NOT = { tag = SOM }
 				NOT = { tag = RZI }
 				NOT = { tag = MAL }
 				NOT = { tag = SCA }
+				NOT = { tag = UBL }
+				NOT = { tag = AJU }
+				NOT = { tag = FRA }
+				NOT = { tag = Z00 }
+				NOT = { tag = Z01 }
+				NOT = { tag = Z02 }
 			}
 		}
 	}
