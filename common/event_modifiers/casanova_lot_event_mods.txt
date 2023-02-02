@@ -1,0 +1,20 @@
+unruly_students = {
+	local_unrest = 2
+	local_missionary_strength = -0.01
+	local_institution_spread = 0.01
+}
+inspired_relig_sermons = {
+	global_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.2
+	local_unrest = -1
+}
+casanova_in_prison = {
+	local_unrest = 1
+}
+casanova_in_navy = {
+	local_sailors = 250
+	navy_tradition = 1
+}
+casanova_was_here = {
+	local_unrest = -2
+}

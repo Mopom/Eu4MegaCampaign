@@ -1,0 +1,922 @@
+namespace = giacomo.casanova
+
+#########################################
+#	Flavor events for Europe & Casanova	#
+#########################################
+
+#University of Padua
+#1740
+province_event = {
+	id = giacomo.casanova.1
+	title = giacomo.casanova.1.t
+	desc = giacomo.casanova.1.d
+	picture = UNIVERSITY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			province_id = 4729
+			is_year = 1737
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		
+		modifier = {
+			factor = 0.5
+			is_year = 1740
+		}
+	}
+	
+	option = { #Giacomo and Other Students
+		name = giacomo.casanova.1.a
+		add_province_modifier = {
+			name = unruly_students
+			duration = 3650
+		}
+		add_core = PDV
+	}
+}
+
+country_event = { #Driver for below event
+	id = giacomo.casanova.2
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 112
+			is_year = 1740
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		
+		modifier = {
+			factor = 0.5
+			is_year = 1742
+		}
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		112 = {
+			province_event = {
+				id = giacomo.casanova.3
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			add_core = VEN
+		}
+	}
+}
+
+#Casanova of the Church
+#1742
+province_event = { 
+	id = giacomo.casanova.3
+	title = giacomo.casanova.3.t
+	desc = giacomo.casanova.3.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { #Giacomo and the Patriarch
+		name = giacomo.casanova.3.a
+		add_province_modifier = {
+			name = inspired_relig_sermons
+			duration = 365
+		}
+		hidden_effect = {
+			add_core = VEN
+		}
+	}
+	
+	option = { #Giacomo and the Arvorigeg
+		name = giacomo.casanova.3.b
+		add_opinion = {
+			who = FRA
+			modifier = religious_school_relation
+			years = 5
+		}
+	}
+	
+	option = { #Giacomo and the Lower Saxons
+		name = giacomo.casanova.3.c
+		add_opinion = {
+			who = Z02
+			modifier = religious_school_relation
+			years = 5
+		}
+	}
+}
+
+#Casanova in Prison
+#1744
+province_event = { 
+	id = giacomo.casanova.4
+	title = giacomo.casanova.4.t
+	desc = giacomo.casanova.4.d
+	picture = FORT_eventPicture
+	
+	trigger = {
+		AND = {
+			province_id = 4730
+			is_year = 1744
+			is_month = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #Giacomo Emprisoned
+		name = giacomo.casanova.4.a
+		add_province_modifier = {
+			name = casanova_in_prison
+			duration = 365
+		}
+		
+	}
+	
+	immediate = {
+		4729 = {
+			remove_province_modifier = unruly_students
+		}
+		112 = {
+			remove_province_modifier = inspired_relig_sermons
+		}
+	}
+}
+
+#Naval Officer Casanova
+#1745
+province_event = { 
+	id = giacomo.casanova.5
+	title = giacomo.casanova.5.t
+	desc = giacomo.casanova.5.d
+	picture = CARIBBEAN_PIRATE_FORT_eventPicture
+	
+	trigger = {
+		AND = {
+			province_id = 112
+			is_year = 1745
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 64
+	}
+	
+	option = { #Giacomo Naval
+		name = giacomo.casanova.5.a
+		add_province_modifier = {
+			name = casanova_in_navy
+			duration = 1825
+		}
+	}
+	immediate = {
+		142 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+
+#Casanova was here
+#1745-1798
+province_event = { 
+	id = giacomo.casanova.6
+	title = giacomo.casanova.6.t
+	desc = giacomo.casanova.6.d
+	picture = plati_pagan_renaissance
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 64
+	}
+	
+	option = { #Giacomo Amourous Adventures
+		name = giacomo.casanova.6.a
+	}
+	immediate = {
+		add_province_modifier = {
+			name = casanova_was_here
+			duration = 3650
+		}
+	}
+}
+
+country_event = { #Driver for above event
+	id = giacomo.casanova.7
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 151
+			is_year = 1745
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		151 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.8
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 112
+			is_year = 1746
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		112 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.9
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 104
+			is_year = 1749
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		104 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.10
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 109
+			is_year = 1749
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		109 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.11
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 105
+			is_year = 1749
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 9
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		105 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.12
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 4720
+			is_year = 1750
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		4720 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.13
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 183
+			is_year = 1750
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		183 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.14
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 266
+			is_year = 1753
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		266 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.15
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 134
+			is_year = 1753
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		134 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.16
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 65
+			is_year = 1756
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		65 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.17
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 183
+			is_year = 1757
+			is_month = 0
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		183 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.18
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 97
+			is_year = 1758
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		97 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.19
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 1869
+			is_year = 1760
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		1869 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.20
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 165
+			is_year = 1760
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		165 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.21
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 4720
+			is_year = 1760
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 7
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		4720 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.22
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 118
+			is_year = 1761
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		118 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.23
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 121
+			is_year = 1761
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		121 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.24
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 183
+			is_year = 1761
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		183 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.25
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 236
+			is_year = 1763
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		236 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.26
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 50
+			is_year = 1764
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		50 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.27
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 33
+			is_year = 1764
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 10
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		33 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.28
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 257
+			is_year = 1765
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		257 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.29
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 183
+			is_year = 1766
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 11
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		183 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.30
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 217
+			is_year = 1767
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		217 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.31
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 112
+			is_year = 1774
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		112 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.32
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 183
+			is_year = 1783
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		183 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
+country_event = { #Driver for above event
+	id = giacomo.casanova.33
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			province_id = 1771
+			is_year = 1785
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		1771 = {
+			province_event = {
+				id = giacomo.casanova.6
+			}
+		}
+	}
+}
