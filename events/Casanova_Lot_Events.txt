@@ -1,3 +1,5 @@
+
+
 namespace = giacomo.casanova
 
 #########################################
@@ -11,6 +13,7 @@ province_event = {
 	title = giacomo.casanova.1.t
 	desc = giacomo.casanova.1.d
 	picture = UNIVERSITY_eventPicture
+	goto = root
 	
 	fire_only_once = yes
 	
@@ -42,9 +45,9 @@ province_event = {
 
 country_event = { #Driver for below event
 	id = giacomo.casanova.2
-
 	hidden = yes
 	fire_only_once = yes
+	goto = root
 
 	trigger = {
 		AND = {
@@ -84,6 +87,7 @@ province_event = {
 	title = giacomo.casanova.3.t
 	desc = giacomo.casanova.3.d
 	picture = RELIGIOUS_CONVERSION_eventPicture
+	goto = root
 	
 	is_triggered_only = yes
 	
