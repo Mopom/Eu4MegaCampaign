@@ -225,7 +225,7 @@ country_decisions = {
 		major = yes
 		
 		potential = {
-			golden_doab_proper = {
+			golden_highway_doab = {
 				country_or_non_sovereign_subject_holds = ROOT
 				has_province_modifier = golden_highway_construction_stalled
 			}
