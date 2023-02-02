@@ -496,3 +496,6 @@ emp_of_ind = {
 	prestige_decay = -0.01
 	prestige_from_naval = 0.1
 }
+aju_trade_modifier = {
+	merchants = 1
+}

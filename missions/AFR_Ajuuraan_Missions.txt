@@ -336,9 +336,12 @@ kilwa_trade_conquest_missions_slot = {
 		}
 		effect = {
 			add_navy_tradition = 20
-			# TODO fix merchant = 1
+			add_country_modifier = {
+				name = aju_trade_modifier
+				duration = -1
 			}
 		}
+    }
 
 	#Make Zanzibar to the best trade node
 	aju_centralize_trade = {
