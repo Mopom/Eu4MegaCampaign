@@ -113,12 +113,12 @@ country_decisions = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			treasury = 850
+			treasury = 650
 			adm_power = 200
 		}
 	
 		effect = {
-			add_treasury = -850
+			add_treasury = -650
 			add_adm_power = -200
 			golden_highway_persia = {
 				add_permanent_province_modifier = {
