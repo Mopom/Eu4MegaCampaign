@@ -14,7 +14,6 @@ country_decisions = {
 				}
 			}
 			is_subject = no
-			NOT = { capital_scope = { has_province_modifier = rahen_corrupt_ministery_of_agriculture } }
 		}
 		
 		provinces_to_highlight = {
@@ -59,7 +58,6 @@ country_decisions = {
 				}
 			}
 			is_subject = no
-			NOT = { capital_scope = { has_province_modifier = rahen_corrupt_ministery_of_agriculture } }
 		}
 		
 		provinces_to_highlight = {
@@ -104,7 +102,6 @@ country_decisions = {
 				}
 			}
 			is_subject = no
-			NOT = { capital_scope = { has_province_modifier = rahen_corrupt_ministery_of_agriculture } }
 		}
 		
 		provinces_to_highlight = {
