@@ -1514,7 +1514,7 @@ mge_religion_path_3 = {
 		}
 		trigger = {
 			has_won_war_against = {
-				who = MGE
+				who = Z01
 				max_years_since = 10
 			}
 			NOT = {

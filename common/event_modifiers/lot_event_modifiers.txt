@@ -257,8 +257,9 @@ raid_of_nanking = {
 	war_exhaustion = 0.07
 }
 emperor_of_sinos = {
-	imperial_mandate = 0.005
-	prestige = 0.02
+	imperial_mandate = 0.05
+	army_tradition_from_battle = 0.01
+	prestige = 0.15
 }
 control_china_trade = {
 	merchants = 1
