@@ -30,16 +30,14 @@ historical_units = {
 	western_men_at_arms
 }
 Monarch_names = {
-	"Adalaïda #0" = -4
 	"Adèla #0" = -4
-	"Adelaide #1" = -0
+	"Adelaide #1" = -4
 	"Adeltrudis #0" = -7
 	"Adémar #0" = 1
 	"Aimeric #0" = 1
 	"Aïna #0" = -4
 	"Aldebert #0" = 1
-	"Aliç #0" = -3
-	"Alix #0" = -5
+	"Aliç #0" = -5
 	"Amelie #0" = -1
 	"Ancelmes #0" = 5
 	"Arnalt #1" = 9
@@ -53,29 +51,21 @@ Monarch_names = {
 	"Clemenza #0" = -2
 	"Dauid #0" = 4
 	"Dolça #1" = -12
-	"Eleanor #0" = -1
-	"Éléonore #0" = -10
-	"Elena #0" = -4
+	"Éléonor #0" = -10
 	"Elesbed #0" = -4
 	"Elise #0" = -3
 	"Elysande #0" = -3
-	"Enora #0" = -4
 	"Enric #4" = 15
-	"Estefania #0" = -4
 	"Eudes #1" = 0
-	"Faidida #0" = -2
 	"Folquet #0" = 1
 	"Gautier #0" = 3
-	"Gerard #0" = 4
 	"Géraud #1" = 0
 	"Gertrude #0" = -2
 	"Gervas #0" = 7
 	"Giselle #0" = -1
-	"Godafres #0" = -1
 	"Godefroi #0" = 8
 	"Grifiud #1" = 9
 	"Gualter #0" = 1
-	"Gui #0" = 1
 	"Guilhèm #0" = 11
 	"Hamelin #0" = 10
 	"Heloise #0" = -1
@@ -83,36 +73,28 @@ Monarch_names = {
 	"Herbert #0" = 12
 	"Hugues #1" = 0
 	"Idechael #0" = 6
-	"Isabeau #0" = -1
-	"Isabèla #0" = -2
 	"Isaldis #0" = -8
 	"Jaufré #0" = 4
 	"Joan #1" = 13
 	"Leonore #0" = -4
 	"Louis #5" = 1
 	"Luke #1" = 9
-	"Mafalda #0" = -2
 	"Marcus #0" = 4
 	"Matilda #0" = -1
 	"Melisènda #0" = -4
 	"Millicent #0" = -3
 	"Miquel #0" = 1
-	"Norah #0" = -4
 	"Oswyn #0" = 1
 	"Paôl #0" = 6
 	"Pèronelle #0" = -1
-	"Philippe #2" = 0
-	"Raimon #0" = 1
-	"Raymond #1" = 4
+	"Philippe #2" = 1
 	"Robert #2" = 0
-	"Rorgues #0" = 1
 	"Sança #0" = -3
 	"Sarah #0" = -4
 	"Savary #1" = 0
 	"Stephanie #0" = -1
 	"Sulcar #1" = -15
-	"Thibaud #0" = 1
-	"Thibault #1" = 0
+	"Thibault #1" = 1
 	"Turstin #0" = 2
 }
 leader_names = {
@@ -288,7 +270,6 @@ ship_names = {
 	"Commerce de Paris"
 	"Commerce du Lyon"
 	"Comte"
-	"ComÃ©te"
 	"Concorde"
 	"Consolante"
 	"Content"
@@ -296,7 +277,6 @@ ship_names = {
 	"Corail"
 	"Courageux"
 	"Couronne"
-	"Couronne Ottomane"
 	"Courtisan"
 	"Croissant"
 	"Croissant d'Afrique"
