@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_great_project_almathaf_albanafsaj"	
+		texturefile = "gfx//interface//great_projects//great_project_jabbaridmuseum.dds"
+	}
+
+}
