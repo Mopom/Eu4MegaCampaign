@@ -322,7 +322,7 @@ stonehenge = {
 	move_days_per_unit_distance = 2
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 1
+	starting_tier = 0
 	
 	#project type
 	type = monument
@@ -334,7 +334,7 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = anglo_saxon
+				culture = english
 				province_is_or_accepts_culture = yes
 			}
 		}
@@ -357,7 +357,7 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = anglo_saxon
+				culture = english
 				province_is_or_accepts_culture = yes
 			}
 		}	
@@ -370,7 +370,7 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = anglo_saxon
+				culture = english
 				province_is_or_accepts_culture = yes
 			}
 		}
@@ -667,8 +667,8 @@ tower_of_london = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.5
-			prestige = 0.5
+			army_tradition = 0.25
+			prestige = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -698,9 +698,8 @@ tower_of_london = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 1
-			prestige = 1
-			defensiveness = 0.1
+			army_tradition = 0.5
+			prestige = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -1327,7 +1326,7 @@ angkor_wat = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_buddhist_or_accepts_buddhism_or_is_dharmic = yes
 	}
 
 	#what to do when it's built
@@ -1342,12 +1341,12 @@ angkor_wat = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_buddhist_or_accepts_buddhism_or_is_dharmic = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_buddhist_or_accepts_buddhism_or_is_dharmic = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -6279,6 +6278,12 @@ temple_of_confucius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
+			}
 		}
 	}
 
@@ -9081,9 +9086,10 @@ versailles = {
 	}
 }
 
-el_escorial = {
+#almathaf albanafsaj
+almathaf_albanafsaj = {
 	# province it starts in
-	start = 217
+	start = 2990
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1444.01.01 #1584.01.01
@@ -9097,7 +9103,7 @@ el_escorial = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9191,9 +9197,8 @@ el_escorial = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_autonomy = -0.01	
-			global_tariffs = 0.05
-			treasure_fleet_income = 0.05			
+			prestige = 0.15
+			idea_cost = -0.05			
 		}
 
 		#what effects happen when this tier is achieved
@@ -9222,10 +9227,9 @@ el_escorial = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_autonomy = -0.025
-			governing_capacity_modifier = 0.05
-			global_tariffs = 0.1
-			treasure_fleet_income = 0.1
+			prestige = 0.30
+			idea_cost = -0.05
+			treasure_fleet_income = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -9254,10 +9258,9 @@ el_escorial = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_autonomy = -0.05
-			governing_capacity_modifier = 0.1
-			global_tariffs = 0.2
-			treasure_fleet_income = 0.2
+			prestige = 0.5
+			idea_cost = -0.1
+			treasure_fleet_income = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -10578,8 +10581,15 @@ bran_castle = {
 	type = monument
 
 	build_trigger = {
-		culture_group = carpathian
-		province_is_or_accepts_culture = yes
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_country_flag = teu_can_utilize_bran_castle }
+				}
+			}
+			culture_group = carpathian
+			province_is_or_accepts_culture = yes
+		}
 	}
 
 	on_built = {
@@ -10589,13 +10599,27 @@ bran_castle = {
 	}
 
 	can_use_modifiers_trigger = {
-		culture_group = carpathian
-		province_is_or_accepts_culture = yes
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_country_flag = teu_can_utilize_bran_castle }
+				}
+			}
+			culture_group = carpathian
+			province_is_or_accepts_culture = yes
+		}
 	}
 
 	can_upgrade_trigger = {
-		culture_group = carpathian
-		province_is_or_accepts_culture = yes
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_country_flag = teu_can_utilize_bran_castle }
+				}
+			}
+			culture_group = carpathian
+			province_is_or_accepts_culture = yes
+		}
 	}
 
 	keep_trigger = {
@@ -11473,7 +11497,6 @@ dutch_polders = {
 			culture = dutch
 			culture = flemish
 			culture = frisian
-			culture = dynamic-saxon-culture-num1
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -11489,7 +11512,6 @@ dutch_polders = {
 			culture = dutch
 			culture = flemish
 			culture = frisian
-			culture = dynamic-saxon-culture-num1
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -11499,7 +11521,6 @@ dutch_polders = {
 			culture = dutch
 			culture = flemish
 			culture = frisian
-			culture = dynamic-saxon-culture-num1
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -11599,7 +11620,13 @@ ellora_caves = {
 	type = monument
 
 	build_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	on_built = {
@@ -11609,11 +11636,23 @@ ellora_caves = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	keep_trigger = {
@@ -11711,7 +11750,13 @@ erdene_zuu = {
 	type = monument
 
 	build_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	on_built = {
@@ -11721,11 +11766,23 @@ erdene_zuu = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	keep_trigger = {
@@ -12426,7 +12483,13 @@ hampi = {
 	type = monument
 
 	build_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	on_built = {
@@ -12436,11 +12499,23 @@ hampi = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_buddhist_or_accepts_buddhism = yes
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	keep_trigger = {
@@ -16027,7 +16102,7 @@ winter_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.5
 			reform_progress_growth = 0.15
-			}
+		}
 		on_upgraded = {
 		}
 	}
@@ -16048,7 +16123,7 @@ winter_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.5
 			reform_progress_growth = 0.2
-			}
+		}
 		on_upgraded = {
 		}
 	}
@@ -16112,7 +16187,7 @@ zacatecas_mine_city = {
 		area_modifier = {
 			trade_goods_size_modifier = 0.05
 		}
-		country_modifiers = {
+		country_modifiers = {			
 		}
 		on_upgraded = {
 		}
@@ -16218,7 +16293,7 @@ falun_copper_mine = {
 			local_build_cost = -0.05
 			local_build_time = -0.05
 		}
-		country_modifiers = {
+		country_modifiers = {			
 		}
 		on_upgraded = {
 		}
@@ -16439,8 +16514,8 @@ visby_city = {
 		}
 		area_modifier = {
 		}
-		country_modifiers = {
-			privateer_efficiency = 0.2
+		country_modifiers = {		
+			privateer_efficiency = 0.2	
 		}
 		on_upgraded = {
 		}
@@ -16459,7 +16534,7 @@ visby_city = {
 		}
 		area_modifier = {
 		}
-		country_modifiers = {
+		country_modifiers = {		
 			privateer_efficiency = 0.33
 			global_own_trade_power = 0.15
 		}
@@ -16480,7 +16555,7 @@ visby_city = {
 		}
 		area_modifier = {
 		}
-		country_modifiers = {
+		country_modifiers = {		
 			privateer_efficiency = 0.5
 			global_own_trade_power = 0.25
 		}
@@ -16884,7 +16959,7 @@ harar_jugol = {
 		}
 		area_modifier = {
 		}
-		country_modifiers = {
+		country_modifiers = {			
 			prestige_per_development_from_conversion = 0.1
 		}
 		on_upgraded = {
@@ -17010,7 +17085,7 @@ dujiangyan = {
 		area_modifier = {
 			local_governing_cost = -0.2
 		}
-		region_modifier = {
+		region_modifier = { 
 			local_monthly_devastation = -0.05
 		}
 		on_upgraded = {
