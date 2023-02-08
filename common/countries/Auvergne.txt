@@ -2,7 +2,6 @@ ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 218 155 75 }
 revolutionary_colors = { 8 9 10 }
-override_country_name = AUVSAI
 historical_idea_groups = {
 	defensive_ideas
 	religious_ideas
