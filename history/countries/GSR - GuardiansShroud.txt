@@ -3,5 +3,6 @@ add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = eastern
 religion = samaritan_faith
-primary_culture = dynamic-breton-normand-occitain-culture-num1
+primary_culture = outremer
+add_accepted_culture = dynamic-breton-normand-occitain-culture-num1
 capital = 358

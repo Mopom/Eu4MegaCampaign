@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = SAR
+controller = SAR
 capital = "Sassari"
 is_city = yes
 culture = sardinian
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 4
 base_manpower = 1
 add_core = SAR
-add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

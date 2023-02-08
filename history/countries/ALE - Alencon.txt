@@ -2,57 +2,82 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = catholic
+religion = samaritan_faith
 primary_culture = cosmopolitan_french
 capital = 1879
 fixed_capital = 1879
-1361.1.1= {
+1352.4.7 = {
 	monarch = {
-		name = "Pierre II"
-		dynasty = "de Valois"
+		name = "Talan"
+		dynasty = "von Lenzburg"
 		adm = 1
-		dip = 0
-		mil = 0
+		dip = 4
+		mil = 6
+	}
+}
+1352.7.3 = {
+	monarch = {
+		name = "Yvon"
+		dynasty = "von Lenzburg"
+		adm = 4
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}
+1361.6.15 = {
+	monarch = {
+		name = "Filomena"
+		dynasty = "de Poitou"
+		adm = 2
+		dip = 2
+		mil = 6
+		female = yes
 	}
 }
 1404.1.1= {
 	monarch = {
-		name = "Jean I"
-		dynasty = "de Valois"
-		adm = 0
-		dip = 1
-		mil = 2
+		name = "Tybalt"
+		dynasty = "de Poitou"
+		adm = 2
+		dip = 3
+		mil = 6
 	}
 }
 1414.1.1= {
 	monarch = {
-		name = "Jean II"
-		dynasty = "de Valois"
-		adm = 0
-		mil = 2
-		dip = 4
+		name = "Ermessinde"
+		dynasty = "de Poitou"
+		adm = 5
+		mil = 5
+		dip = 2
+		female = yes
+		birth_date = 1392.9.15
+		religion = samaritan_faith
+		culture = cosmopolitan_french
+	}
+	queen = {
+		name = "Jacques"
+		dynasty = "de Cournouaille"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1395.9.12
+		death_date = 1471.9.12
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 }
-1478.1.1= {
-	monarch = {
+1434.11.21= {
+	heir = {
 		name = "René"
-		dynasty = "de Valois"
-		adm = 1
-		mil = 1
+		dynasty = "de Cournouaille"
+		adm = 6
+		mil = 4
 		dip = 3
+		birth_date = 1434.11.21
+		death_date = 1494.11.21
+		religion = samaritan_faith
+		culture = cosmopolitan_french
 	}
 }
-1492.1.1= {
-	monarch = {
-		name = "Charles IV"
-		dynasty = "de Valois"
-		adm = 1
-		mil = 2
-		dip = 1
-	}
-}
-1515.1.2= { government = monarchy
-add_government_reform = autocracy_reform }
-1589.8.3= { set_legacy_government = administrative_monarchy }
-1661.3.9= { government = monarchy
-add_government_reform = autocracy_reform }

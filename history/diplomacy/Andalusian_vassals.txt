@@ -8,3 +8,18 @@ vassal = {
 	second = TUN
 	start_date = 1444.1.1
 }
+vassal = {
+	first = ADU
+	second = NAP
+	start_date = 1444.1.1
+}
+vassal = {
+	first = ADU
+	second = SAR
+	start_date = 1444.1.1
+}
+union = {
+	first = ADU
+	second = SIC
+	start_date = 1444.1.1
+}

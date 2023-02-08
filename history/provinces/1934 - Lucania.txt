@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = NAP
+controller = NAP
 capital = "Potenza"
 is_city = yes
 culture = neapolitan
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = NAP
-add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,39 +1,69 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
-religion = catholic
+technology_group = muslim
+religion = sunni
 primary_culture = sardinian
 capital = 127
 fixed_capital = 127
-1387.1.1= {
+religious_school = zahrai_school
+1367.4.5 = {
 	monarch = { 
-		name = "Mariano V"
-		dynasty = "d'Arborea"
+		name = "Elena II"
+		dynasty = "Thashimid"
 		dip = 3
 		mil = 2
 		adm = 3
+		female = yes
 	}
 }
-1387.1.1= {
+1387.1.1 = {
 	heir = {
-		name = "Guglielmo"
-		monarch_name = "Guglielmo I"
-		dynasty = "d'Arborea"
-		birth_date = 1387.1.1
-		death_date = 1430.1.1
-		claim = 80
+		name = "Mikelli"
 		dip = 2
 		mil = 1
 		adm = 1
 	}
 }
-1407.1.1= {
+1407.10.10 = {
 	monarch = { 
-		name = "Guglielmo I"
-		dynasty = "d'Arborea"
+		name = "Muhammad I"
+		dynasty = "Thashimid"
+		adm = 2
+		dip = 5
+		mil = 2
+		birth_date = 1400.12.28
+		religion = sunni
+		culture = sardinian
+	}
+}
+1417.4.11 = {
+	queen = {
+		name = "Valeria"
+		dynasty = "Jabbarid"
+		adm = 2
 		dip = 2
+		mil = 4
+		female = yes
+		birth_date = 1401.9.12
+		death_date = 1481.9.12
+		religion = sunni
+		culture = andalucian
+		female = yes
+	}
+}
+1423.2.8 = {
+	heir = {
+		name = "Amr"
+		monarch_name = "Amr IV"
+		dynasty = "Thashimid"
+		adm = 6
+		dip = 6
 		mil = 1
-		adm = 1
+		birth_date = 1423.2.8
+		death_date = 1484.4.23
+		claim = 96
+		religion = sunni
+		culture = sardinian
 	}
 }

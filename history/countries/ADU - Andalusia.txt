@@ -43,7 +43,7 @@ religious_school = zahrai_school
 		female = yes
 		claim = 89
 		religion = sunni
-		culture = dynamic-andalucian-berber-culture-num1
+		culture = andalucian
 	}
 }
 1444.11.11= {

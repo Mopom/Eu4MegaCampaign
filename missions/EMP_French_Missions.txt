@@ -1156,6 +1156,12 @@ lot_fra_ita_expansion_2 = {
 			create_vassal = SIC
 			create_vassal = NAI
 			create_vassal = NAP
+			NAP = {
+				restore_country_name = yes
+			}
+			SIC = {
+				restore_country_name = yes
+			}
 			104 = {
 				add_province_modifier = {
 					name = milan_second_capital

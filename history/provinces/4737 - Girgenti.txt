@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = SIC
+controller = SIC
 capital = "Girgenti"
 is_city = yes
 culture = sicilian
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 2
 base_manpower = 2
 add_core = SIC
-add_core = ADU
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

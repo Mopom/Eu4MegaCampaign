@@ -2,6 +2,7 @@ ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 218 155 75 }
 revolutionary_colors = { 8 9 10 }
+override_country_name = AUVSAI
 historical_idea_groups = {
 	defensive_ideas
 	religious_ideas
@@ -30,46 +31,46 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Aimeric #0" = 0
+	"Aimeric #0" = 3
 	"Andriu #0" = 0
-	"Anne #0" = -10
-	"Arnaud #0" = 0
-	"Bernard #2" = 1
+	"Anne #0" = -5
+	"Avenie #1" = -3
+	"Bernard #0" = 1
 	"Bernat #0" = 0
-	"Bertrand #0" = 40
-	"Borel #0" = 0
-	"B0ranger #0" = 0
-	"Catherine #0" = -10
-	"Charles #0" = 20
-	"Charles-Philippe #0" = 20
-	"Domenc #0" = 0
-	"Emeric #0" = 0
-	"Enric #0" = 0
-	"Est0ve #0" = 0
+	"Bertrand #0" = 4
+	"Centolh #1" = 3
+	"Charles #0" = 2
+	"Dolça #1" = -3
+	"Ebles #2" = 3
+	"Enric #2" = 6
+	"Eudes #1" = 1
 	"Felip #0" = 0
-	"Gui #0" = 0
-	"Guilhem #0" = 0
-	"Guillaume #13" = 1
-	"Guy #2" = 10
-	"Jaufr0 #0" = 0
-	"Jean #2" = 20
-	"Jeanne #1" = -10
-	"Joan #0" = 0
+	"Geraud #0" = 0
+	"Girvais #1" = 2
+	"Guilhèm #6" = 15
+	"Hadwis #0" = -1
+	"Herbert #1" = 4
+	"Hermessent #1" = -2
+	"Jaufré #0" = 0
+	"Jean #0" = 2
+	"Jeanne #0" = -1
+	"Joan #1" = 3
 	"Jordi #0" = 0
 	"Jules #0" = 0
-	"Marguerite #0" = -10
-	"Marie #0" = -10
-	"Pere #0" = 0
+	"Marguerite #0" = -1
+	"Marie #0" = -1
+	"Meinwerk #2" = 2
 	"Pons #0" = 0
-	"Raimond #0" = 0
-	"Robert #7" = 1
-	"Rotger #0" = 0
+	"Ramnulf #1" = 4
+	"Robert #0" = 1
 	"Sergi #0" = 0
 	"Sicard #0" = 0
+	"Sulcar #1" = -3
+	"Sulmonoc #3" = 40
 	"Thibaud #0" = 0
 	"Thomas #0" = 0
 	"Victor #0" = 0
-	"Xavier #0" = 0
+	"Waifar #1" = 1
 }
 leader_names = {
 	"Arnauld"
@@ -77,6 +78,7 @@ leader_names = {
 	"Bouillé du Chariol"
 	"Brachet"
 	"Carbonnières de La Barthe"
+	"Louping"
 	"d'Altier de Borne"
 	"d'Alègre"
 	"d'Apchon"
@@ -114,7 +116,7 @@ leader_names = {
 	"de Nérestang"
 	"de Pascal"
 	"de Pennautier"
-	"de Polignac"
+	"de Poitou"
 	"de Rochefort-d'Ailly"
 	"de Rogier-Beaufort"
 	"de Saint-Nectaire"

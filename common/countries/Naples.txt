@@ -1,7 +1,8 @@
 ck2_converter_generated = yes
-graphical_culture = westerngfx
+graphical_culture = muslimgfx
 color = { 100 50 150 }
 revolutionary_colors = { 15 6 16 }
+override_country_name = NAPOLD
 historical_idea_groups = {
 	trade_ideas
 	quantity_ideas
@@ -29,63 +30,50 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Achille #0" = 15
-	"Adriano #0" = 0
-	"Alberto #0" = 10
-	"Alessandro #0" = 0
-	"Alfonso #0" = 40
-	"Alfredo #0" = 0
-	"Antonio #0" = 10
-	"Bartolomeo #0" = 0
-	"Benedetto #0" = 0
-	"Carlo #3" = 80
-	"Carlotta #0" = -5
-	"Cesare #0" = 10
-	"Claudio #0" = 0
-	"Enzo #0" = 0
-	"Fabio #0" = 0
-	"Fabrizio #0" = 0
-	"Federigo #0" = 20
-	"Ferdinando #0" = 80
-	"Filippo #0" = 60
-	"Francesco #0" = 10
-	"Gabriele #0" = 15
-	"Gaspare #0" = 0
-	"Gioachino #0" = 20
-	"Giovanna #1" = -15
-	"Giovanni #0" = 10
-	"Giuseppe #0" = 10
-	"Isabella #0" = -1
-	"Julia #0" = -5
-	"Ladislao #0" = 20
-	"Leandro #0" = 0
-	"Leopoldo #0" = 10
-	"Marco #0" = 0
-	"Martino #0" = 0
-	"Nestore #0" = 0
-	"Paolo #0" = 0
-	"Pietro #0" = 0
-	"Raniero #0" = 0
-	"Roberto #0" = 0
-	"Salvatore #0" = 0
-	"Vicenzo #0" = 0
+	"Ademar #1" = 2
+	"Agrippina #0" = -2
+	"Daufer #1" = 2
+	"Fausta #1" = -2
+	"Gervas #1" = 4
+	"Gisulf #2" = 1
+	"Giuseppa #0" = -4
+	"Guaifer #1" = 1
+	"Guaimar #5" = 1
+	"Guidi #3" = 5
+	"Hilal #0" = 1
+	"Ioannes #3" = 2
+	"Landolf #1" = 2
+	"Lurenzu #0" = 3
+	"Manso #1" = 1
+	"Marianu #0" = 1
+	"Pandolf #3" = 2
+	"Petrus #1" = 3
+	"Rafiqa #1" = -2
+	"Sico #1" = 3
+	"Siconulf #1" = 1
+	"Vittoria #1" = -4
+	"Wymund #1" = 1
 }
 leader_names = {
 	"Acquaviva"
 	"Caracciolo"
 	"Carafa"
 	"Coscia"
+	"Hauteville-Camarda"
+	"Khadivid"
 	"Martino"
 	"Marzano"
 	"Mazzaccara"
 	"Mazziotti"
+	"Musconid"
 	"Orsini"
 	"Paladini"
 	"Pignatelli"
 	"Principato"
 	"Rizzo"
 	"Sanseverino"
-	"Tocco"
+	"Tarawaile-Cosenza"
+	"Yaqubid"
 	"d'Avalos"
 }
 ship_names = {

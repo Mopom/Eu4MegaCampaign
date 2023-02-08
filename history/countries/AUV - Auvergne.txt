@@ -2,166 +2,89 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = catholic
-primary_culture = occitain
-capital = 199
-1394.1.1= {
+religion = samaritan_faith
+primary_culture = dynamic-breton-normand-occitain-culture-num1
+capital = 4111
+1331.5.27 = {
 	monarch = {
-		name = "Jeanne II"
-		dynasty = "d'Auvergne"
-		female = yes
-		adm = 5
-		dip = 4
-		mil = 2
+		name = "Sulmonoc I"
+		dynasty = "Talbot"
+		adm = 1
+		dip = 2
+		mil = 1
 	}
 }
-1394.1.1= {
+1394.4.6= {
+	monarch = {
+		name = "Sulmonoc II"
+		dynasty = "Talbot"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+1394.4.6= {
 	heir = {
-		name = "Marie"
-		monarch_name = "Marie I"
-		dynasty = "d'Auvergne"
-		female = yes
+		name = "Sulmonoc"
+		monarch_name = "Sulmonoc III"
+		dynasty = "Talbot"
 		birth_date = 1376.9.1
 		death_date = 1437.8.7
 		claim = 85
 		adm = 2
-		dip = 3
-		mil = 2
+		dip = 5
+		mil = 6
 	}
 }
 1416.3.15= {
 	monarch = {
-		name = "Marie"
-		dynasty = "de la Tour"
+		name = "Sulmonoc III"
+		dynasty = "Talbot"
 		birth_date = 1376.9.1
 		adm = 2
-		dip = 3
-		mil = 2
-		female = yes
+		dip = 5
+		mil = 6
 	}
 }
 1416.3.15= {
 	heir = {
-		name = "Bertrand"
-		monarch_name = "Bertrand II"
-		dynasty = "de la Tour"
+		name = "Hermessent"
+		monarch_name = "Hermessent"
+		dynasty = "Talbot"
 		birth_date = 1390.1.1
 		death_date = 1461.3.22
 		claim = 95
-		adm = 2
+		adm = 1
 		dip = 3
-		mil = 1
+		mil = 6
+		female = yes
 	}
 }
 1437.8.7= {
 	monarch = {
-		name = "Bertrand II"
-		dynasty = "de la Tour"
+		name = "Hermessent"
+		dynasty = "Talbot"
 		birth_date = 1390.1.1
-		adm = 2
+		adm = 1
 		dip = 3
-		mil = 1
+		mil = 6
+		female = yes
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 }
 1437.8.7= {
 	heir = {
-		name = "Bertrand"
-		monarch_name = "Bertrand III"
-		dynasty = "de la Tour"
+		name = "Sulmonoc"
+		monarch_name = "Sulmonoc IV"
+		dynasty = "Talbot-Aunis"
 		birth_date = 1417.1.1
 		death_date = 1494.9.26
 		claim = 95
-		adm = 1
-		dip = 4
-		mil = 2
+		adm = 5
+		dip = 3
+		mil = 3
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
 	}
 }
-1461.3.22= {
-	monarch = {
-		name = "Bertrand III"
-		dynasty = "de la Tour"
-		birth_date = 1417.1.1
-		adm = 1
-		dip = 4
-		mil = 2
-	}
-}
-1467.1.1= {
-	heir = {
-		name = "Jean"
-		monarch_name = "Jean III"
-		dynasty = "de la Tour"
-		birth_date = 1467.1.1
-		death_date = 1501.3.21
-		claim = 95
-		adm = 3
-		dip = 2
-		mil = 2
-	}
-}
-1494.9.26= {
-	monarch = {
-		name = "Jean III"
-		dynasty = "de la Tour"
-		birth_date = 1467.1.1
-		adm = 3
-		dip = 2
-		mil = 2
-	}
-}
-1494.9.26= {
-	heir = {
-		name = "Anne"
-		monarch_name = "Anne I"
-		dynasty = "de la Tour"
-		female = yes
-		birth_date = 1494.1.1
-		death_date = 1524.6.1
-		claim = 95
-		adm = 1
-		dip = 0
-		mil = 0
-	}
-}
-1501.3.21= {
-	monarch = {
-		name = "Anne I"
-		dynasty = "de la Tour"
-		birth_date = 1494.1.1
-		adm = 1
-		dip = 0
-		mil = 0
-		female = yes
-	}
-}
-1519.4.13= {
-	heir = {
-		name = "Catherine"
-		monarch_name = "Catherine I"
-		dynasty = "de' Medici"
-		birth_date = 1519.4.13
-		death_date = 1589.1.5
-		claim = 95
-		adm = 1
-		dip = 0
-		mil = 0
-		female = yes
-	}
-}
-1524.6.1= {
-	monarch = {
-		name = "Catherine I"
-		dynasty = "de' Medici"
-		birth_date = 1519.4.13
-		adm = 1
-		dip = 0
-		mil = 0
-		female = yes
-	}
-}
-1531.3.28= { government = monarchy
-add_government_reform = autocracy_reform }
-1560.1.1= { religion = reformed }
-1562.11.18= { set_legacy_government = administrative_monarchy }
-1661.3.9= { government = monarchy
-add_government_reform = autocracy_reform }

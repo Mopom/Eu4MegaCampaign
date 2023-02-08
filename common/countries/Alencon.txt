@@ -30,69 +30,84 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
+	"Agnes #0" = -3
 	"Alexandre #0" = 0
-	"Alexandre-Louis #0" = 10
+	"Alexandre-Louis #0" = 1
 	"Ambroise #0" = 0
-	"Antoine Philippe #0" = 5
+	"Andreas #0" = 1
+	"Antoine Philippe #0" = 3
 	"Armand #0" = 0
-	"Barth0lemy #0" = 0
+	"Australdis #1" = 1
+	"Avenie #1" = -2
+	"Barthólemy #1" = 2
 	"Bernard #0" = 0
+	"Berthildis #1" = -1
+	"Bohuse #1" = 1
 	"Catherine #0" = -1
-	"Charles #1" = 60
+	"Charles #0" = 6
 	"Claude #0" = 0
-	"Claudine #0" = -10
+	"Claudine #0" = -1
 	"Denis #0" = 0
+	"Enric #1" = 2
+	"Ermessinde #1" = -1
+	"Erouan #0" = 20
 	"Eudes #0" = 0
-	"Fran0ois #0" = 10
-	"Gaston #0" = 20
+	"Filomena #1" = -1
+	"Gaston #0" = 2
 	"Gui #0" = 0
-	"Guillaume #0" = 0
+	"Guillaume #2" = 5
 	"Gustave #0" = 0
-	"Henri #0" = 0
-	"Henri-Alexandre #0" = 20
-	"Hughes #2" = 1
+	"Hélie #1" = 1
+	"Humbert #2" = 5
 	"Jacques #0" = 0
-	"Jean #0" = 5
-	"Jean-Baptiste #0" = 0
-	"Jean-Philippe #0" = 0
 	"Jeanne #0" = -1
+	"Joan #1" = 5
 	"Jules #0" = 0
-	"Louis #0" = 80
-	"Louis-Philippe #0" = 40
+	"Louhelic #1" = -2
+	"Louis #0" = 2
 	"Marc #0" = 0
-	"Marguerite #0" = -1
 	"Marie #0" = -1
 	"Maurice #0" = 0
 	"Maximilien #0" = 0
+	"Meinwerk #1" = 1
 	"Michel #0" = 0
-	"Nicolas #0" = 20
-	"Philippe #0" = 40
+	"Nicolas #0" = 2
+	"Philippe #0" = 4
 	"Pierre #0" = 0
 	"Raoul #0" = 0
-	"Ren0 #0" = 0
-	"Robert #1" = 1
-	"Simon #0" = 0
-	"Thibaut #0" = 0
+	"Renaud #1" = 2
+	"René #0" = 0
+	"Richènda #0" = -1
+	"Robert #3" = 7
+	"Sayer #1" = 2
+	"Sulcar #1" = -2
+	"Talan #1" = 5
+	"Tybalt #1" = 5
 	"Xavier #0" = 0
+	"Yvon #1" = -3
 }
 leader_names = {
+	"Angevin"
+	"Australdling"
 	"Badoux"
 	"Bernard de Montebise"
 	"Garandeau"
 	"Givès de Creusy"
 	"Le Maître"
 	"Le Texier"
-	"Péan de Saint-Gilles"
+	"Premyslid"
+	"Robertine"
+	"Rorgonides"
 	"Scott de Coulanges"
 	"Seurat de La Boullaye"
 	"d'Avaray"
 	"d'Ennery"
+	"d'Évreux"
 	"de Barville"
 	"de Beaugency"
 	"de Beauharnais"
-	"de Beauregard"
-	"de Boigneux"
-	"de Chabot"
+	"de Blâmont"
+	"de Brézé"
 	"de Châtillon"
 	"de Garlande"
 	"de Gauville"
@@ -103,16 +118,17 @@ leader_names = {
 	"de La Chapelle"
 	"de La Chesnaye"
 	"de La Valette"
-	"de Laage"
+	"de Léon"
 	"de Maintenon"
 	"de Marolles"
 	"de Martel de Rénac"
 	"de Montboissier"
 	"de Montigny"
 	"de Montlhéry"
-	"de Neufcarres"
+	"de Normandie"
+	"de Nice"
 	"de Phéline"
-	"de Pontville"
+	"de Poitou"
 	"de Prunelé"
 	"de Rancourt"
 	"de Réméon d'Orval"
@@ -126,6 +142,7 @@ leader_names = {
 	"de Tannoys"
 	"de Villiers"
 	"du Bellay"
+	"von Lenzburg"
 }
 ship_names = {
 	"l'Amboise"
