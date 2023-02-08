@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 graphical_culture = muslimgfx
 color = { 100 50 150 }
 revolutionary_colors = { 15 6 16 }
-override_country_name = NAPOLD
+override_country_name = SALERNO
 historical_idea_groups = {
 	trade_ideas
 	quantity_ideas

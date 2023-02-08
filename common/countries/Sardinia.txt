@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 117 146 167 }
 revolutionary_colors = { 1 5 0 }
-override_country_name = SARDMUS
+override_country_name = THASHIMID MALIKATE
 historical_idea_groups = {
 	maritime_ideas
 	trade_ideas
