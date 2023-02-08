@@ -1157,10 +1157,10 @@ lot_fra_ita_expansion_2 = {
 			create_vassal = NAI
 			create_vassal = NAP
 			NAP = {
-				restore_country_name = yes
+				override_country_name = NAPOLD
 			}
 			SIC = {
-				restore_country_name = yes
+				override_country_name = SICOLD
 			}
 			104 = {
 				add_province_modifier = {

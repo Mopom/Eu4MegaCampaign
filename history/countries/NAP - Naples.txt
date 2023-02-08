@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = western
 religion = sunni
 primary_culture = neapolitan
-capital = 121
+capital = 2983
 religious_school = zahrai_school
 
 1435.2.3= {
@@ -15,11 +15,10 @@ religious_school = zahrai_school
 		mil = 6
 		adm = 5
 		female = yes
-		birth_date = 1426.4.6
+		birth_date = 1406.4.6
 		religion = sunni
 		culture = neapolitan
 	}
-1444.11.11 = {
 	heir = {
 		name = "Hilal"
 		monarch_name = "Hilal I"

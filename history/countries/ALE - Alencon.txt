@@ -79,5 +79,6 @@ fixed_capital = 1879
 		death_date = 1494.11.21
 		religion = samaritan_faith
 		culture = cosmopolitan_french
+		claim = 95
 	}
 }
