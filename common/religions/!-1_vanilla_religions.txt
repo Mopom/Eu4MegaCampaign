@@ -1769,6 +1769,7 @@ dharmic = {
 		country = {
 			monarch_lifespan = 0.15
 			land_morale = 0.1
+			heir_chance = 0.3
 		}
 		country_as_secondary = {
 			land_morale = 0.05

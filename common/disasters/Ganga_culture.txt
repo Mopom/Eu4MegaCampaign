@@ -43,6 +43,10 @@ gng_crisis = {
 			factor = 5
 			corruption = 10
 		}
+		modifier = {
+			factor = 3
+			year = 1500
+		}
 	}
 	
 	can_end = {
