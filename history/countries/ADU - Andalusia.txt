@@ -50,5 +50,5 @@ religious_school = zahrai_school
 	add_prestige = 112
 	add_treasury = 62
 	add_manpower = 4
-	add_inflation = 4
+	add_inflation = 1
 }
