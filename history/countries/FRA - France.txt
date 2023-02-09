@@ -49,5 +49,5 @@ capital = 174
 	add_prestige = 81
 	add_treasury = 100
 	add_manpower = 9
-	add_inflation = 4
+	add_inflation = 5
 }
