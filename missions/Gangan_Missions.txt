@@ -776,7 +776,7 @@ ind_dis_missions_2 = {
 				shock = 5
 				manuever = 3
 				siege = 2
-				name = Binks
+				name = "Jar Jar Binks"
 			}
 		}
 	}
