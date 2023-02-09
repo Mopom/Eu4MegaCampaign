@@ -108,7 +108,7 @@ province_event = {
 		
 		trigger = { NOT = { has_province_modifier = golden_highway } }
 		
-		owner = { add_treasury = -50 }
+		owner = { add_treasury = -30 }
 	}
 	
 	#We don't have the funds for now
