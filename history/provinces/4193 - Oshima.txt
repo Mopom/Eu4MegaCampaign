@@ -1,5 +1,5 @@
-owner = ANU
-controller = ANU
+owner = AKT
+controller = AKT
 capital = "Katsuyama"
 is_city = yes
 culture = togoku
@@ -8,6 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = AKT
 add_core = ANU
 discovered_by = AKM
 discovered_by = AKT
