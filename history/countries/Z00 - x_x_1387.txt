@@ -75,4 +75,5 @@ religious_school = hanbali_school
 	add_prestige = 129
 	add_treasury = 89
 	add_manpower = 20
+	add_inflation = 6
 }
