@@ -322,7 +322,7 @@ stonehenge = {
 	move_days_per_unit_distance = 2
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 0
+	starting_tier = 1
 	
 	#project type
 	type = monument
@@ -334,7 +334,7 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = english
+				culture = anglo_saxon
 				province_is_or_accepts_culture = yes
 			}
 		}
@@ -357,7 +357,7 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = english
+				culture = anglo_saxon
 				province_is_or_accepts_culture = yes
 			}
 		}	
@@ -370,7 +370,7 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = english
+				culture = anglo_saxon
 				province_is_or_accepts_culture = yes
 			}
 		}
@@ -11497,6 +11497,7 @@ dutch_polders = {
 			culture = dutch
 			culture = flemish
 			culture = frisian
+			culture = dynamic-saxon-culture-num1
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -11512,6 +11513,7 @@ dutch_polders = {
 			culture = dutch
 			culture = flemish
 			culture = frisian
+			culture = dynamic-saxon-culture-num1
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -11521,6 +11523,7 @@ dutch_polders = {
 			culture = dutch
 			culture = flemish
 			culture = frisian
+			culture = dynamic-saxon-culture-num1
 		}
 		province_is_or_accepts_culture = yes
 	}
