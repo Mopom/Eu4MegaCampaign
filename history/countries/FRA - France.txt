@@ -21,8 +21,8 @@ capital = 174
 }
 1423.2.26 = {
 	heir = {
-		name = "Dol�a"
-		monarch_name = "Dol�a II"
+		name = "Dolça"
+		monarch_name = "Dolça II"
 		dynasty = "de Poitou"
 		adm = 3
 		dip = 4
