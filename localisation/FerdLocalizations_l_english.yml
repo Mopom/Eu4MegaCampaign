@@ -33,6 +33,7 @@ rebuild_golden_highway_doab_title:0 "Build the Silk Road of Doab"
 rebuild_golden_highway_lahore_title:0 "Build the Silk Road of Lahore"
 rebuild_golden_highway_persia_title:0 "Build the Silk Road of Persia"
 rebuild_golden_highway_bengal_title:0 "Build the Silk Road of Bengal"
+rebuild_golden_highway_aleppo_title:0 "Build the Silk Road of Aleppo"
 #province groups
 golden_highway_doab:0 "Silk Road Doab"
 golden_highway_lahore:0 "Silk Road Lahore"
