@@ -12,9 +12,9 @@ golden_highway_persia = {
 golden_highway_bengal = {
 	561 4476 4479 563 2044 4472 558
 }
-# golden_highway_dhujat = {
-#	4408 4409 4492 4496 4493 4497 4499
-# }
+golden_highway_aleppo = {
+	2306 418 4295 2308 377 2313
+}
 # golden_highway_xianjie = {
 #	4470 4489 4500 4620 4511 4611 4938 4613 4559 4617 4618 4641 4817 4819
 #}
