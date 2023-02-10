@@ -26,12 +26,10 @@ country_decisions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			treasury = 400
-			adm_power = 200
 		}
 	
 		effect = {
 			add_treasury = -400
-			add_adm_power = -200
 			golden_highway_doab = {
 				add_permanent_province_modifier = {
 					name = golden_highway_under_construction
@@ -70,12 +68,10 @@ country_decisions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			treasury = 550
-			adm_power = 200
 		}
 	
 		effect = {
 			add_treasury = -550
-			add_adm_power = -200
 			golden_highway_lahore = {
 				add_permanent_province_modifier = {
 					name = golden_highway_under_construction
@@ -114,12 +110,10 @@ country_decisions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			treasury = 650
-			adm_power = 200
 		}
 	
 		effect = {
 			add_treasury = -650
-			add_adm_power = -200
 			golden_highway_persia = {
 				add_permanent_province_modifier = {
 					name = golden_highway_under_construction
@@ -158,12 +152,10 @@ country_decisions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			treasury = 350
-			adm_power = 200
 		}
 	
 		effect = {
 			add_treasury = -350
-			add_adm_power = -200
 			golden_highway_bengal = {
 				add_permanent_province_modifier = {
 					name = golden_highway_under_construction
@@ -202,12 +194,10 @@ rebuild_golden_highway_aleppo = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			treasury = 300
-			adm_power = 200
 		}
 	
 		effect = {
 			add_treasury = -300
-			add_adm_power = -200
 			golden_highway_aleppo = {
 				add_permanent_province_modifier = {
 					name = golden_highway_under_construction
