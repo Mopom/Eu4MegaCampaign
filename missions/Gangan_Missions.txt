@@ -1913,4 +1913,48 @@ slot = 5
 			}
 		}
 	}
+	riv_relations = {
+		icon = mission_into_persia_1
+		required_missions = {  }
+		position = 10
+		provinces_to_highlight = {
+			province_id = 4742
+		}
+		trigger = {
+			4742 = {
+				has_discovered = ROOT
+				owner = {
+					OR = {
+						is_subject_of = ROOT
+						alliance_with = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { owns = 4742 } }
+				4742 = {
+					owner = {
+						NOT = { war_with = ROOT }
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { owns = 4742 }
+				}
+				country_event = {
+					id = flavor_gng.1
+				}
+			}
+			else = {
+				4742 = {
+					add_base_tax = 3
+					add_base_production = 3
+					add_base_manpower = 2
+				}
+			}
+		}
+	}
 }

@@ -202,3 +202,596 @@ country_event = {
 	}
 }
 
+
+#Embassy Events
+#Meet Persian origin
+country_event = {
+	id = flavor_gng.1
+	title = flavor_gng.1.t
+	desc = flavor_gng.1.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {	#Send an ambassador to Persia
+		name = flavor_gng.1.a
+		custom_tooltip = flavor_gng.1.a.tt
+		hidden_effect = {
+			4742 = {
+				owner = {
+					country_event = {
+						id = flavor_gng.2
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				4742 = {
+					owner = {
+						NOT = { tag = PER }
+						NOT = { was_tag = PER }
+						NOT = { culture_group = iranian }
+					}
+				}
+			}
+		}
+	}
+	
+	option = {	#It's not really worth it
+		name = flavor_gng.1.b
+		add_prestige = 20
+		add_legitimacy = 20
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				4742 = {
+					owner = {
+						OR = {
+							tag = PER
+							was_tag = PER
+							culture_group = iranian
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#A [From.GetAdjective] ambassador meets us
+country_event = {
+	id = flavor_gng.2
+	title = flavor_gng.2.t
+	desc = flavor_gng.2.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {	#Welcome him!
+		name = flavor_gng.2.a
+		FROM = {
+			country_event = {
+				id = flavor_gng.3
+			}
+		}
+		4742 = {
+			add_province_modifier = {
+				name = gan_tnf_embassy
+				duration = -1
+				desc = gan_embassy_desc
+			}
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = gan_has_embassy
+		}
+		hidden_effect = {
+			save_global_event_target_as = gangan_embassy_holder
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { tag = PER }
+				NOT = { was_tag = PER }
+				NOT = { culture_group = iranian }
+			}
+		}
+	}
+	
+	option = {	#We have no need for diplomacy with Kilwa
+		name = flavor_gng.3.b
+		FROM = {
+			country_event = {
+				id = flavor_gng.4
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = PER
+					was_tag = PER
+					culture_group = iranian
+				}
+			}
+		}
+	}
+}
+
+#Persia welcomes our ambassador + embassy
+country_event = {
+	id = flavor_gng.3
+	title = flavor_gng.3.t
+	desc = flavor_gng.3.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_gng.3.a
+		capital_scope = {
+			add_province_modifier = {
+				name = gan_gan_embassy
+				duration = -1
+				desc = gan_embassy_desc
+			}
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = gan_has_embassy
+		}
+		hidden_effect = {
+			set_global_flag = gan_embassy
+			save_global_event_target_as = gan_embassy_holder
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Persia expelled the ambassador
+country_event = {
+	id = flavor_gng.4
+	title = flavor_gng.4.t
+	desc = flavor_gng.4.desc
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_gng.4.a
+		add_opinion = {
+			who = FROM
+			modifier = tnf_declined_embassy
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Embassy gets destroyed
+country_event = {
+	id = flavor_gng.5
+	title = flavor_gng.5.t
+	desc = flavor_gng.5.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	trigger = {
+		has_global_flag = gan_gan_embassy
+		is_or_was_tag = {
+			tag = Z02
+		}
+		OR = {
+			all_owned_province = { NOT = { has_province_modifier = gan_gan_embassy } }
+			4742 = { NOT = { has_province_modifier = gan_fed_embassy } }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = zan_persia_embassy
+			if = {
+				limit = {
+					all_owned_province = { NOT = { has_province_modifier = gan_gan_embassy } }
+				}
+				4742 = { owner = { save_event_target_as = embassy_owner } }
+			}
+			else = {
+				save_event_target_as = embassy_owner
+			}
+			clear_global_event_target = gan_embassy_holder
+			clear_global_event_target = tnf_embassy_holder
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = flavor_gng.5.a
+		trigger = {
+			all_owned_province = { NOT = { has_province_modifier = gan_gan_embassy } }
+		}
+		if = {
+			limit = {
+				2218 = { has_province_modifier = gan_tnf_embassy }
+			}
+			2218 = {
+				owner = {
+					country_event = {
+						id = flavor_gng.6
+					}
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = gan_has_embassy
+				}
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = gan_has_embassy
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = flavor_gng.5.b
+		trigger = {
+			2218 = { NOT = { has_province_modifier = gan_tnf_embassy } }
+		}
+		random_owned_province = {
+			limit = {
+				has_province_modifier = gan_gan_embassy
+			}
+			remove_province_modifier = gan_gan_embassy
+		}
+		random_country = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = gan_has_embassy
+				}
+			}
+			country_event = {
+				id = flavor_gng.7
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa lost the Persian embassy!
+country_event = {
+	id = flavor_gng.6
+	title = flavor_gng.6.t
+	desc = flavor_gng.6.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_gng.6.a
+		2218 = {
+			remove_province_modifier = gan_tnf_embassy
+		}
+		FROM = {
+			remove_opinion = {
+				who = ROOT
+				modifier = gan_has_embassy
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa disbanded the Persian embassy!
+country_event = {
+	id = flavor_gng.7
+	title = flavor_gng.7.t
+	desc = flavor_gng.7.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_gng.7.a
+		remove_opinion = {
+			who = FROM
+			modifier = gan_has_embassy
+		}
+		reverse_remove_opinion = {
+			who = ROOT
+			modifier = gan_has_embassy
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Merchants visit the other country
+country_event = {
+	id = flavor_gng.8
+	title = flavor_gng.8.t
+	desc = flavor_gng.8.desc
+	picture = MERCHANTS_TALKING_eventPicture
+
+	trigger = {
+		has_global_flag = gan_gan_embassy
+		any_owned_province = {
+			OR = {
+				has_province_modifier = gan_gan_embassy
+				has_province_modifier = gan_tnf_embassy
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {
+		name = flavor_gng.8.a
+		add_years_of_income = 0.25
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Knowledge sharing
+country_event = {
+	id = flavor_gng.9
+	title = flavor_gng.9.t
+	desc = flavor_gng.9.desc
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		has_global_flag = zan_persia_embassy
+		any_owned_province = {
+			OR = {
+				has_province_modifier = gan_gan_embassy
+				has_province_modifier = gan_tnf_embassy
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {
+		name = flavor_gng.9.a
+		random_list = {
+			33 = { add_adm_power = 50 }
+			33 = { add_dip_power = 50 }
+			33 = { add_mil_power = 50 }
+			1 = { add_adm_power = 50 add_dip_power = 50 add_mil_power = 50 }
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Religious Interactions
+country_event = {
+	id = flavor_gng.10
+	title = flavor_gng.10.t
+	desc = flavor_gng.10.desc
+	picture = MOSQUE_eventPicture
+
+	trigger = {
+		has_global_flag = zan_persia_embassy
+		any_owned_province = {
+			OR = {
+				has_province_modifier = gan_gan_embassy
+				has_province_modifier = gan_tnf_embassy
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {
+		name = flavor_gng.10.a
+		add_stability_or_adm_power = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa can convert to Persia's religion
+country_event = {
+	id = flavor_gng.11
+	title = flavor_gng.11.t
+	desc = flavor_gng.11.desc
+	picture = MOSQUE_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = gan_gan_embassy
+		any_owned_province = {
+			has_province_modifier = gan_gan_embassy
+		}
+		2218 = {
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+			2218 = {
+				owner = {
+					save_event_target_as = zan_persia
+				}
+			}
+		}
+	}
+
+	option = {	#Change religion to Persia
+		name = flavor_zan.18.a
+		change_religion = event_target:zan_persia
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {	#Not really worth it
+		name = flavor_zan.18.b
+		add_piety = 0.05
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa gets claims on Persia due to Shirazi's connection
+country_event = {
+	id = flavor_gng.12
+	title = flavor_gng.12.t
+	desc = flavor_gng.12.desc
+	picture = SONGHAI_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = zan_persia_embassy
+		any_owned_province = {
+			has_province_modifier = gan_gan_embassy
+		}
+		2218 = {
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {	#We must pressure the claims of our origins!
+		name = flavor_gng.12.a
+		random_owned_province = {
+			limit = {
+				has_province_modifier = zan_persian_embassy
+			}
+			remove_province_modifier = zan_persian_embassy
+		}
+		persia_region = {
+			add_claim = ROOT
+		}
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {	#Not really worth it
+		name = flavor_gng.12.b
+		add_prestige = 25
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
