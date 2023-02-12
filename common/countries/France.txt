@@ -30,8 +30,8 @@ historical_units = {
 	western_men_at_arms
 }
 Monarch_names = {
-	"Adèla #0" = -4
 	"Adelaide #1" = -4
+	"Adèla #0" = -4
 	"Adeltrudis #0" = -7
 	"Adémar #0" = 1
 	"Aimeric #0" = 1
