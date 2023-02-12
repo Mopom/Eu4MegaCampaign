@@ -38,7 +38,7 @@ christian = {
 			advisor_pool = 1
 			tolerance_heathen = 1
 			tolerance_heretic = 1
-			female_advisor_chance = 0.5
+			female_advisor_chance = 0.48
 		}
 		province = {
 			local_missionary_strength = -0.025
