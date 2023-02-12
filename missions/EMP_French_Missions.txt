@@ -2598,7 +2598,6 @@ emp_france_missions_5 = {
 		}
 		trigger = {
 			stability = 1
-			is_religion_enabled = reformed
 			NOT = { current_age = age_of_reformation }
 			OR = {
 				custom_trigger_tooltip = {
