@@ -26,25 +26,25 @@ historical_units = {
 	westernized_adal
 }
 monarch_names = {
-	"Aigidia #0" = -1
 	"Alexios #1" = 10
+	"Berta #1" = 10
+	"Gluck #1" = 10
+	"Saartif #1" = 10
+	"Steve Senior #1" = 10
+	"Steven #1" = 10
+	"Bworo #0" = 0
+	"Getachew #0" = 0
+	"Hagos #0" = 0
+	"Aigidia #0" = -1
 	"Basillike #0" = -1
 	"Basr #0" = -1
-	"Berta #1" = 10
-	"Bworo #0" = 0
 	"Debtera #0" = -1
-	"Getachew #0" = 0
-	"Gluck #1" = 10
 	"Habesha #0" = -1
-	"Hagos #0" = 0
 	"Jiinow #1" = -1
 	"Louama #0" = -1
 	"Magol #0" = -1
-	"Saartif #1" = 10
 	"Selassie #0" = -1
 	"Shararah #0" = -1
-	"Steve Senior #1" = 10
-	"Steven #1" = 10
 }
 leader_names = {
 	"Abdallah"
