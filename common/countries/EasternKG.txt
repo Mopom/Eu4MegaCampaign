@@ -30,20 +30,20 @@ historical_units = {
 	slavic_stradioti
 }
 monarch_names = {
-	"Agrafena #0" = -1
 	"Biyar #0" = 10
 	"Chidukhul #0" = 10
-	"Kezhay #0" = 0
 	"Kichay #0" = 10
 	"Kublai #0" = 10
 	"Lysko #0" = 10
-	"Oghul #0" = -1
-	"Ozhmeg #0" = 0
 	"Pakstyan #0" = 10
 	"Pokshayka #0" = 10
-	"Putyayka #0" = 0
 	"Usun #0" = 10
+	"Kezhay #0" = 0
+	"Ozhmeg #0" = 0
+	"Putyayka #0" = 0
 	"Velmayka #0" = 0
+	"Agrafena #0" = -1
+	"Oghul #0" = -1
 	"Vergava #0" = -1
 	"Zvenislava #0" = -1
 }

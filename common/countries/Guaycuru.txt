@@ -38,9 +38,7 @@ monarch_names = {
 	"Aratiri #0" = 10
 	"Aravera #0" = 10
 	"Chavuku #0" = 10
-	"Irupé #0" = -1
 	"Jakaira #0" = 10
-	"Ka'a Jarýi #0" = -1
 	"Karai #0" = 10
 	"Katupyry #0" = 10
 	"Kuarahy #0" = 10
@@ -49,7 +47,6 @@ monarch_names = {
 	"Mba'ehory #0" = 10
 	"Mbarakapu #0" = 10
 	"Namandu #0" = 10
-	"Porasy #0" = -1
 	"Tajy #0" = 10
 	"Tatajyva #0" = 10
 	"Tatapytu #0" = 10
@@ -57,6 +54,9 @@ monarch_names = {
 	"Tekokatu #0" = 10
 	"Tuvicha #0" = 10
 	"Ygary #0" = 10
+	"Irupé #0" = -1
+	"Ka'a Jarýi #0" = -1
+	"Porasy #0" = -1
 }
 leader_names = {
 	"Bomboi"

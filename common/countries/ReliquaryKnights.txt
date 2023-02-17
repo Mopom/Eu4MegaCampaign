@@ -29,31 +29,31 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Ava #0" = -1
-	"Gurgen #0" = 0
 	"Gottschalk #0" = 10
-	"Wernhard #0" = 0
-	"Otto #0" = 0
-	"Gaillard #0" = 0
-	"Umfreda #0" = -1
+	"Theodwin #0" = 5
+	"Immed #1" = 3
+	"Simon #0" = 2
 	"Bocek #0" = 1
 	"Mubashir #0" = 1
 	"Ahmad #0" = 1
 	"Yahaff #0" = 1
 	"Aelle #0" = 1
-	"Helene #0" = -2
 	"Wecta #0" = 1
 	"Brun #0" = 1
-	"Alionor #0" = -2
-	"Theodwin #0" = 5
 	"Gunzelin #0" = 1
 	"Wulff #0" = 1
-	"Klara #0" = -2
 	"Gui #0" = 1
-	"Simon #0" = 2
-	"Immed #1" = 3
-	"Aliyah #1" = -2
 	"Suleyman #1" = 1
+	"Gurgen #0" = 0
+	"Wernhard #0" = 0
+	"Otto #0" = 0
+	"Gaillard #0" = 0
+	"Ava #0" = -1
+	"Umfreda #0" = -1
+	"Helene #0" = -2
+	"Alionor #0" = -2
+	"Klara #0" = -2
+	"Aliyah #1" = -2
 }
 leader_names = {
 	"von Kiel"

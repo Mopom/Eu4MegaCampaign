@@ -25,16 +25,6 @@ historical_units = {
 	reformed_asian_musketeer
 }
 monarch_names = {
-	"Aya #0" = -5
-	"Haruuji #0" = 10
-	"Ina #0" = -5
-	"Masauji #0" = 10
-	"Sen #0" = -5
-	"Shigeuji #0" = 10
-	"Takamoto #0" = 10
-	"Takauji #0" = 10
-	"Tama #0" = -5
-	"Toku #0" = -5
 	"Yoshiaki #0" = 50
 	"Yoshiakira #0" = 50
 	"Yoshiharu #0" = 50
@@ -43,14 +33,24 @@ monarch_names = {
 	"Yoshikatsu #0" = 50
 	"Yoshikazu #0" = 50
 	"Yoshimasa #0" = 50
-	"Yoshimi #0" = 30
 	"Yoshimitsu #0" = 50
 	"Yoshimochi #0" = 50
 	"Yoshinori #0" = 50
 	"Yoshitane #0" = 50
 	"Yoshiteru #0" = 50
-	"Yoshiuji #0" = 10
 	"Yoshizumi #0" = 50
+	"Yoshimi #0" = 30
+	"Haruuji #0" = 10
+	"Masauji #0" = 10
+	"Shigeuji #0" = 10
+	"Takamoto #0" = 10
+	"Takauji #0" = 10
+	"Yoshiuji #0" = 10
+	"Aya #0" = -5
+	"Ina #0" = -5
+	"Sen #0" = -5
+	"Tama #0" = -5
+	"Toku #0" = -5
 }
 leader_names = {
 	"Akai"

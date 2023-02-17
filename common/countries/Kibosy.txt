@@ -26,33 +26,33 @@ historical_units = {
 	westernized_niger_kongolese
 }
 monarch_names = {
+	"Andriandahifotsy #0" = 10
 	"Adriamandazoala  #0" = 5
 	"Andriamahatindriarivo  #0" = 5
 	"Andriamandazoala #0" = 5
 	"Andriamandisoarivo  #0" = 5
-	"Andrianaginarivo #0" = -5
 	"Andrianahilitsy  #0" = 5
 	"Andrianalimbe #0" = 5
 	"Andrianamboniarivo  #0" = 5
 	"Andrianaresy  #0" = 5
 	"Andrianbaga #0" = 5
-	"Andriandahifotsy #0" = 10
 	"Andrianihoatra  #0" = 5
 	"Andrianikeniarivo  #0" = 5
 	"Andrianiveniarivo  #0" = 5
 	"Andriantsoly  #0" = 5
-	"Oantitsy #0" = -5
-	"Olembetsitoto #0" = 0
 	"Rabaratavokoka #0" = 5
 	"Ramitraho  #0" = 5
 	"Ranaimo  #0" = 5
-	"Ravahiny #0" = -10
-	"Tingimaro #0" = 0
-	"Tombola #0" = -5
 	"Trimonongarivo #0" = 5
 	"Tsimalomo  #0" = 5
 	"Tsimanatona #0" = 5
+	"Olembetsitoto #0" = 0
+	"Tingimaro #0" = 0
+	"Andrianaginarivo #0" = -5
+	"Oantitsy #0" = -5
+	"Tombola #0" = -5
 	"Tsiomeko #0" = -5
+	"Ravahiny #0" = -10
 }
 leader_names = {
 	"Andriantsilelika"

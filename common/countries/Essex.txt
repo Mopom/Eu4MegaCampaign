@@ -44,8 +44,8 @@ monarch_names = {
 	"Swithhelm #0" = 20
 	"Swithred #0" = 20
 	"Swæfbert #0" = 20
-	"Swæfred #0" = 5
 	"Sæbbi #0" = 20
 	"Sæberht #0" = 20
 	"Æscwine #0" = 20
+	"Swæfred #0" = 5
 }

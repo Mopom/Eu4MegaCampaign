@@ -29,27 +29,27 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Siconulf #1" = 1
-	"Sico #1" = 3
+	"Guidi #3" = 5
+	"Gervas #1" = 4
+	"Lurenzu #0" = 3
 	"Petrus #1" = 3
+	"Sico #1" = 3
 	"Ademar #1" = 2
 	"Daufer #1" = 2
+	"Ioannes #3" = 2
+	"Landolf #1" = 2
+	"Pandolf #3" = 2
+	"Siconulf #1" = 1
 	"Guaifer #1" = 1
 	"Guaimar #5" = 1
 	"Gisulf #2" = 1
-	"Landolf #1" = 2
-	"Pandolf #3" = 2
 	"Manso #1" = 1
-	"Ioannes #3" = 2
 	"Wymund #1" = 1
-	"Gervas #1" = 4
-	"Rafiqa #1" = -2
-	"Vittoria #1" = -4
 	"Fausta #1" = -1
-	"Guidi #3" = 5
 	"Agrippina #0" = -2
+	"Rafiqa #1" = -2
 	"Guiseppa #0" = -4
-	"Lurenzu #0" = 3
+	"Vittoria #1" = -4
 }
 leader_names = {
 	"Siconidi"

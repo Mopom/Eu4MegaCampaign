@@ -27,19 +27,8 @@ historical_units = {
 }
 monarch_names = {
 	"Atrak #0" = 10
-	"Belgünütei #0" = 0
-	"Bogen #0" = 0
-	"Gulçiçek #0" = -1
 	"Iturgen #0" = 10
-	"Karacik #0" = -1
-	"Khabul #0" = 0
-	"Khaidu #0" = 0
-	"Khojin #0" = -1
-	"Khorijin #0" = -1
-	"Khutulun #0" = -1
-	"Kokachin #0" = -1
 	"Könçek #0" = 10
-	"Mandukhai #0" = -1
 	"Okhotur #0" = 10
 	"Sevenç #0" = 10
 	"Sokal #0" = 10
@@ -49,6 +38,17 @@ monarch_names = {
 	"Tugor #0" = 10
 	"Zahir #0" = 10
 	"Zeyhan #0" = 10
+	"Belgünütei #0" = 0
+	"Bogen #0" = 0
+	"Khabul #0" = 0
+	"Khaidu #0" = 0
+	"Gulçiçek #0" = -1
+	"Karacik #0" = -1
+	"Khojin #0" = -1
+	"Khorijin #0" = -1
+	"Khutulun #0" = -1
+	"Kokachin #0" = -1
+	"Mandukhai #0" = -1
 }
 leader_names = {
 	"Arighqan"

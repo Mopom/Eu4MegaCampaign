@@ -31,14 +31,14 @@ historical_units = {
 }
 monarch_names = {
 	"Adam #0" = 5
-	"Adri0n #0" = 5
+	"Adriën #0" = 5
 	"Alex #0" = 5
 	"Alexander #0" = 5
 	"Aline #0" = -20
 	"Anna #0" = -10
 	"Artur #0" = 5
 	"Bamse #0" = 1
-	"Bj0rn #0" = 1
+	"Bjørn #0" = 1
 	"Brum #0" = 1
 	"Brumma #0" = -1
 	"Brummelisa #0" = -1
@@ -46,7 +46,7 @@ monarch_names = {
 	"Carmille #0" = -10
 	"Carsten #0" = 20
 	"Chris #0" = 20
-	"C0line #0" = -10
+	"Coline #0" = -10
 	"Dan #0" = 20
 	"Daniel #0" = 30
 	"David #0" = 20
@@ -115,8 +115,7 @@ monarch_names = {
 	"Viktor #0" = 2
 	"Wendy #0" = -10
 	"Zack #0" = 10
-	"0lvaro #0" = 5
-	"0ric #0" = 5
+	"Éric #0" = 5
 }
 leader_names = {
 	"Andersson"

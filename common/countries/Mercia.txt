@@ -35,7 +35,6 @@ monarch_names = {
 	"Beornwulf #0" = 20
 	"Burgred #0" = 20
 	"Cearl #0" = 20
-	"Ceolred #0" = 5
 	"Ceolwald #0" = 20
 	"Ceolwulf #1" = 20
 	"Cnebba #0" = 20
@@ -64,4 +63,5 @@ monarch_names = {
 	"Æthelflæd #0" = -20
 	"Æthelred #1" = 20
 	"Æthelstan #0" = 20
+	"Ceolred #0" = 5
 }
