@@ -1,0 +1,241 @@
+namespace = manchu_japanese
+
+#########################################
+#	Flavor events for Manchuria & Wang	#
+#########################################
+
+#Furdan Chapter#
+country_event = { #Driver for below event
+	id = manchu_japanese.1
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		AND = {
+			MGE = {
+				owns = 2106
+			}
+		}
+		OR = {
+			2742 = {
+				culture = japanese
+			}
+			2108 = {
+				culture = japanese
+			}
+		}
+	}
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		2106 = {
+			province_event = {
+				id = manchu_japanese.2
+				days = 730
+				random = 1095
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			2106 = {
+				add_claim = JAP
+				add_claim = HIK
+			}
+		}
+	}
+}
+
+province_event = { #Furdan
+	id = manchu_japanese.2
+	title = manchu_japanese.2.t
+	desc = manchu_japanese.2.d
+	picture = HARBOUR_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Reject Japanese
+		name = manchu_japanese.2.a
+	}
+	option = { #Accepted Influences
+		name = manchu_japanese.2.b
+		if = {
+			limit = {
+				exists = JAP
+			}
+			JAP = {
+				country_event = {
+					id = manchu_japanese.3
+					days = 10
+				}
+			}
+		}
+		else = {
+			HIK = {
+				country_event = {
+					id = manchu_japanese.3
+					days = 10
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Mongols wish to Convert
+	id = manchu_japanese.3
+	title = manchu_japanese.3.t
+	desc = manchu_japanese.3.d
+	picture = MERCHANTS_TALKING_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #They may
+		name = manchu_japanese.3.a
+		2106 = {
+			change_culture = japanese
+		}
+	}
+	
+	option = { #They'll take our scraps
+		name = manchu_japanese.3.b
+		2106 = {
+			change_culture = kyushuan
+		}
+	}
+	
+	option = { #They may not
+		name = manchu_japanese.3.c
+		add_opinion = {
+			who = MGE
+			modifier = enemy
+			years = 5
+		}
+	}
+}
+
+#Wolanhe Chapter#
+country_event = { #Driver for below event
+	id = manchu_japanese.4
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		AND = {
+			MGE = {
+				owns = 4656
+			}
+		}
+		OR = {
+			1031 = {
+				culture = japanese
+			}
+			1847 = {
+				culture = japanese
+			}
+		}
+	}
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		4656 = {
+			province_event = {
+				id = manchu_japanese.5
+				days = 730
+				random = 1095
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			4656 = {
+				add_claim = JAP
+				add_claim = UES
+			}
+		}
+	}
+}
+
+province_event = { #Wolanhe
+	id = manchu_japanese.5
+	title = manchu_japanese.5.t
+	desc = manchu_japanese.5.d
+	picture = SMUGGLERS_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Reject Japanese
+		name = manchu_japanese.5.a
+		4656 = {
+			add_province_modifier = {
+				name = smugglahs_wolan
+				duration = 1825
+			}
+		}
+	}
+	option = { #Accepted Influences
+		name = manchu_japanese.5.b
+		if = {
+			limit = {
+				exists = JAP
+			}
+			JAP = {
+				country_event = {
+					id = manchu_japanese.6
+					days = 10
+				}
+			}
+		}
+		else = {
+			UES = {
+				country_event = {
+					id = manchu_japanese.6
+					days = 10
+				}
+			}
+		}
+		4656 = {
+			add_province_modifier = {
+				name = smugglahs_wolan
+				duration = 3650
+			}
+		}
+	}
+}
+
+country_event = { #Mongols wish to Convert2
+	id = manchu_japanese.6
+	title = manchu_japanese.6.t
+	desc = manchu_japanese.6.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #They may
+		name = manchu_japanese.6.a
+		4656 = {
+			change_culture = japanese
+		}
+	}
+	
+	option = { #They'll take our scraps
+		name = manchu_japanese.6.b
+		4656 = {
+			change_culture = togoku
+		}
+	}
+	
+	option = { #They may not
+		name = manchu_japanese.6.c
+		4656 = {
+			change_culture = ainu
+		}
+	}
+}

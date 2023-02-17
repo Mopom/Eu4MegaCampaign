@@ -1,0 +1,3 @@
+smugglahs_wolan = {
+	local_unrest = 2
+}
