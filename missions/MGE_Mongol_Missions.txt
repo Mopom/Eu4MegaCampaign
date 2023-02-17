@@ -2957,8 +2957,10 @@ mge_religion_path_5 = {
 		required_missions = {  }
 		position = 9
 		trigger = {
-			any_neighbor_province = {
-				religion = orthodox	
+			any_owned_province = {
+				any_neighbor_province = {
+					religion = orthodox
+				}
 			}
 		}
 		effect = {
@@ -2996,16 +2998,26 @@ mge_religion_path_5 = {
 		required_missions = { mge_relig_orthodox }
 		position = 10
 		trigger = {
-			Z0E = {
-				has_opinion = {
-					who = ROOT
-					value = 130
+			if = {
+				limit = {
+					exists = Z0E
+				}
+				Z0E = {
+					has_opinion = {
+						who = ROOT
+						value = 130
+					}
 				}
 			}
-			RUS = {
-				has_opinion = {
-					who = ROOT
-					value = 130
+			if = {
+				limit = {
+					exists = RUS
+				}
+				RUS = {
+					has_opinion = {
+						who = ROOT
+						value = 130
+					}
 				}
 			}
 		}
