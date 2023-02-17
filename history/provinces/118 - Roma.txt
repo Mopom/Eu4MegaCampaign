@@ -1,5 +1,5 @@
-owner = URB
-controller = URB
+owner = PAP
+controller = PAP
 capital = "Roma"
 is_city = yes
 culture = umbrian
@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = URB
+add_core = PAP
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
