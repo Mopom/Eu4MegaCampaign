@@ -500,3 +500,6 @@ emp_of_ind = {
 aju_trade_modifier = {
 	merchants = 1
 }
+ajuraan_instab_pirates = {
+	local_unrest = 20
+}

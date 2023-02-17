@@ -13,14 +13,17 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-					every_province = {
+			every_province = {
+				limit = {
+					AND = {
 						region = australia_region
 						country_or_non_sovereign_subject_holds = ROOT
-					} 
-					= {
-					discover_country = DHK
-					add_core = DHK}
-			release = DHK
+					}
+				} 
+				discover_country = DHK
+				add_core = DHK
+				cede_province = DHK
+			}
 			DHK = {
 				change_government = republic
 				add_government_reform = pirate_republic_reform
@@ -37,7 +40,7 @@ country_event = {
 					light_ship = 0.3
 					transport = 0.3
 					}
-				}				
+				}
 			}
 			every_province = {
 				limit = {
@@ -48,11 +51,26 @@ country_event = {
 			}
 			AJU = {
 				change_government = republic
-				add_unrest = 20
+			}
+			every_province = {
+				limit = {
+					continent = africa
+					owned_by = AJU
+				}
+				add_province_modifier = {
+					name = ajuraan_instab_pirates
+					duration  = 14600
 				}
 			}
+			every_province = {
+				limit = {
+					is_capital_of = DHK
+				}
+				change_province_name = "Meel Q'sub"
+				rename_capital = "Meel Q'sub"
+			}
 		}
-	
+	}
 	option = {
 		name = "flavor_dhk.1.a"
 	}
@@ -62,4 +80,3 @@ country_event = {
 		switch_tag = DHK
 	}
 }
-	
