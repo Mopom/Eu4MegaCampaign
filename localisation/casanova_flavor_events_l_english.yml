@@ -1,32 +1,32 @@
 ﻿l_english:
   #University of Padua
-  giacomo.casanova.1.t:0 "Casanova and Other Students"
-  giacomo.casanova.1.d:0 "In Padua the students of the University are known for their unruly behavior. Yet it seems that they have recently gathered behind a Venetian figure by the name of Giacomo Casanova. In confrontation with the Sbirri students have been killed and now they organise themselves and take to the streets."
-  giacomo.casanova.1.a:0 "Unruly student patrols walk the streets of Padua."
+  giacomo_casanova.1.t:0 "Casanova and Other Students"
+  giacomo_casanova.1.d:0 "In Padua the students of the University are known for their unruly behavior. Yet it seems that they have recently gathered behind a Venetian figure by the name of Giacomo Casanova. In confrontation with the Sbirri students have been killed and now they organise themselves and take to the streets."
+  giacomo_casanova.1.a:0 "Unruly student patrols walk the streets of Padua."
   unruly_students:0 "Unruly Student Patrols"
 
   #Casanova of the Church
-  giacomo.casanova.3.t:0 "Abbé Casanova"
-  giacomo.casanova.3.d:0 "Returning from Padua Giacomo's ecclesiastical prowess was discovered by Father Tosello. Thus Giacomo Casanova was mentioned to the Priests of Venice and now he holds sermons for the Churches of our Most Serene Republic city."
-  giacomo.casanova.3.a:0 "Abbé Casanova is an inspiration for the lay people."
-  giacomo.casanova.3.b:0 "Lending the Abbé to France could improve ecclesiastical relations between us."
-  giacomo.casanova.3.c:0 "Lending the Abbé to the Northern Federation could improve ecclesiastical relations between us."
+  giacomo_casanova.3.t:0 "Abbé Casanova"
+  giacomo_casanova.3.d:0 "Returning from Padua Giacomo's ecclesiastical prowess was discovered by Father Tosello. Thus Giacomo Casanova was mentioned to the Priests of Venice and now he holds sermons for the Churches of our Most Serene Republic city."
+  giacomo_casanova.3.a:0 "Abbé Casanova is an inspiration for the lay people."
+  giacomo_casanova.3.b:0 "Lending the Abbé to France could improve ecclesiastical relations between us."
+  giacomo_casanova.3.c:0 "Lending the Abbé to the Northern Federation could improve ecclesiastical relations between us."
   inspired_relig_sermons:0 "Inspiring Sermons"
   
   #Casanova in Prison
-  giacomo.casanova.4.t:0 "Prisoner in Bologna"
-  giacomo.casanova.4.d:0 "Whilst travelling, as Abbé, through Romagna Casanova broke the innocence of several girls. He has been condemned by the civil authority of Bologna and kept imprisoned there for an indefinite time."
-  giacomo.casanova.4.a:0 "An End to Casanova's Meddlings"
+  giacomo_casanova.4.t:0 "Prisoner in Bologna"
+  giacomo_casanova.4.d:0 "Whilst travelling, as Abbé, through Romagna Casanova broke the innocence of several girls. He has been condemned by the civil authority of Bologna and kept imprisoned there for an indefinite time."
+  giacomo_casanova.4.a:0 "An End to Casanova's Meddlings"
   casanova_in_prison:0 "Casanova in Prison"
   
   #Naval Officer Casanova
-  giacomo.casanova.5.t:0 "A Naval Focus"
-  giacomo.casanova.5.d:0 "After escaping his imprisonment in Bologna Casanova has decided to join in the Navy as an officer. Captain Casanova sails with a ship as recconnesaince mission towards the Aegean and then gets transferred there to the envoy in Constantinople."
-  giacomo.casanova.5.a:0 "Captain Casanova sails well."
+  giacomo_casanova.5.t:0 "A Naval Focus"
+  giacomo_casanova.5.d:0 "After escaping his imprisonment in Bologna Casanova has decided to join in the Navy as an officer. Captain Casanova sails with a ship as recconnesaince mission towards the Aegean and then gets transferred there to the envoy in Constantinople."
+  giacomo_casanova.5.a:0 "Captain Casanova sails well."
   casanova_in_navy:0 "Captain Casanova is an Inspiration"
   
   #Casanova was here
-  giacomo.casanova.6.t:0 "Another Amourous Adventure"
-  giacomo.casanova.6.d:0 "It seems Giacomo Casanova, the infamous seducer, swindler, and swashbuckler, has recently been to our city of [Root]. The women are wild for him and the men are furious. Truly he is a vile influence on our populace."
-  giacomo.casanova.5.a:0 "Casanova begone!"
+  giacomo_casanova.6.t:0 "Another Amourous Adventure"
+  giacomo_casanova.6.d:0 "It seems Giacomo Casanova, the infamous seducer, swindler, and swashbuckler, has recently been to our city of [Root]. The women are wild for him and the men are furious. Truly he is a vile influence on our populace."
+  giacomo_casanova.6.a:0 "Casanova begone!"
   casanova_was_here:0 "Memories of Casanova"

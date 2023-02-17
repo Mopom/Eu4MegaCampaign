@@ -16,5 +16,5 @@ casanova_in_navy = {
 	navy_tradition = 1
 }
 casanova_was_here = {
-	local_unrest = -2
+	local_unrest = 2
 }

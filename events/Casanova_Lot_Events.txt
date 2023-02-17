@@ -1,4 +1,4 @@
-namespace = giacomo.casanova
+namespace = giacomo_casanova
 
 #########################################
 #	Flavor events for Europe & Casanova	#
@@ -7,9 +7,9 @@ namespace = giacomo.casanova
 #University of Padua
 #1740
 province_event = {
-	id = giacomo.casanova.1
-	title = giacomo.casanova.1.t
-	desc = giacomo.casanova.1.d
+	id = giacomo_casanova.1
+	title = giacomo_casanova.1.t
+	desc = giacomo_casanova.1.d
 	picture = UNIVERSITY_eventPicture
 	goto = root
 	
@@ -32,7 +32,7 @@ province_event = {
 	}
 	
 	option = { #Giacomo and Other Students
-		name = giacomo.casanova.1.a
+		name = giacomo_casanova.1.a
 		add_province_modifier = {
 			name = unruly_students
 			duration = 3650
@@ -42,7 +42,7 @@ province_event = {
 }
 
 country_event = { #Driver for below event
-	id = giacomo.casanova.2
+	id = giacomo_casanova.2
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -67,7 +67,7 @@ country_event = { #Driver for below event
 		ai_chance = {factor = 1}
 		112 = {
 			province_event = {
-				id = giacomo.casanova.3
+				id = giacomo_casanova.3
 			}
 		}
 	}
@@ -81,16 +81,16 @@ country_event = { #Driver for below event
 #Casanova of the Church
 #1742
 province_event = { 
-	id = giacomo.casanova.3
-	title = giacomo.casanova.3.t
-	desc = giacomo.casanova.3.d
+	id = giacomo_casanova.3
+	title = giacomo_casanova.3.t
+	desc = giacomo_casanova.3.d
 	picture = RELIGIOUS_CONVERSION_eventPicture
 	goto = root
 	
 	is_triggered_only = yes
 	
 	option = { #Giacomo and the Patriarch
-		name = giacomo.casanova.3.a
+		name = giacomo_casanova.3.a
 		add_province_modifier = {
 			name = inspired_relig_sermons
 			duration = 365
@@ -101,20 +101,30 @@ province_event = {
 	}
 	
 	option = { #Giacomo and the Arvorigeg
-		name = giacomo.casanova.3.b
-		add_opinion = {
-			who = FRA
-			modifier = religious_school_relation
-			years = 5
+		name = giacomo_casanova.3.b
+		every_country = {
+			limit = {
+				owns = 112
+			}
+			reverse_add_opinion = {
+				who = FRA
+				modifier = religious_school_relation
+				years = 5
+			}
 		}
 	}
 	
 	option = { #Giacomo and the Lower Saxons
-		name = giacomo.casanova.3.c
-		add_opinion = {
-			who = Z02
-			modifier = religious_school_relation
-			years = 5
+		name = giacomo_casanova.3.c
+		every_country = {
+			limit = {
+				owns = 112
+			}
+			reverse_add_opinion = {
+				who = Z02
+				modifier = religious_school_relation
+				years = 5
+			}
 		}
 	}
 }
@@ -122,9 +132,9 @@ province_event = {
 #Casanova in Prison
 #1744
 province_event = { 
-	id = giacomo.casanova.4
-	title = giacomo.casanova.4.t
-	desc = giacomo.casanova.4.d
+	id = giacomo_casanova.4
+	title = giacomo_casanova.4.t
+	desc = giacomo_casanova.4.d
 	picture = FORT_eventPicture
 	
 	trigger = {
@@ -140,7 +150,7 @@ province_event = {
 	}
 	
 	option = { #Giacomo Emprisoned
-		name = giacomo.casanova.4.a
+		name = giacomo_casanova.4.a
 		add_province_modifier = {
 			name = casanova_in_prison
 			duration = 365
@@ -161,9 +171,9 @@ province_event = {
 #Naval Officer Casanova
 #1745
 province_event = { 
-	id = giacomo.casanova.5
-	title = giacomo.casanova.5.t
-	desc = giacomo.casanova.5.d
+	id = giacomo_casanova.5
+	title = giacomo_casanova.5.t
+	desc = giacomo_casanova.5.d
 	picture = CARIBBEAN_PIRATE_FORT_eventPicture
 	
 	trigger = {
@@ -178,7 +188,7 @@ province_event = {
 	}
 	
 	option = { #Giacomo Naval
-		name = giacomo.casanova.5.a
+		name = giacomo_casanova.5.a
 		add_province_modifier = {
 			name = casanova_in_navy
 			duration = 1825
@@ -187,7 +197,7 @@ province_event = {
 	immediate = {
 		142 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
@@ -196,9 +206,9 @@ province_event = {
 #Casanova was here
 #1745-1798
 province_event = { 
-	id = giacomo.casanova.6
-	title = giacomo.casanova.6.t
-	desc = giacomo.casanova.6.d
+	id = giacomo_casanova.6
+	title = giacomo_casanova.6.t
+	desc = giacomo_casanova.6.d
 	picture = plati_pagan_renaissance
 	
 	is_triggered_only = yes
@@ -208,9 +218,7 @@ province_event = {
 	}
 	
 	option = { #Giacomo Amourous Adventures
-		name = giacomo.casanova.6.a
-	}
-	immediate = {
+		name = giacomo_casanova.6.a
 		add_province_modifier = {
 			name = casanova_was_here
 			duration = 3650
@@ -219,7 +227,7 @@ province_event = {
 }
 
 country_event = { #Driver for above event
-	id = giacomo.casanova.7
+	id = giacomo_casanova.7
 
 	hidden = yes
 	fire_only_once = yes
@@ -239,13 +247,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		151 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.8
+	id = giacomo_casanova.8
 
 	hidden = yes
 	fire_only_once = yes
@@ -265,13 +273,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		112 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.9
+	id = giacomo_casanova.9
 
 	hidden = yes
 	fire_only_once = yes
@@ -291,13 +299,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		104 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.10
+	id = giacomo_casanova.10
 
 	hidden = yes
 	fire_only_once = yes
@@ -317,13 +325,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		109 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.11
+	id = giacomo_casanova.11
 
 	hidden = yes
 	fire_only_once = yes
@@ -343,13 +351,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		105 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.12
+	id = giacomo_casanova.12
 
 	hidden = yes
 	fire_only_once = yes
@@ -369,13 +377,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		4720 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.13
+	id = giacomo_casanova.13
 
 	hidden = yes
 	fire_only_once = yes
@@ -395,13 +403,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		183 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.14
+	id = giacomo_casanova.14
 
 	hidden = yes
 	fire_only_once = yes
@@ -421,13 +429,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		266 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.15
+	id = giacomo_casanova.15
 
 	hidden = yes
 	fire_only_once = yes
@@ -447,13 +455,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		134 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.16
+	id = giacomo_casanova.16
 
 	hidden = yes
 	fire_only_once = yes
@@ -473,13 +481,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		65 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.17
+	id = giacomo_casanova.17
 
 	hidden = yes
 	fire_only_once = yes
@@ -501,13 +509,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		183 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.18
+	id = giacomo_casanova.18
 
 	hidden = yes
 	fire_only_once = yes
@@ -527,13 +535,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		97 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.19
+	id = giacomo_casanova.19
 
 	hidden = yes
 	fire_only_once = yes
@@ -553,13 +561,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		1869 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.20
+	id = giacomo_casanova.20
 
 	hidden = yes
 	fire_only_once = yes
@@ -579,13 +587,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		165 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.21
+	id = giacomo_casanova.21
 
 	hidden = yes
 	fire_only_once = yes
@@ -605,13 +613,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		4720 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.22
+	id = giacomo_casanova.22
 
 	hidden = yes
 	fire_only_once = yes
@@ -631,13 +639,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		118 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.23
+	id = giacomo_casanova.23
 
 	hidden = yes
 	fire_only_once = yes
@@ -657,13 +665,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		121 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.24
+	id = giacomo_casanova.24
 
 	hidden = yes
 	fire_only_once = yes
@@ -683,13 +691,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		183 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.25
+	id = giacomo_casanova.25
 
 	hidden = yes
 	fire_only_once = yes
@@ -709,13 +717,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		236 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.26
+	id = giacomo_casanova.26
 
 	hidden = yes
 	fire_only_once = yes
@@ -735,13 +743,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		50 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.27
+	id = giacomo_casanova.27
 
 	hidden = yes
 	fire_only_once = yes
@@ -761,13 +769,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		33 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.28
+	id = giacomo_casanova.28
 
 	hidden = yes
 	fire_only_once = yes
@@ -787,13 +795,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		257 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.29
+	id = giacomo_casanova.29
 
 	hidden = yes
 	fire_only_once = yes
@@ -813,13 +821,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		183 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.30
+	id = giacomo_casanova.30
 
 	hidden = yes
 	fire_only_once = yes
@@ -839,13 +847,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		217 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.31
+	id = giacomo_casanova.31
 
 	hidden = yes
 	fire_only_once = yes
@@ -865,13 +873,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		112 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.32
+	id = giacomo_casanova.32
 
 	hidden = yes
 	fire_only_once = yes
@@ -891,13 +899,13 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		183 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
 }
 country_event = { #Driver for above event
-	id = giacomo.casanova.33
+	id = giacomo_casanova.33
 
 	hidden = yes
 	fire_only_once = yes
@@ -917,7 +925,7 @@ country_event = { #Driver for above event
 		ai_chance = {factor = 1}
 		1771 = {
 			province_event = {
-				id = giacomo.casanova.6
+				id = giacomo_casanova.6
 			}
 		}
 	}
