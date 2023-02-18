@@ -239,3 +239,291 @@ country_event = { #Mongols wish to Convert2
 		}
 	}
 }
+
+#Tyr Chapter#
+country_event = { #Driver for below event
+	id = manchu_japanese.7
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		AND = {
+			MGE = {
+				owns = 1050
+			}
+		}
+		AND = {
+			4658 = {
+				culture = japanese
+			}
+			1033 = {
+				culture = japanese
+			}
+		}
+	}
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		1050 = {
+			province_event = {
+				id = manchu_japanese.8
+				days = 730
+				random = 1095
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			1050 = {
+				add_claim = JAP
+				add_claim = HIK
+			}
+		}
+	}
+}
+
+province_event = { #Tyr
+	id = manchu_japanese.8
+	title = manchu_japanese.8.t
+	desc = manchu_japanese.8.d
+	picture = EP_ISLAND_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Reject Japanese
+		name = manchu_japanese.8.a
+		4658 = {
+			add_claim = MGE
+		}
+		1033 = {
+			add_claim = MGE
+		}
+	}
+	option = { #Accepted Influences
+		name = manchu_japanese.8.b
+		if = {
+			limit = {
+				exists = JAP
+			}
+			JAP = {
+				country_event = {
+					id = manchu_japanese.9
+					days = 10
+				}
+			}
+		}
+		else = {
+			HIK = {
+				country_event = {
+					id = manchu_japanese.9
+					days = 10
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Mongols wish to Convert3
+	id = manchu_japanese.9
+	title = manchu_japanese.9.t
+	desc = manchu_japanese.9.d
+	picture = MONGOL_BANNERS_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #They may
+		name = manchu_japanese.9.a
+		1050 = {
+			change_culture = japanese
+			change_province_name = "Tiru"
+		}
+	}
+	
+	option = { #They'll take our scraps
+		name = manchu_japanese.9.b
+		1050 = {
+			change_culture = ainu
+		}
+	}
+	
+	option = { #They may not
+		name = manchu_japanese.9.c
+	}
+}
+
+#Beijing Chapter#
+country_event = { #Driver for below event
+	id = manchu_japanese.10
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		AND = {
+			MGE = {
+				owns = 1816
+			}
+			2741 = {
+				culture = japanese
+			}
+		}
+	}
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		1816 = {
+			province_event = {
+				id = manchu_japanese.11
+				days = 730
+				random = 1095
+			}
+		}
+	}
+}
+
+province_event = { #Beijing
+	id = manchu_japanese.11
+	title = manchu_japanese.11.t
+	desc = manchu_japanese.11.d
+	picture = MALAYAN_PORT_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Reject Japanese
+		name = manchu_japanese.11.a
+		1816 = {
+			change_culture = dynamic-chihan-culture-num1
+		}
+	}
+	option = { #Accepted Influences
+		name = manchu_japanese.11.b
+		if = {
+			limit = {
+				exists = JAP
+			}
+			JAP = {
+				country_event = {
+					id = manchu_japanese.12
+					days = 10
+				}
+			}
+		}
+		else = {
+			HIK = {
+				country_event = {
+					id = manchu_japanese.12
+					days = 10
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Mongols wish to Convert4
+	id = manchu_japanese.12
+	title = manchu_japanese.12.t
+	desc = manchu_japanese.12.d
+	picture = EP_POLYNESIAN_MARAE_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #They may
+		name = manchu_japanese.12.a
+		1816 = {
+			change_culture = japanese
+			change_province_name = "Amatsu"
+			rename_capital = "Pekin"
+		}
+		JAP = {
+			add_country_modifier = {
+				name = saigoku_inpekin
+				duration = 7300
+			}
+		}
+	}
+	
+	option = { #They may not
+		name = manchu_japanese.12.b
+	}
+}
+
+#Cicigar Chapter#
+country_event = { #Driver for below event
+	id = manchu_japanese.13
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		AND = {
+			MGE = {
+				owns = 725
+			}
+			calc_true_if = {
+				all_province = {
+					region = manchuria_region
+					culture = japanese
+				}
+				amount = 5
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		725 = {
+			province_event = {
+				id = manchu_japanese.14
+				days = 730
+				random = 30
+			}
+		}
+	}
+}
+
+province_event = { #Cicigar
+	id = manchu_japanese.14
+	title = manchu_japanese.14.t
+	desc = manchu_japanese.14.d
+	picture = FARMING_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Reject Japanese
+		name = manchu_japanese.14.a
+		725 = {
+			change_culture = japanese
+			change_province_name = "Chichiharu"
+		}
+	}
+	option = { #Accepted Influences
+		name = manchu_japanese.14.b
+		cicigar_area = {
+			type = all
+			change_culture = japanese
+		}
+		eastern_mongolia = {
+			type = all
+			change_culture = japanese
+		}
+		725 = {
+			change_province_name = "Chichiharu"
+		}
+		4202 = {
+			change_province_name = "Shiraki"
+		}
+		4674 = {
+			change_province_name = "Hinganmei"
+		}
+	}
+}

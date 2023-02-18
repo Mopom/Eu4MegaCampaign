@@ -25,3 +25,35 @@
   manchu_japanese.6.a:0 "They're Japanese enough."
   manchu_japanese.6.b:0 "Perhaps we could expel our Togoku smugglers there."
   manchu_japanese.6.c:0 "A new home for the Ainu."
+  
+  #Tyr
+  manchu_japanese.8.t:0 "The Japanese of Sakhalin"
+  manchu_japanese.8.d:0 "Across the Tatar Straits lies the Island of Sakhalin. Long have the Ainu of Hokkaido lived here but now the Japanese Emperor is expanding their influence."
+  manchu_japanese.8.a:0 "These foreigners are a threat to the Taipongel."
+  manchu_japanese.8.b:0 "Cultures are wont to influence eachother."
+  
+  #Mongols wish to Convert3
+  manchu_japanese.9.t:0 "Mongolian Pretenders"
+  manchu_japanese.9.d:0 "Taipongel pretenders have claimed our glorious culture as their own. We must visit to see if they are truly as Japanese as the subjects to our Tenno and Shogun."
+  manchu_japanese.9.a:0 "They are truly Japanese."
+  manchu_japanese.9.b:0 "Expel the Ainu to the mainland."
+  manchu_japanese.9.c:0 "These are no Children of the Throne."
+  
+  #Beijing
+  manchu_japanese.11.t:0 "The Harbour of Beijing"
+  manchu_japanese.11.d:0 "In the habours of Tianjin live a plentitude of Japanese. So many live here that an entire quarter of the city has been sectioned off as Japan-town. Many of the Japanese here have settled after earning a pretty penny in the trade of the Bohai and Korean Seas. Already they are with many, would it not be easiest to accept their culture on the mainland?"
+  manchu_japanese.11.a:0 "No, Beijing is for the Chinese."
+  manchu_japanese.11.b:0 "Indeed, we should accept the Saigoku."
+  
+  #Mongols wish to Convert4
+  manchu_japanese.12.t:0 "The Subjects of Pekin"
+  manchu_japanese.12.d:0 "Taipongel Khagans have told us, in their diplomatic missions, of Saigoku in Pekin. Perhaps we could recall these traders of our Throne, or maybe we could cut a deal with the Khagans."
+  manchu_japanese.12.a:0 "We'll cut a deal with these Khagans."
+  manchu_japanese.12.b:0 "Recall the Imperial Merchants!"
+  saigoku_inpekin:0 "Saigoku in Amatsu and Pekin"
+  
+  #Cicigar
+  manchu_japanese.14.t:0 "Saigoku on the Steppe"
+  manchu_japanese.14.d:0 "Long, yet slowly, the Japanese have influenced the Taipongel of our Great Horde. Now they've even left their coastal homes behind and spread their culture to the steppes. It is clear that colonisation was their only intent."
+  manchu_japanese.14.a:0 "Drat! Is it too late to stop them?"
+  manchu_japanese.14.b:0 "Perhaps these colonisations aren't as bad as they seem."

@@ -1,3 +1,6 @@
 smugglahs_wolan = {
 	local_unrest = 2
 }
+saigoku_inpekin = {
+	placed_merchant_power = 4
+}
