@@ -1596,7 +1596,7 @@ republican_authoritarianism_reform = {
 		modifier = {
 			factor = 0
 			tag = UBL
-			ambrosian_republic
+			has_reform = ambrosian_republic
 		}
 	}
 }
@@ -1660,7 +1660,7 @@ republicanism_reform = {
 		modifier = {
 			factor = 0
 			tag = UBL
-			ambrosian_republic
+			has_reform = ambrosian_republic
 		}
 	}
 }
@@ -1692,7 +1692,7 @@ democratic_values_reform = {
 		modifier = {
 			factor = 0
 			tag = UBL
-			ambrosian_republic
+			has_reform = ambrosian_republic
 		}
 	}
 }
@@ -1723,7 +1723,7 @@ aristocratic_values_reform = {
 		modifier = {
 			factor = 0
 			tag = UBL
-			ambrosian_republic
+			has_reform = ambrosian_republic
 		}
 	}
 }
@@ -1754,7 +1754,7 @@ religious_values_reform = {
 		modifier = {
 			factor = 0
 			tag = UBL
-			ambrosian_republic
+			has_reform = ambrosian_republic
 		}
 	}
 }
