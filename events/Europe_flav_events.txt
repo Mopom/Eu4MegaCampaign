@@ -1,0 +1,121 @@
+namespace = catholics_and_colonies
+
+#####################################
+#	Flavor events for Conversion	#
+#####################################
+
+#France & Pope Chapter#
+country_event = { #Driver for below event
+	id = catholics_and_colonies.1
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		FRA = {
+			religion = catholic
+			owns = 202
+		}
+	}
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		FRA = {
+			country_event = {
+				id = catholics_and_colonies.2
+				days = 1095
+				random = 730
+			}
+		}
+	}
+}
+
+country_event = { #France
+	id = catholics_and_colonies.2
+	title = catholics_and_colonies.2.t
+	desc = catholics_and_colonies.2.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Avignon to the Pope
+		name = catholics_and_colonies.2.a
+		202 = {
+			add_core = PAP
+			remove_core = FRA
+			cede_province = PAP
+		}
+	}
+	option = { #Avignon is ours!
+		name = catholics_and_colonies.2.b
+		every_province = {
+			limit = {
+				is_capital_of = FRA
+			}
+			add_province_modifier = {
+				name = cathol_unrest
+				duration = 3650
+			}
+		}
+	}
+}
+
+#Bohemia-Lombardy & Pope Chapter#
+country_event = { #Driver for below event
+	id = catholics_and_colonies.3
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		UBL = {
+			religion = catholic
+			owns = 202
+		}
+	}
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {factor = 1}
+		UBL = {
+			country_event = {
+				id = catholics_and_colonies.4
+				days = 1095
+				random = 730
+			}
+		}
+	}
+}
+
+country_event = { #Bohemia-Lombardy
+	id = catholics_and_colonies.4
+	title = catholics_and_colonies.4.t
+	desc = catholics_and_colonies.4.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Avignon to the Pope
+		name = catholics_and_colonies.4.a
+		202 = {
+			add_core = PAP
+			remove_core = UBL
+			cede_province = PAP
+		}
+	}
+	option = { #Avignon is ours!
+		name = catholics_and_colonies.4.b
+		every_province = {
+			limit = {
+				is_capital_of = UBL
+			}
+			add_province_modifier = {
+				name = cathol_unrest
+				duration = 3650
+			}
+		}
+	}
+}

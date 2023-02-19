@@ -1,0 +1,3 @@
+cathol_unrest = {
+	local_unrest = 4
+}
