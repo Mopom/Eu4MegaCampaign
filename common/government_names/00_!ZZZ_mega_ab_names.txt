@@ -1,21 +1,30 @@
 caliph = {
 	rank = {
-		1 = CALIPHATE
-		2 = CALIPHATE
+		1 = EMIRATE
+		2 = MALIKATE
 		3 = CALIPHATE
 	}
 	ruler_male = {
-		1 = CALIPH
-		2 = CALIPH
+		1 = EMIR
+		2 = MALIK
 		3 = CALIPH
 	}
 	ruler_female = {
-		1 = CALIPHA
-		2 = CALIPHA
-		3 = CALIPHA
+		1 = EMIRA
+		2 = MALIKA
+		3 = MALIKA-AL-MUAZZAMA
 	}
 	trigger = {
-		has_reform = caliph_government
+		OR = {
+			has_reform = caliph_government
+			AND = {
+				tag = Z00
+				OR = {
+					government = monarchy
+					government = theocracy
+				}
+			}
+		}
 	}
 }
 
