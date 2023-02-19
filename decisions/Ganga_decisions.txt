@@ -2,6 +2,9 @@ country_decisions = {
 	ganga_corruption = {
 		potential = {
 			tag = Z01
+			any_subject_country = {
+				liberty_desire  = 85
+			}
 			NOT = { country_flag = gng_crisis_happened }
 		}
 		effect = {
