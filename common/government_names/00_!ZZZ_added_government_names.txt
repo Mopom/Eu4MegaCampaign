@@ -75,18 +75,18 @@ pharaoh = {
 }
 ecumenical_patriarch = {
 	rank = {
-		1 = PATRIARCHATE
+		1 = METROPOLIS
 		2 = PATRIARCHATE
 		3 = PATRIARCHATE
 	}
 	ruler_male = {
-		1 = ECUMENICAL_PATRIARCH
-		2 = ECUMENICAL_PATRIARCH
+		1 = BISHOP
+		2 = PATRIARCH
 		3 = ECUMENICAL_PATRIARCH
 	}
 	ruler_female = {
-		1 = ECUMENICAL_MATRIARCH
-		2 = ECUMENICAL_MATRIARCH
+		1 = BISHOP_fem
+		2 = MATRIARCH
 		3 = ECUMENICAL_MATRIARCH
 	}
 	trigger = { government = theocracy religion = orthodox }

@@ -77,3 +77,25 @@ northern_zahrai_kingdom = {
 		religion_group = muslim
 	}
 }
+
+gangan_empire_titles = {
+	rank = {
+		1 = RAJ
+		2 = RAJA
+		3 = SAMRAJYA
+	}
+	ruler_male = {
+		1 = MAHASAMANTA
+		2 = MAHARAJA
+		3 = SAMRAT
+	}
+	ruler_female = {
+		1 = MAHASAMANTA
+		2 = MAHARAJA_fem
+		3 = SAMRAT_fem
+	}
+	trigger = {
+		tag = Z01
+		government = monarchy
+	}
+}
