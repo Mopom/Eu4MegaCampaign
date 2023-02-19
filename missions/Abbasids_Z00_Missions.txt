@@ -923,7 +923,7 @@ al_Abbas_conquest_2 = {
 		}
 	}
 }
-al_Abbas_notables_tree = {
+al_Abbas_notables_tree_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -1268,11 +1268,10 @@ al_Abbas_conquest_3 = {
 		trigger = {
 			aegean_archipelago_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds =  ROOT
 			}
-			owns_core_province = 321
-			owns_core_province = 163
+			country_or_non_sovereign_subject_holds = 321
+			country_or_non_sovereign_subject_holds = 163
 		}
 		effect = {
 			macedonia_area = {
@@ -1325,8 +1324,7 @@ al_Abbas_conquest_3 = {
 			}
 			morea_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			northern_greece_area = {
 				type = all
@@ -1369,10 +1367,11 @@ al_Abbas_conquest_3 = {
 			east_adriatic_coast_area = {
 				add_permanent_claim = ROOT
 			}
+			override_country_name = ABBRUMBYZ
 		}
 	}
 	abbas_balkans = {
-		icon = mission_impaled_soldies
+		icon = mission_pf_soldier
 		required_missions = { abbas_greater_greece }
 		position = 12
 		provinces_to_highlight = {
@@ -1536,6 +1535,66 @@ al_Abbas_centres_of_learning = {
 				name = cities_of_isl_learning
 				duration = -1
 			}
+		}
+	}
+}
+al_Abbas_notables_tree_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		tag = Z00
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	abbas_order_bektashi = {
+		icon = mission_portuguese_interference
+		required_missions = {  }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 320
+				province_id = 163
+				province_id = 164
+			}
+			NOT = { owned_by = ROOT }	
+		}
+		trigger = {
+			owns_core_province = 320
+			owns_core_province = 163
+			owns_core_province = 164
+			if = {
+				limit = {
+					uses_piety = yes
+				}
+				piety = 0.35
+			}
+		}
+		effect = {
+			320 = {
+				add_core = BEK
+				remove_core = Z00
+				cede_province = BEK
+				change_province_name = "Rudis"
+			}
+			163 = {
+				add_core = BEK
+				remove_core = Z00
+				cede_province = BEK
+				change_province_name = "Krit"
+			}
+			164 = {
+				add_core = BEK
+				remove_core = Z00
+				cede_province = BEK
+				change_province_name = "Naksus"
+			}
+			vassalize = BEK
 		}
 	}
 }

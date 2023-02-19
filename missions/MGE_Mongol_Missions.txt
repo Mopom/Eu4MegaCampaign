@@ -2497,8 +2497,8 @@ mge_religion_path_4 = {
 			}
 		}
 		effect = {
-			379 = {
-				add_province_modifier = {
+			MGE = {
+				add_country_modifier = {
 					name = held_by_christians
 					duration = 36500
 				}
@@ -2512,6 +2512,18 @@ mge_religion_path_4 = {
 					duration = 14600
 				}
 			}
+			every_owned_province = {
+				limit = {
+					OR = {
+						region = arabia_region
+						region = mashriq_region
+					}
+				}
+				add_core = ADD
+				remove_core = MGE
+				cede_province = ADD
+			}
+			vassalize = ADD
 		}
 	}
 }
