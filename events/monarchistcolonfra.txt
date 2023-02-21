@@ -1,0 +1,87 @@
+namespace = monarch_colony
+normal_or_historical_nations = yes
+
+#Monarchist Colony
+country_event = {
+	id = monarch_colony.1
+	title = "monarch_colony.1.t"
+	desc = "monarch_colony.1.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	trigger = {
+		any_country = {
+			is_former_colonial_nation = yes
+			is_subject = no
+			alliance_with = FRA
+			culture_group = french
+		}
+		has_global_flag = lot_liberation_wars_enabled_monarchism
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_province = {
+				limit = {
+					AND = {
+						colonial_region = colonial_canada
+						is_capital_of = ROOT
+					}
+				} 
+				change_province_name = "Nouvel Artesie"
+				rename_capital = "Nouvel'Arras"
+			}
+			every_province = {
+				limit = {
+					AND = {
+						colonial_region = colonial_eastern_america
+						is_capital_of = ROOT
+					}
+				} 
+				change_province_name = "Nou' Bordeaux"
+				rename_capital = "Nouveau-Bordeaux"
+			}
+			every_province = {
+				limit = {
+					AND = {
+						colonial_region = colonial_louisiana
+						is_capital_of = ROOT
+					}
+				} 
+				change_province_name = "Nouvelle-Orléans"
+				rename_capital = "Nouvelle-Orléans"
+			}
+			every_province = {
+				limit = {
+					AND = {
+						colonial_region = colonial_california
+						is_capital_of = ROOT
+					}
+				} 
+				change_province_name = "Lyeste"
+				rename_capital = "La Lyon"
+			}
+		}
+	}
+	option = { #monarchist
+		name = "monarch_colony.1.a"
+		change_government = monarchy
+		add_government_reform = feudalism_reform
+		define_ruler = {
+			name = "Isaldis I"
+			dynasty = "de Poitou"
+			age = 21
+			claim = 98
+			adm = 6
+			dip = 6
+			mil = 6
+			female = yes
+			culture = dynamic-breton-normand-occitain-culture-num1
+		}
+		add_historical_friend = FRA
+	}
+	
+	option = {
+		name = "monarch_colony.1.b"
+		break_alliance = FRA
+	}
+}

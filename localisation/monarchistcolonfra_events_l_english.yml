@@ -1,0 +1,6 @@
+﻿l_english:
+  #Monarchist Colony
+  monarch_colony.1.t:0 "France Offers a Monarch"
+  monarch_colony.1.d:0 "Though we have fought for our independence with the likes of France it seems they have extented an olive branch. An offering of peace and friendship. They offer the daughter of their very own sovereign to take our throne. This would truly cement the ties between France and ourselves. But do our people truly wish to be subject to a monarchy again?"
+  monarch_colony.1.a:0 "We'll adopt Princess Isaldis to our throne."
+  monarch_colony.1.b:0 "We refuse the dictatorship of monarchism."
