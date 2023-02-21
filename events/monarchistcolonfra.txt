@@ -14,8 +14,8 @@ country_event = {
 			is_subject = no
 			alliance_with = FRA
 			culture_group = french
+			has_global_flag = lot_liberation_wars_enabled_monarchism
 		}
-		has_global_flag = lot_liberation_wars_enabled_monarchism
 	}
 	
 	immediate = {
