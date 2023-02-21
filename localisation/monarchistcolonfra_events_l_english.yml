@@ -4,3 +4,8 @@
   monarch_colony.1.d:0 "Though we have fought for our independence with the likes of France it seems they have extented an olive branch. An offering of peace and friendship. They offer the daughter of their very own sovereign to take our throne. This would truly cement the ties between France and ourselves. But do our people truly wish to be subject to a monarchy again?"
   monarch_colony.1.a:0 "We'll adopt Princess Isaldis to our throne."
   monarch_colony.1.b:0 "We refuse the dictatorship of monarchism."
+  
+  #Monarchist Pre-Set
+  monarch_colony.2.t:0 "The Spread of Monarchism"
+  monarch_colony.2.d:0 "Our court and family has grown out of control. Poitou family-members line the halls of the Palace of Bordeaux with little to do but waste our people's money. Perhaps we can use some branches of our family to spread monarchism to the New World. A solution to two problems."
+  monarch_colony.2.a:0 "Let's send a Princess to the New World."

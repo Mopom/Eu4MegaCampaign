@@ -654,6 +654,10 @@ emp_france_american_colonial_1 = {
 				}
 				set_global_flag = lot_liberation_wars_enabled_monarchism
 			}
+			country_event = {
+				id = monarch_colony.2
+				days = 10
+			}
 		}
 	}
 }

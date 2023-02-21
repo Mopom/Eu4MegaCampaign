@@ -7,6 +7,11 @@ country_decisions = {
 			}
 			NOT = { country_flag = gng_crisis_happened }
 		}
+		allow = {
+			NOT = {
+				corruption = 35
+			}
+		}
 		effect = {
 			add_corruption = 1
 			if = {
@@ -47,6 +52,8 @@ country_decisions = {
 		potential = {
 			tag = Z01
 			NOT = { has_country_flag = gng_crisis_happened }
+		}
+		allow = {
 			NOT = { has_country_modifier = focused_on_peace }
 		}
 		effect = {

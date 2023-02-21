@@ -1,5 +1,4 @@
 namespace = monarch_colony
-normal_or_historical_nations = yes
 
 #Monarchist Colony
 country_event = {
@@ -8,15 +7,7 @@ country_event = {
 	desc = "monarch_colony.1.d"
 	picture = GOOD_WITH_MONARCH_eventPicture
 
-	trigger = {
-		any_country = {
-			is_former_colonial_nation = yes
-			is_subject = no
-			alliance_with = FRA
-			culture_group = french
-			has_global_flag = lot_liberation_wars_enabled_monarchism
-		}
-	}
+	is_triggered_only = yes
 	
 	immediate = {
 		hidden_effect = {
@@ -64,6 +55,7 @@ country_event = {
 	}
 	option = { #monarchist
 		name = "monarch_colony.1.a"
+		ai_chance = {factor = 75}
 		change_government = monarchy
 		add_government_reform = feudalism_reform
 		define_ruler = {
@@ -82,6 +74,35 @@ country_event = {
 	
 	option = {
 		name = "monarch_colony.1.b"
+		ai_chance = {factor = 25}
 		break_alliance = FRA
+	}
+}
+
+country_event = { #Driver for above event
+	id = monarch_colony.2
+	title = "monarch_colony.2.t"
+	desc = "monarch_colony.2.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	fire_only_once = yes
+	goto = root
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "monarch_colony.2.a"
+		ai_chance = {factor = 1}
+		every_country = {
+			limit = {
+				is_former_colonial_nation = yes
+				is_subject = no
+				alliance_with = FRA
+			}
+			country_event = {
+				id = monarch_colony.1
+				days = 365
+				random = 3285
+			}
+		}
 	}
 }
