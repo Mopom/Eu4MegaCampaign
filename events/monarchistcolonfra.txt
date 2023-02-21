@@ -106,3 +106,49 @@ country_event = { #Driver for above event
 		}
 	}
 }
+
+#####################################################
+#	Flavor events for Monarchist Counter-Revolution	#
+#####################################################
+
+#Monarchist Count
+country_event = {
+	id = monarch_colony.3
+	title = "monarch_colony.3.t"
+	desc = "monarch_colony.3.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	option = { #monarchist
+		name = "monarch_colony.3.a"
+		ai_chance = {factor = 75}
+		change_government = monarchy
+		FRA = {
+			add_treasury = -500
+		}
+		add_treasury = 1000
+		add_opinion = {
+			who = FRA
+			modifier = in_war_together
+			years = 20
+		}
+		reverse_add_opinion = {
+			who = FRA
+			modifier = in_war_together
+			years = 20
+		}
+	}
+	
+	option = {
+		name = "monarch_colony.3.b"
+		ai_chance = {factor = 25}
+		FRA = {
+			declare_war_with_cb = {
+			who = ROOT
+			casus_belli = cb_change_government
+			war_goal_province = 540
+			}
+		}
+	}
+}
