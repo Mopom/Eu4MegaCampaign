@@ -26,7 +26,7 @@ historical_units = {
 }
 monarch_names = {
 	"Benedict #1" = 20
-	"Constantine #1" = 17
+	"Constantine #2" = 17
 	"Christopher #0" = 13
 	"Job #0" = 13
 	"Joshua #0" = 13
@@ -150,7 +150,7 @@ monarch_names = {
 	"Darla #0" = -13
 	"Dorothy #0" = -13
 	"Christina #1" = -15
-	"Elisabeth #0" = -15
+	"Elisabeth #1" = -15
 	"Margaret #0" = -15
 	"Marine #0" = -15
 }

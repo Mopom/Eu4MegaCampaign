@@ -9,29 +9,53 @@ capital = 4678
 add_accepted_culture = mongol
 add_accepted_culture = khalkha
 mercantilism = 15
-1444.11.11= {
+1422.10.25= {
 	monarch = {
-		name = "Christina"
+		name = "Constantine II"
 		dynasty = "Greater Wang"
-		adm = 3
+		adm = 2
 		dip = 4
-		mil = 2
-		birth_date = 1407.9.20
-		female = yes
+		mil = 4
+		birth_date = 1385.10.13
 		religion = nestorian
 		culture = dynamic-chihan-culture-num1
 	}
 	heir = {
-		name = "Elisabeth"
-		monarch_name = "Elisabeth"
+		name = "Martin"
+		monarch_name = "Martin I"
 		dynasty = "Greater Wang"
+		adm = 1
+		dip = 3
+		mil = 5
+		birth_date = 1432.11.15
+		death_date = 1492.11.15
+		claim = 89
+		religion = nestorian
+		culture = dynamic-chihan-culture-num1
+	}
+}
+1382.12.28 = {
+	monarch = {
+		name = "Christina I"
+		dynasty = "Greater Wang"
+		birth_date = 1348.9.20
+		adm = 3
+		dip = 4
+		mil = 2
+		female = yes
+		religion = nestorian
+		culture = dynamic-chihan-culture-num1
+	}
+}
+1395.3.19 = {
+	monarch = {
+		name = "Elisabeth I"
+		dynasty = "Greater Wang"
+		birth_date = 1354.6.22
 		adm = 6
 		dip = 6
 		mil = 6
-		birth_date = 1413.6.22
-		death_date = 1478.6.22
 		female = yes
-		claim = 89
 		religion = nestorian
 		culture = dynamic-chihan-culture-num1
 	}
