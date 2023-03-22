@@ -95,7 +95,16 @@ gangan_empire_titles = {
 		3 = SAMRAT_fem
 	}
 	trigger = {
-		tag = Z01
+		OR = {
+			culture_group = western_aryan
+			culture_group = dravidian
+			culture_group = eastern_aryan
+			culture_group = hindusthani
+			culture_group = central_indic
+		}
 		government = monarchy
+		NOT = {
+			religion_group = muslim
+		}
 	}
 }
