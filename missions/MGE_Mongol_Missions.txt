@@ -701,7 +701,7 @@ mge_exp_south_branch_2 = {
 	}
 	mge_ming_mandate = {
 		icon = mission_scholar_officials
-		required_missions = { mge_ming_xinan }
+		required_missions = { mge_ming_south_china }
 		position = 11
 		provinces_to_highlight = {
 			OR = {

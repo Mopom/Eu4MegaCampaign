@@ -22,9 +22,11 @@ rus_city_missions_1 = {
 			province_id = 280
 		}
 		trigger = {
-			OR = {
-				has_building = courthouse
-				has_building = town_hall
+			280 = {
+				OR = {
+					has_building = courthouse
+					has_building = town_hall
+				}
 			}
 		}
 		effect = {
