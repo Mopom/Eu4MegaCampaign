@@ -435,7 +435,7 @@ japanse_expansion_tree_sumatra = {
 	has_country_shield = yes
 	
 	jap_conquer_sumatra = {
-		icon = mission_colonial
+		icon = mission_mnd_maj_subjugate_makassar
 		required_missions = { jap_conquer_borneo }
 		position = 8
 		provinces_to_highlight = {
@@ -484,7 +484,7 @@ japanse_expansion_tree_sumatra = {
 		}
 	}
 	jap_conquer_malaya = {
-		icon = mission_colonial
+		icon = mission_to_the_south_china_sea
 		required_missions = { jap_conquer_sumatra }
 		position = 9
 		provinces_to_highlight = {
@@ -696,7 +696,7 @@ japanse_missions_the_empire = {
 	}
 
 	jap_conquer_philippines = {
-		icon = mission_colonial
+		icon = mission_las_islas_filipinas
 		required_missions = { jap_colonize_taiwan }
 		provinces_to_highlight = {
 			OR = {
@@ -842,7 +842,7 @@ japanse_missions_the_empire = {
 		}
 	}
 	jap_conquer_borneo = {
-		icon = mission_colonial
+		icon = mission_mnd_maj_rein_in_brunei
 		required_missions = { jap_conquer_philippines }
 		provinces_to_highlight = {
 			OR = {
@@ -1002,7 +1002,7 @@ japanse_missions_the_empire = {
 	}
 
 	jap_conquer_java = {
-		icon = mission_colonial
+		icon = mission_sail_to_the_east_indies
 		required_missions = { jap_conquer_borneo }
 		provinces_to_highlight = {
 			OR = {
@@ -1280,7 +1280,7 @@ japanse_expansion_tree_mollucas = {
 	has_country_shield = yes
 
 	jap_conquer_mollucas = {
-		icon = mission_colonial
+		icon = mission_mnd_maj_cloves
 		required_missions = { jap_conquer_philippines }
 		provinces_to_highlight = {
 			OR = {
