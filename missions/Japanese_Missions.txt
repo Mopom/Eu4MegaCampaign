@@ -8,6 +8,7 @@ japanse_missions_sea = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -179,6 +180,7 @@ japanse_missions_china = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -337,6 +339,7 @@ japanse_expansion_tree_pacific = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -429,6 +432,7 @@ japanse_expansion_tree_sumatra = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -572,6 +576,7 @@ japanse_missions_the_empire = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1116,6 +1121,7 @@ japanse_missions_domestic = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1335,6 +1341,7 @@ japanse_expansion_tree_mollucas = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1406,6 +1413,7 @@ japanse_missions_economic = {
 			has_reform = daimyo
 			has_reform = shogunate
 			tag = JAP
+			tag = HIK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
