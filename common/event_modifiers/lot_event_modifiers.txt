@@ -503,3 +503,11 @@ aju_trade_modifier = {
 ajuraan_instab_pirates = {
 	local_unrest = 20
 }
+imperial_spice = {
+	trade_value_modifier = 0.25
+	placed_merchant_power = 1
+}
+trade_of_johor_malacca = {
+	province_trade_power_modifier = 0.1
+	trade_value = 1
+}

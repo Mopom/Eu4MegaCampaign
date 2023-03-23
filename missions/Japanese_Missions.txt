@@ -482,6 +482,36 @@ japanse_expansion_tree_sumatra = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+		effect = {
+			johor_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			malaya_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			malacca_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			north_malaya_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
 	}
 	jap_conquer_malaya = {
 		icon = mission_to_the_south_china_sea
@@ -514,6 +544,20 @@ japanse_expansion_tree_sumatra = {
 			north_malaya_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			597 = {
+				add_province_modifier = {
+					name = trade_of_johor_malacca
+					duration = 7300
+				}
+			}
+			596 = {
+				add_province_modifier = {
+					name = trade_of_johor_malacca
+					duration = 7300
+				}
 			}
 		}
 	}
@@ -1043,6 +1087,23 @@ japanse_missions_the_empire = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+		effect = {
+			630 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			2687 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			628 = {
+				add_base_tax = 3
+				add_base_production = 4
+				add_base_manpower = 3
+			}
+		}
 	}
 }
 
@@ -1319,6 +1380,18 @@ japanse_expansion_tree_mollucas = {
 			timor_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					owned_by = ROOT
+					trade_goods = cloves
+				}
+				add_province_modifier = {
+					name = imperial_spice
+					duration = 18250
+				}
 			}
 		}
 	}
