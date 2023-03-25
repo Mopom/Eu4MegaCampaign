@@ -18,8 +18,6 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-mali-culture-num1
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Mariam"
 		dynasty = "Jabbarid"
@@ -33,8 +31,6 @@ religious_school = hanbali_school
 		religion = converted_dynamic_faith_102
 		culture = dynamic-andalucian-berber-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
 	heir = {
 		name = "Ina"
 		monarch_name = "Ina"
@@ -49,8 +45,6 @@ religious_school = hanbali_school
 		religion = sunni
 		culture = dynamic-mali-culture-num1
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
 }
 1444.11.11= {
 	add_prestige = 87

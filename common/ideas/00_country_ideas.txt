@@ -16368,3 +16368,38 @@ ADU_ideas = {
 		global_tariffs = 0.15
 	}	
 }
+AEZ_ideas = {
+	start = {
+		local_build_cost = -0.1
+		land_morale = 0.15
+	}
+	trigger = {
+		tag = AEZ
+	}
+	free = yes
+
+	AEZ_1 = {
+		no_religion_penalty = yes
+	}
+	AEZ_2 = {
+		heavy_ship_power = 0.1
+	}
+	AEZ_3 = {
+		inflation_reduction = 0.1
+	}
+	AEZ_4 = {
+		prestige = 1
+	}
+	AEZ_5 = {
+		republican_tradition = 0.3
+	}
+	AEZ_6 = {
+		idea_cost = -0.1
+	}
+	AEZ_7 = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+}

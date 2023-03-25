@@ -1187,6 +1187,10 @@ federal_republic = {
 				is_playing_custom_nation = yes
 				have_had_reform = federal_republic
 			}
+			AND = {
+				tag = AEZ
+				NOT = { map_setup = map_setup_random }
+			}
 		}
 	}
 	legacy_equivalent = federal_republic_legacy
