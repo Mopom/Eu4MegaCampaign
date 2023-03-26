@@ -511,3 +511,6 @@ trade_of_johor_malacca = {
 	province_trade_power_modifier = 0.1
 	trade_value = 1
 }
+malii_instab = {
+	local_unrest = 10
+}
