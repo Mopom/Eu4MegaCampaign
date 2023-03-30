@@ -2,3 +2,6 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
+1444.11.11 = {
+	change_province_name = "Gulf of Gascony"
+}
