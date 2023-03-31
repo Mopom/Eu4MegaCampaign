@@ -5,7 +5,7 @@ country_decisions = {
 			any_subject_country = {
 				liberty_desire  = 85
 			}
-			NOT = { country_flag = gng_crisis_happened }
+			NOT = { country_flag = had_gngng }
 		}
 		allow = {
 			NOT = {
@@ -51,7 +51,7 @@ country_decisions = {
 	ganga_worries = {
 		potential = {
 			tag = Z01
-			NOT = { has_country_flag = gng_crisis_happened }
+			NOT = { has_country_flag = had_gngng }
 		}
 		allow = {
 			NOT = { has_country_modifier = focused_on_peace }
