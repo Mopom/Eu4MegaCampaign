@@ -4,5 +4,10 @@ spriteTypes = {
 		name = "GFX_great_project_almathaf_albanafsaj"	
 		texturefile = "gfx//interface//great_projects//great_project_jabbaridmuseum.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_jardins_des_fees"	
+		texturefile = "gfx//interface//great_projects//great_project_jardins_des_fees.dds"
+	}
 
 }
