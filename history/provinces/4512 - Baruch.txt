@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 10
 base_manpower = 2
 add_core = BNG
-add_core = GUJ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
