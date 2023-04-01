@@ -1,0 +1,30 @@
+country_decisions = {
+	abbasid_hetalia = {
+		potential = {
+			tag = Z00
+			NAP = {
+				is_subject_of = ADU
+			}
+			SIC = {
+				is_subject_of = ADU
+			}
+			NOT = { has_country_flag = hetalia_abb_happened }
+		}
+		allow = {
+			AND = {
+				owns_core_province = 163
+				OR = {
+					owns_core_province = 142
+					owns_core_province = 126
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = caliphate_into_hetalia.1
+				days = 5
+			}
+			set_country_flag = hetalia_abb_happened
+		}
+	}	
+}		
