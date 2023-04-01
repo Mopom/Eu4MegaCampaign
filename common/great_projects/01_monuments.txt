@@ -13114,111 +13114,6 @@ kilwa_city = {
 	}
 }
 
-krakow_cloth_hall = {
-	start = 262 #Krakow
-	date = 1250.01.01
-	time = { months = 0	}
-	build_cost = 0
-	can_be_moved = no
-	move_days_per_unit_distance = 10
-	starting_tier = 1
-	type = monument
-
-	build_trigger = {
-	}
-
-	on_built = {
-	}
-
-	on_destroyed = {
-	}
-
-	can_use_modifiers_trigger = {
-	}
-
-	can_upgrade_trigger = {
-	}
-
-	keep_trigger = {
-	}
-
-	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-		}
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		upgrade_time = {
-			months = 120
-		}
-		cost_to_upgrade = {
-			factor = 1000
-		}
-		province_modifiers = {
-			trade_goods_size_modifier = 0.1
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-			merchants = 1
-		}
-		on_upgraded = {
-		}
-	}
-
-	tier_2 = {
-		upgrade_time = {
-			months = 240
-		}
-		cost_to_upgrade = {
-			factor = 2500
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-			trade_goods_size_modifier = 0.1
-		}
-		country_modifiers = {
-			merchants = 1
-			global_trade_power = 0.05
-		}
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		upgrade_time = {
-			months = 480
-		}
-		cost_to_upgrade = {
-			factor = 5000
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-			trade_goods_size_modifier = 0.2
-		}
-		country_modifiers = {
-			merchants = 2
-			global_trade_power = 0.1
-		}
-		on_upgraded = {
-		}
-	}
-}
-
 maidan-e_naqsh-e_jahan = {
 	start = 429 #Isfahan
 	date = 1444.01.01	#1600.01.01
@@ -17309,6 +17204,116 @@ jabbarid_museum = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+		}
+	}
+}
+
+#mines of wieliczka
+mines_of_muhammar = {
+	start = 262 #Krakow/Muhammarsezynskiegrad
+	date = 1250.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			trade_goods_size_modifier = 0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			merchants = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.1
+		}
+		country_modifiers = {
+			merchants = 1
+			global_trade_power = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.2
+		}
+		country_modifiers = {
+			merchants = 2
+			global_trade_power = 0.1
+		}
+		on_upgraded = {
+			262 = {
+				change_original_culture = polish
+				change_culture = polish
+			}
 		}
 	}
 }

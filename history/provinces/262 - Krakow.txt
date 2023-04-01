@@ -1,6 +1,6 @@
 owner = POL
 controller = POL
-capital = "Kraków"
+capital = "Muhammarsezynskiegrad"
 is_city = yes
 culture = dynamic-polish-russian_culture-culture-num1
 religion = orthodox
@@ -20,4 +20,7 @@ discovered_by = ottoman
 discovered_by = western
 latent_trade_goods = {
 coal
+}
+1444.11.11 = {
+	change_province_name = "Muammasezynskiegrad"
 }

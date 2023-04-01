@@ -9,7 +9,7 @@
 37 = "Pernov"
 151 = "Tsargrad"
 162 = "Prashev"
-262 = "Muhammarzeszynskiegrad"
+262 = "Muammasezynskiegrad"
 272 = "Vilno"
 282 = "Ochakov"
 283 = "Krivoi Rog"

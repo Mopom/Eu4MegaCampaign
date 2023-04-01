@@ -9,5 +9,10 @@ spriteTypes = {
 		name = "GFX_great_project_jardins_des_fees"	
 		texturefile = "gfx//interface//great_projects//great_project_jardins_des_fees.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_mines_of_muhammar"	
+		texturefile = "gfx//interface//great_projects//great_project_mines_muhammar.dds"
+	}
 
 }
