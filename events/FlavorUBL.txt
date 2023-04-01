@@ -1,0 +1,75 @@
+country_event = {
+	id = ubl_wales.1
+	title = ubl_wales.1.t
+	desc = ubl_wales.1.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ubl_bribe"
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "ubl_faith"
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "ubl_abandon"
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = ubl_wales.2
+	title = ubl_wales.2.t
+	desc = ubl_wales.2.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ubl_yes"
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "ubl_no"
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = ubl_wales.3
+	title = ubl_wales.3.t
+	desc = ubl_wales.3.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ubl_wales_final"
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = ubl_path.1
+	title = ubl_path.1.t
+	desc = ubl_path.1.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ubl_own"
+		ai_chance = { factor = 100 }
+	}
+	
+}

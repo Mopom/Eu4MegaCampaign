@@ -19,9 +19,36 @@ ubl_bohlom_australia = {
 	trade_steering = 0.1
 }
 
-ubl_prosperous_homelands = {
-	local_development_cost = -0.1
-	local_production_efficiency = 0.1
+ubl_new_industry = {
+	local_production_efficiency = 0.2
+}
+
+ubl_new_holy_site = {
+	church_power_modifier =0.2
+}
+
+ubl_prague = {
+	local_governing_cost = -1
+}
+
+ubl_milan = {
+	local_autonomy = -1
+}
+
+ubl_arsenal = {
+	ship_recruit_speed = -0.4
+}
+
+ubl_excellent_diplomats = {
+	diplomatic_reputation = 2
+}
+
+ubl_new_era = {
+	improve_relation_modifier = 0.2
+}
+
+ubl_large_subjects = {
+	liberty_desire_from_subject_development = -0.2
 }
 
 ubl_alpine_powerhouse = {
@@ -29,21 +56,16 @@ ubl_alpine_powerhouse = {
 	administrative_efficiency = 0.05
 }
 
-ubl_safeguard_hungary = {
-	global_manpower_modifier = 0.15
+ubl_noble_republic = {
+	stability_cost_modifier = -0.15
+	reform_progress_growth = 0.1
 }
 
-ubl_conquered_serbia = {
-	prestige = 1
-	heir_chance = 0.33
+ubl_prosperous_homelands = {
+	local_development_cost = -0.1
+	local_production_efficiency = 0.1
 }
 
-ubl_victory_over_ottomans = {
-	diplomatic_reputation = 1
-	global_missionary_strength = 0.02
-}
-
-ubl_conquest_of_italy = {
-	unjustified_demands = -0.1
-	ae_impact = -0.05
+ubl_aldine_monopoly_modifier = {
+	technology_cost = -0.1
 }
