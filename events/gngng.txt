@@ -94,7 +94,7 @@ country_event = {
 		}
 	}
 	option = {		# 
-		name = "gngng.2.b"
+		name = "gngng_events.2.b"
 		every_owned_province = {
 			limit = {
 				has_province_flag = local_courts_refuse_to_pay_tax
@@ -734,6 +734,20 @@ country_event = {
 	
 	option = {
 		name = "gngng_events.100.a" #
+		if = {
+			limit = {
+				has_reform = states_general_reform
+			}
+			remove_government_reform = states_general_reform
+		}
+		if = {
+			limit = {
+				has_reform = nayankara_reform
+			}
+			remove_government_reform = nayankara_reform
+		}
+		set_country_flag = hadhad_gngng
 		add_prestige = 15
+		add_government_reform = ganga_government
 	}
 }

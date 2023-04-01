@@ -30,8 +30,7 @@ ind_guj_slot_1 = {
 			}
 		}
 		trigger = {
-			adm_power = 200
-			manpower = 2
+			manpower = 5
 			saurashtra_area = {
 				type = all
 				owned_by = Z01
