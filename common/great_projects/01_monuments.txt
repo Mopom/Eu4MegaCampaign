@@ -9103,7 +9103,7 @@ almathaf_albanafsaj = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9197,8 +9197,9 @@ almathaf_albanafsaj = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.15
-			idea_cost = -0.05			
+			global_autonomy = -0.01
+			global_tariffs = 0.05
+			treasure_fleet_income = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -9227,9 +9228,10 @@ almathaf_albanafsaj = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.30
-			idea_cost = -0.05
-			treasure_fleet_income = 0.05
+			global_autonomy = -0.025
+			governing_capacity = 0.05
+			global_tariffs = 0.1
+			treasure_fleet_income = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -9258,9 +9260,10 @@ almathaf_albanafsaj = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
-			idea_cost = -0.1
-			treasure_fleet_income = 0.1
+			global_autonomy = -0.05
+			governing_capacity_modifier = 0.1
+			global_tariffs = 0.2
+			treasure_fleet_income = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -17268,7 +17271,7 @@ jardins_des_fees = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			legitimacy = 1
-			prestige_decay = -0.01
+			prestige_decay = -0.02
 		}
 
 		#what effects happen when this tier is achieved
@@ -17300,7 +17303,7 @@ jardins_des_fees = {
 		country_modifiers = {
 			legitimacy = 1
 			diplomatic_upkeep = 1
-			prestige_decay = -0.01
+			prestige_decay = -0.02
 			nobles_influence_modifier = 0.1
 		}
 
