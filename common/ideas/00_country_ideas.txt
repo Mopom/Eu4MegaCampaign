@@ -16403,3 +16403,38 @@ AEZ_ideas = {
 		global_manpower_modifier = 0.25
 	}
 }
+HIK_ideas = {
+	start = {
+		allowed_marine_fraction = 0.1
+		global_ship_trade_power = 0.1
+	}
+	trigger = {
+		tag = HIK
+	}
+	free = yes
+
+	HIK_1 = {
+		tolerance_own = 2
+	}
+	HIK_2 = {
+		global_sailors_modifier = 0.2
+	}
+	HIK_3 = {
+		drill_gain_modifier = 0.10
+	}
+	HIK_4 = {
+		leader_cost = -0.15
+	}
+	HIK_5 = {
+		range = 0.5
+	}
+	HIK_6 = {
+		discipline = 0.01
+	}
+	HIK_7 = {
+		production_efficiency = 0.10
+	}
+	bonus = {
+		nobles_loyalty_modifier = 0.2
+	}
+}

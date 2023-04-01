@@ -24,46 +24,66 @@ ind_guj_slot_1 = {
 				area = tapti_area
 			}
 			NOT = {
-				owned_by = GUJ
+				OR = {
+					owned_by = Z01
+				}
 			}
 		}
 		trigger = {
 			adm_power = 200
 			manpower = 2
-			patan_area = {
+			saurashtra_area = {
 				type = all
-				owned_by = GUJ	
+				owned_by = Z01
+				is_core = Z01
+			}
+			4456 = {
+				type = all
+				owned_by = Z01
+				is_core = Z01	
 			}
 			ahmedabad_area = {
 				type = all
-				owned_by = GUJ	
-			}
-			521 = {
-				type = all
-				owned_by = GUJ	
-			}
-			515 = {
-				type = all
-				owned_by = GUJ	
-			}
-			4454 = {
-				type = all
-				owned_by = GUJ
-			}	
-			4455 = {
-				type = all
-				owned_by = GUJ	
+				owned_by = Z01
+				is_core = Z01	
 			}
 			517 = {
 				type = all
-				owned_by = GUJ	
+				owned_by = Z01
+				is_core = Z01	
 			}
 			4430 = {
 				type = all
-				owned_by = GUJ	
+				owned_by = Z01
+				is_core = Z01	
 			}
 		}
 		effect = {
+			saurashtra_area = {
+				remove_core = Z01
+				add_core = GUJ
+				cede_province = GUJ
+			}
+			4456 = {
+				remove_core = Z01
+				add_core = GUJ
+				cede_province = GUJ
+			}
+			ahmedabad_area = {
+				remove_core = Z01
+				add_core = GUJ
+				cede_province = GUJ
+			}
+			517 = {
+				remove_core = Z01
+				add_core = GUJ
+				cede_province = GUJ
+			}
+			4430 = {
+				remove_core = Z01
+				add_core = GUJ
+				cede_province = GUJ
+			}
 			add_adm_power = -200
 			add_manpower = -2
 			yearly_corruption = -0.1

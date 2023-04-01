@@ -1,0 +1,126 @@
+namespace = caliphate_into_hetalia
+normal_or_historical_nations = yes
+
+#hetalia
+country_event = {
+	id = caliphate_into_hetalia.1
+	title = "caliphate_into_hetalia.1.t"
+	desc = "caliphate_into_hetalia.1.d"
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "caliphate_into_hetalia.1.a"
+		clr_country_flag = hetalia_abb_happened
+	}
+	
+	option = {
+		name = "caliphate_into_hetalia.1.b"
+		ADU = {
+			country_event = {
+				id = caliphate_into_hetalia.2
+				days = 150
+				random = 215
+			}
+		}
+	}
+}
+
+#hetaliia
+country_event = {
+	id = caliphate_into_hetalia.2
+	title = "caliphate_into_hetalia.2.t"
+	desc = "caliphate_into_hetalia.2.d"
+	picture = BORDER_TENSION_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "caliphate_into_hetalia.2.a"
+		Z00 = {
+			country_event = {
+				id = caliphate_into_hetalia.3
+				days = 210
+				random = 35
+			}
+		}
+	}
+	
+	option = {
+		name = "caliphate_into_hetalia.2.b"
+		NAP = {
+			grant_independence = yes
+		}
+		SIC = {
+			grant_independence = yes
+		}
+	}
+	
+	option = {
+		name = "caliphate_into_hetalia.2.c"
+		northern_morocco_area = {
+			add_permanent_claim = ADU
+		}
+		marrekesh_area = {
+			add_permanent_claim = ADU
+		}
+		western_morocco_area = {
+			add_permanent_claim = ADU
+		}
+		southern_morocco_area = {
+			add_permanent_claim = ADU
+		}
+		sus_area = {
+			add_permanent_claim = ADU
+		}
+		tafilalt_area = {
+			add_permanent_claim = ADU
+		}
+		algiers_area = {
+			add_permanent_claim = ADU
+		}
+		barbary_coast_area = {
+			add_permanent_claim = ADU
+		}
+		kabylia_area = {
+			add_permanent_claim = ADU
+		}
+		hautes_plaines_area = {
+			add_permanent_claim = ADU
+		}
+		ouled_nail_area = {
+			add_permanent_claim = ADU
+		}
+		NAP = {
+			grant_independence = yes
+		}
+		SIC = {
+			grant_independence = yes
+		}
+		Z00 = {
+			vassalize = NAP
+			vassalize = SIC
+			add_stability = -1
+			add_piety = -0.5
+		}
+	}
+}
+
+#hetaliiia
+country_event = {
+	id = caliphate_into_hetalia.3
+	title = "caliphate_into_hetalia.3.t"
+	desc = "caliphate_into_hetalia.3.d"
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "caliphate_into_hetalia.3.a"
+		clr_country_flag = hetalia_abb_happened
+	}
+}
