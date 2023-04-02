@@ -14,5 +14,9 @@ spriteTypes = {
 		name = "GFX_great_project_mines_of_muhammar"	
 		texturefile = "gfx//interface//great_projects//great_project_mines_muhammar.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_great_project_hagia_sophia_2"
+		texturefile = "gfx//interface//great_projects//great_project_church_in_const.dds"
+	}
 }
