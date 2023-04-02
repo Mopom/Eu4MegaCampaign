@@ -9,10 +9,10 @@ bookmark =
 	country = UBL
 	country = AJU
 	country = FRA
-	country = Z02
 	country = Z01
-	country = MAL
 	country = MGE
-	country = RUS
 	country = HIK
+	country = MAL
+	country = RUS
+	country = Z02
 }
