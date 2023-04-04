@@ -731,6 +731,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	major = yes
+	immediate = {
+		hidden_effect = {
+			set_country_flag = gngng_dis_happened
+		}
+	}
 	
 	option = {
 		name = "gngng_events.100.a" #
