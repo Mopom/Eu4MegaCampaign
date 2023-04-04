@@ -1791,7 +1791,7 @@ dharmic = {
 
 		heretic = { MASANDIS }
 
-		date = 1459.01.01
+		date = 1444.01.01
 
 		gurus = {
 			guru_nanak = {
