@@ -1,11 +1,11 @@
-burma_state = {
+nepal_state = {
 	copy_from = vassal
 	
 	max_government_rank = 0
 	takes_diplo_slot = no
 	can_fight_independence_war = no
 	can_fight = {
-		independent_nations = yes
+		independent_nations = no
 		same_overlord = no
 		other_overlord = all
 	}
@@ -32,13 +32,13 @@ burma_state = {
 
 	# Properties:
 	overlord_protects_external = yes
-	pays_overlord = 0.0
-	military_focus = 1.5
+	pays_overlord = 0.5
+	military_focus = 1.0
 	base_liberty_desire = -100.0
 	can_be_annexed = no
-	forcelimit_to_overlord = 0.2
+	forcelimit_to_overlord = 0.1
 	has_power_projection = yes
-	can_have_subjects_of_other_types = yes
+	can_have_subjects_of_other_types = no
 	can_use_claims = yes
 	allows_taking_land_without_independence = yes
 
