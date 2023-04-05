@@ -1,0 +1,122 @@
+namespace = one_pasture
+
+#############################################
+#	Flavor events for Un Paturage Sous Dieu	#
+#############################################
+
+#The Driver
+#80 or Over
+country_event = {
+	id = one_pasture.1
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			tag =  FRA
+			has_church_aspect = judaism_communities_aspect
+			num_of_provinces_in_states = 81
+			NOT = {
+				has_country_flag = fran_un_pature_dieu_ev
+			}
+		}
+	}
+	
+	immediate = {
+		set_country_flag = fran_un_pature_dieu_ev
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		ROOT = {
+			country_event = {
+				id = one_pasture.2
+				days = 730
+				random = 2920
+			}
+		}
+	}
+}
+
+#The Event
+#Discussions of Faith
+country_event = {
+	id = one_pasture.2
+	title = "one_pasture.2.t"
+	desc = "one_pasture.2.d"
+	picture = HUSSITE_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					is_state = yes
+				}
+				save_event_target_as = centre_of_anti_grifuid
+				area = {
+					limit = {
+						owned_by = ROOT
+						is_capital = no
+					}
+					set_province_flag = anti_grifuid_area_of_effect
+				}
+			}
+		}
+	}
+	
+	option = { #Fight It
+		name = "one_pasture.2.a"
+		event_target:centre_of_anti_grifuid = {
+			add_local_autonomy = 35
+			add_unrest = 5
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = anti_grifuid_area_of_effect
+			}
+			add_unrest = 5
+			clr_province_flag = anti_grifuid_area_of_effect
+		}
+	}
+	
+	option = { #Surrender
+		name = "one_pasture.2.b"
+		FRA = {
+			remove_church_aspect = judaism_communities_aspect
+			add_church_aspect = judaism_diplomatic_rabbi_aspect
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = anti_grifuid_area_of_effect
+			}
+			clr_province_flag = anti_grifuid_area_of_effect
+		}
+	}
+	
+	option = { #Compromise
+		name = "one_pasture.2.c"
+		highlight = yes
+		trigger = {
+			ruler_has_personality = tolerant_personality
+		}
+		event_target:centre_of_anti_grifuid = {
+			add_province_modifier = {
+				name = "protection_from_convers_rhenii"
+				duration = 3650
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = anti_grifuid_area_of_effect
+			}
+			add_province_modifier = {
+				name = "protection_from_convers_rhenii_half"
+				duration = 1825
+			}
+			clr_province_flag = anti_grifuid_area_of_effect
+		}
+	}
+}

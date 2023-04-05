@@ -514,3 +514,10 @@ trade_of_johor_malacca = {
 malii_instab = {
 	local_unrest = 10
 }
+protection_from_convers_rhenii = {
+	local_missionary_strength = -1
+}
+
+protection_from_convers_rhenii_half = {
+	local_missionary_strength = -0.25
+}
