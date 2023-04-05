@@ -834,6 +834,8 @@
  one_pasture.2.a:0 "The Peasants of [centre_of_anti_grifuid.GetName] can shove their demands in places God does not look!"
  one_pasture.2.b:0 "Now is a different time. A new $MONARCHTITLE$, $MONARCH$, reigns over $COUNTRY$."
  one_pasture.2.c:0 "A compromise might be made, to guarantee the religious independence of [centre_of_anti_grifuid.GetName]."
+ protection_from_convers_rhenii:0 "Exempt from Conversion"
+ protection_from_convers_rhenii_half:0 "Protected from Conversion"
  ############## Sikh Religious Events ###############################
  gangan_relig_flavour.2.t:0 "Guru Angad"
  gangan_relig_flavour.2.d:0 "'Death would not be called bad, O people, if one knew how to truly die.'\n \nThe founder of our faith has passed away a long time since. But the [NPL.Monarch.GetTitle] [NPL.Monarch.GetName] has found his spirit reincarnated among our faithful. They call out a young farmhand to follow Guru Nanak. Guru Angad seeks to spread our Gangan faith to the world."
