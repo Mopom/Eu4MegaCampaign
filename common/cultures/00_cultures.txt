@@ -6456,9 +6456,9 @@ malay = {
 			"Singhawardhana"
 		}
 		female_names = {
-			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nuï¿½utea Orama Poe Pear Poehina Poenui 
+			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui 
 			Poerava Puaiti 
-			Puatea Puaura Raï¿½ihau Raï¿½imere Raï¿½inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
 			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
 			Vaite Vaitiare
 		}
@@ -6472,8 +6472,8 @@ malay = {
 			"Ko cheng" "Jaya Sinhavarman" "Maija Vijaya" "Moho Kouei-Lai" "Maha Kui Yu" "Maha P'an-lo-yue" "Po Saktirai" "Po Ganvuh" "Po Thuttirai" "Po Rattirai" "Po Tathun" "Po Tithuntirai" "Chei Krei Brei" "Po Tithun" "Po Lathun" "Po Chong Chan" "Che Anan" "Tra Hoa" "Che Bong Nga" "Ko Cheng" "Jaya Indravarman"
 		}
 		female_names = {
-			Hï¿½ng Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nuï¿½utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Raï¿½ihau Raï¿½imere Raï¿½inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Hòng Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
 			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
 			Vaite Vaitiare
 		}
@@ -6512,7 +6512,7 @@ thai_group = {
 			"Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun
 		}
 		male_names = {
-			"Kï¿½ Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
+			"Kü Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
 			"Mekuti" "Nawrahta Minsaw" "Phra Choi" "Phra Chaiyathip" "Sisongmueang" "Luangthipphanet" "Phra Saenmueang" 
 			"Phrae" "Ingsemang" "Cheputarai" "Mangraenara" "Ong Kham" "Ong Chan" "Khihut" "Po Aphaikhamini" "Po Mayunguan" "Phraya Chaban" "Thammalangka" "Kawila"
 		}
@@ -6535,7 +6535,7 @@ thai_group = {
 			"Sotika Koumane" "Anurutha" "Manthaturat"
 		}
 		female_names = {
-			"Chï¿½u" "Nang Keo Phimpha" "Manora" "Souphutta" "Anousa" "Nokasat"
+			"Châu" "Nang Keo Phimpha" "Manora" "Souphutta" "Anousa" "Nokasat"
 		}	
 	}
 	shan = {
@@ -7202,9 +7202,9 @@ eastern_aryan = {
 			"Sailodbhava" "Nagavamsi" "Somavamsi"
 		}
 		male_names = {
-			Narasimhadeva Bhanudeva Kapilesvara Pratï¿½prudra Kaluadeva Govindaraja Vidyadhara Chakrapretï¿½pa Nï¿½rashima 
-			Jana Raghurï¿½ma Chhotra Mukundadeva Harishandra Rï¿½mchandra Deva Rï¿½mchandra Purushottama Mukunda Nï¿½rsimha 
-			Gangï¿½dar Bï¿½labhadra Divya Simha Hari Krishna Gapï¿½nï¿½th Deva Padmanabha Vï¿½ra Kishor Deva Devendravarman 
+			Narasimhadeva Bhanudeva Kapilesvara Pratâprudra Kaluadeva Govindaraja Vidyadhara Chakrapretâpa Nârashima 
+			Jana Raghurâma Chhotra Mukundadeva Harishandra Râmchandra Deva Râmchandra Purushottama Mukunda Nârsimha 
+			Gangâdar Bâlabhadra Divya Simha Hari Krishna Gapînâth Deva Padmanabha Vîra Kishor Deva Devendravarman 
 			Anantavarman Ananga Bhima Narasimha Bhanu Narayan Gopinath Rudra Mukunda Bira Jagat Saheb Kumar
 			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita Balabhadra 
 			Barjena Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman 
@@ -7762,66 +7762,66 @@ dravidian = {
 			"Ayyakarai Veyyapa" "Vishvanatha" "Krishnappa" "Virappa" "Muttu Krishnappa" "Muttu Virappa" "Tirumala" 
 			"Chokkanatha" "Muttu Linga" "Vijayaranga Chokkanatha" "Minaski" "Yachama" "Raghunatha" "Ariyanatha" 
 			"Chanda" "Ramayyan" "Shungrasoobyer" "Seshayya" "Ramaswami" 
-			Amarapuyankan Amarabhujanga Aparï¿½cita Aparajita Aparï¿½citavarman Aparajitavarman Appï¿½taiyï¿½n 
-			Arikï¿½cari Arikesari Ariï¿½caya Arinjaya Arulmolitï¿½var 
-			Arulmolivarman Atirï¿½cï¿½ntira Athirajendra Atitta Aditya Avaniyï¿½lappirantï¿½r Avraaham Abraham 
-			Brahmamï¿½rï¿½yar Cadayan Cankili Cataiyavarman Sadayavarman Catturukï¿½lamakalï¿½tittan Cayantavarman 
+			Amarapuyankan Amarabhujanga Aparâcita Aparajita Aparâcitavarman Aparajitavarman Appûtaiyân 
+			Arikêcari Arikesari Ariñcaya Arinjaya Arulmolitêvar 
+			Arulmolivarman Atirâcêntira Athirajendra Atitta Aditya Avaniyâlappirantâr Avraaham Abraham 
+			Brahmamârâyar Cadayan Cankili Cataiyavarman Sadayavarman Catturukâlamakalâtittan Cayantavarman 
 			Jayantavarman
-			Celiyancentan Cekarï¿½cacï¿½karan Segarajasekaran Cevakattevan Ceyavï¿½ra Chaacko Jacob Chaandy 
-			Alexander Cimmavisnu Simhavishnu Cinkapï¿½ku Singhabahu Civakkoluntï¿½n Cuntara Sundara 
-			Cï¿½ramutaiyï¿½n Cï¿½ttanï¿½n 
-			Cï¿½vallapa Seervallabha Cï¿½vallapan Seervallabhan Daniyel Daniel Eappen Stephen Eccavarï¿½kan Eisow 
-			Jesus Impï¿½nï¿½yarpattan Irattapadikonda Irï¿½cacimman Rajasingan Irï¿½cakecaripanmar Irï¿½carï¿½ca 
+			Celiyancentan Cekarâcacêkaran Segarajasekaran Cevakattevan Ceyavîra Chaacko Jacob Chaandy 
+			Alexander Cimmavisnu Simhavishnu Cinkapâku Singhabahu Civakkoluntân Cuntara Sundara 
+			Câramutaiyân Câttanân 
+			Cîvallapa Seervallabha Cîvallapan Seervallabhan Daniyel Daniel Eappen Stephen Eccavarâkan Eisow 
+			Jesus Impânâyarpattan Irattapadikonda Irâcacimman Rajasingan Irâcakecaripanmar Irâcarâca 
 			Rajaraja 
-			Irï¿½cï¿½cekara Rajasekhara Irï¿½cï¿½tirï¿½ca Rajadhiraja Irï¿½cï¿½tirï¿½catevar Irï¿½cï¿½titta Rajaditya 
-			Irï¿½cï¿½ntira Rajendra Ittac Isaac Iyob Job Kadarangkonda Kanakacï¿½riya Kantarï¿½titta Gandarditya 
-			Karaikkiyemarrayilaiyï¿½n Karunandadakkan Karunandan Katunkon Kilï¿½n Kirï¿½marï¿½capattan Kontï¿½n Kossy 
-			Joshua Kotukulapattan Kulacï¿½kara Kulasekhara Kulacï¿½karan Kulasekharan 
-			Kulï¿½ttunka Kulothunga Kunapï¿½sana Kunavï¿½ra Kurian Cyrus Kutameratiruvatikal Kï¿½pperuï¿½cimman 
-			Kopperunchinga Lukose Luke Makï¿½ntiravarman Mahendravarman Manappï¿½kkï¿½lan 
-			Manavï¿½lapperumï¿½l Munnï¿½rruvappattan Mï¿½mpï¿½kkamutaiyï¿½n Mï¿½naticcuran Mï¿½rapanmar Mï¿½ravarman 
-			Maravarman Mï¿½rkantaiyan Markose Marcus Mï¿½tevapattan Mï¿½tevipattan Nantivarman Nandivarman 
-			Naracimmavarman Narasimhavarman Nirupatunkavarman Nirupatonkavarman Niyï¿½yaparipï¿½lapattan 
-			Nï¿½rpattennï¿½yirapattan Nï¿½tittaï¿½cï¿½ttan Pantï¿½ram Pandaram 
-			Parakesaripanmar Paramï¿½svaravarman Parameswaravarman Paranirupacinkam Paranirupasingham 
-			Pararï¿½cacï¿½karan Pararajasekharan Parï¿½kkirama Parakrama 
-			Parï¿½nkucan Parankusan Parï¿½ntaka Parantaka Pathrose Peter Paï¿½cavan Paulose Paul Periyapillai 
-			Perumï¿½l Peruï¿½cintevar Piramï¿½rï¿½yan Piyliypaos Philip Puvirï¿½ca Puviraja Pï¿½kkilï¿½n Pï¿½larï¿½vï¿½yan 
+			Irâcâcekara Rajasekhara Irâcâtirâca Rajadhiraja Irâcâtirâcatevar Irâcâtitta Rajaditya 
+			Irâcêntira Rajendra Ittac Isaac Iyob Job Kadarangkonda Kanakacûriya Kantarâtitta Gandarditya 
+			Karaikkiyemarrayilaiyân Karunandadakkan Karunandan Katunkon Kilân Kirâmarâcapattan Kontân Kossy 
+			Joshua Kotukulapattan Kulacêkara Kulasekhara Kulacêkaran Kulasekharan 
+			Kulôttunka Kulothunga Kunapûsana Kunavîra Kurian Cyrus Kutameratiruvatikal Kôpperuñcimman 
+			Kopperunchinga Lukose Luke Makêntiravarman Mahendravarman Manappâkkîlan 
+			Manavâlapperumâl Munnûrruvappattan Mâmpâkkamutaiyân Mânaticcuran Mârapanmar Mâravarman 
+			Maravarman Mârkantaiyan Markose Marcus Mâtevapattan Mâtevipattan Nantivarman Nandivarman 
+			Naracimmavarman Narasimhavarman Nirupatunkavarman Nirupatonkavarman Niyâyaparipâlapattan 
+			Nârpattennâyirapattan Nâtittañcâttan Pantâram Pandaram 
+			Parakesaripanmar Paramêsvaravarman Parameswaravarman Paranirupacinkam Paranirupasingham 
+			Pararâcacêkaran Pararajasekharan Parâkkirama Parakrama 
+			Parânkucan Parankusan Parântaka Parantaka Pathrose Peter Pañcavan Paulose Paul Periyapillai 
+			Perumâl Peruñcintevar Piramârâyan Piyliypaos Philip Puvirâca Puviraja Pâkkilân Pâlarâvâyan 
 			Ranatitta Ranaditya 
-			Ranatï¿½ran Ranadhiran Ravivarman Samuel Samuel Tantivarman Dantivarman Tennavan Thoma Thomas 
-			Tiruccirrampalapattan Tirunattapperumï¿½l Tirupuvanavï¿½ratevar Tripuvanacakkaravattikal 
-			Uravï¿½kkinï¿½n Utaiya Udaya Uttama Varakunan Varagunan Varakunavarman Varagunavarman Varï¿½taya 
-			Varughese George Vellantï¿½nkinï¿½n Vicayï¿½laya Vijayalaya Vicayï¿½raka Vijayaraga 
-			Vicayï¿½titta Vijayaditya Vikkirama Vikramï¿½tittï¿½ Vikramaditya Viranï¿½rï¿½yanapattan 
-			Virï¿½cakecaripanmar Vï¿½racï¿½kara Virasekhara Vï¿½rakï¿½cari Virakhesari 
-			Vï¿½rarï¿½cï¿½ntira Virarajendra Vï¿½rï¿½taya Virodaya Yohannaan John Yosef Joseph Zacharria Zachariah 
-			ï¿½ccinataratippan ï¿½nï¿½rrenmanpiccan ï¿½yirattalipattan
+			Ranatîran Ranadhiran Ravivarman Samuel Samuel Tantivarman Dantivarman Tennavan Thoma Thomas 
+			Tiruccirrampalapattan Tirunattapperumâl Tirupuvanavîratevar Tripuvanacakkaravattikal 
+			Uravâkkinân Utaiya Udaya Uttama Varakunan Varagunan Varakunavarman Varagunavarman Varôtaya 
+			Varughese George Vellantânkinân Vicayâlaya Vijayalaya Vicayâraka Vijayaraga 
+			Vicayâtitta Vijayaditya Vikkirama Vikramâtittâ Vikramaditya Viranârâyanapattan 
+			Virâcakecaripanmar Vîracêkara Virasekhara Vîrakêcari Virakhesari 
+			Vîrarâcêntira Virarajendra Vîrôtaya Virodaya Yohannaan John Yosef Joseph Zacharria Zachariah 
+			Âccinataratippan Ânûrrenmanpiccan Âyirattalipattan
 		}
 		female_names = {
-			Aaleyaamma Elizabeth Accamma Rebecca Accattï¿½vi Annamma Anna Aiyyï¿½rratikal Akkï¿½ranankayï¿½r 
-			Amittiravalli Ammaiyï¿½lvi Ammakkanï¿½r Ammankï¿½tï¿½vi Ammangadevi Ankï¿½ti Aramutaiyï¿½l 
-			Aricukï¿½ti Ariyapillai Ariï¿½cikai Ariï¿½cikaipirï¿½tti Ariï¿½cikaippirï¿½ttiyï¿½r Arulmolinankaiyï¿½r 
-			Aruvanki Atavallï¿½l Atittapatï¿½riyï¿½r Atittapitï¿½ri 
-			Atittapitï¿½riyï¿½r Atticapitï¿½riyï¿½r Avutaiyï¿½lccï¿½ni Cankï¿½ni Cantirï¿½dï¿½vi Cenkulam Ceyyacï¿½lam 
-			Ceyyavï¿½ymani Civatï¿½vi Civallapatevi 
-			Corappaiyï¿½r Cï¿½muntappai Cï¿½ramankai Cï¿½lamï¿½tï¿½vi Eccumantai Eluvanai Eluvattï¿½r Etuttapï¿½tam 
-			Irï¿½cinkam Irï¿½cï¿½ticci Irï¿½cacuntari 
-			Kalacci Kalicci Kanavati Kannapparaciyï¿½r Kantiyï¿½r Kariyamï¿½tï¿½vi Karumï¿½nikkam Kaucalaiyï¿½r 
-			Kavatiyakkan Kaï¿½ciakkan Kutitï¿½nkinï¿½l 
-			Kuï¿½caramalli Kuï¿½ciramalli Kï¿½muttiri Kï¿½raikkï¿½l Kï¿½kilï¿½nadigal Kï¿½lï¿½liyï¿½r Kï¿½malavalli 
-			Kï¿½yinï¿½ccipitï¿½riyï¿½r Kï¿½rrantï¿½vi Kï¿½ttï¿½tunï¿½cci 
-			Mahï¿½deviyï¿½r Malaiyamï¿½n Malapï¿½ti Maraikkï¿½tu Maï¿½cavi Mï¿½nikkam Mariamma MariMï¿½tï¿½vatikal 
-			Mï¿½tï¿½vatikalï¿½r Nakarattï¿½l Naltï¿½viyï¿½r Namaiyï¿½r Nankaiyï¿½r Nantirinankai 
-			Netuntukkai Nilammai Nimmatikal Nï¿½cci Nï¿½cciyï¿½lvi Nï¿½rani Nï¿½rï¿½yani Nï¿½ï¿½cï¿½ri Nï¿½lakanti Nï¿½liyï¿½r 
-			Olimatiyï¿½r Orriï¿½lvi Pavitram Pennaraciyï¿½r 
-			Peranankai Periyanï¿½cci Perrappai Pillayï¿½lvi Piramaccï¿½ni Piratamï¿½tevi Pirriccï¿½ni Pollï¿½tapillai 
-			Pommavï¿½yi Ponnampalattatikalï¿½r Punniyavï¿½tti Pï¿½vï¿½nti
-			Raahelamma Rachel Rï¿½catï¿½viyï¿½r Rï¿½cakï¿½cari Sï¿½mavï¿½yi Saramma Sarah Sosamma Susan Taturï¿½ntakiyï¿½r 
-			Tavaï¿½ceytï¿½l Tayï¿½nitiyï¿½r Thresiamma Teresa Tirumï¿½lattï¿½nam Tiruvaranki Tiruvennï¿½val Tiruvï¿½naikkï¿½vi 
-			Tiruvï¿½nkatam Tunaiyiruntï¿½lcï¿½ni Tï¿½natonkiyï¿½r Tï¿½cappukal Tï¿½mpï¿½vai Tï¿½vï¿½nrï¿½l Tï¿½nkï¿½nai Umaiyï¿½lvï¿½r 
-			Utaiyaval Utaiyaï¿½ceytï¿½l Vaccavaiyï¿½r 
-			Varakuni Vatavï¿½yil Venankai Vennï¿½val Vicciyakkan Viccï¿½tiri Vikkiramï¿½titti Viraiyï¿½ccilai Vitari 
-			Vï¿½navanmï¿½tï¿½vi "Mangammal" "Meenakshi" "Velunatchiyar"
+			Aaleyaamma Elizabeth Accamma Rebecca Accattêvi Annamma Anna Aiyyârratikal Akkâranankayâr 
+			Amittiravalli Ammaiyâlvi Ammakkanâr Ammankâtêvi Ammangadevi Ankâti Aramutaiyâl 
+			Aricukâti Ariyapillai Ariñcikai Ariñcikaipirâtti Ariñcikaippirâttiyâr Arulmolinankaiyâr 
+			Aruvanki Atavallâl Atittapatâriyâr Atittapitâri 
+			Atittapitâriyâr Atticapitâriyâr Avutaiyâlccâni Cankâni Cantirâdêvi Cenkulam Ceyyacôlam 
+			Ceyyavâymani Civatêvi Civallapatevi 
+			Corappaiyâr Câmuntappai Cêramankai Côlamâtêvi Eccumantai Eluvanai Eluvattûr Etuttapâtam 
+			Irâcinkam Irâcâticci Irâcacuntari 
+			Kalacci Kalicci Kanavati Kannapparaciyâr Kantiyûr Kariyamâtêvi Karumânikkam Kaucalaiyâr 
+			Kavatiyakkan Kañciakkan Kutitânkinâl 
+			Kuñcaramalli Kuñciramalli Kâmuttiri Kâraikkâl Kôkilânadigal Kôlâliyâr Kômalavalli 
+			Kôyinâccipitâriyâr Kûrrantêvi Kûttâtunâcci 
+			Mahâdeviyâr Malaiyamân Malapâti Maraikkâtu Mañcavi Mânikkam Mariamma MariMâtêvatikal 
+			Mâtêvatikalâr Nakarattâl Naltêviyâr Namaiyâr Nankaiyâr Nantirinankai 
+			Netuntukkai Nilammai Nimmatikal Nâcci Nâcciyâlvi Nârani Nârâyani Nâñcûri Nîlakanti Nîliyâr 
+			Olimatiyâr Orriâlvi Pavitram Pennaraciyâr 
+			Peranankai Periyanâcci Perrappai Pillayâlvi Piramaccâni Piratamâtevi Pirriccâni Pollâtapillai 
+			Pommavâyi Ponnampalattatikalâr Punniyavâtti Pûvânti
+			Raahelamma Rachel Râcatêviyâr Râcakêcari Sâmavâyi Saramma Sarah Sosamma Susan Taturântakiyâr 
+			Tavañceytâl Tayânitiyâr Thresiamma Teresa Tirumûlattânam Tiruvaranki Tiruvennâval Tiruvânaikkâvi 
+			Tiruvênkatam Tunaiyiruntâlcâni Tânatonkiyâr Têcappukal Têmpâvai Têvânrâl Tûnkânai Umaiyâlvâr 
+			Utaiyaval Utaiyañceytâl Vaccavaiyâr 
+			Varakuni Vatavâyil Venankai Vennâval Vicciyakkan Viccâtiri Vikkiramâtitti Viraiyâccilai Vitari 
+			Vânavanmâtêvi "Mangammal" "Meenakshi" "Velunatchiyar"
 		}
 	}
 	telegu = {
@@ -7980,8 +7980,8 @@ mande = {
 			Askia Sonni 
 		}
 		male_names = {
-			"Muhammad" "Karbifo" "Mar Fai" "Mar-Arkana" "Mar Arandan" "Sulaymï¿½n" "`Alï¿½ Ber" "Bakarï¿½" "Mï¿½sï¿½" "Ismï¿½`ï¿½l" 
-			"Ishï¿½q" "Dï¿½`ï¿½d" "Nï¿½h" "Hï¿½rï¿½n" "al-Amï¿½n" "Hanga" "Samsu" "Harangi" "Silman" "Abu Bakr" "Fodi Mayrumfa"	 
+			"Muhammad" "Karbifo" "Mar Fai" "Mar-Arkana" "Mar Arandan" "Sulaymân" "`Alî Ber" "Bakarî" "Mûsâ" "Ismâ`îl" 
+			"Ishâq" "Dâ`ûd" "Nûh" "Hârûn" "al-Amîn" "Hanga" "Samsu" "Harangi" "Silman" "Abu Bakr" "Fodi Mayrumfa"	 
 			"Al-Mustafa" "Harun" "Tomo" "Bassaru Missi" "Bumi" "Koyze Baba" "Wankoy" "Mar Kiray" "Bakr Zanku" "Salman" 
 			"Birahim" "Hammadi" "Al-Mansur" "`Ammar" "Sa`id" "`Abd Allah" "Nasr" "Yahya" "Yusuf" 
 		}
@@ -8049,24 +8049,24 @@ mande = {
 		}
 	}
 	male_names = {
-		Abi-Bakr Abubakari Akoi Alayaman Ali Ali Ali-Fay Ali-Kolon Ali-Zalil Badï¿½ Bakr Bakr-Kanbu Bamari Bankanu
-		Bannu Bassarou Bassi Birama Bisi Biyu Bonga Cisse Dankaran Daoud David Dawud David Demba Diara Dï¿½ru
-		Faga-Laye Fatta Fodi Fuluku Fï¿½dazu Gane Gao Hargani Harun Igoumou Ishaq Isaac Ismail Ismail Kabayo Kalabi Kambine
-		Kanafa Kassa Kasseï¿½ Kaya Kayna Kinkin Kisha Kodama Koï¿½zï¿½ Kukuray Kusoy Lahiltoul M'Bali Maammarou Maghan
-		Mahmud Mahmud Majan Malla Mamadi Mamoudou Manding-Bory Mari-Djata Maï¿½roumfa Missi-Izï¿½ Morobani Musa Moses
-		Nintasanay Nuh Ouali Ouankoï¿½ Ouati Reidja Sakoura Salman Solomon Samsou-Bï¿½ri Samsou-Keï¿½na Sandaki Soumaba
+		Abi-Bakr Abubakari Akoi Alayaman Ali Ali Ali-Fay Ali-Kolon Ali-Zalil Badä Bakr Bakr-Kanbu Bamari Bankanu
+		Bannu Bassarou Bassi Birama Bisi Biyu Bonga Cisse Dankaran Daoud David Dawud David Demba Diara Düru
+		Faga-Laye Fatta Fodi Fuluku Fädazu Gane Gao Hargani Harun Igoumou Ishaq Isaac Ismail Ismail Kabayo Kalabi Kambine
+		Kanafa Kassa Kasseï Kaya Kayna Kinkin Kisha Kodama Koïzé Kukuray Kusoy Lahiltoul M'Bali Maammarou Maghan
+		Mahmud Mahmud Majan Malla Mamadi Mamoudou Manding-Bory Mari-Djata Maÿroumfa Missi-Izé Morobani Musa Moses
+		Nintasanay Nuh Ouali Ouankoÿ Ouati Reidja Sakoura Salman Solomon Samsou-Béri Samsou-Keïna Sandaki Soumaba
 		Soumaoro Soundiata Sulayman Solomon Takoi Tib Tomo Thomas Tunka Umar Umar Yama Yaqub Jacob Yasiboy Zakoi Zenku
 	}
 	female_names = {
 		Adja Aichata Aissata Alima Aminata Amita Aoua Barakissa Bintou Deye Djeneba Djenly Djire Fadima
-		Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam Nafissa Namandjï¿½ Namiss Nana
-		Safiatou Salimata Sassouma Sidibï¿½ Siya Sogolon Tekhaye Youma Zeï¿½nab
+		Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam Nafissa Namandjé Namiss Nana
+		Safiatou Salimata Sassouma Sidibé Siya Sogolon Tekhaye Youma Zeïnab
 	}
 	dynasty_names = {
 		# CKII
-		"Cisse" "Diarisso" "Keita" "Beretï¿½" "Kï¿½djou" "Moussa" "Zuwa" "Sonni" "Askiya" "Konare" "Traorï¿½" "Modibo" "Toumani" 
+		"Cisse" "Diarisso" "Keita" "Bereté" "Kédjou" "Moussa" "Zuwa" "Sonni" "Askiya" "Konare" "Traoré" "Modibo" "Toumani" 
 		"Gurmanche" "Buricimba" "Nungu" "Mossi" "Habe" "of Zarma" "of Gurma" "of Djenne" "of Bambuk" "Ezekoye" "Sahara" 
-		"Oualata" "Bambuk" "Gurma" "Djennï¿½" "Tadmekka"
+		"Oualata" "Bambuk" "Gurma" "Djenné" "Tadmekka"
 	}
 }
 
@@ -8077,7 +8077,7 @@ sahelian = {
 		primary = HAU
 		dynasty_names = {
 			Azna "Yan Korau" Dadi Yaji Saibou Bakara Mamami
-			Kountchï¿½ Diore Balewa Aluko Bandele Kanu Kuti
+			Kountché Diore Balewa Aluko Bandele Kanu Kuti
 		}
 		male_names = {
 			"Chiroma" "Yakubu" "Muhammad" "'Abdullahi" "Da'uda Abasama" "Abu Bakr Kado" "Yakufu" "Kutambi" "Alhaji" 
@@ -8159,15 +8159,15 @@ sahelian = {
 			"N'guidjim" Kassawa Gaswa Madawa Fadwa Kiliti Argumba
 		}
 		male_names = {
-			"Djil Essa Tubo" "Tshï¿½roma" "Madgashï¿½" "Mada Saxair" "Mat Kurtu" "Djourab el Kabir" "Mortcho" 
-			"Djourab el Mongo" "Dogo Arma" "Balkashï¿½" "Djourab Saxair" "Moussa Mortcho" "Bayï¿½ Mortcho" 
-			"Hassan Baikouma" "Djili" "Gadai" "Hassan Absakin" "Tschï¿½roma Abdallah" "Hassan Abba" "Oumar Abba" "Malik" 
+			"Djil Essa Tubo" "Tshéroma" "Madgashé" "Mada Saxair" "Mat Kurtu" "Djourab el Kabir" "Mortcho" 
+			"Djourab el Mongo" "Dogo Arma" "Balkashé" "Djourab Saxair" "Moussa Mortcho" "Bayé Mortcho" 
+			"Hassan Baikouma" "Djili" "Gadai" "Hassan Absakin" "Tschéroma Abdallah" "Hassan Abba" "Oumar Abba" "Malik" 
 			"Haris" "Oumar" "Dikhoma" "Fanna" "Ariso" "Kader" "Waima" "Balwa" "Araki" "Beiso" "Al Djelil" "Dounouma" 
 			"Alio" "Idris Am Sami" "Brahim" "Dil Zei Nebi" "Maidakin Abami" "Chagrami" "Beyra" "Keda" "Djil Goumsoumi" 
 			"Al el Qatil"
 		}
 		female_names = {
-			"Aikachï¿½" "Khadidja" "Aichï¿½" "Fatimï¿½" Aamina Adila Afaf Afra Aida 'aisha A'isha Aisha Akilah Alia Alina Aliya 
+			"Aikaché" "Khadidja" "Aiché" "Fatimé" Aamina Adila Afaf Afra Aida 'aisha A'isha Aisha Akilah Alia Alina Aliya 
 			Aliyah Aliyya Aliyyah Almas Alya Amal Amani Amina Aminah Amira Amirah Amna Anisa Aqila Arij Arwa Ashraqat 
 			Asma Asmaa Asra Atifa Atiya Ayda Ayesha Ayishah Azra Badr Bahiga Bahija Bahiyya Basima Basira Basma Batul 
 			Budur Dalal Dana Dania Daniyah Dema Dima Djamila Dua Duha Fadia Fadila Fahima Fairuz Faiza Fajr Fakhriyya 
@@ -8200,15 +8200,15 @@ sahelian = {
 			"N'guidjim" Kassawa Gaswa Madawa Fadwa Kiliti Argumba
 		}
 		male_names = {
-			"Djil Essa Tubo" "Tshï¿½roma" "Madgashï¿½" "Mada Saxair" "Mat Kurtu" "Djourab el Kabir" "Mortcho" 
-			"Djourab el Mongo" "Dogo Arma" "Balkashï¿½" "Djourab Saxair" "Moussa Mortcho" "Bayï¿½ Mortcho" 
-			"Hassan Baikouma" "Djili" "Gadai" "Hassan Absakin" "Tschï¿½roma Abdallah" "Hassan Abba" "Oumar Abba" "Malik" 
+			"Djil Essa Tubo" "Tshéroma" "Madgashé" "Mada Saxair" "Mat Kurtu" "Djourab el Kabir" "Mortcho" 
+			"Djourab el Mongo" "Dogo Arma" "Balkashé" "Djourab Saxair" "Moussa Mortcho" "Bayé Mortcho" 
+			"Hassan Baikouma" "Djili" "Gadai" "Hassan Absakin" "Tschéroma Abdallah" "Hassan Abba" "Oumar Abba" "Malik" 
 			"Haris" "Oumar" "Dikhoma" "Fanna" "Ariso" "Kader" "Waima" "Balwa" "Araki" "Beiso" "Al Djelil" "Dounouma" 
 			"Alio" "Idris Am Sami" "Brahim" "Dil Zei Nebi" "Maidakin Abami" "Chagrami" "Beyra" "Keda" "Djil Goumsoumi" 
 			"Al el Qatil"
 		}
 		female_names = {
-			"Aikachï¿½" "Khadidja" "Aichï¿½" "Fatimï¿½" Aamina Adila Afaf Afra Aida 'aisha A'isha Aisha Akilah Alia Alina Aliya 
+			"Aikaché" "Khadidja" "Aiché" "Fatimé" Aamina Adila Afaf Afra Aida 'aisha A'isha Aisha Akilah Alia Alina Aliya 
 			Aliyah Aliyya Aliyyah Almas Alya Amal Amani Amina Aminah Amira Amirah Amna Anisa Aqila Arij Arwa Ashraqat 
 			Asma Asmaa Asra Atifa Atiya Ayda Ayesha Ayishah Azra Badr Bahiga Bahija Bahiyya Basima Basira Basma Batul 
 			Budur Dalal Dana Dania Daniyah Dema Dima Djamila Dua Duha Fadia Fadila Fahima Fairuz Faiza Fajr Fakhriyya 
@@ -8238,7 +8238,7 @@ sahelian = {
 		primary = AIR
 		dynasty_names = {
 			Magsharen Stanbulewa "Ait Loaien" "Dag Rali" Iregenaten
-			"Kel Rela" "Kel Silet" Taituq "Tgï¿½hï¿½ Millet" "Kel Afella"
+			"Kel Rela" "Kel Silet" Taituq "Tgéhé Millet" "Kel Afella"
 			"Kel Taghlit" "Kel Essouk" "Kel Ouzzeyn" Ifergoumessen Iriyaken
 			"Taghat Mellet" Idnan
 		}
@@ -8248,10 +8248,10 @@ sahelian = {
 			Ahmad Aytarel Attici Musa Akhamuk Meslar Bayy
 		}
 		female_names = {
-			"Tin Hinan" Takama Tanteflest Tarayna Aygul Aygï¿½n AylIn Aynur Aysel Fatma FIdan Firuza Gulnar Gulnara 
-			Gï¿½nay Gï¿½nel Konul Leyla Parvana Parvin Sevda SevInc SevInj Tarana Vï¿½sala Zemfira Zeynab
+			"Tin Hinan" Takama Tanteflest Tarayna Aygul Aygün AylIn Aynur Aysel Fatma FIdan Firuza Gulnar Gulnara 
+			Günay Günel Konul Leyla Parvana Parvin Sevda SevInc SevInj Tarana Vüsala Zemfira Zeynab
 		}
-	}		
+	}	
 	senegambian = {
 		primary = JOL
 		dynasty_names = {
@@ -8357,15 +8357,15 @@ west_african = {
 		dynasty_names = {
 			Ajahutonon Ahosu Assogba Ahyi
 			Tometin Koukou Sessegnon
-			Sï¿½ka Sinzogan
+			Séka Sinzogan
 		}
 		male_names = {
 			Agaja Doaklin Gangnihessou Dakodonou Houebadja Akaba Tegbessou Kpengla Agonglo Adandozan Ghezo Glele 
-			Behanzin Agoli-agbo Aidododo Togni-ahoussou Agolli-Agbo Houï¿½dogni Kokpon Te-Agdanlin Dosu Agbo Sassa Huffon 
+			Behanzin Agoli-agbo Aidododo Togni-ahoussou Agolli-Agbo Houédogni Kokpon Te-Agdanlin Dosu Agbo Sassa Huffon 
 			Adoma Tomo
 		}
 		female_names = {
-			Hangbe Sehdong Hongbe Nawi Afyavi Ahwlikponuwa Asiba Ayï¿½bï¿½ Abagbe Abegi Abeje Oluremi Winona Isi Abeni 
+			Hangbe Sehdong Hongbe Nawi Afyavi Ahwlikponuwa Asiba Ayàbà Abagbe Abegi Abeje Oluremi Winona Isi Abeni 
 			Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
 			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
 			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
@@ -8386,7 +8386,7 @@ west_african = {
 			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
 		}
 		female_names = {
-			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Aï¿½uli Chi 
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi 
 			Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika  
 			Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere 
 			Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru 
@@ -8404,7 +8404,7 @@ west_african = {
 			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
 		}
 		female_names = {
-			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Aï¿½uli Chi Chiamaka Chibueze 
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
 			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
 			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
 			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
@@ -8534,8 +8534,8 @@ kongo_group = {
 		Lukeni Loanga Kalumbwe Kikondja Imbangala Kasanje Shila Kazembe Lunda Kuba
 	}
 	male_names = {
-		Garcia ï¿½lvaro Pedro Afonso Ntinu Nkuwu Henrique Antï¿½nio Bernardo Josï¿½ Ambrï¿½sio Aleixo Andrï¿½ Daniel Diogo 
-		Nicolau Nzinga Nkuwa Sebastiï¿½o Ilunga Sanza Kumwimba Kasongo Kekenya Kaumbo Miketo Nday Mwine Maloba 
+		Garcia Álvaro Pedro Afonso Ntinu Nkuwu Henrique António Bernardo José Ambrósio Aleixo André Daniel Diogo 
+		Nicolau Nzinga Nkuwa Sebastião Ilunga Sanza Kumwimba Kasongo Kekenya Kaumbo Miketo Nday Mwine Maloba 
 		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba
 	}
 	female_names = {
@@ -8639,8 +8639,8 @@ african = {	#Eastern Bantu Groups
 			Nabahani al-Mawahib Zanzibari Mvita al-Malindi
 		}
 		male_names = {
-			Husayn Muhammad Sulaymï¿½n Ahmad Hasan Sa'ï¿½d 'Abd Allï¿½h 'Alï¿½ Ibrï¿½hï¿½m al-Fudail Abï¿½ Bakr Sabo al-Hasan 
-			Munganaye Yï¿½suf Bwana Mkuu Mas'ï¿½d Bwana Tamu Fumo Madi Makame Mwinyi Ahmad Sa'if Nasr Salih Fumo Luti Bwana 
+			Husayn Muhammad Sulaymân Ahmad Hasan Sa'îd 'Abd Allâh 'Alî Ibrâhîm al-Fudail Abû Bakr Sabo al-Hasan 
+			Munganaye Yûsuf Bwana Mkuu Mas'ûd Bwana Tamu Fumo Madi Makame Mwinyi Ahmad Sa'if Nasr Salih Fumo Luti Bwana 
 			Waziri Bwana Shaykh Fumo Bakari Fumo Umar Khamis Rashid Mwinyi Hasan Kombo Ngwale Ngwacani Athmani 'Alawi 
 			Twakali Janfar Muksedi
 		}
@@ -8765,11 +8765,11 @@ cushitic = {
 	oromo = {
 		primary = JIM
 		male_names = {
-			"Taqla Hï¿½ymï¿½nï¿½t" "'Amsa Gï¿½yï¿½rgï¿½s" "Tuqla Gï¿½yï¿½rgï¿½s" "Zar'a Yï¿½qob" "Ba'eda Mï¿½ryï¿½m" "'Amda Seyï¿½n" "Lebna" 
+			"Taqla Hâymânôt" "'Amsa Gîyôrgîs" "Tuqla Gîyôrgîs" "Zar'a Yâqob" "Ba'eda Mâryâm" "'Amda Seyôn" "Lebna" 
 			"Saga Krestos" "Malta Krestos" "Dengel" "Welde Giyorgis" "Mika'el Sehul" "Wolda Gabrael" "Wand Bewossen" 
-			"Amda Seyon" "Sarsa Dengel" Iyï¿½sï¿½ Quastantï¿½nï¿½s Salï¿½mï¿½n Yï¿½hannes Hezqeyï¿½s Nï¿½'ï¿½d Galï¿½wdï¿½wï¿½s Mï¿½nï¿½s Yï¿½'qob 
-			Sï¿½senyï¿½s Fï¿½sï¿½ladas Tï¿½wï¿½flï¿½s Yï¿½stï¿½s Yï¿½nas Dï¿½wï¿½t Demetros Gï¿½yï¿½rgï¿½s Fiqtor Menas Marqos Hamalmal Fï¿½sï¿½l 
-			'Endreyï¿½s Yeshaq Mika'el Antenatewos Gusho Haile
+			"Amda Seyon" "Sarsa Dengel" Iyâsû Quastantînôs Salômôn Yôhannes Hezqeyâs Nâ'ôd Galâwdêwôs Mînâs Yâ'qob 
+			Sûsenyôs Fâsîladas Têwôflôs Yôstôs Yônas Dâwît Demetros Gîyôrgîs Fiqtor Menas Marqos Hamalmal Fâsîl 
+			'Endreyâs Yeshaq Mika'el Antenatewos Gusho Haile
 		}
 		female_names = {
 			Abeba Hagos Tenagne Habesha Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana Bathsheba Bekele 
@@ -8780,11 +8780,11 @@ cushitic = {
 	tigray = {
 		primary = MED
 		male_names = {
-			"Taqla Hï¿½ymï¿½nï¿½t" "'Amsa Gï¿½yï¿½rgï¿½s" "Tuqla Gï¿½yï¿½rgï¿½s" "Zar'a Yï¿½qob" "Ba'eda Mï¿½ryï¿½m" "'Amda Seyï¿½n" "Lebna" 
+			"Taqla Hâymânôt" "'Amsa Gîyôrgîs" "Tuqla Gîyôrgîs" "Zar'a Yâqob" "Ba'eda Mâryâm" "'Amda Seyôn" "Lebna" 
 			"Saga Krestos" "Malta Krestos" "Dengel" "Welde Giyorgis" "Mika'el Sehul" "Wolda Gabrael" "Wand Bewossen" 
-			"Amda Seyon" "Sarsa Dengel" Iyï¿½sï¿½ Quastantï¿½nï¿½s Salï¿½mï¿½n Yï¿½hannes Hezqeyï¿½s Nï¿½'ï¿½d Galï¿½wdï¿½wï¿½s Mï¿½nï¿½s Yï¿½'qob 
-			Sï¿½senyï¿½s Fï¿½sï¿½ladas Tï¿½wï¿½flï¿½s Yï¿½stï¿½s Yï¿½nas Dï¿½wï¿½t Demetros Gï¿½yï¿½rgï¿½s Fiqtor Menas Marqos Hamalmal Fï¿½sï¿½l 
-			'Endreyï¿½s Yeshaq Mika'el Antenatewos Gusho Haile
+			"Amda Seyon" "Sarsa Dengel" Iyâsû Quastantînôs Salômôn Yôhannes Hezqeyâs Nâ'ôd Galâwdêwôs Mînâs Yâ'qob 
+			Sûsenyôs Fâsîladas Têwôflôs Yôstôs Yônas Dâwît Demetros Gîyôrgîs Fiqtor Menas Marqos Hamalmal Fâsîl 
+			'Endreyâs Yeshaq Mika'el Antenatewos Gusho Haile
 		}
 		female_names = {
 			Abeba Hagos Tenagne Habesha Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana Bathsheba Bekele 
@@ -8796,10 +8796,10 @@ cushitic = {
 		primary = KAF
 		
 		male_names = {
-			"Minjo" "Iyï¿½sï¿½" "Taqla Hï¿½ymï¿½nï¿½t" "Salï¿½mï¿½n" "Yï¿½hannes" "Hezqeyï¿½s" "Zar'a Yï¿½qob" "Ba'eda Mï¿½ryï¿½m" 
-			"Quastantï¿½nï¿½s" "'Amda Seyï¿½n" "Nï¿½'ï¿½d" "Lebna Dengel" "Galï¿½wdï¿½wï¿½s" "Mï¿½nï¿½s" "Sarsa Dengel" "Yï¿½'qob" "Sï¿½senyï¿½s" 
-			"Fï¿½sï¿½ladas" "Tï¿½wï¿½flï¿½s" "Yï¿½stï¿½s" "Yï¿½nas" "Dï¿½wï¿½t" "'Amsa Gï¿½yï¿½rgï¿½s" "Tuqla Gï¿½yï¿½rgï¿½s" "Demetros" "Gï¿½yï¿½rgï¿½s" 
-			"Fiqtor" "Menas" "Marqos" "Hamalmal" "Saga Krestos" "Malta Krestos" "Fï¿½sï¿½l" "'Endreyï¿½s" "Yeshaq" "Mika'el" 
+			"Minjo" "Iyâsû" "Taqla Hâymânôt" "Salômôn" "Yôhannes" "Hezqeyâs" "Zar'a Yâqob" "Ba'eda Mâryâm" 
+			"Quastantînôs" "'Amda Seyôn" "Nâ'ôd" "Lebna Dengel" "Galâwdêwôs" "Mînâs" "Sarsa Dengel" "Yâ'qob" "Sûsenyôs" 
+			"Fâsîladas" "Têwôflôs" "Yôstôs" "Yônas" "Dâwît" "'Amsa Gîyôrgîs" "Tuqla Gîyôrgîs" "Demetros" "Gîyôrgîs" 
+			"Fiqtor" "Menas" "Marqos" "Hamalmal" "Saga Krestos" "Malta Krestos" "Fâsîl" "'Endreyâs" "Yeshaq" "Mika'el" 
 			"Amda Seyon" "Antenatewos" "Welde Giyorgis" "Mika'el Sehul" "Gusho" "Wand Bewossen" "Haile" "Wolda Gabrael" 
 		}
 		female_names = {
@@ -8864,35 +8864,35 @@ sudanese = {
 		"Hedareb" "Jarin" "Bisharin"
 	}
 	male_names = {
-		"'Amï¿½ra" "'Abd al-Qï¿½dir" "Nï¿½'l" "Dakï¿½n al-'Adil" "Dï¿½ra" "Taiyï¿½b" "Unsa" "Adlï¿½n" "Bï¿½dï¿½" "Rubï¿½t" "Nï¿½l" 
-		"Nï¿½sir" "Ranfi" "Eltecit" "Joel" "Koudlaniel" "Isawi" "Hashim" "Maqdum" "Awkal" "Hassan" "Agban" 
+		"'Amâra" "'Abd al-Qâdir" "Nâ'l" "Dakîn al-'Adil" "Dûra" "Taiyîb" "Unsa" "Adlân" "Bâdî" "Rubât" "Nûl" 
+		"Nâsir" "Ranfi" "Eltecit" "Joel" "Koudlaniel" "Isawi" "Hashim" "Maqdum" "Awkal" "Hassan" "Agban" 
 		"Abu Likayik" "Rajab" "Ahmad" "Rifaya" "Ibrahim" "Idris" "Tindhim" "'Abd al-Rahman" "Sulayman" "Yusuf" 
-		"Ya'qub" "Ismï¿½'ï¿½l" "Musa" "Muhammad" "Ishaq" "Halim" "Mustafa" "Abu Bakr" 
-		Aarï¿½n Aaron Aberikos Abraam Abraham Aï¿½gelos Angelus Andreas Andrew Athanasios Balï¿½ 
-		Bartholomaios Bartholomew Birï¿½l Chael Christophoros Dauid David Dimetheos Timothy
-		Dioskoros Diï¿½nisios Dionysus Eliezer Eionkouda Emmanouel Emmanuel Enï¿½ch Enoch Ephannï¿½ Epimachos 
+		"Ya'qub" "Ismâ'îl" "Musa" "Muhammad" "Ishaq" "Halim" "Mustafa" "Abu Bakr" 
+		Aarôn Aaron Aberikos Abraam Abraham Añgelos Angelus Andreas Andrew Athanasios Balô 
+		Bartholomaios Bartholomew Birêl Chael Christophoros Dauid David Dimetheos Timothy
+		Dioskoros Diônisios Dionysus Eliezer Eionkouda Emmanouel Emmanuel Enôch Enoch Ephannê Epimachos 
 		Epiphanios Gabriel Gabriel Gabrielkouda Gabrielophorou Gennatios Gennadius
-		Geï¿½rgios George Hï¿½lias Elias Hoase Jesse Hoassi Jesse Hoasse Jesse Iacob Jacob Ieremias 
-		Jeremiah Iï¿½sous Jesus Iï¿½sousinkouda Iï¿½annou Jonah Iï¿½annï¿½s John Iordanes Jordanes Ioseph Joseph 
+		Geôrgios George Hêlias Elias Hoase Jesse Hoassi Jesse Hoasse Jesse Iacob Jacob Ieremias 
+		Jeremiah Iêsous Jesus Iêsousinkouda Iôannou Jonah Iôannês John Iordanes Jordanes Ioseph Joseph 
 		Kalinikos Kallinikios Kollouthos
 		Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
 		Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
 		Marturophoros
-		Maï¿½anï¿½al Maththias Matthew Mï¿½lï¿½nkouda Mena Menankouda Merkourios Mercurius Michaï¿½l Michael 
-		Michaï¿½lkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
+		Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+		Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
 		Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
-		Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomï¿½n Solomon Sotinkouda Stephanos 
+		Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
 		Stephen
-		Stephanou Thadeosi Thaddeus Theodï¿½ros Theodore Theodosios Theodosius Theodote Theodat Thoma 
-		Thomas Tophï¿½na Tirsakouni Zacharias Zachary Zosima Zosimus
+		Stephanou Thadeosi Thaddeus Theodôros Theodore Theodosios Theodosius Theodote Theodat Thoma 
+		Thomas Tophêna Tirsakouni Zacharias Zachary Zosima Zosimus
 	}
 	female_names = {
-		Agathe Alethia Anthelia Athanasia Chaelsoï¿½oja Chrissa Christina Douriko Egaloskoura Eikkir 
-		Eionmnne Eionï¿½oka Eitou Elisabeth Elizabeth Eirena Eirene Eirota Eirotatouï¿½ï¿½lki
-		Entaeiri Eï¿½neille Ephannï¿½ Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
-		Genseoua Hellene Helen Hemene Iannia Joan Iï¿½sousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
-		Keudonia Kurake Kyriake Maraï¿½a Maria Maria Mariam Maria Mariane Marianou Michaï¿½liko Michaela 
-		ï¿½aï¿½ï¿½a ï¿½eï¿½ï¿½adena ï¿½ejin ï¿½ilesa ï¿½ojjl ï¿½oltou ï¿½onne ï¿½onnen ï¿½ouddl ï¿½ssitkitol Ouarenï¿½ Patrikia 
+		Agathe Alethia Anthelia Athanasia Chaelsoñoja Chrissa Christina Douriko Egaloskoura Eikkir 
+		Eionmnne Eionñoka Eitou Elisabeth Elizabeth Eirena Eirene Eirota Eirotatouññlki
+		Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
+		Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
+		Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
+		Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
 		Patricia Pelagia Gulzar Maram
 		Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
 		Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
@@ -8914,12 +8914,26 @@ evenks = {
 			Erchim Erkin Yrgel Kharyskhan
 		}
 		female_names = {
-			Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan 
+			Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana Temülen Börte Mandukhai Samar Zaufishan 
 		}
 	}
 	yakut = {
 		dynasty_names = {
 			Badarhan Tabangut 
+		}
+		male_names = {
+			Aiaan Atch-ytagyn Giv-ynkeev Nute-nli Gyrgol-gyrgyn Tanat Darkhan Dokhsun Duolan Dygyn Dulustaan Kyytymei 
+			Kencheeri Keskil Manchaary Michil Modun Nurgun Nuolan Sulustaan Tolluman Timir Tygyn Tuskul Uolan Ergis 
+			Erchim Erkin Yrgel Kharyskhan
+		}
+		female_names = {
+			Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana Temülen Börte Mandukhai Samar Zaufishan 
+		}
+	}
+	yukagyr = {
+		primary = HOD
+		dynasty_names = {
+			Uygulaan Khorints
 		}
 		male_names = {
 			Aiaan Atch-ytagyn Giv-ynkeev Nute-nli Gyrgol-gyrgyn Tanat Darkhan Dokhsun Duolan Dygyn Dulustaan Kyytymei 
@@ -8941,36 +8955,22 @@ evenks = {
 			Erchim Erkin Yrgel Kharyskhan
 		}
 		female_names = {
-			Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan 
+			Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana Temülen Börte Mandukhai Samar Zaufishan 
 		}
 	}
 	buryat = {
 		primary = BRT
 		dynasty_names = {
-			Badarhan "Chagatay" "Edigï¿½id" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
+			Badarhan "Chagatay" "Edigüid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
 		}
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtï¿½ Dayan Darayisung 
-			Delbeg Ejei Elbeg Engke Gï¿½yï¿½k Gï¿½n Gulichi Irinchibal Jorightu Kublai Kï¿½ke Ligdan Markï¿½rgis Mï¿½ngke Mulan 
-			Manduulun ï¿½ljei ï¿½rï¿½g Oyiradai ï¿½gï¿½dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temï¿½r Toghun Tï¿½men 
-			Tolui Toq Uskhal Yesï¿½n Ariq Batu Eljigidei Joichi
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan Darayisung 
+			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke Mulan 
+			Manduulun Öljei Örüg Oyiradai Ögödei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun Tümen 
+			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi
 		}
 		female_names = {
-			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan 
-		}
-	}
-	tungus = {
-		dynasty_names = {
-			Bulagat Ekhirit Khongodor
-		}
-		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtï¿½ Dayan Darayisung 
-			Delbeg Ejei Elbeg Engke Gï¿½yï¿½k Gï¿½n Gulichi Irinchibal Jorightu Kublai Kï¿½ke Ligdan Markï¿½rgis Mï¿½ngke Mulan 
-			Manduulun ï¿½ljei ï¿½rï¿½g Oyiradai ï¿½gï¿½dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temï¿½r Toghun Tï¿½men 
-			Tolui Toq Uskhal Yesï¿½n Ariq Batu Eljigidei Joichi
-		}
-		female_names = {
-			Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan 
+			Temülen Börte Mandukhai Samar Zaufishan 
 		}
 	}
 	manchu = {
@@ -9297,7 +9297,7 @@ lost_cultures_group = {
 			Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet
 		}
 		male_names = {
-			Bjï¿½rn Bamse Brum Grawr Nanuk Ursus Isbjorn Grrrowr Grrgrrr Rawr
+			Björn Bamse Brum Grawr Nanuk Ursus Isbjorn Grrrowr Grrgrrr Rawr
 		}
 		female_names = {
 			Brummelisa Ursa Brumma
@@ -9345,16 +9345,16 @@ lost_cultures_group = {
 	}
 	scanian = {
 		male_names = {
-			Anders Anund Asger Benedikt Bjï¿½rn Bo Christopher Daniel Edvard 
-			Einar Fredrik Gorm Grim Hï¿½rik 
-			Halfdan Halvor Harold Helge Hemming Hjalmar Ingolf Jï¿½rn Jacob Jens Joakim Johann
+			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard 
+			Einar Fredrik Gorm Grim Hårik 
+			Halfdan Halvor Harold Helge Hemming Hjalmar Ingolf Jørn Jacob Jens Joakim Johann
 			John Knut Kristian Lennart Ludvig Louis Malthe Mads Mikkel Michael 
-			Mogens Nicholas Odd Olav Peder Pridbjï¿½rn Ragnar Ragnvald Rolf Rune Rï¿½rik Rurik Severin 
-			Sigfred Sigtryg Sigurd Sivard Steen Sven Sï¿½mund Thorolf Thorvald Torben Torbjï¿½rn Glitterhov
-			Torbjï¿½rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Mogens Nicholas Odd Olav Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin 
+			Sigfred Sigtryg Sigurd Sivard Steen Sven Sämund Thorolf Thorvald Torben Torbjørn Glitterhov
+			Torbjörn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
 			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm 
 			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans Henrik 
-			Holger Jï¿½rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
 			Frans Gnupa
 		}
 		female_names = {
@@ -9364,50 +9364,50 @@ lost_cultures_group = {
 			Frederique Freja Grethe Gudrun Gunhild Gyda Gytha Helena Helen Ida Ingeborg Ingegerd Ingrid 
 			Johanne Jutta Karin Karoline Katarina Katrine Catherine Kirsten Klara Lise Luitgard Lykke
 			Magdalene Magdalena Maren Margrethe Margaret Maria Martha Ragnfrid Ragnhild Rikissa Runa 
-			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis ï¿½se ï¿½sa
+			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Åse Åsa
 		}
 		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gï¿½ye" "Trolle" "Rantzau"
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
 			"Friis" "Gyllenstierna" "Bille" "Adeler" "Arenstorff" "Brockenhuus"
 			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
 			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
 			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
 			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grï¿½n" "Daa"
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
 			"Reventlow" "Juul" "Ulfeldt" "Bang" 
-			Alfredsson Andersson Assarsson Batra Billgren Broman Ekberg Glans Gjedde Glenmark Hansson Jansson Ibrahimovic Jï¿½regï¿½rd Kulle Larsson Lohmander Lundberg Malmkvist Malmsjï¿½ Melander Mï¿½ller Nordqvist Nordstrï¿½m Ohlmarks Persson Poppe Ranelid Sundstrï¿½m Troell Wester Olsson
+			Alfredsson Andersson Assarsson Batra Billgren Broman Ekberg Glans Gjedde Glenmark Hansson Jansson Ibrahimovic Järegård Kulle Larsson Lohmander Lundberg Malmkvist Malmsjö Melander Möller Nordqvist Nordström Ohlmarks Persson Poppe Ranelid Sundström Troell Wester Olsson
 		}
 	}
 	anglosaxon = { #CK2
 		dynasty_names = {
-			Godhelming Beorming Eorling ï¿½bbing Hï¿½sting ï¿½lling Eadricing Eadwulfing Leodwalding
-			ï¿½thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmï¿½r Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornrï¿½d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenrï¿½d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthrï¿½d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmï¿½r Eadric
-			Eadrï¿½d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdrï¿½d Ealdwine
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
 			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwï¿½r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mï¿½rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osrï¿½d Osulf Osweald Oswine Oswulf Peter Rï¿½dwulf_Ralph Rï¿½genweald Scule
-			Sigeberht Sigehelm Sigeric Sigerï¿½d Sighere Siweard Stigand Swegn Swithelm Swithrï¿½d Swï¿½frï¿½d Sï¿½bert Sï¿½lrï¿½d Sï¿½weald
-			Sï¿½xbald Sï¿½xrï¿½d Thorï¿½d Thurcytel Thurfrith Tostig Uhtrï¿½d Ulfcytel Waltheof Werestan Wiglaf Wihtrï¿½d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmï¿½r Wulfnoth Wulfstan ï¿½lfgar ï¿½lfmï¿½r ï¿½lfnoth ï¿½lfric ï¿½lfrï¿½d_Alfred ï¿½lfsige
-			ï¿½lfstan ï¿½lfwald ï¿½lfweard ï¿½lfwig ï¿½lfwine ï¿½lle ï¿½thelbald ï¿½thelberht ï¿½thelfrith ï¿½thelhere ï¿½thelmï¿½r
-			ï¿½thelric ï¿½thelrï¿½d_Ailred ï¿½thelsige ï¿½thelstan ï¿½thelweald ï¿½thelweard ï¿½thelwine ï¿½thelwold ï¿½thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rï¿½dwald
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
 		}
 		female_names = {
-			Agatha Balthild Beorhtflï¿½d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflï¿½d Beorngyth Blï¿½ja Burgflï¿½d Ceolflï¿½d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflï¿½d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflï¿½d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflï¿½d Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflï¿½d Sigrid Sï¿½thryth Wulfflï¿½d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflï¿½d Wï¿½rburg ï¿½bba ï¿½lfflï¿½d ï¿½lfgifu ï¿½lfgyth ï¿½lflï¿½da_ï¿½lflï¿½da ï¿½lfrida
-			ï¿½lfswith ï¿½lfthryth ï¿½lfwynn ï¿½thelburg ï¿½thelflï¿½d ï¿½thelgifu ï¿½thelhild ï¿½thelrï¿½da_ï¿½thelreda ï¿½thelswith ï¿½thelthryth
-			ï¿½thelburh Seaxburh Wihtburh
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
 		}
 	}
 	babylonian = {
