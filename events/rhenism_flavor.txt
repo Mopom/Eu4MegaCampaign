@@ -268,3 +268,87 @@ country_event = { #Driver for above event
 		}
 	}
 }
+
+#The Veneration of Saints
+#1500
+country_event = { 
+	id = rhenism.7
+	title = rhenism.7.t
+	desc = rhenism.7.d
+	picture = ICONS_IN_CHURCH_eventPicture
+
+	is_triggered_only = yes
+
+	option = { #National Saints
+		name = rhenism.7.a
+		add_country_modifier = {
+			name = saints_in_nationals
+			duration = 54750
+		}
+
+		every_subject_country = {
+			add_country_modifier = {
+				name = saints_in_nationals
+				duration = 54750
+			}
+		}
+	}
+
+	option = { #Local Saints
+		name = rhenism.7.b
+		add_country_modifier = {
+			name = saints_in_locals
+			duration = 54750
+		}
+
+		every_subject_country = {
+			limit = {
+				religion = samaritan_faith
+			}
+			country_event = {
+				id = rhenism.7
+			}
+		}
+	}
+
+	option = { #No Saints
+		name = rhenism.7.c
+	}
+}
+
+country_event = { #Driver for above event
+	id = rhenism.8
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			religion = samaritan_faith
+			total_development = 300
+			is_year = 1500
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+
+		modifier = {
+			factor = 0.5
+			is_year = 1520
+		}
+	}
+
+	option = {
+		ai_chance = {factor = 1}
+		every_country = {
+			limit = {
+				religion = samaritan_faith
+				is_subject = no
+			}
+			country_event = {
+				id = rhenism.7
+			}
+		}
+	}
+}

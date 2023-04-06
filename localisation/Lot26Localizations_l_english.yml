@@ -873,4 +873,11 @@
  gangan_relig_flavour.1.t:0 "The Sikh Faith"
  gangan_relig_flavour.1.d:0 "[Root.GetName] is situated on the border between adherents of Hinduism and Buddhism. In this area marked by religious tension and differences, a man named Nanak has started to preach that there is no Hindu or Buddhist, but that the truth is with Shiva, who is neither.\n \nAlthough his rejection of ancient customs has outraged devoted [Root.Religion.GetName] believers, Nanak's disregard for caste and creed has allowed his teachings to take root among the population. His disciples are known as Gangans and are spreading this new faith rapidly throughout [Root.GetName]."
  gangan_relig_flavour.1.a:0 "We'll need to talk to this Nanak about the [Root.Owner.Religion.GetName] faith."
- 
+ ############## Rhenist Religious Event ###############################
+ rhenism.7.t:0 "On the Matter of Saints"
+ rhenism.7.d:0 "Different Christian sects hold very different stances to the matter of saints. In Catholicism a recent swing has brought the canonisation of saints under the direction of the Pope. Other sects have left the canonisation with local communities, or even with national authorities. The ways of the Rhenist church have never been set in stone. And the matter of saints has never been described in the scripture of Dolça de Poitou or subsequent theologians."
+ rhenism.7.a:0 "Our Saints shall be shared by all subjects."
+ saints_in_nationals:0 "Saints of All Nations"
+ rhenism.7.b:0 "The Flock of the Pasture knows best."
+ saints_in_locals:0 "Saints from the Flock"
+ rhenism.7.c:0 "There are no saints in our lands."
