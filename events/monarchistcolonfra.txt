@@ -49,7 +49,7 @@ country_event = {
 					}
 				} 
 				change_province_name = "Lyeste"
-				rename_capital = "La Lyon"
+				rename_capital = "La Nouvelle Lyon"
 			}
 		}
 	}
