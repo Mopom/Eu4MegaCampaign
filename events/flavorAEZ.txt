@@ -86,11 +86,13 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	    AND = {
-            tag = Z02
+	        primary_culture = dynamic-saxon-culture-num1
+            religion = samaritan_faith
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 4
+                value = 5
                 colonial_region = colonial_canada
             }
+            is_colonial_nation = yes
 		}
 	}
 
@@ -99,44 +101,12 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = {
-			every_province = {
-				limit = {
-					AND = {
-						colonial_region = colonial_canada
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				discover_country = EKG
-				add_core = EKG
-				cede_province = EKG
+		change_tag = EKG
+		if = {
+			limit = {
+				has_custom_ideas = no
 			}
-			EKG = {
-				change_government = republic
-				add_government_reform = federal_republic
-				change_religion = ROOT
-				change_primary_culture = ROOT
-				discover_provinces = ROOT
-				adopt_reform_progress = ROOT
-				add_republican_tradition = 50
-				capital_scope = {
-				build_to_forcelimit = {
-					infantry = 0.7
-					cavalry = 0.2
-					artillery = 0.1
-					heavy_ship = 0.1
-					light_ship = 0.5
-					transport = 0.1
-					}
-				}
-			}
-			every_province = {
-				limit = {
-					colonial_region = colonial_canada
-				}
-				add_claim = EKG
-				remove_claim = Z02
-			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
 		}
 	}
 
