@@ -16438,3 +16438,41 @@ HIK_ideas = {
 		nobles_loyalty_modifier = 0.2
 	}
 }
+MILK_ideas = {
+	start = {
+		production_efficiency = 0.10
+		production_efficiency = 0.10
+	}
+	trigger = {
+		primary_culture = dynamic-saxon-culture-num1
+		capital_scope = {
+            colonial_region = colonial_canada
+        }
+	}
+	free = yes
+
+	MILK_1 = {
+		production_efficiency = 0.10
+	}
+	MILK_2 = {
+		production_efficiency = 0.10
+	}
+	MILK_3 = {
+		production_efficiency = 0.10
+	}
+	MILK_4 = {
+		production_efficiency = 0.10
+	}
+	MILK_5 = {
+		production_efficiency = 0.10
+	}
+	MILK_6 = {
+		production_efficiency = 0.10
+	}
+	MILK_7 = {
+		production_efficiency = 0.10
+	}
+	bonus = {
+		production_efficiency = 0.10
+	}
+}
