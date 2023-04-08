@@ -750,7 +750,7 @@
  focused_on_peace:0 "Focused on Peace"
  ############## Vassal Locals. ###############################
  burma_state_title:0 "Marz"
- burma_state_is_our:0 "§YBurma§! is our Marz."
+ burma_state_is_our:0 "$NAME|Y$ is our Marz."
  ############## MISSION ###############################
  jap_conquer_malaya_title:0 "Straits of Malacca & Johor"
  jap_conquer_malaya_desc:0 "Past the Isles of Indonesia lies the Strait of Malacca. Through it and the Strait of Johor passes all the trade between our East and the Indian West. Control of this passage will bring us great wealth, all in name of the Emperor."
@@ -883,3 +883,4 @@
  rhenism.7.b:0 "The Flock of the Pasture knows best."
  saints_in_locals:0 "Saints from the Flock"
  rhenism.7.c:0 "There are no saints in our lands."
+ HINT_HRE_TITLE:0 "Holy Russian Empire"
