@@ -81,7 +81,7 @@ country_event = {
 	id = flavor_aez.2
 	title = "flavor_aez.2.t"
 	desc = "flavor_aez.2.d"
-	picture = BANKRUPTCY_eventPicture
+	picture = FROZEN_VILLAGE_eventPicture
 
 	fire_only_once = yes
 	trigger = {
