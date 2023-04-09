@@ -548,5 +548,5 @@ army_names = {
 	"Armée de l'Ouest"
 }
 fleet_names = {
-	"Escadre de Flndre"
+	"Escadre de Flandre"
 }
