@@ -774,6 +774,9 @@
  flavor_aez.2.t:0 "A New Venture in the New World"
  flavor_aez.2.d:0 "The new world is full of riches, and our merchants have created there a permanent venture, big enough to administer itself and provide us with many resources, at a minimal cost. We shall support this endeavour, in exchange for loyalty to the Billung dynasty."
  flavor_aez.2.a:0 "Many profits await."
+ flavor_aez.3.t:0 "Colonisers of a Broken Land"
+ flavor_aez.3.d:0 "From the first steps set in [Root.Capital.GetName] our colonisers knew this was a broken land. §YLes Terres Cassées§! they called it and only the truest, most faithful dared venture here. From this broken land God shall shape His New Kingdom and its citizens will be His Children. And its citizens will be the strong of the Flock, and the everfaithful. Now that the throne in Bordeaux has appointed us a colony we surely have a chance to shape His New Kingdom."
+ flavor_aez.3.a:0 "God shines on §Y[Root.Capital.GetName]§!!"
  mal_colonise_peru_title:0 "Gold of the Andes"
  mal_colonise_peru_desc:0 "The New World, too, holds precious metals. And as our mines are depleted by arduous labour we can fill our coffers, and those of our friends, with the booty of these Andean mines."
  ############## Great Projects ###############################

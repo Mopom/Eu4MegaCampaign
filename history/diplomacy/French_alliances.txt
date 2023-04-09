@@ -28,3 +28,9 @@ march = {
 	second = LOR
 	start_date = 1444.1.1
 }
+colony = {
+    first = Z02
+    second = LTC
+    start_date = 1444.1.1
+ 	end_date = 1599.7.1
+}
