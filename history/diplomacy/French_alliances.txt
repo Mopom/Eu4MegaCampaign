@@ -29,13 +29,13 @@ march = {
 	start_date = 1444.1.1
 }
 colony = {
-    first = Z02
+    first = FRA
     second = LTC
     start_date = 1444.1.1
  	end_date = 1599.7.1
 }
 colony = {
-    first = Z02
+    first = FRA
     second = NFL
     start_date = 1444.1.1
  	end_date = 1619.7.1
