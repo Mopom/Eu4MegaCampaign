@@ -93,6 +93,7 @@ country_event = {
                 colonial_region = colonial_canada
             }
             is_colonial_nation = yes
+			NOT = { exists = EKG }
 		}
 	}
 
@@ -131,6 +132,7 @@ country_event = {
                 colonial_region = colonial_canada
             }
             is_colonial_nation = yes
+			NOT = { exists = LTC }
 		}
 	}
 
@@ -169,6 +171,7 @@ country_event = {
                 colonial_region = colonial_eastern_america
             }
             is_colonial_nation = yes
+			NOT = { exists = NFL }
 		}
 	}
 
