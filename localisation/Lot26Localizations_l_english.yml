@@ -780,6 +780,9 @@
  flavor_aez.4.t:0 "Memories of Flanders"
  flavor_aez.4.d:0 "When the Spinster's and Merchant's Guilds of Bergerac financed their exploritory colony in the New World they expected little to find the a land almost identical to the lowlands of Flanders. With the technology of the Old World both the sovereign of France and the Guild of Bergerac have developed New-Flanders into a true and prospering colony."
  flavor_aez.4.a:0 "Praise be to the §YGuildes des Commercants et Lingeres de Bergerac§!."
+ flavor_aez.5.t:0 "Dense Woods"
+ flavor_aez.5.d:0 "Here along the tributaries of the mighty Mississippi River the forests are ever dense. For many colonisers this land has brought up strong connections to the Breton heritage in all our blood. Truly [Root.Capital.GetName] will see the founding of a New Brittany."
+ flavor_aez.5.a:0 "Une Bretagne pour le Nouveau Monde."
  mal_colonise_peru_title:0 "Gold of the Andes"
  mal_colonise_peru_desc:0 "The New World, too, holds precious metals. And as our mines are depleted by arduous labour we can fill our coffers, and those of our friends, with the booty of these Andean mines."
  ############## Great Projects ###############################

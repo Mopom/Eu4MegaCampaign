@@ -193,3 +193,51 @@ country_event = {
 		name = "flavor_aez.4.a"
 	}
 }
+
+country_event = {
+	id = flavor_aez.5
+	title = "flavor_aez.5.t"
+	desc = "flavor_aez.5.d"
+	picture = COLONIZATION_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+            religion = samaritan_faith
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_louisiana
+            }
+            is_colonial_nation = yes
+			NOT = { exists = WYB }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = WYB
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		change_primary_culture = breton
+		every_owned_province = {
+			if  = {
+				limit = {
+					culture = dynamic-breton-normand-occitain-culture-num1
+				}
+				change_culture = breton
+			}
+		}
+	}
+
+	option = {
+		name = "flavor_aez.5.a"
+	}
+}
