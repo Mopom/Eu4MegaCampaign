@@ -1,5 +1,5 @@
-owner = Z0C
-controller = Z0C
+owner = GUG
+controller = GUG
 capital = "Skardu"
 is_city = yes
 culture = kashmiri
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 6
 base_production = 4
 base_manpower = 3
-add_core = Z0C
+add_core = GUG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

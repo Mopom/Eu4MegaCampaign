@@ -10,6 +10,7 @@ base_tax = 4
 base_production = 1
 base_manpower = 1
 add_core = GUG
+add_core = UTS
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
