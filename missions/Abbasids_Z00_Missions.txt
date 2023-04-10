@@ -228,13 +228,13 @@ al_Abbas_traders_and_merchants_1 = {
 			358 = {
 				trade_share = {
 					country = ROOT
-					share = 66.6
+					share = 33.3
 				}
 			}
 			377 = {
 				trade_share = {
 					country = ROOT
-					share = 33.3
+					share = 66.6
 				}
 			}
 		}
@@ -1114,6 +1114,36 @@ al_Abbas_conquest_3 = {
 			add_country_modifier = {
 				name = "oma_buildforces_mod"
 				duration = 5475
+			}
+			erzurum_area = {
+				add_permanent_claim = ROOT
+			}
+			rum_area = {
+				add_permanent_claim = ROOT
+			}
+			hudavendigar_area = {
+				add_permanent_claim = ROOT
+			}
+			germiyan_area = {
+				add_permanent_claim = ROOT
+			}
+			aydin_area = {
+				add_permanent_claim = ROOT
+			}
+			ankara_area = {
+				add_permanent_claim = ROOT
+			}
+			kastamonu_area = {
+				add_permanent_claim = ROOT
+			}
+			karaman_area = {
+				add_permanent_claim = ROOT
+			}
+			2302 = {
+				add_permanent_claim = ROOT
+			}
+			327 = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
