@@ -81,9 +81,9 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1539
+		is_year = 1489
 		is_month = 9
-		NOT = { is_year = 1552 }
+		NOT = { is_year = 1522 }
 		current_guru_is = guru_nanak
 		NOT = { has_global_flag = guru_event_happening }
 	}
@@ -115,9 +115,9 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1552
+		is_year = 1522
 		is_month = 3
-		NOT = { is_year = 1574 }
+		NOT = { is_year = 1544 }
 		current_guru_is = guru_angad
 		NOT = { has_global_flag = guru_event_happening }
 	}
@@ -149,9 +149,9 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1574
+		is_year = 1544
 		is_month = 9
-		NOT = { is_year = 1581 }
+		NOT = { is_year = 1561 }
 		current_guru_is = guru_amar_das
 		NOT = { has_global_flag = guru_event_happening }
 	}
@@ -183,9 +183,9 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1581
+		is_year = 1561
 		is_month = 9
-		NOT = { is_year = 1606 }
+		NOT = { is_year = 1586 }
 		current_guru_is = guru_ram_das
 		NOT = { has_global_flag = guru_event_happening }
 	}
@@ -247,9 +247,9 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1606
+		is_year = 1586
 		is_month = 5
-		NOT = { is_year = 1644 }
+		NOT = { is_year = 1624 }
 		current_guru_is = guru_arjan
 		NOT = { has_global_flag = guru_event_happening }
 	}
@@ -281,9 +281,9 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1644
+		is_year = 1624
 		is_month = 3
-		NOT = { is_year = 1661 }
+		NOT = { is_year = 1641 }
 		current_guru_is = guru_hargobind
 		NOT = { has_global_flag = guru_event_happening }
 	}
@@ -315,7 +315,7 @@ country_event = {
 
 	trigger = {
 		religion = gangan
-		is_year = 1661
+		is_year = 1641
 		is_month = 10
 		NOT = { is_year = 1665 }
 		current_guru_is = guru_har_rai
