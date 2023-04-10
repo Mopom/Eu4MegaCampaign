@@ -16452,10 +16452,10 @@ EKG_ideas = {
 		build_cost = -0.1
 	}
 	EKG_2 = {
-		global_unrest = -2
+		no_religion_penalty = yes
 	}
 	EKG_3 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	EKG_4 = {
 		global_trade_goods_size_modifier = 0.15
@@ -16464,10 +16464,10 @@ EKG_ideas = {
 		colonists = 1
 	}
 	EKG_6 = {
-		infantry_power = 0.2
+		infantry_power = 0.1
 	}
 	EKG_7 = {
-		leader_naval_fire = 2
+		leader_naval_fire = 1
 		global_ship_cost = -0.15
 	}
 	bonus = {
