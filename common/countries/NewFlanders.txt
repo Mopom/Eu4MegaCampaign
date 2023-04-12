@@ -1,0 +1,552 @@
+graphical_culture = westerngfx
+color = { 28 187 180 }
+revolutionary_colors = { 0 10 0 }
+historical_idea_groups = {
+	exploration_ideas
+	expansion_ideas
+	trade_ideas
+	naval_ideas
+	humanist_ideas
+	quality_ideas
+	quantity_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	chevauchee
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_men_at_arms
+}
+monarch_names = {
+	"Bruno #0" = 7
+	"Guntard #0" = 5
+	"Guiomar #0" = 4
+	"Odemar #0" = 4
+	"Gaston #0" = 4
+	"Gabriel #0" = 4
+	"Marcos #0" = 4
+	"Gerald #0" = 2
+	"Mael #0" = 2
+	"Rogier #0" = 2
+	"Victor #0" = 2
+	"Aubrey #0" = 1
+	"Baptiste #0" = 1
+	"Bores #0" = 1
+	"Burgondo #0" = 1
+	"Enric #0" = 1
+	"Gauthier #0" = 1
+	"Gestin #0" = 1
+	"Hamelin #0" = 1
+	"Jean-Louis #0" = 1
+	"Matei #0" = 1
+	"Maxime #0" = 1
+	"Montefeltrano #0" = 1
+	"Noam #0" = 1
+	"Patrick #0" = 1
+	"Robert #0" = 1
+	"Valeran #0" = 1
+	"Adelinde #0" = -1
+	"Aliénor #0" = -1
+	"Bérengère #0" = -1
+	"Constància #0" = -1
+	"Margarete #0" = -1
+	"Pernette #0" = -1
+	"Argantlon #0" = -2
+	"Arwyn #0" = -2
+	"Camille #0" = -2
+	"Catrin #0" = -2
+	"Charlotte #0" = -2
+	"Clara #0" = -2
+	"Constantina #0" = -2
+	"Delfina #0" = -2
+	"Evelyne #0" = -2
+	"Grace #0" = -2
+	"Hana #0" = -2
+	"Hesper #0" = -2
+	"Isabel #0" = -2
+	"Jamie #0" = -2
+	"Jenni #0" = -2
+	"Judith #0" = -2
+	"Karina #0" = -2
+	"Leueer #0" = -2
+	"Leuhemel #0" = -2
+	"Manon #0" = -2
+	"Maria #0" = -2
+	"Maya #0" = -2
+	"Mirai #0" = -2
+	"Miranda #0" = -2
+	"Pauline #0" = -2
+	"Olympia #0" = -2
+	"Rosalind #0" = -2
+	"Sarah #0" = -2
+	"Thalia #0" = -2
+	"Niamh #0" = -3
+	"Alison #0" = -4
+	"Esther #0" = -4
+	"Jasmine #0" = -4
+	"Octavia #0" = -4
+	"Raffaella #0" = -4
+	"Sacha #0" = -4
+	"Elise #0" = -5
+	"Cilia #0" = -7
+	"Julia #0" = -7
+	"Auriane #0" = -10
+}
+leader_names = {
+	"al-Bakr"
+	"Asselin"
+	"Barthélemy"
+	"Billung-Arles"
+	"Chenú"
+	"Clark-Guillotel"
+	"d'Entença"
+	"de Arboree"
+	"de Brézé"
+	"de Hauteville"
+	"de Toulouse"
+	"de Trainel"
+	"de Valais"
+	"de Verre"
+	"de Vienne"
+	"di Guerrazzi"
+	"di Venezia"
+	"Droz"
+	"Lanctot"
+	"Larue"
+	"Lupokhin"
+	"Perdu"
+	"Poitiers-Besançon"
+	"Poitiers-Pontarlier"
+	"Poitiers-Saunier"
+	"Regnard"
+	"Riowall"
+	"Salli"
+	"Sant Mikael"
+	"Tanguy"
+	"Vallotton"
+	"von Brandenburg"
+	"z Hodic"
+}
+ship_names = {
+	"Achille"
+	"Actif"
+	"Actionnaire"
+	"Adela de"
+	"Admirable"
+	"Adroit"
+	"Africain"
+	"Agamemnon"
+	"Aigle"
+	"Aigrette"
+	"Aimable"
+	"Ajax"
+	"Alcide"
+	"Alcyon"
+	"Alexandre"
+	"Alliance"
+	"Alsace"
+	"Altier"
+	"Amarante"
+	"Amazone"
+	"Ambitieux"
+	"America"
+	"Amiral"
+	"Amiral de Biscaye"
+	"Amiral de Galice"
+	"Amphion"
+	"Amphitrite"
+	"Andromaque"
+	"Anglais"
+	"Anna"
+	"Annibal"
+	"Anonyme"
+	"Anversois"
+	"Apollon"
+	"Aquilon"
+	"Arc-en-Ciel"
+	"Arcole"
+	"Ardent"
+	"Argonaute"
+	"Asie"
+	"Astrolabe"
+	"Atlante"
+	"Audacieux"
+	"Auguste"
+	"Aurore"
+	"Avenant"
+	"Aventurier"
+	"Badine"
+	"Banel"
+	"Basque"
+	"Beaufort"
+	"Belle Poule"
+	"Belliqueux"
+	"Bellone"
+	"Bien-Aim "
+	"Bienfaisant"
+	"Bizarre"
+	"Bon"
+	"Bonne"
+	"Bordelais"
+	"Boudeuse"
+	"Bouffonne"
+	"Bourbon"
+	"Boussole"
+	"Brave"
+	"Bretagne"
+	"Breton"
+	"Brillant"
+	"Brutal"
+	"Bucentaure"
+	"Calypso"
+	"Capable"
+	"Capricieux"
+	"Caraquon"
+	"Cardinal"
+	"Caribou"
+	"Cassard"
+	"Castiglione"
+	"Catholique"
+	"Caton"
+	"Censeur"
+	"Centaure"
+	"Chalain"
+	"Charente"
+	"Charlemagne"
+	"Charles II"
+	"Charmante"
+	"Chasseur"
+	"Cheval Marin"
+	"Choquante"
+	"Christine"
+	"Citoyen"
+	"Clorinde"
+	"Cléopâtre"
+	"Colosse"
+	"Commerce de Bordeaux"
+	"Commerce de Marseille"
+	"Commerce de Paris"
+	"Commerce du Lyon"
+	"Comte"
+	"Concorde"
+	"Consolante"
+	"Content"
+	"Coq"
+	"Corail"
+	"Courageux"
+	"Couronne"
+	"Courtisan"
+	"Croissant"
+	"Croissant d'Afrique"
+	"Curieux"
+	"Cygne"
+	"Dalmate"
+	"Dantzig"
+	"Dauphin"
+	"Dauphin Royal"
+	"Dego"
+	"Desaix"
+	"Destin"
+	"Deux Fréres"
+	"Diamant"
+	"Dictateur"
+	"Don de Dieu"
+	"Dragon"
+	"Dragon d'Or"
+	"Dryade"
+	"Dubois"
+	"Duc"
+	"Duc d'Angoulême"
+	"Duc d'Aquitaine"
+	"Duc de Berry"
+	"Duc de Bourgogne"
+	"Duguesclin"
+	"Dunkerquois"
+	"Duperre"
+	"Duquesne"
+	"Dur"
+	"Elbeuf"
+	"Embuscade"
+	"Empereur"
+	"Emporte"
+	"Engageante"
+	"Enjouree"
+	"Entendu"
+	"Entreprenant"
+	"Europe"
+	"Excellent"
+	"Fantasque"
+	"Faucon"
+	"Faucon Anglais"
+	"Favori"
+	"Fendant"
+	"Fier"
+	"Fiesque"
+	"Flamand"
+	"Fleur de Lys"
+	"Fleuron"
+	"Florissant"
+	"Formidable"
+	"Fort"
+	"Fortune"
+	"Foudroyant"
+	"Fougueux"
+	"Français"
+	"Friponne"
+	"Frédèric"
+	"Fulminant"
+	"Gaillard"
+	"Galant"
+	"Galion de Guise"
+	"Gaulois"
+	"Gazelle"
+	"Gentille"
+	"Gerze"
+	"Gloire"
+	"Gracieuse"
+	"Grand"
+	"Grand Anglais"
+	"Grand Chalain"
+	"Grand Danois"
+	"Grand Henry"
+	"Grand Saint Louis"
+	"Grand Vainqueur"
+	"Grand Vasseau du Roi"
+	"Grande Galion de Malte"
+	"Grande Saint Jean"
+	"Griffon"
+	"Guerrier"
+	"Guirlande"
+	"Hardi"
+	"Hasardeux"
+	"Havre"
+	"Henri"
+	"Hercule"
+	"Hermione"
+	"Heureux"
+	"Hippopotame"
+	"Hirondelle"
+	"Hymen"
+	"Inconstante"
+	"Indien"
+	"Indomptable"
+	"Infante"
+	"Inflexible"
+	"Invincible"
+	"Isabelle"
+	"Jason"
+	"Jemmapes"
+	"Jeux"
+	"Joli"
+	"Jules"
+	"Junon"
+	"Jupiter"
+	"Juste"
+	"Languedoc"
+	"Laurier"
+	"Le Beau Parterre"
+	"Licorne"
+	"Ligourois"
+	"Lion"
+	"Lion d'Or"
+	"Lionne"
+	"Lune"
+	"Lutine"
+	"Lys"
+	"Madame"
+	"Madeleine"
+	"Madeleine de Brest"
+	"Magicienne"
+	"Magnanime"
+	"Magnifique"
+	"Maistresse"
+	"Majestueux"
+	"Maquedo"
+	"Marabout"
+	"Marguerite"
+	"Marguerite du Ponant"
+	"Marie-Elisabeth"
+	"Marin"
+	"Marquise"
+	"Mars"
+	"Maure"
+	"Maurepas"
+	"Mazarin"
+	"Mercure"
+	"Merveilleux"
+	"Mignonne"
+	"Minotaure"
+	"Monarque"
+	"Mont Saint-Bernard"
+	"Montebello"
+	"Montenotte"
+	"Montmorency"
+	"Montolieu"
+	"Mutine"
+	"Nassau"
+	"Navarrais"
+	"Navire-du-Roi"
+	"Neptune"
+	"Nieuport"
+	"Normand"
+	"Notre Dame"
+	"Notre Dame de la Victoire"
+	"Notre Dame des Martyres"
+	"Notre Dame du Peuple"
+	"Oiseau"
+	"Orgueilleux"
+	"Orient"
+	"Oriflamme"
+	"Orion"
+	"Ours"
+	"Ours Blanc"
+	"Ours d'Or"
+	"Pacificateur"
+	"Palmier"
+	"Parfait"
+	"Paris"
+	"Patriote"
+	"Perle"
+	"Petit Saint Jean"
+	"Petit Saint Louis"
+	"Poli"
+	"Polonais"
+	"Pompeux"
+	"Pourvoyeuse"
+	"Prince"
+	"Prince Enric"
+	"Princesse"
+	"Prompt"
+	"Provençal"
+	"Prudent"
+	"Pucelle"
+	"Puissant"
+	"Pyrrhus"
+	"Railleuse"
+	"Raisonnable"
+	"Redoutable"
+	"Regina"
+	"Regulus"
+	"Reine"
+	"Robuste"
+	"Rochefort"
+	"Roi de Rome"
+	"Roland"
+	"Rouen"
+	"Royal"
+	"Royal Duc"
+	"Royal Louis"
+	"Rubis"
+	"Sage"
+	"Sagittaire"
+	"Saint Antoine"
+	"Saint Antoine de Gênes"
+	"Saint Augustin"
+	"Saint Basile"
+	"Saint Catherine"
+	"Saint Charles"
+	"Saint Cosme"
+	"Saint Dominique"
+	"Saint Edm "
+	"Saint Esprit"
+	"Saint Georges de Londres"
+	"Saint Ignace"
+	"Saint Jacques"
+	"Saint Jacques du Portugal"
+	"Saint Jean"
+	"Saint Jean de Bordeaux"
+	"Saint Jean de Hollande"
+	"Saint Joseph"
+	"Saint Louis"
+	"Saint Louis de Brest"
+	"Saint Louis de Nevers"
+	"Saint Louis de Saint-Malo"
+	"Saint Michel"
+	"Saint Paul"
+	"Saint Philippe"
+	"Saint Pierre"
+	"Saint Thomas d'Aquin"
+	"Saint Vincent"
+	"Saint-Malo"
+	"Saint-Sacrement"
+	"Sainte Croix"
+	"Sainte Genevive"
+	"Sainte Marie"
+	"Salamandre"
+	"Sans Pareil"
+	"Sceptre"
+	"Scipion"
+	"Seine"
+	"Soleil"
+	"Soleil Royal"
+	"Solide"
+	"Sophie"
+	"Sorlingue"
+	"Sourdis"
+	"Souverain"
+	"Subtile"
+	"Suffisant"
+	"Suffren"
+	"Superbe"
+	"Surveillante"
+	"Suzanne"
+	"Sylvie"
+	"Terpsichore"
+	"Terreur"
+	"Terrible"
+	"Tigre"
+	"Tonnant"
+	"Topaze"
+	"Toulon"
+	"Tourbillon"
+	"Tourville"
+	"Trajan"
+	"Trident"
+	"Triomphe"
+	"Triton"
+	"Trocadero"
+	"Trois Fanaux"
+	"Trois Rois"
+	"Trompeuse"
+	"Uranie"
+	"Utile"
+	"Vaillant"
+	"Vainqueur"
+	"Vaisseau de Torais"
+	"Vaisseau du Roi"
+	"Valeur"
+	"Vendôme"
+	"Vengeur"
+	"Vertu"
+	"Vestale"
+	"Victoire"
+	"Victorieux"
+	"Vierge"
+	"Ville-de-Marseille"
+	"Ville-de-Paris"
+	"Ville-de-Rouen"
+	"Ville-de-Reims"
+	"Ville-de-Bordeaux"
+	"Volage"
+	"Volontaire"
+	"Wallon"
+	"Zodiaque"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de l'Ouest"
+}
+fleet_names = {
+	"Escadre de Flandre"
+}

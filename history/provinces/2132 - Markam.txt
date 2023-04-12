@@ -1,5 +1,5 @@
-owner = BHU
-controller = BHU
+owner = KAM
+controller = KAM
 capital = "Markam"
 is_city = yes
 culture = nepali
@@ -8,8 +8,7 @@ trade_goods = livestock
 base_tax = 5
 base_production = 4
 base_manpower = 2
-add_core = BHU
-add_core = NPL
+add_core = KAM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

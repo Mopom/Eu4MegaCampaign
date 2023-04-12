@@ -1,5 +1,5 @@
-owner = Z0C
-controller = Z0C
+owner = KSH
+controller = KSH
 capital = "Hotan"
 is_city = yes
 culture = dynamic-uzbehk-zhangzhung-culture-num1
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
-add_core = Z0C
+add_core = KSH
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

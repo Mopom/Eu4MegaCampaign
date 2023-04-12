@@ -53,10 +53,6 @@ country_event = {
 					continent = africa
 					owned_by = MAL
 				}
-				add_province_modifier = {
-					name = malii_instab
-					duration  = 14600
-				}
 			}
 			every_province = {
 				limit = {
@@ -78,5 +74,253 @@ country_event = {
 	option = {
 		name = "flavor_aez.1.b"
 		switch_tag = AEZ
+	}
+}
+
+country_event = {
+	id = flavor_aez.2
+	title = "flavor_aez.2.t"
+	desc = "flavor_aez.2.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-saxon-culture-num1
+            religion = samaritan_faith
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_canada
+            }
+            is_colonial_nation = yes
+			NOT = { exists = EKG }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = EKG
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.2.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.3
+	title = "flavor_aez.3.t"
+	desc = "flavor_aez.3.d"
+	picture = USA_EXPLORERS_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+            religion = samaritan_faith
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_canada
+            }
+            is_colonial_nation = yes
+			NOT = { exists = LTC }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = LTC
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.3.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.4
+	title = "flavor_aez.4.t"
+	desc = "flavor_aez.4.d"
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_eastern_america
+            }
+            is_colonial_nation = yes
+			NOT = { exists = NFL }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = NFL
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.4.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.5
+	title = "flavor_aez.5.t"
+	desc = "flavor_aez.5.d"
+	picture = COLONIZATION_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_louisiana
+            }
+            is_colonial_nation = yes
+			NOT = { exists = WYB }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = WYB
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		change_primary_culture = breton
+		every_owned_province = {
+			if  = {
+				limit = {
+					culture = dynamic-breton-normand-occitain-culture-num1
+				}
+				change_culture = breton
+			}
+		}
+	}
+
+	option = {
+		name = "flavor_aez.5.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.6
+	title = "flavor_aez.6.t"
+	desc = "flavor_aez.6.d"
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_the_carribean
+            }
+            is_colonial_nation = yes
+			NOT = { exists = TIL }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = TIL
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+	
+	option = {
+		name = "flavor_aez.6.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.7
+	title = "flavor_aez.7.t"
+	desc = "flavor_aez.7.d"
+	picture = FORESTS_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_alaska
+            }
+            is_colonial_nation = yes
+			NOT = { exists = RMA }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = RMA
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		change_primary_culture = normand
+		every_owned_province = {
+			if  = {
+				limit = {
+					culture = dynamic-breton-normand-occitain-culture-num1
+				}
+				change_culture = normand
+			}
+		}
+	}
+
+	option = {
+		name = "flavor_aez.7.a"
 	}
 }

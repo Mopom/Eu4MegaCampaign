@@ -1191,6 +1191,10 @@ federal_republic = {
 				tag = AEZ
 				NOT = { map_setup = map_setup_random }
 			}
+			AND = {
+				tag = EKG
+				NOT = { map_setup = map_setup_random }
+			}
 		}
 	}
 	legacy_equivalent = federal_republic_legacy

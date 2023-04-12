@@ -511,6 +511,20 @@ trade_of_johor_malacca = {
 	province_trade_power_modifier = 0.1
 	trade_value = 1
 }
-malii_instab = {
-	local_unrest = 10
+protection_from_convers_rhenii = {
+	local_missionary_strength = -1
+}
+
+protection_from_convers_rhenii_half = {
+	local_missionary_strength = -0.25
+}
+saints_in_nationals = {
+	monthly_church_power = 0.02
+	relation_with_same_religion = 5
+	global_unrest = 2
+}
+saints_in_locals = {
+	tolerance_own = 2
+	relation_with_heretics = 5
+	global_autonomy = 0.05
 }

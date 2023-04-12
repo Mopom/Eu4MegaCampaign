@@ -15,7 +15,7 @@ burma_state = {
 		other_overlord = all
 	}
 	can_ally = {
-		independent_nations = yes
+		independent_nations = no
 		same_overlord = no
 		other_overlord = all
 	}

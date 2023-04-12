@@ -6926,7 +6926,9 @@ rus_exp_east_branch_4 = {
 		position = 2
 		provinces_to_highlight = {
 			OR = {
-				region = ruthenia_region
+				area = sloboda_ukraine_area
+				area = chernigov_area
+				area = east_dniepr_area
 				area = tambov_area
 				area = galich_area
 				province_id = 2423
@@ -6937,7 +6939,15 @@ rus_exp_east_branch_4 = {
 			}
 		}
 		trigger = {
-			ruthenia_region = {
+			sloboda_ukraine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			chernigov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_dniepr_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

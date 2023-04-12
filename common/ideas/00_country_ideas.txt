@@ -16438,3 +16438,39 @@ HIK_ideas = {
 		nobles_loyalty_modifier = 0.2
 	}
 }
+EKG_ideas = {
+	start = {
+		merchants = 1
+		trade_steering = 0.2
+	}
+	trigger = {
+		tag = EKG
+	}
+	free = yes
+
+	EKG_1 = {
+		build_cost = -0.1
+	}
+	EKG_2 = {
+		no_religion_penalty = yes
+	}
+	EKG_3 = {
+		development_cost = -0.05
+	}
+	EKG_4 = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	EKG_5 = {
+		colonists = 1
+	}
+	EKG_6 = {
+		infantry_power = 0.1
+	}
+	EKG_7 = {
+		leader_naval_fire = 1
+		global_ship_cost = -0.15
+	}
+	bonus = {
+		discipline = 0.05
+	}
+}

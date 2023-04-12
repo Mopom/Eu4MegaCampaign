@@ -28,3 +28,33 @@ march = {
 	second = LOR
 	start_date = 1444.1.1
 }
+colony = {
+    first = FRA
+    second = LTC
+    start_date = 1444.1.1
+ 	end_date = 1599.7.1
+}
+colony = {
+    first = FRA
+    second = NFL
+    start_date = 1444.1.1
+ 	end_date = 1619.7.1
+}
+colony = {
+    first = FRA
+    second = WYB
+    start_date = 1444.1.1
+ 	end_date = 1699.12.8
+}
+colony = {
+    first = FRA
+    second = TIL
+    start_date = 1444.1.1
+ 	end_date = 1599.12.8
+}
+colony = {
+    first = FRA
+    second = RMA
+    start_date = 1444.1.1
+ 	end_date = 1699.12.11
+}

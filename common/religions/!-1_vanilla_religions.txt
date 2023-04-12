@@ -1791,7 +1791,7 @@ dharmic = {
 
 		heretic = { MASANDIS }
 
-		date = 1459.01.01
+		date = 1444.01.01
 
 		gurus = {
 			guru_nanak = {
@@ -1880,7 +1880,7 @@ dharmic = {
 			}
 			guru_amar_das = {
 				trigger = {
-					is_year = 1552
+					is_year = 1522
 					is_month = 3
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -1888,23 +1888,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1553
+						is_year = 1523
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1554
+						is_year = 1524
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1555
+						is_year = 1525
 					}
 					modifier = {
 						factor = 2
-						is_year = 1556
+						is_year = 1526
 					}
 					modifier = {
 						factor = 2
-						is_year = 1557
+						is_year = 1527
 					}
 				}
 				modifier = {
@@ -1935,7 +1935,7 @@ dharmic = {
 			}
 			guru_ram_das = {
 				trigger = {
-					is_year = 1574
+					is_year = 1544
 					is_month = 9
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -1943,23 +1943,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1575
+						is_year = 1545
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1576
+						is_year = 1546
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1577
+						is_year = 1547
 					}
 					modifier = {
 						factor = 2
-						is_year = 1578
+						is_year = 1548
 					}
 					modifier = {
 						factor = 2
-						is_year = 1579
+						is_year = 1549
 					}
 				}
 				modifier = {
@@ -1992,7 +1992,7 @@ dharmic = {
 			}
 			guru_arjan = {
 				trigger = {
-					is_year = 1581
+					is_year = 1561
 					is_month = 9
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -2000,23 +2000,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1582
+						is_year = 1562
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1583
+						is_year = 1563
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1584
+						is_year = 1564
 					}
 					modifier = {
 						factor = 2
-						is_year = 1585
+						is_year = 1565
 					}
 					modifier = {
 						factor = 2
-						is_year = 1586
+						is_year = 1566
 					}
 				}
 				modifier = {
@@ -2045,7 +2045,7 @@ dharmic = {
 			}
 			guru_hargobind = {
 				trigger = {
-					is_year = 1606
+					is_year = 1586
 					is_month = 6
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -2053,23 +2053,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1607
+						is_year = 1587
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1608
+						is_year = 1588
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1609
+						is_year = 1589
 					}
 					modifier = {
 						factor = 2
-						is_year = 1610
+						is_year = 1590
 					}
 					modifier = {
 						factor = 2
-						is_year = 1611
+						is_year = 1591
 					}
 				}
 				modifier = {
@@ -2102,7 +2102,7 @@ dharmic = {
 			}
 			guru_har_rai = {
 				trigger = {
-					is_year = 1644
+					is_year = 1624
 					is_month = 3
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -2110,23 +2110,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1645
+						is_year = 1625
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1646
+						is_year = 1626
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1647
+						is_year = 1627
 					}
 					modifier = {
 						factor = 2
-						is_year = 1648
+						is_year = 1628
 					}
 					modifier = {
 						factor = 2
-						is_year = 1649
+						is_year = 1629
 					}
 				}
 				modifier = {
@@ -2157,7 +2157,7 @@ dharmic = {
 			}
 			guru_har_krishan = {
 				trigger = {
-					is_year = 1661
+					is_year = 1641
 					is_month = 3
 					NOT = { has_global_flag = guru_event_happening }
 				}
@@ -2165,23 +2165,23 @@ dharmic = {
 					factor = 5
 					modifier = {
 						factor = 1.5
-						is_year = 1662
+						is_year = 1642
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1663
+						is_year = 1643
 					}
 					modifier = {
 						factor = 1.5
-						is_year = 1664
+						is_year = 1644
 					}
 					modifier = {
 						factor = 2
-						is_year = 1665
+						is_year = 1645
 					}
 					modifier = {
 						factor = 2
-						is_year = 1666
+						is_year = 1646
 					}
 				}
 				modifier = {

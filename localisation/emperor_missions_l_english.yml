@@ -841,8 +841,8 @@
  tri_found_the_university_title:0 "Found Trier University"
  tri_found_the_university_desc:0 "We must establish a center of learning where we can train the theologians, jurists and medics of the future, and attract the leading minds of Germany to serve the [Root.GovernmentName]."
  # Dutch missions
- emp_ned_seize_ceylon_title:0 "Seize Ceylon"
- emp_ned_seize_ceylon_desc:0 "The rich island of Ceylon is not only a lucrative source of income itself, but also a key waypoint for ships sailing further east. If we do not seize it, our enemies surely will."
+ emp_ned_seize_ceylon_title:0 "A Stepping Stone"
+ emp_ned_seize_ceylon_desc:0 "Now is the time to look East, and seize the riches that await us there. But we will need a way there, and need safe harbours for our ships."
  emp_ned_found_batavia_title:0 "Found Batavia"
  emp_ned_found_batavia_desc:0 "Our growing presence in the East Indies requires a nearby administrative center, where our merchants can be protected by our guns and our ships can safely dock."
  emp_ned_conquer_malacca_title:0 "Conquer Malacca"

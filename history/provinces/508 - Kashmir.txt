@@ -1,5 +1,5 @@
-owner = KSH
-controller = KSH
+owner = Z0C
+controller = Z0C
 capital = "Srinagar"
 is_city = yes
 culture = kashmiri
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 4
 base_manpower = 2
-add_core = KSH
+add_core = Z0C
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

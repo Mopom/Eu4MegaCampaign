@@ -3,14 +3,14 @@ graphical_culture = westerngfx
 color = { 248 96 15 }
 revolutionary_colors = { 1 5 9 }
 historical_idea_groups = {
-	innovative_ideas
 	exploration_ideas
 	expansion_ideas
-	plutocratic_ideas
 	trade_ideas
 	naval_ideas
 	humanist_ideas
 	quality_ideas
+	quantity_ideas
+	offensive_ideas
 }
 historical_units = {
 	austrian_grenzer

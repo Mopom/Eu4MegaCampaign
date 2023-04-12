@@ -24,7 +24,8 @@ gng_crisis = {
 	can_end = {
 		stability = 3
 		is_bankrupt = no
-		NOT = { num_of_loans = 0 }
+		NOT = { num_of_loans = 1 }
+		NOT = { corruption = 1 }
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		NOT = { war_exhaustion = 2 }

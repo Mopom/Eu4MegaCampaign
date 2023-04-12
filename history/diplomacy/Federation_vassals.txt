@@ -34,3 +34,9 @@ union = {
  	start_date = 1444.1.1
  	end_date = 1569.7.1
  }
+ colony = {
+    first = Z02
+    second = EKG
+    start_date = 1444.1.1
+ 	end_date = 1569.7.1
+ }

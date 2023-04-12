@@ -1,5 +1,5 @@
-owner = Z0C
-controller = Z0C
+owner = KSH
+controller = KSH
 capital = "Rutog"
 is_city = yes
 culture = tibetan
@@ -8,8 +8,7 @@ trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = UTS
-add_core = Z0C
+add_core = KSH
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

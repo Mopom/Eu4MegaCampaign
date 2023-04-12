@@ -28,15 +28,20 @@ emp_ned_slot1_branch = {
 		completed_by = 1640.1.1
 		
 		provinces_to_highlight = {
-			area = lanka_area
+			province_id = 1100
+			province_id = 1101
+			province_id = 1102
+			province_id = 1103
 			NOT = { owned_by = ROOT }
 			has_discovered = ROOT
 		}
 		
 		trigger = {
-			lanka_area = {
-				type = all
-				owned_by = ROOT
+			OR = {
+			    1100 = { country_or_non_sovereign_subject_holds = ROOT }
+			    1101 = { country_or_non_sovereign_subject_holds = ROOT }
+			    1102 = { country_or_non_sovereign_subject_holds = ROOT }
+			    1103 = { country_or_non_sovereign_subject_holds = ROOT }
 			}
 		}
 		
@@ -1215,6 +1220,7 @@ emp_ned_slot5_branch = { # Orangists
 		
 		trigger = {
 			legitimacy_equivalent = 80
+			is_year = 1450
 		}
 		effect = {
 			if = {
@@ -1250,6 +1256,7 @@ emp_ned_slot5_branch = { # Orangists
 		trigger = {
 			NOT = { corruption = 1 }
 			prestige = 50
+			is_year = 1455
 		}
 		effect = {
 			if = {

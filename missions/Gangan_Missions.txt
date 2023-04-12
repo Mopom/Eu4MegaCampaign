@@ -30,9 +30,23 @@ ind_guj_slot_1 = {
 			}
 		}
 		trigger = {
-			adm_power = 200
-			manpower = 2
-			saurashtra_area = {
+			manpower = 5
+			521 = {
+				type = all
+				owned_by = Z01
+				is_core = Z01
+			}
+			4454 = {
+				type = all
+				owned_by = Z01
+				is_core = Z01
+			}
+			515 = {
+				type = all
+				owned_by = Z01
+				is_core = Z01
+			}
+			4455 = {
 				type = all
 				owned_by = Z01
 				is_core = Z01
@@ -41,6 +55,9 @@ ind_guj_slot_1 = {
 				type = all
 				owned_by = Z01
 				is_core = Z01	
+			}
+			2052 = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			ahmedabad_area = {
 				type = all

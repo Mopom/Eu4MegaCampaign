@@ -15,3 +15,6 @@ discovered_by = muslim
 discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
+1444.11.11 = {
+	add_permanent_claim = GRE
+}
