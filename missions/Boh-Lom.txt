@@ -10,7 +10,7 @@ ubl_1 = {
 	has_country_shield = yes
 
 	ubl_1_1 = {
-		icon = powerhouse_of_the_north
+		icon = unify_piedmont
 		required_missions = {  }
 		provinces_to_highlight = {
 			owned_by = SZO
@@ -35,7 +35,7 @@ ubl_1 = {
 	}
 
 	ubl_1_2 = {
-		icon = powerhouse_of_the_north
+		icon = mission_the_austrian_succession
 		required_missions = {
 			ubl_1_1
 			ubl_2_1
@@ -61,7 +61,7 @@ ubl_1 = {
 	}
 
 	ubl_1_3 = {
-		icon = powerhouse_of_the_north
+		icon = the_ostend_company
 		required_missions = {
 			ubl_1_2
 		}
@@ -108,7 +108,7 @@ ubl_1 = {
 	}
 
 	ubl_1_4 = {
-		icon = powerhouse_of_the_north
+		icon = mission_indian_trade_company
 		required_missions = {
 			ubl_1_3
 		}
@@ -246,7 +246,7 @@ ubl_1 = {
 	}
 
 	ubl_1_5 = {
-		icon = powerhouse_of_the_north
+		icon = mission_trade_with_cathay
 		required_missions = {
 			ubl_1_4
 		}
@@ -294,7 +294,7 @@ ubl_1 = {
 	}
 
 	ubl_1_6 = {
-		icon = powerhouse_of_the_north
+		icon = settle_austrialasia
 		required_missions = {
 			ubl_1_5
 		}
@@ -454,7 +454,7 @@ ubl_2 = {
 	has_country_shield = yes
 
 	ubl_2_1 = {
-		icon = powerhouse_of_the_north
+		icon = the_gallic_wars
 		required_missions = {}
 		provinces_to_highlight = {
 			owned_by = BLG
@@ -480,7 +480,7 @@ ubl_2 = {
 	}
 
 	ubl_2_2 = {
-		icon = powerhouse_of_the_north
+		icon = mission_rb_rein_in_the_highland_clans
 		required_missions = {}
 		provinces_to_highlight = {
 			owned_by = WLS
@@ -503,7 +503,7 @@ ubl_2 = {
 	}
 
 	ubl_2_3 = {
-		icon = powerhouse_of_the_north
+		icon = mission_rule_italy
 		required_missions = {
 			ubl_2_2
 			ubl_3_2
@@ -524,7 +524,7 @@ ubl_2 = {
 	}
 
 	ubl_2_4 = {
-		icon = powerhouse_of_the_north
+		icon = kingdom_of_lombardy
 		required_missions = {
 			ubl_2_3
 		}
@@ -703,7 +703,7 @@ ubl_3 = {
 	has_country_shield = yes
 
 	ubl_3_1 = {
-		icon = powerhouse_of_the_north
+		icon = imperial_ascendancy
 		required_missions = {  }
 
 		provinces_to_highlight = {
@@ -728,7 +728,7 @@ ubl_3 = {
 	}
 
 	ubl_3_2 = {
-		icon = powerhouse_of_the_north
+		icon = spread_the_von_wettins
 		required_missions = {
 			ubl_2_1
 			ubl_3_1
@@ -764,7 +764,7 @@ ubl_3 = {
 	}
 
 	ubl_3_3 = {
-		icon = powerhouse_of_the_north
+		icon = alpine_defenses
 		required_missions = {
 			ubl_3_2
 		}
@@ -816,7 +816,7 @@ ubl_3 = {
 	}
 
 	ubl_3_4 = {
-		icon = powerhouse_of_the_north
+		icon = mission_eastern_european_city
 		required_missions = {
 			ubl_3_3
 		}
@@ -862,7 +862,7 @@ ubl_3 = {
 	}
 
 	ubl_3_5 = {
-		icon = powerhouse_of_the_north
+		icon = alpine_fortifications
 		required_missions = {
 			ubl_3_4
 		}
