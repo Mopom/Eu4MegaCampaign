@@ -914,7 +914,7 @@ ubl_4 = {
 	has_country_shield = yes
 
 	ubl_4_1 = {
-		icon = powerhouse_of_the_north
+		icon = boh_humiliate_austria
 		required_missions = {  }
 
 		provinces_to_highlight = {
@@ -950,7 +950,7 @@ ubl_4 = {
 	}
 
 	ubl_4_2 = {
-		icon = powerhouse_of_the_north
+		icon = bohemian_crystal
 		required_missions = { ubl_5_1 }
 
 		provinces_to_highlight = {
@@ -988,7 +988,7 @@ ubl_4 = {
 	}
 
 	ubl_4_3 = {
-		icon = powerhouse_of_the_north
+		icon = develop_the_po_valley
 		required_missions = { ubl_4_2 }
 		provinces_to_highlight = {
 			OR = {
@@ -1024,7 +1024,7 @@ ubl_4 = {
 	}
 
 	ubl_4_4 = {
-		icon = powerhouse_of_the_north
+		icon = prosperity_for_all
 		required_missions = { ubl_4_3 }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -1078,7 +1078,7 @@ ubl_4 = {
 	}
 
 	ubl_4_5 = {
-		icon = powerhouse_of_the_north
+		icon = take_silesia
 		required_missions = { ubl_4_4 }
 		provinces_to_highlight = {
 			area = silesia_area
@@ -1100,7 +1100,7 @@ ubl_4 = {
 	}
 
 	ubl_4_6 = {
-		icon = powerhouse_of_the_north
+		icon = reform_bergordnung
 		required_missions = {
 			ubl_4_5
 			ubl_5_5
