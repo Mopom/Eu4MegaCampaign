@@ -2,7 +2,7 @@ owner = UBL
 controller = UBL
 capital = "Praha"
 is_city = yes
-culture = czech
+culture = swiss
 religion = samaritan_faith
 trade_goods = cloth
 fort_15th = yes
@@ -20,3 +20,6 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 add_province_triggered_modifier = religious_center
+1444.11.11 = {
+	change_original_culture = czech
+}
