@@ -350,7 +350,7 @@ ubl_1_new = {
 	has_country_shield = yes
 
 	ubl_1_7_new = {
-		icon = powerhouse_of_the_north
+		icon = mission_rb_prospect_for_coal
 		required_missions = {
 			ubl_2_6_new
 		}
@@ -414,7 +414,7 @@ ubl_1_new = {
 	}
 
 	ubl_1_8_new = {
-		icon = powerhouse_of_the_north
+		icon = fund_the_monasteries
 		required_missions = {
 			ubl_1_7_new
 		}
@@ -558,7 +558,7 @@ ubl_2_new = {
 	has_country_shield = yes
 
 	ubl_2_5_new = {
-		icon = powerhouse_of_the_north
+		icon = spread_the_von_wettins
 		required_missions = {
 			ubl_2_4
 		}
@@ -575,7 +575,7 @@ ubl_2_new = {
 	}
 
 	ubl_2_6_new = {
-		icon = powerhouse_of_the_north
+		icon = purely_for_commerce
 		required_missions = {
 			ubl_2_5_new
 		}
@@ -633,7 +633,7 @@ ubl_2_new = {
 	}
 
 	ubl_2_7_new = {
-		icon = powerhouse_of_the_north
+		icon = italian_riches
 		required_missions = {
 			ubl_2_6_new
 		}
@@ -667,7 +667,7 @@ ubl_2_new = {
 	}
 
 	ubl_2_8_new = {
-		icon = powerhouse_of_the_north
+		icon = nuova_promissione_ducale
 		required_missions = {
 			ubl_2_7_new
 		}
@@ -989,7 +989,10 @@ ubl_4 = {
 
 	ubl_4_3 = {
 		icon = develop_the_po_valley
-		required_missions = { ubl_4_2 }
+		required_missions = { 
+			ubl_4_2
+			ubl_5_2
+		}
 		provinces_to_highlight = {
 			OR = {
 				AND = {
@@ -1181,7 +1184,7 @@ ubl_5 = {
 	has_country_shield = yes
 
 	ubl_5_1 = {
-		icon = powerhouse_of_the_north
+		icon = friends_in_high_places
 		required_missions = {  }
 
 		trigger = {
@@ -1204,7 +1207,7 @@ ubl_5 = {
 	}
 
 	ubl_5_2 = {
-		icon = powerhouse_of_the_north
+		icon = mission_pol_develop_countryside
 		required_missions = { ubl_5_1 }
 		provinces_to_highlight = {
 			province_id = 266
@@ -1222,7 +1225,7 @@ ubl_5 = {
 				is_at_war = no
 			}
 			has_institution = renaissance
-			total_development = 120
+			total_development = 600
 			266 = {
 				owned_by = root
 				development = 20
@@ -1238,7 +1241,7 @@ ubl_5 = {
 	}
 
 	ubl_5_3 = {
-		icon = powerhouse_of_the_north
+		icon = aldine_press
 		required_missions = { ubl_5_2 }
 		provinces_to_highlight = {  }
 		
@@ -1254,7 +1257,7 @@ ubl_5 = {
 	}
 	
 	ubl_5_4 = {
-		icon = powerhouse_of_the_north
+		icon = plague_doctor_training
 		required_missions = { ubl_5_3 }
 		provinces_to_highlight = {  }
 		
@@ -1270,7 +1273,7 @@ ubl_5 = {
 	}
 
 	ubl_5_5 = {
-		icon = powerhouse_of_the_north
+		icon = mission_pol_throne_bohemia
 		required_missions = { ubl_5_4 }
 		provinces_to_highlight = {
 			is_capital_of = root
