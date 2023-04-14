@@ -1,48 +1,65 @@
-ubl_1 = {
+lot_lot_1 = {
 	slot = 1
 	generic = no
 	ai = yes
 	
 	potential = {
-		tag = UBL
+		tag = LOT
 	}
 
 	has_country_shield = yes
 
-	ubl_1_1 = {
-		icon = unify_piedmont
+	lot_lot_1_pav = {
+		icon = develop_the_po_valley
 		required_missions = {  }
 		provinces_to_highlight = {
-			owned_by = SZO
-			area = piedmont_area
+			province_id = 4728
 		}
 		
 		trigger = {
-			piedmont_area = {
-				type = all
-				NOT = { owned_by = SZO }
+			4728 = {
+				development = 30
 			}
 		}
 
 		effect = {
 			liguria_area = {
-				limit = {
-					NOT = { owned_by = UBL }
-				}
+				add_permanent_claim = ROOT
+			}
+			piedmont_area = {
+				add_permanent_claim = ROOT
+			}
+			lombardy_area = {
+				add_permanent_claim = ROOT
+			}
+			po_valley_area = {
+				add_permanent_claim = ROOT
+			}
+			emilia_romagna_area = {
+				add_permanent_claim = ROOT
+			}
+			tuscany_area = {
+				add_permanent_claim = ROOT
+			}
+			2977 = {
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-
-	ubl_1_2 = {
-		icon = mission_the_austrian_succession
-		required_missions = {
-			ubl_1_1
-			ubl_2_1
-		}
+	lot_lot_1_ita = {
+		icon = kingdom_of_lombardy
+		required_missions = { lot_lot_1_pav }
 		provinces_to_highlight = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			area = liguria_area
+			OR = {
+				area = liguria_area
+				area = piedmont_area
+				area = lombardy_area
+				area = po_valley_area
+				area = emilia_romagna_area
+				area = tuscany_area
+				province_id = 2977
+			}
 		}
 		
 		trigger = {
@@ -50,497 +67,341 @@ ubl_1 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		}
-
-		effect = {
-			add_country_modifier = {
-				name = ubl_bohlom_riviera
-				duration = 7300
-			}
-		}
-	}
-
-	ubl_1_3 = {
-		icon = the_ostend_company
-		required_missions = {
-			ubl_1_2
-		}
-		provinces_to_highlight = {
-			any_owned_province = {
-				continent = asia
-			}
-		}		
-
-		trigger = {
-			any_owned_province = {
-				is_owned_by_trade_company = yes
-				continent = asia
-			}
-		}
-
-		effect = {
-			add_country_modifier = {
-				name = ubl_riviera_company
-				duration = -1
-			}
-			#custom_tooltip =
-			hidden_effect = {
-				india_superregion = {
-					limit = {
-						province_has_center_of_trade_of_level = 1
-						has_port = yes
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = root
-				}
-				east_indies_superregion = {
-					limit = {
-						province_has_center_of_trade_of_level = 1
-						has_port = yes
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-		}
-	}
-
-	ubl_1_4 = {
-		icon = mission_indian_trade_company
-		required_missions = {
-			ubl_1_3
-		}
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					trade_company_region = trade_company_west_india
-					is_owned_by_trade_company = no
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_company_region = trade_company_west_india
-								is_owned_by_trade_company = yes
-							}
-						}
-					}
-				}
-				AND = {
-					trade_company_region = trade_company_coromandel
-					is_owned_by_trade_company = no
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_company_region = trade_company_coromandel
-								is_owned_by_trade_company = yes
-							}
-						}
-					}
-				}
-				AND = {
-					trade_company_region = trade_company_east_india
-					is_owned_by_trade_company = no
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_company_region = trade_company_east_india
-								is_owned_by_trade_company = yes
-							}
-						}
-					}
-				}
-				AND = {
-					trade_company_region = trade_company_indonesia
-					is_owned_by_trade_company = no
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_company_region = trade_company_indonesia
-								is_owned_by_trade_company = yes
-							}
-						}
-					}
-				}
-			}
-			has_port = yes
-		}
-
-		trigger = {
-			num_of_owned_provinces_with = {
-				value = 5
-				trade_company_region = trade_company_west_india
-				is_owned_by_trade_company = yes
-			}
-			num_of_owned_provinces_with = {
-				value = 5
-				trade_company_region = trade_company_coromandel
-				is_owned_by_trade_company = yes
-			}
-			num_of_owned_provinces_with = {
-				value = 5
-				trade_company_region = trade_company_east_india
-				is_owned_by_trade_company = yes
-			}
-			num_of_owned_provinces_with = {
-				value = 5
-				trade_company_region = trade_company_indonesia
-				is_owned_by_trade_company = yes
-			}
-		}
-
-		effect = {
-			west_guangdong_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			guangdong_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			fujian_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			zhejiang_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			#custom_tooltip =
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						OR = {
-							superregion = india_superregion
-							superregion = east_indies_superregion
-						}
-					}
-					area_for_scope_province = {
-						limit = {
-							NOT = { owned_by = root }
-							NOT = { is_core = root }
-							NOT = { is_claim = root }
-						}
-						type = all
-						add_permanent_claim = root
-					}
-				}
-			}
-		}
-	}
-
-	ubl_1_5 = {
-		icon = mission_trade_with_cathay
-		required_missions = {
-			ubl_1_4
-		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 667
-				province_id = 684
-			}
-			NOT = { 667 = { is_strongest_trade_power = ROOT } }
-			NOT = { 684 = { is_strongest_trade_power = ROOT } }
-		}
-
-		trigger = {
-			OR = {
-				667 = { is_strongest_trade_power = ROOT }
-				684 = { is_strongest_trade_power = ROOT }
-			}
-		}
-
-		effect = {
-			south_china_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			australia_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_claim = ROOT }
-					NOT = {
-						owner = {
-							is_subject_of = ROOT
-						}
-					}
-				}
-				add_permanent_claim = ROOT
-			}
-			add_country_modifier = {
-				name = ubl_chinese_riches
-				duration = 7300
-			}
-		}
-	}
-
-	ubl_1_6 = {
-		icon = settle_austrialasia
-		required_missions = {
-			ubl_1_5
-		}
-		provinces_to_highlight = {
-			region = australia_region
-			ROOT = {
-				NOT = {
-					any_subject_country = {
-						is_colonial_nation = yes
-						capital_scope = {
-							colonial_region = colonial_australia
-						}
-						any_owned_province = {
-							region = australia_region
-						}
-					}
-				}
-			}
-		}
-
-		trigger = {
-			any_subject_country = {
-				is_colonial_nation = yes
-				capital_scope = {
-					colonial_region = colonial_australia
-				}
-				any_owned_province = {
-					region = australia_region
-				}
-			}
-		}
-
-		effect = {
-			add_prestige = 20
-			add_country_modifier = {
-				name = ubl_bohlom_australia
-				duration = 10950
-			}
-		}
-	}
-}
-
-ubl_1_new = {
-	slot = 1
-	generic = no
-	ai = yes
-
-	potential = {
-		tag = UBL
-		has_country_flag = ubl_new_path
-	}
-
-	has_country_shield = yes
-
-	ubl_1_7_new = {
-		icon = mission_rb_prospect_for_coal
-		required_missions = {
-			ubl_2_6_new
-		}
-		provinces_to_highlight = {
-			OR = {
-				if = {
-					limit = {
-						#mission_completed = ubl_4_4
-					}
-					area = silesia_area
-					OR = {
-						NOT = { culture = polish }
-						NOT = { base_production = 16 }
-					}
-				}
-				AND = {
-					area = slovakia_area
-					OR = {
-						NOT = { culture = slovak }
-						NOT = { base_production = 16}
-					}
-				}
-			}
-		}
-
-		trigger = {
-			if = {
-				limit = {
-					#mission_completed = ubl_4_4
-				}
-				silesia_area = {
-					type = all
-					culture = polish
-					base_production = 16
-				}
-			}
-			slovakia_area = {
+			piedmont_area = {
 				type = all
-				culture = slovak
-				base_production = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lombardy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			po_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			emilia_romagna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tuscany_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2977 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
-
 		effect = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						area = silesia_area
-						AND = {
-							#owner = { mission_completed = ubl_4_4 }
-							area = slovakia_area
-						}
-					}
-				}
+			lombardy_area = {
 				add_province_modifier = {
-					name = ubl_new_industry
+					name = loth_river_produce
 					duration = 7300
 				}
 			}
-		}
-	}
-
-	ubl_1_8_new = {
-		icon = fund_the_monasteries
-		required_missions = {
-			ubl_1_7_new
-		}
-		provinces_to_highlight = {
-			province_id = 137
-		}
-
-		trigger = {
-			treasury = 2000
-			137 = {
-				development = 20
-				province_has_center_of_trade_of_level = 3
-			}
-		}
-
-		effect = {
-			add_treasury = -2000
-			137 = {
+			po_valley_area = {
 				add_province_modifier = {
-					name = ubl_new_holy_site
-					duration = -1
+					name = loth_river_produce
+					duration = 7300
 				}
+			}
+			emilia_romagna_area = {
+				add_province_modifier = {
+					name = loth_river_produce
+					duration = 7300
+				}
+			}
+			venetia_area = {
+				add_claim = ROOT
+			}
+			130 = {
+				add_claim = ROOT
+			}
+			4738 = {
+				add_claim = ROOT
 			}
 		}
 	}
 }
 
-ubl_2 = {
-	slot = 2
+lot_lot_2 = {
+	slot = 1
 	generic = no
 	ai = yes
 	
 	potential = {
-		tag = UBL
+		tag = LOT
 	}
 
 	has_country_shield = yes
 
-	ubl_2_1 = {
-		icon = the_gallic_wars
+	lot_lot_2_ch = {
+		icon = helvetic_conquest
 		required_missions = {}
 		provinces_to_highlight = {
-			owned_by = BLG
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = romandie_area
+				area = switzerland_area
+			}
 		}
 
 		trigger = {
-			emilia_romagna_area = {
+			romandie_area = {
 				type = all
 				owned_by = ROOT
 			}
+			switzerland_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			upper_rhineland_area = {
+				add_permanent_claim = ROOT
+			}
+			alsace_area = {
+				add_permanent_claim = ROOT
+			}
+			189 = {
+				add_permanent_claim = ROOT
+			}
+			188 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lot_lot_2_lot = {
+		icon = unite_the_realm
+		required_missions = { lot_lot_2_ch }
+		provinces_to_highlight = {
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = upper_rhineland_area
+				area = alsace_area
+				province_id = 189
+				province_id = 188
+				province_id = 1761
+				province_id = 4767
+				area = lower_rhineland_area
+				province_id = 94
+				province_id = 93
+				province_id = 1866
+				province_id = 2974
+				province_id = 1742
+				province_id = 85
+			}
+		}
+
+		trigger = {
+			upper_rhineland_area = {
+				type = all
+				owned_by = ROOT
+			}
+			alsace_area = {
+				type = all
+				owned_by = ROOT
+			}
+			189 = {
+				owned_by = ROOT
+			}
+			188 = {
+				owned_by = ROOT
+			}
+			1761 = {
+				owned_by = ROOT
+			}
+			4767 = {
+				owned_by = ROOT
+			}
+			lower_rhineland_area = {
+				type = all
+				owned_by = ROOT
+			}
+			94 = {
+				owned_by = ROOT
+			}
+			93 = {
+				owned_by = ROOT
+			}
+			1866 = {
+				owned_by = ROOT
+			}
+			2974 = {
+				owned_by = ROOT
+			}
+			1742 = {
+				owned_by = ROOT
+			}
+			85 = {
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			provence_area = {
+				add_permanent_claim = ROOT
+			}
+			savoy_dauphine_area = {
+				add_permanent_claim = ROOT
+			}
+			4764 = {
+				add_permanent_claim = ROOT
+			}
+			193 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	lot_lot_2_leg = {
+		icon = the_crown_of_lothair
+		required_missions = { lot_lot_2_lot }
+		provinces_to_highlight = {
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = tuscany_area
+				province_id = 2977
+				area = emilia_romagna_area
+				province_id = 130
+				province_id = 4738
+				area = venetia_area
+				area = po_valley_area
+				area = lombardy_area
+				area = piedmont_area
+				area = liguria_area
+				area = provence_area
+				area = savoy_dauphine_area
+				area = romandie_area
+				area = switzerland_area
+				province_id = 4764
+				province_id = 193
+				area = upper_rhineland_area
+				area = alsace_area
+				province_id = 189
+				province_id = 188
+				province_id = 4767
+				province_id = 1761
+				area = lower_rhineland_area
+				province_id = 94
+				province_id = 93
+				province_id = 1866
+				province_id = 85
+				province_id = 2975
+				area = north_brabant_area
+				province_id = 2974
+				area = holland_area
+				area = frisia_area
+				province_id = 55
+			}
+		}
+
+		trigger = {
 			tuscany_area = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
-			NOT = { exists = BLG }
-		}
-
-		effect = {
-			every_subject_country = {
-				add_liberty_desire = -10
+			emilia_romagna_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
-		}
-	}
-
-	ubl_2_2 = {
-		icon = mission_rb_rein_in_the_highland_clans
-		required_missions = {}
-		provinces_to_highlight = {
-			owned_by = WLS
-		}
-
-		trigger = {
-			WLS = {
-				has_opinion = {
-					who = UBL
-					value = 120
-				}
+			venetia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
-		}
-
-		effect = {
-			country_event = {
-				id = ubl_flavour_missions.1
+			po_valley_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
-		}
-	}
-
-	ubl_2_3 = {
-		icon = mission_rule_italy
-		required_missions = {
-			ubl_2_2
-			ubl_3_2
-		}
-		provinces_to_highlight = {
-			owned_by = URB
-		}
-
-		trigger = {
-			has_country_flag = wls_resolved
-			is_year = 1500
-			has_guaranteed = URB
+			lombardy_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			piedmont_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			liguria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			provence_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			savoy_dauphine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			romandie_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			switzerland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			upper_rhineland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			alsace_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			lower_rhineland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			north_brabant_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			holland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			frisia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			owns_core_province = 2977
+			owns_core_province = 130
+			owns_core_province = 4738
+			owns_core_province = 4764
+			owns_core_province = 193
+			owns_core_province = 189
+			owns_core_province = 188
+			owns_core_province = 4767
+			owns_core_province = 1761
+			owns_core_province = 94
+			owns_core_province = 93
+			owns_core_province = 1866
+			owns_core_province = 85
+			owns_core_province = 2975
+			owns_core_province = 2974
+			owns_core_province = 55
 		}
 
 		effect = {
 			add_prestige = 50
-		}
-	}
-
-	ubl_2_4 = {
-		icon = kingdom_of_lombardy
-		required_missions = {
-			ubl_2_3
-		}
-
-		trigger = {
-			prestige = 40
-			adm = 6
-			dip = 6
-			mil = 6
-			republican_tradition = 80
-		}
-
-		effect = {
-			country_event = {
-				id = ubl_flavour_missions.4
-			}
 		}
 	}
 }

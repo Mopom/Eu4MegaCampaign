@@ -1,75 +1,103 @@
+namespace = ubl_flavour_missions
+
+#########################################
+#	Flavor events for Europe & Casanova	#
+#########################################
+
 country_event = {
-	id = ubl_wales.1
-	title = ubl_wales.1.t
-	desc = ubl_wales.1.d
+	id = ubl_flavour_missions.1
+	title = ubl_flavour_missions.1.t
+	desc = ubl_flavour_missions.1.d
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = "ubl_bribe"
+		name = "ubl_flavour_missions.1.a" #ubl bribe
 		ai_chance = { factor = 100 }
 	}
 	option = {
-		name = "ubl_faith"
+		name = "ubl_flavour_missions.1.b" #ubl faith
 		ai_chance = { factor = 0 }
 	}
 	option = {
-		name = "ubl_abandon"
-		ai_chance = { factor = 0 }
-	}
-	
-}
-
-country_event = {
-	id = ubl_wales.2
-	title = ubl_wales.2.t
-	desc = ubl_wales.2.d
-	picture = TRADEGOODS_eventPicture
-
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	option = {
-		name = "ubl_yes"
-		ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "ubl_no"
+		name = "ubl_flavour_missions.1.c" #ubl abandon
 		ai_chance = { factor = 0 }
 	}
 	
 }
 
 country_event = {
-	id = ubl_wales.3
-	title = ubl_wales.3.t
-	desc = ubl_wales.3.d
+	id = ubl_flavour_missions.2
+	title = ubl_flavour_missions.2.t
+	desc = ubl_flavour_missions.2.d
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = "ubl_wales_final"
+		name = "ubl_flavour_missions.2.a" #ubl yes
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "ubl_flavour_missions.2.b" #ubl no
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = ubl_flavour_missions.3
+	title = ubl_flavour_missions.3.t
+	desc = ubl_flavour_missions.3.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ubl_flavour_missions.3.a" #ubl wales final
 		ai_chance = { factor = 100 }
 	}
 	
 }
 
 country_event = {
-	id = ubl_path.1
-	title = ubl_path.1.t
-	desc = ubl_path.1.d
-	picture = TRADEGOODS_eventPicture
+	id = ubl_flavour_missions.4
+	title = ubl_flavour_missions.4.t
+	desc = ubl_flavour_missions.4.d
+	picture = BYZ_ADVISOR_eventPicture
 
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = "ubl_own"
-		ai_chance = { factor = 100 }
+		name = "ubl_flavour_missions.4.a" #ubl own
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+			set_country_flag = ubl_new_path
+			swap_non_generic_missions = yes
+		}
 	}
 	
+	option = {
+		name = "ubl_flavour_missions.4.b" #ubl lotharingia
+		ai_chance = { factor = 30 }
+		hidden_effect = {
+			change_tag = LOT
+			swap_non_generic_missions = yes
+			set_capital = 4728
+		}
+	}
+	
+	option = {
+		name = "ubl_flavour_missions.4.c" #ubl carolingia
+		ai_chance = { factor = 20 }
+		hidden_effect = {
+			set_country_flag = ubl_carol_path
+			swap_non_generic_missions = yes
+		}
+	}
 }

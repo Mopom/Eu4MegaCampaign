@@ -528,3 +528,6 @@ saints_in_locals = {
 	relation_with_heretics = 5
 	global_autonomy = 0.05
 }
+loth_river_produce = {
+	local_production_efficiency = 0.1
+}
