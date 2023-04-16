@@ -1162,7 +1162,7 @@ ubl_3 = {
 	}
 
 	ubl_3_3 = {
-		icon = alpine_defenses
+		icon = the_alpine_wall
 		required_missions = {
 			ubl_3_2
 		}
