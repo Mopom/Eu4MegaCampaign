@@ -481,8 +481,6 @@ mge_exp_south_branch_2 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			owns_core_province = 2183
-			owns_core_province = 2170
 			owns_core_province = 2184
 		}
 		effect = {
