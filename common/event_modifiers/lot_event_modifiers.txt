@@ -531,3 +531,21 @@ saints_in_locals = {
 loth_river_produce = {
 	local_production_efficiency = 0.1
 }
+lot_control_lowerland = {
+	province_trade_power_modifier = 0.1
+}
+lot_conversion_lot = {
+	local_missionary_strength = 0.1
+}
+lot_louis_legacy = {
+	tolerance_own = 2
+	relation_with_same_religion = 10
+}
+trade_o_rhone = {
+	trade_goods_size_modifier = 0.2
+	province_trade_power_modifier = 0.15
+}
+aachen_prestige = {
+	prestige = 0.2
+	prestige_decay = -0.02
+}

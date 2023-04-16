@@ -101,3 +101,24 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ubl_flavour_missions.5
+	title = ubl_flavour_missions.5.t
+	desc = ubl_flavour_missions.5.d
+	picture = DIET_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ubl_flavour_missions.5.a" #lot middle
+		ai_chance = { factor = 50 }
+		override_country_name = MIDDLE_FRANCE
+	}
+	option = {
+		name = "ubl_flavour_missions.5.b" #lot lot
+		ai_chance = { factor = 50 }
+	}
+	
+}
