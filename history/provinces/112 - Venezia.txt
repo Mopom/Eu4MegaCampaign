@@ -13,6 +13,7 @@ extra_cost = 24
 center_of_trade = 3
 add_core = VEN
 add_core = UBL
+add_core = Z02
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
