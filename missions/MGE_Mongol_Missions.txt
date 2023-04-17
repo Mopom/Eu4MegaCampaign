@@ -2786,25 +2786,7 @@ mge_culture_chin_4 = {
 			}
 		}
 		effect = {
-			change_religion = shinto
-			2139 = {
-				change_religion = shinto
-			}
-			2138 = {
-				change_religion = shinto
-			}
-			jiangsu_area = {
-				change_religion = shinto
-			}
-			south_jiangsu_area = {
-				change_religion = shinto
-			}
-			guangdong_area = {
-				change_religion = shinto
-			}
-			west_guangdong_area = {
-				change_religion = shinto
-			}
+			change_culture = japwang
 		}
 	}
 }
