@@ -779,9 +779,26 @@ mge_exp_japan_branch_2 = {
 			NOT = {	owned_by = ROOT }
 		}
 		trigger = {
-			owns_core_province = 1015
-			owns_core_province = 2741
-			owns_core_province = 4651
+			1015 = {
+				OR = { 
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = HIK
+				}
+			}
+			2741 = {
+				OR = { 
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = HIK
+				}
+			}
+			4651 = {
+				OR = { 
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = HIK
+				}
+			}
+
+			}
 			if = {
 				limit = {
 					exists = JAP
