@@ -2592,11 +2592,11 @@ mge_culture_chin_4 = {
 		}
 		effect = {
 			2139 = {
-				change_culture = japanese
+				change_culture = japwang
 				change_province_name = "Raishu"
 			}
 			2138 = {
-				change_culture = japanese
+				change_culture = japwang
 				change_province_name = "Yane"
 			}
 		}
@@ -2662,10 +2662,10 @@ mge_culture_chin_4 = {
 		}
 		effect = {
 			jiangsu_area = {
-				change_culture = japanese
+				change_culture = japwang
 			}
 			south_jiangsu_area = {
-				change_culture = japanese
+				change_culture = japwang
 			}
 			1821 = {
 				change_province_name = "Nankin"
@@ -2683,7 +2683,7 @@ mge_culture_chin_4 = {
 			2141 = {
 				change_province_name = "Joshu"
 			}
-			add_accepted_culture = japanese
+			add_accepted_culture = japwang
 		}
 	}
 	mge_culture_canton = {
@@ -2729,10 +2729,10 @@ mge_culture_chin_4 = {
 		}
 		effect = {
 			guangdong_area = {
-				change_culture = japanese
+				change_culture = japwang
 			}
 			west_guangdong_area = {
-				change_culture = japanese
+				change_culture = japwang
 			}
 			667 = {
 				change_province_name = "Koshu"
