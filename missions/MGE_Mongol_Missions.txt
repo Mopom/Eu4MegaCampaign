@@ -2787,6 +2787,8 @@ mge_culture_chin_4 = {
 		}
 		effect = {
 			change_primary_culture = japwang
+			set_ruler_culture = japwang
+			set_heir_culture = japwang
 		}
 	}
 }
