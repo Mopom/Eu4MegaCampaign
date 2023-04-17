@@ -1565,15 +1565,12 @@ mge_exp_japan_branch_3 = {
 				OR = {
 					AND = {
 						alliance_with = ANU
-						marriage_with = ANU
 					}
 					AND = {
 						alliance_with = HIK
-						marriage_with = HIK
 					}
 					AND = {
 						alliance_with = ASK
-						marriage_with = ASK
 					}
 				}
 			}
@@ -1670,7 +1667,7 @@ mge_culture_chin_3 = {
 		}
 		effect = {
 			704 = {
-				change_culture = kyushuan
+				change_culture = japwang
 				change_province_name = "Kojoshi"
 				add_province_modifier = {
 					name = assylum_seekers
@@ -1678,7 +1675,7 @@ mge_culture_chin_3 = {
 				}
 			}
 			4652 = {
-				change_culture = kyushuan
+				change_culture = japwang
 				change_province_name = "Kaijoshi"
 				add_province_modifier = {
 					name = assylum_seekers
