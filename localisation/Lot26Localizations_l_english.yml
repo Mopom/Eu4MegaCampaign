@@ -797,6 +797,9 @@
  flavor_aez.9.t:0 "An Arid New World"
  flavor_aez.9.d:0 "In the New World we have found a land quite similar to our homeland. Especially the land between [4637.GetName] and [4649.GetName] reminds us of our Catalonia. Perhaps we can honour our Old World in the naming of this colony."
  flavor_aez.9.a:0 "We shall be Catalunya-Nova!"
+ flavor_aez.10.t:0 "A Southern Land"
+ flavor_aez.10.d:0 "South of the Eastern Indies and on route to the New World our explorers have found a new land. Originally it was assumed to be the New World but quickly it was found to be a completely different landmass. By circumnavigating the perimeter we have truly found a massive island here."
+ flavor_aez.10.a:0 "We can bring society to this Southern Land."
  ############## Great Projects ###############################
  jardins_des_fees:0 "§JJardins Royaux des Fées§!"
  jardins_des_fees_desc:0 "Reserved here in the early 1100's by the Kings of Aquitaine, the Jardins Royaux, are makings of legends. The Royal Gardens of the Fae are said to have been the location of the §YLay of Aotrou & Itroun§!, though disproven this claim must have gathered great prestige for the Kings of Aquitaine. Certainly King Herbert of Aquitaine portrayed it so in his §YIllusterious Tapestry§!. During the reign of Queen Sulcar I the Royal Reserves were converted to the Jardins des Fées hic et nunc. Here, too, lie the origins of the §YCour d'Amour§!. It was in these gardens that Sarrazine la Lumiere wrote her §YBook of Occitan Chivalry§!, detailing the fin'amor, and that King Bruno II of Friesland courted Princess Steren. Now the Jardins Royaux des Fées have quieted and they hold a small chapel in which a §YStatue of King Joan I§!, the first Poitiers king of France, bears the sword §YDurendal§!."
