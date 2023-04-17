@@ -782,19 +782,28 @@ mge_exp_japan_branch_2 = {
 			1015 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					country_or_non_sovereign_subject_holds = HIK
+					AND = {
+						alliance_with = HIK
+						country_or_non_sovereign_subject_holds = HIK
+					}
 				}
 			}
 			2741 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					country_or_non_sovereign_subject_holds = HIK
+					AND = {
+						alliance_with = HIK
+						country_or_non_sovereign_subject_holds = HIK
+					}
 				}
 			}
 			4651 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					country_or_non_sovereign_subject_holds = HIK
+					AND = {
+						alliance_with = HIK
+						country_or_non_sovereign_subject_holds = HIK
+					}
 				}
 			}
 			if = {
