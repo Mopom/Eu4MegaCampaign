@@ -2551,7 +2551,6 @@ mge_culture_chin_4 = {
 				}
 				AND = {
 					alliance_with = JAP
-					marriage_with  = JAP
 					JAP = {
 						has_opinion = {
 							who = ROOT
@@ -2564,7 +2563,6 @@ mge_culture_chin_4 = {
 				OR = {
 					AND = {
 						alliance_with = HIK
-						marriage_with = HIK
 						HIK = {
 							has_opinion = {
 								who = ROOT
@@ -2574,7 +2572,6 @@ mge_culture_chin_4 = {
 					}
 					AND = {
 						alliance_with = ASK
-						marriage_with = ASK
 						ASK = {
 							has_opinion = {
 								who = ROOT
