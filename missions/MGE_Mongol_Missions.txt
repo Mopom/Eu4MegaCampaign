@@ -797,8 +797,6 @@ mge_exp_japan_branch_2 = {
 					country_or_non_sovereign_subject_holds = HIK
 				}
 			}
-
-			}
 			if = {
 				limit = {
 					exists = JAP
