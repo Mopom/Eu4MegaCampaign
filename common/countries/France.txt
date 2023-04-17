@@ -582,7 +582,7 @@ army_names = {
 	"Armée de l'Est"
 	"Armée des Alpes"
 	"Armée des Flandres"
-	"Armée des Pyr n es"
+	"Armée des Pyrénées"
 	"Armée du Jura"
 	"Armée du Lyonnais"
 	"Armée du Midi"
