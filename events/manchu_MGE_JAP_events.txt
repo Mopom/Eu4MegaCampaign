@@ -19,10 +19,10 @@ country_event = { #Driver for below event
 		}
 		OR = {
 			2742 = {
-				culture = japanese
+				culture = japwang
 			}
 			2108 = {
-				culture = japanese
+				culture = japwang
 			}
 		}
 	}
@@ -103,7 +103,7 @@ country_event = { #Mongols wish to Convert
 	option = { #They'll take our scraps
 		name = manchu_japanese.3.b
 		2106 = {
-			change_culture = kyushuan
+			change_culture = japwang
 		}
 	}
 	
@@ -132,10 +132,10 @@ country_event = { #Driver for below event
 		}
 		OR = {
 			1031 = {
-				culture = japanese
+				culture = japwang
 			}
 			1847 = {
-				culture = japanese
+				culture = japwang
 			}
 		}
 	}
@@ -228,7 +228,7 @@ country_event = { #Mongols wish to Convert2
 	option = { #They'll take our scraps
 		name = manchu_japanese.6.b
 		4656 = {
-			change_culture = togoku
+			change_culture = japwang
 		}
 	}
 	
@@ -255,10 +255,10 @@ country_event = { #Driver for below event
 		}
 		AND = {
 			4658 = {
-				culture = japanese
+				culture = japwang
 			}
 			1033 = {
-				culture = japanese
+				culture = japwang
 			}
 		}
 	}
@@ -338,7 +338,7 @@ country_event = { #Mongols wish to Convert3
 	option = { #They may
 		name = manchu_japanese.9.a
 		1050 = {
-			change_culture = japanese
+			change_culture = japwang
 			change_province_name = "Tiru"
 		}
 	}
@@ -368,7 +368,7 @@ country_event = { #Driver for below event
 				owns = 1816
 			}
 			2741 = {
-				culture = japanese
+				culture = japwang
 			}
 		}
 	}
@@ -437,7 +437,7 @@ country_event = { #Mongols wish to Convert4
 	option = { #They may
 		name = manchu_japanese.12.a
 		1816 = {
-			change_culture = japanese
+			change_culture = japwang
 			change_province_name = "Amatsu"
 			rename_capital = "Pekin"
 		}
@@ -469,7 +469,7 @@ country_event = { #Driver for below event
 			calc_true_if = {
 				all_province = {
 					region = manchuria_region
-					culture = japanese
+					culture = japwang
 				}
 				amount = 5
 			}
@@ -502,7 +502,7 @@ province_event = { #Cicigar
 	option = { #Reject Japanese
 		name = manchu_japanese.14.a
 		725 = {
-			change_culture = japanese
+			change_culture = japwang
 			change_province_name = "Chichiharu"
 		}
 	}
@@ -510,11 +510,11 @@ province_event = { #Cicigar
 		name = manchu_japanese.14.b
 		cicigar_area = {
 			type = all
-			change_culture = japanese
+			change_culture = japwang
 		}
 		eastern_mongolia = {
 			type = all
-			change_culture = japanese
+			change_culture = japwang
 		}
 		725 = {
 			change_province_name = "Chichiharu"
