@@ -2786,7 +2786,7 @@ mge_culture_chin_4 = {
 			}
 		}
 		effect = {
-			change_culture = japwang
+			primary_culture = japwang
 		}
 	}
 }
