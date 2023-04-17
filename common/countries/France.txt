@@ -30,9 +30,9 @@ historical_units = {
 	western_men_at_arms
 }
 Monarch_names = {
-	"Enric #4" = 15
 	"Joan #1" = 11
 	"Guilhèm #0" = 11
+	"Enric #4" = 10
 	"Hamelin #0" = 10
 	"Idechael #0" = 10
 	"Grifiud #1" = 9
