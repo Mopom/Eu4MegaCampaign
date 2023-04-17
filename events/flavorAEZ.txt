@@ -125,7 +125,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	    AND = {
-	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+	        is_subject_of = FRA
             religion = samaritan_faith
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 5
@@ -164,7 +164,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	    AND = {
-	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+	        is_subject_of = FRA
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 5
                 colonial_region = colonial_eastern_america
@@ -249,7 +249,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	    AND = {
-	        primary_culture = dynamic-breton-normand-occitain-culture-num1
+	        is_subject_of = FRA
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 5
                 colonial_region = colonial_the_carribean
@@ -322,5 +322,43 @@ country_event = {
 
 	option = {
 		name = "flavor_aez.7.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.8
+	title = "flavor_aez.8.t"
+	desc = "flavor_aez.8.d"
+	picture = HARBOUR_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        is_subject_of = FRA
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_mexico
+            }
+            is_colonial_nation = yes
+			NOT = { exists = CLU }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CLU
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.8.a"
 	}
 }

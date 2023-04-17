@@ -58,3 +58,9 @@ colony = {
     start_date = 1444.1.1
  	end_date = 1699.12.11
 }
+colony = {
+    first = FRA
+    second = CLU
+    start_date = 1444.1.1
+ 	end_date = 1619.7.1
+}
