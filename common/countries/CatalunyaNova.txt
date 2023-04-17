@@ -13,52 +13,54 @@ historical_idea_groups = {
 	defensive_ideas
 }
 historical_units = {
-	austrian_grenzer
-	austrian_hussar
-	austrian_jaeger
-	austrian_tercio
-	austrian_white_coat
+	anglofrench_line
+	chevauchee
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
 	mixed_order_infantry
 	napoleonic_lancers
 	napoleonic_square
 	open_order_cavalry
-	spanish_tercio
+	swiss_landsknechten
 	western_medieval_infantry
-	western_medieval_knights
 	western_men_at_arms
 }
 monarch_names = {
-	"Ramon #4" = 16
-	"Berenguer #3" = 15
-	"Belasko #3" = 14
-	"Bernard #2" = 13
-	"Guifré #2" = 13
+	"Ramon #0" = 16
+	"Berenguer #0" = 15
+	"Belasko #0" = 14
+	"Bernard #0" = 13
+	"Guifré #0" = 13
 	"Josselin #0" = 12
 	"Renan #0" = 11
-	"Guilhem #1" = 11
-	"Loup #1" = 11
-	"Maurice #1" = 11
+	"Guilhem #0" = 11
+	"Loup #0" = 11
+	"Maurice #0" = 11
 	"Aimeric #0" = 9
-	"Aldedramn #1" = 8
+	"Aldedramn #0" = 8
 	"Arnoul #0" = 8
-	"Bera #1" = 8
-	"Borrell #1" = 8
-	"Duran #1" = 8
-	"Gargamel #1" = 8
-	"Gartzia #1" = 8
-	"Isembard #1" = 8
-	"Jacques #1" = 8
-	"Pere #1" = 8
-	"Sunyer #1" = 8
-	"Udalard #1" = 8
+	"Bera #0" = 8
+	"Borrell #0" = 8
+	"Duran #0" = 8
+	"Gargamel #0" = 8
+	"Gartzia #0" = 8
+	"Isembard #0" = 8
+	"Jacques #0" = 8
+	"Pere #0" = 8
+	"Sunyer #0" = 8
+	"Udalard #0" = 8
 	"Aedan #0" = 7
 	"Adalmode #0" = 6
 	"Frederi #0" = 6
 	"Jaufré #0" = 6
-	"Hildebert #1" = 5
+	"Hildebert #0" = 5
 	"Érrard #0" = 4
 	"Laurènç #0" = 4
-	"Suniefredo #1" = 3
+	"Suniefredo #0" = 3
 	"Alexander #0" = 2
 	"Ancelmes #0" = 2
 	"Archambaut #0" = 2
@@ -142,15 +144,15 @@ monarch_names = {
 	"Solène #0" = -2
 	"Terèsa #0" = -2
 	"Thomine #0" = -2
-	"Drahoslava #1" = -3
+	"Drahoslava #0" = -3
 	"Aeluit #0" = -4
 	"Béatrix #0" = -4
 	"Isabeau #0" = -6
 	"Aude #0" = -8
-	"Guisla #1" = -8
+	"Guisla #0" = -8
 	"Marquisa #0" = -8
-	"Avenie #1" = -10
-	"Hermessent #1" = -10
+	"Avenie #0" = -10
+	"Hermessent #0" = -10
 	"Elisabeth #0" = -11
 	"Maria #0" = -13
 	"Lúcia #0" = -15
