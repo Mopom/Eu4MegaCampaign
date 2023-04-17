@@ -813,6 +813,7 @@ emp_ned_slot4_branch = { # Statists
 		}
 		effect = {
 			add_mercantilism = 2
+            add_dip_power = 200 #this is only to move the trade capital to where it should be at game start, but I dunno how
 			if = {
 				limit = {
 					OR = {
