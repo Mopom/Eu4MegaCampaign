@@ -21,8 +21,8 @@ mercantilism = 15
 		culture = dynamic-chihan-culture-num1
 	}
 	heir = {
-		name = "Martin"
-		monarch_name = "Martin I"
+		name = "Godwin"
+		monarch_name = "Godwin I"
 		dynasty = "Greater Wang"
 		adm = 1
 		dip = 3
@@ -58,6 +58,15 @@ mercantilism = 15
 		female = yes
 		religion = nestorian
 		culture = dynamic-chihan-culture-num1
+	}
+}
+1510.1.1= { #Fictional
+	monarch = {
+		name = "Gandalf"
+		dynasty = "Greater Wang"
+		adm = 2
+		dip = 3
+		mil = 4
 	}
 }
 1444.11.11= {
