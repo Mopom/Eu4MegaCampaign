@@ -123,6 +123,7 @@ monarchy = {
 				khalsa_reform
 				deccani_society_reform
 				mughal_government
+				ganga_government
 				black_army_reform
 				legion_of_honor_reform
 				imperial_nobility_reform
