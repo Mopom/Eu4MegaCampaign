@@ -748,8 +748,7 @@ elective_monarchy = {
 			has_polish_election = yes
 			locked_government_type = yes
 		}
-	
-		locked_government_type = yes
+	}
 	conditional = {
 		allow = { NOT = { has_dlc = "Res Publica" } }
 		custom_attributes = {
