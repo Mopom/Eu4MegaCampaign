@@ -132,7 +132,19 @@ country_event = {
                 colonial_region = colonial_canada
             }
             is_colonial_nation = yes
-			NOT = { exists = LTC }
+			NOT = {
+				OR = {
+					exists = LTC
+					tag = NFL
+					tag = WYB
+					tag = TIL
+					tag = RMA
+					tag = CLU
+					tag = EUB
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -170,7 +182,19 @@ country_event = {
                 colonial_region = colonial_eastern_america
             }
             is_colonial_nation = yes
-			NOT = { exists = NFL }
+			NOT = {
+				OR = {
+					exists = NFL
+					tag = LTC
+					tag = WYB
+					tag = TIL
+					tag = RMA
+					tag = CLU
+					tag = EUB
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -208,7 +232,19 @@ country_event = {
                 colonial_region = colonial_louisiana
             }
             is_colonial_nation = yes
-			NOT = { exists = WYB }
+			NOT = {
+				OR = {
+					exists = WYB
+					tag = LTC
+					tag = NFL
+					tag = TIL
+					tag = RMA
+					tag = CLU
+					tag = EUB
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -255,7 +291,19 @@ country_event = {
                 colonial_region = colonial_the_carribean
             }
             is_colonial_nation = yes
-			NOT = { exists = TIL }
+			NOT = {
+				OR = {
+					exists = TIL
+					tag = LTC
+					tag = NFL
+					tag = WYB
+					tag = RMA
+					tag = CLU
+					tag = EUB
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 	
@@ -293,7 +341,19 @@ country_event = {
                 colonial_region = colonial_alaska
             }
             is_colonial_nation = yes
-			NOT = { exists = RMA }
+			NOT = {
+				OR = {
+					exists = RMA
+					tag = LTC
+					tag = NFL
+					tag = WYB
+					tag = TIL
+					tag = CLU
+					tag = EUB
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -340,7 +400,19 @@ country_event = {
                 colonial_region = colonial_mexico
             }
             is_colonial_nation = yes
-			NOT = { exists = CLU }
+			NOT = {
+				OR = {
+					exists = CLU
+					tag = LTC
+					tag = NFL
+					tag = WYB
+					tag = TIL
+					tag = RMA
+					tag = EUB
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -381,7 +453,19 @@ country_event = {
                 colonial_region = colonial_california
             }
             is_colonial_nation = yes
-			NOT = { exists = EUB }
+			NOT = {
+				OR = {
+					exists = EUB
+					tag = LTC
+					tag = NFL
+					tag = WYB
+					tag = TIL
+					tag = RMA
+					tag = CLU
+					tag = TRU
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -419,7 +503,19 @@ country_event = {
                 colonial_region = colonial_australia
             }
             is_colonial_nation = yes
-			NOT = { exists = TRU }
+			NOT = {
+				OR = {
+					exists = TRU
+					tag = LTC
+					tag = NFL
+					tag = WYB
+					tag = TIL
+					tag = RMA
+					tag = CLU
+					tag = EUB
+					tag = EAL
+				}
+			}
 		}
 	}
 
@@ -460,7 +556,19 @@ country_event = {
                 colonial_region = colonial_peru
             }
             is_colonial_nation = yes
-			NOT = { exists = EAL }
+			NOT = {
+				OR = {
+					exists = EAL
+					tag = LTC
+					tag = NFL
+					tag = WYB
+					tag = TIL
+					tag = RMA
+					tag = CLU
+					tag = EUB
+					tag = TRU
+				}
+			}
 		}
 	}
 
