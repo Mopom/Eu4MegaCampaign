@@ -795,7 +795,6 @@ peasants_republic = {
 	duration = 4
 }
 
-
 ikko_ikki_republic_reform = {
 	icon = "peasants"
 	allow_normal_conversion = yes
