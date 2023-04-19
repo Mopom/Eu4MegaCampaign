@@ -159,12 +159,14 @@ while True:
         for file in provinceFiles:
             if file.split("-")[0].strip() in finalIdList:
                 modify = False
+                done = False
                 replaced_content = ""
                 text = open(os.path.join(modfolder, file), "r")
                 print("Looking at province " + file)
                 for line in text:
-                    if "discovered" in line:
+                    if "discovered" in line and not done:
                         replaced_content = replaced_content + line + entry + "\n"
+                        done = True
                     else:
                         replaced_content = replaced_content + line
 
