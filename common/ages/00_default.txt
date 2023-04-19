@@ -123,8 +123,8 @@ age_of_discovery = {
 		}
 
 
-		ab_transfer_vassal_wargoal =
-		{
+		ab_transfer_vassal_wargoal = 
+{
 			modifier = {
 				can_transfer_vassal_wargoal = yes
 				can_chain_claim = yes
@@ -154,7 +154,7 @@ age_of_discovery = {
 		}
 		ab_colony_boost_development = {
 			modifier = {
-				can_colony_boost_development = yes
+				colony_development_boost = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -167,7 +167,7 @@ age_of_discovery = {
 
 		ab_attack_bonus_in_capital_terrain = {
 			modifier = {
-				attack_bonus_in_capital_terrain = yes
+				attack_bonus_in_capital_terrain = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -185,7 +185,7 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				siege_ability = 0.33
+				leader_siege = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -404,8 +404,8 @@ age_of_reformation = {
 			}
 		}
 
+		ab_spain_shock_tactics = {
 
-		ab_spain_tercio = {
 			allow = {
 				OR = {
 					tag = ADU
@@ -417,7 +417,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				shock_damage_received = -0.3
+				leader_land_shock = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -433,6 +433,7 @@ age_of_reformation = {
 							religion_group = zoroastrian_group
 							religion_group = muslim
 							religion = buddhism
+							religion = gangan
 						}
 						calc_true_if = { #One controls a substantial amount of India
 							amount = 2
@@ -461,7 +462,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				artillery_cost = -0.5
+				artillery_power = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -525,6 +526,8 @@ age_of_absolutism = {
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
 		seat_in_parliament = -3
+		automatic_seat_in_parliament = -2
+		manual_seat_in_parliament = -2
 		war_exhaustion = -1
 	}
 
@@ -536,7 +539,10 @@ age_of_absolutism = {
 		}
 
 		obj_universities = {
-			university = 5
+			num_of_owned_provinces_with = {
+				has_building = university 
+				value = 5 
+			}
 		}
 
 		obj_large_forcelimit = {
@@ -744,7 +750,8 @@ age_of_revolutions = {
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
+		automatic_seat_in_parliament = -2
+		manual_seat_in_parliament = -2
 		war_exhaustion = -1
 	}
 
