@@ -397,7 +397,10 @@ gov_polish_republic = {
 		3 = MOST_SERNE_MARSHAL_fem
 	}
 	trigger = {
-		primary_culture = polish
+		OR = {
+			primary_culture = polish
+			primary_culture = polish_new
+		}
 		government = republic
 	}
 }
@@ -464,19 +467,22 @@ gov_admiralty = {
 	}
 	
 	ruler_male = {
-		1 = LORD_HIGH_ADMIRAL
+		1 = LORD_ADMIRAL
 		2 = LORD_HIGH_ADMIRAL
 		3 = SUPREME_ADMIRAL
 	}
 	
 	ruler_female = {
-		1 = LORD_HIGH_ADMIRAL_fem
+		1 = LORD_ADMIRAL_fem
 		2 = LORD_HIGH_ADMIRAL_fem
 		3 = SUPREME_ADMIRAL_fem
 	}
 	
 	trigger = {
-		has_reform = admiralty_reform
+		OR = {
+			has_reform = admiralty_regime_reform
+			has_reform = admiralty_reform
+		}
 	}
 }
 

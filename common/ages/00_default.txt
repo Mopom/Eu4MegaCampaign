@@ -417,7 +417,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				shock_damage_received = -0.3
+				leader_land_shock = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -433,6 +433,7 @@ age_of_reformation = {
 							religion_group = zoroastrian_group
 							religion_group = muslim
 							religion = buddhism
+							religion = gangan
 						}
 						calc_true_if = { #One controls a substantial amount of India
 							amount = 2
@@ -461,7 +462,7 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				artillery_cost = -0.5
+				artillery_power = 0.15
 			}
 			ai_will_do = {
 				factor = 100
