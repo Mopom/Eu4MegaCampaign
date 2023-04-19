@@ -31,7 +31,7 @@ layout = [
     [sg.Text('Entry to remove or add', justification='center')],
     [sg.Input(entry, enable_events=True, key='-ENTRY-', expand_x=True, justification='left')],
     [sg.Text("Mod Folder", size=(17, 1)), sg.In(size=(36, 4), enable_events=True, key="-MODFOLDER-"), sg.FolderBrowse()],
-    [sg.Button("ADD"), sg.Button("REMOVE"), sg.Button("RESET")],
+    [sg.Button("ADD"), sg.Button("REMOVE")],
     [sg.Button("EXIT")]
 ]
 
@@ -106,7 +106,6 @@ while True:
         except:
             print("Wrong folder somehow... Please try something different!")
             provinceFiles = [] #TODO: complain here
-        print(provinceFiles)
     elif event == "-SRLIST-":
         print("Super region selection was changed.")
         finalIdList = []
@@ -160,7 +159,7 @@ while True:
         for file in provinceFiles:
             if file.split("-")[0].strip() in finalIdList:
                 modify = False
-                replacedContent = ""
+                replaced_content = ""
                 text = open(os.path.join(modfolder, file), "r")
                 print("Looking at province " + file)
                 for line in text:
@@ -183,7 +182,7 @@ while True:
         for file in provinceFiles:
             if file.split("-")[0].strip() in finalIdList:
                 modify = False
-                replacedContent = ""
+                replaced_content = ""
                 text = open(os.path.join(modfolder, file), "r")
                 print("Looking at province " + file)
                 for line in text:
@@ -199,8 +198,6 @@ while True:
                     write_file = open(os.path.join(modfolder, file), "w")
                     write_file.write(replaced_content)
                     write_file.close()
-    elif event == "RESET":
-        print("Reseting all filters.")
     # End program if user closes window or presses the EXIT button
     elif event == "EXIT" or event == sg.WIN_CLOSED:
         print("Goodbye.")
