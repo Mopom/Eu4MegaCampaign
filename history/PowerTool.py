@@ -186,7 +186,7 @@ while True:
                 text = open(os.path.join(modfolder, file), "r")
                 print("Looking at province " + file)
                 for line in text:
-                    if entry != line:
+                    if entry not in line:
                         replaced_content = replaced_content + line
 
                     if filtre in line or filtre == "":
