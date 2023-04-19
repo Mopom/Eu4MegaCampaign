@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = LOR
+controller = LOR
 capital = "Metz"
 is_city = yes
 culture = dynamic-cosmopolitan_french-culture-num1
@@ -11,7 +11,7 @@ base_production = 5
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = FRA
+add_core = LOR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

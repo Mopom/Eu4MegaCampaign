@@ -3,28 +3,56 @@ guarantee = {
 	second = SZO
 	start_date = 1444.1.1
 }
-vassal = {
-	first = FRA
+march = {
+	first =  FRA
 	second = CAT
 	start_date = 1444.1.1
 }
-vassal = {
-	first = FRA
+dependency = {
+	subject_type = appanage
+	first =  FRA
 	second = BUR
 	start_date = 1444.1.1
 }
-vassal = {
-	first = FRA
+dependency = {
+	subject_type = appanage
+	first =  FRA
+	second = BRI
+	start_date = 1444.1.1
+}
+dependency = {
+	subject_type = appanage
+	first =  FRA
+	second = DAU
+	start_date = 1444.1.1
+}
+dependency = {
+	subject_type = appanage
+	first =  FRA
+	second = BOU
+	start_date = 1444.1.1
+}
+dependency = {
+	subject_type = appanage
+	first =  FRA
+	second = AMG
+	start_date = 1444.1.1
+}
+dependency = {
+	subject_type = appanage
+	first =  FRA
 	second = HAI
 	start_date = 1444.1.1
 }
-union = {
-	first = FRA
+dependency = {
+	subject_type = appanage
+	first =  FRA
 	second = ORL
 	start_date = 1444.1.1
 }
-march = {
-	first = ORL
+dependency = {
+	subject_type = appanage
+	first = FRA
 	second = LOR
 	start_date = 1444.1.1
 }

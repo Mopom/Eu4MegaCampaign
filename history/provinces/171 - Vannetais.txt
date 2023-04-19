@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = BRI
+controller = BRI
 capital = "Vannes"
 is_city = yes
 culture = dynamic-breton-normand-occitain-culture-num1
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 7
 base_production = 1
 base_manpower = 3
-add_core = FRA
+add_core = BRI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

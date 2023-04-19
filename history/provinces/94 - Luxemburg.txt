@@ -1,5 +1,5 @@
-owner = LOR
-controller = LOR
+owner = FRA
+controller = FRA
 capital = "Luxemburg"
 is_city = yes
 culture = dynamic-cosmopolitan_french-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 7
 base_production = 10
 base_manpower = 3
-add_core = LOR
+add_core = FRA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

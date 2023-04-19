@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = BRI
+controller = BRI
 capital = "Luçon"
 is_city = yes
 culture = dynamic-breton-normand-occitain-culture-num1
@@ -11,7 +11,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = FRA
+add_core = BRI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

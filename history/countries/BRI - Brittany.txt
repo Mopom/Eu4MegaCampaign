@@ -4,4 +4,42 @@ government_rank = 1
 technology_group = western
 religion = samaritan_faith
 primary_culture = dynamic-breton-normand-occitain-culture-num1
-capital = 169
+capital = 172
+1376.4.5= {
+	monarch = {
+		name = "Rogier I"
+		dynasty = "de Brézé"
+		adm = 5
+		dip = 4
+		mil = 1
+		birth_date = 1346.8.3
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
+	}
+}
+1436.10.13= {
+	monarch = {
+		name = "Adelaide I"
+		dynasty = "de Brézé"
+		birth_date = 1394.11.24
+		adm = 3
+		dip = 1
+		mil = 6
+		female = yes
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
+	}
+	heir = {
+		name = "Hoël"
+		monarch_name = "Hoël III"
+		dynasty = "de Brézé"
+		adm = 5
+		dip = 3
+		mil = 2
+		birth_date = 1423.2.26
+		death_date = 1484.4.23
+		claim = 100
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
+	}
+}

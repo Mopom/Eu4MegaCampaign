@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = BRI
+controller = BRI
 capital = "Le Mans"
 is_city = yes
 culture = cosmopolitan_french
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 4
 base_production = 5
 base_manpower = 2
-add_core = FRA
+add_core = BRI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

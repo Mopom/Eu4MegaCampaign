@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = BRI
+controller = BRI
 capital = "Nantes"
 is_city = yes
 culture = dynamic-breton-normand-occitain-culture-num1
@@ -9,7 +9,7 @@ base_tax = 7
 base_production = 5
 base_manpower = 3
 extra_cost = 10
-add_core = FRA
+add_core = BRI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

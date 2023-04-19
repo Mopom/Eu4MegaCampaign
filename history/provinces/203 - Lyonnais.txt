@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = DAU
+controller = DAU
 capital = "Lyon"
 is_city = yes
 culture = arpitan

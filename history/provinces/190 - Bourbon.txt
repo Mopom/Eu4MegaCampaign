@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = BOU
+controller = BOU
 capital = "Moulins"
 is_city = yes
 culture = dynamic-breton-normand-occitain-culture-num1
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 1
 base_production = 3
 base_manpower = 1
-add_core = FRA
+add_core = BOU
 add_core = PRO
 discovered_by = eastern
 discovered_by = indian
