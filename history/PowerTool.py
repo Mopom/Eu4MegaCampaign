@@ -25,7 +25,7 @@ layout = [
     [sg.Text('Regions', size=(12, 1), justification='left'), sg.Combo(regions, size=(20, 4), expand_x=True, readonly=True, enable_events=True, key='-RLIST-')],
     [sg.Text('Areas', size=(12, 1), justification='left'), sg.Combo(areas, size=(20, 4), expand_x=True, readonly=True, enable_events=True, key='-ALIST-')],
     [sg.Text('Currently selected Ids', justification='center')],
-    [sg.Input(finalIdList, enable_events=True, key='-IDLIST-', expand_x=True, justification='left')],
+    [sg.Multiline(finalIdList, disabled=True, enable_events=True, key='-IDLIST-', expand_x=True, expand_y=True, justification='left')],
     [sg.Text('Additionnal Province Filter', justification='center')],
     [sg.Input(filtre, enable_events=True, key='-FILTER-', expand_x=True, justification='left')],
     [sg.Text('Entry to remove or add', justification='center')],
