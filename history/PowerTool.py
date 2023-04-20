@@ -18,6 +18,7 @@ finalIdList = []
 
 filtre = ""
 entry = ""
+province = ""
 
 layout = [
     [sg.Text("EU4 Base Game Folder", size=(17, 1)), sg.In(size=(36, 4), enable_events=True, key="-FOLDER-"), sg.FolderBrowse()],
@@ -26,6 +27,9 @@ layout = [
     [sg.Text('Areas', size=(12, 1), justification='left'), sg.Combo(areas, size=(20, 4), expand_x=True, readonly=True, enable_events=True, key='-ALIST-')],
     [sg.Text('Currently selected Ids', justification='center')],
     [sg.Multiline(finalIdList, disabled=True, enable_events=True, key='-IDLIST-', expand_x=True, expand_y=True, justification='left')],
+    [sg.Text('Adding or Removing Singles Provinces', justification='center')],
+    [sg.Input(province, enable_events=True, key='-PROVINCE-', expand_x=True, justification='left')],
+    [sg.Button("ADD PROVINCE TO LIST"), sg.Button("REMOVE PROVINCE FROM LIST")],
     [sg.Text('Additionnal Province Filter', justification='center')],
     [sg.Input(filtre, enable_events=True, key='-FILTER-', expand_x=True, justification='left')],
     [sg.Text('Entry to remove or add', justification='center')],
@@ -146,6 +150,21 @@ while True:
         print("Id List was changed.")
         finalIdList = values["-IDLIST-"]
         window["-IDLIST-"].update(values["-IDLIST-"])
+    elif event == "-PROVINCE-":
+        print("A province to add or remove to the list.")
+        province = values["-PROVINCE-"]
+        window["-PROVINCE-"].update(values["-PROVINCE-"])
+    elif event == "ADD PROVINCE TO LIST":
+        print("Province " + province + " will be added to the list.")
+        finalIdList.append(province)
+        window["-IDLIST-"].update(finalIdList)
+    elif event == "REMOVE PROVINCE FROM LIST":
+        print("Province " + province + " will be removed from the list.")
+        try:
+            finalIdList.remove(province)
+        except:
+            print("No province with that id in the list!!!!")
+        window["-IDLIST-"].update(finalIdList)
     elif event == "-FILTER-":
         print("Will only modify provinces with that specific entry.")
         filtre = values["-FILTER-"]
@@ -164,7 +183,7 @@ while True:
                 text = open(os.path.join(modfolder, file), "r")
                 print("Looking at province " + file)
                 for line in text:
-                    if "discovered" in line and not done:
+                    if "base_manpower" in line and not done:
                         replaced_content = replaced_content + line + entry + "\n"
                         done = True
                     else:
