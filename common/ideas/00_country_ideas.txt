@@ -272,10 +272,8 @@ RUS_ideas = {
 		auto_explore_adjacent_to_colony = yes
 	}
 	life_long_conscription  = {
-		movement_speed = 0.20
-		drill_gain_modifier = 0.25
+		trade_efficiency = 0.05
 	}
-
 	abolish_the_mestnichestvo = {
 		yearly_corruption = -0.1
 	}

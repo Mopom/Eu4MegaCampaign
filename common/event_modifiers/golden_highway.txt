@@ -25,3 +25,22 @@ golden_highway_under_construction = {
 golden_highway_construction_stalled = {
 	picture = "golden_highway_construction_paused"
 }
+russian_highway = {
+	local_friendly_movement_speed = 0.33
+	picture = "golden_highway_complete"
+}
+russian_highway_stage_1 = {
+	local_friendly_movement_speed = 0.11
+	picture = "golden_highway_one"
+}
+russian_highway_stage_2 = {
+	local_friendly_movement_speed = 0.22
+	picture = "golden_highway_two"
+}
+russian_highway_under_construction = {
+	local_production_efficiency = -0.1
+	picture = "golden_highway_construction"
+}
+russian_highway_construction_stalled = {
+	picture = "golden_highway_construction_paused"
+}

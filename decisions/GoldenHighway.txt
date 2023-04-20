@@ -942,6 +942,7 @@ golden_highway_aleppo_resume_construction = {
 				add_treasury = -50
 			}
 		}
+    }
 	
 	golden_highway_bengal_resume_construction = {
 		major = yes
@@ -1113,6 +1114,270 @@ golden_highway_aleppo_resume_construction = {
 				}
 				add_treasury = -50
 			}
+		}
+	}
+
+	rebuild_russian_highway_moskva = {
+		major = yes
+
+		potential = {
+			russian_highway_moskva = {
+				country_or_non_sovereign_subject_holds = ROOT
+				NOT = {
+					has_province_modifier = russian_highway_construction_stalled
+					has_province_modifier = russian_highway_under_construction
+					has_province_modifier = russian_highway
+				}
+			}
+			is_subject = no
+		}
+
+		provinces_to_highlight = {
+		    province_group = russian_highway_moskva
+		}
+
+		allow = {
+			russian_highway_moskva = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			treasury = 200
+		}
+
+		effect = {
+			add_treasury = -200
+			russian_highway_moskva = {
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rebuild_russian_highway_vlad1 = {
+		major = yes
+
+		potential = {
+			russian_highway_vlad1 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				NOT = {
+					has_province_modifier = russian_highway_construction_stalled
+					has_province_modifier = russian_highway_under_construction
+					has_province_modifier = russian_highway
+				}
+			}
+			is_subject = no
+		}
+
+		provinces_to_highlight = {
+		    province_group = russian_highway_vlad1
+		}
+
+		allow = {
+			russian_highway_vlad1 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			treasury = 200
+		}
+
+		effect = {
+			add_treasury = -200
+			russian_highway_vlad1 = {
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rebuild_russian_highway_vlad2 = {
+		major = yes
+
+		potential = {
+			russian_highway_vlad2 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				NOT = {
+					has_province_modifier = russian_highway_construction_stalled
+					has_province_modifier = russian_highway_under_construction
+					has_province_modifier = russian_highway
+				}
+			}
+			is_subject = no
+		}
+
+		provinces_to_highlight = {
+		    province_group = russian_highway_vlad2
+		}
+
+		allow = {
+			russian_highway_vlad2 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			treasury = 200
+		}
+
+		effect = {
+			add_treasury = -200
+			russian_highway_vlad2 = {
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rebuild_russian_highway_vlad3 = {
+		major = yes
+
+		potential = {
+			russian_highway_vlad3 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				NOT = {
+					has_province_modifier = russian_highway_construction_stalled
+					has_province_modifier = russian_highway_under_construction
+					has_province_modifier = russian_highway
+				}
+			}
+			is_subject = no
+		}
+
+		provinces_to_highlight = {
+		    province_group = russian_highway_vlad3
+		}
+
+		allow = {
+			russian_highway_vlad3 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			treasury = 200
+		}
+
+		effect = {
+			add_treasury = -200
+			russian_highway_vlad3 = {
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	russian_highway_moskva_resume_construction = {
+		major = yes
+
+		potential = {
+			russian_highway_moskva = {
+				country_or_non_sovereign_subject_holds = ROOT
+				has_province_modifier = russian_highway_construction_stalled
+			}
+			is_subject = no
+		}
+
+		effect = {
+			russian_highway_moskva = {
+				limit = { has_province_modifier = russian_highway_construction_stalled }
+				remove_province_modifier = russian_highway_construction_stalled
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+			add_treasury = -200
+		}
+	}
+
+	russian_highway_vlad1_resume_construction = {
+		major = yes
+
+		potential = {
+			russian_highway_vlad1 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				has_province_modifier = russian_highway_construction_stalled
+			}
+			is_subject = no
+		}
+
+		effect = {
+			russian_highway_vlad1 = {
+				limit = { has_province_modifier = russian_highway_construction_stalled }
+				remove_province_modifier = russian_highway_construction_stalled
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+			add_treasury = -200
+		}
+	}
+
+	russian_highway_vlad2_resume_construction = {
+		major = yes
+
+		potential = {
+			russian_highway_vlad2 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				has_province_modifier = russian_highway_construction_stalled
+			}
+			is_subject = no
+		}
+
+		effect = {
+			russian_highway_vlad2 = {
+				limit = { has_province_modifier = russian_highway_construction_stalled }
+				remove_province_modifier = russian_highway_construction_stalled
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+			add_treasury = -200
+		}
+	}
+
+	russian_highway_vlad3_resume_construction = {
+		major = yes
+
+		potential = {
+			russian_highway_vlad3 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				has_province_modifier = russian_highway_construction_stalled
+			}
+			is_subject = no
+		}
+
+		effect = {
+			russian_highway_vlad3 = {
+				limit = { has_province_modifier = russian_highway_construction_stalled }
+				remove_province_modifier = russian_highway_construction_stalled
+				add_permanent_province_modifier = {
+					name = russian_highway_under_construction
+					duration = -1
+				}
+			}
+			add_treasury = -200
 		}
 	}
 }

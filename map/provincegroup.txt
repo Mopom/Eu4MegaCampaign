@@ -15,6 +15,18 @@ golden_highway_bengal = {
 golden_highway_aleppo = {
 	2306 418 4295 2308 377 2313
 }
+russian_highway_moskva = {
+	280 4115 4244 293 4245 4251 295 1752  310 33
+}
+russian_highway_vlad1 = {
+	4253 1956 4254 306 1083 1079 1962 1077 1078
+}
+russian_highway_vlad2 = {
+	2427 1074 2428 2429 1068 1064 2443 1062
+}
+russian_highway_vlad3 = {
+	1060 1057 1058 724 4218 725 4200 731 4654 2106
+}
 # golden_highway_xianjie = {
 #	4470 4489 4500 4620 4511 4611 4938 4613 4559 4617 4618 4641 4817 4819
 #}

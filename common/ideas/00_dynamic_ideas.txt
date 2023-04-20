@@ -983,7 +983,7 @@ Z02_ideas = {
 		native_assimilation = 1
 	}
 	Z02_2 = {
-		cavalry_flanking = 0.25
+		cavalry_flanking = 0.5 #useless either way
 		movement_speed = 0.1
 	}
 	Z02_3 = {
