@@ -11,6 +11,7 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = Z02
+add_core = DAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

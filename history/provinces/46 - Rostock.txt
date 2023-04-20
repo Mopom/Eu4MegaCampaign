@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = POM
+controller = POM
 capital = "Rostock"
 is_city = yes
 culture = dynamic-saxon-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 4
 base_manpower = 1
-add_core = Z02
+add_core = POM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

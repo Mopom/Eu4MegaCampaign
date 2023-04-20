@@ -1,5 +1,5 @@
-owner = SOR
-controller = SOR
+owner = POM
+controller = POM
 capital = "Wolgast"
 is_city = yes
 culture = sorbian
@@ -8,8 +8,7 @@ trade_goods = salt
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = SOR
-add_core = SOR
+add_core = POM
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
