@@ -796,6 +796,7 @@ emp_france_north_missions = {
 					add_permanent_claim = ROOT
 				}
 			}
+			set_country_flag = fra_unlock_gendarmes
 		}
 	}
 	lot_fra_integrate_hai = {
@@ -996,6 +997,7 @@ lot_fra_ita_expansion_2 = {
 				owns_core_province = 105
 		}
 		effect = {
+			remove_government_reform = feudal_france_reform
 			set_government_rank = 3
 			override_country_name = FRAITA
 			add_casus_belli = {

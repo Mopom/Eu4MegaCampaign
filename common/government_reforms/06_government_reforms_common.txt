@@ -2909,7 +2909,10 @@ compagnie_dordonnance_reform = {
 		factor = 500
 		modifier = {
 			factor = -1000
-			mission_completed = fra_musketeers
+			OR = {
+				mission_completed = fra_musketeers
+				mission_completed = emp_fra_establish_the_musketeers
+			}
 		}
 	}
 }
@@ -2924,7 +2927,7 @@ musketeers_reform = {
 	trigger = {
 		NOT = { current_age = age_of_discovery }
 		NOT = { current_age = age_of_reformation }
-		mission_completed = fra_musketeers
+		mission_completed = emp_fra_establish_the_musketeers
 		if = {
 			limit = { has_modifier_locking_military_tier = yes }
 			OR = {
