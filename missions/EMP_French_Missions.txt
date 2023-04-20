@@ -279,51 +279,103 @@ lot_bri_celtic_tree = {
 		trigger = {
 			brittany_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds =  ROOT
 			}
 			wales_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds =  ROOT
 			}
-			owns_core_province = 4130
-			owns_core_province = 4374
-			owns_core_province = 4373
-			owns_core_province = 233
-			
+			4130 = {
+				country_or_non_sovereign_subject_holds =  ROOT
+			}
+			4374 = {
+				country_or_non_sovereign_subject_holds =  ROOT
+			}
+			4373 = {
+				country_or_non_sovereign_subject_holds =  ROOT
+			}
+			233 = {
+				country_or_non_sovereign_subject_holds =  ROOT
+			}
 			169 = {
 				development = 15
 			}
 			4369 = {
 				development = 10
 			}
+			OR = {
+				BRI = {
+					is_subject_of = ROOT
+				}
+				NOT = {
+					exists = BRI
+				}
+			}
 		}
 		effect = {
-			wales_area = {
-				add_core = BRI
-				remove_core = FRA
+			if = {
+				limit = {
+					BRI = {
+						is_subject_of = ROOT
+					}
+				}
+				wales_area = {
+					add_core = BRI
+					cede_province = BRI
+					remove_core = FRA
+				}
+				4130 = {
+					add_core = BRI
+					cede_province = BRI
+					remove_core = FRA
+				}
+				4374 = {
+					add_core = BRI
+					cede_province = BRI
+					remove_core = FRA
+				}
+				4373 = {
+					add_core = BRI
+					cede_province = BRI
+					remove_core = FRA
+				}
+				233 = {
+					add_core = BRI
+					cede_province = BRI
+					remove_core = FRA
+				}
+				brittany_area = {
+					add_core = BRI
+					cede_province = BRI
+					remove_core = FRA
+				}
 			}
-			4130 = {
-				add_core = BRI
-				remove_core = FRA
+			else = {
+				wales_area = {
+					add_core = BRI
+					remove_core = FRA
+				}
+				4130 = {
+					add_core = BRI
+					remove_core = FRA
+				}
+				4374 = {
+					add_core = BRI
+					remove_core = FRA
+				}
+				4373 = {
+					add_core = BRI
+					remove_core = FRA
+				}
+				233 = {
+					add_core = BRI
+					remove_core = FRA
+				}
+				brittany_area = {
+					remove_core = FRA
+				}
+				create_vassal = BRI
 			}
-			4374 = {
-				add_core = BRI
-				remove_core = FRA
-			}
-			4373 = {
-				add_core = BRI
-				remove_core = FRA
-			}
-			233 = {
-				add_core = BRI
-				remove_core = FRA
-			}
-			brittany_area = {
-				remove_core = FRA
-			}
-			create_vassal = BRI
 			BRI = {
 				set_capital = 169
 				override_country_name = Y_DDUGAETH
