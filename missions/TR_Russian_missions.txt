@@ -1402,8 +1402,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				2413 = {
-					add_core = GOL
-					cede_province = GOL
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -1414,8 +1413,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				2409 = {
-					add_core = GOL
-					cede_province = GOL
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -1426,8 +1424,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				299 = {
-					add_core = GOL
-					cede_province = GOL
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -1522,8 +1519,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				2408 = {
-					add_core = RYA
-					cede_province = RYA
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -1534,8 +1530,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				4255 = {
-					add_core = RYA
-					cede_province = RYA
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -1546,8 +1541,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				300 = {
-					add_core = RYA
-					cede_province = RYA
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -1570,8 +1564,7 @@ ortho_church_maintain_missions_2 = {
 					}
 				}
 				4116 = {
-					add_core = MOS
-					cede_province = MOS
+					add_core = ROOT
 					set_in_empire = yes
 				}
 			}
