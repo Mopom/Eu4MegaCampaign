@@ -108,7 +108,7 @@ province_event = {
 		
 		trigger = { NOT = { has_province_modifier = russian_highway } }
 		
-		owner = { add_manpower = -2 }
+		owner = { add_manpower = -1 }
 	}
 	
 	#We don't have the funds for now
