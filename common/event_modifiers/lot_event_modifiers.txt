@@ -153,7 +153,8 @@ muscat_and_aden_mod = {
 	center_of_trade_upgrade_cost = -0.1
 }
 antioch_citadel = {
-	max_attrition = 5
+	local_hostile_attrition = 2
+	max_attrition = 2
 	local_garrison_size = 0.15
 	local_defensiveness = 0.1
 }
