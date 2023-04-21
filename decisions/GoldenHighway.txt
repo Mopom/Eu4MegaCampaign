@@ -1142,11 +1142,11 @@ golden_highway_aleppo_resume_construction = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = {
-			add_treasury = -200
+			add_treasury = -300
 			russian_highway_moskva = {
 				add_permanent_province_modifier = {
 					name = russian_highway_under_construction
@@ -1185,11 +1185,11 @@ golden_highway_aleppo_resume_construction = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = {
-			add_treasury = -200
+			add_treasury = -300
 			russian_highway_vlad1 = {
 				add_permanent_province_modifier = {
 					name = russian_highway_under_construction
@@ -1228,11 +1228,11 @@ golden_highway_aleppo_resume_construction = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = {
-			add_treasury = -200
+			add_treasury = -300
 			russian_highway_vlad2 = {
 				add_permanent_province_modifier = {
 					name = russian_highway_under_construction
@@ -1271,11 +1271,11 @@ golden_highway_aleppo_resume_construction = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = {
-			add_treasury = -200
+			add_treasury = -300
 			russian_highway_vlad3 = {
 				add_permanent_province_modifier = {
 					name = russian_highway_under_construction
@@ -1310,7 +1310,7 @@ golden_highway_aleppo_resume_construction = {
 					duration = -1
 				}
 			}
-			add_treasury = -200
+			add_treasury = -300
 		}
 	}
 
@@ -1335,7 +1335,7 @@ golden_highway_aleppo_resume_construction = {
 					duration = -1
 				}
 			}
-			add_treasury = -200
+			add_treasury = -300
 		}
 	}
 
@@ -1360,7 +1360,7 @@ golden_highway_aleppo_resume_construction = {
 					duration = -1
 				}
 			}
-			add_treasury = -200
+			add_treasury = -300
 		}
 	}
 
@@ -1385,7 +1385,7 @@ golden_highway_aleppo_resume_construction = {
 					duration = -1
 				}
 			}
-			add_treasury = -200
+			add_treasury = -300
 		}
 	}
 }

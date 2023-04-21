@@ -108,7 +108,7 @@ province_event = {
 		
 		trigger = { NOT = { has_province_modifier = russian_highway } }
 		
-		owner = { add_treasury = -30 }
+		owner = { add_manpower = -2 }
 	}
 	
 	#We don't have the funds for now
@@ -190,7 +190,7 @@ province_event = {
 		name = russian_highway.2.a
 		ai_chance = { factor = 1 }
 		
-		owner = { add_treasury = -30 }
+		owner = { add_manpower = -2 }
 		
 		remove_province_modifier = russian_highway_construction_stalled
 		add_permanent_province_modifier = {
