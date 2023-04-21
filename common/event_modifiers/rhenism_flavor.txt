@@ -1,6 +1,7 @@
 #The Prophet
 prophet_wise_man = {
 	tolerance_own = 0.5
+	tolerance_heretic = 0.5
 	global_heretic_missionary_strength = 0.01
 	tolerance_heathen = -0.5
 }

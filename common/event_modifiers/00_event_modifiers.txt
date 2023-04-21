@@ -12484,8 +12484,8 @@ temporary_colonist = {
 }
 
 judaism_abrahamic_roots = {
-	trade_goods_size_modifier = 0.2
-	local_tax_modifier = 0.2
+	trade_goods_size_modifier = 0.1
+	local_tax_modifier = 0.1
 	local_missionary_strength = -1
 	local_religious_unity_contribution = -1
 	religion = yes
