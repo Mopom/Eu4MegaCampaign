@@ -128,7 +128,6 @@ al-mathur_sword = {
 }
 al-mikhdam_sword = {
 	hostile_attrition = 1.5
-	max_hostile_attrition = 3
 }
 al-battar_sword = {
 	manpower_recovery_speed = 0.15
@@ -154,7 +153,6 @@ muscat_and_aden_mod = {
 }
 antioch_citadel = {
 	local_hostile_attrition = 2
-	max_attrition = 2
 	local_garrison_size = 0.15
 	local_defensiveness = 0.1
 }
@@ -164,7 +162,7 @@ alexandria_harbour = {
 	province_trade_power_modifier = 0.1
 }
 malta_fortification = {
-	max_attrition = 5
+    local_hostile_attrition = 2
 	local_garrison_size = 0.5
 	fort_level = 1
 	local_defender_dice_roll_bonus = 1
