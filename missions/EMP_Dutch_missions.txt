@@ -821,7 +821,7 @@ emp_ned_slot4_branch = { # Statists
 						has_reform = states_general_reform
 					}
 				}
-				change_statists_vs_orangists = -0.1
+				change_statists_vs_orangists = -0.05
 			}
 			else_if = {
 				limit = {

@@ -1121,7 +1121,10 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
+		    OR = {
+		        is_part_of_hre = yes
+		        tag = RUS
+		    }
 			russian_highway_moskva = {
 				country_or_non_sovereign_subject_holds = ROOT
 				NOT = {
@@ -1164,7 +1167,10 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
+		    OR = {
+		        is_part_of_hre = yes
+		        tag = RUS
+		    }
 			russian_highway_vlad1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				NOT = {
@@ -1207,7 +1213,10 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
+		    OR = {
+		        is_part_of_hre = yes
+		        tag = RUS
+		    }
 			russian_highway_vlad2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				NOT = {
@@ -1250,7 +1259,10 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
+		    OR = {
+		        is_part_of_hre = yes
+		        tag = RUS
+		    }
 			russian_highway_vlad3 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				NOT = {
@@ -1293,7 +1305,6 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
 			russian_highway_moskva = {
 				country_or_non_sovereign_subject_holds = ROOT
 				has_province_modifier = russian_highway_construction_stalled
@@ -1318,7 +1329,6 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
 			russian_highway_vlad1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				has_province_modifier = russian_highway_construction_stalled
@@ -1343,7 +1353,6 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
 			russian_highway_vlad2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				has_province_modifier = russian_highway_construction_stalled
@@ -1368,7 +1377,6 @@ golden_highway_aleppo_resume_construction = {
 		major = yes
 
 		potential = {
-		    tag = RUS
 			russian_highway_vlad3 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				has_province_modifier = russian_highway_construction_stalled
