@@ -70,6 +70,7 @@ country_decisions = {
 					}
 				}
 			}
+			is_year = 1575
 		}
 		effect = {
 			1148 = {
