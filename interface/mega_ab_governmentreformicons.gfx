@@ -23,4 +23,24 @@ spriteTypes = {
 		name = "golden_highway_two"
 		texturefile = "gfx//interface//ideas_EU4//golden_highway_two.dds"
 	}
+	spriteType = {
+		name = "russian_highway_complete"
+		texturefile = "gfx//interface//ideas_EU4//siberian_pathway_complete.dds"
+	}
+	spriteType = {
+		name = "russian_highway_construction"
+		texturefile = "gfx//interface//ideas_EU4//siberian_pathway_construction.dds"
+	}
+	spriteType = {
+		name = "russian_highway_construction_paused"
+		texturefile = "gfx//interface//ideas_EU4//siberian_pathway_construction_paused.dds"
+	}
+	spriteType = {
+		name = "russian_highway_one"
+		texturefile = "gfx//interface//ideas_EU4//siberian_pathway_one.dds"
+	}
+	spriteType = {
+		name = "russian_highway_two"
+		texturefile = "gfx//interface//ideas_EU4//siberian_pathway_two.dds"
+	}
 }
