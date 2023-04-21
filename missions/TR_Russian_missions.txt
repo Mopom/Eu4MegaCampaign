@@ -1241,6 +1241,10 @@ ortho_church_maintain_missions_2 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
+			estate_influence = {
+				estate = estate_church
+				influence = 85
+			}
 			west_dniepr_area = {
 				type = all
 				owned_by = ROOT
