@@ -94,7 +94,32 @@ ned_reconquest_group = {
 		}
 
 		effect = {
+		    set_country_flag = assimilating_anglos
+		    every_province = {
+		        limit = {
+			        culture = anglo_saxon
+				}
+				add_province_modifier = {
+				    name = assimilating_english
+                    duration = 5475
+                }
+			}
+		}
+	}
+
+	ned_integration_complete = {
+		icon = mission_settlers_north_america
+		required_missions = { ned_integrate_anglo_saxons }
+		position = 4
+
+		trigger = {
+		    accepted_culture = anglo_saxon
+			had_country_flag = { flag = assimilating_anglos days = 5475 }
+		}
+
+		effect = {
 		    remove_accepted_culture = anglo_saxon
+		    remove_country_flag = assimilating_anglos
 		    every_province = {
 		        limit = {
 			        culture = anglo_saxon

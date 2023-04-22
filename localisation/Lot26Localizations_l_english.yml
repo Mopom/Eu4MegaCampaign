@@ -857,6 +857,7 @@
  gngng_events.100.d:0 "Ganga is questioned no longer!"
  gngng_events.100.a:0 "A New System"
  had_gngng:0 "Had the Nayankara Crisis"
+ assimilating_anglos:0 "Assimilating the English culture into Germanic."
  ############## France Religious Event ###############################
  one_pasture.2.t:0 "Un Pâturage Sous Dieu"
  one_pasture.2.d:0 "Under §YKing Grifuid I§! the bishops of France gathered to clear out the mysteries and uncertainties of our Rhenist faith. In this Synod of Clermont they wrote out the 'One Pasture under God" clause, which has enabled the monarchs of France to enforce the Rhenist faith upon their flock. But with the growing size of France and the unclear limitations of this clause many are wondering whether this clause should be struck from §Ythe Book§!. Spearheading this movement is the City of [centre_of_anti_grifuid.GetCapitalName], [centre_of_anti_grifuid.GetName]."
@@ -930,3 +931,5 @@
   ############## I live here rent free #####################################
  ned_integrate_anglo_saxons_title:0 "Integration of the Anglo-Saxons"
  ned_integrate_anglo_saxons_desc:0 "We have lived in harmony with the Anglo Saxons for decades now, and we share many thing. Let us bring our cultures together and integrate them in our ways of life."
+ ned_integration_complete_title:0 "Successful integration."
+ ned_integration_complete_desc:0 "After years of effort, we have finally managed to bring the English closer to us. They shall now be called Anglo-Saxons. A great day for the whole empire."

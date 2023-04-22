@@ -44,3 +44,7 @@ russian_highway_under_construction = {
 russian_highway_construction_stalled = {
 	picture = "russian_highway_construction_paused"
 }
+assimilating_english = {
+    local_production_efficiency = -0.1
+    local_tax_modifier = -0.1
+}
