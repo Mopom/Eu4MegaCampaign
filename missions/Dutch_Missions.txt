@@ -20,8 +20,11 @@ ned_reconquest_group = {
             	development = 25
             }
 			num_of_owned_provinces_with = {
-                value = 20
-            	region = north_german_region
+                value = 15
+                OR = {
+            	    region = north_german_region
+                    region = low_countries_region
+                }
                 development = 15
             }
 		}
@@ -29,7 +32,7 @@ ned_reconquest_group = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_lowlands_victory"
-				duration = 5475
+				duration = 10000
 			}
 		}
 	}
@@ -41,8 +44,11 @@ ned_reconquest_group = {
 		
 		trigger = {
 			num_of_owned_provinces_with = {
-                value = 15
-            	region = north_german_region
+                value = 10
+                OR = {
+            	    region = north_german_region
+                    region = low_countries_region
+                }
                 development = 20
             }
 		}
@@ -50,7 +56,7 @@ ned_reconquest_group = {
 		effect = {
 		    add_country_modifier = {
             	name = "ned_unified_country"
-                duration = 8030
+                duration = 10000
             }
 		}
 	}
@@ -68,6 +74,30 @@ ned_reconquest_group = {
 			add_country_modifier = {
 				name = "eng_rb_state_religion_mod"
 				duration = 7300
+			}
+		}
+	}
+
+	ned_integrate_anglo_saxons = {
+		icon = mission_have_two_subjects
+		required_missions = { ned_religious_unity }
+		position = 3
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 10
+            	region = british_isles_region
+                development = 15
+                culture = anglo_saxon
+            }
+		}
+
+		effect = {
+		    every_province = {
+		        limit = {
+			        culture = anglo_saxon
+				}
+				change_culture = anglo_saxon2
 			}
 		}
 	}

@@ -32,7 +32,10 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = anglo_saxon
+			    OR = {
+				    culture = anglo_saxon
+			        culture = anglo_saxon2
+			    }
 				province_is_or_accepts_culture = yes
 			}
 		}
@@ -55,7 +58,10 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = anglo_saxon
+			    OR = {
+				    culture = anglo_saxon
+			        culture = anglo_saxon2
+			    }
 				province_is_or_accepts_culture = yes
 			}
 		}	
@@ -68,7 +74,10 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = anglo_saxon
+			    OR = {
+				    culture = anglo_saxon
+			        culture = anglo_saxon2
+			    }
 				province_is_or_accepts_culture = yes
 			}
 		}
