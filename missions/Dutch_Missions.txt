@@ -84,6 +84,7 @@ ned_reconquest_group = {
 		position = 3
 
 		trigger = {
+		    accepted_culture = anglo_saxon
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 10
             	region = british_isles_region
@@ -93,6 +94,7 @@ ned_reconquest_group = {
 		}
 
 		effect = {
+		    remove_accepted_culture = anglo_saxon
 		    every_province = {
 		        limit = {
 			        culture = anglo_saxon
