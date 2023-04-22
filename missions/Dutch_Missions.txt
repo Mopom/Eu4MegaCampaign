@@ -114,12 +114,14 @@ ned_reconquest_group = {
 
 		trigger = {
 		    accepted_culture = anglo_saxon
-			had_country_flag = { flag = assimilating_anglos days = 5475 }
+			had_country_flag = {
+			    flag = assimilating_anglos
+			    days = 5475
+			}
 		}
 
 		effect = {
 		    remove_accepted_culture = anglo_saxon
-		    remove_country_flag = assimilating_anglos
 		    every_province = {
 		        limit = {
 			        culture = anglo_saxon
