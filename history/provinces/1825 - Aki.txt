@@ -1,5 +1,5 @@
-owner = HIK
-controller = HIK
+owner = HSK
+controller = HSK
 capital = "Tomo"
 is_city = yes
 culture = japanese
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 3
-add_core = HIK
+#add_core = HIK
 add_core = HSK
 add_core = MRI
 discovered_by = KHA

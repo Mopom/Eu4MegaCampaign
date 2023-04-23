@@ -1,5 +1,5 @@
-owner = HIK
-controller = HIK
+owner = AMA
+controller = AMA
 capital = "Matsue"
 is_city = yes
 culture = japanese
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = HIK
+#add_core = HIK
 add_core = AMA
 discovered_by = KHA
 discovered_by = MCH

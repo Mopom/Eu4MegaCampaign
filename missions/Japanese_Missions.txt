@@ -7,8 +7,10 @@ japanse_missions_sea = {
 			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
-			tag = HIK
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -179,8 +181,10 @@ japanse_missions_china = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
-			tag = HIK
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -328,240 +332,161 @@ japanse_missions_china = {
 			}
 		}
 	}
-}
-
-japanse_expansion_tree_pacific = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		OR = {
-			has_reform = daimyo
-			has_reform = shogunate
-			tag = JAP
-			tag = HIK
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
 	
-	JAP_secure_the_pacific = {
-		icon = mission_invade_island
-		required_missions = { jap_colonize_taiwan }
+	JAP_emperor_of_china = {
+		icon = mission_chinese_general_riding
+		required_missions = { establish_footholding_in_manchuria jap_colonize_taiwan }
 		position = 6
 		provinces_to_highlight = {
-			area = northern_polynesia_area
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
-		}
-		trigger = {
-			if = {
-				limit = {
-					is_random_new_world = yes
-				}
-				custom_trigger_tooltip = {
-					tooltip = cas_carib_rnw
-					any_owned_province = {
-						continent = new_world
-					}
-				}
+			OR = {
+				area = hebei_area
+				area = liaoning_area
 			}
-			else = {
-				northern_polynesia_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-		}
-		effect = {
-			add_navy_tradition = 10
-			create_admiral = {
-				tradition = 50
-			}
-		}
-	}
-	
-	JAP_colonize_california = {
-		icon = mission_establish_high_seas_navy
-		required_missions = { JAP_secure_the_pacific }
-		position = 7
-		provinces_to_highlight = {
-			colonial_region = colonial_california
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
 		}
 		
 		trigger = {
+			tag = JAP
 			if = {
 				limit = {
-					is_random_new_world = yes
+					has_dlc = "Mandate of Heaven"
 				}
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 10
-					continent = new_world
-					is_city = yes
+				OR = {
+					is_emperor_of_china = yes
+					NOT = {
+						any_country = {
+							is_emperor_of_china = yes
+						}
+					}
+				}
+			}
+			hebei_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			liaoning_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+					is_emperor_of_china = yes
+				}
+				add_mandate_large_effect = yes
+			}
+			else_if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+					any_country = {
+						is_emperor_of_china = yes
+					}
+				}
+				custom_tooltip = tau_dragon_throne_fake_mandate
+			}
+			else = {
+				add_prestige = 20
+				add_stability_or_adm_power = yes
+			}
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+					is_emperor_of_china = yes
+				}
+				every_known_country = {
+					limit = {
+						capital_scope = {
+							OR = {
+								area = vietnam_area
+								area = cambodia_area
+								area = central_thai_area
+								area = red_river_delta_area
+							}
+						}
+					}
+					ROOT = {
+						add_casus_belli = {
+							type = cb_force_tributary_mission
+							months = 300
+							target = PREV
+						}
+					}
 				}
 			}
 			else = {
-				custom_trigger_tooltip = {
-					tooltip = JAP_californian_colonization
-					colonial_california = {
-						has_discovered = ROOT
+				every_known_country = {
+					limit = {
+						capital_scope = {
+							OR = {
+								area = vietnam_area
+								area = cambodia_area
+								area = central_thai_area
+								area = red_river_delta_area
+							}
+						}
 					}
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 1
-						colonial_region = colonial_california
-						is_city = yes
+					ROOT = {
+						add_casus_belli = {
+							type = cb_vassalize_mission
+							months = 300
+							target = PREV
+						}
 					}
 				}
 			}
 		}
-		effect = {
-			create_conquistador = {
-				tradition = 80
-			}
-		}
 	}
-}
-japanse_expansion_tree_sumatra = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		OR = {
-			has_reform = daimyo
-			has_reform = shogunate
-			tag = JAP
-			tag = HIK
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
 	
-	jap_conquer_sumatra = {
-		icon = mission_mnd_maj_subjugate_makassar
-		required_missions = { jap_conquer_borneo }
-		position = 8
+	JAP_go_to_indochina = {
+		icon = mission_junk_boat
+		required_missions = { JAP_emperor_of_china }
+		
 		provinces_to_highlight = {
 			OR = {
-				area = south_sumatra_area
-				area = jambi_area
-				area = central_sumatra_area
-				area = shanshan_area
-				area = batak_area
-				area = minangkabau_area
-				area = north_sumatra_area
+				area = central_thai_area
+				area = vietnam_area
 			}
 			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
+				owner = { 
+					OR = {
+						tag = ROOT 
+						is_subject_of = ROOT
+					}
+				}
 			}
 		}
+		
 		trigger = {
-			south_sumatra_area = {
+			central_thai_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owner = { 
+					OR = {
+						tag = ROOT 
+						is_subject_of = ROOT
+					}
+				}
 			}
-			jambi_area = {
+			vietnam_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			central_sumatra_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			shanshan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			batak_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			minangkabau_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			north_sumatra_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owner = { 
+					OR = {
+						tag = ROOT 
+						is_subject_of = ROOT
+					}
+				}
 			}
 		}
 		effect = {
-			johor_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			malaya_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			malacca_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			north_malaya_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-	jap_conquer_malaya = {
-		icon = mission_to_the_south_china_sea
-		required_missions = { jap_conquer_sumatra }
-		position = 9
-		provinces_to_highlight = {
-			OR = {
-				area = johor_area
-				area = malaya_area
-				area = malacca_area
-				area = north_malaya_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			johor_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			malaya_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			malacca_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			north_malaya_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			597 = {
-				add_province_modifier = {
-					name = trade_of_johor_malacca
-					duration = 7300
-				}
-			}
-			596 = {
-				add_province_modifier = {
-					name = trade_of_johor_malacca
-					duration = 7300
-				}
+			add_country_modifier = {
+				name = JAP_indochinese_trade
+				duration = 7300
 			}
 		}
 	}
@@ -575,8 +500,10 @@ japanse_missions_the_empire = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
-			tag = HIK
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -607,7 +534,7 @@ japanse_missions_the_empire = {
 			}
 		}
 		effect = {
-			add_prestige = 50
+			add_prestige_or_monarch_power = { amount = 50 }
 			south_korea_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -624,7 +551,7 @@ japanse_missions_the_empire = {
 			}
 		}
 	}
-
+	
 	conquer_okinawa = {
 		icon = mission_invade_island
 		required_missions = { JAP_establish_political_supremacy unite_japan_mission }
@@ -676,437 +603,105 @@ japanse_missions_the_empire = {
 			create_explorer = {
 				tradition = 60
 			}
-			# Philippine Claims
-			luzon_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
+			fujian_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
 				}
+				add_claim = ROOT
 			}
-			southern_luzon_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
+			zhejiang_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
 				}
+				add_claim = ROOT
 			}
-			visayas_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			palawan_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			mindanao_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			west_mindanao_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			# Oceania Claims
 			northern_polynesia_area = {
 				if = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_claim = ROOT }
 					}
-					add_claim = ROOT
+					add_permanent_claim = ROOT
 				}
 			}
 		}
 	}
-
-	jap_conquer_philippines = {
-		icon = mission_las_islas_filipinas
+	
+	JAP_secure_the_pacific = {
+		icon = mission_invade_island
 		required_missions = { jap_colonize_taiwan }
 		provinces_to_highlight = {
-			OR = {
-				area = luzon_area
-				area = southern_luzon_area
-				area = visayas_area
-				area = palawan_area
-				area = mindanao_area
-				area = west_mindanao_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			area = northern_polynesia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
 		}
 		trigger = {
-			luzon_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			if = {
+				limit = {
+					is_random_new_world = yes
+				}
+				custom_trigger_tooltip = {
+					tooltip = cas_carib_rnw
+					any_owned_province = {
+						continent = new_world
+					}
+				}
 			}
-			southern_luzon_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			visayas_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			palawan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			mindanao_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			west_mindanao_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			else = {
+				northern_polynesia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
 		}
 		effect = {
-			# Borneo Claims
-			kutai_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			sabah_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			brunei_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			kalimantan_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			banjar_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			# Mollucas Claims
-			molluca_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			spice_islands_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			sulawesi_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			south_sulawesi_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			makassar_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			timor_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
+			add_navy_tradition = 10
+			create_admiral = {
+				tradition = 50
 			}
 		}
 	}
-	jap_conquer_borneo = {
-		icon = mission_mnd_maj_rein_in_brunei
-		required_missions = { jap_conquer_philippines }
+	
+	JAP_colonize_california = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { JAP_secure_the_pacific }
+		
 		provinces_to_highlight = {
-			OR = {
-				area = kutai_area
-				area = sabah_area
-				area = brunei_area
-				area = kalimantan_area
-				area = banjar_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			colonial_region = colonial_california
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
 		}
+		
 		trigger = {
-			kutai_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			if = {
+				limit = {
+					is_random_new_world = yes
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					continent = new_world
+					is_city = yes
+				}
 			}
-			sabah_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			brunei_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			kalimantan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			banjar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = JAP_californian_colonization
+					colonial_california = {
+						has_discovered = ROOT
+					}
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						colonial_region = colonial_california
+						is_city = yes
+					}
+				}
 			}
 		}
 		effect = {
-			# Java Claims
-			lesser_sunda_islands_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			east_java_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			surabaya_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			central_java_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			west_java_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			banten_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			# Sumatra Claims
-			south_sumatra_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			jambi_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			central_sumatra_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			shanshan_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			batak_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			minangkabau_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-			north_sumatra_area = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_claim = ROOT
-				}
-			}
-		}
-	}
-
-	jap_conquer_java = {
-		icon = mission_sail_to_the_east_indies
-		required_missions = { jap_conquer_borneo }
-		provinces_to_highlight = {
-			OR = {
-				area = lesser_sunda_islands_area
-				area = east_java_area
-				area = surabaya_area
-				area = central_java_area
-				area = west_java_area
-				area = banten_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			lesser_sunda_islands_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			east_java_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			surabaya_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			central_java_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			west_java_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			banten_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			630 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
-			}
-			2687 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
-			}
-			628 = {
-				add_base_tax = 3
-				add_base_production = 4
-				add_base_manpower = 3
+			create_conquistador = {
+				tradition = 80
 			}
 		}
 	}
@@ -1120,8 +715,10 @@ japanse_missions_domestic = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
-			tag = HIK
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1282,7 +879,7 @@ japanse_missions_domestic = {
 		icon = mission_buddhist_monk_praying
 		required_missions = { JAP_sankin_kotai }
 		
-		position = 6
+		position = 7
 		
 		trigger = {
 			religious_unity = 1
@@ -1331,79 +928,7 @@ japanse_missions_domestic = {
 		}
 	}
 }
-
-japanse_expansion_tree_mollucas = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential = {
-		OR = {
-			has_reform = daimyo
-			has_reform = shogunate
-			tag = JAP
-			tag = HIK
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-
-	jap_conquer_mollucas = {
-		icon = mission_mnd_maj_cloves
-		required_missions = { jap_conquer_philippines }
-		provinces_to_highlight = {
-			OR = {
-				area = molluca_area
-				area = spice_islands_area
-				area = sulawesi_area
-				area = south_sulawesi_area
-				area = makassar_area
-				area = timor_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			molluca_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			spice_islands_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			sulawesi_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			south_sulawesi_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			makassar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			timor_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			every_province = {
-				limit = {
-					owned_by = ROOT
-					trade_goods = cloves
-				}
-				add_province_modifier = {
-					name = imperial_spice
-					duration = 18250
-				}
-			}
-		}
-	}
-}
-
+	
 japanse_missions_economic = {
 	slot = 5
 	generic = no
@@ -1412,8 +937,10 @@ japanse_missions_economic = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
-			tag = HIK
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}

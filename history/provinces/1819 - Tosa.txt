@@ -1,5 +1,5 @@
-owner = HIK
-controller = HIK
+owner = HSK
+controller = HSK
 capital = "Nakamura"
 is_city = yes
 culture = japanese
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 2
 base_production = 2
 base_manpower = 3
-add_core = HIK
+#add_core = HIK
 add_core = CSK
 add_core = HSK
 discovered_by = KHA

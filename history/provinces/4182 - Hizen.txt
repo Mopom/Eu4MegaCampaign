@@ -1,5 +1,5 @@
-owner = HIK
-controller = HIK
+owner = SHN
+controller = SHN
 capital = "Nagasaki"
 is_city = yes
 culture = kyushuan
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 5
 base_production = 2
 base_manpower = 2
-add_core = HIK
+#add_core = HIK
 add_core = SHN
 discovered_by = KHA
 discovered_by = MCH
