@@ -16,7 +16,7 @@ caliph = {
 	}
 	trigger = {
 		OR = {
-			has_reform = caliph_government
+			has_reform = ottoman_government
 			AND = {
 				tag = Z00
 				OR = {

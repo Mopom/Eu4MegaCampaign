@@ -990,6 +990,10 @@ ottoman_government = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
+				tag = Z00
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = ottoman_government
 			}
@@ -6304,6 +6308,7 @@ nizam_i_cedid_reform = {
 		OR = {
 			tag = TUR
 			tag = RUM
+			tag = Z00
 			has_reform = nizam_i_cedid_reform
 		}
 	}
