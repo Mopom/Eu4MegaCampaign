@@ -15,14 +15,11 @@ caliph = {
 		3 = MALIKA-AL-MUAZZAMA
 	}
 	trigger = {
-		OR = {
-			has_reform = ottoman_government
-			AND = {
-				tag = Z00
-				OR = {
-					government = monarchy
-					government = theocracy
-				}
+		AND = {
+			tag = Z00
+			OR = {
+				government = monarchy
+				government = theocracy
 			}
 		}
 	}
