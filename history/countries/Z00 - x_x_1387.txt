@@ -76,20 +76,4 @@ religious_school = hanbali_school
 	add_treasury = 89
 	add_manpower = 20
 	add_inflation = 6
-	create_subject = {
-	    who = NAJ
-		subject_type = eyalet
-	}
-	create_subject = {
-	    who = OMA
-		subject_type = eyalet
-	}
-	create_subject = {
-	    who = ADE
-		subject_type = eyalet
-	}
-	create_subject = {
-	    who = EGY
-		subject_type = eyalet
-	}
 }
