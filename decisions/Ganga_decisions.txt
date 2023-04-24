@@ -15,32 +15,40 @@ country_decisions = {
 		effect = {
 			add_corruption = 1
 			if = {
-				MAD = {
-				    is_subject_of = ROOT
+			    limit = {
+                    MAD = {
+                        is_subject_of = ROOT
+                    }
 				}
 				MAD = {
 					add_liberty_desire = -5
 				}
 			}
 			if = {
-				GUJ = {
-				    is_subject_of = ROOT
+			    limit = {
+                    GUJ = {
+                        is_subject_of = ROOT
+                    }
 				}
 				GUJ = {
 					add_liberty_desire = -5
 				}
 			}
 			if = {
-				NPL = {
-				    is_subject_of = ROOT
+			    limit = {
+                    NPL = {
+                        is_subject_of = ROOT
+                    }
 				}
 				NPL = {
 					add_liberty_desire = -5
 				}
 			}	
 			if = {
-				GDW = {
-				    is_subject_of = ROOT
+			    limit = {
+                    GDW = {
+                        is_subject_of = ROOT
+                    }
 				}
 				GDW = {
 					add_liberty_desire = -5
