@@ -15,11 +15,17 @@ caliph = {
 		3 = MALIKA-AL-MUAZZAMA
 	}
 	trigger = {
-		AND = {
-			tag = Z00
-			OR = {
-				government = monarchy
-				government = theocracy
+		OR = {
+			AND = {
+				tag = SOK
+				has_country_flag = formed_sokoto_flag
+			}
+			AND = {
+				tag = Z00
+				OR = {
+					government = monarchy
+					government = theocracy
+				}
 			}
 		}
 	}
