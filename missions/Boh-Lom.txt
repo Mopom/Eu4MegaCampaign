@@ -224,22 +224,19 @@ ubl_1 = {
 			}
 			#custom_tooltip =
 			hidden_effect = {
-				every_owned_province = {
+				every_province = {
 					limit = {
-						OR = {
-							superregion = india_superregion
-							superregion = east_indies_superregion
-						}
-					}
-					area_for_scope_province = {
-						limit = {
+					    AND = {
+                            OR = {
+                                superregion = india_superregion
+                                superregion = east_indies_superregion
+                            }
 							NOT = { owned_by = root }
 							NOT = { is_core = root }
 							NOT = { is_claim = root }
-						}
-						type = all
-						add_permanent_claim = root
+                        }
 					}
+				    add_permanent_claim = root
 				}
 			}
 		}
@@ -590,7 +587,7 @@ ubl_2_new = {
 						area = lombardy_area
 						area = po_valley_area
 					}
-					NOT = { production = 16 }
+					NOT = { base_production = 16 }
 				}
 				AND = {
 					province_id = 266
@@ -984,9 +981,6 @@ lot_ubl_legacy_of_charlemagne_1 = {
 		required_missions = { lot_ubl_aachen_conquest }
 		ai_weight = {
 			factor = 3
-		}
-		ai_priority = {
-			factor = 2
 		}
 		position = 9
 		provinces_to_highlight = {

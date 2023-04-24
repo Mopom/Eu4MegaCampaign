@@ -1520,6 +1520,10 @@ conversion_zeal = {
 	missionary_maintenance_cost = -0.33
 }
 
+ganga_corruption_reduction = {
+    yearly_corruption = -0.1
+}
+
 religious_zeal_at_conv = {
 	local_missionary_strength = -1
 }

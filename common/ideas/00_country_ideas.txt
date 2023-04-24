@@ -11174,7 +11174,7 @@ AKK_ideas = {
 		leader_land_shock = 1
 	}
 	akk_unite_the_federation = {
-		yearly_tribal_allegiance = 1
+		yearly_government_power = 1
 		cavalry_cost = -0.2
 	}
 	akk_turko_iranian_bureaucracy = {

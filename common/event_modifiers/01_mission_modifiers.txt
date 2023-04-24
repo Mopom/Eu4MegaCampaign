@@ -5455,12 +5455,12 @@ msi_west_african_hegemony = {
 
 msi_the_kingdom_federation = {
 	legitimacy = 0.75
-	yearly_tribal_allegiance = 1
+	yearly_government_power = 1
 }
 
 #permanent
 msi_federal_kingdom_focus = {
-	yearly_tribal_allegiance = 0.5
+	yearly_government_power = 0.5
 	legitimacy = 0.5
 	global_autonomy = -0.05
 	max_absolutism = -20

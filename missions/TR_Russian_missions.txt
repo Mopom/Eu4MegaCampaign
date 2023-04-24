@@ -855,7 +855,7 @@ rus_exp_west_branch_2 = {
 			}
 		}
 		effect = {
-			all_province = {
+			every_owned_province = {
 				limit = {
 					culture_group = south_slavic
 				}
@@ -863,7 +863,7 @@ rus_exp_west_branch_2 = {
 				cede_province = SER
 				remove_core = RUS
 			}
-			all_province = {
+			every_owned_province = {
 				limit = {
 					OR = {
 						culture = czech
@@ -877,7 +877,7 @@ rus_exp_west_branch_2 = {
 				add_core = POL
 				remove_core = RUS
 			}
-			all_province = {
+			every_owned_province = {
 				limit = {
 					culture = dynamic-polish-russian_culture-culture-num1
 				}
@@ -887,7 +887,7 @@ rus_exp_west_branch_2 = {
 				limit = {
 					exists = POL
 				}
-				all_province = {
+				every_owned_province = {
 					limit = {
 						is_core = POL
 					}

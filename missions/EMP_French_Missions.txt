@@ -31,9 +31,6 @@ emp_france_missions_1 = {
 		effect = {
 			add_dip_power = 100
 		}
-		ai_priority = {
-			factor = 100
-		}
 		ai_weight = {
 			factor = 100
 		}
@@ -762,9 +759,6 @@ emp_france_north_missions = {
 				add_prestige = 15
 			}
 		}
-		ai_priority = {
-			factor = 100
-		}
 		ai_weight = {
 			factor = 100
 		}
@@ -893,9 +887,6 @@ emp_france_north_missions = {
 				add_permanent_claim = ROOT
 			}
 		}
-		ai_priority = {
-			factor = 1000
-		}
 		ai_weight = {
 			factor = 1000
 		}
@@ -923,9 +914,6 @@ emp_france_north_missions = {
 				estate = estate_burghers
 				share = 5
 			}
-		}
-		ai_priority = {
-			factor = 1000
 		}
 		ai_weight = {
 			factor = 1000
@@ -1476,9 +1464,6 @@ emp_france_local_3 = {
 				add_permanent_claim = ROOT
 			}
 		}
-		ai_priority = {
-			factor = 100
-		}
 		ai_weight = {
 			factor = 100
 		}
@@ -1527,9 +1512,6 @@ emp_france_local_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-		}
-		ai_priority = {
-			factor = 100
 		}
 		ai_weight = {
 			factor = 100
@@ -2198,9 +2180,6 @@ lot_pax_francia_4 = {
 				}
 			}
 		}
-		ai_priority = {
-			factor = 100
-		}
 		ai_weight = {
 			factor = 100
 		}
@@ -2227,9 +2206,6 @@ lot_pax_francia_4 = {
 			ADU = {
 				add_treasury = 1000
 			}
-		}
-		ai_priority = {
-			factor = 100
 		}
 		ai_weight = {
 			factor = 100
@@ -2644,17 +2620,6 @@ emp_france_missions_5 = {
 				remove_country_modifier = annexers_legacy
 			}
 			add_reform_progress_medium_effect = yes
-		}
-		ai_priority = {
-			factor = 100
-			modifier = {
-				factor = 0
-				OR = {
-					NOT = { mission_completed = emp_fra_reconquer_gascony }
-					NOT = { mission_completed = emp_fra_reconquer_normandy }
-					NOT = { mission_completed = emp_fra_subjugate_brittany }
-				}
-			}
 		}
 	}
 	emp_fra_wars_of_religion = {
@@ -3146,9 +3111,6 @@ lot_fra_legacy_of_charlemagne_5 = {
 		required_missions = { lot_fra_aachen_conquest }
 		ai_weight = {
 			factor = 3
-		}
-		ai_priority = {
-			factor = 2
 		}
 		provinces_to_highlight = {
 			OR = {

@@ -2008,7 +2008,6 @@ hlr_rome_return_eastern_route_2 = {
 				add_claim = ROOT
 			}
 			4268 = {
-				type = all
 				add_claim = ROOT
 			}
 		}

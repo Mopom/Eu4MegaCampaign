@@ -360,7 +360,7 @@ assylum_seekers = {
 western_ifluenced = {
 	ship_recruit_speed = -0.2
 	local_institution_spread = 0.03
-	spy_offense = 0.1
+	spy_offence = 0.1
 }
 across_vistula = {
 	innovativeness_gain = 0.1

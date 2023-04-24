@@ -2,7 +2,6 @@ ck2_converter_generated = yes
 graphical_culture = asiangfx
 color = { 98 138 99 }
 revolutionary_colors = { 8 9 5 }
-override_country_name = BURMA
 historical_idea_groups = {
 	defensive_ideas
 	offensive_ideas

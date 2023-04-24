@@ -87,7 +87,6 @@ lot_lot_1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			2977 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -175,7 +174,6 @@ lot_karl_1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			182 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			wallonia_area = {
@@ -266,11 +264,9 @@ lot_karl_1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4386 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			180 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			massif_central_area = {
@@ -278,19 +274,15 @@ lot_karl_1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4391 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			198 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			200 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			2753 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -770,11 +762,9 @@ lot_karl_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			78 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			1876 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -869,15 +859,12 @@ lot_karl_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			63 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4743 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			62 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			northern_saxony_area = {
@@ -889,11 +876,9 @@ lot_karl_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			1775 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4141 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -918,9 +903,6 @@ lot_karl_2 = {
 		required_missions = { lot_karl_1_aqui lot_karl_2_sax }
 		ai_weight = {
 			factor = 3
-		}
-		ai_priority = {
-			factor = 2
 		}
 		position = 7
 		provinces_to_highlight = {
@@ -1332,7 +1314,6 @@ lot_relig_4 = {
 				has_owner_religion = yes
 			}
 			2977 = {
-				type = all
 				has_owner_religion = yes
 			}
 		}
@@ -1575,19 +1556,15 @@ lot_relig_5 = {
 				has_owner_religion = yes
 			}
 			95 = {
-				type = all
 				has_owner_religion = yes
 			}
 			4770 = {
-				type = all
 				has_owner_religion = yes
 			}
 			2975 = {
-				type = all
 				has_owner_religion = yes
 			}
 			55 = {
-				type = all
 				has_owner_religion = yes
 			}
 		}

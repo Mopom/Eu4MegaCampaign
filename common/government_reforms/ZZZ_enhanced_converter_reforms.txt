@@ -98,49 +98,6 @@ grand_duchy_reform = {
 		governing_capacity = 100
 	}
 }
-prussian_monarchy = {
-	icon = "prussian_monarchy"
-	allow_normal_conversion = yes
-	potential = {
-		OR = {
-			AND = {
-				tag = PRU
-				NOT = { map_setup = map_setup_random }
-			}
-			has_reform = prussian_monarchy
-			have_had_reform = prussian_monarchy
-		}
-	}
-	trigger = {
-		OR = {
-			is_playing_custom_nation = yes
-			religion = protestant
-			religion = reformed
-			religion = cathar
-			religion = waldensian
-			religion = lollard
-			religion = adamites
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 100
-	legacy_equivalent = prussian_monarchy_legacy
-
-	modifiers = {
-		war_exhaustion = -0.02
-		global_unrest = -2
-		global_autonomy = -0.075
-		max_absolutism = 10
-		monarch_military_power = 3
-		nobles_loyalty_modifier = 0.1
-		governing_capacity_modifier = -0.5
-	}
-
-	conditional = {
-		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
-	}
-}
 principality = {
 	icon = "russian_principality"
 	allow_normal_conversion = yes

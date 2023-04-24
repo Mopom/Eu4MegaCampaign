@@ -379,9 +379,10 @@ pirate_3 = {
 			has_reform = pirate_republic_reform
 		}	
 		NOT = { tag = AJU }
+	}
 
 	has_country_shield = yes
-	
+
 	pirate_a_pirate_fleet = {
 		icon = mission_galleys_in_port
 		required_missions = { }
@@ -493,8 +494,9 @@ pirate_5 = {
 	potential = {
 		AND {
 			has_reform = pirate_republic_reform
-		}	
+		}
 		NOT = { tag = AJU }
+	}
 		
 	has_country_shield = yes
 	

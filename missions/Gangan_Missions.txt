@@ -32,27 +32,22 @@ ind_guj_slot_1 = {
 		trigger = {
 			manpower = 5
 			521 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01
 			}
 			4454 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01
 			}
 			515 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01
 			}
 			4455 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01
 			}
 			4456 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01	
 			}
@@ -65,12 +60,10 @@ ind_guj_slot_1 = {
 				is_core = Z01	
 			}
 			517 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01	
 			}
 			4430 = {
-				type = all
 				owned_by = Z01
 				is_core = Z01	
 			}
@@ -103,7 +96,10 @@ ind_guj_slot_1 = {
 			}
 			add_adm_power = -200
 			add_manpower = -2
-			yearly_corruption = -0.1
+			add_country_modifier = {
+				name = "ganga_corruption_reduction"
+				duration = 5475
+			}
 			khandesh_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -645,7 +641,7 @@ slot = 1
 		}
 		trigger = {
 			adm_power = 200
-			cash = 2000
+			treasury = 2000
 			utsang_area = {
 				type = all
 				OR = {
@@ -677,7 +673,7 @@ slot = 1
 		}
 		effect = {
 			add_adm_power = -200
-			add_cash = -2000
+			add_treasury = -2000
 			himalayan_hills_area = {
 				cede_province = Z01
 				add_core = Z01

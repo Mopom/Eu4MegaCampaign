@@ -494,8 +494,7 @@ age_of_reformation = {
 			    tag = Z02
 			}
 			modifier = {
-				can_colony_boost_development = yes
-				native_assimilation = 0.5
+				colony_development_boost = 2
 			}
 			ai_will_do = {
 				factor = 100

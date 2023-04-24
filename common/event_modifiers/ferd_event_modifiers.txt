@@ -1,5 +1,5 @@
 bhagalpul_mod = {
-	local_goods_produced_modifier = 0.1
+	trade_goods_size = 0.1
 	province_trade_power_modifier = 0.15
 }
 focused_on_war = {

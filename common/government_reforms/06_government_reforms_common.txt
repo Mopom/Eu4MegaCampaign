@@ -3766,8 +3766,7 @@ embrace_the_economic_theory_reform = {
 	modifiers = {
 		production_efficiency = 0.1
 		inflation_reduction = 0.1
-	}
-	interest = -0.5
+	    interest = -0.5
 		inflation_reduction = 0.2
 	}
 	ai = {

@@ -16,7 +16,7 @@ country_decisions = {
 			add_corruption = 1
 			if = {
 				MAD = {
-						is_subject_of = ROOT
+				    is_subject_of = ROOT
 				}
 				MAD = {
 					add_liberty_desire = -5
@@ -24,7 +24,7 @@ country_decisions = {
 			}
 			if = {
 				GUJ = {
-						is_subject_of = ROOT
+				    is_subject_of = ROOT
 				}
 				GUJ = {
 					add_liberty_desire = -5
@@ -32,7 +32,7 @@ country_decisions = {
 			}
 			if = {
 				NPL = {
-						is_subject_of = ROOT
+				    is_subject_of = ROOT
 				}
 				NPL = {
 					add_liberty_desire = -5
@@ -40,7 +40,7 @@ country_decisions = {
 			}	
 			if = {
 				GDW = {
-						is_subject_of = ROOT
+				    is_subject_of = ROOT
 				}
 				GDW = {
 					add_liberty_desire = -5
