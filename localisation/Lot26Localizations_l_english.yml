@@ -928,7 +928,10 @@
  holy_rus_hre_event.5.t:0 "Second Break"
  holy_rus_hre_event.5.d:0 "The clergy have amassed so much power within our court that the boyars fear for their autonomy. They have taken to splitting up our realm, still recognising our sovereignty but not recognising our direct jurisdiction."
  holy_rus_hre_event.5.a:0 "Damnation!"
-  ############## I live here rent free #####################################
+ ############## Golden Highway Localisation #####################################
+ golden_highway_pause_all_construction_title:0 "A Break in Construction"
+ golden_highway_pause_all_construction_desc:0 "Whether due to financial, military or social concern we see ourselves forced to cease all construction on the Golden Highway."
+ ############## I live here rent free #####################################
  ned_integrate_anglo_saxons_title:0 "Integration of the Anglo-Saxons"
  ned_integrate_anglo_saxons_desc:0 "We have lived in harmony with the Anglo Saxons for decades now, and we share many thing. Let us bring our cultures together and integrate them in our ways of life."
  ned_integration_complete_title:0 "Successful Integration"
