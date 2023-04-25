@@ -462,6 +462,9 @@ emp_ned_slot2_indies_branch = {
 			trade_company_moluccas = {
 				has_discovered = ROOT
 			}
+			trade_company_deccan = {
+				has_discovered = ROOT
+			}
 		}
 		effect = {
 			lanka_area = {
@@ -473,6 +476,37 @@ emp_ned_slot2_indies_branch = {
 			}
 		}
 	}
+
+    ned_establish_contact_with_ganga = {
+		icon = mission_into_persia_1
+		required_missions = { emp_ned_charter_the_voc }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 522
+		}
+		trigger = {
+		    AND = {
+                trade_company_deccan = {
+                    has_discovered = ROOT
+                }
+			    OR = {
+            	    1100 = { country_or_non_sovereign_subject_holds = ROOT }
+            	    1101 = { country_or_non_sovereign_subject_holds = ROOT }
+            	    1102 = { country_or_non_sovereign_subject_holds = ROOT }
+            	    1103 = { country_or_non_sovereign_subject_holds = ROOT }
+                }
+            }
+		}
+		effect = {
+	        country_event = {
+			    id = embassy_fed.1
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall mission
+		}
+	}
+
 	
 	emp_ned_control_coromandel_trade = {
 		icon = control_coromandel

@@ -862,6 +862,8 @@
  emp_ned_fixed_garrison_system_tt:2 " provinces in the §YLow Countries§! region have the most advanced fort type available at the current Military Technology level."
  emp_ned_charter_the_voc_title:0 "Charter the VOC"
  emp_ned_charter_the_voc_desc:0 "Consortiums of merchants such as the Heren XVII are keen to expand their portfolios and invest in overseas trade. If we supported the establishment of some sort of East India Company, the profits could be immense!"
+ ned_establish_contact_with_ganga_title:0 "Establish Contact with Ganga"
+ ned_establish_contact_with_ganga_desc:0 "For a long time, we have known of a friend in the East, that shared our beliefs in the holiness of the river, and more importantly, that possessed a vast wealth of land and treasures. Now that we finally have the means, let us establish an embassy and create strong ties with the crouching elephant."
  emp_ned_colonize_the_cape_title:0 "Colonize the Cape"
  emp_ned_colonize_the_cape_desc:0 "The Cape of Good Hope is an important waypoint on the route to the East Indies. Establishing a station there and offering a safe harbor for our ships in the midst of the long voyage east is a prudent choice."
  emp_ned_discover_australia_title:0 "Discover Australia"

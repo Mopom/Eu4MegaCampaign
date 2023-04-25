@@ -1,0 +1,543 @@
+namespace = embassy_fed
+
+#####################################
+#	Special relations with Ganga	#
+#####################################
+
+#Embassy Events
+#Meet Gangan origin
+country_event = {
+	id = embassy_fed.1
+	title = embassy_fed.1.t
+	desc = embassy_fed.1.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Send an ambassador to Ganga
+		name = embassy_fed.1.a
+		custom_tooltip = embassy_fed.1.a.tt
+		hidden_effect = {
+			522 = {
+				owner = {
+					country_event = {
+						id = embassy_fed.2
+					}
+				}
+			}
+		}
+	}
+
+	option = {	#It's not really worth it
+		name = embassy_fed.1.b
+		add_prestige = 20
+		add_legitimacy = 20
+	}
+}
+
+#A [From.GetAdjective] ambassador meets us
+country_event = {
+	id = embassy_fed.2
+	title = embassy_fed.2.t
+	desc = embassy_fed.2.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Welcome him!
+		name = embassy_fed.2.a
+		FROM = {
+			country_event = {
+				id = embassy_fed.3
+			}
+		}
+		522 = {
+			add_province_modifier = {
+				name = delhi_fed_embassy
+				duration = -1
+				desc = delhi_embassy_desc
+			}
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = delhi_has_embassy
+		}
+		hidden_effect = {
+			save_global_event_target_as = fed_embassy_holder
+		}
+	}
+
+	option = {	#We have no need for diplomacy with the Fed
+		name = embassy_fed.2.b
+		FROM = {
+			country_event = {
+				id = embassy_fed.4
+			}
+		}
+	}
+}
+
+#Ganga welcomes our ambassador + embassy
+country_event = {
+	id = embassy_fed.3
+	title = embassy_fed.3.t
+	desc = embassy_fed.3.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = embassy_fed.3.a
+		capital_scope = {
+			add_province_modifier = {
+				name = goslar_gangan_embassy
+				duration = -1
+				desc = delhi_embassy_desc
+			}
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = delhi_has_embassy
+		}
+		hidden_effect = {
+			set_global_flag = goslar_ganga_embassy
+			save_global_event_target_as = gangan_embassy_holder
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Ganga expelled the ambassador
+country_event = {
+	id = embassy_fed.4
+	title = embassy_fed.4.t
+	desc = embassy_fed.4.desc
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = embassy_fed.4.a
+		add_opinion = {
+			who = FROM
+			modifier = ganga_declined_embassy
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Embassy gets destroyed
+country_event = {
+	id = embassy_fed.5
+	title = embassy_fed.5.t
+	desc = embassy_fed.5.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	trigger = {
+		has_global_flag = goslar_ganga_embassy
+		is_or_was_tag = {
+			tag = Z02
+		}
+		OR = {
+			all_owned_province = { NOT = { has_province_modifier = goslar_gangan_embassy } }
+			522 = { NOT = { has_province_modifier = delhi_fed_embassy } }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = goslar_ganga_embassy
+			if = {
+				limit = {
+					all_owned_province = { NOT = { has_province_modifier = goslar_gangan_embassy } }
+				}
+				522 = { owner = { save_event_target_as = embassy_owner } }
+			}
+			else = {
+				save_event_target_as = embassy_owner
+			}
+			clear_global_event_target = gangan_embassy_holder
+			clear_global_event_target = fed_embassy_holder
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = embassy_fed.5.a
+		trigger = {
+			all_owned_province = { NOT = { has_province_modifier = goslar_gangan_embassy } }
+		}
+		if = {
+			limit = {
+				522 = { has_province_modifier = delhi_fed_embassy }
+			}
+			522 = {
+				owner = {
+					country_event = {
+						id = embassy_fed.6
+					}
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = delhi_has_embassy
+				}
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = delhi_has_embassy
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = embassy_fed.5.b
+		trigger = {
+			522 = { NOT = { has_province_modifier = delhi_fed_embassy } }
+		}
+		random_owned_province = {
+			limit = {
+				has_province_modifier = goslar_gangan_embassy
+			}
+			remove_province_modifier = goslar_gangan_embassy
+		}
+		random_country = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = delhi_has_embassy
+				}
+			}
+			country_event = {
+				id = embassy_fed.7
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa lost the Persian embassy!
+country_event = {
+	id = embassy_fed.6
+	title = embassy_fed.6.t
+	desc = embassy_fed.6.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = embassy_fed.6.a
+		522 = {
+			remove_province_modifier = delhi_fed_embassy
+		}
+		FROM = {
+			remove_opinion = {
+				who = ROOT
+				modifier = delhi_has_embassy
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa disbanded the Persian embassy!
+country_event = {
+	id = embassy_fed.7
+	title = embassy_fed.7.t
+	desc = embassy_fed.7.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = embassy_fed.7.a
+		remove_opinion = {
+			who = FROM
+			modifier = delhi_has_embassy
+		}
+		reverse_remove_opinion = {
+			who = ROOT
+			modifier = delhi_has_embassy
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Merchants visit the other country
+country_event = {
+	id = embassy_fed.8
+	title = embassy_fed.8.t
+	desc = embassy_fed.8.desc
+	picture = MERCHANTS_TALKING_eventPicture
+
+	trigger = {
+		has_global_flag = goslar_ganga_embassy
+		any_owned_province = {
+			OR = {
+				has_province_modifier = goslar_gangan_embassy
+				has_province_modifier = delhi_fed_embassy
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {
+		name = embassy_fed.8.a
+		add_years_of_income = 0.25
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Knowledge sharing
+country_event = {
+	id = embassy_fed.9
+	title = embassy_fed.9.t
+	desc = embassy_fed.9.desc
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		has_global_flag = goslar_ganga_embassy
+		any_owned_province = {
+			OR = {
+				has_province_modifier = goslar_gangan_embassy
+				has_province_modifier = delhi_fed_embassy
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {
+		name = embassy_fed.9.a
+		random_list = {
+			33 = { add_adm_power = 50 }
+			33 = { add_dip_power = 50 }
+			33 = { add_mil_power = 50 }
+			1 = { add_adm_power = 50 add_dip_power = 50 add_mil_power = 50 }
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Religious Interactions
+country_event = {
+	id = embassy_fed.10
+	title = embassy_fed.10.t
+	desc = embassy_fed.10.desc
+	picture = MOSQUE_eventPicture
+
+	trigger = {
+		has_global_flag = goslar_ganga_embassy
+		any_owned_province = {
+			OR = {
+				has_province_modifier = goslar_gangan_embassy
+				has_province_modifier = delhi_fed_embassy
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {
+		name = embassy_fed.10.a
+		add_stability_or_adm_power = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Kilwa can convert to Persia's religion
+country_event = {
+	id = embassy_fed.11
+	title = embassy_fed.11.t
+	desc = embassy_fed.11.desc
+	picture = MOSQUE_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = goslar_ganga_embassy
+		any_owned_province = {
+			has_province_modifier = goslar_gangan_embassy
+		}
+		522 = {
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+			522 = {
+				owner = {
+					save_event_target_as = fed_ganga
+				}
+			}
+		}
+	}
+
+	option = {	#Change religion to Gangan
+		name = embassy_fed.11.a
+		change_religion = event_target:fed_ganga
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {	#Not really worth it
+		name = embassy_fed.11.b
+		add_church_power = 10
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#The Fed gets claims on Indonesia
+country_event = {
+	id = embassy_fed.12
+	title = embassy_fed.12.t
+	desc = embassy_fed.12.desc
+	picture = SONGHAI_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = goslar_ganga_embassy
+		any_owned_province = {
+			has_province_modifier = goslar_gangan_embassy
+		}
+		522 = {
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = had_embassy_event }
+			had_country_flag = {
+				flag = had_embassy_event
+				days = 3650
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = had_embassy_event
+			set_country_flag = had_embassy_event
+		}
+	}
+
+	option = {	#We must pressure the claims of our origins!
+		name = embassy_fed.12.a
+		1101 = {
+			add_claim = ROOT
+		}
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {	#Not really worth it
+		name = embassy_fed.12.b
+		add_prestige = 25
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

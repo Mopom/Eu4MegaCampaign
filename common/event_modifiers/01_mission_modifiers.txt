@@ -10064,3 +10064,24 @@ ganga_corruption_reduction = {
 stora_kopparberget_modifier = { #Great Copper Mountain
 	trade_goods_size = 5.0
 }
+
+delhi_fed_embassy = {
+	diplomatic_upkeep = 1
+	local_institution_spread = 0.25
+	province_trade_power_value = 5
+}
+
+goslar_gangan_embassy = {
+	diplomatic_upkeep = 1
+	local_institution_spread = 0.25
+	province_trade_power_value = 5
+}
+
+delhi_has_embassy = {
+	opinion = 20
+}
+
+ganga_declined_embassy = {
+	opinion = -50
+	yearly_decay = 1
+}
