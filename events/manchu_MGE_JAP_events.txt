@@ -42,7 +42,7 @@ country_event = { #Driver for below event
 		hidden_effect = {
 			2106 = {
 				add_claim = JAP
-				add_claim = ODA
+				add_claim = HSK
 			}
 		}
 	}
@@ -74,7 +74,7 @@ province_event = { #Furdan
 			}
 		}
 		else = {
-			ODA = {
+			HSK = {
 				country_event = {
 					id = manchu_japanese.3
 					days = 10
@@ -278,7 +278,7 @@ country_event = { #Driver for below event
 		hidden_effect = {
 			1050 = {
 				add_claim = JAP
-				add_claim = ODA
+				add_claim = HSK
 			}
 		}
 	}
@@ -316,7 +316,7 @@ province_event = { #Tyr
 			}
 		}
 		else = {
-			ODA = {
+			HSK = {
 				country_event = {
 					id = manchu_japanese.9
 					days = 10
@@ -415,7 +415,7 @@ province_event = { #Beijing
 			}
 		}
 		else = {
-			ODA = {
+			HSK = {
 				country_event = {
 					id = manchu_japanese.12
 					days = 10

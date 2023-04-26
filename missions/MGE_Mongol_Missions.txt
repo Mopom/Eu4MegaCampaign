@@ -783,8 +783,8 @@ mge_exp_japan_branch_2 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
 					AND = {
-						alliance_with = ODA
-						country_or_non_sovereign_subject_holds = ODA
+						alliance_with = HSK
+						country_or_non_sovereign_subject_holds = HSK
 					}
 				}
 			}
@@ -792,8 +792,8 @@ mge_exp_japan_branch_2 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
 					AND = {
-						alliance_with = ODA
-						country_or_non_sovereign_subject_holds = ODA
+						alliance_with = HSK
+						country_or_non_sovereign_subject_holds = HSK
 					}
 				}
 			}
@@ -801,8 +801,8 @@ mge_exp_japan_branch_2 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
 					AND = {
-						alliance_with = ODA
-						country_or_non_sovereign_subject_holds = ODA
+						alliance_with = HSK
+						country_or_non_sovereign_subject_holds = HSK
 					}
 				}
 			}
@@ -813,7 +813,7 @@ mge_exp_japan_branch_2 = {
 				navy_size = JAP
 			}
 			else = {
-				navy_size = ODA
+				navy_size = HSK
 			}
 		}
 		effect = {
@@ -1571,7 +1571,7 @@ mge_exp_japan_branch_3 = {
 			OR = {
 				owned_by = JAP
 				owned_by = ANU
-				owned_by = ODA
+				owned_by = HSK
 				owned_by = ASK
 			}
 		}
@@ -1591,7 +1591,7 @@ mge_exp_japan_branch_3 = {
 						alliance_with = ANU
 					}
 					AND = {
-						alliance_with = ODA
+						alliance_with = HSK
 					}
 					AND = {
 						alliance_with = ASK
@@ -1664,8 +1664,8 @@ mge_culture_chin_3 = {
 			else = {
 				OR = {
 					AND = {
-						alliance_with = ODA
-						ODA = {
+						alliance_with = HSK
+						HSK = {
 							has_opinion = {
 								who = ROOT
 								value = 140
@@ -2583,8 +2583,8 @@ mge_culture_chin_4 = {
 			else = {
 				OR = {
 					AND = {
-						alliance_with = ODA
-						ODA = {
+						alliance_with = HSK
+						HSK = {
 							has_opinion = {
 								who = ROOT
 								value = 120
@@ -2648,8 +2648,8 @@ mge_culture_chin_4 = {
 			else = {
 				OR = {
 					AND = {
-						alliance_with = ODA
-						ODA = {
+						alliance_with = HSK
+						HSK = {
 							has_opinion = {
 								who = ROOT
 								value = 140
