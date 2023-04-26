@@ -10,7 +10,6 @@ base_production = 5
 base_manpower = 3
 add_core = ASS
 add_core = MAD
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

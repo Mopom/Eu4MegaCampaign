@@ -12,7 +12,6 @@ base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
 add_core = MAD
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

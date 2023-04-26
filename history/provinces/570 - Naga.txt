@@ -11,7 +11,6 @@ base_production = 1
 base_manpower = 1
 add_core = ASS
 add_core = Z01
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

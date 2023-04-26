@@ -14,7 +14,6 @@ center_of_trade = 2
 add_core = ODH
 add_core = Z01
 add_core = MAD
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

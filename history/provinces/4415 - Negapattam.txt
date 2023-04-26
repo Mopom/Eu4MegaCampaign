@@ -9,7 +9,6 @@ base_tax = 7
 base_production = 5
 base_manpower = 4
 add_core = BNG
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

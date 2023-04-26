@@ -10,7 +10,6 @@ base_production = 1
 base_manpower = 2
 add_core = BNG
 add_claim = Z01
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

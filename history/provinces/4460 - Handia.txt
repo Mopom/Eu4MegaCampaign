@@ -9,7 +9,6 @@ base_tax = 6
 base_production = 7
 base_manpower = 2
 add_core = GDW
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

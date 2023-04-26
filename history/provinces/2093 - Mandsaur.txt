@@ -10,7 +10,6 @@ base_production = 7
 base_manpower = 2
 add_core = MLW
 add_core = Z01
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

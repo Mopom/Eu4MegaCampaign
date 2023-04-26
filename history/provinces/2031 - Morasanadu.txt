@@ -10,7 +10,6 @@ base_production = 5
 base_manpower = 1
 add_core = BNG
 add_core = MYS
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
