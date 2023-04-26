@@ -1,3 +1,5 @@
+namespace = quranist_reformation
+
 country_event = {
 	id = quranist_reformation.1
 	title = quranist_reformation.1.t

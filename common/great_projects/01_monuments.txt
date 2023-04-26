@@ -488,7 +488,6 @@ tower_of_london = {
 		}	
 	}
 }
-}
 
 buddha_statues = {
 	# province it starts in

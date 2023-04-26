@@ -1,3 +1,5 @@
+namespace = FRA.Balance
+
 country_event = {
 	id = FRA.Balance.1
 	title = FRA.Balance.1.t

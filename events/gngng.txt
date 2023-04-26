@@ -1,3 +1,5 @@
+namespace = gngng_events
+
 ########################################
 # Court and Country
 # Sprinklings from the General Crisis of the 17th century

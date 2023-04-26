@@ -10076,12 +10076,3 @@ goslar_gangan_embassy = {
 	local_institution_spread = 0.25
 	province_trade_power_value = 5
 }
-
-delhi_has_embassy = {
-	opinion = 20
-}
-
-ganga_declined_embassy = {
-	opinion = -50
-	yearly_decay = 1
-}

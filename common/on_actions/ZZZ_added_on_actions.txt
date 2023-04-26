@@ -36,7 +36,6 @@ on_province_owner_change = {
 		remove_province_modifier = sufi_shrine
 	}
 	on_province_owner_change_estate_privileges_effect = yes
-	judaism_on_province_change_religion_or_change_owner_effect = yes
 	imperial_modifiers_on_province_change_culture_or_change_owner_effect = yes
 
 	if = {

@@ -313,7 +313,7 @@ Ajuuraan_internal_missions_slot = {
 	}
 }
 #Third slot
-kilwa_trade_conquest_missions_slot = {
+ajuuran_trade_conquest_missions_slot = {
 	slot = 3
 	generic = no
 	ai = yes
