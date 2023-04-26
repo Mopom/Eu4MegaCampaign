@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = HED
+controller = HED
 capital = "Karah"
 is_city = yes
 culture = al_suryah_arabic
@@ -8,8 +8,7 @@ trade_goods = livestock
 base_tax = 2
 base_production = 3
 base_manpower = 2
-add_core = SYR
-add_core = Z00
+add_core = HED
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = HED
+controller = HED
 capital = "Medina"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 9
 base_production = 1
 base_manpower = 7
+add_core = HED
 add_core = Z00
 discovered_by = eastern
 discovered_by = indian

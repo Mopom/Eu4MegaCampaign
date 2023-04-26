@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = HED
+controller = HED
 capital = "Jiddah"
 is_city = yes
 culture = dynamic-greek-al_suryah_arabic-culture-num1
@@ -10,7 +10,7 @@ base_production = 7
 base_manpower = 4
 extra_cost = 16
 center_of_trade = 2
-add_core = Z00
+add_core = HED
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -547,3 +547,6 @@ aachen_prestige = {
 	prestige = 0.2
 	prestige_decay = -0.02
 }
+hejaz_loyalty_to_eyalet = {
+	liberty_desire = -200
+}
