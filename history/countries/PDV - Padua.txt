@@ -32,7 +32,7 @@ fixed_capital = 4729
 	}
 	heir = {
 		name = "Ardizzone"
-		monarch_name = "Ardizzone III"
+		monarch_name = "Ardizzone IV"
 		dynasty = "Abbasid"
 		adm = 6
 		dip = 6
