@@ -1045,15 +1045,6 @@ country_decisions = {
 			}
 		}
 		effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						tag = NOV
-					}
-					complete_mission = tr_invade_novgorod_mission
-					complete_mission = tr_subjugate_novgorod
-				}
-			}
 			change_tag = RUS
 			restore_country_name = yes
 			swap_non_generic_missions = yes

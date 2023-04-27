@@ -16,7 +16,7 @@ mercantilism = 15
 		adm = 2
 		dip = 4
 		mil = 4
-		birth_date = 1385.10.13
+		birth_date = 1422.10.25
 		religion = nestorian
 		culture = dynamic-chihan-culture-num1
 	}
