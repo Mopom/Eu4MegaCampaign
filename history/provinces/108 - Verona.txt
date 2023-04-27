@@ -1,5 +1,5 @@
-owner = UBL
-controller = UBL
+owner = PDV
+controller = PDV
 capital = "Verona"
 is_city = yes
 culture = venetian
@@ -11,7 +11,7 @@ base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 add_core = VEN
-add_core = UBL
+add_core = PDV
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

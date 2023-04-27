@@ -28,3 +28,13 @@ vassal = {
 	second = SLO
 	start_date = 1444.1.1
 }
+vassal = {
+	first = UBL
+	second = PRO
+	start_date = 1444.1.1
+}
+vassal = {
+	first = UBL
+	second = PDV
+	start_date = 1444.1.1
+}

@@ -1,5 +1,5 @@
-owner = UBL
-controller = UBL
+owner = PRO
+controller = PRO
 capital = "Forcalquier"
 is_city = yes
 culture = occitain
@@ -9,7 +9,6 @@ base_tax = 9
 base_production = 5
 base_manpower = 1
 add_core = PRO
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

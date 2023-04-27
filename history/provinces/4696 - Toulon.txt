@@ -1,5 +1,5 @@
-owner = UBL
-controller = UBL
+owner = PRO
+controller = PRO
 capital = "Toulon"
 is_city = yes
 culture = occitain
@@ -9,7 +9,6 @@ base_tax = 7
 base_production = 4
 base_manpower = 4
 add_core = PRO
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

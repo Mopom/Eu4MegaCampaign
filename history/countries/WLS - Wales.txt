@@ -8,7 +8,7 @@ capital = 4369
 1444.11.11= {
 	monarch = {
 		name = "Denis"
-		dynasty = "Premyslid"
+		dynasty = "Coel"
 		adm = 3
 		dip = 1
 		mil = 3
@@ -17,8 +17,6 @@ capital = 4369
 		religion = catholic
 		culture = welsh
 	}
-	add_ruler_personality = well_connected_personality
-	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Simon"
 		dynasty = "Orsini"
@@ -31,12 +29,10 @@ capital = 4369
 		religion = catholic
 		culture = dynamic-saxon-culture-num1
 	}
-	add_queen_personality = well_connected_personality
-	add_queen_personality = zealot_personality
 	heir = {
 		name = "Cydifor"
 		monarch_name = "Cydifor"
-		dynasty = "Premyslid"
+		dynasty = "Coel"
 		adm = 6
 		dip = 6
 		mil = 6
@@ -46,8 +42,6 @@ capital = 4369
 		religion = catholic
 		culture = welsh
 	}
-	add_heir_personality = well_connected_personality
-	add_heir_personality = zealot_personality
 }
 1444.11.11= {
 	add_prestige = 91

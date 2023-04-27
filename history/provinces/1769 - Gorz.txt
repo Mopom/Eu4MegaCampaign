@@ -1,5 +1,5 @@
-owner = HAB
-controller = HAB
+owner = UBL
+controller = UBL
 capital = "Gorizia"
 is_city = yes
 culture = venetian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 add_core = VEN
-add_core = HAB
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

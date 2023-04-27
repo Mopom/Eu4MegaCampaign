@@ -1,5 +1,5 @@
-owner = HAB
-controller = HAB
+owner = UBL
+controller = UBL
 capital = "Pula"
 is_city = yes
 culture = croatian
@@ -12,7 +12,7 @@ base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
 add_core = CRO
-add_core = HAB
+add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

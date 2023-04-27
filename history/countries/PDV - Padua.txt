@@ -1,8 +1,50 @@
-government = republic
-add_government_reform = oligarchy_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = catholic
+religion = samaritan_faith
 primary_culture = venetian
 capital = 4729
 fixed_capital = 4729
+1444.11.11= {
+	monarch = {
+		name = "Vittorio I"
+		dynasty = "Abbasid"
+		adm = 3
+		dip = 1
+		mil = 3
+		birth_date = 1384.11.29
+		religion = samaritan_faith
+		culture = venetian
+	}
+	queen = {
+		name = "Alberada"
+		dynasty = "Abbasid"
+		adm = 2
+		dip = 4
+		mil = 2
+		country_of_origin = FRA
+		birth_date = 1387.1.13
+		death_date = 1447.1.13
+		female = yes
+		religion = samaritan_faith
+		culture = dynamic-breton-normand-occitain-culture-num1
+	}
+	heir = {
+		name = "Ardizzone"
+		monarch_name = "Ardizzone III"
+		dynasty = "Abbasid"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1412.3.31
+		death_date = 1477.3.31
+		claim = 89
+		religion = samaritan_faith
+		culture = venetian
+	}
+}
+1444.11.11= {
+	add_prestige = 91
+	add_treasury = 69
+}

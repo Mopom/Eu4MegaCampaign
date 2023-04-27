@@ -1,5 +1,5 @@
-owner = UBL
-controller = UBL
+owner = PRO
+controller = PRO
 capital = "Avignon"
 is_city = yes
 culture = occitain
@@ -11,7 +11,6 @@ base_production = 5
 base_manpower = 2
 extra_cost = 8
 add_core = PRO
-add_core = UBL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

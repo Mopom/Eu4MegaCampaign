@@ -1,5 +1,5 @@
-owner = UBL
-controller = UBL
+owner = PDV
+controller = PDV
 capital = "Treviso"
 is_city = yes
 culture = venetian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 5
 base_manpower = 2
 add_core = VEN
-add_core = UBL
+add_core = PDV
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
