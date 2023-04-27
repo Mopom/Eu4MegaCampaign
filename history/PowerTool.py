@@ -116,10 +116,10 @@ while True:
         tmpRegionList = []
         tmpAreaList = []
         for region in superregionsdict[values["-SRLIST-"]]:
-            if region != '' and '#' not in region:
+            if region != '' and '#' not in region and region in regionsdict:
                 tmpRegionList.append(region)
                 for area in regionsdict[region]:
-                    if area != '' and '#' not in area:
+                    if area != '' and '#' not in area and area in areasdict:
                         tmpAreaList.append(area)
                         for prov in areasdict[area]:
                             if prov != '' and '#' not in prov:
@@ -132,7 +132,7 @@ while True:
         finalIdList = []
         tmpAreaList = []
         for area in regionsdict[values["-RLIST-"]]:
-            if area != '' and '#' not in area:
+            if area != '' and '#' not in area and area in areasdict:
                 tmpAreaList.append(area)
                 for prov in areasdict[area]:
                     if prov != '' and '#' not in prov:
