@@ -3,7 +3,7 @@ guarantee = {
 	second = WLS
 	start_date = 1444.1.1
 }
-vassal = {
+march = {
 	first = UBL
 	second = BLG
 	start_date = 1444.1.1
