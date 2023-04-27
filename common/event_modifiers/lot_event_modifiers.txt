@@ -553,3 +553,6 @@ hejaz_loyalty_to_eyalet = {
 killer_ot_empire_bohlom = {
 	diplomatic_reputation = 3
 }
+mal_summer_palts = {
+	tax_income = 12
+}
