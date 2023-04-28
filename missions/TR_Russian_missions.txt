@@ -3558,7 +3558,7 @@ ortho_church_crusade_missions_5 = {
 		}
 	}
 	ortho_crus_magyar = {
-		icon = mission_pol_protect_hungary
+		icon = mission_destroy_the_hungarians
 		required_missions = { ortho_crus_moldrom }
 		position = 15
 		provinces_to_highlight = {

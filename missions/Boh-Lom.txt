@@ -451,22 +451,29 @@ ubl_2 = {
 	has_country_shield = yes
 
 	ubl_2_1 = {
-		icon = the_gallic_wars
+		icon = mission_conquer_north_italy
 		required_missions = {}
 		provinces_to_highlight = {
-			owned_by = BLG
+			owned_by = PDV
 		}
 
 		trigger = {
-			emilia_romagna_area = {
-				type = all
+			111 = {
 				owned_by = ROOT
 			}
-			tuscany_area = {
-				type = all
+			1774 = {
 				owned_by = ROOT
 			}
-			NOT = { exists = BLG }
+			4729 = {
+				owned_by = ROOT
+			}
+			108 = {
+				owned_by = ROOT
+			}
+			113 = {
+				owned_by = ROOT
+			}
+			NOT = { exists = PDV }
 		}
 
 		effect = {
@@ -1132,7 +1139,7 @@ ubl_3 = {
 				owned_by = HAB
 				owned_by = SLO
 				owned_by = DAL
-				owned_by = BLG
+				owned_by = PDV
 			}
 		}
 
@@ -1142,7 +1149,7 @@ ubl_3 = {
 					exists = HAB
 					exists = SLO
 					exists = DAL
-					exists = BLG
+					exists = PDV
 				}
 			}
 		}
@@ -1399,7 +1406,7 @@ ubl_4 = {
 	has_country_shield = yes
 
 	ubl_4_1 = {
-		icon = boh_humiliate_austria
+		icon = mission_destroy_the_hungarians
 		required_missions = {  }
 
 		provinces_to_highlight = {
