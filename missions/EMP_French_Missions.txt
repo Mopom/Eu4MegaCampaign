@@ -595,7 +595,7 @@ emp_france_american_colonial_1 = {
 		}
 	}
 	emp_fra_french_colony_in_north_america = {
-		icon = mission_colonial
+		icon = mission_expand_into_the_forest
 		required_missions = { emp_fra_france_discovers_north_america }
 		completed_by = 1608.7.3
 		position = 12
@@ -1469,7 +1469,7 @@ emp_france_local_3 = {
 		}
 	}
 	alice_fra_conquer_provence = {
-		icon = mission_cannons_firing
+		icon = claim_the_borderlands
 		required_missions = { emp_fra_reconquer_gascony }
 		completed_by = 1481.1.1
 		provinces_to_highlight = {
@@ -1559,7 +1559,7 @@ lot_pax_francia_3 = {
 	has_country_shield = yes
 	
 	lot_pax_defend_genoa = {
-		icon = mission_galleys_in_port
+		icon = the_shape_of_trades_to_come
 		required_missions = { lot_pax_alcaniz_renew }
 		position = 4
 		provinces_to_highlight = {
@@ -2496,7 +2496,7 @@ lot_cities_france_4 = {
 	has_country_shield = yes
 	
 	lot_cities_lyon = {
-		icon = give_him_back_his_legions
+		icon = develop_provence
 		required_missions = {  }
 		position = 13
 		provinces_to_highlight = {
@@ -2518,7 +2518,7 @@ lot_cities_france_4 = {
 		}
 	}
 	lot_cities_parisien = {
-		icon = mission_early_modern_university
+		icon = fra_crown_seat_capital
 		required_missions = {  }
 		position = 14
 		provinces_to_highlight = {
@@ -2549,7 +2549,7 @@ lot_cities_france_4 = {
 		}
 	}
 	lot_cities_strassbourg = {
-		icon = promote_urbanization
+		icon = ansbach_succession
 		required_missions = {  }
 		position = 15
 		provinces_to_highlight = {

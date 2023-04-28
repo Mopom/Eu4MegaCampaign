@@ -308,7 +308,7 @@ al_Abbas_traders_and_merchants_1 = {
 		}
 	}
 	abs_trade_mombasa_zanzibar = {
-		icon = mission_market_place_with_asian_traders
+		icon = mission_turkish_merchants
 		required_missions = { abs_trade_horn }
 		provinces_to_highlight = {
 			OR = {
@@ -357,7 +357,7 @@ al_Abbas_conquest_1 = {
 	has_country_shield = yes
 	
 	abbas_integrate_aden = {
-		icon = mission_arabian_fort
+		icon = mission_bedouins
 		required_missions = { abbas_buildforces }
 		position = 8
 		provinces_to_highlight = {
@@ -1037,7 +1037,7 @@ al_Abbas_traders_and_merchants_2 = {
 		}
 	}
 	abs_trade_kutch = {
-		icon = mission_fatehpur_sikri
+		icon = mission_dominate_trade_in_bengal
 		required_missions = { abs_trade_hormuz }
 		position = 5
 		provinces_to_highlight = {
@@ -1060,7 +1060,7 @@ al_Abbas_traders_and_merchants_2 = {
 		}
 	}
 	abs_trade_goa_maldives = {
-		icon = mission_dominate_trade_in_bengal
+		icon = mission_dominate_persian_gulf
 		required_missions = { abs_trade_kutch }
 		position = 6
 		provinces_to_highlight = {
@@ -1102,7 +1102,7 @@ al_Abbas_conquest_3 = {
 	has_country_shield = yes
 	
 	abbas_buildforces = {
-		icon = mission_bedouins
+		icon = mission_fall_of_constantinople
 		required_missions = {  }
 		position = 7
 		trigger = {
@@ -1148,7 +1148,7 @@ al_Abbas_conquest_3 = {
 		}
 	}
 	abbas_anatolia = {
-		icon = mission_non-western_soldiers
+		icon = mission_islamic_golden_age
 		required_missions = { abbas_buildforces }
 		position = 9
 		provinces_to_highlight = {
@@ -1267,7 +1267,7 @@ al_Abbas_conquest_3 = {
 		}
 	}
 	abbas_greater_greece = {
-		icon = mission_early_game_buildings
+		icon = mission_parthenon
 		required_missions = { abbas_crete_cyprus }
 		position = 11
 		provinces_to_highlight = {
@@ -1734,56 +1734,54 @@ al_Abbas_conquest_4 = {
 	has_country_shield = yes
 	
 	abbas_integrate_oman_najd = {
-		icon = mission_zim_strong_rulership
+		icon = mission_silk_road
 		required_missions = { abbas_buildforces }
 		position = 8
 		provinces_to_highlight = {
 			OR = {
-				area = nafud_area
-				area = qasim_area
-				area = bahrain_area
-				area = yamamah_area
-				area = pirate_coast_area
+				province_id = 397
+				province_id = 398
+				province_id = 2341
 				area = oman_area
 				area = mascat_area
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			nafud_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			qasim_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			bahrain_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			yamamah_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			pirate_coast_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			oman_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			mascat_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			OR = {
+				AND = {
+					397 = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+					398 = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+					2341 = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+					oman_area = {
+						type = all
+						owned_by = ROOT
+						is_core = ROOT
+					}
+					mascat_area = {
+						type = all
+						owned_by = ROOT
+						is_core = ROOT
+					}
+					NOT = { exists = OMA }
+				}
+				AND = {
+					OMA = {
+						liberty_desire = 0
+					}
+					OMA = {
+						total_development = 80
+					}
+				}
 			}
 		}
 		effect = {
@@ -1795,7 +1793,7 @@ al_Abbas_conquest_4 = {
 		}
 	}
 	abbas_persia_conquest = {
-		icon = mission_conquer_central_deccan
+		icon = mission_the_caliph
 		required_missions = { abbas_integrate_oman_najd }
 		position = 9
 		provinces_to_highlight = {
@@ -1856,7 +1854,7 @@ al_Abbas_conquest_4 = {
 		}
 	}
 	abbas_caucasus = {
-		icon = alpine_fortifications
+		icon = mission_the_caucasus_tur
 		required_missions = { abbas_persia_conquest abbas_anatolia }
 		position = 10
 		provinces_to_highlight = {
@@ -1912,7 +1910,7 @@ al_Abbas_conquest_4 = {
 		}
 	}
 	abbas_black_sea_navy = {
-		icon = mission_establish_high_seas_navy
+		icon = mission_control_the_black_sea
 		required_missions = { abbas_caucasus }
 		position = 11
 		trigger = {
@@ -2015,7 +2013,7 @@ al_Abbas_the_star_and_crescent_2 = {
 		}
 	}
 	abs_house_of_wisdom = {
-		icon = mission_mosque
+		icon = mission_cradle_of_civilization
 		required_missions = { abs_holy_city_mission }
 		position = 2
 		provinces_to_highlight = {
@@ -2250,7 +2248,7 @@ al_Abbas_the_star_and_crescent_2 = {
 		}
 	}
 	abs_konstantiyye = {
-		icon = the_latin_empire
+		icon = mission_hagia_sophia
 		required_missions = { abs_burn_the_heretics }
 		position = 7
 		provinces_to_highlight = {
