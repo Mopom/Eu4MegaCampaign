@@ -853,7 +853,6 @@ emp_france_north_missions = {
 			OR = {
 					area = picardy_area
 					province_id = 4769
-					province_id = 90
 					province_id = 91
 					province_id = 1866
 			}
@@ -867,9 +866,6 @@ emp_france_north_missions = {
 				owned_by = ROOT
 			}
 			4769 = {
-				owned_by = ROOT
-			}
-			90 = {
 				owned_by = ROOT
 			}
 			91 = {
@@ -2815,7 +2811,6 @@ lot_fra_legacy_of_charlemagne_5 = {
 			OR = {
 					area = picardy_area
 					province_id = 4769
-					province_id = 90
 					province_id = 91
 					province_id = 1866
 			}
@@ -2829,9 +2824,6 @@ lot_fra_legacy_of_charlemagne_5 = {
 				owned_by = ROOT
 			}
 			4769 = {
-				owned_by = ROOT
-			}
-			90 = {
 				owned_by = ROOT
 			}
 			91 = {
