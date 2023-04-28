@@ -10,6 +10,7 @@ base_production = 5
 base_manpower = 1
 add_core = HES
 add_core = Z02
+add_core = FKN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
