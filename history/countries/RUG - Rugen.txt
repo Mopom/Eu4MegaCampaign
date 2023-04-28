@@ -1,7 +1,18 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = pirate_republic_reform
 government_rank = 1
 technology_group = western
-religion = catholic
+religion = samaritan_faith
 primary_culture = pommeranian
 capital = 4745
+1444.11.11= {
+	monarch = {
+		name = "Mariam"
+		dynasty = "Störtebecker"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1386.4.6
+		culture = pommeranian
+	}
+}

@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = RUG
+controller = RUG
 capital = "Ronne"
 is_city = yes
 culture = danish
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 add_core = DAN
-add_core = Z02
+add_core = RUG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

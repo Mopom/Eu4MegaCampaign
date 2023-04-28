@@ -541,3 +541,75 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = embassy_fed.13
+	title = embassy_fed.13.t
+	desc = embassy_fed.13.desc
+	picture = ANGRY_MOB_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = Z02
+		owns_core_province = 236
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {	#Londen is ours!
+		name = embassy_fed.13.a
+		ENG = {
+            add_liberty_desire = 50
+        }
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+
+	option = {	#Give it back
+		name = embassy_fed.13.b
+		add_prestige = -10
+		236 = {
+            cede_province = ENG
+        }
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
+
+country_event = {
+	id = embassy_fed.14
+	title = embassy_fed.14.t
+	desc = embassy_fed.14.desc
+	picture = MERCHANTS_ARGUING_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = Z02
+		RUG = {
+		    owns_core_province = 4745
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {	#Not again
+		name = embassy_fed.14.a
+		POM = {
+            add_liberty_desire = -5
+            add_prestige = -10
+        }
+        add_prestige = -5
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
