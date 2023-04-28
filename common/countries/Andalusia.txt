@@ -83,14 +83,14 @@ monarch_names = {
 	"Menza #0" = -10
 	"Nafissa #0" = -10
 	"Umm #0" = -10
-	"Zahra #0" = -10
+	"Zahra #1" = -10
 	"Aiza #1" = -20
 	"Banafsaj #1" = -20
 	"Dima #1" = -20
 	"Fatima #1" = -20
 	"Habiba #1" = -20
 	"Huda #1" = -20
-	"Mariam #1" = -20
+	"Mariam #2" = -20
 	"Naila #2" = -20
 	"Salma #1" = -20
 }
