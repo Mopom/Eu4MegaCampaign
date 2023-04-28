@@ -8,6 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 4
 base_manpower = 2
+add_core = SYR
 add_core = Z00
 discovered_by = eastern
 discovered_by = indian
