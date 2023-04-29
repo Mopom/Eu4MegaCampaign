@@ -12,7 +12,6 @@ extra_cost = 16
 center_of_trade = 2
 add_core = KAS
 add_core = MGE
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

@@ -1,4 +1,4 @@
-capital = "Sörgüt"
+capital = "Sï¿½rgï¿½t"
 culture = samoyed
 religion = tengri_pagan
 trade_goods = unknown

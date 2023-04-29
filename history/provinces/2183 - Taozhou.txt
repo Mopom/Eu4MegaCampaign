@@ -10,7 +10,6 @@ base_production = 4
 base_manpower = 3
 add_core = UTS
 add_core = Z08
-discovered_by = eastern
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
