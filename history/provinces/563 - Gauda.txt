@@ -8,6 +8,7 @@ trade_goods = paper
 base_tax = 8
 base_production = 6
 base_manpower = 5
+discovered_by = east_african
 extra_cost = 16
 center_of_trade = 2
 add_core = MAD

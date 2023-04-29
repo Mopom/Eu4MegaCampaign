@@ -8,6 +8,7 @@ trade_goods = cotton
 base_tax = 6
 base_production = 6
 base_manpower = 1
+discovered_by = east_african
 add_core = GUJ
 discovered_by = indian
 discovered_by = chinese

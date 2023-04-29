@@ -8,6 +8,7 @@ trade_goods = cotton
 base_tax = 7
 base_production = 5
 base_manpower = 4
+discovered_by = east_african
 add_core = MLW
 add_core = Z01
 discovered_by = indian

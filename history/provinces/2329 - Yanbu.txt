@@ -8,6 +8,7 @@ trade_goods = cloth
 base_tax = 2
 base_production = 4
 base_manpower = 1
+discovered_by = east_african
 add_core = HED
 discovered_by = eastern
 discovered_by = indian

@@ -8,6 +8,7 @@ trade_goods = incense
 base_tax = 5
 base_production = 7
 base_manpower = 4
+discovered_by = east_african
 extra_cost = 10
 add_core = HED
 add_core = Z00

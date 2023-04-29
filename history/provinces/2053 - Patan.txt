@@ -8,6 +8,7 @@ trade_goods = cloth
 base_tax = 5
 base_production = 5
 base_manpower = 1
+discovered_by = east_african
 add_core = MER
 add_core = GUJ
 discovered_by = indian

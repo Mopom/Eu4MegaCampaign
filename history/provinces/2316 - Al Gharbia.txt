@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 7
 base_production = 13
 base_manpower = 4
+discovered_by = east_african
 extra_cost = 10
 add_core = EGY
 discovered_by = eastern

@@ -8,6 +8,7 @@ trade_goods = livestock
 base_tax = 2
 base_production = 3
 base_manpower = 1
+discovered_by = east_african
 discovered_by = eastern
 add_core = NUB
 add_core = EGY

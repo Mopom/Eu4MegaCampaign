@@ -5,3 +5,4 @@ discovered_by = ottoman
 #discovered_by = chinese
 discovered_by = MGE
 discovered_by = eastern
+discovered_by = east_african

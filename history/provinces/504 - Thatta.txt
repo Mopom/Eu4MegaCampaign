@@ -8,6 +8,7 @@ trade_goods = cloth
 base_tax = 4
 base_production = 8
 base_manpower = 1
+discovered_by = east_african
 extra_cost = 10
 add_core = PUN
 add_core = SND

@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 1
 base_manpower = 2
+discovered_by = east_african
 add_core = OMA
 discovered_by = indian
 discovered_by = muslim

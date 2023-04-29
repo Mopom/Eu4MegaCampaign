@@ -8,6 +8,7 @@ trade_goods = gems
 base_tax = 5
 base_production = 1
 base_manpower = 1
+discovered_by = east_african
 add_core = BNG
 add_core = CEY
 add_core = Z01

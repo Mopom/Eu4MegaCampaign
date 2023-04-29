@@ -8,6 +8,7 @@ trade_goods = livestock
 base_tax = 5
 base_production = 5
 base_manpower = 2
+discovered_by = east_african
 add_core = GUJ
 discovered_by = indian
 discovered_by = chinese

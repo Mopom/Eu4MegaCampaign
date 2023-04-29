@@ -8,6 +8,7 @@ trade_goods = wine
 base_tax = 5
 base_production = 5
 base_manpower = 1
+discovered_by = east_african
 extra_cost = 16
 center_of_trade = 2
 add_core = ARD

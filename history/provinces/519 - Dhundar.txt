@@ -8,6 +8,7 @@ trade_goods = copper
 base_tax = 1
 base_production = 4
 base_manpower = 2
+discovered_by = east_african
 extra_cost = 8
 center_of_trade = 1
 add_core = Z01

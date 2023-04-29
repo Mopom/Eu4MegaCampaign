@@ -8,6 +8,7 @@ trade_goods = cotton
 base_tax = 4
 base_production = 3
 base_manpower = 1
+discovered_by = east_african
 add_core = PUN
 add_core = MER
 discovered_by = indian

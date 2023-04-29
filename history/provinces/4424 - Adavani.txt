@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 6
 base_production = 5
 base_manpower = 1
+discovered_by = east_african
 add_core = BNG
 discovered_by = chinese
 discovered_by = indian

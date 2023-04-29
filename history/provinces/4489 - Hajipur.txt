@@ -8,6 +8,7 @@ trade_goods = glass
 base_tax = 8
 base_production = 16
 base_manpower = 6
+discovered_by = east_african
 add_core = MAD
 discovered_by = chinese
 discovered_by = indian

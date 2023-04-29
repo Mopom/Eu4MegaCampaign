@@ -8,6 +8,7 @@ trade_goods = silk
 base_tax = 7
 base_production = 1
 base_manpower = 3
+discovered_by = east_african
 extra_cost = 5
 add_core = ODH
 add_core = MAD

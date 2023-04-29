@@ -18,3 +18,4 @@ discovered_by = nomad_group
 discovered_by = ottoman
 discovered_by = western
 discovered_by = MGE
+discovered_by = east_african
