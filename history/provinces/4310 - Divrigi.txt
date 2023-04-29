@@ -8,6 +8,7 @@ trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
+discovered_by = MAL
 add_core = RUM
 add_core = TRE
 discovered_by = eastern

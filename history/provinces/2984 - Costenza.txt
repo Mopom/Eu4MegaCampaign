@@ -8,6 +8,7 @@ trade_goods = wine
 base_tax = 4
 base_production = 5
 base_manpower = 2
+discovered_by = MAL
 add_core = NAP
 discovered_by = eastern
 discovered_by = muslim

@@ -8,6 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
+discovered_by = MAL
 add_core = ADU
 discovered_by = eastern
 discovered_by = muslim

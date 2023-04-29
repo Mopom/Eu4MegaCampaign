@@ -8,6 +8,7 @@ trade_goods = cloth
 base_tax = 6
 base_production = 5
 base_manpower = 3
+discovered_by = MAL
 add_core = BYZ
 add_core = RUM
 add_core = Z0D

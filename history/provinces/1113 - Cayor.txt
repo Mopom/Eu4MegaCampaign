@@ -8,6 +8,7 @@ trade_goods = slaves
 base_tax = 4
 base_production = 5
 base_manpower = 2
+discovered_by = sub_saharan
 extra_cost = 10
 add_core = JOL
 add_core = MAL

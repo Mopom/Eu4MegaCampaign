@@ -8,6 +8,7 @@ trade_goods = slaves
 base_tax = 1
 base_production = 2
 base_manpower = 2
+discovered_by = MAL
 discovered_by = east_african
 add_core = KAF
 add_core = Z0P

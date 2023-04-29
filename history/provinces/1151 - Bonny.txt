@@ -8,6 +8,7 @@ trade_goods = slaves
 base_tax = 4
 base_production = 3
 base_manpower = 1
+discovered_by = sub_saharan
 add_core = OYO
 add_core = Z09
 discovered_by = muslim

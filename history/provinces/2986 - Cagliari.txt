@@ -8,6 +8,7 @@ trade_goods = copper
 base_tax = 3
 base_production = 1
 base_manpower = 2
+discovered_by = MAL
 add_core = SAR
 discovered_by = eastern
 discovered_by = muslim

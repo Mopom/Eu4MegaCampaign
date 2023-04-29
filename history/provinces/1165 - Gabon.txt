@@ -5,6 +5,7 @@ trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1
+discovered_by = sub_saharan
 discovered_by = KON
 discovered_by = LOA
 discovered_by = NDO

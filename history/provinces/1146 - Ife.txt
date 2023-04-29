@@ -8,6 +8,7 @@ trade_goods = glass
 base_tax = 3
 base_production = 2
 base_manpower = 2
+discovered_by = sub_saharan
 add_core = OYO
 add_core = Z0T
 discovered_by = muslim

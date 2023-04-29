@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
+discovered_by = MAL
 add_core = BYZ
 add_core = RUM
 discovered_by = eastern

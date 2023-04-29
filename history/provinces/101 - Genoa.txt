@@ -8,6 +8,7 @@ trade_goods = paper
 base_tax = 7
 base_production = 1
 base_manpower = 4
+discovered_by = MAL
 extra_cost = 24
 center_of_trade = 3
 add_core = FRA

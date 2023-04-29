@@ -8,6 +8,7 @@ trade_goods = slaves
 base_tax = 3
 base_production = 4
 base_manpower = 1
+discovered_by = MAL
 add_core = TLC
 add_core = Z0F
 discovered_by = eastern

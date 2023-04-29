@@ -1,2 +1,1 @@
-discovered_by = JOL
-discovered_by = MAL
+discovered_by = sub_saharan

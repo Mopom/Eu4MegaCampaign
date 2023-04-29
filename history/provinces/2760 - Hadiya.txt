@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 4
 base_production = 1
 base_manpower = 1
+discovered_by = MAL
 discovered_by = east_african
 add_core = DAM
 add_core = HDY

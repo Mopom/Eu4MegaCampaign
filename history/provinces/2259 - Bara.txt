@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 4
 base_production = 6
 base_manpower = 3
+discovered_by = sub_saharan
 add_core = JNN
 add_core = MAL
 discovered_by = muslim

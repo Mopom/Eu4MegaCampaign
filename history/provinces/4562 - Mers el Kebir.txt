@@ -8,6 +8,7 @@ trade_goods = cloth
 base_tax = 5
 base_production = 4
 base_manpower = 1
+discovered_by = MAL
 add_core = ALG
 add_core = MOR
 discovered_by = eastern

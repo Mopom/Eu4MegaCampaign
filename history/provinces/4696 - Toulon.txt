@@ -8,6 +8,7 @@ trade_goods = naval_supplies
 base_tax = 7
 base_production = 4
 base_manpower = 4
+discovered_by = MAL
 add_core = PRO
 discovered_by = eastern
 discovered_by = muslim

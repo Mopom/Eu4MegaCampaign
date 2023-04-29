@@ -8,6 +8,7 @@ trade_goods = glass
 base_tax = 5
 base_production = 5
 base_manpower = 2
+discovered_by = MAL
 add_core = TUS
 add_core = BLG
 discovered_by = eastern

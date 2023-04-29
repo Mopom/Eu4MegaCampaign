@@ -8,6 +8,7 @@ trade_goods = salt
 base_tax = 5
 base_production = 5
 base_manpower = 2
+discovered_by = MAL
 extra_cost = 10
 add_core = FER
 add_core = PDV

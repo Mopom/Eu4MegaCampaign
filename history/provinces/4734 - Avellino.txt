@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 11
 base_production = 4
 base_manpower = 3
+discovered_by = MAL
 add_core = NAP
 discovered_by = eastern
 discovered_by = muslim

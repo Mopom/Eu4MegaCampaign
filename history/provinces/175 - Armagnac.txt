@@ -8,6 +8,7 @@ trade_goods = wool
 base_tax = 6
 base_production = 1
 base_manpower = 2
+discovered_by = MAL
 add_core = AMG
 discovered_by = eastern
 discovered_by = muslim

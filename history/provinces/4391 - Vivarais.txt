@@ -8,6 +8,7 @@ trade_goods = wine
 base_tax = 5
 base_production = 1
 base_manpower = 1
+discovered_by = MAL
 add_core = FRA
 add_core = PRO
 discovered_by = eastern

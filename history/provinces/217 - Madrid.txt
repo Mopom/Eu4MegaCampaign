@@ -8,6 +8,7 @@ trade_goods = cloth
 base_tax = 5
 base_production = 7
 base_manpower = 2
+discovered_by = MAL
 add_core = CAS
 add_core = ADU
 discovered_by = eastern

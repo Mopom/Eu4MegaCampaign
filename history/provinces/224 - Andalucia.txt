@@ -8,6 +8,7 @@ trade_goods = wine
 base_tax = 6
 base_production = 6
 base_manpower = 5
+discovered_by = MAL
 extra_cost = 26
 center_of_trade = 2
 add_core = GRA

@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 4
 base_manpower = 1
+discovered_by = MAL
 extra_cost = 8
 center_of_trade = 1
 add_core = TRP

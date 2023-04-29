@@ -8,6 +8,7 @@ trade_goods = sugar
 base_tax = 1
 base_production = 3
 base_manpower = 2
+discovered_by = MAL
 add_core = AFR
 add_core = TUN
 discovered_by = eastern

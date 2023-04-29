@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 5
 base_production = 5
 base_manpower = 2
+discovered_by = MAL
 add_core = MLO
 add_core = UBL
 discovered_by = eastern

@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 1
 base_manpower = 4
+discovered_by = MAL
 add_core = SAV
 add_core = SZO
 add_core = UBL
