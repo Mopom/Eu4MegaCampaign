@@ -5,61 +5,214 @@ namespace = ubl_flavour_missions
 #########################################
 
 country_event = {
-	id = ubl_flavour_missions.1
-	title = ubl_flavour_missions.1.t
-	desc = ubl_flavour_missions.1.d
+	id = ubl_flavor_missions.1
+	title = ubl_flavor_missions.1.t
+	desc = ubl_flavor_missions.1.d
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = "ubl_flavour_missions.1.a" #ubl bribe
+		name = "ubl_flavor_missions.1.a" #ubl bribe
 		ai_chance = { factor = 100 }
+		add_treasury = -200
+		adm_power_cost = 100
+		set_country_flag = UBL_Bribe
+		if = {
+			limit = {
+				FRA = {
+					religion = samaritan_faith
+					exists = yes
+				}
+			}
+			FRA = {
+				country_event = { id = ubl_flavor_missions.2 }
+			}
+		}
+		else = {
+			set_country_flag = UBL_FRA_Accept
+		}
+		if = {
+			limit = {
+				Z02 = {
+					religion = samaritan_faith
+					exists = yes
+				}
+			}
+			Z02 = {
+				country_event = { id = ubl_flavor_missions.2 }
+			}
+		}
+		else = {
+			set_country_flag = UBL_Z02_Accept
+		}
 	}
 	option = {
-		name = "ubl_flavour_missions.1.b" #ubl faith
+		name = "ubl_flavor_missions.1.b" #ubl faith
 		ai_chance = { factor = 0 }
+		dip_power_cost = 100
+		if = {
+			limit = {
+				FRA = {
+					religion = samaritan_faith
+					exists = yes
+				}
+			}
+			FRA = {
+				country_event = { id = ubl_flavor_missions.2 }
+			}
+		}
+		else = {
+			set_country_flag = UBL_FRA_Accept
+		}
+		if = {
+			limit = {
+				Z02 = {
+					religion = samaritan_faith
+					exists = yes
+				}
+			}
+			Z02 = {
+				country_event = { id = ubl_flavor_missions.2 }
+			}
+		}
+		else = {
+			set_country_flag = UBL_Z02_Accept
+		}
 	}
 	option = {
-		name = "ubl_flavour_missions.1.c" #ubl abandon
+		name = "ubl_flavor_missions.1.c" #ubl abandon
 		ai_chance = { factor = 0 }
+		add_prestige = -20
+		set_country_flag = wls_resolved
 	}
 	
 }
 
 country_event = {
-	id = ubl_flavour_missions.2
-	title = ubl_flavour_missions.2.t
-	desc = ubl_flavour_missions.2.d
+	id = ubl_flavor_missions.2
+	title = ubl_flavor_missions.2.t
+	desc = ubl_flavor_missions.2.d
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = "ubl_flavour_missions.2.a" #ubl yes
+		name = "ubl_flavor_missions.2.FRA" #ubl yes
+		trigger = {
+			tag = FRA
+		}
 		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				UBL = {
+					has_country_flag = UBL_Bribe
+				}
+			}
+			add_treasury = 100
+			add_adm_power = 50
+		}
+		UBL = {
+			set_country_flag = UBL_FRA_Accept
+		}
 	}
 	option = {
-		name = "ubl_flavour_missions.2.b" #ubl no
+		name = "ubl_flavor_missions.2.Z02" #ubl yes
+		trigger = {
+			tag = Z02
+		}
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				UBL = {
+					has_country_flag = UBL_Bribe
+				}
+			}
+			add_treasury = 100
+			add_adm_power = 50
+		}
+		UBL = {
+			set_country_flag = UBL_Z02_Accept
+		}
+	}
+	option = {
+		name = "ubl_flavor_missions.2.b" #ubl no
 		ai_chance = { factor = 0 }
+		UBL = {
+			set_country_flag = UBL_Reject
+		}
+		
 	}
 	
 }
 
 country_event = {
-	id = ubl_flavour_missions.3
-	title = ubl_flavour_missions.3.t
-	desc = ubl_flavour_missions.3.d
+	id = ubl_flavor_missions.3
+	title = ubl_flavor_missions.3.t
+	desc = ubl_flavor_missions.3.d
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
-	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_country_flag = UBL_Reject
+			has_country_flag = UBL_FRA_Accept
+			has_country_flag = UBL_Z02_Accept
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
 	
 	option = {
-		name = "ubl_flavour_missions.3.a" #ubl wales final
+		name = "ubl_flavor_missions.3.a" #ubl wales final
 		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				has_country_flag = UBL_FRA_Accept
+				has_country_flag = UBL_Z02_Accept
+			}
+			WLS = {
+				change_religion = samaritan_faith
+				random_owned_province = {
+					change_religion = samaritan_faith
+					add_base_production = 1
+				}
+				random_owned_province = {
+					change_religion = samaritan_faith
+					add_base_production = 1
+				}
+				random_owned_province = {
+					change_religion = samaritan_faith
+					add_base_production = 1
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_country_flag = UBL_FRA_Accept
+				}
+				266 = {
+					add_base_production = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = UBL_Z02_Accept
+				}
+				266 = {
+					add_base_production = 1
+				}
+			}
+			266 = {
+				add_base_production = 1
+			}
+		}
+		set_country_flag = wls_resolved
 	}
 	
 }

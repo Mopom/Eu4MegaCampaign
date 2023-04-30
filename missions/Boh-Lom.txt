@@ -501,7 +501,7 @@ ubl_2 = {
 
 		effect = {
 			country_event = {
-				id = ubl_flavour_missions.1
+				id = ubl_flavor_missions.1
 			}
 		}
 	}
@@ -1140,6 +1140,8 @@ ubl_3 = {
 				owned_by = SLO
 				owned_by = DAL
 				owned_by = PDV
+				owned_by = BLG
+				owned_by = PRO
 			}
 		}
 
@@ -1150,6 +1152,8 @@ ubl_3 = {
 					exists = SLO
 					exists = DAL
 					exists = PDV
+					exists = BLG
+					exists = PRO
 				}
 			}
 		}
