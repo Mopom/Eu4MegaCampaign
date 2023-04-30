@@ -2386,6 +2386,7 @@ merchant_arsenal_reform = {
 		OR = {
 			culture = venetian
 			culture = ligurian
+			culture = swiss
 		}
 	}
 	trigger = {
