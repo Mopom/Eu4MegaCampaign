@@ -501,7 +501,7 @@ ubl_2 = {
 
 		effect = {
 			country_event = {
-				id = ubl_flavor_missions.1
+				id = ubl_flavour_missions.1
 			}
 		}
 	}
