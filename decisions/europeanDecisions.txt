@@ -3,6 +3,7 @@ country_decisions = {
 		potential = {
 			tag = FRA
 			has_global_flag = fra_for_peace_flag
+			ai = no
 		}
 		allow = {
 			has_dip_advisor = yes
@@ -16,6 +17,7 @@ country_decisions = {
 		potential = {
 			tag = Z02
 			has_global_flag = fed_for_peace_flag
+			ai = no
 		}
 		allow = {
 			has_dip_advisor = yes
@@ -29,6 +31,7 @@ country_decisions = {
 		potential = {
 			tag = UBL
 			has_global_flag = boh_for_peace_flag
+			ai = no
 		}
 		allow = {
 			has_dip_advisor = yes
