@@ -290,8 +290,11 @@ japanese_atakebune = {
 hanseatic_trade_fleet = {
 	can_select = {
 		is_primitive = no
-		NOT = { has_country_flag = unlock_norwegian_naval_doctrine } 
-		primary_culture = lower_saxon
+		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
+		OR = {
+		    culture = lower_saxon
+		    culture = dynamic-saxon-culture-num1
+		}
 	}
 
 	country_modifier = {
@@ -307,8 +310,11 @@ hanseatic_trade_fleet = {
 ottoman_great_navy = {
 	can_select = {
 		is_primitive = no
-		NOT = { has_country_flag = unlock_norwegian_naval_doctrine } 
-		primary_culture = turkish
+		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
+		OR = {
+            culture = turkish
+            culture = dynamic-greek-al_suryah_arabic-culture-num1
+		}
 	}
 
 	country_modifier = {
@@ -325,7 +331,10 @@ maghrebi_corsairs = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture_group = maghrebi
+		OR = {
+		    culture_group = maghrebi
+		    culture = dynamic-amhara-somali-culture-num1
+		}
 	}
 
 	country_modifier = {
@@ -385,6 +394,7 @@ dvoyane_admiralty = {
 		OR = {
 			culture = russian
 			culture = russian_new
+			culture = ruthenian
 		}
 	}
 
@@ -420,7 +430,10 @@ the_junk_fleet = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture_group = east_asian
+		OR = {
+		    culture_group = east_asian
+		    culture = dynamic-chihan-culture-num1
+		}
 		NOT = { culture = korean_new }
 		NOT = { culture = jianghuai }
 	}
@@ -439,7 +452,10 @@ chinese_treasure_fleet = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture = jianghuai
+		OR = {
+		    culture = jianghuai
+		    culture = dynamic-mali-culture-num1
+		}
 	}
 
 	country_modifier = {
@@ -457,7 +473,10 @@ maratha_naval_bombards = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture_group = western_aryan
+		OR = {
+		    culture_group = western_aryan
+		    culture = dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+		}
 	}
 
 	country_modifier = {

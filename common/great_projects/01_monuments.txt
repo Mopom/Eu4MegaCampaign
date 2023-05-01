@@ -1502,7 +1502,7 @@ cologne_cathedral = {
 	#can we build it?
 	build_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = christian
+			religion = samaritan_faith
 		}
 	}
 
@@ -1519,14 +1519,14 @@ cologne_cathedral = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = christian
+			religion = samaritan_faith
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion_group = {
-			religion_group = christian
+			religion = samaritan_faith
 		}
 	}
 
