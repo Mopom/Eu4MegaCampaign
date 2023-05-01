@@ -35,6 +35,7 @@ has_sunni_school_trigger = {
 		religious_school = {
 			group = muslim
 			school = zahrai_school
+		}
 		religious_school = {
 			group = muslim
 			school = maliki_school

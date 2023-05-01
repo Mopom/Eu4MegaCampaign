@@ -71,4 +71,4 @@ country_decisions = {
 			}
 		}
 	}	
-}		
+}

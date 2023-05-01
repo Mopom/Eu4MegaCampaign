@@ -22,3 +22,57 @@ ZZZ_enhanced_unreformed_religion = {
 	
 	global_missionary_strength = -0.005
 }
+
+fra_european_peace_mod = {
+    potential = {
+        tag = FRA
+    }
+
+    trigger = {
+        has_global_flag = fra_for_peace_flag
+        has_global_flag = boh_for_peace_flag
+        has_global_flag = fed_for_peace_flag
+        current_age = age_of_discovery
+    }
+
+    reduced_liberty_desire = 10
+    diplomatic_reputation = 1
+    diplomatic_upkeep = 3
+    country_diplomatic_power = -1
+}
+
+fed_european_peace_mod = {
+    potential = {
+        tag = Z02
+    }
+
+    trigger = {
+        has_global_flag = fra_for_peace_flag
+        has_global_flag = boh_for_peace_flag
+        has_global_flag = fed_for_peace_flag
+        current_age = age_of_discovery
+    }
+
+    reduced_liberty_desire = 10
+    diplomatic_reputation = 2
+    diplomatic_upkeep = 2
+    country_diplomatic_power = -1
+}
+
+boh_european_peace_mod = {
+    potential = {
+        tag = UBL
+    }
+
+    trigger = {
+        has_global_flag = fra_for_peace_flag
+        has_global_flag = boh_for_peace_flag
+        has_global_flag = fed_for_peace_flag
+        current_age = age_of_discovery
+    }
+
+    reduced_liberty_desire = 20
+    diplomatic_reputation = 1
+    diplomatic_upkeep = 2
+    country_diplomatic_power = -1
+}

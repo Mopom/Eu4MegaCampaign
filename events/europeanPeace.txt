@@ -1,0 +1,368 @@
+namespace = europeanPeace
+
+#########################################################
+#	Events relating to the three way European alliance	#
+#########################################################
+
+#Join the alliance?
+country_event = {
+	id = europeanPeace.1
+	title = europeanPeace.1.t
+	desc = europeanPeace.1.desc
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = FRA
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {	#Sounds cool
+		name = europeanPeace.1.a
+		custom_tooltip = europeanPeace.1.a.tt
+		set_global_flag = fra_for_peace_flag
+
+		ai_chance = {
+         factor = 1
+        }
+
+		hidden_effect = {
+			UBL = {
+				country_event = {
+					id = europeanPeace.4
+				}
+			}
+			Z02 = {
+				country_event = {
+					id = europeanPeace.4
+				}
+			}
+		}
+	}
+
+	option = {	#It's not really worth it
+		name = europeanPeace.1.b
+		add_prestige = -5
+		add_legitimacy = -5
+
+		ai_chance = {
+         factor = 0
+        }
+
+		hidden_effect = {
+			UBL = {
+				country_event = {
+					id = europeanPeace.5
+				}
+			}
+			Z02 = {
+				country_event = {
+					id = europeanPeace.5
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = europeanPeace.2
+	title = europeanPeace.1.t
+	desc = europeanPeace.1.desc
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = Z02
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {	#Sounds cool
+		name = europeanPeace.1.a
+		custom_tooltip = europeanPeace.1.a.tt
+		set_global_flag = fed_for_peace_flag
+
+		ai_chance = {
+         factor = 1
+        }
+
+		hidden_effect = {
+			FRA = {
+				country_event = {
+					id = europeanPeace.6
+				}
+			}
+			UBL = {
+				country_event = {
+					id = europeanPeace.6
+				}
+			}
+		}
+	}
+
+	option = {	#It's not really worth it
+		name = europeanPeace.1.b
+		custom_tooltip = europeanPeace.1.b.tt
+		add_prestige = -5
+		add_legitimacy = -5
+
+		ai_chance = {
+         factor = 0
+        }
+
+		hidden_effect = {
+			FRA = {
+				country_event = {
+					id = europeanPeace.7
+				}
+			}
+			UBL = {
+				country_event = {
+					id = europeanPeace.7
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = europeanPeace.3
+	title = europeanPeace.1.t
+	desc = europeanPeace.1.desc
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = UBL
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {	#Sounds cool
+		name = europeanPeace.1.a
+		custom_tooltip = europeanPeace.1.a.tt
+		set_global_flag = boh_for_peace_flag
+
+		hidden_effect = {
+			FRA = {
+				country_event = {
+					id = europeanPeace.8
+				}
+			}
+			Z02 = {
+				country_event = {
+					id = europeanPeace.8
+				}
+			}
+		}
+
+		ai_chance = {
+         factor = 1
+        }
+	}
+
+	option = {	#It's not really worth it
+		name = europeanPeace.1.b
+		add_prestige = -5
+		add_legitimacy = -5
+
+		hidden_effect = {
+			FRA = {
+				country_event = {
+					id = europeanPeace.9
+				}
+			}
+			Z02 = {
+				country_event = {
+					id = europeanPeace.9
+				}
+			}
+		}
+
+		ai_chance = {
+         factor = 0
+        }
+	}
+}
+
+country_event = {
+	id = europeanPeace.4
+	title = europeanPeace.4.t
+	desc = europeanPeace.4.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Cool
+		name = europeanPeace.4.a
+	}
+}
+
+country_event = {
+	id = europeanPeace.5
+	title = europeanPeace.5.t
+	desc = europeanPeace.5.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Sadge
+		name = europeanPeace.5.a
+	}
+}
+
+country_event = {
+	id = europeanPeace.6
+	title = europeanPeace.6.t
+	desc = europeanPeace.6.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Cool
+		name = europeanPeace.6.a
+	}
+}
+
+country_event = {
+	id = europeanPeace.7
+	title = europeanPeace.7.t
+	desc = europeanPeace.7.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Sadge
+		name = europeanPeace.7.a
+	}
+}
+
+country_event = {
+	id = europeanPeace.8
+	title = europeanPeace.8.t
+	desc = europeanPeace.8.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Cool
+		name = europeanPeace.8.a
+	}
+}
+
+country_event = {
+	id = europeanPeace.9
+	title = europeanPeace.9.t
+	desc = europeanPeace.9.desc
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {	#Sadge
+		name = europeanPeace.9.a
+	}
+}
+
+country_event = {
+	id = europeanPeace.10
+	title = europeanPeace.10.t
+	desc = europeanPeace.10.desc
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = FRA
+        OR = {
+            Z02 = {
+                war_with = UBL
+            }
+            Z02 = {
+                war_with = FRA
+            }
+            FRA = {
+                war_with = UBL
+            }
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Shit
+		name = europeanPeace.10.a
+		clr_global_flag = fra_for_peace_flag
+	}
+}
+
+country_event = {
+	id = europeanPeace.11
+	title = europeanPeace.10.t
+	desc = europeanPeace.10.desc
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = Z02
+        OR = {
+            Z02 = {
+                war_with = UBL
+            }
+            Z02 = {
+                war_with = FRA
+            }
+            FRA = {
+                war_with = UBL
+            }
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Shit
+		name = europeanPeace.10.a
+		clr_global_flag = fed_for_peace_flag
+	}
+}
+
+country_event = {
+	id = europeanPeace.12
+	title = europeanPeace.10.t
+	desc = europeanPeace.10.desc
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = UBL
+        OR = {
+            Z02 = {
+                war_with = UBL
+            }
+            Z02 = {
+                war_with = FRA
+            }
+            FRA = {
+                war_with = UBL
+            }
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Shit
+		name = europeanPeace.10.a
+		custom_tooltip = europeanPeace.10.a.tt
+		clr_global_flag = boh_for_peace_flag
+	}
+}

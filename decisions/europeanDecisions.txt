@@ -1,0 +1,41 @@
+country_decisions = {
+	fra_leave_alliance = {
+		potential = {
+			tag = FRA
+			has_global_flag = fra_for_peace_flag
+		}
+		allow = {
+			has_dip_advisor = yes
+		}
+		effect = {
+		    clr_global_flag = fra_for_peace_flag
+		    add_dip_power = -150
+		}
+	}
+	fed_leave_alliance = {
+		potential = {
+			tag = Z02
+			has_global_flag = fed_for_peace_flag
+		}
+		allow = {
+			has_dip_advisor = yes
+		}
+		effect = {
+		    clr_global_flag = fed_for_peace_flag
+		    add_dip_power = -150
+		}
+	}
+	boh_leave_alliance = {
+		potential = {
+			tag = UBL
+			has_global_flag = boh_for_peace_flag
+		}
+		allow = {
+			has_dip_advisor = yes
+		}
+		effect = {
+		    clr_global_flag = boh_for_peace_flag
+		    add_dip_power = -150
+		}
+	}
+}
