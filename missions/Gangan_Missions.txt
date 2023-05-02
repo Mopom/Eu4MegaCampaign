@@ -24,48 +24,47 @@ ind_guj_slot_1 = {
 				area = tapti_area
 			}
 			NOT = {
-				OR = {
-					owned_by = Z01
-				}
+				owned_by = GUJ
 			}
 		}
 		trigger = {
-			manpower = 5
+			adm_power = 200
+			manpower = 2
 			521 = {
-				owned_by = Z01
-				is_core = Z01
+				owned_by = GUJ
+				is_core = GUJ
 			}
 			4454 = {
-				owned_by = Z01
-				is_core = Z01
+				owned_by = GUJ
+				is_core = GUJ
 			}
 			515 = {
-				owned_by = Z01
-				is_core = Z01
+				owned_by = GUJ
+				is_core = GUJ
 			}
 			4455 = {
-				owned_by = Z01
-				is_core = Z01
+				owned_by = GUJ
+				is_core = GUJ
 			}
 			4456 = {
-				owned_by = Z01
-				is_core = Z01	
+				owned_by = GUJ
+				is_core = GUJ	
 			}
 			2052 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			ahmedabad_area = {
 				type = all
-				owned_by = Z01
-				is_core = Z01	
+				owned_by = GUJ
+				is_core = GUJ	
 			}
 			517 = {
-				owned_by = Z01
-				is_core = Z01	
+				owned_by = GUJ
+				is_core = GUJ	
 			}
 			4430 = {
-				owned_by = Z01
-				is_core = Z01	
+				owned_by = GUJ
+				is_core = GUJ	
 			}
 		}
 		effect = {

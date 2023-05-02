@@ -20,6 +20,12 @@ country_event = {
 	
 	immediate = {
 		set_country_flag = had_gngng
+		GUJ = {
+			add_country_modifier = {
+				name = raj_admin_eff_also
+				duration = -1
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -736,6 +742,9 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_country_flag = gngng_dis_happened
+			GUJ = {
+				remove_country_modifier = raj_admin_eff_also
+			}
 		}
 	}
 	
