@@ -10055,6 +10055,7 @@ ned_unified_country = {
 
 ned_the_admiralty_colleges_mod = {
     navy_tradition = 1
+    max_flagships = 1
 }
 
 ganga_corruption_reduction = {

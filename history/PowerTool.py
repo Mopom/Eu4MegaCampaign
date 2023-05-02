@@ -183,7 +183,7 @@ while True:
                 text = open(os.path.join(modfolder, file), "r")
                 print("Looking at province " + file)
                 for line in text:
-                    if "base_manpower" in line and not done:
+                    if ("base_manpower" in line or "discovered_by" in line) and not done:
                         replaced_content = replaced_content + line + entry + "\n"
                         done = True
                     else:

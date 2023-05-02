@@ -2515,6 +2515,7 @@ subutais_strategies_reform = {
 		OR = {
 			culture_group = altaic
 			culture_group = tartar
+			tag = MGE
 		}
 	}
 	trigger = {
@@ -2600,7 +2601,10 @@ ghazi_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
-		culture_group = turko_semitic
+		OR = {
+		    culture_group = turko_semitic
+		    tag = Z00
+		}
 	}
 	trigger = {
 		if = {
@@ -2632,7 +2636,10 @@ the_cawa_regiments_reform = {
 			has_dlc = "Domination"
 			has_dlc = "Origins"
 		}
-		primary_culture = amhara
+		OR = {
+		    primary_culture = amhara
+		    tag = AJU
+		}
 	}
 	trigger = {
 		if = {
@@ -2991,6 +2998,7 @@ general_war_commissariat_reform = {
 			primary_culture = saxon
 			primary_culture = prussian
 			primary_culture = pommeranian
+			tag = Z02
 		}
 	}
 	trigger = {
@@ -3150,9 +3158,9 @@ professional_navy_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
-		has_unlocked_government_reform = {
-			government_reform = professional_navy_reform
-		}
+        has_unlocked_government_reform = {
+            government_reform = professional_navy_reform
+        }
 	}
 	trigger = {
 		if = {
@@ -3215,6 +3223,7 @@ staatse_leger_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			tag = Z02
 		}
 	}
 	trigger = {
@@ -3249,6 +3258,7 @@ watergeuzen_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			tag = MAL
 		}
 	}
 	trigger = {
