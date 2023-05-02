@@ -858,6 +858,8 @@
  gngng_events.100.a:0 "A New System"
  had_gngng:0 "Had the Nayankara Crisis"
  assimilating_anglos:0 "Assimilating the English culture into Germanic."
+ raj_admin_eff_also:0 "Transitive Administrative Defficiency"
+ ganga_corruption_reduction:0 "Corruption Reduction"
  ############## France Religious Event ###############################
  one_pasture.2.t:0 "Un Pâturage Sous Dieu"
  one_pasture.2.d:0 "Under §YKing Grifuid I§! the bishops of France gathered to clear out the mysteries and uncertainties of our Rhenist faith. In this Synod of Clermont they wrote out the 'One Pasture under God" clause, which has enabled the monarchs of France to enforce the Rhenist faith upon their flock. But with the growing size of France and the unclear limitations of this clause many are wondering whether this clause should be struck from §Ythe Book§!. Spearheading this movement is the City of [centre_of_anti_grifuid.GetCapitalName], [centre_of_anti_grifuid.GetName]."

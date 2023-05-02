@@ -556,3 +556,6 @@ killer_ot_empire_bohlom = {
 mal_summer_palts = {
 	tax_income = 12
 }
+raj_admin_eff_also = {
+	administrative_efficiency = -0.5
+}

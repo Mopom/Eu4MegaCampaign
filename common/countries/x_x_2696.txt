@@ -366,3 +366,4 @@ army_names = {
 fleet_names = {
 	"Triuwianradgewo Flotte"
 }
+preferred_religion = samaritan_faith
