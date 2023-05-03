@@ -47,7 +47,6 @@ monarch_names = {
 	"Federigo #0" = 1
 	"Francesco #0" = 1
 	"Guglielmo #0" = 1
-	"Koz'ma #1" = 1
 	"Leopoldo #0" = 1
 	"Luigi #1" = 1
 	"Pietro #0" = 1
@@ -81,10 +80,11 @@ monarch_names = {
 	"Costanza #0" = -1
 	"Eufemia #0" = -1
 	"Isabella #0" = -1
-	"Maria #0" = -1
 	"Violante #0" = -1
-	"Fatima #1" = -3
-	"Yasmin #1" = -5
+	"Maria #0" = -3
+	"Fatima #1" = -5
+	"Feodosia #1" = -5
+	"Yasmin #1" = -10
 }
 leader_names = {
 	"Asmondo"
