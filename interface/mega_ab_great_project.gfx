@@ -19,4 +19,10 @@ spriteTypes = {
 		name = "GFX_great_project_hagia_sophia_2"
 		texturefile = "gfx//interface//great_projects//great_project_church_in_const.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_dutch_trader_paltz"
+		texturefile = "gfx//interface//great_projects//great_project_dutch_trade.dds"
+	}
+	
 }
