@@ -9,7 +9,7 @@ country_event = {
 	id = europeanPeace.1
 	title = europeanPeace.1.t
 	desc = europeanPeace.1.desc
-	picture = DIPLOMACY_eventPicture
+	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -71,7 +71,7 @@ country_event = {
 	id = europeanPeace.2
 	title = europeanPeace.1.t
 	desc = europeanPeace.1.desc
-	picture = DIPLOMACY_eventPicture
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -134,7 +134,7 @@ country_event = {
 	id = europeanPeace.3
 	title = europeanPeace.1.t
 	desc = europeanPeace.1.desc
-	picture = DIPLOMACY_eventPicture
+	picture = DIET_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -196,7 +196,7 @@ country_event = {
 	id = europeanPeace.4
 	title = europeanPeace.4.t
 	desc = europeanPeace.4.desc
-	picture = DIPLOMACY_eventPicture
+	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
 
 	is_triggered_only = yes
 
@@ -209,7 +209,7 @@ country_event = {
 	id = europeanPeace.5
 	title = europeanPeace.5.t
 	desc = europeanPeace.5.desc
-	picture = DIPLOMACY_eventPicture
+	picture = HUSSITE_eventPicture
 
 	is_triggered_only = yes
 
@@ -222,7 +222,7 @@ country_event = {
 	id = europeanPeace.6
 	title = europeanPeace.6.t
 	desc = europeanPeace.6.desc
-	picture = DIPLOMACY_eventPicture
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
 
 	is_triggered_only = yes
 
@@ -235,7 +235,7 @@ country_event = {
 	id = europeanPeace.7
 	title = europeanPeace.7.t
 	desc = europeanPeace.7.desc
-	picture = DIPLOMACY_eventPicture
+	picture = VIKING_KING_eventPicture
 
 	is_triggered_only = yes
 
@@ -248,7 +248,7 @@ country_event = {
 	id = europeanPeace.8
 	title = europeanPeace.8.t
 	desc = europeanPeace.8.desc
-	picture = DIPLOMACY_eventPicture
+	picture = DIET_eventPicture
 
 	is_triggered_only = yes
 
@@ -261,7 +261,7 @@ country_event = {
 	id = europeanPeace.9
 	title = europeanPeace.9.t
 	desc = europeanPeace.9.desc
-	picture = DIPLOMACY_eventPicture
+	picture = PANIC_eventPicture
 
 	is_triggered_only = yes
 
@@ -274,7 +274,7 @@ country_event = {
 	id = europeanPeace.10
 	title = europeanPeace.10.t
 	desc = europeanPeace.10.desc
-	picture = DIPLOMACY_eventPicture
+	picture = BORDER_TENSION_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -306,7 +306,7 @@ country_event = {
 	id = europeanPeace.11
 	title = europeanPeace.10.t
 	desc = europeanPeace.10.desc
-	picture = DIPLOMACY_eventPicture
+	picture = BORDER_TENSION_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -338,7 +338,7 @@ country_event = {
 	id = europeanPeace.12
 	title = europeanPeace.10.t
 	desc = europeanPeace.10.desc
-	picture = DIPLOMACY_eventPicture
+	picture = BORDER_TENSION_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -362,7 +362,6 @@ country_event = {
 
 	option = {	#Shit
 		name = europeanPeace.10.a
-		custom_tooltip = europeanPeace.10.a.tt
 		clr_global_flag = boh_for_peace_flag
 	}
 }
