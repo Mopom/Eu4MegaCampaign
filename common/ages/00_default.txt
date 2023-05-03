@@ -100,8 +100,6 @@ age_of_discovery = {
 		}
 	}
 
-
-
 	abilities = {
 		ab_allow_feudal_de_jure_law = {
 			effect = {
@@ -123,8 +121,7 @@ age_of_discovery = {
 		}
 
 
-		ab_transfer_vassal_wargoal = 
-{
+		ab_transfer_vassal_wargoal = {
 			modifier = {
 				can_transfer_vassal_wargoal = yes
 				can_chain_claim = yes
@@ -475,6 +472,10 @@ age_of_reformation = {
 					tag = PLC
 					tag = POL
 					tag = LIT
+					custom_trigger_tooltip = {
+						tooltip = enable_this_ability_tt
+						has_country_flag = unlock_polish_ability_flag
+					}
 					AND = {
 						government_rank = 3
 						culture_group = west_slavic
@@ -530,8 +531,6 @@ age_of_absolutism = {
 		war_exhaustion = -1
 	}
 
-
-
 	objectives = {
 		obj_3_trade_companies = {
 			num_of_trade_companies = 3
@@ -569,9 +568,6 @@ age_of_absolutism = {
 
 		}
 	}
-
-
-
 
 	abilities = {
 
@@ -662,17 +658,7 @@ age_of_absolutism = {
 		}
 		ab_dutch_anti_corruption = {
 			allow = {
-				OR = {
-					tag = RUS
-					AND = {
-						government_rank = 2
-						OR = {
-							primary_culture = dutch
-							primary_culture = flemish
-							primary_culture = frisian
-						}
-					}
-				}
+				tag = RUS
 			}
 			modifier = {
 				backrow_artillery_damage = 0.20
@@ -794,7 +780,6 @@ age_of_revolutions = {
 	}
 
 	abilities = {
-
 		ab_allow_anti_revolutionary_zeal = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.33
@@ -820,8 +805,6 @@ age_of_revolutions = {
 				factor = 15
 			}
 		}
-
-
 
 		ab_force_march = {
 			modifier = {
@@ -901,6 +884,7 @@ age_of_revolutions = {
 		ab_gbr_fleet = {
 			allow = {
 				OR = {
+					tag = AVE
 					tag = GBR
 					navy_size = 200
 				}

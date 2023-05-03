@@ -18,7 +18,7 @@ vassal = {
 	second = SAR
 	start_date = 1444.1.1
 }
-union = {
+vassal = {
 	first = ADU
 	second = SIC
 	start_date = 1444.1.1
