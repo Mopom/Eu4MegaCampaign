@@ -21,8 +21,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_great_project_dutch_trader_paltz"
+		name = "GFX_great_project_dutch_traders_paltz"
 		texturefile = "gfx//interface//great_projects//great_project_dutch_trade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_tower_of_tnf_guild"
+		texturefile = "gfx//interface//great_projects//great_project_tower_of_the_guilds.dds"
 	}
 	
 }
