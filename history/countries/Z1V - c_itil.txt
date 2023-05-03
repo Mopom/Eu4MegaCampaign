@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = steppe_horde
 government_rank = 1
-technology_group = chinese
+technology_group = nomad_group
 religion = tengri_pagan
 primary_culture = dynamic-mongol-culture-num2
 capital = 2367

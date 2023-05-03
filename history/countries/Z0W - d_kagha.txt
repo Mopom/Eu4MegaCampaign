@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 1
-technology_group = nomad_group
+technology_group = sub_saharan
 religion = sunni
 primary_culture = turko_iranian
 capital = 2283

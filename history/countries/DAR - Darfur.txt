@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 2
-technology_group = east_african
+technology_group = sub_saharan
 religion = sunni
 primary_culture = dynamic-daju-zaghawa-culture-num1
 capital = 774
@@ -23,7 +23,7 @@ add_accepted_culture = kanuri
 	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Mariam"
-		dynasty = "Konaté"
+		dynasty = "Konatï¿½"
 		adm = 6
 		dip = 5
 		mil = 3
