@@ -43,6 +43,8 @@ province_event = {
 
 country_event = { #Driver for below event
 	id = giacomo_casanova.2
+	title = giacomo_casanova.2.t
+	desc = giacomo_casanova.2.d
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -230,7 +232,8 @@ province_event = {
 
 country_event = { #Driver for above event
 	id = giacomo_casanova.7
-
+	title = giacomo_casanova.7.t
+	desc = giacomo_casanova.7.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -256,7 +259,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.8
-
+	title = giacomo_casanova.8.t
+	desc = giacomo_casanova.8.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -282,7 +286,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.9
-
+	title = giacomo_casanova.9.t
+	desc = giacomo_casanova.9.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -308,7 +313,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.10
-
+	title = giacomo_casanova.10.t
+	desc = giacomo_casanova.10.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -334,7 +340,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.11
-
+	title = giacomo_casanova.11.t
+	desc = giacomo_casanova.11.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -360,7 +367,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.12
-
+	title = giacomo_casanova.12.t
+	desc = giacomo_casanova.12.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -386,7 +394,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.13
-
+	title = giacomo_casanova.13.t
+	desc = giacomo_casanova.13.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -412,7 +421,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.14
-
+	title = giacomo_casanova.14.t
+	desc = giacomo_casanova.14.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -438,7 +448,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.15
-
+	title = giacomo_casanova.15.t
+	desc = giacomo_casanova.15.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -464,7 +475,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.16
-
+	title = giacomo_casanova.16.t
+	desc = giacomo_casanova.16.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -490,7 +502,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.17
-
+	title = giacomo_casanova.17.t
+	desc = giacomo_casanova.17.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -518,7 +531,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.18
-
+	title = giacomo_casanova.18.t
+	desc = giacomo_casanova.18.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -544,7 +558,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.19
-
+	title = giacomo_casanova.19.t
+	desc = giacomo_casanova.19.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -570,7 +585,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.20
-
+	title = giacomo_casanova.20.t
+	desc = giacomo_casanova.20.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -596,7 +612,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.21
-
+	title = giacomo_casanova.21.t
+	desc = giacomo_casanova.21.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -622,7 +639,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.22
-
+	title = giacomo_casanova.22.t
+	desc = giacomo_casanova.22.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -648,7 +666,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.23
-
+	title = giacomo_casanova.23.t
+	desc = giacomo_casanova.23.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -674,7 +693,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.24
-
+	title = giacomo_casanova.24.t
+	desc = giacomo_casanova.24.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -700,7 +720,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.25
-
+	title = giacomo_casanova.25.t
+	desc = giacomo_casanova.25.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -726,7 +747,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.26
-
+	title = giacomo_casanova.26.t
+	desc = giacomo_casanova.26.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -752,7 +774,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.27
-
+	title = giacomo_casanova.27.t
+	desc = giacomo_casanova.27.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -778,7 +801,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.28
-
+	title = giacomo_casanova.28.t
+	desc = giacomo_casanova.28.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -804,7 +828,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.29
-
+	title = giacomo_casanova.29.t
+	desc = giacomo_casanova.29.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -830,7 +855,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.30
-
+	title = giacomo_casanova.30.t
+	desc = giacomo_casanova.30.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -856,7 +882,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.31
-
+	title = giacomo_casanova.31.t
+	desc = giacomo_casanova.31.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -882,7 +909,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.32
-
+	title = giacomo_casanova.32.t
+	desc = giacomo_casanova.32.d
 	hidden = yes
 	fire_only_once = yes
 
@@ -908,7 +936,8 @@ country_event = { #Driver for above event
 }
 country_event = { #Driver for above event
 	id = giacomo_casanova.33
-
+	title = giacomo_casanova.33.t
+	desc = giacomo_casanova.33.d
 	hidden = yes
 	fire_only_once = yes
 

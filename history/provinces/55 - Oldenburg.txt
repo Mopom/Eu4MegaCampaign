@@ -1,6 +1,6 @@
 owner = Z02
 controller = Z02
-capital = "Oldenburg"
+capital = "Siebethsburg"
 is_city = yes
 culture = dynamic-saxon-culture-num1
 religion = cathar
