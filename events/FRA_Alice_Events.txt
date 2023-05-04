@@ -1,9 +1,9 @@
-namespace = FRA.Balance
+namespace = FRABalance
 
 country_event = {
-	id = FRA.Balance.1
-	title = FRA.Balance.1.t
-	desc = FRA.Balance.1.d
+	id = FRABalance.1
+	title = FRABalance.1.t
+	desc = FRABalance.1.d
 	picture = STREET_SPEECH_eventPicture
 	
 	trigger = {

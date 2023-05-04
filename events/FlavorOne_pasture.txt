@@ -8,6 +8,9 @@ namespace = one_pasture
 #80 or Over
 country_event = {
 	id = one_pasture.1
+	title = one_pasture.1.t
+	desc = one_pasture.1.d
+	picture = SHIP_SAILING_eventPicture
 	
 	hidden = yes
 	

@@ -62,6 +62,9 @@ country_event = {
 
 country_event = { #Driver for above event
 	id = rhenism.2
+	title = rhenism.2.t
+	desc = rhenism.2.d
+	picture = PRAYING_eventPicture
 
 	hidden = yes
 	fire_only_once = yes
@@ -155,6 +158,9 @@ country_event = {
 
 country_event = { #Driver for above event
 	id = rhenism.4
+	title = rhenism.4.t
+	desc = rhenism.4.d
+	picture = PRAYING_eventPicture
 
 	hidden = yes
 	fire_only_once = yes
@@ -233,6 +239,9 @@ country_event = {
 
 country_event = { #Driver for above event
 	id = rhenism.6
+	title = rhenism.6.t
+	desc = rhenism.6.d
+	picture = PRAYING_eventPicture
 
 	hidden = yes
 	fire_only_once = yes
@@ -318,6 +327,9 @@ country_event = {
 
 country_event = { #Driver for above event
 	id = rhenism.8
+	title = rhenism.8.t
+	desc = rhenism.8.d
+	picture = PRAYING_eventPicture
 
 	hidden = yes
 	fire_only_once = yes

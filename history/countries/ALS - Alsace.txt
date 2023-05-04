@@ -30,7 +30,7 @@ capital = 75
 		death_date = 1484.9.24
 		female = yes
 		claim = 89
-		religion = rhenism
+		religion = samaritan_faith
 		culture = dynamic-saxon-culture-num1
 	}
 	add_heir_personality = well_connected_personality

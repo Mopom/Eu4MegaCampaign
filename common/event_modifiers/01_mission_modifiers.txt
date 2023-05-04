@@ -2441,7 +2441,7 @@ dlh_textile_modifier = {
 dlh_bengal_modifier = {
 	land_morale = 0.15
 }
-dlh_grand_trunk_road_modifier = {
+gng_grand_trunk_road_modifier = {
 	local_friendly_movement_speed = 0.25
 }
 dlh_orissa_conquest_modifier = {

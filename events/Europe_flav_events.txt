@@ -7,6 +7,9 @@ namespace = catholics_and_colonies
 #France & Pope Chapter#
 country_event = { #Driver for below event
 	id = catholics_and_colonies.1
+	title = catholics_and_colonies.1.t
+	desc = catholics_and_colonies.1.d
+	picture = SHIP_SAILING_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -65,6 +68,9 @@ country_event = { #France
 #Bohemia-Lombardy & Pope Chapter#
 country_event = { #Driver for below event
 	id = catholics_and_colonies.3
+	title = catholics_and_colonies.3.t
+	desc = catholics_and_colonies.3.d
+	picture = SHIP_SAILING_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root

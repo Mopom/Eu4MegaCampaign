@@ -68,7 +68,6 @@ country_event = {
 			EGY = {
 				change_religion = quranist
 				country_event = { id = quranist_reformation.2 }
-				days = 3
 			}
 		}
 	}

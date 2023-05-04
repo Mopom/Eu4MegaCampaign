@@ -131,9 +131,7 @@ country_event = {
 	option = {
 		name = "flavor_mng.EVTOPTA8" # There is nothing we can do
 		ai_chance = { factor = 25 }
-		else = {
-			add_prestige = -20
-		}
+		add_prestige = -20
 		add_stability = -1
 		add_country_modifier = {
 			name = severe_famine
@@ -143,9 +141,7 @@ country_event = {
 	option = {
 		name = "flavor_mng.EVTOPTB8" # Try to ease the suffering
 		ai_chance = { factor = 50 }
-		else = {
-			add_prestige = -10
-		}
+		add_prestige = -10
 		add_years_of_income = -0.5
 		add_country_modifier = {
 			name = famine
@@ -174,7 +170,7 @@ country_event = {
 	
 	trigger = {
 		AND = {
-			tag = z01
+			tag = Z01
 			is_year = 1450
 			NOT = { is_year = 1500 }
 		}
