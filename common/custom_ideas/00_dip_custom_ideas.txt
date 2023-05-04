@@ -644,7 +644,6 @@ dip_idea_modifiers = {
 			modifier = {
 				factor = 5
 				has_reform = pirate_republic_reform
-				has_reform = t_pirate_reform
 			}
 		}
 	}

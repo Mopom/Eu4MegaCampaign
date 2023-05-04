@@ -8616,8 +8616,7 @@ versailles = {
 		}
 		conditional_modifier = {
 			trigger = {
-				owner = { 
-					mission_completed = fra_means_expansion 
+				owner = {
 					is_emperor = yes 
 				}
 			}
@@ -18783,7 +18782,6 @@ tower_of_tnf_guild = {
 						}
 					}
 				}
-				FRA = { mission_completed = fra_london }
 			}
 			modifier = {
 				max_absolutism = 5
@@ -18835,7 +18833,6 @@ tower_of_tnf_guild = {
 						}
 					}
 				}
-				FRA = { mission_completed = fra_london }
 			}
 			modifier = {
 				max_absolutism = 10
@@ -18888,7 +18885,6 @@ tower_of_tnf_guild = {
 						}
 					}
 				}
-				FRA = { mission_completed = fra_london }
 			}
 			modifier = {
 				max_absolutism = 10

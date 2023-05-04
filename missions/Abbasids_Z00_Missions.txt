@@ -1623,7 +1623,7 @@ al_Abbas_the_star_and_crescent_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = palestine_area
-				area = trans_jordan
+				area = trans_jordan_area
 			}
 		}
 		trigger = {

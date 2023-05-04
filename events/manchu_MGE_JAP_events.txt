@@ -7,6 +7,9 @@ namespace = manchu_japanese
 #Furdan Chapter#
 country_event = { #Driver for below event
 	id = manchu_japanese.1
+	title = manchu_japanese.1.t
+	desc = manchu_japanese.1.d
+	picture = UNIVERSITY_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -120,6 +123,9 @@ country_event = { #Mongols wish to Convert
 #Wolanhe Chapter#
 country_event = { #Driver for below event
 	id = manchu_japanese.4
+	title = manchu_japanese.4.t
+	desc = manchu_japanese.4.d
+	picture = UNIVERSITY_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -243,6 +249,9 @@ country_event = { #Mongols wish to Convert2
 #Tyr Chapter#
 country_event = { #Driver for below event
 	id = manchu_japanese.7
+	title = manchu_japanese.7.t
+	desc = manchu_japanese.7.d
+	picture = SMUGGLERS_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -358,6 +367,9 @@ country_event = { #Mongols wish to Convert3
 #Beijing Chapter#
 country_event = { #Driver for below event
 	id = manchu_japanese.10
+	title = manchu_japanese.10.t
+	desc = manchu_japanese.10.d
+	picture = SMUGGLERS_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root
@@ -457,6 +469,9 @@ country_event = { #Mongols wish to Convert4
 #Cicigar Chapter#
 country_event = { #Driver for below event
 	id = manchu_japanese.13
+	title = manchu_japanese.13.t
+	desc = manchu_japanese.13.d
+	picture = SMUGGLERS_eventPicture
 	hidden = yes
 	fire_only_once = yes
 	goto = root

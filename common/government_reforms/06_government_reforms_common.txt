@@ -2918,7 +2918,6 @@ compagnie_dordonnance_reform = {
 		modifier = {
 			factor = -1000
 			OR = {
-				mission_completed = fra_musketeers
 				mission_completed = emp_fra_establish_the_musketeers
 			}
 		}

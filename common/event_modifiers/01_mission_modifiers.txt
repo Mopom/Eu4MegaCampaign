@@ -10062,6 +10062,11 @@ ganga_corruption_reduction = {
     yearly_corruption = -0.1
 }
 
+ara_victory_over_provence_modifier = {
+	war_exhaustion = -0.05
+	land_morale = 0.15
+}
+
 stora_kopparberget_modifier = { #Great Copper Mountain
 	trade_goods_size = 5.0
 }

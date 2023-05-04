@@ -5237,3 +5237,9 @@ ganga_declined_embassy = {
 	opinion = -50
 	yearly_decay = 1
 }
+
+trade_protectorate_called_into_war = {
+	opinion = -50
+	yearly_decay = 2
+	min = -1000
+}

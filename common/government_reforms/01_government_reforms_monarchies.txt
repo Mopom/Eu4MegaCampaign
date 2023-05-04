@@ -376,7 +376,6 @@ absolutist_france_reform = {
 				is_playing_custom_nation = yes
 				have_had_reform = absolutist_france_reform
 			}
-			mission_completed = fra_movement_centralization
 		}
 	}
 	trigger = {

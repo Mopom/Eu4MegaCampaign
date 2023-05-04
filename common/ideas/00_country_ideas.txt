@@ -2660,6 +2660,49 @@ LAE_ideas = {
     }
 }
 
+SCA_ideas = {
+	start = {
+		discipline = 0.05
+		global_trade_goods_size_modifier = 0.15
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.2
+	}
+
+	trigger = {
+		tag = SCA
+	}
+	free = yes
+
+	sca_united_craftsman = {
+		global_allowed_num_of_buildings = 1
+		build_cost = -0.05
+	}
+	sca_unified_scandinavian = {
+		possible_policy = 1
+		administrative_efficiency = 0.05
+	}
+	sca_danish_baltic_fleet = {
+		trade_efficiency = 0.1
+		ship_durability = 0.05
+	}
+	sca_norwegian_marines = {
+		naval_morale = 0.2
+	}
+	sca_finnish_hakkapeliita = {
+		cavalry_fire = 0.5
+		cavalry_cost = -0.15
+	}
+	sca_swedish_carolean = {
+		infantry_power = 0.2
+	}
+	sca_empire_of_the_north = {
+		max_absolutism = 10
+		yearly_absolutism = 1
+	}
+}
+
 FRA_ideas_2 = {
 	start = {
 		max_revolutionary_zeal = 5
