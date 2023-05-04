@@ -76,3 +76,16 @@ boh_european_peace_mod = {
     diplomatic_upkeep = 2
     country_diplomatic_power = -1
 }
+
+supr_decad_isl_mod = {
+	potential = {
+		tag = Z00
+	}
+	
+	trigger = {
+		current_age = age_of_discovery
+	}
+	
+	monthly_ottoman_decadence = -0.25
+	ottoman_decadence_gain_modifier = -0.25
+}

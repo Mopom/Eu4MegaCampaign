@@ -1153,8 +1153,11 @@ granada_slot_4_missions = {
 		position = 1
 		
 		trigger = {
-			SIC = {
-				NOT = { liberty_desire = 50 }
+			OR = {
+				SIC = {
+					NOT = { liberty_desire = 50 }
+				}
+				NOT = { exists = SIC }
 			}
 		}
 		

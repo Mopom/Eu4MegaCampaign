@@ -939,12 +939,13 @@
  golden_highway_pause_all_construction_title:0 "A Break in Construction"
  golden_highway_pause_all_construction_desc:0 "Whether due to financial, military or social concern we see ourselves forced to cease all construction on the Golden Highway."
  ############## New Vassal Works #####################################
- hejaz_loyalty_to_eyalet:0 "A New Governor in for Mecca"
+ hejaz_loyalty_to_eyalet:0 "A New Governor for Mecca"
  killer_ot_empire_bohlom:0 "Killer of the Last Roman Empire"
  mal_summer_palts:0 "Malian Summer Palaces"
+ supr_decad_isl_mod:0 "Supreme Authority of the Dar al-Islam"
  ############## New Andalusian Mission(s) #####################################
  gra_lot_west_iberia_title:0 "Control around Jabal Tariq"
- gra_lot_west_iberia_desc:0 "The Emirs of [SIC.GetName] hold a sizeable portion of Iberia, especially in the south around the vital choke-point of Jabal Tariq. If we integrate this land we can exert control over the Straits and guarantee the safety of the sea faring merchants."
+ gra_lot_west_iberia_desc:0 "The Maliks of [SIC.GetName] hold a sizeable portion of Iberia, especially in the south around the vital choke-point of Jabal Tariq. If we integrate this land we can exert control over the Straits and guarantee the safety of the sea faring merchants."
  ############## I live here rent free #####################################
  ned_integrate_anglo_saxons_title:0 "Integration of the Anglo-Saxons"
  ned_integrate_anglo_saxons_desc:0 "We have lived in harmony with the Anglo Saxons for decades now, and we share many thing. Let us bring our cultures together and integrate them in our ways of life."

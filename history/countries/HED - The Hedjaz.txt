@@ -55,6 +55,6 @@ religious_school = shafii_school
 1444.1.1 = {
 	add_country_modifier = {
 		name = hejaz_loyalty_to_eyalet
-		duration = 365
+		duration = 51
 	}
 }
