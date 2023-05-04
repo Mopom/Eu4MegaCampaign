@@ -84,12 +84,12 @@ ned_reconquest_group = {
 		position = 3
 
 		trigger = {
-		    accepted_culture = anglo_saxon
+		    accepted_culture = english
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 10
             	region = british_isles_region
                 development = 15
-                culture = anglo_saxon
+                culture = english
             }
 		}
 
@@ -97,7 +97,7 @@ ned_reconquest_group = {
 		    set_country_flag = assimilating_anglos
 		    every_province = {
 		        limit = {
-			        culture = anglo_saxon
+			        culture = english
 				}
 				add_province_modifier = {
 				    name = assimilating_english
@@ -113,7 +113,7 @@ ned_reconquest_group = {
 		position = 4
 
 		trigger = {
-		    accepted_culture = anglo_saxon
+		    accepted_culture = english
 			had_country_flag = {
 			    flag = assimilating_anglos
 			    days = 5475
@@ -121,10 +121,10 @@ ned_reconquest_group = {
 		}
 
 		effect = {
-		    remove_accepted_culture = anglo_saxon
+		    remove_accepted_culture = english
 		    every_province = {
 		        limit = {
-			        culture = anglo_saxon
+			        culture = english
 				}
 				change_culture = anglo_saxon2
 			}

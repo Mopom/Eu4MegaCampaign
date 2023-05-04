@@ -33,7 +33,7 @@ stonehenge = {
 			}
 			AND = {
 			    OR = {
-				    culture = anglo_saxon
+				    culture = english
 			        culture = anglo_saxon2
 			    }
 				province_is_or_accepts_culture = yes
@@ -59,7 +59,7 @@ stonehenge = {
 			}
 			AND = {
 			    OR = {
-				    culture = anglo_saxon
+				    culture = english
 			        culture = anglo_saxon2
 			    }
 				province_is_or_accepts_culture = yes
@@ -75,7 +75,7 @@ stonehenge = {
 			}
 			AND = {
 			    OR = {
-				    culture = anglo_saxon
+				    culture = english
 			        culture = anglo_saxon2
 			    }
 				province_is_or_accepts_culture = yes

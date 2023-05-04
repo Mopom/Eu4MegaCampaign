@@ -638,7 +638,7 @@ scandinavian = { #Nordic
 british	= {
 	graphical_culture = westerngfx
 
-	anglo_saxon = {
+	english = {
 		primary = ENG
 		dynasty_names = { 
 			Plantagenet Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Howard Seymour Holland 
