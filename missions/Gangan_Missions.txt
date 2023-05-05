@@ -14,7 +14,7 @@ ind_guj_slot_1 = {
 	
 	gujarat_forced_migration = {
 		icon = mission_conquer_gujarat_dlh
-		required_missions = { gng_jnp_reconquest }
+		required_missions = { dlh_jnp_reconquest }
 		position = 2
 		provinces_to_highlight = {
 			OR = {
@@ -476,7 +476,7 @@ ind_ganges_slot_1 = {
 			add_years_of_income = 1.5
 		}
 	}
-	gng_grand_trunk_road = {
+	dlh_grand_trunk_road = {
 		icon = mission_the_grand_trunk_road_dlh
 		required_missions = { development_of_ganges }
 		position = 6
@@ -571,7 +571,7 @@ ind_ganges_slot_1 = {
 			}
 		}
 		effect = {
-			custom_tooltip = gng_grand_trunk_road.tooltip
+			custom_tooltip = dlh_grand_trunk_road.tooltip
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
@@ -792,7 +792,7 @@ ind_dis_missions_2 = {
 	}
 	has_country_shield = yes
 	
-	gng_jnp_reconquest = {
+	dlh_jnp_reconquest = {
 		icon = mission_reclaim_lost_territory
 		required_missions = { }
 		position = 1
@@ -814,7 +814,7 @@ ind_dis_missions_2 = {
 	}
 	mad_temp_priv = {
 		icon = mission_across_the_vindhyas
-		required_missions = { gng_jnp_reconquest }
+		required_missions = { dlh_jnp_reconquest }
 		position = 2
 		trigger = {
 			MAD = {
@@ -1139,7 +1139,7 @@ ind_heir_missions_3 = {
 	
 	gan_lot_heir = {
 		icon = mission_integrate_the_purbias
-		required_missions = { gng_jnp_reconquest }
+		required_missions = { dlh_jnp_reconquest }
 		position = 2
 		trigger = {
 			has_heir = yes
@@ -1167,7 +1167,7 @@ dlh_slot_3 = {
 	}
 	has_country_shield = yes
 	
-	gng_conquer_afghans = {
+	dlh_conquer_afghans = {
 		icon = mission_subdue_the_afghans
 		required_missions = { dlh_lot_lahore }
 		position = 3
@@ -1198,9 +1198,9 @@ dlh_slot_3 = {
 			}
 		}
 	}
-	gng_conquer_sind = {
+	dlh_conquer_sind = {
 		icon = mission_conquer_sindh_dlh
-		required_missions = { gng_restore_sultanate }
+		required_missions = { dlh_restore_sultanate }
 		position = 5
 		provinces_to_highlight = {
 			OR = {
@@ -1451,7 +1451,7 @@ dlh_west_missions_4 = {
 	
 	dlh_lot_lahore = {
 		icon = mission_assert_control_over_delhi
-		required_missions = { gng_jnp_reconquest }
+		required_missions = { dlh_jnp_reconquest }
 		position = 2
 		provinces_to_highlight = {
 			OR = {
@@ -1501,7 +1501,7 @@ dlh_west_missions_4 = {
 			}
 		}
 	}
-	gng_reconquer_multan = {
+	dlh_reconquer_multan = {
 		icon = mission_restore_rule_over_multan
 		required_missions = { dlh_lot_lahore  }
 		provinces_to_highlight = {
@@ -1520,9 +1520,9 @@ dlh_west_missions_4 = {
 			add_mil_power = 100
 		}
 	}
-	gng_restore_sultanate = {
+	dlh_restore_sultanate = {
 		icon = mission_the_sultanate_restored
-		required_missions = { gng_reconquer_multan dlh_conquer_gujarat  }
+		required_missions = { dlh_reconquer_multan dlh_conquer_gujarat  }
 		provinces_to_highlight = {
 			area_for_scope_province = {
 				is_capital_of = ROOT
@@ -1584,9 +1584,9 @@ dlh_west_missions_4 = {
 			
 		}
 	}
-	gng_conquer_malwa = {
+	dlh_conquer_malwa = {
 		icon = mission_subdue_malwa
-		required_missions = { gng_restore_sultanate }
+		required_missions = { dlh_restore_sultanate }
 		provinces_to_highlight = {
 			OR = {
 				area = gird_area

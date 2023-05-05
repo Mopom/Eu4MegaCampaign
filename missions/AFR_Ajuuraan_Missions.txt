@@ -427,7 +427,7 @@ ajuuran_trade_conquest_missions_slot = {
 
 #Fourth slot
 Budhcad_badeed_asia_trade_missions_slot = {
-	slot = 4
+	slot = 3
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -514,7 +514,7 @@ Budhcad_badeed_asia_trade_missions_slot = {
 
 #Fith slot
 budhcad_badeed_colonization_missions_slot = {
-	slot = 5
+	slot = 4
 	generic = no
 	ai = yes
 	potential_on_load = {
