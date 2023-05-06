@@ -1485,6 +1485,7 @@ fiqh_laws_reform = {
 				government_reform = fiqh_laws_reform
 			}
 			has_reform = sultanate_of_rum_reform
+			mission_completed = abs_mecca_holy
 		}
 	}
 	trigger = {
@@ -1518,6 +1519,7 @@ sufism_decree_reform = {
 				government_reform = sufism_decree_reform
 			}
 			has_reform = sultanate_of_rum_reform
+			mission_completed = abs_house_of_wisdom
 		}
 	}
 	trigger = {

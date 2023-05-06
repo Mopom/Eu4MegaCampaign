@@ -5706,6 +5706,7 @@ ottoman_siyasah_tax_reform = {
 				government_reform = ottoman_siyasah_tax_reform
 			}
 			have_had_reform = ottoman_siyasah_tax_reform
+			mission_completed = abbas_greater_greece
 		}
 	}
 	trigger = {

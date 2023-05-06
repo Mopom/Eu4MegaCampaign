@@ -361,7 +361,7 @@ province_event = { #Charlemagne
 		name = catholics_and_colonies.7.a
 		ROOT = {
 			add_core = PAP
-			remove_core = UBL
+			remove_core = HLR
 			cede_province = PAP
 		}
 	}
