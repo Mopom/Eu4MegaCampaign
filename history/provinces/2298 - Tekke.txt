@@ -8,7 +8,6 @@ trade_goods = cotton
 base_tax = 1
 base_production = 5
 base_manpower = 3
-discovered_by = MAL
 add_core = BYZ
 add_core = RUM
 discovered_by = eastern

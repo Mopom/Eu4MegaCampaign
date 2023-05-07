@@ -9,7 +9,6 @@ fort_15th = yes
 base_tax = 1
 base_production = 5
 base_manpower = 2
-discovered_by = MAL
 add_core = BYZ
 add_core = RUM
 add_core = Z0D

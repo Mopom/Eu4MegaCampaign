@@ -8,7 +8,6 @@ trade_goods = copper
 base_tax = 1
 base_production = 5
 base_manpower = 1
-discovered_by = MAL
 add_core = ARM
 add_core = Z00
 discovered_by = eastern

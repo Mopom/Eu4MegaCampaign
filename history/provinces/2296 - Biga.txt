@@ -8,7 +8,6 @@ trade_goods = naval_supplies
 base_tax = 11
 base_production = 1
 base_manpower = 2
-discovered_by = MAL
 add_core = BYZ
 add_core = NAX
 discovered_by = eastern

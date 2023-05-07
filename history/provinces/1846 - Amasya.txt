@@ -8,7 +8,6 @@ trade_goods = paper
 base_tax = 1
 base_production = 5
 base_manpower = 1
-discovered_by = MAL
 add_core = RUM
 add_core = TRE
 discovered_by = eastern
