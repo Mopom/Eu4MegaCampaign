@@ -710,7 +710,7 @@ al_Abbas_conquest_2 = {
 
 	abbas_lower_nile = {
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { abbas_integrate_aden }
+		required_missions = { abbas_buildforces }
 		position = 9
 		provinces_to_highlight = {
 			OR = {
@@ -748,7 +748,7 @@ al_Abbas_conquest_2 = {
 	}
 	abbas_upper_nile = {
 		icon = mission_son_military_expertise
-		required_missions = { abbas_lower_nile }
+		required_missions = {  }
 		position = 10
 		provinces_to_highlight = {
 			OR = {
@@ -803,7 +803,7 @@ al_Abbas_conquest_2 = {
 	}
 	abbas_norf_africa = {
 		icon = mission_levantine_restoration
-		required_missions = { abbas_upper_nile }
+		required_missions = { abbas_crete_cyprus }
 		position = 11
 		provinces_to_highlight = {
 			OR = {
