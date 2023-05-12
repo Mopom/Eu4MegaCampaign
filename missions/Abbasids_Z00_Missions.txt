@@ -1991,10 +1991,12 @@ al_Abbas_the_star_and_crescent_2 = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			mecca_area = {
-				type = all
-				is_core = ROOT
-				owned_by = ROOT
+			ROOT = {
+				owns_or_non_sovereign_subject_of = 385
+				owns_or_non_sovereign_subject_of = 4277
+				owns_or_non_sovereign_subject_of = 2331
+				owns_or_non_sovereign_subject_of = 4278
+				owns_or_non_sovereign_subject_of = 2332
 			}
 			if = {
 				limit = {
@@ -2048,7 +2050,9 @@ al_Abbas_the_star_and_crescent_2 = {
 			province_id = 385
 		}
 		trigger = {
-			owns_core_province = 385
+			ROOT = {
+				owns_or_non_sovereign_subject_of = 385
+			}
 			385 = {
 				development = 30
 				if = {
