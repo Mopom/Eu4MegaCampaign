@@ -935,6 +935,9 @@
  holy_rus_hre_event.5.t:0 "Second Break"
  holy_rus_hre_event.5.d:0 "The clergy have amassed so much power within our court that the boyars fear for their autonomy. They have taken to splitting up our realm, still recognising our sovereignty but not recognising our direct jurisdiction."
  holy_rus_hre_event.5.a:0 "Damnation!"
+ holy_rus_hre_event.11.t:0 "A Break of the Court"
+ holy_rus_hre_event.41.t:0 "First Break"
+ holy_rus_hre_event.51.t:0 "Second Break"
  ############## Golden Highway Localisation #####################################
  golden_highway_pause_all_construction_title:0 "A Break in Construction"
  golden_highway_pause_all_construction_desc:0 "Whether due to financial, military or social concern we see ourselves forced to cease all construction on the Golden Highway."
