@@ -106,7 +106,6 @@ country_event = {
 		}
 	}
 }
-		
 
 country_event = {
 	id = gng_crisis.3
