@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = federal_republic
+government_rank = 2
+technology_group = sub_saharan
+religion = sunni
+primary_culture = dynamic-mali-culture-num1
+capital = 756
+fixed_capital = 756
+religious_school = maliki_school
