@@ -1,0 +1,140 @@
+######################################################################
+# Monarchist Rebels for the Federation generals coup
+######################################################################
+#Should never spawn except via event.
+fed_monarchists = {
+
+	color = { 50 85 210 }
+
+	area = nation 					# Stays within the nation
+	government = monarchy
+	defection = none				# Does not defect
+	independence = none				# Does not strive for independence
+	unit_transfer = yes
+	gfx_type = culture_province	
+	will_relocate = yes	
+	
+	resilient = no
+	reinforcing = yes
+	general = yes
+	smart = yes
+	
+	artillery = 0.0
+	infantry = 0.6
+	cavalry = 0.4
+	
+	morale = 1.1
+	
+	# Possible handle actions
+	handle_action_negotiate = yes
+	handle_action_stability = yes
+	handle_action_build_core = yes
+	handle_action_send_missionary = yes		
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 10
+			is_capital = yes
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {
+		is_lesser_in_union = no
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+	# Localisation for their demands
+	demands_description = "establish_a_full_monarchy"
+	
+	# Country Scope	
+	demands_enforced_effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_lost_to_rebels
+				duration = 10
+				hidden = yes
+			}
+		}
+		add_prestige = -50
+		if = {
+			limit = {
+				NOT = { 
+					OR = {
+						government = monarchy
+						has_reform = papacy_reform
+						has_reform = steppe_horde
+						has_reform = celestial_empire
+						has_reform = iqta
+						has_reform = daimyo
+						has_reform = appanage_reform
+						has_reform = shogunate
+						has_reform = colonial_government
+						has_reform = native_basic_reform
+						is_revolutionary_republic_trigger = yes
+					}
+				}
+			}
+			change_government = monarchy
+		}
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_reform = papacy_reform
+						has_reform = steppe_horde
+						has_reform = celestial_empire
+						has_reform = iqta
+						has_reform = daimyo
+						has_reform = appanage_reform
+						has_reform = shogunate
+						has_reform = colonial_government
+						has_reform = native_basic_reform
+						is_revolutionary_republic_trigger = yes
+						has_reform = tribal_federation
+						has_reform = feudal_theocracy
+						has_reform = mamluk_government
+					}
+				}
+			}
+			add_government_reform = angevin_monarchy
+		}
+	}
+}

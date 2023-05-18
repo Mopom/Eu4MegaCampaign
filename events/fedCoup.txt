@@ -1,0 +1,207 @@
+namespace = fedCoup
+
+#########################################################
+#	Events relating to the federation generals coup 	#
+#########################################################
+
+#Start
+country_event = {
+	id = fedCoup.1
+	title = fedCoup.1.t
+	desc = fedCoup.1.desc
+	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	option = {	#Fuck
+		name = fedCoup.1.a
+		set_country_flag = fed_coup
+
+        add_stability = -4
+        add_manpower = -10
+
+		capital_scope = {
+			spawn_rebels = {
+				type = fed_republicans
+				size = 3.5
+			}
+			random_neighbor_province = {
+				limit = { owned_by = ROOT }
+				spawn_rebels = {
+				    type = fed_monarchists
+					size = 2
+				}
+			}
+		    random_neighbor_province = {
+				limit = { owned_by = ROOT }
+				spawn_rebels = {
+					type = fed_monarchists
+					size = 1
+				}
+			}
+		}
+	}
+}
+
+#disaster end
+country_event = {
+	id = fedCoup.2
+	title = fedCoup.2.t
+	desc = fedCoup.2.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+
+	#the republicans won
+	option = {
+		name = fedCoup.2.a
+		add_stability_or_adm_power = yes
+		change_government = republic
+		add_government_reform = prussian_republic_reform
+	}
+
+	#the current regime maintained itself
+	option = {
+		name = fedCoup.2.b
+		add_stability_or_adm_power = yes
+        add_country_modifier = { name = fed_compromise_lives_on duration = -1 }
+	}
+}
+
+#both sides fight
+country_event = {
+	id = fedCoup.3
+	title = fedCoup.3.t
+	desc = fedCoup.3.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { is_city = yes }
+				save_event_target_as = event_province
+			}
+		}
+	}
+
+	goto = event_province
+	#stuff
+	option = {
+		name = fedCoup.3.a
+		event_target:event_province = {
+			spawn_rebels = {
+				size = 2
+				type = fed_republicans
+			}
+			spawn_rebels = {
+				size = 2
+				type = fed_monarchists
+			}
+		}
+	}
+}
+
+#monarchist spawn
+country_event = {
+	id = fedCoup.4
+	title = fedCoup.4.t
+	desc = fedCoup.4.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { is_city = yes }
+				save_event_target_as = event_province
+			}
+		}
+	}
+
+	goto = event_province
+	#stuff
+	option = {
+		name = fedCoup.4.a
+		event_target:event_province = {
+			spawn_rebels = {
+				size = 1.5
+				type = fed_monarchists
+			}
+		}
+	}
+}
+
+#republican spawn
+country_event = {
+	id = fedCoup.5
+	title = fedCoup.5.t
+	desc = fedCoup.5.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { is_city = yes }
+				save_event_target_as = event_province
+			}
+		}
+	}
+
+	goto = event_province
+	#stuff
+	option = {
+		name = fedCoup.5.a
+		event_target:event_province = {
+			spawn_rebels = {
+				size = 1.5
+				type = fed_republicans
+			}
+		}
+	}
+}
+
+#fed merchants being too greedy
+country_event = {
+	id = fedCoup.6
+	title = fedCoup.6.t
+	desc = fedCoup.6.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = fedCoup.6.a
+		add_years_of_income = -0.2
+		add_prestige = -10
+	}
+}
+
+# colony revolt
+country_event = {
+	id = fedCoup.7
+	title = fedCoup.7.t
+	desc = fedCoup.7.desc
+	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	option = {	#Fuck
+		name = fedCoup.7.a
+
+        random_country = {
+            limit = {
+		        is_colonial_nation = yes
+		        is_subject = yes
+		        overlord = {
+		            tag = Z02
+		        }
+		        NOT = { tag = EKG }
+		    }
+
+		    declare_war_with_cb = {
+                who = ROOT
+                casus_belli = cb_independence_war
+            }
+	    }
+	}
+}

@@ -1821,3 +1821,43 @@ ubl_5 = {
 		}
 	}
 }
+
+ubl_5_new = {
+	slot = 5
+	generic = no
+	ai = yes
+
+	potential = {
+		tag = UBL
+		has_country_flag = ubl_new_path
+	}
+
+	has_country_shield = yes
+
+	ubl_5_6_new = {
+		icon = friends_in_high_places
+		required_missions = { ubl_5_5 }
+
+		trigger = {
+			absolutism = 85
+		}
+
+		effect = {
+			add_stability = -6
+		}
+	}
+
+	ubl_5_7_new = {
+		icon = friends_in_high_places
+		required_missions = { ubl_5_6_new }
+
+		trigger = {
+			has_reform = revolutionary_republic_reform
+		}
+
+		effect = {
+			add_government_reform = burgher_revolution_reform
+		}
+	}
+}
+	

@@ -1,6 +1,6 @@
 graphical_culture = africangfx
-color = { 181 0 20 }
-revolutionary_colors = { 10 8 5 }
+color = { 48 169 96 }
+revolutionary_colors = { 13 10 6 }
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -31,6 +31,8 @@ monarch_names = {
 	"Fakoli #0" = 10
 	"Kassa #0" = 10
 	"Musa #0" = 10
+	"Abu-Bakr #0" = 5
+	"Abdul-Wahad #0" = 0
 	"Ali #0" = 0
 	"Ali-Kolon #0" = 0
 	"Ali-Zalil #0" = 0
@@ -40,6 +42,7 @@ monarch_names = {
 	"Fulk #0" = 0
 	"Iarnuocon #0" = 0
 	"Kaya #0" = 0
+	"Levon #0" = 0
 	"Maghan #0" = 0
 	"Odeleia #0" = 0
 	"Zenku #0" = 0
