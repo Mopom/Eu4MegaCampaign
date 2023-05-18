@@ -1080,3 +1080,8 @@
  gng_conquer_malwa_title:0 "Subdue Malwa"
  gng_conquer_malwa_desc:0 "The Rajputs of Malwa have been a constant thorn in our side for generations. They must be crushed utterly so that we can safely expand southward."
  muslim_school_events.20.i:0 "We will follow our brothers in al-Andalus, and embrace the tolerance of the Zahrai school."
+ establish_a_stratocratic_republic:0 "Establish a Stratocratic Republic"
+ establish_a_stratocratic_republic_desc:0 "The military demand the establishment of a republican system of governance for $COUNTRYNAME$, led by the military, for the military."
+ establish_a_full_monarchy:0 "Establish a full blown monarchy."
+ establish_a_full_monarchy_desc:0 "The nobles demand the establishement of a full blown monarchy, after the obvious failure of the compromise."
+ fed_general_coup:0 "The Generals of the Federation are making a play for power."
