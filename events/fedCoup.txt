@@ -28,14 +28,14 @@ country_event = {
 			random_neighbor_province = {
 				limit = { owned_by = ROOT }
 				spawn_rebels = {
-				    type = fed_republicans
+				    type = fed_monarchists
 					size = 2
 				}
 			}
 		    random_neighbor_province = {
 				limit = { owned_by = ROOT }
 				spawn_rebels = {
-					type = fed_republicans
+					type = fed_monarchists
 					size = 1
 				}
 			}
