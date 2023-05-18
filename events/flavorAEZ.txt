@@ -117,11 +117,12 @@ country_event = {
 			define_ruler = {
 				name = "Milchi"
 				dynasty = "Siemens"
-				change_adm = 5
-				change_dip = 3
-				change_mil = 4
-				max_age = 25
+				adm = 5
+				dip = 3
+				mil = 4
 				min_age = 20
+				max_age = 25
+				male = yes
 			}
 			add_adm_power = 100
 			add_dip_power = 100
@@ -754,7 +755,10 @@ country_event = {
             }
             is_colonial_nation = yes
 			NOT = {
-				exists = AUE
+				OR = {
+					exists = AUE
+					tag = CLJ
+				}
 			}
 		}
 	}
@@ -775,5 +779,291 @@ country_event = {
 
 	option = {
 		name = "flavor_aez.14.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.15
+	title = "flavor_aez.15.t"
+	desc = "flavor_aez.15.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = Z00
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_california
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = CLJ
+					tag = AUE
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CLJ
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.15.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.16
+	title = "flavor_aez.16.t"
+	desc = "flavor_aez.16.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = RUS
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_alaska
+            }
+            is_colonial_nation = yes
+			NOT = {
+				exists = CSJ
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CSJ
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.16.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.17
+	title = "flavor_aez.17.t"
+	desc = "flavor_aez.17.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_alaska
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = CSM
+					tag = CLN
+					tag = MEK
+					tag = AUI
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CSM
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.17.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.18
+	title = "flavor_aez.18.t"
+	desc = "flavor_aez.18.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_california
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = CLN
+					tag = CSM
+					tag = MEK
+					tag = AUI
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CLN
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.18.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.19
+	title = "flavor_aez.19.t"
+	desc = "flavor_aez.19.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_mexico
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = MEK
+					tag = CSM
+					tag = CLN
+					tag = AUI
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = MEK
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.19.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.20
+	title = "flavor_aez.20.t"
+	desc = "flavor_aez.20.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_australia
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = AUI
+					tag = CSM
+					tag = CLN
+					tag = MEK
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = AUI
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.20.a"
+	}
+	
+	after = {
+		every_province = {
+				limit = {
+					is_capital_of = AUI
+				}
+				change_province_name = "Minasu Tirathu"
+				rename_capital = "Minasu Tirathu"
+			}
+		}
 	}
 }
