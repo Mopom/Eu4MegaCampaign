@@ -4,58 +4,58 @@ fed_general_coup = {
 	}
 	
 	can_start = {
-		OR = {
-		    current_age = age_of_absolutism
-            current_age = age_of_revolutions
-		}
-		OR = {
-		    AND = {
-		        war_with = FRA
-		        FRA = {
-		            is_great_power = yes
-		        }
-                war_score_against = {
-                    who = FRA
-                    value = -50
+	    AND = {
+            OR = {
+                AND = {
+                    war_with = FRA
+                    FRA = {
+                        is_great_power = yes
+                    }
+                    war_score_against = {
+                        who = FRA
+                        value = -50
+                    }
+                    any_known_country = {
+                        war_with = ROOT
+                        NOT = { tag = FRA }
+                        is_great_power = yes
+                    }
                 }
-                any_known_country = {
-                    war_with = ROOT
-                    NOT = { tag = FRA }
-                    is_great_power = yes
+                AND = {
+                    war_with = UBL
+                    UBL = {
+                        is_great_power = yes
+                    }
+                    war_score_against = {
+                        who = UBL
+                        value = -50
+                    }
+                    any_known_country = {
+                        war_with = ROOT
+                        NOT = { tag = UBL }
+                        is_great_power = yes
+                    }
+                }
+                AND = {
+                    war_with = RUS
+                    RUS = {
+                        is_great_power = yes
+                    }
+                    war_score_against = {
+                        who = RUS
+                        value = -50
+                    }
+                    any_known_country = {
+                        war_with = ROOT
+                        NOT = { tag = RUS }
+                        is_great_power = yes
+                    }
                 }
             }
-		    AND = {
-		        war_with = UBL
-		        UBL = {
-		            is_great_power = yes
-		        }
-                war_score_against = {
-                    who = UBL
-                    value = -50
-                }
-                any_known_country = {
-                    war_with = ROOT
-                    NOT = { tag = UBL }
-                    is_great_power = yes
-                }
-            }
-		    AND = {
-		        war_with = RUS
-		        RUS = {
-		            is_great_power = yes
-		        }
-                war_score_against = {
-                    who = RUS
-                    value = -50
-                }
-                any_known_country = {
-                    war_with = ROOT
-                    NOT = { tag = RUS }
-                    is_great_power = yes
-                }
+            capital_scope = {
+                NOT = { controlled_by = ROOT }
             }
         }
-        army_tradition = 50
 	}
 	
 	can_stop = {
