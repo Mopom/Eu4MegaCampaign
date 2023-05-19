@@ -2074,7 +2074,7 @@ innovativeness = {
 }
 
 rajput_regiment = {
-	cavalry_shock = 1
+	shock_damage_received = -0.05
 	land_morale = 0.05
 }
 
