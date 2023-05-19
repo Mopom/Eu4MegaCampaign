@@ -23,7 +23,7 @@ country_event = {
 		capital_scope = {
 			spawn_rebels = {
 				type = fed_republicans
-				size = 3.5
+				size = 4
 			}
 			random_neighbor_province = {
 				limit = { owned_by = ROOT }

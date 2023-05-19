@@ -6,14 +6,19 @@ fed_general_coup = {
 	can_start = {
 	    AND = {
             OR = {
+                current_age = age_of_absolutism
+                current_age = age_of_revolutions
+            }
+            army_tradition = 50
+            OR = {
                 AND = {
-                    war_with = FRA
                     FRA = {
                         is_great_power = yes
-                    }
-                    war_score_against = {
-                        who = FRA
-                        value = -50
+                        war_with = Z02
+                     	war_score_against = {
+                    	    who = Z02
+                    		value = 50
+                    	}
                     }
                     any_known_country = {
                         war_with = ROOT
@@ -22,13 +27,13 @@ fed_general_coup = {
                     }
                 }
                 AND = {
-                    war_with = UBL
                     UBL = {
                         is_great_power = yes
-                    }
-                    war_score_against = {
-                        who = UBL
-                        value = -50
+                        war_with = Z02
+                     	war_score_against = {
+                    	    who = Z02
+                    		value = 50
+                    	}
                     }
                     any_known_country = {
                         war_with = ROOT
@@ -37,13 +42,13 @@ fed_general_coup = {
                     }
                 }
                 AND = {
-                    war_with = RUS
                     RUS = {
                         is_great_power = yes
-                    }
-                    war_score_against = {
-                        who = RUS
-                        value = -50
+                        war_with = Z02
+                     	war_score_against = {
+                    	    who = Z02
+                    		value = 50
+                    	}
                     }
                     any_known_country = {
                         war_with = ROOT
@@ -52,14 +57,17 @@ fed_general_coup = {
                     }
                 }
             }
-            capital_scope = {
-                NOT = { controlled_by = ROOT }
-            }
         }
 	}
 	
 	can_stop = {
-        always = no
+		OR = {
+			has_any_disaster = yes
+			AND = {
+			    is_at_war = no
+			    war_exhaustion = 0
+			}
+		}
 	}
 	
 	progress = {
@@ -84,7 +92,7 @@ fed_general_coup = {
 		global_unrest = 5
 		global_autonomy = 0.1
 		stability_cost_modifier = 0.5
-		all_estate_loyalty_equilibrium = -0.1
+		reduced_liberty_desire_on_other_continent = -50
 	}
 	
 	on_start = fedCoup.1

@@ -1,7 +1,6 @@
-ck2_converter_generated = yes
 graphical_culture = muslimgfx
-color = { 225 250 180 }
-revolutionary_colors = { 2 0 10 }
+color = { 20 50 210 }
+revolutionary_colors = { 16 0 16 }
 historical_idea_groups = {
 	exploration_ideas
 	defensive_ideas
@@ -22,7 +21,7 @@ historical_units = {
 	muslim_mass_infantry
 }
 monarch_names = {
-	"Ma'n #1" = 20
+	"Ma'n #0" = 20
 	"Abbad #0" = 10
 	"Abdul #0" = 10
 	"Abolhassan #0" = 10
@@ -83,16 +82,16 @@ monarch_names = {
 	"Menza #0" = -10
 	"Nafissa #0" = -10
 	"Umm #0" = -10
-	"Zahra #1" = -10
-	"Aiza #1" = -20
-	"Banafsaj #1" = -20
-	"Dima #1" = -20
-	"Fatima #1" = -20
-	"Habiba #1" = -20
-	"Huda #1" = -20
-	"Mariam #2" = -20
-	"Naila #2" = -20
-	"Salma #1" = -20
+	"Zahra #0" = -10
+	"Aiza #0" = -20
+	"Banafsaj #0" = -20
+	"Dima #0" = -20
+	"Fatima #0" = -20
+	"Habiba #0" = -20
+	"Huda #0" = -20
+	"Mariam #0" = -20
+	"Naila #0" = -20
+	"Salma #0" = -20
 }
 leader_names = {
 	"Ibn Abbad"
