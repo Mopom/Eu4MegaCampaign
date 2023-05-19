@@ -57,14 +57,17 @@ fed_general_coup = {
                     }
                 }
             }
-            capital_scope = {
-                NOT = { controlled_by = ROOT }
-            }
         }
 	}
 	
 	can_stop = {
-        always = no
+		OR = {
+			has_any_disaster = yes
+			AND = {
+			    is_at_war = no
+			    war_exhaustion = 0
+			}
+		}
 	}
 	
 	progress = {
@@ -89,7 +92,6 @@ fed_general_coup = {
 		global_unrest = 5
 		global_autonomy = 0.1
 		stability_cost_modifier = 0.5
-		all_estate_loyalty_equilibrium = -0.1
 	}
 	
 	on_start = fedCoup.1
