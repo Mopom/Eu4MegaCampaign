@@ -8,7 +8,6 @@ trade_goods = cloth
 base_tax = 1
 base_production = 3
 base_manpower = 2
-discovered_by = MAL
 add_core = Z07
 discovered_by = eastern
 discovered_by = indian

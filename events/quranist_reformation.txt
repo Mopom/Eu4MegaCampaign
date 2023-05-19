@@ -4,7 +4,7 @@ country_event = {
 	id = quranist_reformation.1
 	title = quranist_reformation.1.t
 	desc = quranist_reformation.1.d
-	picture = RELIGIOUS_TURMOIL_eventPicture
+	picture = EYALET_REBELLION_eventPicture
 	major = yes
 	fire_only_once = yes
 	trigger = {
@@ -66,8 +66,15 @@ country_event = {
 				add_reform_center = quranist
 			}
 			EGY = {
-				change_religion = quranist
-				country_event = { id = quranist_reformation.2 }
+				country_event = { 
+					id = quranist_reformation.2
+					days = 5
+				}
+			}
+			Z00 = {
+				every_war_enemy_country = {
+					white_peace = Z00
+				}
 			}
 		}
 	}
@@ -77,7 +84,7 @@ country_event = {
 	id = quranist_reformation.2
 	title = quranist_reformation.2.t
 	desc = quranist_reformation.2.d
-	picture = RELIGIOUS_TURMOIL_eventPicture
+	picture = PASHA_NEGOTIATION_eventPicture
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -99,11 +106,19 @@ country_event = {
 				}
 			}
 		}
+		EGY = {
+			every_ally = {
+				country_event = {
+					id = quranist_reformation.3
+					days = 12
+					random = 30
+				}
+			}
+		}
 	}
 	option = {
 		name = "EGYPT_REFUSES"
 		ai_chance = { factor = 0 }
-		change_religion = quranist
 		add_stability = -2
 		every_owned_province = {
 			limit = {
@@ -114,6 +129,35 @@ country_event = {
 				type = quranist_rebels
 				size = 4
 				win = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = quranist_reformation.3
+	title = quranist_reformation.3.t
+	desc = quranist_reformation.3.d
+	picture = HAYREDDIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "quranist_reformation.3.a"
+		ai_chance = { factor = 50 }
+		change_religion = quranist
+	}
+	option = {
+		name = "quranist_reformation.3.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		every_owned_province = {
+			limit = {
+				has_building = temple
+			}
+			spawn_rebels = {
+				type = quranist_rebels
+				size = 2
 			}
 		}
 	}

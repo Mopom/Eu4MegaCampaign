@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_great_project_jabbarid_museum"	
+		name = "GFX_great_project_el_escorial"
 		texturefile = "gfx//interface//great_projects//great_project_jabbaridmuseum.dds"
 	}
 	

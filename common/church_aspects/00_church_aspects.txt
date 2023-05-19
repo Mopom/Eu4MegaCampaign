@@ -207,3 +207,98 @@ translated_bibles_aspect = {
 		}	
 	}
 }
+
+justified_religious_war_aspect = {
+	cost = 100
+	effect = {
+		hidden_effect = {
+			clr_protestant_aspects_buffs = yes
+			add_country_modifier = {
+				name = justified_religious_war_aspect_modifier
+				duration = 3650
+			}
+		}
+	}
+	modifier = {
+		ae_impact = -0.05
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+war_preaches_aspect = {
+	cost = 100
+	effect = {
+		hidden_effect = {
+			clr_protestant_aspects_buffs = yes
+			add_country_modifier = {
+				name = war_preaches_aspect_modifier
+				duration = 3650
+			}
+		}
+	}
+	modifier = {
+		war_exhaustion = -0.03
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+head_of_the_church_aspect = {
+	cost = 100
+	effect = {
+		hidden_effect = {
+			clr_protestant_aspects_buffs = yes
+			add_country_modifier = {
+				name = head_of_the_church_aspect_modifier
+				duration = 3650
+			}
+		}
+	}
+	modifier = {
+		global_autonomy = -0.025
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+anglican_aspect = {
+	cost = 100
+	potential = {
+		has_unlocked_church_aspect = {
+			church_aspect = anglican_aspect
+		}
+	}
+	effect = {
+		hidden_effect = {
+			clr_protestant_aspects_buffs = yes
+			add_country_modifier = {
+				name = anglican_aspect_aspect_modifier
+				duration = 3650
+			}
+		}
+	}
+	modifier = {
+		global_autonomy = -0.025
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}

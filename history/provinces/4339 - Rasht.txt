@@ -8,7 +8,6 @@ trade_goods = silk
 base_tax = 3
 base_production = 5
 base_manpower = 2
-discovered_by = MAL
 add_core = TAB
 add_core = Z07
 discovered_by = eastern
