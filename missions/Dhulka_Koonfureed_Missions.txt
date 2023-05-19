@@ -1,0 +1,356 @@
+
+Dhulka_Expand  = {
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Golden Century"
+	}
+
+	potential = {
+		has_dlc = "Golden Century"
+		NOT = { map_setup = map_setup_random }
+		tag = DHK
+		
+	}
+
+	has_country_shield = yes
+	
+	pirate_a_second_madagascar = {
+		icon = mission_early_game_buildings
+		required_missions = { }
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+		}
+		
+		trigger = {
+			capital_scope = {
+				development = 20
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "pirate_a_second_madagascar"
+				duration = 7300
+			}
+		}
+	}
+	pirate_an_old_fort = {
+		icon = mission_conquer_50_development
+		required_missions = { pirate_a_second_madagascar }
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+			NOT = { fort_level = 3 }
+		}
+		
+		trigger = {
+			capital_scope = {
+				fort_level = 3	# capital fort + level 1 fort
+			}
+		}
+		
+		effect = {
+			te_ika_a_maui_waho_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			te_ika_a_maui_hauauru_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			te_waipounamu_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	pirate_running_down_to_new_zealnd = {
+		icon = mission_unite_home_region
+		required_missions = { pirate_an_old_fort }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = te_waipounamu_area
+				area = te_ika_a_maui_hauauru_area
+				area = te_ika_a_maui_waho_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = yes
+		}
+		
+		trigger = {
+			te_waipounamu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			te_ika_a_maui_hauauru_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			te_ika_a_maui_waho_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			oceanea_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {  is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+Dhulka_Pacific  = {
+	slot = 2
+	generic = yes
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Golden Century"
+	}
+
+	potential = {
+		has_dlc = "Golden Century"
+		NOT = { map_setup = map_setup_random }
+		tag = DHK
+		
+	}
+
+	has_country_shield = yes
+	
+	island_hopping = {
+		icon = mission_invade_island
+		provinces_to_highlight = {
+			region = oceanea_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = oceanea_region
+				OR = {
+					is_city = yes
+					colonysize = 600
+				}
+				value = 10
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonization_efforts"
+				duration = -1
+			}
+		}
+	}
+	
+	DHK_secure_the_pacific = {
+		icon = mission_invade_island
+		required_missions = { island_hopping }
+		provinces_to_highlight = {
+			area = northern_polynesia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			if = {
+				limit = {
+					is_random_new_world = yes
+				}
+				custom_trigger_tooltip = {
+					tooltip = cas_carib_rnw
+					any_owned_province = {
+						continent = new_world
+					}
+				}
+			}
+			else = {
+				northern_polynesia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			add_navy_tradition = 10
+			create_admiral = {
+				tradition = 50
+			}
+		}
+	}
+	
+	DHK_colonize_california = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { DHK_secure_the_pacific }
+		
+		provinces_to_highlight = {
+			colonial_region = colonial_california
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = {
+			if = {
+				limit = {
+					is_random_new_world = yes
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					continent = new_world
+					is_city = yes
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = JAP_californian_colonization
+					colonial_california = {
+						has_discovered = ROOT
+					}
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						colonial_region = colonial_california
+						is_city = yes
+					}
+				}
+			}
+		}
+		effect = {
+			create_conquistador = {
+				tradition = 80
+			}
+		}
+	}
+}
+pirate_3 = {
+		slot = 3
+	generic = yes
+	ai = yes
+	
+	potential_on_load = {
+		has_dlc = "Golden Century"
+	}
+
+	potential = {
+		has_dlc = "Golden Century"
+		NOT = { map_setup = map_setup_random }
+		tag = DHK
+		
+	}
+
+	has_country_shield = yes
+	
+	pirate_a_pirate_fleet = {
+		icon = mission_galleys_in_port
+		required_missions = { }
+		
+		trigger = {
+			naval_forcelimit = 20
+			navy_size_percentage = 1
+			num_of_light_ship = 5
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "pirate_a_pirate_fleet"
+				duration = 7300
+			}
+		}
+	}
+	pirate_a_scourge_on_the_seven_seas = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { pirate_a_pirate_fleet }
+		
+		trigger = {
+			has_flagship = yes
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "pirate_a_scourge_on_the_seven_seas"
+				duration = 7300
+			}
+			create_admiral = {
+				tradition = 50
+			}
+		}
+	}
+	pirate_the_pirate_code = {
+		icon = mission_have_two_subjects
+		required_missions = { pirate_a_scourge_on_the_seven_seas }
+		
+		trigger = {
+			army_size_percentage = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "pirate_the_pirate_code"
+				duration = 7300
+			}
+		}
+	}
+	pirate_diplomacy = {
+		icon = mission_alliances
+		required_missions = { pirate_the_pirate_code }
+		
+		trigger = {
+			any_rival_country = {
+				custom_trigger_tooltip = {
+					tooltip = has_been_insulted_by_root
+					OR = {
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = insulted
+						}
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = scornfully_insulted
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "pirate_diplomacy"
+				duration = 7300
+			}
+		}
+	}
+	pirate_the_pirate_threat = {
+		icon = mission_assemble_an_army
+		required_missions = { pirate_diplomacy }
+		
+		trigger = {
+			any_rival_country = {
+				is_great_power = yes
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "pirate_the_pirate_threat"
+				duration = 7300
+			}
+			add_mil_power = 100
+		}
+	}
+}

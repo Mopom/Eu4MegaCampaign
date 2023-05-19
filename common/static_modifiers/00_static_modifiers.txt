@@ -2282,3 +2282,8 @@ average_global_autonomy = { #100% autonomy => 100% modifier
 reverse_average_global_autonomy = { #100% autonomy => 0% modifier
 	monthly_council_consensus = 0.2
 }
+
+eyalet_modifier = {
+	global_manpower = -5
+	land_forcelimit	= -5
+}
