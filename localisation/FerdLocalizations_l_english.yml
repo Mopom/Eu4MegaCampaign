@@ -15,6 +15,7 @@ focused_on_war:0 "Focused on war"
 ganga_corruption:0 "The cost of friends"
 ganga_corruption_title:0 "The cost of friends"
 ganga_worries_title:0 "Focus on peace"
+estate_gangan:0 = "Gangan Dynasty"
 #Silk Road
 golden_highway.1.t:0 "Silk Road Construction in [Root.GetName]"
 golden_highway.1.da:0 "The first steps in the construction of the Silk Road in [Root.GetName] have been made. Heaps of rubble, gravel and dirt were long visible piled along the road, but now, after several weeks, they finally disappeared. Now the outline of the road is clearly visible. There is still a ways to go, but it's shaping up splendidly. For now the overseers in [Root.GetName] request further funding to continue the project."
@@ -58,7 +59,6 @@ rebuild_russian_highway_moskva_title:0 "Build the Siberian Pathway from Kiev to 
 rebuild_russian_highway_vlad1_title:0 "Build the Siberian Pathway from Moskva to the East."
 rebuild_russian_highway_vlad2_title:0 "Build the Siberian Pathway from the East to further East."
 rebuild_russian_highway_vlad3_title:0 "Build the Siberian Pathway from further Easter to Vladivostok."
-estate_gangan:0 = "Gangan Dynasty"
 #province groups
 golden_highway_doab:0 "Silk Road Doab"
 golden_highway_lahore:0 "Silk Road Lahore"
