@@ -92,6 +92,7 @@ fed_general_coup = {
 		global_unrest = 5
 		global_autonomy = 0.1
 		stability_cost_modifier = 0.5
+		reduced_liberty_desire_on_other_continent = -50
 	}
 	
 	on_start = fedCoup.1
