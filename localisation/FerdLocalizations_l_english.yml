@@ -58,6 +58,7 @@ rebuild_russian_highway_moskva_title:0 "Build the Siberian Pathway from Kiev to 
 rebuild_russian_highway_vlad1_title:0 "Build the Siberian Pathway from Moskva to the East."
 rebuild_russian_highway_vlad2_title:0 "Build the Siberian Pathway from the East to further East."
 rebuild_russian_highway_vlad3_title:0 "Build the Siberian Pathway from further Easter to Vladivostok."
+estate_gangan:0 = "Gangan Dynasty"
 #province groups
 golden_highway_doab:0 "Silk Road Doab"
 golden_highway_lahore:0 "Silk Road Lahore"
