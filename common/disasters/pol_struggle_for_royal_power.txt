@@ -9,7 +9,10 @@ pol_struggle_for_royal_power_disaster = {
 	
 	can_start = {
 		current_age = age_of_absolutism
-		has_reform = elective_monarchy
+		OR = {
+			has_reform = polish_elective_monarchy
+			has_reform = elective_monarchy 
+		}
 		has_regency = no
 	}
 	

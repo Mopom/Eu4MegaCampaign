@@ -1,0 +1,181 @@
+graphical_culture = muslimgfx
+color = { 50 123 70 }
+revolutionary_colors = { 5 0 1 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Muhammad #0" = 30
+	"Adil #0" = 20
+	"Alexios #0" = 20
+	"Muammar #0" = 20
+	"Neophytos #0" = 16
+	"Salahaddin #0" = 16
+	"Hakam #0" = 15
+	"Leontios #0" = 14
+	"Ya'qub #0" = 13
+	"Konstantios #0" = 13
+	"Sebastianos #0" = 13
+	"Eugenois #0" = 12
+	"Isa #0" = 12
+	"Kamran #0" = 12
+	"Kyrillos #0" = 12
+	"Yahya #0" = 12
+	"Sirhan #0" = 12
+	"al-Muazzam #0" = 11
+	"Maammarou #0" = 11
+	"Ibrahim #0" = 11
+	"Ali #0" = 10
+	"Konstas #0" = 10
+	"Ioseph #0" = 10
+	"Mukhtar #0" = 10
+	"Musa #0" = 10
+	"Sa'ud #0" = 10
+	"Umar #0" = 10
+	"Zahir #0" = 10
+	"al-Umara #0" = 9
+	"Abdullah #0" = 9
+	"Abbas #0" = 9
+	"Andronikos #0" = 9
+	"Antipatra #0" = 9
+	"Artemios #0" = 9
+	"Aziz #0" = 9
+	"Da'ud #0" = 9
+	"Faisal #0" = 9
+	"Fath #0" = 9
+	"Hashmaddin #0" = 9
+	"Komitas #0" = 9
+	"Muaddam #0" = 9
+	"Narses #0" = 9
+	"Polykarpos #0" = 9
+	"Sa'd #0" = 9
+	"Samuel #0" = 9
+	"Adnan #0" = 0
+	"Ahmad #0" = 0
+	"al-Hakim #0" = 0
+	"al-Mustansir #0" = 0
+	"Ashraf #0" = 0
+	"az-Zahir #0" = 0
+	"Mansur #0" = 0
+	"Yasmin #0" = -8
+	"Agathe #0" = -9
+	"Alexeia #0" = -9
+	"Aziza #0" = -9
+	"Bintou #0" = -9
+	"Dorothea #0" = -9
+	"Eirene #0" = -9
+	"Fatima #0" = -9
+	"Habiba #0" = -9
+	"Halima #0" = -9
+	"Hypathia #0" = -9
+	"Ioustina #0" = -9
+	"Karima #0" = -9
+	"Khandan #0" = -9
+	"Kyriake #0" = -9
+	"Layla #0" = -9
+	"Lorane #0" = -9
+	"Mahwash #0" = -9
+	"Melissa #0" = -9
+	"Najela #0" = -9
+	"Rajiya #0" = -9
+	"Salma #0" = -9
+	"Simonis #0" = -9
+	"Sitara #0" = -9
+	"Theoktiste #0" = -9
+	"Xene #0" = -9
+	"Zahra #0" = -9
+	"Zuhayra #0" = -9
+	"Anthousa #0" = -10
+	"Basilike #0" = -10
+	"Duha #0" = -10
+	"Eulalia #0" = -10
+	"Ibtisam #0" = -10
+	"Ioulia #0" = -10
+	"Mina #0" = -10
+	"Nazy #0" = -10
+	"Theophano #0" = -10
+	"Sadiya #0" = -10
+	"Agne #0" = -10
+	"Kinah #0" = -10
+	"Nazaneen #0" = -10
+	"al-Muazzama #0" = -12
+	"Aisha #0" = -12
+	"Nikoletta #0" = -12
+	"Alexandra #0" = -14
+	"Eustathia #0" = -14
+	"Nahal #0" = -14
+}
+leader_names = {
+	"Ali"
+	"Aybak"
+	"Baibars"
+	"Bay"
+	"Bey"
+	"Bugha"
+	"Inâl"
+	"Kansur"
+	"Sayfuddin"
+	"Zangi"
+}
+ship_names = {
+	"Ad-Däkhilah"
+	"Adl"
+	"Ahmen Muyaid"
+	"Al-Ali"
+	"Al-Bahriyah"
+	"Al-Farafirah"
+	"Al-Kharijah"
+	"Alim"
+	"Ashraf Barsbay"
+	"Aziz"
+	"Aziz Gamal"
+	"Bari"
+	"Basir"
+	"Basit"
+	"Ben Barqooq"
+	"Farag Ben Barqooq"
+	"Fattah"
+	"Ghaffar"
+	"Hakam"
+	"Jabbar"
+	"Khafid"
+	"Khaliq"
+	"Malik"
+	"Mu'izz"
+	"Mu'min"
+	"Mudhill"
+	"Muhaymin"
+	"Musawwir"
+	"Mutakabbir"
+	"Muyaid Sheikh"
+	"Nahr an-Nil"
+	"Nasser Muhamed"
+	"Qabid"
+	"Qahhar"
+	"Quddus"
+	"Rafi"
+	"Rahim"
+	"Rahman"
+	"Razzaq"
+	"Salam"
+	"Sami"
+	"Wahhab"
+	"Zaher Barqooq"
+	"Zaher Tatar"
+}

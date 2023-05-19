@@ -500,605 +500,9 @@ country_event = {
 					set_in_empire = yes
 				}
 			}
-			if = {
-				limit = {
-					4685 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4685 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2360 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2360 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					477 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				477 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2361 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2361 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2359 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2359 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2357 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2357 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					479 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				479 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2354 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2354 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4686 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4686 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					478 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				478 = {
-					add_core = Z0B
-					cede_province = Z0B
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2355 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2355 = {
-					add_core = Z1O
-					cede_province = Z1O
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2125 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2125 = {
-					add_core = Z12
-					cede_province = Z12
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2126 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2126 = {
-					add_core = Z12
-					cede_province = Z12
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					459 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				459 = {
-					add_core = Z12
-					cede_province = Z12
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2368 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2368 = {
-					add_core = Z0H
-					cede_province = Z0H
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					461 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				461 = {
-					add_core = Z0H
-					cede_province = Z0H
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4208 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4208 = {
-					add_core = Z0H
-					cede_province = Z0H
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2119 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2119 = {
-					add_core = Z0H
-					cede_province = Z0H
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2118 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2118 = {
-					add_core = Z0H
-					cede_province = Z0H
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2120 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2120 = {
-					add_core = Z0H
-					cede_province = Z0H
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					715 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				715 = {
-					add_core = Z0U
-					cede_province = Z0U
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4207 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4207 = {
-					add_core = Z1X
-					cede_province = Z1X
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2122 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2122 = {
-					add_core = HMI
-					cede_province = HMI
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4681 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4681 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4222 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4222 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4687 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4687 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2434 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2434 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					480 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				480 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1065 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1065 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					716 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				716 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1066 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1066 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4684 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4684 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					714 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				714 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4683 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4683 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					713 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				713 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4682 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4682 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					718 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				718 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					719 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				719 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2189 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2189 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4679 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4679 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4680 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4680 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4206 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4206 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2117 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2117 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4678 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4678 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2190 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2190 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2193 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2193 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2191 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2191 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4677 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4677 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4676 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4676 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					709 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				709 = {
-					add_core = OIR
-					cede_province = OIR
-					set_in_empire = yes
-				}
+			country_event = {
+				id = holy_rus_hre_event.11
+				days = 10
 			}
 		}
 	}
@@ -4226,968 +3630,9 @@ country_event = {
 					set_in_empire = yes
 				}
 			}
-			if = {
-				limit = {
-					4533 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4533 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					258 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				258 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1939 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1939 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2960 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2960 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2959 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2959 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					259 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				259 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					260 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				260 = {
-					add_core = POL
-					cede_province = POL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1318 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1318 = {
-					add_core = SLO
-					cede_province = SLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4236 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4236 = {
-					add_core = SLO
-					cede_province = SLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1772 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1772 = {
-					add_core = SLO
-					cede_province = SLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					154 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				154 = {
-					add_core = SLO
-					cede_province = SLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					162 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				162 = {
-					add_core = SLO
-					cede_province = SLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1952 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1952 = {
-					add_core = TRA
-					cede_province = TRA
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					157 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				157 = {
-					add_core = TRA
-					cede_province = TRA
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4127 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4127 = {
-					add_core = TRA
-					cede_province = TRA
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					158 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				158 = {
-					add_core = TRA
-					cede_province = TRA
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4128 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4128 = {
-					add_core = TRA
-					cede_province = TRA
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1951 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1951 = {
-					add_core = TRA
-					cede_province = TRA
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					161 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				161 = {
-					add_core = WAL
-					cede_province = WAL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4532 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4532 = {
-					add_core = WAL
-					cede_province = WAL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					160 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				160 = {
-					add_core = WAL
-					cede_province = WAL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4531 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4531 = {
-					add_core = WAL
-					cede_province = WAL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2998 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2998 = {
-					add_core = WAL
-					cede_province = WAL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					150 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				150 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1765 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1765 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4704 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4704 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					159 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				159 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4706 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4706 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2746 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2746 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1764 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1764 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2750 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2750 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4703 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4703 = {
-					add_core = Z0G
-					cede_province = Z0G
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					462 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				462 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1856 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1856 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					422 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				422 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4301 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4301 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2203 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2203 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					423 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				423 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2196 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2196 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2204 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2204 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4303 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4303 = {
-					add_core = GEO
-					cede_province = GEO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4306 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4306 = {
-					add_core = GAZ
-					cede_province = GAZ
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					425 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				425 = {
-					add_core = GAZ
-					cede_province = GAZ
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					312 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				312 = {
-					add_core = BLO
-					cede_province = BLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4261 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4261 = {
-					add_core = BLO
-					cede_province = BLO
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4124 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4124 = {
-					add_core = KRL
-					cede_province = KRL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					32 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				32 = {
-					add_core = KRL
-					cede_province = KRL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1776 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1776 = {
-					add_core = KRL
-					cede_province = KRL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					274 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				274 = {
-					add_core = PSK
-					cede_province = PSK
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1960 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1960 = {
-					add_core = PSK
-					cede_province = PSK
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					38 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				38 = {
-					add_core = RIG
-					cede_province = RIG
-					set_in_empire = yes
-				}
-				RIG = {
-					change_religion = orthodox
-				}
-			}
-			if = {
-				limit = {
-					25 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				25 = {
-					add_core = GOT
-					cede_province = GOT
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					2966 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2966 = {
-					add_core = GLG
-					cede_province = GLG
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4238 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4238 = {
-					add_core = GLG
-					cede_province = GLG
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4723 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4723 = {
-					add_core = OPL
-					cede_province = OPL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					264 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				264 = {
-					add_core = OPL
-					cede_province = OPL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					263 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				263 = {
-					add_core = OPL
-					cede_province = OPL
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					153 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				153 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					155 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				155 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1953 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1953 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4125 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4125 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					156 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				156 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1954 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1954 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4126 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4126 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4240 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4240 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1864 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1864 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					135 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				135 = {
-					add_core = HUN
-					cede_province = HUN
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1827 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1827 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4239 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4239 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4176 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4176 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					141 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				141 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4757 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4757 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					3000 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				3000 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					138 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				138 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4754 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4754 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					1766 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1766 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					3001 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				3001 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4780 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4780 = {
-					add_core = SER
-					cede_province = SER
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					4702 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4702 = {
-					add_core = Z19
-					cede_province = Z19
-					set_in_empire = yes
-				}
-			}
-			if = {
-				limit = {
-					148 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				148 = {
-					add_core = Z19
-					cede_province = Z19
-					set_in_empire = yes
-				}
+			country_event = {
+				id = holy_rus_hre_event.41
+				days = 3
 			}
 		}
 	}
@@ -6554,6 +4999,1633 @@ country_event = {
 					change_religion = orthodox
 				}
 			}
+			country_event = {
+				id = holy_rus_hre_event.51
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = holy_rus_hre_event.11
+	title = holy_rus_hre_event.11.t
+	desc = holy_rus_hre_event.11.d
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = holy_rus_hre_event.11.a
+	}
+	
+	after = {
+		hidden_effect = {
+			if = {
+				limit = {
+					4685 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4685 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2360 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2360 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					477 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				477 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2361 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2361 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2359 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2359 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2357 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2357 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					479 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				479 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2354 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2354 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4686 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4686 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					478 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				478 = {
+					add_core = Z0B
+					cede_province = Z0B
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2355 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2355 = {
+					add_core = Z1O
+					cede_province = Z1O
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2125 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2125 = {
+					add_core = Z12
+					cede_province = Z12
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2126 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2126 = {
+					add_core = Z12
+					cede_province = Z12
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					459 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				459 = {
+					add_core = Z12
+					cede_province = Z12
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2368 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2368 = {
+					add_core = Z0H
+					cede_province = Z0H
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					461 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				461 = {
+					add_core = Z0H
+					cede_province = Z0H
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4208 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4208 = {
+					add_core = Z0H
+					cede_province = Z0H
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2119 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2119 = {
+					add_core = Z0H
+					cede_province = Z0H
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2118 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2118 = {
+					add_core = Z0H
+					cede_province = Z0H
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2120 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2120 = {
+					add_core = Z0H
+					cede_province = Z0H
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					715 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				715 = {
+					add_core = Z0U
+					cede_province = Z0U
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4207 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4207 = {
+					add_core = Z1X
+					cede_province = Z1X
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2122 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2122 = {
+					add_core = HMI
+					cede_province = HMI
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4681 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4681 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4222 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4222 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4687 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4687 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2434 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2434 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					480 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				480 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1065 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1065 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					716 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				716 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1066 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1066 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4684 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4684 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					714 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				714 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4683 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4683 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					713 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				713 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4682 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4682 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					718 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				718 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					719 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				719 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2189 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2189 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4679 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4679 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4680 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4680 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4206 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4206 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2117 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2117 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4678 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4678 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2190 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2190 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2193 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2193 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2191 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2191 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4677 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4677 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4676 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4676 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					709 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				709 = {
+					add_core = OIR
+					cede_province = OIR
+					set_in_empire = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = holy_rus_hre_event.41
+	title = holy_rus_hre_event.41.t
+	desc = holy_rus_hre_event.41.d
+	picture = PANIC_eventPicture
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = holy_rus_hre_event.41.a
+	}
+	
+	after = {
+		hidden_effect = {
+			if = {
+				limit = {
+					4533 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4533 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					258 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				258 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1939 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1939 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2960 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2960 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2959 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2959 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					259 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				259 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					260 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				260 = {
+					add_core = POL
+					cede_province = POL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1318 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1318 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4236 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4236 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1772 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1772 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					154 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				154 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					162 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				162 = {
+					add_core = SLO
+					cede_province = SLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1952 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1952 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					157 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				157 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4127 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4127 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					158 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				158 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4128 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4128 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1951 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1951 = {
+					add_core = TRA
+					cede_province = TRA
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					161 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				161 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4532 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4532 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					160 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				160 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4531 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4531 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2998 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2998 = {
+					add_core = WAL
+					cede_province = WAL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					150 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				150 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1765 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1765 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4704 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4704 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					159 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				159 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4706 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4706 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2746 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2746 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1764 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1764 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2750 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2750 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4703 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4703 = {
+					add_core = Z0G
+					cede_province = Z0G
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					462 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				462 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1856 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1856 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					422 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				422 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4301 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4301 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2203 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2203 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					423 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				423 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2196 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2196 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2204 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2204 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4303 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4303 = {
+					add_core = GEO
+					cede_province = GEO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4306 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4306 = {
+					add_core = GAZ
+					cede_province = GAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					425 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				425 = {
+					add_core = GAZ
+					cede_province = GAZ
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					312 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				312 = {
+					add_core = BLO
+					cede_province = BLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4261 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4261 = {
+					add_core = BLO
+					cede_province = BLO
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4124 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4124 = {
+					add_core = KRL
+					cede_province = KRL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					32 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				32 = {
+					add_core = KRL
+					cede_province = KRL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1776 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1776 = {
+					add_core = KRL
+					cede_province = KRL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					274 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				274 = {
+					add_core = PSK
+					cede_province = PSK
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1960 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1960 = {
+					add_core = PSK
+					cede_province = PSK
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					38 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				38 = {
+					add_core = RIG
+					cede_province = RIG
+					set_in_empire = yes
+				}
+				RIG = {
+					change_religion = orthodox
+				}
+			}
+			if = {
+				limit = {
+					25 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				25 = {
+					add_core = GOT
+					cede_province = GOT
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					2966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2966 = {
+					add_core = GLG
+					cede_province = GLG
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4238 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4238 = {
+					add_core = GLG
+					cede_province = GLG
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4723 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4723 = {
+					add_core = OPL
+					cede_province = OPL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					264 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				264 = {
+					add_core = OPL
+					cede_province = OPL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					263 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				263 = {
+					add_core = OPL
+					cede_province = OPL
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					153 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				153 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					155 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				155 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1953 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1953 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4125 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4125 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					156 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				156 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1954 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1954 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4126 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4126 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4240 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4240 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1864 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1864 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					135 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				135 = {
+					add_core = HUN
+					cede_province = HUN
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1827 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1827 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4239 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4239 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4176 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4176 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					141 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				141 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4757 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4757 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3000 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3000 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					138 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				138 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4754 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4754 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					1766 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1766 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					3001 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				3001 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4780 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4780 = {
+					add_core = SER
+					cede_province = SER
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					4702 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4702 = {
+					add_core = Z19
+					cede_province = Z19
+					set_in_empire = yes
+				}
+			}
+			if = {
+				limit = {
+					148 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				148 = {
+					add_core = Z19
+					cede_province = Z19
+					set_in_empire = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = holy_rus_hre_event.51
+	title = holy_rus_hre_event.51.t
+	desc = holy_rus_hre_event.51.d
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
+	hidden = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = holy_rus_hre_event.51.a
+	}
+	
+	after = {
+		hidden_effect = {
 			if = {
 				limit = {
 					1966 = {

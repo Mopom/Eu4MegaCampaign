@@ -448,6 +448,7 @@ hlr_karl_scourge_of_islam_2 = {
 				name = papal_gifts
 				duration = -1
 			}
+			set_global_flag = pope_tunis_satisfied
 		}
 	}
 }

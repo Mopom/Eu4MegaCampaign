@@ -5,3 +5,4 @@ technology_group = western
 religion = samaritan_faith
 primary_culture = dynamic-breton-normand-occitain-culture-num1
 capital = 2547
+fixed_capital = 2547

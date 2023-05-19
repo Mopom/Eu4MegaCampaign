@@ -38,3 +38,16 @@ edict_of_konstanz_absolute = {
     global_unrest = 1
     culture_conversion_cost = -0.15
 }
+
+#Monasteries
+monasteries_de_rhenisme = {
+	church_power_modifier = 0.05
+	global_missionary_strength = 0.01
+}
+dissolution_de_rhenisme = {
+	local_unrest = 15
+	missionary_maintenance_cost = 0.1
+}
+monasteries_tout_le_monde = {
+	institution_growth = 0.5
+}

@@ -8,6 +8,8 @@ french_wars_of_religion = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
+			religion = anglican
+			religion = hussite
 		}
 		is_force_converted = no
 		normal_or_historical_nations = yes

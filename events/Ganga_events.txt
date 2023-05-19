@@ -106,7 +106,6 @@ country_event = {
 		}
 	}
 }
-		
 
 country_event = {
 	id = gng_crisis.3
@@ -116,13 +115,6 @@ country_event = {
 	
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	trigger = {
-		AND = {
-			tag = Z01
-			NOT = { is_year = 1500 }
-		}
-	}
 	
 	mean_time_to_happen = {
 		months = 200

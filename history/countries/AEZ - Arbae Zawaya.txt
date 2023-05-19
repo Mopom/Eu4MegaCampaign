@@ -5,4 +5,5 @@ technology_group = sub_saharan
 religion = sunni
 primary_culture = dynamic-mali-culture-num1
 capital = 808
-religious_school = hanbali_school
+fixed_capital = 808
+religious_school = maliki_school

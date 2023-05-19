@@ -125,3 +125,255 @@ country_event = { #Bohemia-Lombardy
 		}
 	}
 }
+
+#Charlemagne & Pope Chapter#
+country_event = { #Driver for below event
+	id = catholics_and_colonies.5
+	title = catholics_and_colonies.5.t
+	desc = catholics_and_colonies.5.d
+	picture = SHIP_SAILING_eventPicture
+	hidden = yes
+	fire_only_once = yes
+	goto = root
+
+	trigger = {
+		HLR = {
+			religion = catholic
+			mission_completed = hlr_karl_papacy
+		}
+		NOT = {
+			OR = {
+				has_global_flag = pope_tunis_satisfied
+				has_global_flag = have_sum_blimmin_patience
+			}
+		}
+	}
+	
+	option = {
+		ai_chance = {factor = 1}
+		PAP = {
+			country_event = {
+				id = catholics_and_colonies.6
+				days = 1643
+				random = 730
+			}
+		}
+		set_global_flag = have_sum_blimmin_patience
+	}
+}
+
+country_event = { #Papacy
+	id = catholics_and_colonies.6
+	title = catholics_and_colonies.6.t
+	desc = catholics_and_colonies.6.d
+	picture = POPE_PREACHING_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Demand for Avignon
+		name = catholics_and_colonies.6.a
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 202
+			}
+		}
+		ai_chance = {factor = 100}
+		202 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Genoa
+		name = catholics_and_colonies.6.b
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 101
+			}
+		}
+		ai_chance = {factor = 100}
+		101 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Sassari
+		name = catholics_and_colonies.6.c
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 127
+			}
+		}
+		ai_chance = {factor = 100}
+		127 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Arborea
+		name = catholics_and_colonies.6.e
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 4735
+			}
+			PAP = {
+				OR = {
+					owns = 127
+					owns = 2986
+				}
+			}
+		}
+		ai_chance = {factor = 100}
+		4735 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Cagliari
+		name = catholics_and_colonies.6.f
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 2986
+			}
+		}
+		ai_chance = {factor = 100}
+		2986 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Balarm
+		name = catholics_and_colonies.6.g
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 125
+			}
+		}
+		ai_chance = {factor = 100}
+		125 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Trapani
+		name = catholics_and_colonies.6.h
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 4736
+			}
+		}
+		ai_chance = {factor = 100}
+		4736 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Girgenti
+		name = catholics_and_colonies.6.i
+		trigger = {
+			HLR = {
+				religion = catholic
+				owns = 4737
+			}
+			PAP = {
+				OR = {
+					owns = 125
+					owns = 4736
+				}
+			}
+		}
+		ai_chance = {factor = 100}
+		4737 = {
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	option = { #Demand for Random
+		name = catholics_and_colonies.6.j
+		ai_chance = {factor = 1}
+		random_province = {
+			limit = {
+				owned_by = HLR
+			}
+			province_event = {
+				id = catholics_and_colonies.7
+				days = 36
+				random = 7
+			}
+		}
+	}
+	
+	after = {
+		clr_global_flag = have_sum_blimmin_patience
+	}
+	
+}
+
+province_event = { #Charlemagne
+	id = catholics_and_colonies.7
+	title = catholics_and_colonies.7.t
+	desc = catholics_and_colonies.7.d
+	picture = PAY_POPE_eventPicture
+	goto = root
+	
+	is_triggered_only = yes
+	
+	option = { #Province to the Pope
+		name = catholics_and_colonies.7.a
+		ROOT = {
+			add_core = PAP
+			remove_core = HLR
+			cede_province = PAP
+		}
+	}
+	option = { #Province is ours!
+		name = catholics_and_colonies.7.b
+		HLR = {
+			every_owned_province = {
+				add_province_modifier = {
+					name = cathol_unrest_halb
+					duration = 1825
+				}
+			}
+		}
+	}
+}
