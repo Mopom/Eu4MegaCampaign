@@ -164,6 +164,12 @@ estate_rajput = {
 		}
 		loyalty = 5
 	}
+	custom_name = {
+		desc = estate_ganga
+		trigger = {
+			religion = gangan
+		}
+	}
 
 	privileges = {
 		estate_rajput_land_rights

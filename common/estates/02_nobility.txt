@@ -392,12 +392,6 @@ estate_nobles = {
 		}
 	}
 	custom_name = {
-		desc = estate_ganga
-		trigger = {
-			religion = gangan
-		}
-	}
-	custom_name = {
 		desc = estate_warriors
 		trigger = {
 			OR = {
