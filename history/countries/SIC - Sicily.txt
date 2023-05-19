@@ -32,6 +32,9 @@ religious_school = zahrai_school
 		culture = andalucian
 	}
 }
+1444.11.11 = {
+	override_country_name = BATALYAWS
+}
 1327.4.13 = {
 	monarch = { 
 		name = "Yasmin I"

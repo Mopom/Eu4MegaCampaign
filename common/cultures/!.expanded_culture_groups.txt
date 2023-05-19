@@ -421,6 +421,7 @@ british = {
 			Æthelburh Seaxburh Wihtburh
 		}
 	}
+	arvorigeg = { primary = FRA }
 	dramor = { primary = KOJ }
 }
 gaelic = {

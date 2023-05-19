@@ -86,6 +86,6 @@ supr_decad_isl_mod = {
 		current_age = age_of_discovery
 	}
 	
-	monthly_ottoman_decadence = -0.5
+	monthly_ottoman_decadence = -0.25
 	ottoman_decadence_gain_modifier = -0.25
 }

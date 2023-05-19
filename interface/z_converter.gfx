@@ -69,11 +69,5 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-	spriteType = {
-		name = "GFX_disaster_fed_general_coup"
-		texturefile = "gfx//interface//disasters//dlc//domination//infantes_of_aragon.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
 	
 }

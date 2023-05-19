@@ -2597,21 +2597,6 @@ national_assembly_reform = {
 	}
 }
 
-burgher_revolution_reform = {
-	icon = "merchant"
-	potential = {
-		has_reform = burgher_revolution_reform
-		is_revolutionary = yes
-		has_dlc = "Emperor"
-	}
-	custom_attributes = {
-		enables_estate_burghers = yes
-	}
-	ai = {
-		factor = 1
-	}
-}
-
 #Religion within Republic
 establish_religious_institution_for_pirates_reform = {
 	icon = "religious_leader"

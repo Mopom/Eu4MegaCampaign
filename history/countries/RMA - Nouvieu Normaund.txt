@@ -5,4 +5,3 @@ technology_group = western
 religion = samaritan_faith
 primary_culture = normand
 capital = 972
-fixed_capital = 972

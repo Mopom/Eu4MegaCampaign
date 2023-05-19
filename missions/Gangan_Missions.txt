@@ -587,7 +587,7 @@ ind_ganges_slot_1 = {
 						}
 					}
 					add_province_modifier = {
-						name = "gng_grand_trunk_road_modifier"
+						name = "dlh_grand_trunk_road_modifier"
 						duration = -1
 					}
 				}

@@ -8,8 +8,6 @@ religious_turmoil = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
-			religion = hussite
-			religion = anglican
 		}
 		is_religion_enabled = protestant
 		NOT = { tag = FRA }
@@ -24,15 +22,12 @@ religious_turmoil = {
 		has_any_disaster = no
 		NOT = { religious_unity = 0.75 }
 		NOT = { full_idea_group = humanist_ideas }
-		NOT = { has_country_modifier = eng_end_of_the_english_reformation }
 		any_owned_province = {
 			has_owner_religion = no
 			OR = {
 				religion = catholic
 				religion = protestant
 				religion = reformed
-				religion = hussite
-				religion = anglican
 			}
 		}
 	}
@@ -43,7 +38,6 @@ religious_turmoil = {
 			has_any_disaster = yes
 			religious_unity = 0.75
 			full_idea_group = humanist_ideas
-			has_country_modifier = eng_end_of_the_english_reformation
 		}
 	}
 	
@@ -68,14 +62,6 @@ religious_turmoil = {
 			NOT = { stability = 0 }
 		}
 		modifier = {
-			factor = 1
-			NOT = { stability = -1 }
-		}
-		modifier = {
-			factor = 1
-			NOT = { stability = -2 }
-		}
-		modifier = {
 			factor = 2
 			has_hostile_reformation_center = yes
 		}
@@ -83,6 +69,10 @@ religious_turmoil = {
 			factor = -1
 			has_friendly_reformation_center = yes
 		}
+		
+		
+		
+
 	}
 	
 	
@@ -100,13 +90,10 @@ religious_turmoil = {
 								religion = catholic
 								religion = protestant
 								religion = reformed
-								religion = hussite
-								religion = anglican
 							}
 						}		
 					}
 					full_idea_group = humanist_ideas
-					has_country_modifier = eng_end_of_the_english_reformation
 				}
 			}
 			had_country_flag = { flag = active_religious_turmoil days = 9125 }

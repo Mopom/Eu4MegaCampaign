@@ -559,9 +559,3 @@ mal_summer_palts = {
 raj_admin_eff_also = {
 	administrative_efficiency = -0.5
 }
-
-#TODO get a proper modifier
-fed_compromise_lives_on = {
-    stability_cost_modifier = -0.1
-    technology_cost = -0.05
-}

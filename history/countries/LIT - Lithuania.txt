@@ -39,7 +39,7 @@ historical_friend = POL
 		dip = 3
 		mil = 1
 	}
-	religion = orthodox
+	religion = catholic
 }
 1440.1.1= {
 	monarch = {

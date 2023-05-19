@@ -64,7 +64,6 @@ feudalism = {
 					culture_group = dravidian
 					culture_group = east_asian
 					culture_group = east_slavic
-					culture_group = slavic
 					culture_group = eastern_aryan
 					culture_group = japanese_g
 					culture_group = korean_g
@@ -938,16 +937,12 @@ printing_press = {
 			trade_goods = paper
 		}
 		OR = {
-			religion = quranist
-			region = iberia_region
-			region = italy_region
-			region = balkan_region
-			region = anatolia_region
+			religion = protestant
+			religion = reformed
+			region = north_german_region
+			region = south_german_region
 		}
-		NOT = {
-			region = egypt_region
-			region = arabia_region
-		}
+
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	

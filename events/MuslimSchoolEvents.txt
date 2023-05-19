@@ -3357,17 +3357,6 @@ country_event = {
 			school = zaidi_school
 		}
 	}
-	option = {
-		name = muslim_school_events.20.i #Zahrai
-		trigger = {
-			NOT = { religion = shiite }
-			ai = no
-		}
-		set_religious_school = {
-			group = muslim
-			school = zahrai_school
-		}
-	}
 }
 
 #Neo Sufism (Most likely going to trigger in India)

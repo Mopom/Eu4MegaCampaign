@@ -1,6 +1,3 @@
 cathol_unrest = {
 	local_unrest = 14
 }
-cathol_unrest_halb = {
-	local_unrest = 8
-}

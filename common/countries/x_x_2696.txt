@@ -38,7 +38,6 @@ monarch_names = {
 	"Knud #0" = 0
 	"Ludolf #0" = 0
 	"Morgen #0" = 0
-	"Schwarzy #0" = 0
 	"Walbert #0" = 0
 	"Ilcum #0" = -1
 	"Imma #0" = -1
@@ -359,8 +358,6 @@ ship_names = {
 	"Württemberg"
 	"Zwei Brüder"
 	"Zähringen"
-	"Red October"
-	"Republic"
 }
 army_names = {
 	"Armee von $PROVINCE$"

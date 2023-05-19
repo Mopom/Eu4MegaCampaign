@@ -17801,7 +17801,7 @@ jardins_des_fees = {
 }
 
 #almathaf albanafsaj
-el_escorial = {
+jabbarid_museum = {
 	# province it starts in
 	start = 2990
 	
@@ -18096,7 +18096,7 @@ mines_of_muhammar = {
 	}
 }
 
-hagia_sophia = {
+hagia_sophia_2 = {
 	# province it starts in
 	start = 151
 	
@@ -18513,7 +18513,7 @@ sultan_ahmed_mosque = {
 	}
 }
 
-doges_palace = {
+dutch_traders_paltz = {
 	start = 112 #Venice
 	date = 1340.01.01
 	time = { months = 0	}
