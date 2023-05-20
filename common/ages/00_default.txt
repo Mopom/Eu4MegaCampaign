@@ -171,18 +171,24 @@ age_of_discovery = {
 			}
 		}
 
-		ab_ottoman_siege_ability = {
+		ab_polish_legitimacy = {
 			allow = {
 				OR = {
-					tag = TUR
+					tag = PLC
+					tag = POL
+					tag = LIT
+					custom_trigger_tooltip = {
+						tooltip = enable_this_ability_tt
+						has_country_flag = unlock_polish_ability_flag
+					}
 					AND = {
-						technology_group = ottoman
-						government_rank = 2
+						government_rank = 3
+						culture_group = west_slavic
 					}
 				}
 			}
 			modifier = {
-				leader_siege = 1
+				global_trade_goods_size_modifier = 0.33
 			}
 			ai_will_do = {
 				factor = 100
@@ -237,6 +243,7 @@ age_of_discovery = {
 						}
 						government_rank = 2
 					}
+					has_reform = mandala_reform
 				}
 			}
 			modifier = {
@@ -466,36 +473,24 @@ age_of_reformation = {
 			}
 		}
 
-		ab_polish_legitimacy = {
-			allow = {
-				OR = {
-					tag = PLC
-					tag = POL
-					tag = LIT
-					custom_trigger_tooltip = {
-						tooltip = enable_this_ability_tt
-						has_country_flag = unlock_polish_ability_flag
-					}
-					AND = {
-						government_rank = 3
-						culture_group = west_slavic
-					}
-				}
-			}
-			modifier = {
-				global_trade_goods_size_modifier = 0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-
 		ab_persia_reinforce = {
 			allow = {
 			    tag = Z02
 			}
 			modifier = {
 				colony_development_boost = 2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_ottoman_siege_ability = {
+			allow = {
+				religion = quranist
+			}
+			modifier = {
+				global_institution_spread = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -903,7 +898,8 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				governing_capacity_modifier = 0.33
+				cav_to_inf_ratio = 0.25
+				cavalry_power = 0.05
 			}
 			ai_will_do = {
 				factor = 100
