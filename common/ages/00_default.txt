@@ -391,6 +391,10 @@ age_of_reformation = {
 
 
 		ab_institution_spread_from_true_faith = {
+
+		    allow = {
+		        NOT = { religion = quranist }
+		    }
 			modifier = {
 				institution_spread_from_true_faith = 0.5
 			}
@@ -490,7 +494,7 @@ age_of_reformation = {
 				religion = quranist
 			}
 			modifier = {
-				global_institution_spread = 0.15
+				institution_spread_from_true_faith = 1
 			}
 			ai_will_do = {
 				factor = 100
