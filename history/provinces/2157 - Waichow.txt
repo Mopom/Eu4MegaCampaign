@@ -8,6 +8,7 @@ trade_goods = grain
 base_tax = 7
 base_production = 7
 base_manpower = 3
+discovered_by = muslim
 add_core = MNG
 add_core = YUE
 discovered_by = chinese

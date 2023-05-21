@@ -8,6 +8,7 @@ trade_goods = chinaware
 base_tax = 6
 base_production = 6
 base_manpower = 2
+discovered_by = muslim
 add_core = MIN
 add_core = MNG
 discovered_by = chinese
