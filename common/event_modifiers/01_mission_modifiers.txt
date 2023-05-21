@@ -9640,8 +9640,7 @@ jap_ginza_districts_modifier = {
 jap_20_years_devving_tax_yields_twice_bonus_1_burgher_loyalt_modifier = { } #Empty as it's used only as a timer for a mechanic
 
 jap_protectors_east_catholicism = {
-	curia_powers_cost = -0.25
-	papal_influence = 2
+	yearly_patriarch_authority = 0.005
 	religion = yes
 }
 
