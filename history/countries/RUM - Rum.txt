@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 2
-technology_group = eastern
+technology_group = ottoman # by lot's request, get mad at her not me - kalani
 religion = sunni
 primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
 add_historical_rival = Z00
