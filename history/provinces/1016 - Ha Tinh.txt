@@ -8,6 +8,7 @@ trade_goods = fish
 base_tax = 5
 base_production = 3
 base_manpower = 3
+discovered_by = muslim
 add_core = ANN
 add_core = DAI
 discovered_by = chinese

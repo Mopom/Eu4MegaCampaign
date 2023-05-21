@@ -8,6 +8,7 @@ trade_goods = incense
 base_tax = 5
 base_production = 5
 base_manpower = 3
+discovered_by = muslim
 add_core = ANN
 add_core = DAI
 discovered_by = chinese
