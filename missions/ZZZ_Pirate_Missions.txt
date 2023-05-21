@@ -18,6 +18,7 @@ pirate_1 = {
 			}
 		NOT = { map_setup = map_setup_random }
 		NOT = { tag = AJU }
+		NOT = { tag = DHK }
 		
 	}
 

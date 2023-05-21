@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = noble_elite_reform
+government_rank = 2
+technology_group = muslim
+religion = sunni
+primary_culture = andalucian
+capital = 835
+fixed_capital = 835
+religious_school = zahrai_school
