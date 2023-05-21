@@ -8,6 +8,7 @@ trade_goods = paper
 base_tax = 6
 base_production = 6
 base_manpower = 3
+discovered_by = indian
 add_core = MNG
 add_core = NNG
 discovered_by = chinese

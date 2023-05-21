@@ -8,6 +8,7 @@ trade_goods = gold
 base_tax = 3
 base_production = 3
 base_manpower = 3
+discovered_by = indian
 add_core = CHC
 add_core = CMI
 add_core = MNG

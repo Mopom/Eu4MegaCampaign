@@ -9,6 +9,7 @@ fort_15th = yes
 base_tax = 9
 base_production = 9
 base_manpower = 3
+discovered_by = indian
 extra_cost = 16
 center_of_trade = 2
 add_core = CXI

@@ -8,6 +8,7 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 2
+discovered_by = indian
 add_core = KHA
 add_core = MGE
 add_core = MNG

@@ -8,6 +8,7 @@ trade_goods = tea
 base_tax = 3
 base_production = 3
 base_manpower = 2
+discovered_by = indian
 add_core = CXI
 add_core = MNG
 add_core = SHU

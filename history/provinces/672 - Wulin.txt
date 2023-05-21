@@ -8,6 +8,7 @@ trade_goods = cotton
 base_tax = 3
 base_production = 3
 base_manpower = 2
+discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
 add_core = CHC
