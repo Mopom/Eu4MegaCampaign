@@ -90,25 +90,20 @@ tur_disaster_ottoman_power_struggle = {
 		}
 	}
 	can_end = {
-		if = {
-			limit = { has_mission = tur_the_mansure_reforms }
-			mission_completed = tur_the_mansure_reforms
+		legitimacy = 90
+		stability = 3
+		NOT = {
+			num_of_rebel_armies = 1
+			num_of_rebel_controlled_provinces = 1
 		}
-		if = {
-			limit = { has_mission = tur_centralize_the_power }
-			mission_completed = tur_centralize_the_power
+		all_subject_country = {
+			NOT = { liberty_desire = 10 }
 		}
-		if = {
-			limit = { has_mission = tur_remove_pashas_from_power }
-			mission_completed = tur_remove_pashas_from_power
-		}
-		if = {
-			limit = { has_mission = tur_the_reign_of_women }
-			mission_completed = tur_the_reign_of_women
-		}
+		army_professionalism = 0.80
 		NOT = { has_disaster = revolution }
 		hidden_trigger = {
 			NOT = { has_country_flag = tur_has_ottoman_power_struggle_event_open }
+			had_country_flag = { flag = abbasid_disaster_flag_since days = 365 }
 		}
 	}
 	#Modifiers are on purpose negligible. The real force comes from the other disasters which are unlocked by the Power Struggle + the stacking events
