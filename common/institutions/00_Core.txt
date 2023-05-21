@@ -939,6 +939,9 @@ printing_press = {
 		}
 		OR = {
 			religion = quranist
+			region = north_german_region
+			region = south_german_region
+			region = france_region
 			region = iberia_region
 			region = italy_region
 			region = balkan_region
