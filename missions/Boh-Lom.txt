@@ -1276,8 +1276,11 @@ ubl_3 = {
 		}
 
 		trigger = {
-			all_owned_province = {
-				has_influencing_fort = yes
+			calc_true_if = {
+				all_owned_province = {
+					fort_level = 2
+				}
+				amount = 20
 			}
 		}
 		effect = {
