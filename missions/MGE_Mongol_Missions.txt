@@ -314,8 +314,11 @@ mge_exp_south_branch_1 = {
 		}
 		trigger = {
 			war_with = MNG
-			1821 = {
-				devastation = 20
+			OR = {
+				1821 = {
+					devastation = 20
+				}
+				owns_core_province = 1821
 			}
 		}
 		effect = {
@@ -323,10 +326,19 @@ mge_exp_south_branch_1 = {
 				name = raiding_nanjing
 				duration = 7300
 			}
-			1821 = {
-				add_province_modifier = {
-					name = raid_of_nanking
-					duration = 5475
+			if = {
+				limit = {
+					NOT = {
+						MGE = {
+							owns_core_province = 1821
+						}
+					}
+				}
+				1821 = {
+					add_province_modifier = {
+						name = raid_of_nanking
+						duration = 5475
+					}
 				}
 			}
 		}
@@ -533,7 +545,7 @@ mge_exp_south_branch_2 = {
 		trigger = {
 			num_of_owned_provinces_with = {
 				province_has_current_tech_fort_trigger = yes
-				value = 14
+				value = 10
 			}
 			num_of_allies = 2
 			any_country = {
@@ -579,8 +591,11 @@ mge_exp_south_branch_2 = {
 		}
 		trigger = {
 			war_with = MNG
-			1816 = {
-				devastation = 20
+			OR = {
+				1816 = {
+					devastation = 20
+				}
+				owns_core_province = 1816
 			}
 		}
 		effect = {
