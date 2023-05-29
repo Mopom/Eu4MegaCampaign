@@ -1190,11 +1190,9 @@ country_event = {
 	
 	trigger = {
 		tag = VEN
-		tag = UBL
 		151 = {
 			NOT = { owned_by = BYZ }
 			NOT = { owned_by = VEN }
-			NOT = { owned_by = UBL }
 		}
 		owns = 112
 	}
