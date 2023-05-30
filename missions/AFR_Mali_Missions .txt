@@ -404,6 +404,7 @@ mali_colonization_slot = {
                 capital_scope = {
              	    colonial_region = colonial_peru
              	}
+             	is_colonial_nation = yes
             }
 		}
 		effect = {
@@ -421,6 +422,7 @@ mali_colonization_slot = {
 					    capital_scope = {
 						    colonial_region = colonial_peru
 						}
+						is_colonial_nation = yes
 					}
 					change_tag = AEZ
                     AEZ = {
