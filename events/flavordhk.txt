@@ -17,6 +17,10 @@ country_event = {
 				limit = {
 					AND = {
 						region = australia_region
+						region = oceanea_region
+						region = indonesia_region
+						region = moluccas_region
+						area = taiwan_area
 						country_or_non_sovereign_subject_holds = ROOT
 					}
 				} 
@@ -35,9 +39,9 @@ country_event = {
 				capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
-					artillery = 0.2
+					artillery = 0.1
 					heavy_ship = 0.3
-					light_ship = 0.3
+					light_ship = 1.0
 					transport = 0.3
 					}
 				}
