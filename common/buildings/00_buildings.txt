@@ -386,25 +386,6 @@ coastal_defence = {
 	}
 }
 
-coastal_defence = {
-
-	cost = 100
-	time = 12
-	build_trigger = {
-		has_port = yes
-	}
-	modifier = {
-		blockade_force_required = 0.5
-		hostile_disembark_speed = 1.0
-		block_slave_raid = yes
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
 ################################################
 # Tier 2, 16th Century Buildings
 ################################################
