@@ -413,16 +413,29 @@ mali_colonization_slot = {
 				}
 				random_subject_country = {
 					limit = {
-						num_of_subjects = 1
-						any_subject_country = {
-							capital_scope = {
-								colonial_region = colonial_peru
-							}
+					    capital_scope = {
+						    colonial_region = colonial_peru
 						}
 					}
-					colonial_peru = {
-						add_permanent_claim = PREV
-					}
+					change_tag = AEZ
+                    AEZ = {
+                        change_government = republic
+                        add_government_reform = federal_republic
+                        change_religion = ROOT
+                        change_primary_culture = ROOT
+                        discover_provinces = ROOT
+                        adopt_reform_progress = ROOT
+                        add_republican_tradition = 50
+                        capital_scope = {
+                        build_to_forcelimit = {
+                            infantry = 0.8
+                            artillery = 0.2
+                            heavy_ship = 0.3
+                            light_ship = 0.3
+                            transport = 0.3
+                            }
+                        }
+                    }
 				}
 			}
 			else = {

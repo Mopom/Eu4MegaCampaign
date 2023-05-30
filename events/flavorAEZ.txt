@@ -14,48 +14,6 @@ country_event = {
 		hidden_effect = {
 			every_province = {
 				limit = {
-					AND = {
-						colonial_region = colonial_peru
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				discover_country = AEZ
-				add_core = AEZ
-				cede_province = AEZ
-			}
-			AEZ = {
-				change_government = republic
-				add_government_reform = federal_republic
-				change_religion = ROOT
-				change_primary_culture = ROOT
-				discover_provinces = ROOT
-				adopt_reform_progress = ROOT
-				add_republican_tradition = 50
-				capital_scope = {
-				build_to_forcelimit = {
-					infantry = 0.8
-					artillery = 0.2
-					heavy_ship = 0.3
-					light_ship = 0.3
-					transport = 0.3
-					}
-				}
-			}
-			every_province = {
-				limit = {
-					colonial_region = colonial_peru
-				}
-				add_claim = AEZ
-				remove_claim = MAL
-			}
-			every_province = {
-				limit = {
-					continent = africa
-					owned_by = MAL
-				}
-			}
-			every_province = {
-				limit = {
 					is_capital_of = AEZ
 					NOT = {
 						province_id = 808

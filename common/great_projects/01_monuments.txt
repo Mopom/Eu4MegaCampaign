@@ -18656,6 +18656,7 @@ tower_of_tnf_guild = {
 				OR = {
 					culture_group = british
 					culture = anglois
+					culture = anglo_saxon2
 				}
 				province_is_or_accepts_culture = yes
 			}
@@ -18683,6 +18684,7 @@ tower_of_tnf_guild = {
 				OR = {
 					culture_group = british
 					culture = anglois
+					culture = anglo_saxon2
 				}
 				province_is_or_accepts_culture = yes
 			}
@@ -18700,6 +18702,7 @@ tower_of_tnf_guild = {
 				OR = {
 					culture_group = british
 					culture = anglois
+					culture = anglo_saxon2
 				}
 				province_is_or_accepts_culture = yes
 			}
