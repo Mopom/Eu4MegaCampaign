@@ -56,14 +56,26 @@ country_event = {
 			364 = {
 				change_religion = quranist
 				add_reform_center = quranist
+				add_province_modifier = { 
+    					name = religious_zeal_at_conv
+    					duration = 10950
+				}
 			}
 			387 = {
 				change_religion = quranist
 				add_reform_center = quranist
+				add_province_modifier = { 
+    					name = religious_zeal_at_conv
+    					duration = 10950
+				}
 			}
 			411 = {
 				change_religion = quranist
 				add_reform_center = quranist
+				add_province_modifier = { 
+    					name = religious_zeal_at_conv
+    					duration = 10950
+				}
 			}
 			EGY = {
 				country_event = { 
