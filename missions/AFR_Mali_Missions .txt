@@ -400,6 +400,11 @@ mali_colonization_slot = {
 				colonial_region = colonial_peru
 				value = 10
 			}
+			any_subject_country = {
+                capital_scope = {
+             	    colonial_region = colonial_peru
+             	}
+            }
 		}
 		effect = {
 			if = {
