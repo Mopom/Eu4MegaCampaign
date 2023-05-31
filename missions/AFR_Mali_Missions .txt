@@ -427,7 +427,6 @@ mali_colonization_slot = {
 					change_tag = AEZ
                     AEZ = {
                         change_government = republic
-                        add_government_reform = federal_republic
                         change_religion = ROOT
                         change_primary_culture = ROOT
                         discover_provinces = ROOT
