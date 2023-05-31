@@ -372,7 +372,7 @@ emp_ned_slot2_ned_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_leiden_faculty"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}

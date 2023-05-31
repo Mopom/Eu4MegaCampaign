@@ -1768,3 +1768,33 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = flavor_aez.33
+	title = "flavor_aez.33.t"
+	desc = "flavor_aez.33.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        primary_culture = dynamic-saxon-culture-num1
+            religion = samaritan_faith
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 5
+                colonial_region = colonial_canada
+            }
+            is_colonial_nation = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "flavor_aez.33.a"
+        remove_government_reform = trade_company_government
+        add_government_reform = self_governing_colony_government
+    }
+}
