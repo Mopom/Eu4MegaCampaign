@@ -17,15 +17,7 @@ christian = {
 		
 		misguided_heretic = yes		# Other christians hate them less
 		
-		holy_sites = { 2308 410 445 535 700 }
-		
-		blessings = {
-			legitimize_government
-			encourage_warriors_of_the_faith
-			send_monks_to_establish_monasteries
-			promote_territorial_rights
-			will_of_the_martyrs
-		}
+		fervor = yes
 	}
 	messalian = {
 		color = { 0.6 0.1 0.4 } #153 25.5 102
