@@ -110,6 +110,7 @@ monarchy = {
 				league_of_lezhe_reform
 				tibetan_dual_government_reform
 				sisterhood_of_jeanne_darc_reform
+				ganga_government
 			}
 		}
 		hereditary_vs_nobility = {
@@ -123,7 +124,6 @@ monarchy = {
 				khalsa_reform
 				deccani_society_reform
 				mughal_government
-				ganga_government
 				black_army_reform
 				legion_of_honor_reform
 				imperial_nobility_reform
