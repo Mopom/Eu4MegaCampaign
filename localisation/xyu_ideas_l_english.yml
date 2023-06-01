@@ -406,8 +406,7 @@
  HIK_5_desc:0 "desc"
  HIK_6_desc:0 "desc"
  HIK_7_desc:0 "desc"
- 
- 
+
  EKG_ideas:0 "Kattenberger Ideas"
  EKG_ideas_start:0 "Kattenberger Traditions"
  EKG_ideas_bonus:0 "Kattenberger Ambitions"
@@ -425,3 +424,21 @@
  EKG_5_desc:0 "With rapid expansion we cut out our European competitors."
  EKG_6_desc:0 "Through the extraordinary training of our troops, we will bring safety to every citizen."
  EKG_7_desc:0 "With a growing state, our eyes turn to our coast. The Federation keeps sending skilled admirals, but we must rely on ourselves to safeguard our oceans."
+ 
+ DHK_ideas:0 "Dhulkan Ideas"
+ DHK_ideas_start:0 "Dhulkan Traditions"
+ DHK_ideas_bonus:0 "Dhulkan Ambitions"
+ DHK_1:0 "Pirated Heavies"
+ DHK_2:0 "Pirated Colonies"
+ DHK_3:0 "Pirated Traders"
+ DHK_4:0 "Pirated Pirates"
+ DHK_5:0 "Pirated Fleets"
+ DHK_6:0 "Pirated Navies"
+ DHK_7:0 "Pirated Everything"
+ DHK_1_desc:0 "Yar."
+ DHK_2_desc:0 "You wouldn't download a car!"
+ DHK_3_desc:0 "Yaaaaaaaar!"
+ DHK_4_desc:0 "Avast, ye scurvy dags!."
+ DHK_5_desc:0 "Yaaaar?"
+ DHK_6_desc:0 "Aye Aye Capt'n."
+ DHK_7_desc:0 "Yaaaaaaaaaaaaaaaaar!!"
