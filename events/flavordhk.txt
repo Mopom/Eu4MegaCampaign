@@ -52,6 +52,22 @@ country_event = {
 				add_claim = DHK
 				remove_claim = AJU
 			}
+			every_province = {
+				limit = {
+					AND = { 
+						OR = {
+							region = oceanea_region
+							region = indonesia_region
+							region = moluccas_region
+							area = taiwan_area
+						}
+					country_or_non_sovereign_subject_holds = AJU
+					}
+				}
+				add_core = DHK
+				remove_core = AJU
+				cede_province = DHK
+			}
 			AJU = {
 				change_government = republic
 			}
