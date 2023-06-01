@@ -2,6 +2,7 @@ christian = {
 	samaritan_faith = {
 		color = { 88 26 37 }
 		icon =  175
+		allow_female_defenders_of_the_faith = yes
 
 		allowed_conversion = { 
 		sunni

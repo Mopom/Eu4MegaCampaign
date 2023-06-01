@@ -53,28 +53,28 @@ country_event = {
 					friend = EGY
 				}
 			}
-			364 = {
+			2316 = {
 				change_religion = quranist
 				add_reform_center = quranist
 				add_province_modifier = { 
-    					name = religious_zeal_at_conv
-    					duration = 10950
-				}
-			}
-			387 = {
-				change_religion = quranist
-				add_reform_center = quranist
-				add_province_modifier = { 
-    					name = religious_zeal_at_conv
-    					duration = 10950
+    				name = religious_zeal_at_conv
+    				duration = 10950
 				}
 			}
 			411 = {
 				change_religion = quranist
 				add_reform_center = quranist
 				add_province_modifier = { 
-    					name = religious_zeal_at_conv
-    					duration = 10950
+    				name = religious_zeal_at_conv
+    				duration = 10950
+				}
+			}
+			387 = {
+				change_religion = quranist
+				add_reform_center = quranist
+				add_province_modifier = {
+    				name = religious_zeal_at_conv
+    				duration = 10950
 				}
 			}
 			EGY = {
