@@ -16748,37 +16748,37 @@ DHK_ideas = {
 		galley_power = 0.20
 	}
 	bonus = {
-		galley_cost = -0.1
+		global_ship_cost = -0.1
 	}
 	trigger = {
 		tag = DHK
 	}
 	free = yes		#will be added at load.
 
-	dhk_1 = {
+	DHK_1 = {
 		heavy_ship_power = 0.10
 	}
-	dhk_2 = {
+	DHK_2 = {
 		global_colonial_growth = 20
 		construction cost = -0.15
 	}
-	dhk_3 = {
+	DHK_3 = {
 		trade_efficiency = 0.1
 		loot_amount = 0.10
 	}
-	dhk_4 = {
+	DHK_4 = {
 		merc_maintenance_modifier = -0.1
 	}
-	dhk_5 = {
+	DHK_5 = {
 		capture_ship_chance = 0.2
 	}
-	dhk_6 = {
+	DHK_6 = {
 		navy_tradition = 1
-		privateer_efficiency = 0.15
+		privateer_efficiency = 0.5
 	}
-	dhk_7 = {
+	DHK_7 = {
 		leader_naval_manuever = 1
-		blockade_efficiency = 0.33
+		blockade_efficiency = 0.66
 		allowed_marine_fraction = 0.50
 	}
 }

@@ -1805,6 +1805,8 @@ country_event = {
 	    AND = {
             tag = FRA
             religion = sunni
+            has_country_modifier = sacrament_true_presence
+            has_country_modifier = prophet_inspired
 	    }
 	}
 
@@ -1855,7 +1857,7 @@ country_event = {
 	trigger = {
 	    AND = {
             tag = UBL
-            #add current rhenist mods here
+            has_country_modifier = sacrament_spiritual_presence
 	    }
 	}
 
@@ -1865,6 +1867,10 @@ country_event = {
 
     option = {
         name = "flavor_aez.36.a"
-        #remove current, add desired ones
+        remove_country_modifier = sacrament_spiritual_presence
+        add_country_modifier = {
+            name = sacrament_true_presence
+            duration = -1
+        }
     }
 }
