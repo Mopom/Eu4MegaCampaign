@@ -60,7 +60,9 @@ country_event = {
 							region = indonesia_region
 							region = moluccas_region
 							region = australia_region
-							area = taiwan_area
+							region = japan_region
+							region = south_china_region
+							region = korea_region
 							region = malaya_region
 						}
 					country_or_non_sovereign_subject_holds = AJU
