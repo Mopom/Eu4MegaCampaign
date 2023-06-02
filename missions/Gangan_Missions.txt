@@ -298,7 +298,7 @@ ind_ganges_slot_1 = {
 			522 = {
 				add_province_modifier = {
 					name = ganga_trade_mod
-					duration = 7300
+					duration = -1
 				}
 			}
 			524 = {
@@ -1758,7 +1758,8 @@ slot = 5
 			4500 = {
 				add_province_modifier = {
 					name = bharatpur_relig
-					duration = 10950
+					duration = 18250
+				add_base_tax = 2
 				}
 			}
 			change_estate_land_share = {
@@ -1799,6 +1800,7 @@ slot = 5
 					name = varanasi_relig
 					duration = 10950
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
@@ -1826,6 +1828,7 @@ slot = 5
 					name = ujjain_relig
 					duration = 10950
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
@@ -1852,6 +1855,7 @@ slot = 5
 					name = feyzabad_relig
 					duration = 10950
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
@@ -1881,6 +1885,7 @@ slot = 5
 					name = panipat_relig
 					duration = 10950
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
@@ -1907,6 +1912,7 @@ slot = 5
 					name = kanchipuram_relig
 					duration = 10950
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
@@ -1936,6 +1942,7 @@ slot = 5
 					name = halar_relig
 					duration = 10950
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
