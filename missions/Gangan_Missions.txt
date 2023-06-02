@@ -1758,13 +1758,13 @@ slot = 5
 			4500 = {
 				add_province_modifier = {
 					name = bharatpur_relig
-					duration = 18250
-				add_base_tax = 2
+					duration = -1
 				}
+				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 5
+				share = 2
 			}
 		}
 	}
@@ -1798,13 +1798,13 @@ slot = 5
 			4500 = {
 				add_province_modifier = {
 					name = varanasi_relig
-					duration = 10950
+					duration = -1
 				}
 				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 2
+				share = 1
 			}
 		}
 	}
@@ -1826,13 +1826,13 @@ slot = 5
 			4461 = {
 				add_province_modifier = {
 					name = ujjain_relig
-					duration = 10950
+					duration = 18250
 				}
 				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 2
+				share = 1
 			}
 		}
 	}
@@ -1853,13 +1853,13 @@ slot = 5
 			4495 = {
 				add_province_modifier = {
 					name = feyzabad_relig
-					duration = 10950
+					duration = -1
 				}
 				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 2
+				share = 1
 			}
 		}
 	}
@@ -1872,10 +1872,7 @@ slot = 5
 		}
 		trigger = {
 			2062 = {
-				AND = {
-					has_building = cathedral
-					has_building = fort_16th
-				}
+				has_building = cathedral
 			}
 			religion = gangan
 		}
@@ -1883,13 +1880,13 @@ slot = 5
 			2062 = {
 				add_province_modifier = {
 					name = panipat_relig
-					duration = 10950
+					duration = -1
 				}
 				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 2
+				share = 1
 			}
 		}
 	}
@@ -1910,13 +1907,13 @@ slot = 5
 			2062 = {
 				add_province_modifier = {
 					name = kanchipuram_relig
-					duration = 10950
+					duration = -1
 				}
 				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 2
+				share = 1
 			}
 		}
 	}
@@ -1940,13 +1937,13 @@ slot = 5
 			2062 = {
 				add_province_modifier = {
 					name = halar_relig
-					duration = 10950
+					duration = 18250
 				}
 				add_base_tax = 2
 			}
 			change_estate_land_share = {
 				estate = estate_church
-				share = 2
+				share = 1
 			}
 		}
 	}

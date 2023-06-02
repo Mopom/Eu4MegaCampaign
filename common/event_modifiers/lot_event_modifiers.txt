@@ -468,23 +468,23 @@ relig_tib_conv = {
 	missionaries = 1
 }
 varanasi_relig = {
-	enforce_religion_cost = -0.33
+	church_loyalty_modifier = 0.05
 }
 ujjain_relig = {
 	caravan_power = 0.2
 	trade_efficiency = 0.1
 }
 feyzabad_relig = {
-	land_attrition = -0.1
+	special_unit_forcelimit = 0.05
 }
 panipat_relig = {
-	rival_border_fort_maintenance = -0.2
+	monarch_lifespan = 0.2
 }
 kanchipuram_relig = {
-	tolerance_heathen = 2
+	heir_chance = 0.7
 }
 halar_relig = {
-	cb_on_religious_enemies = yes
+	land_attrition = -0.1
 }
 relig_siam_conv = {
 	global_missionary_strength = 0.03
@@ -493,7 +493,7 @@ relig_siam_conv = {
 emp_of_ind = {
 	global_tax_modifier = 0.2
 	prestige_decay = -0.01
-	prestige_from_naval = 0.1
+	special_unit_forcelimit = 0.1
 }
 aju_trade_modifier = {
 	merchants = 1
