@@ -61,12 +61,14 @@ country_event = {
 							region = moluccas_region
 							region = australia_region
 							area = taiwan_area
+							region = malaya_region
 						}
 					country_or_non_sovereign_subject_holds = AJU
 					}
 				}
 				add_core = DHK
 				remove_core = AJU
+				remove_claim = AJU
 				cede_province = DHK
 			}
 			AJU = {
