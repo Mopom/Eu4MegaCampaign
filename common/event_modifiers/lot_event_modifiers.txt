@@ -491,7 +491,7 @@ relig_siam_conv = {
 	missionaries = 1
 }
 emp_of_ind = {
-	global_tax_modifier = 0.02
+	global_tax_modifier = 0.2
 	prestige_decay = -0.01
 	prestige_from_naval = 0.1
 }
