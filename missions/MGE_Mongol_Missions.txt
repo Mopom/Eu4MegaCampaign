@@ -1612,9 +1612,11 @@ mge_exp_japan_branch_3 = {
 			}
 		}
 		effect = {
-			sakhalin_area = {
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = japanese_wood
+				duration = 7300
 			}
+			 
 		}
 	}
 	mge_jap_sakhalin = {

@@ -16,3 +16,7 @@ focused_on_peace = {
 	stability_cost_to_declare_war = 1
 	manpower_recovery_speed = -0.2
 	yearly_corruption = -0.1
+}
+japanese_wood = {
+	light_ship_cost = -0.2
+}
