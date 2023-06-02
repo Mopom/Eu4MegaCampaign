@@ -1595,10 +1595,7 @@ mge_exp_japan_branch_3 = {
 				limit = {
 					exists = JAP
 				}
-				AND = {
-					alliance_with = JAP
-					marriage_with  = JAP
-				}
+				alliance_with = JAP
 			}
 			else = {
 				OR = {
