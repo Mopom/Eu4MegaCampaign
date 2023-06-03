@@ -474,6 +474,10 @@ emp_ned_slot2_indies_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+            1100 = { add_permanent_claim = ROOT }
+            1101 = { add_permanent_claim = ROOT }
+            1102 = { add_permanent_claim = ROOT }
+            1103 = { add_permanent_claim = ROOT }
 		}
 	}
 
