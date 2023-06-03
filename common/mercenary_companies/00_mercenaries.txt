@@ -2123,7 +2123,7 @@ merc_swiss_canton_mercenaries = {
 			}
 			AND = {
 				tag = UBL
-				mission_completed = ubl_3_5
+				mission_completed = ubl_3_3
 			}
 		}
 	}
