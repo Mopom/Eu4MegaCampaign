@@ -90,12 +90,12 @@ gangan_empire_titles = {
 	ruler_male = {
 		1 = MAHASAMANTA
 		2 = MAHARAJA
-		3 = SAMRAT
+		3 = CHAKRAVARTI
 	}
 	ruler_female = {
 		1 = MAHASAMANTA
 		2 = MAHARAJA_fem
-		3 = SAMRAT_fem
+		3 = CHAKRAVARTI_fem
 	}
 	trigger = {
 		OR = {
