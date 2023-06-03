@@ -97,6 +97,12 @@ gangan_empire_titles = {
 		2 = MAHARAJA_fem
 		3 = CHAKRAVARTI_fem
 	}
+	heir_male = {
+		3 = O_KUNWAR
+	}
+	heir_female = {
+		3 = O_KUNWAR_fem
+	}
 	trigger = {
 		OR = {
 			culture_group = western_aryan
