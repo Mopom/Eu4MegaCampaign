@@ -233,18 +233,26 @@ guards_of_mong = {
 	local_defender_dice_roll_bonus = 1
 }
 prep_o_war = {
-	siege_ability = 0.15
-	can_bypass_forts = yes
-	morale_damage = 0.2
+	siege_ability = 0.1
+	morale_damage = 0.1
+}
+prep_o_war2 = {
+	fort_maintenance_modifier = -0.25
+	defensiveness = 0.15
+}
+prep_o_war3 = {
+	land_morale = 0.10
+}
+convert_china = {
+	culture_conversion_cost = -0.2
 }
 raiding_beijing = {
 	cav_to_inf_ratio = 0.15
 	cavalry_shock = 1
 }
 crusade_on_xina = {
-	missionaries = 1
-	global_missionary_strength = 0.01
-	cb_on_religious_enemies = yes
+	global_missionary_strength = 0.02
+    monthly_fervor_increase = 0.5
 }
 raiding_nanjing = {
 	cav_to_inf_ratio = 0.15
@@ -255,13 +263,13 @@ raid_of_nanking = {
 	war_exhaustion = 0.07
 }
 emperor_of_sinos = {
-	imperial_mandate = 0.05
-	army_tradition_from_battle = 0.01
-	prestige = 0.15
+	global_missionary_strength = 0.02
+	yearly_absolutism = 1
+	prestige = 0.3
 }
 control_china_trade = {
 	merchants = 1
-	trade_steering = 0.05
+	trade_steering = 0.2
 }
 control_of_astrakhan = {
 	merchants = 1
@@ -349,9 +357,7 @@ tea_over_coffee = {
 }
 forebearers_of_japan = {
 	culture_conversion_cost = -0.15
-	relation_with_accepted_culture = 5
-	local_tax_modifier = 0.1
-	trade_value = 0.5
+    institution_growth = 0.48
 }
 assylum_seekers = {
 	local_culture_conversion_cost = 0.35
