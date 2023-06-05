@@ -561,7 +561,6 @@ mge_exp_south_branch_2 = {
 		trigger = {
 			army_size_percentage = 1
 			num_of_generals = 3
-			num_of_generals_with_traits = 1
 			army_strength = {
 				who = MNG
 				value = 0.75
