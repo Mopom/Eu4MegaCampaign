@@ -13,18 +13,21 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			every_province = {
-				limit = {
-					AND = {
-						region = australia_region
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				} 
-				discover_country = DHK
-				add_core = DHK
-				cede_province = DHK
-			}
+			random_country = {
+                limit = {
+                    primary_culture = dynamic-amhara-somali-culture-num1
+                    religion = sunni
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_australia
+                    }
+                    is_colonial_nation = yes
+                	NOT = { exists = DHK }
+                }
+                change_tag = DHK
+            }
 			DHK = {
+			    swap_non_generic_missions = yes
 				change_government = republic
 				add_government_reform = pirate_republic_reform
 				change_religion = ROOT
@@ -35,9 +38,9 @@ country_event = {
 				capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
-					artillery = 0.2
+					artillery = 0.1
 					heavy_ship = 0.3
-					light_ship = 0.3
+					light_ship = 1.0
 					transport = 0.3
 					}
 				}
@@ -48,6 +51,27 @@ country_event = {
 				}
 				add_claim = DHK
 				remove_claim = AJU
+			}
+			every_province = {
+				limit = {
+					AND = { 
+						OR = {
+							region = oceanea_region
+							region = indonesia_region
+							region = moluccas_region
+							region = australia_region
+							region = japan_region
+							region = south_china_region
+							region = korea_region
+							region = malaya_region
+						}
+					country_or_non_sovereign_subject_holds = AJU
+					}
+				}
+				add_core = DHK
+				remove_core = AJU
+				remove_claim = AJU
+				cede_province = DHK
 			}
 			AJU = {
 				change_government = republic
@@ -77,6 +101,10 @@ country_event = {
 	
 	option = {
 		name = "flavor_dhk.1.b"
+		DHK = {
+		    grant_independence = yes
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
 		switch_tag = DHK
 	}
 }

@@ -372,7 +372,7 @@ emp_ned_slot2_ned_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_leiden_faculty"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -420,7 +420,7 @@ emp_ned_slot2_ned_fla_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_leiden_faculty"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -474,6 +474,10 @@ emp_ned_slot2_indies_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+            1100 = { add_permanent_claim = ROOT }
+            1101 = { add_permanent_claim = ROOT }
+            1102 = { add_permanent_claim = ROOT }
+            1103 = { add_permanent_claim = ROOT }
 		}
 	}
 
@@ -912,7 +916,7 @@ emp_ned_slot4_branch = { # Statists
 		
 		trigger = {
 			calc_true_if = {
-				desc = emp_ned_adjust_the_general_means_tt
+				desc = emp_ned_adjust_the_general_tt
 				all_owned_province = {
 					region = north_german_region
 					base_tax = 8

@@ -16742,3 +16742,43 @@ EKG_ideas = {
 		discipline = 0.05
 	}
 }
+DHK_ideas = {
+	start = {
+		naval_morale = 0.20
+		galley_power = 0.20
+	}
+	bonus = {
+		global_ship_cost = -0.1
+	}
+	trigger = {
+		tag = DHK
+	}
+	free = yes		#will be added at load.
+
+	DHK_1 = {
+		heavy_ship_power = 0.10
+	}
+	DHK_2 = {
+		global_colonial_growth = 20
+		build_cost = -0.15
+	}
+	DHK_3 = {
+		trade_efficiency = 0.1
+		loot_amount = 0.10
+	}
+	DHK_4 = {
+		merc_maintenance_modifier = -0.1
+	}
+	DHK_5 = {
+		capture_ship_chance = 0.2
+	}
+	DHK_6 = {
+		navy_tradition = 1
+		privateer_efficiency = 0.5
+	}
+	DHK_7 = {
+		leader_naval_manuever = 1
+		blockade_efficiency = 0.66
+		allowed_marine_fraction = 0.50
+	}
+}

@@ -314,21 +314,23 @@ mge_exp_south_branch_1 = {
 		}
 		trigger = {
 			war_with = MNG
-			1821 = {
-				devastation = 20
+			OR = {
+				1821 = {
+					devastation = 20
+				}
+				owns_core_province = 1821
 			}
 		}
 		effect = {
-			add_country_modifier = {
-				name = raiding_nanjing
-				duration = 7300
-			}
-			1821 = {
-				add_province_modifier = {
-					name = raid_of_nanking
-					duration = 5475
-				}
-			}
+			random_province = {
+                limit = {
+            	    owned_by = ROOT
+            		is_capital = yes
+            	}
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+            }
 		}
 	}
 	mge_colonize_taiwan = {
@@ -533,7 +535,7 @@ mge_exp_south_branch_2 = {
 		trigger = {
 			num_of_owned_provinces_with = {
 				province_has_current_tech_fort_trigger = yes
-				value = 14
+				value = 10
 			}
 			num_of_allies = 2
 			any_country = {
@@ -545,6 +547,10 @@ mge_exp_south_branch_2 = {
 			add_country_modifier = {
 				name = prep_o_war
 				duration = 10950
+			}
+			add_country_modifier = {
+				name = prep_o_war2
+				duration = -1
 			}
 		}
 	}
@@ -565,8 +571,9 @@ mge_exp_south_branch_2 = {
 			hebei_area = {
 				add_permanent_claim = ROOT
 			}
-			mongolia_region = {
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = prep_o_war3
+				duration = 9000
 			}
 		}
 	}
@@ -579,15 +586,23 @@ mge_exp_south_branch_2 = {
 		}
 		trigger = {
 			war_with = MNG
-			1816 = {
-				devastation = 20
+			OR = {
+				1816 = {
+					devastation = 20
+				}
+				owns_core_province = 1816
 			}
 		}
 		effect = {
-			add_country_modifier = {
-				name = raiding_beijing
-				duration = 7300
-			}
+			random_province = {
+                limit = {
+            	    owned_by = ROOT
+            		is_capital = yes
+            	}
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+            }
 		}
 	}
 	mge_ming_norf_hebei = {
@@ -695,6 +710,15 @@ mge_exp_south_branch_2 = {
 				name = emperor_of_sinos
 				duration = -1
 			}
+            china_superregion = {
+                limit = {
+                    owned_by = ROOT
+                }
+				add_province_modifier = {
+					name = "convert_china"
+					duration = -1
+				}
+            }
 		}
 	}
 	mge_ming_mandate = {
@@ -748,7 +772,7 @@ mge_exp_japan_branch_2 = {
 		required_missions = {  }
 		position = 12
 		trigger = {
-			navy_size_percentage = 0.9
+			navy_size_percentage = 0.5
 		}
 		effect = {
 			add_country_modifier = {
@@ -1580,10 +1604,7 @@ mge_exp_japan_branch_3 = {
 				limit = {
 					exists = JAP
 				}
-				AND = {
-					alliance_with = JAP
-					marriage_with  = JAP
-				}
+				alliance_with = JAP
 			}
 			else = {
 				OR = {
@@ -1600,9 +1621,11 @@ mge_exp_japan_branch_3 = {
 			}
 		}
 		effect = {
-			sakhalin_area = {
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = japanese_wood
+				duration = 7300
 			}
+			 
 		}
 	}
 	mge_jap_sakhalin = {
@@ -2609,13 +2632,8 @@ mge_culture_chin_4 = {
 			}
 		}
 		effect = {
-			2139 = {
+			shandong_area = {
 				change_culture = japwang
-				change_province_name = "Raishu"
-			}
-			2138 = {
-				change_culture = japwang
-				change_province_name = "Yane"
 			}
 		}
 	}
@@ -2687,10 +2705,8 @@ mge_culture_chin_4 = {
 			}
 			1821 = {
 				change_province_name = "Nankin"
-				add_province_modifier = {
-					name = forebearers_of_japan
-					duration = -1
-				}
+				add_base_tax = 2
+				add_base_production = 2
 			}
 			2145 = {
 				change_province_name = "Shizue"
@@ -2702,6 +2718,10 @@ mge_culture_chin_4 = {
 				change_province_name = "Joshu"
 			}
 			add_accepted_culture = japwang
+			add_country_modifier = {
+				name = forebearers_of_japan
+				duration = -1
+			}
 		}
 	}
 	mge_culture_canton = {

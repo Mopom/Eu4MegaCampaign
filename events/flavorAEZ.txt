@@ -14,48 +14,6 @@ country_event = {
 		hidden_effect = {
 			every_province = {
 				limit = {
-					AND = {
-						colonial_region = colonial_peru
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				discover_country = AEZ
-				add_core = AEZ
-				cede_province = AEZ
-			}
-			AEZ = {
-				change_government = republic
-				add_government_reform = federal_republic
-				change_religion = ROOT
-				change_primary_culture = ROOT
-				discover_provinces = ROOT
-				adopt_reform_progress = ROOT
-				add_republican_tradition = 50
-				capital_scope = {
-				build_to_forcelimit = {
-					infantry = 0.8
-					artillery = 0.2
-					heavy_ship = 0.3
-					light_ship = 0.3
-					transport = 0.3
-					}
-				}
-			}
-			every_province = {
-				limit = {
-					colonial_region = colonial_peru
-				}
-				add_claim = AEZ
-				remove_claim = MAL
-			}
-			every_province = {
-				limit = {
-					continent = africa
-					owned_by = MAL
-				}
-			}
-			every_province = {
-				limit = {
 					is_capital_of = AEZ
 					NOT = {
 						province_id = 808
@@ -1809,4 +1767,110 @@ country_event = {
 			school = zahrai_school
 		}
 	}
+}
+
+country_event = {
+	id = flavor_aez.33
+	title = "flavor_aez.33.t"
+	desc = "flavor_aez.33.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+	        tag = EKG
+            has_reform = trade_company_government
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "flavor_aez.33.a"
+        remove_government_reform = trade_company_government
+        add_government_reform = self_governing_colony_government
+    }
+}
+
+country_event = {
+	id = flavor_aez.34
+	title = "flavor_aez.34.t"
+	desc = "flavor_aez.34.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+            tag = FRA
+            religion = sunni
+            has_country_modifier = sacrament_true_presence
+            has_country_modifier = prophet_inspired
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "flavor_aez.34.a"
+        remove_country_modifier = sacrament_true_presence
+        remove_country_modifier = prophet_inspired
+    }
+}
+
+country_event = {
+	id = flavor_aez.35
+	title = "flavor_aez.35.t"
+	desc = "flavor_aez.35.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+            tag = Z01
+            has_reform = feudalism_reform
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "flavor_aez.35.a"
+        remove_government_reform = feudalism_reform
+        remove_government_reform = ganga_government
+        add_government_reform = ganga_government
+    }
+}
+
+country_event = {
+	id = flavor_aez.36
+	title = "flavor_aez.36.t"
+	desc = "flavor_aez.36.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+            tag = UBL
+            has_country_modifier = sacrament_spiritual_presence
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "flavor_aez.36.a"
+        remove_country_modifier = sacrament_spiritual_presence
+        add_country_modifier = {
+            name = sacrament_true_presence
+            duration = -1
+        }
+    }
 }

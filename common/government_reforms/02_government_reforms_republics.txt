@@ -1282,6 +1282,7 @@ federal_republic = {
 			AND = {
 				tag = USA
 				NOT = { map_setup = map_setup_random }
+				is_former_colonial_nation = yes
 			}
 			AND = {
 				is_playing_custom_nation = yes
@@ -1290,10 +1291,17 @@ federal_republic = {
 			AND = {
 				tag = AEZ
 				NOT = { map_setup = map_setup_random }
+				is_former_colonial_nation = yes
 			}
 			AND = {
 				tag = EKG
 				NOT = { map_setup = map_setup_random }
+				is_former_colonial_nation = yes
+			}
+			AND = {
+				tag = PEU
+				NOT = { map_setup = map_setup_random }
+				is_former_colonial_nation = yes
 			}
 		}
 	}

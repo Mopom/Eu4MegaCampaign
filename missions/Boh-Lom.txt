@@ -653,9 +653,15 @@ ubl_2_new = {
 
 		trigger = {
 			104 = {
-				has_great_project = {
-					type = any
-					tier = 2
+				OR = {
+					has_great_project = {
+						type = any
+						tier = 2
+					}
+					has_great_project = {
+						type = any
+						tier = 3
+					}
 				}
 			}
 		}
@@ -1276,8 +1282,11 @@ ubl_3 = {
 		}
 
 		trigger = {
-			all_owned_province = {
-				has_influencing_fort = yes
+			calc_true_if = {
+				all_owned_province = {
+					fort_level = 2
+				}
+				amount = 20
 			}
 		}
 		effect = {

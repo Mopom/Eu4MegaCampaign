@@ -1757,6 +1757,7 @@ dharmic = {
 
 		heretic = { BHAKTI }
 	}
+defender_of_faith = yes
 
 	gangan = {
 		color = { 0 153 153 }

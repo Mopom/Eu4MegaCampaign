@@ -233,18 +233,26 @@ guards_of_mong = {
 	local_defender_dice_roll_bonus = 1
 }
 prep_o_war = {
-	siege_ability = 0.15
-	can_bypass_forts = yes
-	morale_damage = 0.2
+	siege_ability = 0.1
+	morale_damage = 0.1
+}
+prep_o_war2 = {
+	fort_maintenance_modifier = -0.25
+	defensiveness = 0.15
+}
+prep_o_war3 = {
+	land_morale = 0.10
+}
+convert_china = {
+	culture_conversion_cost = -0.15
 }
 raiding_beijing = {
 	cav_to_inf_ratio = 0.15
 	cavalry_shock = 1
 }
 crusade_on_xina = {
-	missionaries = 1
-	global_missionary_strength = 0.01
-	cb_on_religious_enemies = yes
+	global_missionary_strength = 0.02
+    monthly_fervor_increase = 0.5
 }
 raiding_nanjing = {
 	cav_to_inf_ratio = 0.15
@@ -255,13 +263,13 @@ raid_of_nanking = {
 	war_exhaustion = 0.07
 }
 emperor_of_sinos = {
-	imperial_mandate = 0.05
-	army_tradition_from_battle = 0.01
-	prestige = 0.15
+	global_missionary_strength = 0.02
+	yearly_absolutism = 1
+	prestige = 0.3
 }
 control_china_trade = {
 	merchants = 1
-	trade_steering = 0.05
+	trade_steering = 0.2
 }
 control_of_astrakhan = {
 	merchants = 1
@@ -348,10 +356,8 @@ tea_over_coffee = {
 	global_unrest = -2
 }
 forebearers_of_japan = {
-	culture_conversion_cost = -0.15
-	relation_with_accepted_culture = 5
-	local_tax_modifier = 0.1
-	trade_value = 0.5
+	culture_conversion_cost = -0.2
+    institution_growth = 0.48
 }
 assylum_seekers = {
 	local_culture_conversion_cost = 0.35
@@ -468,32 +474,32 @@ relig_tib_conv = {
 	missionaries = 1
 }
 varanasi_relig = {
-	enforce_religion_cost = -0.33
+	church_loyalty_modifier = 0.05
 }
 ujjain_relig = {
 	caravan_power = 0.2
 	trade_efficiency = 0.1
 }
 feyzabad_relig = {
-	land_attrition = -0.1
+	special_unit_forcelimit = 0.05
 }
 panipat_relig = {
-	rival_border_fort_maintenance = -0.2
+	monarch_lifespan = 0.2
 }
 kanchipuram_relig = {
-	tolerance_heathen = 2
+	heir_chance = 0.7
 }
 halar_relig = {
-	cb_on_religious_enemies = yes
+	land_attrition = -0.1
 }
 relig_siam_conv = {
 	global_missionary_strength = 0.03
 	missionaries = 1
 }
 emp_of_ind = {
-	global_tax_modifier = 0.02
+	global_tax_modifier = 0.2
 	prestige_decay = -0.01
-	prestige_from_naval = 0.1
+	special_unit_forcelimit = 0.1
 }
 aju_trade_modifier = {
 	merchants = 1

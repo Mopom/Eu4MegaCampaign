@@ -1,5 +1,8 @@
 ﻿l_english:
  ############## MISSION ###############################
+flavor_aez.35.t:0 "The Universe shifts left a bit"
+flavor_aez.35.d:0 "Quantum ripples cause the Universe to shift left a bit today, unbeknownst to everyone"
+flavor_aez.35.a:0 "The END is near!!"
 gng_crisis:0 "Corruption of the Nayankara System"
 gng_crisis.1.t:0 "Ganga is Questioned"
 gng_crisis.1.d:0 "Gangan dynasty has been ruling for 500 years, it is now questioned for it's long lived rulers and it's ways"
@@ -16,6 +19,10 @@ ganga_corruption:0 "The cost of friends"
 ganga_corruption_title:0 "The cost of friends"
 ganga_worries_title:0 "Focus on peace"
 estate_ganga:0 "Ganga Dynasty"
+CHAKRAVARTI:0 "Chakravarti"
+CHAKRAVARTI_fem:0 "Chakravartin"
+O_KUNWAR:0 "O Kunwar"
+O_KUNWAR_fem:0 "O Kunwarin
 #Silk Road
 golden_highway.1.t:0 "Silk Road Construction in [Root.GetName]"
 golden_highway.1.da:0 "The first steps in the construction of the Silk Road in [Root.GetName] have been made. Heaps of rubble, gravel and dirt were long visible piled along the road, but now, after several weeks, they finally disappeared. Now the outline of the road is clearly visible. There is still a ways to go, but it's shaping up splendidly. For now the overseers in [Root.GetName] request further funding to continue the project."
@@ -66,3 +73,6 @@ golden_highway_persia:0 "Silk Road Persia"
 golden_highway_bengal:0 "Silk Road Bengal"
 golden_highway_aleppo:0 "Silk Road Aleppo"
 province_group:0 "province group"
+#Tanya
+japwang:0 "Taipanese"
+japanese_wood:0 "Japanese Wood"
