@@ -805,27 +805,45 @@ mge_exp_japan_branch_2 = {
 			1015 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					AND = {
-						alliance_with = HSK
-						country_or_non_sovereign_subject_holds = HSK
+					OR = {
+						AND = {
+							alliance_with = HSK
+							country_or_non_sovereign_subject_holds = HSK
+						}
+						AND = {
+							alliance_with = JAP
+							country_or_non_sovereign_subject_holds = JAP
+						}
 					}
 				}
 			}
 			2741 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					AND = {
-						alliance_with = HSK
-						country_or_non_sovereign_subject_holds = HSK
+					OR = {
+						AND = {
+							alliance_with = HSK
+							country_or_non_sovereign_subject_holds = HSK
+						}
+						AND = {
+							alliance_with = JAP
+							country_or_non_sovereign_subject_holds = JAP
+						}
 					}
 				}
 			}
 			4651 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					AND = {
-						alliance_with = HSK
-						country_or_non_sovereign_subject_holds = HSK
+					OR = {
+						AND = {
+							alliance_with = HSK
+							country_or_non_sovereign_subject_holds = HSK
+						}
+						AND = {
+							alliance_with = JAP
+							country_or_non_sovereign_subject_holds = JAP
+						}
 					}
 				}
 			}
@@ -833,7 +851,7 @@ mge_exp_japan_branch_2 = {
 				limit = {
 					exists = JAP
 				}
-				navy_size = JAP
+				navy_size = MNG
 			}
 			else = {
 				navy_size = HSK
