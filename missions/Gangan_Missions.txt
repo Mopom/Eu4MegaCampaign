@@ -773,9 +773,8 @@ slot = 1
 				add_country_modifier = {
 					name = relig_tib_conv
 					duration = 7300
-				override_country_name = GRTTIB
-			}
 				}
+				override_country_name = GRTTIB
 			}
 		}
 	}
