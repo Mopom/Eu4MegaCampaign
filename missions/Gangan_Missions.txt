@@ -762,7 +762,7 @@ slot = 1
 				type = all
 				owned_by = NPL
 			}
-			shanshan_area = {
+			kham_area = {
 				type = all
 				owned_by = NPL
 			}
@@ -773,6 +773,8 @@ slot = 1
 				add_country_modifier = {
 					name = relig_tib_conv
 					duration = 7300
+				override_country_name = GRTTIB
+			}
 				}
 			}
 		}
