@@ -1874,3 +1874,50 @@ country_event = {
         }
     }
 }
+
+country_event = {
+	id = flavor_aez.37
+	title = "flavor_aez.37.t"
+	desc = "flavor_aez.37.d"
+	picture = FROZEN_VILLAGE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+	    AND = {
+            tag = JAP
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "flavor_aez.37.a"
+        create_explorer = {
+		tradition = 60
+	}
+	fujian_area = {
+		limit = {
+			NOT = { is_core = ROOT }
+			NOT = { is_claim = ROOT }
+		}
+		add_claim = ROOT
+	}
+	zhejiang_area = {
+		limit = {
+			NOT = { is_core = ROOT }
+			NOT = { is_claim = ROOT }
+		}
+		add_claim = ROOT
+	}
+	northern_polynesia_area = {
+		if = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_claim = ROOT }
+		}
+			add_permanent_claim = ROOT
+		}
+	}
+    }
