@@ -620,14 +620,14 @@ tau_slot_3 = {
 			province_id = 586
 		}
 		trigger = {
-			586 = {
+			584 = {
 				is_capital = yes
 				development = 20
 				owned_by = ROOT
 			}
 		}
 		effect = {
-			586 = {
+			584 = {
 				change_culture = ROOT
 				add_province_modifier = {
 					name = "tau_new_capital"
@@ -636,6 +636,45 @@ tau_slot_3 = {
 				add_base_tax = 1
 				add_base_production = 1
 				add_base_manpower = 1
+			}
+			1815 = {
+				change_culture = ROOT
+			}
+			2402 = {
+				change_culture = ROOT
+			}
+			579 = {
+				change_culture = ROOT
+			}
+			568 = {
+				change_culture = ROOT
+			}
+			4396 = {
+				change_culture = ROOT
+			}
+			585 = {
+				change_culture = ROOT
+			}
+			4395 = {
+				change_culture = ROOT
+			}
+			4394 = {
+				change_culture = ROOT
+			}
+			2399 = {
+				change_culture = ROOT
+			}
+			581 = {
+				change_culture = ROOT
+			}
+			4393 = {
+				change_culture = ROOT
+			}
+			2398 = {
+				change_culture = ROOT
+			}
+			580 = {
+				change_culture = ROOT
 			}
 		}
 		ai_weight = {
