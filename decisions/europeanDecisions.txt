@@ -41,4 +41,54 @@ country_decisions = {
 		    add_dip_power = -150
 		}
 	}
+	make_constantinople_capital = {
+    	potential = {
+    		OR = {
+    			tag = Z00
+    		}
+    		owns = 151
+    		NOT = { capital = 151 }
+    		NOT = { has_country_flag = relocated_capital_constantinople }
+    	}
+    	allow = {
+    		is_at_war = no
+    		religion_group = muslim
+    		controls = 151
+    		owns = 149		# Edirne
+    		owns = 316		# Bithnyia
+    		owns = 317		# Bursa
+    		owns = 1764		# Burgas
+    		151 = {
+    			is_state = yes
+    		}
+    	}
+    	effect = {
+    		set_country_flag = relocated_capital_constantinople
+    		set_global_flag = greek_need_restore_constantinople
+    		add_stability = 1
+    		add_core = 151
+    		151 = {
+    			move_capital_effect = yes
+    			change_culture = dynamic-greek-al_suryah_arabic-culture-num1
+    			change_religion = ROOT
+    			rename_capital = Kostantiniyye
+    		}
+    		if = {
+    			limit = {
+    				NOT = { has_global_flag = constantinople_restored }
+    			}
+    			151 = {
+    				add_base_tax = 4
+    				add_base_production = 4
+    				add_base_manpower = 3
+    			}
+    			set_global_flag = constantinople_restored
+    		}
+    		set_government_rank = 3
+    	}
+    	ai_will_do = {
+    		factor = 1
+    	}
+    	do_not_core = 151 # Constantinople
+    }
 }

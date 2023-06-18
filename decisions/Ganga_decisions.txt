@@ -71,4 +71,26 @@ country_decisions = {
 			}
 		}
 	}	
+	save_the_burning_world_gng = {
+		potential = {
+			NOT = { has_country_modifier = saving_the_burning_world_gng }
+			religion = gangan
+		}
+		allow = {
+			ADM = 3
+		}
+		effect = {	
+			add_country_modifier = {
+				name = "saving_the_burning_world_gng"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_idea_group = humanist_ideas
+				factor = 0
+			}
+		}
+	}
 }
