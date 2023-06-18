@@ -1126,7 +1126,15 @@ golden_highway_aleppo_resume_construction = {
 		        tag = RUS
 		    }
 			russian_highway_moskva = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				NOT = {
 					has_province_modifier = russian_highway_construction_stalled
 					has_province_modifier = russian_highway_under_construction
@@ -1143,7 +1151,21 @@ golden_highway_aleppo_resume_construction = {
 		allow = {
 			russian_highway_moskva = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            AND = {
+				                tag = MGE
+                                has_opinion = {
+                                    who = RUS
+                                    value = 150
+                                }
+				            }
+				        }
+				    }
+				}
 			}
 			treasury = 300
 		}
@@ -1172,7 +1194,15 @@ golden_highway_aleppo_resume_construction = {
 		        tag = RUS
 		    }
 			russian_highway_vlad1 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				NOT = {
 					has_province_modifier = russian_highway_construction_stalled
 					has_province_modifier = russian_highway_under_construction
@@ -1189,7 +1219,21 @@ golden_highway_aleppo_resume_construction = {
 		allow = {
 			russian_highway_vlad1 = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            AND = {
+				                tag = MGE
+                                has_opinion = {
+                                    who = RUS
+                                    value = 150
+                                }
+				            }
+				        }
+				    }
+				}
 			}
 			treasury = 300
 		}
@@ -1218,7 +1262,15 @@ golden_highway_aleppo_resume_construction = {
 		        tag = RUS
 		    }
 			russian_highway_vlad2 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				NOT = {
 					has_province_modifier = russian_highway_construction_stalled
 					has_province_modifier = russian_highway_under_construction
@@ -1235,7 +1287,21 @@ golden_highway_aleppo_resume_construction = {
 		allow = {
 			russian_highway_vlad2 = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            AND = {
+				                tag = MGE
+                                has_opinion = {
+                                    who = RUS
+                                    value = 150
+                                }
+				            }
+				        }
+				    }
+				}
 			}
 			treasury = 300
 		}
@@ -1264,7 +1330,15 @@ golden_highway_aleppo_resume_construction = {
 		        tag = RUS
 		    }
 			russian_highway_vlad3 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				NOT = {
 					has_province_modifier = russian_highway_construction_stalled
 					has_province_modifier = russian_highway_under_construction
@@ -1281,7 +1355,21 @@ golden_highway_aleppo_resume_construction = {
 		allow = {
 			russian_highway_vlad3 = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            AND = {
+				                tag = MGE
+                                has_opinion = {
+                                    who = RUS
+                                    value = 150
+                                }
+				            }
+				        }
+				    }
+				}
 			}
 			treasury = 300
 		}
@@ -1306,7 +1394,15 @@ golden_highway_aleppo_resume_construction = {
 
 		potential = {
 			russian_highway_moskva = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				has_province_modifier = russian_highway_construction_stalled
 			}
 			is_subject = no
@@ -1330,7 +1426,15 @@ golden_highway_aleppo_resume_construction = {
 
 		potential = {
 			russian_highway_vlad1 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				has_province_modifier = russian_highway_construction_stalled
 			}
 			is_subject = no
@@ -1354,7 +1458,15 @@ golden_highway_aleppo_resume_construction = {
 
 		potential = {
 			russian_highway_vlad2 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				has_province_modifier = russian_highway_construction_stalled
 			}
 			is_subject = no
@@ -1378,7 +1490,15 @@ golden_highway_aleppo_resume_construction = {
 
 		potential = {
 			russian_highway_vlad3 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			    OR = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				    owner = {
+				        OR = {
+				            is_part_of_hre = yes
+				            tag = MGE
+				        }
+				    }
+				}
 				has_province_modifier = russian_highway_construction_stalled
 			}
 			is_subject = no
