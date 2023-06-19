@@ -46,9 +46,10 @@ country_event = {
 	    AND = {
 	        primary_culture = dynamic-saxon-culture-num1
             religion = samaritan_faith
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_canada
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_canada
+				}
             }
             is_colonial_nation = yes
 			NOT = { exists = EKG }
@@ -107,9 +108,10 @@ country_event = {
 	    AND = {
 	        is_subject_of = FRA
             religion = samaritan_faith
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_canada
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_canada
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -158,9 +160,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = FRA
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_eastern_america
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_eastern_america
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -209,9 +212,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        primary_culture = dynamic-breton-normand-occitain-culture-num1
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_louisiana
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_louisiana
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -272,9 +276,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = FRA
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_the_carribean
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_the_carribean
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -323,9 +328,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        primary_culture = dynamic-breton-normand-occitain-culture-num1
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_alaska
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_alaska
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -386,9 +392,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = FRA
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_mexico
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_mexico
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -440,9 +447,10 @@ country_event = {
 			213 = {
 				country_or_non_sovereign_subject_holds = FRA
 			}
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_california
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_california
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -491,9 +499,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = FRA
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_australia
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_australia
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -545,9 +554,10 @@ country_event = {
 			193 = {
 				country_or_non_sovereign_subject_holds = FRA
 			}
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_peru
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_peru
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -598,9 +608,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = FRA
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_colombia
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_colombia
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -662,9 +673,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = MAL
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_brazil
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_brazil
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -707,9 +719,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = Z00
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_australia
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_australia
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -752,9 +765,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = Z00
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_california
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_california
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -797,9 +811,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = RUS
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_alaska
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_alaska
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -828,6 +843,208 @@ country_event = {
 }
 
 country_event = {
+	id = flavor_aez.17
+	title = "flavor_aez.17.t"
+	desc = "flavor_aez.17.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_alaska
+				}
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = CSM
+					tag = CLN
+					tag = MEK
+					tag = AUI
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CSM
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.17.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.18
+	title = "flavor_aez.18.t"
+	desc = "flavor_aez.18.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_california
+				}
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = CLN
+					tag = CSM
+					tag = MEK
+					tag = AUI
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = CLN
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.18.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.19
+	title = "flavor_aez.19.t"
+	desc = "flavor_aez.19.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_mexico
+				}
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = MEK
+					tag = CSM
+					tag = CLN
+					tag = AUI
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = MEK
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.19.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.20
+	title = "flavor_aez.20.t"
+	desc = "flavor_aez.20.d"
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+	    AND = {
+	        is_subject_of = JAP
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_australia
+				}
+            }
+            is_colonial_nation = yes
+			NOT = {
+				OR = {
+					exists = AUI
+					tag = CSM
+					tag = CLN
+					tag = MEK
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		change_tag = AUI
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+
+	option = {
+		name = "flavor_aez.20.a"
+	}
+	
+	after = {
+		every_province = {
+			limit = {
+				is_capital_of = AUI
+			}
+			change_province_name = "Minasu Tirathu"
+			rename_capital = "Minasu Tirathu"
+		}
+	}
+}
+
+country_event = {
 	id = flavor_aez.21
 	title = "flavor_aez.21.t"
 	desc = "flavor_aez.21.d"
@@ -839,9 +1056,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_canada
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_canada
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -901,9 +1119,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_eastern_america
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_eastern_america
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -963,9 +1182,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_louisiana
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_louisiana
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1025,9 +1245,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_alaska
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_alaska
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1087,9 +1308,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_california
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_california
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1149,9 +1371,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_the_carribean
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_the_carribean
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1211,9 +1434,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_mexico
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_mexico
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1273,9 +1497,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_colombia
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_colombia
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1335,9 +1560,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_brazil
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_brazil
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1397,9 +1623,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_peru
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_peru
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1459,9 +1686,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_la_plata
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_la_plata
+				}
             }
             is_colonial_nation = yes
 			NOT = {
@@ -1521,9 +1749,10 @@ country_event = {
 	trigger = {
 	    AND = {
 	        is_subject_of = ADU
-            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 5
-                colonial_region = colonial_australia
+            ROOT = {
+				capital_scope = {
+					colonial_region = colonial_australia
+				}
             }
             is_colonial_nation = yes
 			NOT = {
