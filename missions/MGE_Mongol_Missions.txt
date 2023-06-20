@@ -1541,7 +1541,7 @@ mge_religion_path_3 = {
 		effect = {
 			add_country_modifier = {
 				name = crusade_on_xina
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
