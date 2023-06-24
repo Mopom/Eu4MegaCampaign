@@ -2027,9 +2027,43 @@ country_event = {
 	}
 
     option = {
-        name = "flavor_aez.39.a"
-        change_country_color = {
+		name = "flavor_aez.39.a"
+		change_country_color = {
 			color = { 255 255 255 }
 		}
     }
+}
+
+country_event = {
+	id = flavor_aez.40
+	title = "flavor_aez.40.t"
+	desc = "flavor_aez.40.d"
+	picture = muslimgfx_ADVISOR_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+	    OR = {
+            tag = NFL
+			tag = COG
+	    }
+		NOT = {
+			religious_school = {
+				group = muslim
+				school = zahrai_school
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+
+    option = {
+        name = "flavor_aez.40.a"
+		set_religious_school = {
+			group = muslim
+			school = zahrai_school
+		}
+	}
 }
