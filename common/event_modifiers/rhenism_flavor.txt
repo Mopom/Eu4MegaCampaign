@@ -41,8 +41,8 @@ edict_of_konstanz_absolute = {
 
 #Monasteries
 monasteries_de_rhenisme = {
-	church_power_modifier = 0.05
-	global_missionary_strength = 0.01
+	church_power_modifier = 0.01
+	global_missionary_strength = 0.001
 }
 dissolution_de_rhenisme = {
 	local_unrest = 15

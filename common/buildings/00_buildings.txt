@@ -1924,10 +1924,10 @@ farm_estate = {
 		}
 	}
 	on_destroyed = {
-		add_dev_from_building = {
+		remove_development_from_building = {
 			building = manufactory 
 			type = production 
-			value = 1 
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 

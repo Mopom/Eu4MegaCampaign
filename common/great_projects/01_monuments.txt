@@ -11092,6 +11092,7 @@ erdene_zuu = {
 				has_owner_religion = yes
 			}
 			province_is_buddhist_or_accepts_buddhism = yes
+			religion = nestorian
 		}
 	}
 
@@ -11108,6 +11109,7 @@ erdene_zuu = {
 				has_owner_religion = yes
 			}
 			province_is_buddhist_or_accepts_buddhism = yes
+			religion = nestorian
 		}
 	}
 
@@ -11118,6 +11120,7 @@ erdene_zuu = {
 				has_owner_religion = yes
 			}
 			province_is_buddhist_or_accepts_buddhism = yes
+			religion = nestorian
 		}
 	}
 

@@ -117,3 +117,97 @@ gangan_empire_titles = {
 		}
 	}
 }
+
+compagnie_de_la_cr_titles = {
+	rank = {
+		1 = SOCIETE
+		2 = COMPAGNIE
+		3 = GCOMPAGNIE
+	}
+	ruler_male = {
+		1 = GMASTER
+		2 = SDIRECTEUR
+		3 = SDIRECTEUR
+	}
+	ruler_female = {
+		1 = GMASTER_fem
+		2 = SDIRECTEUR_fem
+		3 = SDIRECTEUR_fem
+	}
+	trigger = {
+		tag = TIL
+		is_colonial_nation = yes
+	}
+}
+
+french_colon_titles = {
+	rank = {
+		1 = ARCHDUCHY
+		2 = KINGDOM
+		3 = ARCHKINGDOM
+	}
+
+	ruler_male = {
+		1 = ARCHDUKE
+		2 = KING
+		3 = ARCHKING
+	}
+
+	ruler_female = {
+		1 = ARCHDUCHESS
+		2 = QUEEN	
+		3 = ARCHQUEEN
+	}
+	
+	consort_male = {
+		1 = ARCHDUKE_CONSORT
+		2 = KING_CONSORT
+		3 = KING_CONSORT
+	}
+
+	consort_female = {
+		1 = ARCHDUCHESS
+		2 = QUEEN
+		3 = QUEEN
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+	trigger = {
+		is_colonial_nation_of = FRA
+	}
+}
+
+bohemia_head_of_house_titles = {
+	rank = {
+		1 = REPUBLIC
+		2 = GRAND_REPUBLIC
+		3 = GREAT_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = CAPTAIN_DEFENDER
+		2 = HEADOHOUSE
+		3 = HEADODYNASTY
+	}
+	
+	ruler_female = {
+		1 = CAPTAIN_DEFENDER_fem
+		2 = HEADOHOUSE
+		3 = HEADODYNASTY
+	}
+	trigger = {
+		tag = UBL
+		has_reform = ambrosian_republic
+		has_reform = nepotism_reform
+	}
+}
