@@ -29,6 +29,7 @@ country_event = {
 				470 = {
 					add_core = CMN
 					cede_province = CMN
+					remove_core = ROOT
 					set_in_empire = yes
 				}
 			}
@@ -42,6 +43,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -54,6 +56,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -66,6 +69,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -78,6 +82,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -90,6 +95,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -102,6 +108,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -114,6 +121,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -126,6 +134,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -138,6 +147,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -150,6 +160,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -162,6 +173,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -174,6 +186,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -186,6 +199,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -198,6 +212,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -210,6 +225,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -222,6 +238,7 @@ country_event = {
 					add_core = CMN
 					cede_province = CMN
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -234,6 +251,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -246,6 +264,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -258,6 +277,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -270,6 +290,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -282,6 +303,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -294,6 +316,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -306,6 +329,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -318,6 +342,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -330,6 +355,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -342,6 +368,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -354,6 +381,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -366,6 +394,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -378,6 +407,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -390,6 +420,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -402,6 +433,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -414,6 +446,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -426,6 +459,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -438,6 +472,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -450,6 +485,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -462,6 +498,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -474,6 +511,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -486,6 +524,7 @@ country_event = {
 					add_core = SHY
 					cede_province = SHY
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -498,6 +537,7 @@ country_event = {
 					add_core = Z0B
 					cede_province = Z0B
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			country_event = {
@@ -533,6 +573,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -545,6 +586,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -557,6 +599,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -569,6 +612,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -581,6 +625,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -593,6 +638,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -605,6 +651,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -617,6 +664,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -629,6 +677,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -641,6 +690,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -653,6 +703,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -665,6 +716,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -677,6 +729,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -689,6 +742,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -701,6 +755,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -713,6 +768,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -725,6 +781,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -737,6 +794,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -749,6 +807,7 @@ country_event = {
 					add_core = SIB
 					cede_province = SIB
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -761,6 +820,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -773,6 +833,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -785,6 +846,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -797,6 +859,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -809,6 +872,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -821,6 +885,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -833,6 +898,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -845,6 +911,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -857,6 +924,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -869,6 +937,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -881,6 +950,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -893,6 +963,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -905,6 +976,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -917,6 +989,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -929,6 +1002,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -941,6 +1015,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -953,6 +1028,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -965,6 +1041,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -977,6 +1054,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -989,6 +1067,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1001,6 +1080,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1013,6 +1093,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1025,6 +1106,7 @@ country_event = {
 					add_core = KHA
 					cede_province = KHA
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1037,6 +1119,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1049,6 +1132,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1061,6 +1145,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1073,6 +1158,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1085,6 +1171,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1097,6 +1184,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1109,6 +1197,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1121,6 +1210,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1133,6 +1223,7 @@ country_event = {
 					add_core = KRC
 					cede_province = KRC
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1145,6 +1236,7 @@ country_event = {
 					add_core = MJZ
 					cede_province = MJZ
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1157,6 +1249,7 @@ country_event = {
 					add_core = MJZ
 					cede_province = MJZ
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1169,6 +1262,7 @@ country_event = {
 					add_core = MJZ
 					cede_province = MJZ
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1181,6 +1275,7 @@ country_event = {
 					add_core = MJZ
 					cede_province = MJZ
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1193,6 +1288,7 @@ country_event = {
 					add_core = MHX
 					cede_province = MHX
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -1205,6 +1301,7 @@ country_event = {
 					add_core = MJZ
 					cede_province = MJZ
 					set_in_empire = yes
+					remove_core = ROOT
 				}
 			}
 			if = {
@@ -3518,8 +3615,8 @@ country_event = {
 					}
 				}
 				1940 = {
-					add_core = MAZ
-					cede_province = MAZ
+					add_core = VOL
+					cede_province = VOL
 					set_in_empire = yes
 				}
 			}
