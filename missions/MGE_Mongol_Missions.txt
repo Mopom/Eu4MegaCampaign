@@ -805,46 +805,22 @@ mge_exp_japan_branch_2 = {
 			1015 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						AND = {
-							alliance_with = HSK
-							country_or_non_sovereign_subject_holds = HSK
-						}
-						AND = {
-							alliance_with = JAP
-							country_or_non_sovereign_subject_holds = JAP
-						}
-					}
+					country_or_non_sovereign_subject_holds = HSK
+					country_or_non_sovereign_subject_holds = JAP
 				}
 			}
 			2741 = {
-				OR = { 
+				OR = {
 					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						AND = {
-							alliance_with = HSK
-							country_or_non_sovereign_subject_holds = HSK
-						}
-						AND = {
-							alliance_with = JAP
-							country_or_non_sovereign_subject_holds = JAP
-						}
-					}
+					country_or_non_sovereign_subject_holds = HSK
+					country_or_non_sovereign_subject_holds = JAP
 				}
 			}
 			4651 = {
-				OR = { 
+				OR = {
 					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						AND = {
-							alliance_with = HSK
-							country_or_non_sovereign_subject_holds = HSK
-						}
-						AND = {
-							alliance_with = JAP
-							country_or_non_sovereign_subject_holds = JAP
-						}
-					}
+					country_or_non_sovereign_subject_holds = HSK
+					country_or_non_sovereign_subject_holds = JAP
 				}
 			}
 			if = {
@@ -852,9 +828,11 @@ mge_exp_japan_branch_2 = {
 					exists = JAP
 				}
 				navy_size = MNG
+		        JAP = { alliance_with = ROOT }
 			}
 			else = {
 				navy_size = HSK
+		        HSK = { alliance_with = ROOT }
 			}
 		}
 		effect = {
