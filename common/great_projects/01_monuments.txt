@@ -11168,7 +11168,7 @@ erdene_zuu = {
 		country_modifiers = {
 			religious_unity = 0.1
 			church_loyalty_modifier = 0.05
-			yearly_karma_decay = 0.01
+			monthly_fervor_increase = 0.1
 		}
 		on_upgraded = {
 		}
@@ -11187,10 +11187,9 @@ erdene_zuu = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			horde_unity = 0.5
 			religious_unity = 0.2
 			church_loyalty_modifier = 0.1
-			yearly_karma_decay = 0.025
+			monthly_fervor_increase = 0.2
 		}
 		on_upgraded = {
 		}
@@ -11209,10 +11208,9 @@ erdene_zuu = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			horde_unity = 1
 			religious_unity = 0.3
 			church_loyalty_modifier = 0.15
-			yearly_karma_decay = 0.05
+			monthly_fervor_increase = 0.5
 		}
 		on_upgraded = {
 		}
