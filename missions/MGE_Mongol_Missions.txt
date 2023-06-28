@@ -1674,7 +1674,7 @@ mge_culture_chin_3 = {
 					JAP = {
 						has_opinion = {
 							who = ROOT
-							value = 140
+							value = 100
 						}
 					}
 				}
@@ -1686,7 +1686,7 @@ mge_culture_chin_3 = {
 						HSK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -1695,7 +1695,7 @@ mge_culture_chin_3 = {
 						ASK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -2593,7 +2593,7 @@ mge_culture_chin_4 = {
 					JAP = {
 						has_opinion = {
 							who = ROOT
-							value = 120
+							value = 80
 						}
 					}
 				}
@@ -2605,7 +2605,7 @@ mge_culture_chin_4 = {
 						HSK = {
 							has_opinion = {
 								who = ROOT
-								value = 120
+								value = 80
 							}
 						}
 					}
@@ -2614,7 +2614,7 @@ mge_culture_chin_4 = {
 						ASK = {
 							has_opinion = {
 								who = ROOT
-								value = 120
+								value = 80
 							}
 						}
 					}
@@ -2630,6 +2630,10 @@ mge_culture_chin_4 = {
 			shandong_area = {
 				change_culture = japwang
 			}
+			JAP = {
+                add_historical_friend = ROOT
+            }
+            add_historical_friend = JAP
 		}
 	}
 	mge_culture_nanjing = {
@@ -2653,7 +2657,7 @@ mge_culture_chin_4 = {
 					JAP = {
 						has_opinion = {
 							who = ROOT
-							value = 140
+							value = 100
 						}
 					}
 				}
@@ -2665,7 +2669,7 @@ mge_culture_chin_4 = {
 						HSK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -2674,7 +2678,7 @@ mge_culture_chin_4 = {
 						ASK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -2735,7 +2739,7 @@ mge_culture_chin_4 = {
 			JAP = {
 				has_opinion = {
 					who = ROOT
-					value = 150
+					value = 110
 				}
 			}
 			calc_true_if = {
@@ -2796,7 +2800,7 @@ mge_culture_chin_4 = {
 			JAP = {
 				has_opinion = {
 					who = ROOT
-					value = 180
+					value = 120
 				}
 			}
 		}
