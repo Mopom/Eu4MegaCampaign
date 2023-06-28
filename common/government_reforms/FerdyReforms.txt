@@ -192,26 +192,21 @@ rev_ganga_government = {
 	icon = "peacock_throne"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			has_country_flag = gng_crisis_happened
-			has_country_flag = hadhad_gngng
+		and = {
+			has_reform = revolutionary_empire_reform
+			tag = Z01
 		}
-	}
-	trigger = {
-		tag = Z01
-	}
+	}	
 	lock_level_when_selected = yes
-	legacy_equivalent = revolutionary_republic
+	legacy_equivalent = revolutionary_empire
 	uses_revolutionary_zeal = yes
 	revolutionary = yes
 	maintain_dynasty = yes
-	custom_attributes = {
-		election_on_death = yes
-	}
-
+	fixed_rank = 3
 	modifiers = {
 		tolerance_own = 1
 		governing_capacity = 150
+		max_revolutionary_zeal = 50
 	}
 
 	assimilation_cultures = {
