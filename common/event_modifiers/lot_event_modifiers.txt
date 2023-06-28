@@ -565,7 +565,9 @@ mal_summer_palts = {
 raj_admin_eff_also = {
 	administrative_efficiency = -0.5
 }
-
+brand_new_hre = {
+    improve_relation_modifier = 0.15
+}
 #TODO get a proper modifier
 fed_compromise_lives_on = {
     stability_cost_modifier = -0.1

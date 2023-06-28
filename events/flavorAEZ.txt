@@ -1978,24 +1978,15 @@ country_event = {
 	desc = flavor_rig.9.desc
 	picture = HRE_eventPicture
 
-	fire_only_once = yes
-	trigger = {
-	    AND = {
-            tag = UBL
-            any_country = { is_part_of_hre = yes }
-	    }
-	}
-
-	mean_time_to_happen = {
-		days = 3650
-	}
+	is_triggered_only = yes
+    fire_only_once = yes
 
 	option = {	#
 		name = flavor_rig.9.a
 		set_in_empire = yes
 
 		ai_chance = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 
@@ -2004,7 +1995,7 @@ country_event = {
 		add_prestige = 10
 
 		ai_chance = {
-			factor = 1
+			factor = 0.5
 		}
 	}
 }
