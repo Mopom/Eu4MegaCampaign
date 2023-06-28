@@ -30,13 +30,15 @@ rus_city_missions_1 = {
 			}
 		}
 		effect = {
-			add_base_tax = 3
-			add_base_production = 5
-			add_base_manpower = 2
-			change_estate_land_share = {
-				estate = estate_nobles
-				share = 5
+		    280 = {
+                add_base_tax = 3
+                add_base_production = 5
+                add_base_manpower = 2
 			}
+            change_estate_land_share = {
+                estate = estate_nobles
+                share = 5
+            }
 		}
 	}
 }
@@ -1366,6 +1368,10 @@ ortho_church_maintain_missions_2 = {
 					id = holy_rus_hre_event.3
 					days = 60
 				}
+                add_country_modifier = {
+                    name = brand_new_hre
+                    duration = 3650
+                }
 			}
 		}
 	}
