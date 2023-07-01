@@ -1708,22 +1708,15 @@ mge_culture_chin_3 = {
 			}
 		}
 		effect = {
-			704 = {
-				change_culture = japwang
-				change_province_name = "Kojoshi"
-				add_province_modifier = {
-					name = assylum_seekers
-					duration = 36500
-				}
-			}
-			4652 = {
-				change_culture = japwang
-				change_province_name = "Kaijoshi"
-				add_province_modifier = {
-					name = assylum_seekers
-					duration = 36500
-				}
-			}
+			liaoning_area = {
+                change_culture = japwang
+            }
+            JAP = {
+                add_opinion = {
+            	    who = ROOT
+            		modifier = japanese_expatriation_opinion
+            	}
+            }
 		}
 	}
 }
@@ -2729,8 +2722,8 @@ mge_culture_chin_4 = {
 		position = 17
 		provinces_to_highlight = {
 			OR = {
-				area = guangdong_area
-				area = west_guangdong_area
+				area = zhejiang_area
+				area = fujian_area
 			}
 			owned_by = ROOT
 		}
@@ -2753,38 +2746,23 @@ mge_culture_chin_4 = {
 				}
 				amount = 5
 			}
-			guangdong_area = {
+			zhejiang_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			west_guangdong_area = {
+			fujian_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
 			}
 		}
 		effect = {
-			guangdong_area = {
+			zhejiang_area = {
 				change_culture = japwang
 			}
-			west_guangdong_area = {
+			fujian_area = {
 				change_culture = japwang
-			}
-			667 = {
-				change_province_name = "Koshu"
-			}
-			2157 = {
-				change_province_name = "Sanbishi"
-			}
-			2156 = {
-				change_province_name = "Keiyo"
-			}
-			666 = {
-				change_province_name = "Kaiko"
-			}
-			2160 = {
-				change_province_name = "Hainan"
 			}
 			1367 = {
 				change_province_name = "South Japan Sea"
