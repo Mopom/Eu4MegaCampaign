@@ -805,46 +805,22 @@ mge_exp_japan_branch_2 = {
 			1015 = {
 				OR = { 
 					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						AND = {
-							alliance_with = HSK
-							country_or_non_sovereign_subject_holds = HSK
-						}
-						AND = {
-							alliance_with = JAP
-							country_or_non_sovereign_subject_holds = JAP
-						}
-					}
+					country_or_non_sovereign_subject_holds = HSK
+					country_or_non_sovereign_subject_holds = JAP
 				}
 			}
 			2741 = {
-				OR = { 
+				OR = {
 					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						AND = {
-							alliance_with = HSK
-							country_or_non_sovereign_subject_holds = HSK
-						}
-						AND = {
-							alliance_with = JAP
-							country_or_non_sovereign_subject_holds = JAP
-						}
-					}
+					country_or_non_sovereign_subject_holds = HSK
+					country_or_non_sovereign_subject_holds = JAP
 				}
 			}
 			4651 = {
-				OR = { 
+				OR = {
 					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						AND = {
-							alliance_with = HSK
-							country_or_non_sovereign_subject_holds = HSK
-						}
-						AND = {
-							alliance_with = JAP
-							country_or_non_sovereign_subject_holds = JAP
-						}
-					}
+					country_or_non_sovereign_subject_holds = HSK
+					country_or_non_sovereign_subject_holds = JAP
 				}
 			}
 			if = {
@@ -852,9 +828,11 @@ mge_exp_japan_branch_2 = {
 					exists = JAP
 				}
 				navy_size = MNG
+		        JAP = { alliance_with = ROOT }
 			}
 			else = {
 				navy_size = HSK
+		        HSK = { alliance_with = ROOT }
 			}
 		}
 		effect = {
@@ -1696,7 +1674,7 @@ mge_culture_chin_3 = {
 					JAP = {
 						has_opinion = {
 							who = ROOT
-							value = 140
+							value = 100
 						}
 					}
 				}
@@ -1708,7 +1686,7 @@ mge_culture_chin_3 = {
 						HSK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -1717,7 +1695,7 @@ mge_culture_chin_3 = {
 						ASK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -1730,22 +1708,15 @@ mge_culture_chin_3 = {
 			}
 		}
 		effect = {
-			704 = {
-				change_culture = japwang
-				change_province_name = "Kojoshi"
-				add_province_modifier = {
-					name = assylum_seekers
-					duration = 36500
-				}
-			}
-			4652 = {
-				change_culture = japwang
-				change_province_name = "Kaijoshi"
-				add_province_modifier = {
-					name = assylum_seekers
-					duration = 36500
-				}
-			}
+			liaoning_area = {
+                change_culture = japwang
+            }
+            JAP = {
+                add_opinion = {
+            	    who = ROOT
+            		modifier = japanese_expatriation_opinion
+            	}
+            }
 		}
 	}
 }
@@ -2615,7 +2586,7 @@ mge_culture_chin_4 = {
 					JAP = {
 						has_opinion = {
 							who = ROOT
-							value = 120
+							value = 80
 						}
 					}
 				}
@@ -2627,7 +2598,7 @@ mge_culture_chin_4 = {
 						HSK = {
 							has_opinion = {
 								who = ROOT
-								value = 120
+								value = 80
 							}
 						}
 					}
@@ -2636,7 +2607,7 @@ mge_culture_chin_4 = {
 						ASK = {
 							has_opinion = {
 								who = ROOT
-								value = 120
+								value = 80
 							}
 						}
 					}
@@ -2652,6 +2623,10 @@ mge_culture_chin_4 = {
 			shandong_area = {
 				change_culture = japwang
 			}
+			JAP = {
+                add_historical_friend = ROOT
+            }
+            add_historical_friend = JAP
 		}
 	}
 	mge_culture_nanjing = {
@@ -2675,7 +2650,7 @@ mge_culture_chin_4 = {
 					JAP = {
 						has_opinion = {
 							who = ROOT
-							value = 140
+							value = 100
 						}
 					}
 				}
@@ -2687,7 +2662,7 @@ mge_culture_chin_4 = {
 						HSK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -2696,7 +2671,7 @@ mge_culture_chin_4 = {
 						ASK = {
 							has_opinion = {
 								who = ROOT
-								value = 140
+								value = 100
 							}
 						}
 					}
@@ -2747,8 +2722,8 @@ mge_culture_chin_4 = {
 		position = 17
 		provinces_to_highlight = {
 			OR = {
-				area = guangdong_area
-				area = west_guangdong_area
+				area = zhejiang_area
+				area = fujian_area
 			}
 			owned_by = ROOT
 		}
@@ -2757,7 +2732,7 @@ mge_culture_chin_4 = {
 			JAP = {
 				has_opinion = {
 					who = ROOT
-					value = 150
+					value = 110
 				}
 			}
 			calc_true_if = {
@@ -2771,38 +2746,23 @@ mge_culture_chin_4 = {
 				}
 				amount = 5
 			}
-			guangdong_area = {
+			zhejiang_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			west_guangdong_area = {
+			fujian_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
 			}
 		}
 		effect = {
-			guangdong_area = {
+			zhejiang_area = {
 				change_culture = japwang
 			}
-			west_guangdong_area = {
+			fujian_area = {
 				change_culture = japwang
-			}
-			667 = {
-				change_province_name = "Koshu"
-			}
-			2157 = {
-				change_province_name = "Sanbishi"
-			}
-			2156 = {
-				change_province_name = "Keiyo"
-			}
-			666 = {
-				change_province_name = "Kaiko"
-			}
-			2160 = {
-				change_province_name = "Hainan"
 			}
 			1367 = {
 				change_province_name = "South Japan Sea"
@@ -2818,7 +2778,7 @@ mge_culture_chin_4 = {
 			JAP = {
 				has_opinion = {
 					who = ROOT
-					value = 180
+					value = 120
 				}
 			}
 		}

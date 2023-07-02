@@ -1077,6 +1077,8 @@
  fra_leave_alliance_desc:0 "For hundreds of years we have been part of this alliance, and it has been nothing but a burden for us. It is time to leave these remnants of the past behind and forge our own destiny."
  boh_leave_alliance_title:0 "Leave the Triple Entente"
  boh_leave_alliance_desc:0 "For hundreds of years we have been part of this alliance, and it has been nothing but a burden for us. It is time to leave these remnants of the past behind and forge our own destiny."
+ invite_bohemia_hre_title:0 "Invite Bohemia to the HRE"
+ invite_bohemia_hre_desc:0 "Our deals with the United Crowns of Bohemia-Lombardy have come to fruition, and they should now join our newly formed glorious empire."
  gng_jnp_reconquest_title:0 "Reclaim Lost Territory"
  gng_jnp_reconquest_desc:0 "Recent conflicts against the upstart Sultanate of Jaunpur have seen the loss of a great deal of our territory. We must take back our lands to the east, piece by piece."
  gng_grand_trunk_road_title:0 "The Grand Trunk Road"
@@ -1134,3 +1136,4 @@
  fedCoup.6.desc:0 "Sire, it seems the merchants that once ensured our prosperity are now profiteering from the situation and playing both sides!"
  fedCoup.7.desc:0 "Sire, it seems our colonies are starting to get ideas with the current instability, and one of them has mustered enough courage to revolt!"
  emp_ned_adjust_the_general_tt:2 " owned provinces in the §YNorth German§! region have at least §Y8§! §YBase Tax§!"
+ brand_new_hre:0 "The Holy Russian Empires awe."

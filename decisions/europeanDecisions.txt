@@ -91,4 +91,20 @@ country_decisions = {
     	}
     	do_not_core = 151 # Constantinople
     }
+	invite_bohemia_hre = {
+		potential = {
+			tag = RUS
+		}
+		allow = {
+			is_part_of_hre = yes
+			NOT = { has_country_modifier = brand_new_hre }
+		}
+		effect = {
+            UBL = {
+                country_event = {
+                    id = flavor_aez.38
+                }
+            }
+		}
+	}
 }
