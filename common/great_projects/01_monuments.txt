@@ -2085,7 +2085,7 @@ himeji_castle = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
+			meritocracy = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2115,7 +2115,7 @@ himeji_castle = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5		
+			meritocracy = 0.3	
 			spy_offence = 0.1
 			global_spy_defence = 0.2
 		}
@@ -2148,7 +2148,7 @@ himeji_castle = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5	
+			pmeritocracy = 0.6
 			spy_offence = 0.15
 			global_spy_defence = 0.25
 		}
