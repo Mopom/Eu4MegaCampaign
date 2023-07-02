@@ -9,7 +9,7 @@ fed_general_coup = {
                 current_age = age_of_absolutism
                 current_age = age_of_revolutions
             }
-            army_tradition = 50
+            army_tradition = 30
             OR = {
                 AND = {
                     FRA = {

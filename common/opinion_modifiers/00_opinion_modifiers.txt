@@ -5243,3 +5243,8 @@ trade_protectorate_called_into_war = {
 	yearly_decay = 2
 	min = -1000
 }
+
+japanese_expatriation_opinion = {
+	opinion = -25
+	yearly_decay = 1
+}

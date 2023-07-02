@@ -2088,6 +2088,123 @@ country_event = {
 				remove_core = RUS
 			}
 			release_all_subjects = yes
+            KUR = {
+                change_religion = orthodox
+            }
+            TEU = {
+                change_religion = orthodox
+            }
+            MAZ = {
+                change_religion = orthodox
+            }
+            CRI = {
+                change_religion = orthodox
+            }
+            QAS = {
+                change_religion = orthodox
+            }
+            GOL = {
+                change_religion = orthodox
+            }
+            BSH = {
+                change_religion = orthodox
+            }
+            OIR = {
+                change_religion = orthodox
+            }
+            SIB = {
+                change_religion = orthodox
+            }
+            Z0B = {
+                change_religion = orthodox
+            }
+            SKH = {
+                change_religion = orthodox
+            }
+            CHU = {
+                change_religion = orthodox
+            }
+            KAH = {
+                change_religion = orthodox
+            }
+            SOL = {
+                change_religion = orthodox
+            }
+            KRC = {
+                change_religion = orthodox
+            }
+            MYR = {
+                change_religion = orthodox
+            }
+            MJZ = {
+                change_religion = orthodox
+            }
+            EJZ = {
+                change_religion = orthodox
+            }
+            NHX = {
+                change_religion = orthodox
+            }
+            NVK = {
+                change_religion = orthodox
+            }
+            MHX = {
+                change_religion = orthodox
+            }
+            TVE = {
+                change_religion = sunni
+            }
+            SPB = {
+                change_government = republic
+                add_government_reform = oligarchy_reform
+            }
+            RIG = {
+                change_government = republic
+                add_government_reform = oligarchy_reform
+            }
+            AKH = {
+                change_government = republic
+                add_government_reform = oligarchy_reform
+            }
+            RSO = {
+                change_government = republic
+                add_government_reform = oligarchy_reform
+            }
+            VLD = {
+                change_government = republic
+                add_government_reform = oligarchy_reform
+            }
+            KMC = {
+                change_government = republic
+                add_government_reform = oligarchy_reform
+            }
+            4248 = {
+                change_religion = sunni
+            }
+            294 = {
+                change_religion = sunni
+            }
+            4249 = {
+                change_religion = sunni
+            }
+            298 = {
+                change_religion = sunni
+            }
+            291 = {
+                change_religion = sunni
+            }
+            4543 = {
+                change_religion = sunni
+            }
+            290 = {
+                change_religion = sunni
+            }
+            4542 = {
+                change_religion = sunni
+            }
+            2407 = {
+                change_religion = sunni
+            }
 		}
 	}
 }
