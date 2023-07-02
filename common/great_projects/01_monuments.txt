@@ -737,7 +737,7 @@ forbidden_city = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_absolutism = 0.25
-			imperial_mandate = 0.03
+			state_maintenance_modifier = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -767,8 +767,8 @@ forbidden_city = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_absolutism = 0.33
-			imperial_mandate = 0.03
-			prestige_decay = -0.01
+			state_maintenance_modifier = -0.2
+			min_autonomy_in_territories = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -798,7 +798,8 @@ forbidden_city = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_absolutism = 0.5
-			imperial_mandate = 0.05
+			state_maintenance_modifier = -0.25
+			min_autonomy_in_territories = -0.1
 			prestige_decay = -0.02
 		}
 
