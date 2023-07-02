@@ -738,6 +738,7 @@ forbidden_city = {
 		country_modifiers = {
 			yearly_absolutism = 0.25
 			state_maintenance_modifier = -0.1
+			advisor_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -768,7 +769,7 @@ forbidden_city = {
 		country_modifiers = {
 			yearly_absolutism = 0.33
 			state_maintenance_modifier = -0.2
-			min_autonomy_in_territories = -0.05
+			advisor_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -799,8 +800,8 @@ forbidden_city = {
 		country_modifiers = {
 			yearly_absolutism = 0.5
 			state_maintenance_modifier = -0.25
-			min_autonomy_in_territories = -0.1
 			prestige_decay = -0.02
+			advisor_cost = -0.15
 		}
 
 		#what effects happen when this tier is achieved
