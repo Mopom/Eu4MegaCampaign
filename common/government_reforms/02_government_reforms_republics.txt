@@ -255,7 +255,7 @@ prussian_republic_reform = {
 		enables_aristocratic_idea_group = no
 		generals_become_rulers = yes
 	}
-	
+
 	has_term_election = no
 }
 
