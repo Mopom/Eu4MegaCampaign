@@ -23,20 +23,20 @@ country_event = {
 		capital_scope = {
 			spawn_rebels = {
 				type = fed_republicans
-				size = 4
+				size = 6
 			}
 			random_neighbor_province = {
 				limit = { owned_by = ROOT }
 				spawn_rebels = {
 				    type = fed_monarchists
-					size = 2
+					size = 4
 				}
 			}
 		    random_neighbor_province = {
 				limit = { owned_by = ROOT }
 				spawn_rebels = {
 					type = fed_monarchists
-					size = 1
+					size = 3
 				}
 			}
 		}
@@ -90,11 +90,11 @@ country_event = {
 		name = fedCoup.3.a
 		event_target:event_province = {
 			spawn_rebels = {
-				size = 2
+				size = 5
 				type = fed_republicans
 			}
 			spawn_rebels = {
-				size = 2
+				size = 5
 				type = fed_monarchists
 			}
 		}
@@ -124,7 +124,7 @@ country_event = {
 		name = fedCoup.4.a
 		event_target:event_province = {
 			spawn_rebels = {
-				size = 1.5
+				size = 3
 				type = fed_monarchists
 			}
 		}
@@ -154,7 +154,7 @@ country_event = {
 		name = fedCoup.5.a
 		event_target:event_province = {
 			spawn_rebels = {
-				size = 1.5
+				size = 3
 				type = fed_republicans
 			}
 		}

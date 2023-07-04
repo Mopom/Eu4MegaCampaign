@@ -195,7 +195,6 @@ prussian_republic_reform = {
 				}
 			}
 			AND = {
-				is_playing_custom_nation = yes
 				OR = {
 					has_reform = prussian_republic_reform
 					have_had_reform = prussian_monarchy
@@ -216,7 +215,6 @@ prussian_republic_reform = {
 			religion = hussite
 			religion = anglican
 			AND = {
-				is_playing_custom_nation = yes
 				OR = {
 					hidden_trigger = {
 						has_reform = prussian_republic_reform
