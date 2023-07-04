@@ -869,8 +869,6 @@ age_of_revolutions = {
 			allow = {
 				OR = {
 					tag = UBL
-					has_reform = prussian_monarchy
-					has_reform = prussian_republic_reform
 				}
 			}
 			modifier = {
