@@ -1257,8 +1257,12 @@ al_Abbas_conquest_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds =  ROOT
 			}
-			country_or_non_sovereign_subject_holds = 321
-			country_or_non_sovereign_subject_holds = 163
+			321 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			163 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			macedonia_area = {
@@ -1639,33 +1643,17 @@ al_Abbas_the_star_and_crescent_1 = {
 		required_missions = { abs_jerusalem }
 		position = 5
 		provinces_to_highlight = {
-			OR = {
-				area = palestine_area
-				area = trans_jordan_area
-			}
+			area = trans_jordan_area
 		}
 		trigger = {
-			AND = {
-				palestine_area = {
-					type = all
-					owned_by = ROOT
-					is_core = ROOT
-				}
-				trans_jordan_area = {
-					type = all
-					owned_by = ROOT
-					is_core = ROOT
-				}
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
 			palestine_area = {
-				type = all
-				add_core = ISR
-				cede_province = ISR
-				remove_core = Z00
-			}
-			trans_jordan_area = {
 				type = all
 				add_core = ISR
 				cede_province = ISR

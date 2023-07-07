@@ -10,6 +10,7 @@ fed_general_coup = {
                 current_age = age_of_revolutions
             }
             army_tradition = 30
+            army_professionalism = 50
             OR = {
                 AND = {
                     FRA = {
@@ -17,7 +18,7 @@ fed_general_coup = {
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
-                    		value = 50
+                    		value = 40
                     	}
                     }
                     any_known_country = {
@@ -32,7 +33,7 @@ fed_general_coup = {
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
-                    		value = 50
+                    		value = 40
                     	}
                     }
                     any_known_country = {
@@ -47,7 +48,7 @@ fed_general_coup = {
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
-                    		value = 50
+                    		value = 40
                     	}
                     }
                     any_known_country = {
@@ -80,11 +81,15 @@ fed_general_coup = {
 	}
 	
 	can_end = {
+	    war_exhaustion = 0
 		stability = 2
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		custom_trigger_tooltip = {
 			tooltip = disaster_active_for_10_years_tooltip
-			had_country_flag = { flag = had_court_and_country days = 3650 }
+			had_country_flag = {
+			    flag = fed_coup
+			    days = 3650
+			}
 		}
 	}
 	
@@ -102,10 +107,10 @@ fed_general_coup = {
 		events = {}
 		random_events = {
 			1200 = 0
-			100 = fedCoup.3 #both sides fight
-			50 = fedCoup.4 #monarchist spawn
-			50 = fedCoup.5 #republican spawn
-			50 = fedCoup.6 #greedy merchants
+			150 = fedCoup.3 #both sides fight
+			60 = fedCoup.4 #monarchist spawn
+			60 = fedCoup.5 #republican spawn
+			40 = fedCoup.6 #greedy merchants
 			50 = fedCoup.7 #colony revolts
 		}
 	}
