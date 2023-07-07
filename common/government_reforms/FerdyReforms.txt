@@ -189,15 +189,15 @@ ganga_government = {
 }
 
 rev_ganga_government = {
+	lock_level_when_selected = yes
 	icon = "peacock_throne"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	potential = {
 		and = {
-			has_reform = revolutionary_empire_reform
+			has_reform = rev_ganga_government
 			tag = Z01
 		}
 	}	
-	lock_level_when_selected = yes
 	legacy_equivalent = revolutionary_empire
 	uses_revolutionary_zeal = yes
 	revolutionary = yes
@@ -205,10 +205,24 @@ rev_ganga_government = {
 	fixed_rank = 3
 	modifiers = {
 		tolerance_own = 1
+		global_autonomy = -0.2
 		governing_capacity = 150
 		max_revolutionary_zeal = 50
 	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
 
+	conditional = {
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		factions = {
+			rr_jacobins
+			rr_royalists
+			rr_girondists
+		}
+	}
 	assimilation_cultures = {
 		altaic = {
 			artillery_cost = -0.1
@@ -375,6 +389,20 @@ rev_ganga_government = {
 		}
 		dragon_group = {
 			monarch_military_power = 1
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = ganga_happened_flag
+					is_revolutionary = no
+				}
+				clr_country_flag = ganga_happened_flag
+				restore_country_name = yes
+				override_country_name = GANGA_STRING
+				set_country_flag = is_ganga_flag
+			}
 		}
 	}
 }

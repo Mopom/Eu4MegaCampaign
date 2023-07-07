@@ -33,6 +33,7 @@ monarchy = {
 				english_monarchy
 				mandala_reform
 				revolutionary_empire_reform
+				rev_ganga_government
 				holy_state_reform
 				austrian_archduchy_reform
 				siamese_absolutism
@@ -463,6 +464,7 @@ monarchy = {
 		sultanate_of_rum_reform
 		ottoman_government
 		revolutionary_empire_reform
+		rev_ganga_government
 		prussian_monarchy
 		prussian_monarchy_base
 		elective_monarchy
