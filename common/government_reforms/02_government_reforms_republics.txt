@@ -256,7 +256,7 @@ prussian_republic_reform = {
 		generals_become_rulers = yes
 	}
 
-	has_term_election = no
+	duration = 7
 }
 
 merchants_reform = {
