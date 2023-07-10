@@ -213,7 +213,7 @@ ganga_revolution = {
 					NOT = { num_of_rebel_controlled_provinces = 1 }
 					NOT = { num_of_rebel_armies = 1 }
 					custom_trigger_tooltip = {
-						tooltip = bonaparte_flag.tooltip
+						tooltip = palpat_flag.tooltip
 						has_ruler_flag = palpat_flag
 					}
 				}
