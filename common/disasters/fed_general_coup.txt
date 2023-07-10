@@ -10,11 +10,10 @@ fed_general_coup = {
                 current_age = age_of_revolutions
             }
             army_tradition = 30
-            army_professionalism = 50
+            army_professionalism = 0.5
             OR = {
                 AND = {
                     FRA = {
-                        is_great_power = yes
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
@@ -29,7 +28,6 @@ fed_general_coup = {
                 }
                 AND = {
                     UBL = {
-                        is_great_power = yes
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
@@ -44,7 +42,6 @@ fed_general_coup = {
                 }
                 AND = {
                     RUS = {
-                        is_great_power = yes
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
