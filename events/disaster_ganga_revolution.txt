@@ -271,8 +271,8 @@ country_event = {
 		define_ruler = {
 			name = "Ari Skysky"
 			adm = 3
-			dip = 5
-			mil = 4
+			dip = 3
+			mil = 5
 			min_age = 30
 			max_age = 40
 		}
@@ -967,7 +967,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_global_flag = ganga_happened_flag }
+		NOT = { has_global_flag = palpat_happened_flag }
 		OR = {
 			is_year = 1799
 			has_country_flag = gan_monarch_executed
@@ -982,7 +982,7 @@ country_event = {
 	}
 	
 	immediate = {
-		set_global_flag = ganga_happened_flag
+		set_global_flag = palpat_happened_flag
 	}
 	
 	option = {		# We need Brilliant Leadership!

@@ -717,7 +717,7 @@ slot = 1
 		provinces_to_highlight = {
 			OR = {
 				area = tsang_area
-				province_id = 710
+				province_id = 2132
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -729,7 +729,7 @@ slot = 1
 				owned_by = NPL
 			}
 			NPL = {
-				owns_core_province = 710
+				owns_core_province = 2132
 			}
 		}
 		effect = {
@@ -751,7 +751,7 @@ slot = 1
 		provinces_to_highlight = {
 			OR = {
 				area = amdo_area
-				area = shanshan_area
+				area = kham_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT

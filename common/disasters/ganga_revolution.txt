@@ -179,8 +179,8 @@ ganga_revolution = {
 				}
 				stability = 3
 				custom_trigger_tooltip = {
-					tooltip = ganga_flag.tooltip
-					has_ruler_flag = ganga_flag
+					tooltip = palpat_flag.tooltip
+					has_ruler_flag = palpat_flag
 				}
 			}
 			NOT = { num_of_rebel_controlled_provinces = 1 }
@@ -213,7 +213,7 @@ ganga_revolution = {
 					NOT = { num_of_rebel_controlled_provinces = 1 }
 					NOT = { num_of_rebel_armies = 1 }
 					custom_trigger_tooltip = {
-						tooltip = bonaparte_flag.tooltip
+						tooltip = palpat_flag.tooltip
 						has_ruler_flag = palpat_flag
 					}
 				}
@@ -237,7 +237,7 @@ ganga_revolution = {
 	
 	on_monthly = {
 		events = {
-			french_revolution.2 #The French Revolution
+			ganga_revolution.2 #The French Revolution
 		}
 		random_events = {
 			800 = 0
