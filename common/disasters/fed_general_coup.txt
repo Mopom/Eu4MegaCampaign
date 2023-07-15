@@ -17,7 +17,7 @@ fed_general_coup = {
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
-                    		value = 40
+                    		value = 30
                     	}
                     }
                     any_known_country = {
@@ -31,7 +31,7 @@ fed_general_coup = {
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
-                    		value = 40
+                    		value = 30
                     	}
                     }
                     any_known_country = {
@@ -45,7 +45,7 @@ fed_general_coup = {
                         war_with = Z02
                      	war_score_against = {
                     	    who = Z02
-                    		value = 40
+                    		value = 30
                     	}
                     }
                     any_known_country = {
@@ -70,7 +70,7 @@ fed_general_coup = {
 	
 	progress = {
 		modifier = {
-			factor = 30
+			factor = 33
 			capital_scope = {
                 NOT = { controlled_by = ROOT }
             }
