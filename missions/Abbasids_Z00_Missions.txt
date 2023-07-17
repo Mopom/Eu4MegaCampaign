@@ -1643,7 +1643,7 @@ al_Abbas_the_star_and_crescent_1 = {
 		required_missions = { abs_jerusalem }
 		position = 5
 		provinces_to_highlight = {
-			area = trans_jordan_area
+			area = palestine_area
 		}
 		trigger = {
 			palestine_area = {
@@ -2138,10 +2138,7 @@ al_Abbas_the_star_and_crescent_2 = {
 		required_missions = { abs_great_mosques }
 		position = 5
 		provinces_to_highlight = {
-			OR = {
-				province_id = 2310
-				province_id = 409
-			}
+			province_id = 2310
 		}
 		trigger = {
 			2310 = {
@@ -2159,21 +2156,6 @@ al_Abbas_the_star_and_crescent_2 = {
 					has_trade_building_trigger = yes
 				}
 			}
-			409 = {
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					has_great_project = {
-						type = imam_hussein_al-abbas
-						tier = 2
-					}
-				}
-				else = {
-					has_tax_building_trigger = yes
-					has_trade_building_trigger = yes
-				}
-			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -2182,85 +2164,10 @@ al_Abbas_the_star_and_crescent_2 = {
 			}
 		}
 	}
-	abs_burn_the_heretics = {
-		icon = mission_kon_repel_the_missionaries
-		required_missions = { abs_spiral_samarra }
-		position = 6
-		provinces_to_highlight = {
-			OR = {
-				province_id = 319
-				province_id = 419
-				province_id = 2769
-			}
-		}
-		trigger = {
-			owns_core_province = 319
-			owns_core_province = 419
-			owns_core_province = 2769
-			319 = {
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					NOT = {
-						has_great_project = {
-							type = mausoleum_at_halicarnassus
-							tier = 1
-						}
-					}
-				}
-				else = {
-					has_tax_building_trigger = yes
-					has_trade_building_trigger = yes
-				}
-			}
-			419 = {
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					NOT = {
-						has_great_project = {
-							type = etchimiadzin_cathedral
-							tier = 1
-						}
-					}
-				}
-				else = {
-					has_tax_building_trigger = yes
-					has_trade_building_trigger = yes
-				}
-			}
-			2769 = {
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					NOT = {
-						has_great_project = {
-							type = churches_lalibela
-							tier = 1
-						}
-					}
-				}
-				else = {
-					has_tax_building_trigger = yes
-					has_trade_building_trigger = yes
-				}
-			}
-		}
-		effect = {
-			add_treasury = 6000
-			add_country_modifier = {
-				name = end_of_jizya_abb
-				duration = 36500
-			}
-		}
-	}
 	abs_konstantiyye = {
 		icon = mission_hagia_sophia
-		required_missions = { abs_burn_the_heretics }
-		position = 7
+		required_missions = { abs_spiral_samarra }
+		position = 6
 		provinces_to_highlight = {
 			province_id = 151
 		}
