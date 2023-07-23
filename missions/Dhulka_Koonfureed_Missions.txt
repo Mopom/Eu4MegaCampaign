@@ -17,7 +17,7 @@ Dhulka_Expand  = {
 
 	has_country_shield = yes
 	
-	pirate_a_second_madagascar = {
+	pirate_a_second_madagascar_2 = {
 		icon = mission_early_game_buildings
 		required_missions = { }
 		
@@ -34,14 +34,14 @@ Dhulka_Expand  = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "pirate_a_second_madagascar"
+				name = "second_madagascar"
 				duration = 7300
 			}
 		}
 	}
-	pirate_an_old_fort = {
+	pirate_an_old_fort_2 = {
 		icon = mission_conquer_50_development
-		required_missions = { pirate_a_second_madagascar }
+		required_missions = { pirate_a_second_madagascar_2 }
 		
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -79,9 +79,9 @@ Dhulka_Expand  = {
 			}
 		}
 	}
-	pirate_running_down_to_new_zealnd = {
+	pirate_running_down_to_new_zealand = {
 		icon = mission_unite_home_region
-		required_missions = { pirate_an_old_fort }
+		required_missions = { pirate_an_old_fort_2 }
 		
 		provinces_to_highlight = {
 			OR = {

@@ -4022,7 +4022,7 @@ pirate_the_pirate_threat = {
 	global_manpower_modifier = 0.1
 }
 
-pirate_a_second_madagascar = {
+second_madagascar = {
 	global_tax_modifier = 0.1
 	build_cost = -0.1
 }
