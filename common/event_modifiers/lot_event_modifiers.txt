@@ -244,7 +244,7 @@ prep_o_war3 = {
 	land_morale = 0.10
 }
 convert_china = {
-	culture_conversion_cost = -0.15
+	culture_conversion_time = -0.002
 }
 raiding_beijing = {
 	cav_to_inf_ratio = 0.15
