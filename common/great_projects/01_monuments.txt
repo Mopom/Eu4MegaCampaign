@@ -7445,6 +7445,7 @@ kiev_pechersk_lavra = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_patriarch_authority = 0.001
+			imperial_authority_value = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -7475,6 +7476,8 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.002
 			tolerance_own = 1
+			free_city_imperial_authority = 0.1
+			imperial_authority_value = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -7506,6 +7509,8 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.005
 			tolerance_own = 2
+			free_city_imperial_authority = 0.2
+			imperial_authority_value = 0.15
 		}
 
 		#what effects happen when this tier is achieved
