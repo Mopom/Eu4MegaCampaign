@@ -365,3 +365,28 @@ country_event = {
 		clr_global_flag = boh_for_peace_flag
 	}
 }
+
+country_event = {
+	id = europeanPeace.13
+	title = europeanPeace.13.t
+	desc = europeanPeace.13.desc
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = HSC
+        is_subject = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Shit
+		name = europeanPeace.13.a
+		add_country_modifier = {
+            name = no_conversion_here
+            duration = -1
+        }
+	}
+}

@@ -960,6 +960,7 @@
  gra_lot_west_iberia_desc:0 "The Maliks of [SIC.GetName] hold a sizeable portion of Iberia, especially in the south around the vital choke-point of Jabal Tariq. If we integrate this land we can exert control over the Straits and guarantee the safety of the sea faring merchants."
  ############## Catholicism and Charlemagne #####################################
  cathol_unrest_halb:0 "Catholics on the Streets"
+ no_conversion_here:0 "Enforced Religious Peace"
  catholics_and_colonies.6.t:0 "A Price for Rhenism"
  catholics_and_colonies.6.d:0 "The [HLR.Monarch.GetTitle]s of the [HLR.GetName] descend from a line of heretics to our Great Church. Ever since 1341 they have followed the footsteps of Dolça de Poitou and forsook the Pope Anastasius IV. Though their current [HLR.Monarch.GetTitle] have returned to our Catholic fold they must repent for the heresies of their predecessors. Perhaps undoing some of their worldly possessions would guide them in their faith."
  catholics_and_colonies.6.a:0 "Avenio will be a just repentence."

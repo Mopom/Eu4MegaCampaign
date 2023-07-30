@@ -4,3 +4,6 @@ cathol_unrest = {
 cathol_unrest_halb = {
 	local_unrest = 8
 }
+no_conversion_here = {
+    global_missionary_strength = -2
+}

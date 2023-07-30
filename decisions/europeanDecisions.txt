@@ -94,6 +94,9 @@ country_decisions = {
 	invite_bohemia_hre = {
 		potential = {
 			tag = RUS
+			UBL = {
+                is_part_of_hre = no
+            }
 		}
 		allow = {
 			is_part_of_hre = yes
