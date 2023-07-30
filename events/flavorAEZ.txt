@@ -39,7 +39,7 @@ country_event = {
 		switch_tag = AEZ
 		MAL = {
 			release_all_possible_countries = yes
-			set_bankruptcy = ROOT
+			set_bankruptcy = MAL
 			release_all_subjects = yes
 		}
 	}
