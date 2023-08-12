@@ -1644,7 +1644,7 @@ ubl_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "bergordnung_reforms"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
