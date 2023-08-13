@@ -343,6 +343,7 @@ RUS_ideas = {
 
 	bonus = {
 		imperial_authority_value = 0.05
+		heir_chance = 0.33
 	}
 
 	trigger = {
@@ -368,7 +369,7 @@ RUS_ideas = {
 	}
 	table_of_ranks = {
 		build_time = -0.33
-	}	
+	}
 	curriculum_of_the_cadet_corps = {
 		fire_damage = 0.1
 		fire_damage_received = -0.1
