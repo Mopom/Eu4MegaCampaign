@@ -84,10 +84,20 @@ country_event = {
 			}
 			add_government_reform = presidential_despot_reform	
 		}
+		else_if ={
+			limit = { 
+				government = republic	
+				religion = gangan
+				is_revolutionary_republic_trigger = yes
+			}
+			change_government_to_monarchy = yes
+			add_government_reform = rev_ganga_government
+		}
 		else_if = {
 			limit = {
 				government = republic
 				NOT = { republican_tradition = 20 }	
+				NOT = { religion = gangan }
 				is_revolutionary_republic_trigger = yes
 			}
 			change_government_to_monarchy = yes

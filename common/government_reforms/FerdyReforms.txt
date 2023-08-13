@@ -211,6 +211,7 @@ rev_ganga_government = {
 	}
 	custom_attributes = {
 		locked_government_type = yes
+		enables_estate_rajput = yes
 	}
 
 	conditional = {
