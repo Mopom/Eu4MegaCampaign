@@ -209,10 +209,6 @@ rev_ganga_government = {
 		governing_capacity = 150
 		max_revolutionary_zeal = 50
 	}
-	custom_attributes = {
-		locked_government_type = yes
-		enables_estate_rajput = yes
-	}
 
 	conditional = {
 		allow = {
@@ -222,6 +218,13 @@ rev_ganga_government = {
 			rr_jacobins
 			rr_royalists
 			rr_girondists
+		}
+		custom_attributes = {
+			enables_estate_rajput = yes
+			disables_estate_nobles = yes
+			disables_estate_church = yes
+			disables_estate_jains = yes
+			disables_estate_burghers = yes
 		}
 	}
 	assimilation_cultures = {
