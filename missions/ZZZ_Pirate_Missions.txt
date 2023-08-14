@@ -181,6 +181,7 @@ pirate_2 = {
 		}	
 		NOT = { map_setup = map_setup_random }
 		NOT = { tag = AJU }
+		NOT = { tag = DHK }
 		
 		capital_scope = {
 			colonial_region = colonial_the_carribean
@@ -380,6 +381,7 @@ pirate_3 = {
 			has_reform = pirate_republic_reform
 		}	
 		NOT = { tag = AJU }
+		NOT = { tag = DHK }
 	}
 
 	has_country_shield = yes
@@ -497,6 +499,7 @@ pirate_5 = {
 			has_reform = pirate_republic_reform
 		}
 		NOT = { tag = AJU }
+		NOT = { tag = DHK }
 	}
 		
 	has_country_shield = yes
