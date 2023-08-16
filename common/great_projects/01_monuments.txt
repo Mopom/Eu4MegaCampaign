@@ -14511,6 +14511,7 @@ white_house = {
 			OR = {
 				is_former_colonial_nation = yes
 				tag = USA
+				tag = VRM
 			}			
 		}
 	}
@@ -14526,6 +14527,7 @@ white_house = {
 			OR = {
 				is_former_colonial_nation = yes
 				tag = USA
+				tag = VRM
 			}			
 		}
 	}
@@ -14535,6 +14537,7 @@ white_house = {
 			OR = {
 				is_former_colonial_nation = yes
 				tag = USA
+				tag = VRM
 			}			
 		}
 	}
