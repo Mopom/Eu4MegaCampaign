@@ -687,11 +687,6 @@ adu_slot_2_missions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			catalonia_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
 			alentejo_area = {
 				type = all
 				owned_by = ROOT
@@ -701,6 +696,22 @@ adu_slot_2_missions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
+			}
+			2987 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2988 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			213 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			212 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		
