@@ -883,11 +883,10 @@ age_of_revolutions = {
 				OR = {
 					tag = AVE
 					tag = GBR
-					navy_size = 200
 				}
 			}
 			modifier = {
-				naval_maintenance_modifier = -0.33
+				max_admiral_fire = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -907,16 +906,15 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		ab_austria_rep = {
+		ab_austrian_morale = {
 			allow = {
 				OR = {
 					tag = HAB
 					tag = HLR
-					is_emperor = yes
 				}
 			}
 			modifier = {
-				diplomatic_reputation = 5
+				morale_damage_received = -0.2
 			}
 			ai_will_do = {
 				factor = 100

@@ -29,7 +29,7 @@ Dhulka_Expand  = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "pirate_a_second_madagascar"
+				name = "second_madagascar"
 				duration = 7300
 			}
 			set_capital = 1086
