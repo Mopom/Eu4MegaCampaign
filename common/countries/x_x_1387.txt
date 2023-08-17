@@ -1,6 +1,7 @@
 ck2_converter_generated = yes
 graphical_culture = easterngfx
 color = { 50 123 70 }
+revolutionary_colors = { 16 0 11 }
 monarch_names = {
 	"Muhammad #7" = 50
 	"Abu-Bakr #1" = 5
