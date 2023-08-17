@@ -1,23 +1,18 @@
-
 Dhulka_Expand  = {
 	slot = 1
-	generic = yes
+	generic = no
 	ai = yes
-	
 	potential_on_load = {
 		has_dlc = "Golden Century"
 	}
-
 	potential = {
 		has_dlc = "Golden Century"
 		NOT = { map_setup = map_setup_random }
-		tag = DHK
-		
+		tag = DHK	
 	}
-
 	has_country_shield = yes
 	
-	pirate_a_second_madagascar_2 = {
+	pirate_a_second_madagascar2 = {
 		icon = mission_early_game_buildings
 		required_missions = { }
 		
@@ -37,11 +32,12 @@ Dhulka_Expand  = {
 				name = "second_madagascar"
 				duration = 7300
 			}
+			set_capital = 1086
 		}
 	}
-	pirate_an_old_fort_2 = {
+	pirate_an_old_fort2 = {
 		icon = mission_conquer_50_development
-		required_missions = { pirate_a_second_madagascar_2 }
+		required_missions = { pirate_a_second_madagascar2 }
 		
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -79,9 +75,9 @@ Dhulka_Expand  = {
 			}
 		}
 	}
-	pirate_running_down_to_new_zealand = {
+	pirate_running_down_to_new_zealand2 = {
 		icon = mission_unite_home_region
-		required_missions = { pirate_an_old_fort_2 }
+		required_missions = { pirate_an_old_fort2 }
 		
 		provinces_to_highlight = {
 			OR = {
@@ -121,7 +117,7 @@ Dhulka_Expand  = {
 }
 Dhulka_Pacific  = {
 	slot = 2
-	generic = yes
+	generic = no
 	ai = yes
 	
 	potential_on_load = {
@@ -137,7 +133,7 @@ Dhulka_Pacific  = {
 
 	has_country_shield = yes
 	
-	island_hopping = {
+	island_hopping2 = {
 		icon = mission_invade_island
 		provinces_to_highlight = {
 			region = oceanea_region
@@ -161,9 +157,9 @@ Dhulka_Pacific  = {
 		}
 	}
 	
-	DHK_secure_the_pacific = {
+	DHK_secure_the_pacific2 = {
 		icon = mission_invade_island
-		required_missions = { island_hopping }
+		required_missions = { island_hopping2 }
 		provinces_to_highlight = {
 			area = northern_polynesia_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -196,9 +192,9 @@ Dhulka_Pacific  = {
 		}
 	}
 	
-	DHK_colonize_california = {
+	DHK_colonize_california2 = {
 		icon = mission_establish_high_seas_navy
-		required_missions = { DHK_secure_the_pacific }
+		required_missions = { DHK_secure_the_pacific2 }
 		
 		provinces_to_highlight = {
 			colonial_region = colonial_california
@@ -240,7 +236,7 @@ Dhulka_Pacific  = {
 }
 pirate_3 = {
 	slot = 3
-	generic = yes
+	generic = no
 	ai = yes
 	
 	potential_on_load = {
@@ -256,7 +252,7 @@ pirate_3 = {
 
 	has_country_shield = yes
 	
-	pirate_a_pirate_fleet = {
+	pirate_a_pirate_fleet2 = {
 		icon = mission_galleys_in_port
 		required_missions = { }
 		
@@ -273,9 +269,10 @@ pirate_3 = {
 			}
 		}
 	}
-	pirate_a_scourge_on_the_seven_seas = {
+
+	pirate_a_scourge_on_the_seven_seas2 = {
 		icon = mission_establish_high_seas_navy
-		required_missions = { pirate_a_pirate_fleet }
+		required_missions = { pirate_a_pirate_fleet2 }
 		
 		trigger = {
 			has_flagship = yes
@@ -291,9 +288,10 @@ pirate_3 = {
 			}
 		}
 	}
-	pirate_the_pirate_code = {
+
+	pirate_the_pirate_code2 = {
 		icon = mission_have_two_subjects
-		required_missions = { pirate_a_scourge_on_the_seven_seas }
+		required_missions = { pirate_a_scourge_on_the_seven_seas2 }
 		
 		trigger = {
 			army_size_percentage = 0.8
@@ -306,9 +304,9 @@ pirate_3 = {
 			}
 		}
 	}
-	pirate_diplomacy = {
+	pirate_diplomacy2 = {
 		icon = mission_alliances
-		required_missions = { pirate_the_pirate_code }
+		required_missions = { pirate_the_pirate_code2 }
 		
 		trigger = {
 			any_rival_country = {
@@ -335,9 +333,9 @@ pirate_3 = {
 			}
 		}
 	}
-	pirate_the_pirate_threat = {
+	pirate_the_pirate_threat2 = {
 		icon = mission_assemble_an_army
-		required_missions = { pirate_diplomacy }
+		required_missions = { pirate_diplomacy2 }
 		
 		trigger = {
 			any_rival_country = {

@@ -14510,6 +14510,7 @@ white_house = {
 		owner = {
 			OR = {
 				is_former_colonial_nation = yes
+				tag = VRM
 				tag = USA
 				tag = VRM
 			}			

@@ -917,28 +917,23 @@ al_Abbas_conquest_2 = {
 		trigger = {
 			western_sicily_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			sicily_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			calabria_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			apulia_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			naples_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -1352,10 +1347,7 @@ al_Abbas_conquest_3 = {
 			bosnia_area = {
 				add_permanent_claim = ROOT
 			}
-			croatia_area = {
-				add_permanent_claim = ROOT
-			}
-			east_adriatic_coast_area = {
+			1828 = {
 				add_permanent_claim = ROOT
 			}
 			override_country_name = ABBRUMBYZ
@@ -1370,8 +1362,6 @@ al_Abbas_conquest_3 = {
 				area = serbia_area
 				area = rascia_area
 				area = bosnia_area
-				area = croatia_area
-				area = east_adriatic_coast_area
 				area = bulgaria_area
 			}
 			NOT = { owned_by = ROOT }
@@ -1389,18 +1379,11 @@ al_Abbas_conquest_3 = {
 			}
 			bosnia_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			croatia_area = {
+			1828 = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			east_adriatic_coast_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			bulgaria_area = {
 				type = all
@@ -1427,18 +1410,16 @@ al_Abbas_conquest_3 = {
 				area = lazio_area
 				area = central_italy_area
 			}
-			NOT = { owned_by = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			lazio_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			central_italy_area = {
 				type = all
-				owned_by = ROOT
-				is_core = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {

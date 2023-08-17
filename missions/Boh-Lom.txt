@@ -430,6 +430,7 @@ ubl_1_new = {
 		effect = {
 			add_treasury = -2000
 			137 = {
+				change_culture = croatian
 				add_province_modifier = {
 					name = ubl_new_holy_site
 					duration = -1
@@ -1861,10 +1862,14 @@ ubl_5_new = {
 		required_missions = { ubl_5_6_new }
 
 		trigger = {
-			has_reform = revolutionary_republic_reform
+			OR = {
+				has_reform = revolutionary_republic_reform
+				has_reform = junior_revolutionary_republic_reform
+			}
 		}
 
 		effect = {
+			add_government_reform = revolutionary_republic_reform
 			add_government_reform = burgher_revolution_reform
 		}
 	}

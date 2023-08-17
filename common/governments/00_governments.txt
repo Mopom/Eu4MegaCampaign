@@ -616,6 +616,7 @@ republic = {
 				legislative_assembly_reform
 				national_constituent_reform
 				national_assembly_reform
+				burgher_revolution_reform
 			}
 		}
 		republic_and_religion = {
