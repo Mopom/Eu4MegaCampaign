@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
 graphical_culture = indiangfx
 color = { 57 53 184 }
-revolutionary_colors = { 2 15 11 }
+revolutionary_colors = { 2 14 11 }
 monarch_names = {
 	"Mahipal #2" = 4
 	"Babji Ballal Sah #2" = 4
