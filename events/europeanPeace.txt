@@ -400,6 +400,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	    tag = Z02
 		FRA = { truce_with = Z02 }
 		RUS = { truce_with = Z02 }
 		Z00 = { truce_with = Z02 }
