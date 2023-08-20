@@ -20,3 +20,10 @@ focused_on_peace = {
 japanese_wood = {
 	light_ship_cost = -0.2
 }
+yamesnikov_awarded = {
+	imperial_authority = 0.25
+	legitimacy = -0.5
+}
+yamesnikov_not_awarded = {
+	legitimacy = 0.5
+}

@@ -8300,3 +8300,39 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = rus_yamesnikov.1
+	title = rus_peace_yamesnikov.1.t
+	desc = rus_peace_yamesnikov.1.d
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
+	
+	fire_only_once = yes 
+
+	trigger = {
+		tag = RUS
+		truce_with = Z02
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+		
+	option = {
+		name = rus_done_well
+		set_country_flag = yamesnikov_praised
+		add_country_modifier = { 
+			name =  yamesnikov_awarded
+			duration = 7300
+		}
+	}
+	option = {
+		name = rus_rejected
+		set_country_flag = yamesnikov_rejected
+		add_country_modifier = {
+			name  = yamesnikov_not_awarded
+			duration = 7300
+		}
+	}
+}

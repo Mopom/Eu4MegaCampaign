@@ -390,3 +390,42 @@ country_event = {
         }
 	}
 }
+
+country_event = {
+	id = europeanPeace.14
+	title = europeanPeace.14.t
+	desc = europeanPeace.14.desc
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		FRA = { truce_with = Z02 }
+		RUS = { truce_with = Z02 }
+		Z00 = { truce_with = Z02 }
+		is_year = 1718
+		1744 = {
+		    is_core = Z02
+		    controlled_by = Z02
+		    owned_by = Z02
+		}
+		90 = {
+		    is_core = Z02
+		    controlled_by = Z02
+		    owned_by = Z02
+		}
+		NOT = {
+		    CAT = {
+                vassal_of = FRA
+            }
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Cool
+		name = europeanPeace.14.a
+	}
+}

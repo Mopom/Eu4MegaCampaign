@@ -2,6 +2,7 @@ christian = {
 	nestorian = {
 		color = { 214 112 153 }
 		icon = 31
+		allow_female_defenders_of_the_faith = yes
 		country = {
 			tolerance_own = 2
 			adm_tech_cost_modifier = -0.1
