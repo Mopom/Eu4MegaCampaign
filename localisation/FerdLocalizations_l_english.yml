@@ -197,3 +197,11 @@ pirate_diplomacy2_title:0 "Diplomacy"
 pirate_the_pirate_threat2_title:0 "The Pirate threat"
 
 
+#Russia
+rus_peace_yamesnikov.1.t:0 "Peace at last"
+rus_peace_yamesnikov.1.d:0 "General Yamesnikov has sucessfully achived peace with the Northern Federation, many are saying that he deserves an award"
+rus_done_well:0 "He has done us proud, he deserves an award"
+yamesnikov_rejected:0 "This achivement was that of the emperor only"
+yamesnikov_awarded:0 "Yamesnikov was awarded"
+rus_rejected:0 "This is redicoulous, this is the emperors victory!"
+yamesnikov_not_awarded:0 "Yamesnikov was not awarded"
