@@ -1,36 +1,3 @@
-caliph = {
-	rank = {
-		1 = EMIRATE
-		2 = MALIKATE
-		3 = CALIPHATE
-	}
-	ruler_male = {
-		1 = EMIR
-		2 = MALIK
-		3 = CALIPH
-	}
-	ruler_female = {
-		1 = EMIRA
-		2 = MALIKA
-		3 = MALIKA-AL-MUAZZAMA
-	}
-	trigger = {
-		OR = {
-			AND = {
-				tag = SOK
-				has_country_flag = formed_sokoto_flag
-			}
-			AND = {
-				tag = Z00
-				OR = {
-					government = monarchy
-					government = theocracy
-				}
-			}
-		}
-	}
-}
-
 malik = {
 	rank = {
 		1 = MALIKATE

@@ -2061,3 +2061,290 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = flavor_aez.41
+	title = "flavor_aez.41.t"
+	desc = "flavor_aez.41.d"
+	picture = DISCIPLINED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = FRA
+		NOT = { has_country_flag = fra_splits_ohnoooo }
+		UBL = {
+			is_revolutionary = yes
+		}
+		Z00 = {
+			is_revolutionary = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+	
+	immediate = {
+		hidden_effect = {
+			guyenne_area = {
+				add_core = RFC
+			}
+			poitou_area = {
+				add_core = RFC
+			}
+			pyrenees_area = {
+				add_core = RFC
+			}
+			languedoc_area = {
+				add_core = RFC
+			}
+			197 = {
+				add_core = RFC
+			}
+			massif_central_area = {
+				add_core = RFC
+			}
+			203 = {
+				add_core = RFC
+			}
+			orleans_area = {
+				add_core = RFA
+			}
+			champagne_area = {
+				add_core = RFA
+			}
+			ile_de_france_area = {
+				add_core = RFA
+			}
+			picardy_area = {
+				add_core = RFA
+			}
+			4769 = {
+				add_core = RFA
+			}
+			lorraine_area = {
+				add_core = RFA
+			}
+			west_burgundy_area = {
+				add_core = RFA
+			}
+			bourgogne_area = {
+				add_core = RFA
+			}
+			wallonia_area = {
+				add_core = RFA
+			}
+			80 = {
+				add_core = RFA
+			}
+			1761 = {
+				add_core = RFA
+			}
+			4767 = {
+				add_core = RFA
+			}
+			alsace_area = {
+				add_core = RFA
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_aez.41.a"
+		hidden_effect = {
+			set_country_flag = fra_splits_ohnoooo
+			release = RFA
+			release = RFC
+		}
+		FRA = {
+			set_capital = 169
+		}
+	}
+	
+	after = {
+		hidden_effect = {
+			RFA = {
+				country_event = {
+					id = revolution.10
+					days = 5
+				}
+				set_capital = 183
+				change_primary_culture = dynamic-breton-normand-occitain-culture-num1
+				add_accepted_culture = dynamic-cosmopolitan_french-culture-num1
+				change_religion = sunni
+			}
+			RFC = {
+				define_ruler = {
+					name = "Muhammad XVI"
+					dynasty = "Abbasid"
+					adm = 6
+					dip = 6
+					mil = 6
+					age = 20
+					claim = 94
+					male = yes
+					culture = dynamic-greek-al_suryah_arabic-culture-num1
+					religion = sunni
+				}
+				set_capital = 174
+				change_primary_culture = dynamic-breton-normand-occitain-culture-num1
+				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = sunni
+				add_government_reform = modernized_ottoman_government
+			}
+			COG = {
+				grant_independence = yes
+			}
+			country_event = {
+				id = flavor_aez.42
+				days = 5
+			}
+			184 = {
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+			}
+			183 = {
+				cavalry = RFA
+				cavalry = RFA
+				cavalry = RFA
+				cavalry = RFA
+			}
+			186 = {
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+			}
+			94 = {
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+				infantry = RFA
+			}
+			192 = {
+				cavalry = RFA
+				cavalry = RFA
+				cavalry = RFA
+				cavalry = RFA
+			}
+			88 = {
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+				artillery = RFA
+			}
+			174 = {
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+			}
+			175 = {
+				cavalry = RFC
+				cavalry = RFC
+				cavalry = RFC
+				cavalry = RFC
+			}
+			194 = {
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+			}
+			200 = {
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+				infantry = RFC
+			}
+			190 = {
+				cavalry = RFC
+				cavalry = RFC
+				cavalry = RFC
+				cavalry = RFC
+			}
+			203 = {
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+				artillery = RFC
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_aez.42
+	title = "flavor_aez.2.t"
+	desc = "flavor_aez.2.d"
+	picture = muslimgfx_ADVISOR_eventPicture
+	
+	hidden = yes
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+    option = {
+        name = "flavor_aez.2.a"
+		RFA = {
+			set_religious_school = {
+				group = muslim
+				school = zahrai_school
+			}
+			set_country_flag = revolution_disaster_immediate_revolution
+			country_event = {
+				id = revolution.10
+				days = 5
+			}
+		}
+		RFC = {
+			set_religious_school = {
+				group = muslim
+				school = zahrai_school
+			}
+		}
+		france_region = {
+			add_core = FRA
+			add_core = RFA
+			add_core = RFC
+		}
+	}
+}

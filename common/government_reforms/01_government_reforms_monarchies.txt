@@ -993,6 +993,10 @@ ottoman_government = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
+				tag = RFC
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = ottoman_government
 			}

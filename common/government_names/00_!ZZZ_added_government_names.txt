@@ -119,6 +119,45 @@ ruling_prince = {
 	}
 	trigger = { OR = { tag = SWI tag = ARM primary_culture = swiss } government = monarchy }
 }
+caliph = {
+	rank = {
+		1 = CALIPHATE
+		2 = CALIPHATE
+		3 = CALIPHATE
+	}
+	ruler_male = {
+		1 = CALIPH
+		2 = CALIPH
+		3 = CALIPH
+	}
+	ruler_female = {
+		1 = MALIKA-AL-MUAZZAMA
+		2 = MALIKA-AL-MUAZZAMA
+		3 = MALIKA-AL-MUAZZAMA
+	}
+	trigger = {
+		OR = {
+			AND = {
+				tag = SOK
+				has_country_flag = formed_sokoto_flag
+			}
+			AND = {
+				tag = Z00
+				OR = {
+					government = monarchy
+					government = theocracy
+				}
+			}
+			AND = {
+				tag = RFC
+				OR = {
+					government = monarchy
+					government = theocracy
+				}
+			}
+		}
+	}
+}
 dauphin = {
 	rank = {
 		1 = DUCHY
