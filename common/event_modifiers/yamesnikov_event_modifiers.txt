@@ -1,0 +1,34 @@
+yamesnikov_training_heir = {
+    army_tradition = 0.3
+    legitimacy = -1
+}
+
+no_training_for_heir = {
+    yearly_army_professionalism = -0.01
+    legitimacy = 1
+}
+
+yamesnikov_forgiven = {
+    yearly_army_professionalism = 0.01
+    legitimacy = -1.5
+}
+
+yamesnikov_reprimanded = {
+    army_tradition = -0.1
+    legitimacy = 1.5
+}
+
+yamesnikov_godfather = {
+    prestige_decay = -0.1
+    legitimacy = -2
+}
+
+yamesnikov_regent = {
+    legitimacy = 2
+    yearly_army_professionalism = 0.01
+}
+
+yamesnikov_gone_by = {
+    legitimacy = -2
+    army_tradition = -0.1
+}
