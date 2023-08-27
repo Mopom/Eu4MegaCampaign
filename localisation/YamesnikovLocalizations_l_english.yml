@@ -1,0 +1,18 @@
+l_english:
+########## Yamesnikov localization ##########
+rus_yamesnikov.2.t:0 "Yamesnikov offers to train our heir in military matters."
+rus_yamesnikov.2.d:0 "After having observed our heir for a while now, Yamesnikov has told the Tsar that he think the heir is perfectly suited for training in the military to become a general. He has also said that, if the Tsar accepts, he will perosnally oversee the training and try to get him to be the best general he could be."
+rus_yamesnikov.2.a:0 "Let him train our heir, this couldn't possibly go wrong!"
+rus_yamesnikov.2.b:0 "I would prefer him to be kept safe, away from the battlefield."
+rus_yamesnikov.3.t:0 "Heir dies in a training accident!"
+rus_yamesnikov.3.d:0 "During a regular training excercise our heir accidentally got shot because he loaded his rifel incorrectly, and it exploded in his hands and shot the bullet backwards. Our heir is now dead, but do we hold Yamesnikov accountable? On one hand he was supposed to oversee the excercise, so it is partially his fault that he didn't see this. On the other hand this is a freak accident so Yamesnikov didn't cause it himself. Another problem is that the populace will be angry if we punish Yamesnikov for this."
+rus_yamesnikov.3.a:0 "I knew we should have kept him home! Let Yamesnikov off the hook, he couldn't have seen this comming either."
+rus_yamesnikov.3.b:0 "Reprimand him immidiatly, he shall pay for the death of my heir!"
+rus_yamesnikov.4.t:0 "A new heir is born!"
+rus_yamesnikov.4.d:0 "Glorious days! A new heir has been born. The Tsarina has come with the novel idea of naming our best and most loved general, Yamesnikov, as the godfather of this new child."
+rus_yamesnikov.4.a:0 "That's a lovely idea, i think we should do it."
+rus_yamesnikov.4.b:0 "What!? That traitor killed our previous son, why should we involve him with this one aswell?"
+rus_yamesnikov.5.t:0 "The emperor is dead!"
+rus_yamesnikov.5.d:0 "After a sudden heart attack the king has died. When his will was read it said that he wanted Yamesnikov to care for his son and to teach him all matter military so that he could grow up stronger. But the queen has disagreed with this stating that he obviously would have wanted her to take over as regent. What shall we do?"
+rus_yamesnikov.5.a:0 "Yamesnikov, his godfather, shall be the new regent!"
+rus_yamesnikov.5.b:0 "Obviously it should be the queen, it is her own child after all."

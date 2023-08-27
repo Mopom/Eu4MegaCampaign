@@ -1,0 +1,181 @@
+namespace = rus_yamesnikov
+
+#############################################
+#	Yamesnikov gaining more power events	#
+#############################################
+
+country_event = {
+    id = rus_yamesnikov.2
+    title = rus_yamesnikov.2.t
+    desc = rus_yamesnikov.2.d
+    picture = CONQUEST_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_praised
+    }
+
+    mean_time_to_happen = {
+        days = 2191
+    }
+
+    option = {
+        name = rus_yamesnikov.2.a
+        set_country_flag = yamesnikov_praised_2
+        add_country_modifier = {
+            name = yamesnikov_training_heir
+            duration = 7300
+        }
+    
+    option = {
+        name = rus_yamesnikov.2.b
+        set_country_flag = yamesnikov_rejected_2
+        add_country_modifier = {
+            name = no_training_for_heir
+            duration = 7300
+        }
+    }
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov.3
+    title = rus_yamesnikov.3.t
+    desc = rus_yamesnikov.3.d
+    picture = DEATH_OF_HEIR_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_praised_2
+    }
+
+    mean_time_to_happen = {
+        days = 2191
+    }
+
+    immediate = {
+        remove_heir = { allow_new_heir = no }
+    }
+
+    option = {
+        name = rus_yamesnikov.3.a
+        set_country_flag = yamesnikov_praised_3
+        add_stability = -1
+        add_country_modifier = {
+            name = yamesnikov_forgiven
+            duration = 7300
+        }
+        remove_country_modifier = yamesnikov_training_heir
+    }
+
+    option = {
+        name = rus_yamesnikov.3.b
+        set_country_flag = yamesnikov_rejected_3
+        add_prestige = -10
+        add_country_modifier = {
+            name = yamesnikov_reprimanded
+            duration = 7300
+        }
+        remove_country_modifier = yamesnikov_training_heir
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov.4
+    title = rus_yamesnikov.4.t
+    desc = rus_yamesnikov.4.d
+    picture = NEW_HEIR_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_praised_3
+    }
+
+    mean_time_to_happen = {
+        days = 100
+    }
+
+    immediate = {
+        define_heir {
+            dynasty = "Rurikid"
+            claim = 100
+            adm = 3
+            dip = 3
+            mil = 3
+            male = yes
+        }
+    }
+
+    option = {
+        name = rus_yamesnikov.4.a
+        set_country_flag = yamesnikov_praised_4
+        add_stability = 2
+        add_country_modifier = {
+            name = yamesnikov_godfather
+            duration = 7300
+        }
+    }
+
+    option = {
+        name = rus_yamesnikov.4.b
+        set_country_flag = yamesnikov_rejected_4
+        add_stability = 1
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov.5
+    title = rus_yamesnikov.5.t
+    desc = rus_yamesnikov.5.d
+    picture = KING_SICK_IN_BED_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_praised_4
+        hre_reform_passed = emperor_privilegia_de_non_appelando
+        heir_age = 13
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = rus_yamesnikov.5.a
+        set_country_flag = yamesnikov_praised_5
+        kill_ruler = yes
+        add_country_modifier = {
+            name = yamesnikov_regent
+            duration = 7300
+        }
+        define_ruler = {
+            name = "Boris"
+            dynasty = "Yamesnikov"
+            age = 30
+            adm = 3
+            dip = 2
+            mil = 4
+            regency = yes
+            male = yes
+        }
+    }
+
+    option = {
+        name = rus_yamesnikov.5.b
+        set_country_flag = yamesnikov_rejected_5
+        kill_ruler = yes
+        add_stability = -1
+        add_country_modifier = {
+            name = yamesnikov_gone_by
+            duration = 7300
+        }
+    }
+}
