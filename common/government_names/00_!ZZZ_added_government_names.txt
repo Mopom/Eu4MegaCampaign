@@ -119,6 +119,27 @@ ruling_prince = {
 	}
 	trigger = { OR = { tag = SWI tag = ARM primary_culture = swiss } government = monarchy }
 }
+grandviz = {
+	rank = {
+		1 = REPUBLIC
+		2 = GRAND_REPUBLIC
+		3 = GREAT_REPUBLIC
+	}
+	ruler_male = {
+		1 = VIZIER
+		2 = GRANDVIZIER
+		3 = GRANDVIZIER
+	}
+	ruler_female = {
+		1 = VIZIER
+		2 = GRANDVIZIER_fem
+		3 = GRANDVIZIER_fem
+	}
+	trigger = {
+		tag = Z00
+		government = republic
+	}
+}
 caliph = {
 	rank = {
 		1 = CALIPHATE
