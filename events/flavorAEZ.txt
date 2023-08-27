@@ -2161,6 +2161,30 @@ country_event = {
 		FRA = {
 			set_capital = 169
 		}
+		ADU = {
+			country_event = {
+				id = flavor_aez.43
+				days = 5
+			}
+		}
+		Z00 = {
+			country_event = {
+				id = flavor_aez.43
+				days = 10
+			}
+		}
+		AEZ = {
+			country_event = {
+				id = flavor_aez.43
+				days = 15
+			}
+		}
+		DHK = {
+			country_event = {
+				id = flavor_aez.43
+				days = 20
+			}
+		}
 	}
 	
 	after = {
@@ -2346,5 +2370,154 @@ country_event = {
 			add_core = RFA
 			add_core = RFC
 		}
+	}
+}
+
+country_event = {
+	id = flavor_aez.43
+	title = "flavor_aez.43.t"
+	desc = "flavor_aez.43.d"
+	picture = HAYREDDIN_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = muslim
+		exists = RFC
+	}
+
+    option = {
+        name = "flavor_aez.43.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.44
+	title = "flavor_aez.44.t"
+	desc = "flavor_aez.44.d"
+	picture = REBELLION_AGAINST_ANGLICANS_eventPicture
+	
+	mean_time_to_happen = {
+		months = 10
+	}
+	
+	trigger = {
+		tag = FRA
+		num_of_religion = {
+			religion = samaritan_faith
+			value = 0.5
+		}
+		has_country_flag = fra_splits_ohnoooo
+		NOT = { religion = samaritan_faith }
+	}
+
+    option = {
+        name = "flavor_aez.44.a"
+		169 = {
+			spawn_rebels = {
+				type = rhenism_rebels
+				size = 3
+			}
+		}
+	}
+	
+	option = {
+        name = "flavor_aez.44.b"
+		change_religion = samaritan_faith
+		1879 = {
+			spawn_rebels = {
+				type = sunni_rebels
+				size = 2
+			}
+		}
+		add_country_modifier = {
+			name = prophet_supreme
+			duration = -1
+		}
+		every_subject_country = {
+			add_country_modifier = {
+				name = prophet_supreme
+				duration = -1
+			}
+		}
+		country_event = {
+			id = rhenism.3
+			days = 365
+		}
+		country_event = {
+			id = rhenism.7
+			days = 1460
+		}
+		Z02 = {
+			country_event = {
+				id = flavor_aez.45
+				days = 10
+			}
+		}
+		UBL = {
+			country_event = {
+				id = flavor_aez.45
+				days = 10
+			}
+		}
+		VRM = {
+			country_event = {
+				id = flavor_aez.45
+				days = 30
+			}
+		}
+		ADU = {
+			country_event = {
+				id = flavor_aez.46
+				days = 10
+			}
+		}
+		Z00 = {
+			country_event = {
+				id = flavor_aez.46
+				days = 15
+			}
+		}
+		AEZ = {
+			country_event = {
+				id = flavor_aez.46
+				days = 20
+			}
+		}
+		DHK = {
+			country_event = {
+				id = flavor_aez.46
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_aez.45
+	title = "flavor_aez.45.t"
+	desc = "flavor_aez.45.d"
+	picture = ADULT_BAPTISME_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "flavor_aez.45.a"
+	}
+}
+
+country_event = {
+	id = flavor_aez.46
+	title = "flavor_aez.46.t"
+	desc = "flavor_aez.46.d"
+	picture = muslimgfx_BORDER_TENSION_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "flavor_aez.46.a"
 	}
 }
