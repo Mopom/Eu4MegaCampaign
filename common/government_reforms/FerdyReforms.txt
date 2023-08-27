@@ -222,7 +222,6 @@ rev_ganga_government = {
 		custom_attributes = {
 			enables_estate_rajput = yes
 			disables_estate_nobles = yes
-			disables_estate_church = yes
 			disables_estate_jains = yes
 			disables_estate_burghers = yes
 		}
