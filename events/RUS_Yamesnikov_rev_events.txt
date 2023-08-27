@@ -18,7 +18,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 2191
+        days = 2190
     }
 
     option = {
@@ -54,7 +54,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 2191
+        days = 2190
     }
 
     immediate = {
