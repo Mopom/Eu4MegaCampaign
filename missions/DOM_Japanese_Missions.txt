@@ -1909,7 +1909,7 @@ DOM_japanse_missions_3_b = {
 		position = 8
 		trigger = {
 			stability = 3 
-			prestige = 90 
+			prestige = 80
 			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = { average_autonomy_above_min = 5 } 
 			is_at_war = no 
@@ -1941,32 +1941,7 @@ DOM_japanse_missions_3_b = {
 			}
 		}
 		effect = {
-			custom_tooltip = jap_absolutism_shogun_reward_tt
-			tooltip = {
-				override_country_name = JPS
-				add_government_reform = absolute_shogunate_reform
-			}
-			
-			custom_tooltip = jap_estates_emperor_reward_tt
-			tooltip = {
-				override_country_name = JPE
-				country_event = { id = flavor_jap.65 }
-			}
-			
-			hidden_effect = {
-				if = {
-					limit = { absolutism = 100 } 
-					set_country_flag = has_overriden_name_flag
-					override_country_name = JPS
-					add_government_reform = absolute_shogunate_reform
-				}
-				else = {
-					override_country_name = JPE
-					set_country_flag = has_overriden_name_flag
-					set_country_flag = JPE_gov_flag
-					country_event = { id = flavor_jap.65 }
-				}
-			}	
+			set_country_flag = can_have_table_of_ranks
 		}
 	}
 }

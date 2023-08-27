@@ -429,3 +429,54 @@ country_event = {
 		name = europeanPeace.14.a
 	}
 }
+
+country_event = {
+	id = europeanPeace.15
+	title = europeanPeace.15.t
+	desc = europeanPeace.15.desc
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = UBL
+		year = 1733
+		4756 = {
+	        has_province_modifier = birth_of_a_new_city_dip
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Cool
+		name = europeanPeace.15.a
+		4756 = {
+            remove_province_modifier = birth_of_a_new_city_dip
+        }
+	}
+}
+
+country_event = {
+	id = europeanPeace.16
+	title = europeanPeace.16.t
+	desc = europeanPeace.16.desc
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = Z00
+		year = 1733
+		is_revolutionary = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Cool
+		name = europeanPeace.16.a
+		set_country_flag = revol_vizier_happened
+		add_government_reform = revol_vizier
+	}
+}
