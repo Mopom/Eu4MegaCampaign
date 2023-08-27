@@ -1454,6 +1454,7 @@ peters_government_reform = {
 			has_unlocked_government_reform = {
 				government_reform = peters_government_reform
 			}
+			has_country_flag = can_have_table_of_ranks
 		}
 	}
 	modifiers = {

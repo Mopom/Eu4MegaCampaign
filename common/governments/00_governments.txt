@@ -578,6 +578,7 @@ republic = {
 				parliamentary_republic_reform
 				absolute_shogunate_reform
 				japanese_divine_empire
+				revol_vizier
 			}
 		}
 		republican_virtues = {

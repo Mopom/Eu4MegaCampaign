@@ -715,6 +715,43 @@ dutch_theocracy_reform = {
 	}
 }
 
+revol_vizier = {
+	icon = "rioting_burning_2"
+	allow_normal_conversion = no
+	potential = {
+		has_country_flag = revol_vizier_happened
+	}
+	uses_revolutionary_zeal = yes
+	revolutionary = yes
+	modifiers = {
+        max_revolutionary_zeal = 50
+		governing_capacity = 200
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		has_pashas = yes
+		has_janissaries = yes
+		has_harem = yes
+		custom_attributes = {
+			has_harem_events = yes
+			has_eyalets = yes
+		}
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		factions = {
+			rr_janissaries
+			rr_vizier
+		}
+	}
+}
+
 orthodox_patriarchate_reform = {
 	icon = "patriarch"
 	allow_normal_conversion = yes
