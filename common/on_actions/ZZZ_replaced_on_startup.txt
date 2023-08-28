@@ -27,4 +27,20 @@ on_startup = {
 		limit = { NOT = { has_global_flag = ZZZ_enhanced_random_world } }
 		set_global_flag = ZZZ_enhanced_old_bon_reformed
 	}
+	if = {
+		limit = { tag = Z00 }
+		country_event = { id = persia_afghan_war.6 }
+	}
+	if = {
+		limit = { tag = Z01 }
+		country_event = { id = persia_afghan_war.7 }
+	}
+	if = {
+		limit = { tag = PER }
+		country_event = { id = persia_afghan_war.1 }
+	}
+	if = {
+		limit = { tag = AFG }
+		country_event = { id = persia_afghan_war.2 }
+	}
 }

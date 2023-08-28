@@ -1,0 +1,281 @@
+namespace = persia_unification
+
+#Zokka-Jaddari Conflict
+country_event = {
+	id = persia_afghan_war.1
+	title = persia_afghan_war.1.t
+	desc = persia_afghan_war.1.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+		tag = PER
+		exists = AFG
+		NOT = { war_with = AFG }
+		NOT = { is_year = 1755 }
+	}
+
+	option = {
+		name = persia_afghan_war.1.a
+		every_owned_province = {
+			add_core = AFG
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.2
+	title = persia_afghan_war.2.t
+	desc = persia_afghan_war.2.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = AFG
+		exists = PER
+		NOT = { war_with = PER }
+		NOT = { is_year = 1755 }
+	}
+
+	immediate = {
+		hidden_effect = {
+			Z01 = {
+				add_manpower = -80
+			}
+			AFG = {
+				add_manpower = 80
+			}
+		}
+	}
+
+	option = {
+		name = persia_afghan_war.2.a
+		every_owned_province = {
+			add_core = PER
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.3
+	title = persia_afghan_war.3.t
+	desc = persia_afghan_war.3.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = AFG
+		war_score_against = {
+			who = PER
+				value = 50
+		}
+	}
+	
+	option = {
+		name = zokka_jaddari_war.3.a  #Disastrous!
+		
+		#Fire event for Tluukt that gives them a tiny bit of land and a bonus to their government.
+		every_subject_country = {
+			grant_independence = yes
+			white_peace = PER
+		}
+		
+		PER = {
+			every_owned_province = {
+				cede_province = AFG
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.4
+	title = persia_afghan_war.4.t
+	desc = persia_afghan_war.4.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = PER
+		war_score_against = {
+			who = AFG
+			value = 50
+		}
+	}
+	
+	option = {
+		name = zokka_jaddari_war.4.a  #Disastrous!
+		
+		#Fire event for Tluukt that gives them a tiny bit of land and a bonus to their government.
+		every_subject_country = {
+			grant_independence = yes
+			white_peace = AFG
+		}
+		
+		AFG = {
+			every_owned_province = {
+				cede_province = PER
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.5
+	title = persia_afghan_war.5.t
+	desc = persia_afghan_war.5.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	major = yes
+
+	trigger = {	
+		tag = PER
+		not = { exists = AFG }
+	}
+	
+	option = {
+		name = zokka_jaddari_war.5.a  #Disastrous!
+		
+		KHO = {
+			every_owned_province = {
+				cede_province = PER
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.6
+	title = persia_afghan_war.6.t
+	desc = persia_afghan_war.6.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+		tag = Z00
+		exists = PER
+		NOT = { is_year = 1755 }
+	}
+
+	option = {
+		name = persia_afghan_war.6.a
+		every_known_country = {
+			limit = { tag = PER }
+			grant_independence = yes
+		}
+		every_known_country = {
+			limit = { tag = KHO }
+			grant_independence = yes
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.7
+	title = persia_afghan_war.7.t
+	desc = persia_afghan_war.7.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {
+		tag = Z01
+		exists = AFG
+		NOT = { war_with = AFG }
+		NOT = { is_year = 1755 }
+	}
+
+	option = {
+		name = persia_afghan_war.7.a
+		every_known_country = {
+			limit = { tag = AFG }
+			grant_independence = yes
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.8
+	title = persia_afghan_war.8.t
+	desc = persia_afghan_war.8.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	major = yes
+
+	trigger = {	
+		tag = AFG
+		not = { exists = PER }
+	}
+	
+	option = {
+		name = zokka_jaddari_war.8.a  #Disastrous!
+		
+		KHO = {
+			every_owned_province = {
+				cede_province = AFG
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = persia_afghan_war.9
+	title = persia_afghan_war.9.t
+	desc = persia_afghan_war.9.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+        	days = 20
+    	}
+
+	trigger = {	
+		tag = PER
+		exists = AFG
+	}
+	
+
+	option = {
+		name = persia_afghan_war.9.a
+		PER = {
+			declare_war_with_cb = {
+				who = AFG
+				casus_belli = cb_core
+				war_goal_province = 451
+			}
+		}	
+	}
+}
