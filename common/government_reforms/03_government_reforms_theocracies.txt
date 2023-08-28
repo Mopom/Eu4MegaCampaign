@@ -746,8 +746,9 @@ revol_vizier = {
 			has_dlc = "Rights of Man"
 		}
 		factions = {
-			rr_janissaries
-			rr_vizier
+			rr_jacobins
+			rr_royalists
+			rr_girondists
 		}
 	}
 }

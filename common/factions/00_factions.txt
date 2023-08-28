@@ -131,31 +131,3 @@ rr_girondists = {
 		ae_impact = 0.2
 	}
 }
-
-rr_janissaries = {
-	allow = {
-		has_dlc = "Rights of Man"
-	}
-
-	monarch_power = MIL
-	always = yes
-
-	modifier = {
-		siege_ability = 0.1
-		discipline = 0.05
-	}
-}
-
-rr_vizier = {
-	allow = {
-		has_dlc = "Rights of Man"
-	}
-
-	monarch_power = DIP
-	always = yes
-
-	modifier = {
-		development_cost = -0.05
-		manpower_recovery_speed = 0.1
-	}
-}

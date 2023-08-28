@@ -479,5 +479,6 @@ country_event = {
 		name = europeanPeace.16.a
 		set_country_flag = revol_vizier_happened
 		add_government_reform = revol_vizier
+		add_government_reform = viz_feuillant_reform
 	}
 }

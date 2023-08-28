@@ -14533,7 +14533,6 @@ OIR_ideas = {
 WAN_ideas = {
 	start = {
 		extra_manpower_at_religious_war = yes
-		shock_damage = -0.1
 		idea_cost = -0.1
 	}
 	
