@@ -21,23 +21,23 @@ country_event = {
         days = 2190
     }
 
-    option = {
-        name = rus_yamesnikov.2.a
-        set_country_flag = yamesnikov_praised_2
-        add_country_modifier = {
-            name = yamesnikov_training_heir
-            duration = 7300
-        }
+	option = {
+       		name = rus_yamesnikov.2.a
+      		set_country_flag = yamesnikov_praised_2
+        	add_country_modifier = {
+            		name = yamesnikov_training_heir
+            		duration = 7300
+        	}
+    	}
     
-    option = {
-        name = rus_yamesnikov.2.b
-        set_country_flag = yamesnikov_rejected_2
-        add_country_modifier = {
-            name = no_training_for_heir
-            duration = 7300
-        }
-    }
-    }
+	option = {
+		name = rus_yamesnikov.2.b
+		set_country_flag = yamesnikov_rejected_2
+		add_country_modifier = {
+        		name = no_training_for_heir
+    			duration = 7300
+		}
+    	}
 }
 
 country_event = {
@@ -61,27 +61,27 @@ country_event = {
         remove_heir = { allow_new_heir = no }
     }
 
-    option = {
-        name = rus_yamesnikov.3.a
-        set_country_flag = yamesnikov_praised_3
-        add_stability = -1
-        add_country_modifier = {
-            name = yamesnikov_forgiven
-            duration = 7300
-        }
-        remove_country_modifier = yamesnikov_training_heir
-    }
+	option = {
+        	name = rus_yamesnikov.3.a
+        	set_country_flag = yamesnikov_praised_3
+        	add_stability = -1
+        	add_country_modifier = {
+           		name = yamesnikov_forgiven
+            		duration = 7300
+        	}
+        	remove_country_modifier = yamesnikov_training_heir
+    	}	
 
-    option = {
-        name = rus_yamesnikov.3.b
-        set_country_flag = yamesnikov_rejected_3
-        add_prestige = -10
-        add_country_modifier = {
-            name = yamesnikov_reprimanded
-            duration = 7300
-        }
-        remove_country_modifier = yamesnikov_training_heir
-    }
+    	option = {
+        	name = rus_yamesnikov.3.b
+        	set_country_flag = yamesnikov_rejected_3
+        	add_prestige = -10
+        	add_country_modifier = {
+           		name = yamesnikov_reprimanded
+            		duration = 7300
+        	}
+        	remove_country_modifier = yamesnikov_training_heir
+    	}
 }
 
 country_event = {
