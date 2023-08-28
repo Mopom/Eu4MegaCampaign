@@ -18,6 +18,11 @@ country_event = {
 		NOT = { is_year = 1755 }
 	}
 
+	immediate = {
+		break_alliance = KHO
+		break_alliance = ETH
+	}
+
 	option = {
 		name = persia_afghan_war.1.a
 		every_owned_province = {
@@ -46,10 +51,13 @@ country_event = {
 		hidden_effect = {
 			Z01 = {
 				add_manpower = -80
+				add_cash = -12000
 			}
 			AFG = {
 				add_manpower = 80
+				add_cash = 10000
 			}
+			break_alliance = NPL
 		}
 	}
 
@@ -73,7 +81,7 @@ country_event = {
 		tag = AFG
 		war_score_against = {
 			who = PER
-				value = 50
+				value = 40
 		}
 	}
 	
@@ -110,7 +118,7 @@ country_event = {
 		tag = PER
 		war_score_against = {
 			who = AFG
-			value = 50
+			value = 40
 		}
 	}
 	
@@ -173,7 +181,6 @@ country_event = {
 	
 	fire_only_once = yes
 	is_triggered_only = yes
-	major = yes
 	
 	trigger = {
 		tag = Z00
@@ -202,7 +209,6 @@ country_event = {
 	
 	fire_only_once = yes
 	is_triggered_only = yes
-	major = yes
 	
 	trigger = {
 		tag = Z01
