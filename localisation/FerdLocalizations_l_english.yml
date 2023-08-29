@@ -44,6 +44,9 @@ burma_vassal.2.d:0 "The Gangans have murdered our younglings in cold blood! They
 burma_rejected:0 "Burma Rejected"
 burma_vassal.2.a:0 "They must pay in blood"
 ava_flag_for_supporters:0 "Burmese Supporters"
+burma_vassal.3.t:0 "Excelent"
+burma_vassal.3.d:0 "Sheev Palpal has executed Order 66, and now Ari Ganga will deal with these rebel scum"
+burma_vassal.3.a:0 "They will die, painfully"
 
 #Silk Road
 golden_highway.1.t:0 "Silk Road Construction in [Root.GetName]"

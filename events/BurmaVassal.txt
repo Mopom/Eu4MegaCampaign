@@ -119,8 +119,9 @@ country_event = {
 	option = {	#War Declaration
 		name = burma_vassal.3.a
 		declare_war_with_cb = {
-			who = ava
-			casus_belli = cb_triggered_independence_war
+			who = AVA
+			casus_belli = cb_vassalize_mission
 		}
+		clr_country_flag = gng_burma_rejected
 	}
 }
