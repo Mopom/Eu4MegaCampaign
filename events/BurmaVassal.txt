@@ -1,0 +1,126 @@
+namespace = burma_vassal
+normal_or_historical_nations = yes
+
+# Ganga Questioned
+country_event = {
+	id = burma_vassal.1
+	title = "burma_vassal.1.t"
+	desc = "burma_vassal.1.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = Z01
+		has_subject_of_type = marz
+		current_age = age_of_revolutions
+	}
+	
+	option = {
+		name = burma_vassal.1.a
+		create_subject = {
+			who = AVA
+			subject_type = burma_protectorate
+		}
+	}
+	
+	option = {
+		name = burma_vassal.1.b
+		remove_historical_friend = AVA
+		set_country_flag = gng_burma_rejected
+		AVA = {	
+			remove_historical_friend = Z01
+			set_country_flag = burma_rejected
+		}
+	}
+}
+
+country_event = {
+	id = burma_vassal.2
+	title = "burma_vassal.2.t"
+	desc = "burma_vassal.2.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = AVA
+		has_country_flag = burma_rejected
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { overlord_of = ROOT }
+					OR = {
+						is_rival = Z01
+						is_enemy = Z01
+					}
+				}
+				set_country_flag = ava_flag_for_supporters
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = ava_flag_for_supporters
+				}
+				clr_country_flag = ava_flag_for_supporters
+			}
+		}
+		clr_country_flag = burma_rejected
+	}
+
+	option = {	#Accept foreign alliances
+		name = burma_vassal.2.a
+		add_liberty_desire = 1000
+		add_historical_rival = Z01
+		trigger = {
+			hidden_trigger = {
+				any_known_country = {
+					has_country_flag = ava_flag_for_supporters
+				}
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = ava_flag_for_supporters
+					NOT = { is_supporting_independence_of = ROOT }
+					has_opinion = { who = ROOT value = 0 }
+				}
+				country_event = {
+					id = flavor_swe.107
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = burma_vassal.3
+	title = "burma_vassal.3.t"
+	desc = "burma_vassal.3.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	trigger = {
+		tag = Z01
+		has_country_flag = gng_burma_rejected
+	}
+
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	option = {	#War Declaration
+		name = burma_vassal.3.a
+		declare_war_with_cb = {
+			who = ava
+			casus_belli = cb_triggered_independence_war
+		}
+	}
+}

@@ -32,6 +32,8 @@ GRTTIB:0 "Holy Tibet"
 GRTTIB_ADJ:0 "Holy Tibetan"
 GRTBURMA:0 "Great Burma"
 GRTBURMA_ADJ:0 "Great Burman"
+
+#Burma
 burma_protectorate_title:0 "Burmese Protectorate"
 burma_vassal.1.t:0 "The Burmese question"
 burma_vassal.1.d:0 "With us releasing Afghanistan Burma has started to question their own status as a marz and have politely requested more autonomy"
@@ -41,6 +43,7 @@ burma_vassal.2.t:0 "Order 66"
 burma_vassal.2.d:0 "The Gangans have murdered our younglings in cold blood! They must pay the price"
 burma_rejected:0 "Burma Rejected"
 burma_vassal.2.a:0 "They must pay in blood"
+ava_flag_for_supporters:0 "Burmese Supporters"
 
 #Silk Road
 golden_highway.1.t:0 "Silk Road Construction in [Root.GetName]"

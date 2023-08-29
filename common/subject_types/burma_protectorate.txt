@@ -1,7 +1,6 @@
 burma_protectorate = {
 	copy_from = commercial_enterprise
 	
-	can_fight_independence_war = no
 	can_fight = {
 		independent_nations = yes
 		same_overlord = no

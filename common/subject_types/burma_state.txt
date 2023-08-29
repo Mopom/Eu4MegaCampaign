@@ -3,7 +3,6 @@ burma_state = {
 	
 	max_government_rank = 0
 	takes_diplo_slot = no
-	can_fight_independence_war = no
 	can_fight = {
 		independent_nations = yes
 		same_overlord = no
