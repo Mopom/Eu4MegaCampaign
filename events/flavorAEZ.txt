@@ -2521,3 +2521,493 @@ country_event = {
         name = "flavor_aez.46.a"
 	}
 }
+
+country_event = {
+	id = flavor_aez.47
+	title = "flavor_aez.47.t"
+	desc = "flavor_aez.47.d"
+	picture = JANISSARY_ESTATE_UPSET_eventPicture
+
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = Z00
+		NOT = { has_country_flag = abbas_splits_ohnoooo_jan_again }
+		Z00 = {
+			is_revolutionary = yes
+		}
+		is_year = 1755
+	}
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+	
+	immediate = {
+		hidden_effect = {
+			138 = {
+				add_core = BOS
+			}
+			1766 = {
+				add_core = BOS
+			}
+			1827 = {
+				add_core = BOS
+			}
+			4757 = {
+				add_core = BOS
+			}
+			141 = {
+				add_core = BOS
+			}
+			4239 = {
+				add_core = BOS
+			}
+			albania_area = {
+				add_core = ALB
+			}
+			2750 = {
+				add_core = BUL
+			}
+			1765 = {
+				add_core = BUL
+			}
+			4703 = {
+				add_core = BUL
+			}
+			3000 = {
+				add_core = BUL
+			}
+			3001 = {
+				add_core = BUL
+			}
+			4780 = {
+				add_core = BUL
+			}
+			1766 = {
+				add_core = BUL
+			}
+			4700 = {
+				add_core = LES
+			}
+			thrace_area = {
+				add_core = RUM
+			}
+			159 = {
+				add_core = RUM
+			}
+			4706 = {
+				add_core = RUM
+			}
+			hudavendigar_area = {
+				add_core = RUM
+			}
+			aydin_area = {
+				add_core = RUM
+			}
+			2348 = {
+				add_core = RUM
+			}
+			320 = {
+				add_core = RUM
+			}
+			germiyan_area = {
+				add_core = RUM
+			}
+			karaman_area = {
+				add_core = RUM
+			}
+			ankara_area = {
+				add_core = RUM
+			}
+			kastamonu_area = {
+				add_core = RUM
+			}
+			rum_area = {
+				add_core = RUM
+			}
+			2302 = {
+				add_core = RUM
+			}
+			327 = {
+				add_core = RUM
+			}
+			332 = {
+				add_core = RUM
+			}
+			330 = {
+				add_core = RUM
+			}
+			321 = {
+				add_core = CYP
+			}
+			trans_jordan_area = {
+				add_core = ISR
+			}
+			4270 = {
+				add_core = ISR
+			}
+			4271 = {
+				add_core = ISR
+			}
+			382 = {
+				add_core = ISR
+			}
+			1855 = {
+				add_core = ISR
+			}
+			356 = {
+				add_core = AFR
+			}
+			357 = {
+				add_core = AFR
+			}
+			samtskhe_area = {
+				add_core = GEO
+			}
+			2999 = {
+				add_core = OMA
+			}
+			396 = {
+				add_core = NAJ
+			}
+			mecca_area = {
+				add_core = HED
+			}
+			medina_area = {
+				add_core = HED
+			}
+			tabuk_area = {
+				add_core = HED
+			}
+			4272 = {
+				add_core = HED
+			}
+			gulf_of_arabia_area = {
+				add_core = EGY
+			}
+			delta_area = {
+				add_core = EGY
+			}
+			bahari_area = {
+				add_core = EGY
+			}
+			vostani_area = {
+				add_core = EGY
+			}
+			al_wahat_area = {
+				add_core = EGY
+			}
+			2325 = {
+				add_core = EGY
+			}
+			2326 = {
+				add_core = EGY
+			}
+			357 = {
+				add_core = EGY
+			}
+			2324 = {
+				add_core = EGY
+			}
+			said_area = {
+				add_core = EGY
+			}
+			lower_nubia_area = {
+				add_core = EGY
+			}
+			dongola_area = {
+				add_core = EGY
+			}
+			upper_nubia_area = {
+				add_core = EGY
+			}
+			sennar_area = {
+				add_core = EGY
+			}
+			aleppo_area = {
+				add_core = SYR
+			}
+			378 = {
+				add_core = SYR
+			}
+			4297 = {
+				add_core = SYR
+			}
+			405 = {
+				add_core = SYR
+			}
+			2314 = {
+				add_core = SYR
+			}
+			407 = {
+				add_core = SYR
+			}
+			2309 = {
+				add_core = SYR
+			}
+			4292 = {
+				add_core = SYR
+			}
+			2308 = {
+				add_core = SYR
+			}
+			4295 = {
+				add_core = SYR
+			}
+			418 = {
+				add_core = SYR
+			}
+			2305 = {
+				add_core = SYR
+			}
+			4310 = {
+				add_core = SYR
+			}
+			2303 = {
+				add_core = SYR
+			}
+			shirvan_area = {
+				add_core = ARM
+			}
+			armenia_area = {
+				add_core = ARM
+			}
+			tabriz_area = {
+				add_core = ARM
+			}
+			331 = {
+				add_core = ARM
+			}
+			2306 = {
+				add_core = ARM
+			}
+			2307 = {
+				add_core = ARM
+			}
+			4296 = {
+				add_core = ARM
+			}
+			shahrizor_area = {
+				add_core = ARM
+			}
+			411 = {
+				add_core = ARM
+			}
+			iraq_arabi_area = {
+				add_core = IRQ
+			}
+			basra_area = {
+				add_core = IRQ
+			}
+			khuzestan_area = {
+				add_core = IRQ
+			}
+			413 = {
+				add_core = IRQ
+			}
+			2209 = {
+				add_core = IRQ
+			}
+			2210 = {
+				add_core = IRQ
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_aez.47.a"
+		hidden_effect = {
+			set_country_flag = abbas_splits_ohnoooo_jan_again
+			1855 = {
+				cede_province = ISR
+				remove_core = Z00
+			}
+			382 = {
+				cede_province = ISR
+				remove_core = Z00
+			}
+			4271 = {
+				cede_province = ISR
+				remove_core = Z00
+			}
+			396 = {
+				cede_province = NAJ
+				remove_core = Z00
+			}
+			2999 = {
+				cede_province = OMA
+				remove_core = Z00
+			}
+			samtskhe_area = {
+				type = all
+				cede_province = GEO
+				remove_core = Z00
+			}
+			trans_jordan_area = {
+				type = all
+				cede_province = ISR
+				remove_core = Z00
+			}
+			356 = {
+				cede_province = AFR
+				remove_core = Z00
+			}
+			357 = {
+				cede_province = AFR
+				remove_core = Z00
+			}
+			2954 = {
+				cede_province = AFR
+				remove_core = Z00
+			}
+			4754 = {
+				cede_province = UBL
+				remove_core = Z00
+			}
+			138 = {
+				cede_province = BOS
+				remove_core = Z00
+			}
+			1827 = {
+				cede_province = BOS
+				remove_core = Z00
+			}
+			4757 = {
+				cede_province = BOS
+				remove_core = Z00
+			}
+			4239 = {
+				cede_province = BOS
+				remove_core = Z00
+			}
+			141 = {
+				cede_province = BOS
+				remove_core = Z00
+			}
+			inherit = BEK
+			inherit = SIC
+			inherit = NAP
+			release = ALB
+			release = SER
+			release = Z0G
+			release = WAL
+			release = LES
+			release = CYP
+			release = IRQ
+			release = ARM
+			release = SYR
+			release = HED
+			release = EGY
+			release = RUM
+			release = BUL
+		}
+		Z00 = {
+			set_capital = 146
+			release_all_subjects = yes
+			override_country_name = JANDICTATORSHIP
+		}
+	}
+	
+	after = {
+		hidden_effect = {
+			ALB = {
+				set_capital = 4174
+				change_primary_culture = albanian
+				add_accepted_culture = greek
+				change_religion = orthodox
+			}
+			SER = {
+				change_primary_culture = romanian
+				change_religion = orthodox
+				set_in_empire = yes
+			}
+			BUL = {
+				set_capital = 1765
+				change_primary_culture = bulgarian
+				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = orthodox
+			}
+			Z0G = {
+				change_primary_culture = bulgarian
+				change_religion = orthodox
+				set_in_empire = yes
+			}
+			WAL = {
+				set_capital = 160
+				change_primary_culture = romanian
+				change_religion = orthodox
+				set_in_empire = yes
+			}
+			LES = {
+				set_capital = 4700
+				change_primary_culture = anatolian
+				add_accepted_culture = greek
+				change_religion = orthodox
+				add_government_reform = sisterhood_of_jeanne_darc_reform
+				set_in_empire = yes
+				define_ruler = {
+					name = "Sappho"
+					adm = 6
+					dip = 6
+					mil = 6
+					age = 20
+					claim = 94
+					female = yes
+					culture = greek
+					religion = orthodox
+				}
+			}
+			CYP = {
+				set_capital = 321
+				change_primary_culture = ruthenian
+				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = orthodox
+				set_in_empire = yes
+			}
+			IRQ = {
+				set_capital = 410
+				change_primary_culture = al_iraqiya_arabic
+				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = sunni
+			}
+			ARM = {
+				set_capital = 2307
+				change_primary_culture = armenian
+				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = coptic
+			}
+			SYR = {
+				set_capital = 2313
+				change_primary_culture = al_suryah_arabic
+				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = sunni
+			}
+			HED = {
+				set_capital = 385
+				change_primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = sunni
+			}
+			EGY = {
+				set_capital = 361
+				change_primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = sunni
+			}
+			RUM = {
+				set_capital = 151
+				change_primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
+				change_religion = sunni
+			}
+			321 = {
+				change_culture = ruthenian
+			}
+			4700 = {
+				change_religion = orthodox
+			}
+			379 = {
+				change_religion = jewish
+			}
+		}
+	}
+}
