@@ -43,4 +43,8 @@ on_startup = {
 		limit = { tag = AFG }
 		country_event = { id = persia_afghan_war.2 }
 	}
+	if = {
+		limit = { tag = RUS }
+		country_event = { id = rus_yamesnikov.2 }
+	}
 }
