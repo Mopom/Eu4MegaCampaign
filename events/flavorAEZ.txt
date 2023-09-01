@@ -2813,6 +2813,9 @@ country_event = {
 			2210 = {
 				add_core = IRQ
 			}
+			4754 = {
+				add_core = RAG
+			}
 		}
 	}
 	
@@ -2863,7 +2866,6 @@ country_event = {
 				remove_core = Z00
 			}
 			4754 = {
-				cede_province = UBL
 				remove_core = Z00
 			}
 			138 = {
@@ -2889,6 +2891,7 @@ country_event = {
 			inherit = BEK
 			inherit = SIC
 			inherit = NAP
+			release = RAG
 			release = ALB
 			release = SER
 			release = Z0G
@@ -2917,6 +2920,21 @@ country_event = {
 				change_primary_culture = albanian
 				add_accepted_culture = greek
 				change_religion = orthodox
+				set_in_empire = yes
+			
+			}
+			BOS = {
+				set_in_empire = yes
+			}
+			RAG = {
+				change_primary_culture = dalmatian
+				change_religion = sunni
+				set_in_empire = yes
+				set_religious_school = {
+					group = muslim
+					school = zahrai_school
+				}
+				override_country_name = BUDVAKOT
 			}
 			SER = {
 				change_primary_culture = romanian
@@ -2928,6 +2946,7 @@ country_event = {
 				change_primary_culture = bulgarian
 				add_accepted_culture = dynamic-greek-al_suryah_arabic-culture-num1
 				change_religion = orthodox
+				set_in_empire = yes
 			}
 			Z0G = {
 				change_primary_culture = bulgarian
@@ -2992,7 +3011,7 @@ country_event = {
 			EGY = {
 				set_capital = 361
 				change_primary_culture = dynamic-greek-al_suryah_arabic-culture-num1
-				change_religion = sunni
+				change_religion = quranist
 			}
 			RUM = {
 				set_capital = 151
@@ -3004,9 +3023,14 @@ country_event = {
 			}
 			4700 = {
 				change_religion = orthodox
+				change_culture = anatolian
 			}
 			379 = {
 				change_religion = jewish
+			}
+			2307 = {
+				change_religion = coptic
+				change_culture = armenian
 			}
 		}
 	}
