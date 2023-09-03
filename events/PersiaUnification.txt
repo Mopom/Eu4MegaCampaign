@@ -15,7 +15,7 @@ country_event = {
 		tag = PER
 		exists = AFG
 		NOT = { war_with = AFG }
-		NOT = { is_year = 1755 }
+		NOT = { is_year = 1756 }
 	}
 
 	immediate = {
@@ -44,7 +44,7 @@ country_event = {
 		tag = AFG
 		exists = PER
 		NOT = { war_with = PER }
-		NOT = { is_year = 1755 }
+		NOT = { is_year = 1756 }
 	}
 
 	immediate = {
@@ -185,7 +185,7 @@ country_event = {
 	trigger = {
 		tag = Z00
 		exists = PER
-		NOT = { is_year = 1755 }
+		NOT = { is_year = 1756 }
 	}
 
 	option = {
@@ -214,7 +214,7 @@ country_event = {
 		tag = Z01
 		exists = AFG
 		NOT = { war_with = AFG }
-		NOT = { is_year = 1755 }
+		NOT = { is_year = 1756 }
 	}
 
 	option = {

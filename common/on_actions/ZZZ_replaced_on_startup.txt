@@ -28,6 +28,10 @@ on_startup = {
 		set_global_flag = ZZZ_enhanced_old_bon_reformed
 	}
 	if = {
+		limit = { tag = RUS }
+		country_event = { id = rus_yamesnikov.2 }
+	}
+	if = {
 		limit = { tag = Z00 }
 		country_event = { id = persia_afghan_war.6 }
 	}
@@ -42,9 +46,5 @@ on_startup = {
 	if = {
 		limit = { tag = AFG }
 		country_event = { id = persia_afghan_war.2 }
-	}
-	if = {
-		limit = { tag = RUS }
-		country_event = { id = rus_yamesnikov.2 }
 	}
 }

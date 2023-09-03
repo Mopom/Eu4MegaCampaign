@@ -10,8 +10,6 @@ country_event = {
     desc = rus_yamesnikov.2.d
     picture = CONQUEST_eventPicture
 
-    fire_only_once = yes
-
     trigger = {
         tag = RUS
         has_country_flag = yamesnikov_praised
@@ -24,6 +22,7 @@ country_event = {
 	option = {
        		name = rus_yamesnikov.2.a
       		set_country_flag = yamesnikov_praised_2
+		clr_country_flag = yamesnikov_praised
         	add_country_modifier = {
             		name = yamesnikov_training_heir
             		duration = 7300
@@ -33,6 +32,7 @@ country_event = {
 	option = {
 		name = rus_yamesnikov.2.b
 		set_country_flag = yamesnikov_rejected_2
+		clr_country_flag = yamesnikov_praised
 		add_country_modifier = {
         		name = no_training_for_heir
     			duration = 7300
