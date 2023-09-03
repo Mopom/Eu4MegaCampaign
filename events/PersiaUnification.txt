@@ -213,7 +213,6 @@ country_event = {
 	trigger = {
 		tag = Z01
 		exists = AFG
-		NOT = { war_with = AFG }
 		NOT = { is_year = 1756 }
 	}
 
