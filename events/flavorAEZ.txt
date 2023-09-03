@@ -3094,6 +3094,7 @@ country_event = {
 				id = flavor_aez.49
 				days = 5
 			}
+			add_government_reform = military_dictatorship
 		}
 	}
 }
