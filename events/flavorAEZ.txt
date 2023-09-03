@@ -3655,3 +3655,25 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = flavor_aez.50
+	title = "flavor_aez.2.t"
+	desc = "flavor_aez.2.d"
+	picture = muslimgfx_ADVISOR_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = RFC
+		is_year = 1755
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+    option = {
+        name = "flavor_aez.2.a"
+		kill_heir = { allow_new_heir_no }
+	}
+}
