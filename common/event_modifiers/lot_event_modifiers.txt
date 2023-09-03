@@ -573,3 +573,10 @@ fed_compromise_lives_on = {
     stability_cost_modifier = -0.1
     technology_cost = -0.05
 }
+armen_indus_ban = {
+	production_efficiency = -0.15
+}
+syrian_alexandrian_posts_ubl = {
+	merchants = 2
+	global_trade_power = 0.05
+}

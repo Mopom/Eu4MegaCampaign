@@ -2548,72 +2548,100 @@ country_event = {
 		hidden_effect = {
 			138 = {
 				add_core = BOS
+				remove_core = Z00
 			}
 			1766 = {
 				add_core = BOS
+				remove_core = Z00
 			}
 			1827 = {
 				add_core = BOS
+				remove_core = Z00
 			}
 			4757 = {
 				add_core = BOS
+				remove_core = Z00
 			}
 			141 = {
 				add_core = BOS
+				remove_core = Z00
 			}
 			4239 = {
 				add_core = BOS
+				remove_core = Z00
 			}
 			albania_area = {
+				type = all
 				add_core = ALB
+				remove_core = Z00
 			}
 			2750 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			1765 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			4703 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			3000 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			3001 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			4780 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			1766 = {
 				add_core = BUL
+				remove_core = Z00
 			}
 			4700 = {
 				add_core = LES
+				remove_core = Z00
 			}
 			thrace_area = {
+				type = all
 				add_core = RUM
+				remove_core = Z00
 			}
 			159 = {
 				add_core = RUM
+				remove_core = Z00
 			}
 			4706 = {
 				add_core = RUM
+				remove_core = Z00
 			}
 			hudavendigar_area = {
+				type = all
 				add_core = RUM
+				remove_core = Z00
 			}
 			aydin_area = {
+				type = all
 				add_core = RUM
+				remove_core = Z00
 			}
 			2348 = {
 				add_core = RUM
+				remove_core = Z00
 			}
 			320 = {
 				add_core = RUM
+				remove_core = Z00
 			}
 			germiyan_area = {
+				type = all
 				add_core = RUM
+				remove_core = Z00
 			}
 			karaman_area = {
 				add_core = RUM
@@ -2861,12 +2889,34 @@ country_event = {
 				cede_province = AFR
 				remove_core = Z00
 			}
-			2954 = {
-				cede_province = AFR
-				remove_core = Z00
+			358 = {
+				cede_province = Z00
+				remove_core = UBL
+			}
+			4316 = {
+				cede_province = Z00
+				remove_core = UBL
+			}
+			378 = {
+				cede_province = Z00
+				remove_core = UBL
+			}
+			378 = {
+				cede_province = Z00
+				remove_core = UBL
+			}
+			318 = {
+				cede_province = Z00
+				remove_core = UBL
+				remove_core = LES
+			}
+			328 = {
+				cede_province = Z00
+				remove_core = UBL
 			}
 			4754 = {
 				remove_core = Z00
+				remove_revolution_from_province_effect = yes
 			}
 			138 = {
 				cede_province = BOS
@@ -2887,6 +2937,37 @@ country_event = {
 			141 = {
 				cede_province = BOS
 				remove_core = Z00
+			}
+			4757 = {
+				remove_revolution_from_province_effect = yes
+			}
+			141 = {
+				remove_revolution_from_province_effect = yes
+			}
+			4239 = {
+				remove_revolution_from_province_effect = yes
+			}
+			albania_area = {
+				type = all
+				remove_revolution_from_province_effect = yes
+			}
+			1855 = {
+				remove_revolution_from_province_effect = yes
+			}
+			420 = {
+				remove_revolution_from_province_effect = yes
+			}
+			delta_area = {
+				type = all
+				remove_revolution_from_province_effect = yes
+			}
+			bahari_area = {
+				type = all
+				remove_revolution_from_province_effect = yes
+			}
+			vostani_area = {
+				type = all
+				remove_revolution_from_province_effect = yes
 			}
 			inherit = BEK
 			inherit = SIC
@@ -3020,10 +3101,13 @@ country_event = {
 			}
 			321 = {
 				change_culture = ruthenian
+				remove_revolution_from_province_effect = yes
 			}
 			4700 = {
 				change_religion = orthodox
 				change_culture = anatolian
+				remove_revolution_from_province_effect = yes
+				remove_core = Z00
 			}
 			379 = {
 				change_religion = jewish
@@ -3032,6 +3116,589 @@ country_event = {
 				change_religion = coptic
 				change_culture = armenian
 			}
+			country_event = {
+				id = flavor_aez.49
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_aez.48
+	title = "flavor_aez.48.t"
+	desc = "flavor_aez.48.d"
+	picture = INVENTION_eventPicture
+	
+	trigger = {
+		tag = ARM
+		has_institution = industrialization
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+    option = {
+        name = "flavor_aez.48.a"
+		add_country_modifier = {
+			name = armen_indus_ban
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "flavor_aez.48.b"
+	}
+}
+
+country_event = {
+	id = flavor_aez.49
+	title = "flavor_aez.49.t"
+	desc = "flavor_aez.49.d"
+	picture = INVENTION_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	
+    option = {
+        name = "flavor_aez.49.a"
+		RAG = {
+			set_religious_school = {
+				group = muslim
+				school = zahrai_school
+			}
+		}
+		Z0G = {
+			change_government = theocracy
+			add_government_reform = orthodox_patriarchate_reform
+		}
+		378 = {
+			add_trade_modifier = {
+				who = UBL
+				duration = -1
+				power = 300
+				key = SYRIAN_TRADE_PORTS_UBL
+			}
+		}
+		358 = {
+			add_trade_modifier = {
+				who = UBL
+				duration = -1
+				duration = 645
+				key = EGYPTIAN_TRADE_PORTS_UBL
+			}
+		}
+		UBL = {
+			add_country_modifier = {
+				name = syrian_alexandrian_posts_ubl
+				duration = -1
+			}
+		}
+		4754 = {
+			artillery = RAG
+			artillery = RAG
+			artillery = RAG
+			artillery = RAG
+			artillery = RAG
+			artillery = RAG
+		}
+		4176 = {
+			artillery = SER
+			artillery = SER
+			artillery = SER
+			artillery = SER
+			artillery = SER
+			artillery = SER
+		}
+		2746 = {
+			artillery = Z0G
+			artillery = Z0G
+			artillery = Z0G
+			artillery = Z0G
+			artillery = Z0G
+			artillery = Z0G
+		}
+		161 = {
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+			artillery = WAL
+		}
+		1765 = {
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+		}
+		3001 = {
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+			artillery = BUL
+		}
+		4174 = {
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+			artillery = ALB
+		}
+		151 = {
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+		}
+		326 = {
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+		}
+		330 = {
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+		}
+		4779 = {
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+		}
+		320 = {
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+			artillery = RUM
+		}
+		4700 = {
+			artillery = LES
+			artillery = LES
+			artillery = LES
+			artillery = LES
+			artillery = LES
+			artillery = LES
+		}
+		321 = {
+			artillery = CYP
+			artillery = CYP
+			artillery = CYP
+			artillery = CYP
+			artillery = CYP
+			artillery = CYP
+		}
+		2313 = {
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+		}
+		407 = {
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+			artillery = SYR
+		}
+		2307 = {
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+		}
+		419 = {
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+			artillery = ARM
+		}
+		410 = {
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+		}
+		408 = {
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+			artillery = IRQ
+		}
+		379 = {
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+			artillery = ISR
+		}
+		2331 = {
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+		}
+		384 = {
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+			artillery = HED
+		}
+		361 = {
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+		}
+		358 = {
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+		}
+		360 = {
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+		}
+		1234 = {
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
+			artillery = EGY
 		}
 	}
 }
