@@ -14,7 +14,7 @@ country_event = {
 	trigger = {
 		tag = Z00
 		exists = PER
-		NOT = { is_year = 1755 }
+		is_year = 1754
 	}
 
 	option = {
@@ -40,7 +40,7 @@ country_event = {
 	trigger = {
 		tag = Z01
 		exists = AFG
-		NOT = { is_year = 1755 }
+		is_year = 1754
 	}
 
 	option = {
