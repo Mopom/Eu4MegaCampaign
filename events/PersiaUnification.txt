@@ -1,7 +1,6 @@
 namespace = persia_unification
 
 #Zokka-Jaddari Conflict
-
 country_event = {
 	id = persia_afghan_war.1
 	title = persia_afghan_war.1.t
@@ -13,7 +12,9 @@ country_event = {
 	
 	trigger = {
 		tag = Z00
-		exists = PER
+		PER = {
+			is_subject_of = ROOT
+		}
 		is_year = 1754
 	}
 
@@ -39,7 +40,9 @@ country_event = {
 	
 	trigger = {
 		tag = Z01
-		exists = AFG
+		AFG = {
+			is_subject_of = ROOT
+		}
 		is_year = 1754
 	}
 
