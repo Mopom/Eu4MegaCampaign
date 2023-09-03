@@ -2881,38 +2881,12 @@ country_event = {
 				cede_province = ISR
 				remove_core = Z00
 			}
-			356 = {
-				cede_province = AFR
-				remove_core = Z00
-			}
 			357 = {
 				cede_province = AFR
 				remove_core = Z00
 			}
-			358 = {
-				cede_province = Z00
-				remove_core = UBL
-			}
-			4316 = {
-				cede_province = Z00
-				remove_core = UBL
-			}
-			378 = {
-				cede_province = Z00
-				remove_core = UBL
-			}
-			378 = {
-				cede_province = Z00
-				remove_core = UBL
-			}
 			318 = {
-				cede_province = Z00
-				remove_core = UBL
 				remove_core = LES
-			}
-			328 = {
-				cede_province = Z00
-				remove_core = UBL
 			}
 			4754 = {
 				remove_core = Z00
@@ -3173,28 +3147,6 @@ country_event = {
 		Z0G = {
 			change_government = theocracy
 			add_government_reform = orthodox_patriarchate_reform
-		}
-		378 = {
-			add_trade_modifier = {
-				who = UBL
-				duration = -1
-				power = 300
-				key = SYRIAN_TRADE_PORTS_UBL
-			}
-		}
-		358 = {
-			add_trade_modifier = {
-				who = UBL
-				duration = -1
-				duration = 645
-				key = EGYPTIAN_TRADE_PORTS_UBL
-			}
-		}
-		UBL = {
-			add_country_modifier = {
-				name = syrian_alexandrian_posts_ubl
-				duration = -1
-			}
 		}
 		4754 = {
 			artillery = RAG
