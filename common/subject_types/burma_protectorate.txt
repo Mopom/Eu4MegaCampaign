@@ -1,6 +1,23 @@
 burma_protectorate = {
 	copy_from = commercial_enterprise
 	
+	# Graphics:
+	sprite = GFX_icon_commercial_enterprise
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_commercial_enterprise
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_commercial_enterprise
+
+	# Properties:
+	base_liberty_desire = -100.0
+	can_be_annexed = no
+	has_power_projection = yes
+	can_have_subjects_of_other_types = yes
+	can_use_claims = yes
+	allows_taking_land_without_independence = yes
+	joins_overlords_wars = no
+	joins_colonial_wars = no
+	does_overlord_size_count_for_warscore_cost = no
+	should_quit_wars_on_activation = no
+
 	can_fight = {
 		independent_nations = yes
 		same_overlord = no
@@ -13,7 +30,7 @@ burma_protectorate = {
 	}
 	can_ally = {
 		independent_nations = no
-		same_overlord = no
+		same_overlord = yes
 		other_overlord = all
 	}
 	can_marry = {
@@ -21,28 +38,6 @@ burma_protectorate = {
 		same_overlord = no
 		other_overlord = all
 	}
-
-	# Graphics:
-	sprite = GFX_icon_march
-	diplomacy_overlord_sprite = GFX_diplomacy_leadmarch
-	diplomacy_subject_sprite = GFX_diplomacy_weakmarch
-
-	# Properties:
-	overlord_protects_external = yes
-	pays_overlord = 0.0
-	base_liberty_desire = -100.0
-	can_be_annexed = no
-	forcelimit_to_overlord = 0.1
-	has_power_projection = yes
-	can_have_subjects_of_other_types = yes
-	can_use_claims = yes
-	allows_taking_land_without_independence = yes
-	joins_overlords_wars = no
-	joins_colonial_wars = no
-	relative_power_class = 0
-	transfer_trade_power = yes
-	does_overlord_size_count_for_warscore_cost = no
-	should_quit_wars_on_activation = no
 
 	# Subject Interactions:
 	scutage = no
