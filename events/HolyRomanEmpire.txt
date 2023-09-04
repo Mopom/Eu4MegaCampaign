@@ -90,24 +90,15 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	
-	option = {
-		name = "EVTOPTA9075"
-		change_tag = RUS
-		restore_country_name_effect = yes
-		add_country_modifier = {
-			name = "rome_reborn"
-			duration = -1
-		}
-		every_province = {
-			limit = {
-				is_part_of_hre = yes
-				OR = {
-					owned_by = ROOT
-					owner = { is_neighbor_of = ROOT }
+	immediate = {
+		RUS = {
+			if = {
+				limit = {
+					has_custom_ideas = no
 				}
-				NOT = { is_core = ROOT }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			add_core = emperor
+			swap_non_generic_missions = yes
 		}
 		every_country = {
 			limit = {
@@ -117,16 +108,19 @@ country_event = {
 			}
 			country_event = { id = 9076 }
 		}
-		dismantle_hre = yes
+	}
+	option = {
+		name = "rus_regency"
+		has_country_flag = yamesnikov_praised_5
+		restore_country_name_effect = yes
 		set_government_rank = 3
 		add_adm_power = 250
-		if = {
-			limit = {
-				has_custom_ideas = no
-			}
-			country_event = { id = ideagroups.1 } #Swap Ideas
-		}
-		swap_non_generic_missions = yes
+		
+	}
+	option = {
+		name = "rus_yames_final_rejection"
+		has_country_flag = yamesnikov_rejected_5
+		restore_country_name_effect = yes
 	}
 }
 
@@ -141,9 +135,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA9076"
-		RUS = {
-			inherit = ROOT
-		}
+		
 	}
 }
 
