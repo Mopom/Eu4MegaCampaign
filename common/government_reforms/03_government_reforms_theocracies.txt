@@ -720,6 +720,7 @@ revol_vizier = {
 	allow_normal_conversion = no
 	potential = {
 		has_country_flag = revol_vizier_happened
+		is_revolutionary = yes
 	}
 	uses_revolutionary_zeal = yes
 	revolutionary = yes

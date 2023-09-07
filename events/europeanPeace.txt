@@ -482,3 +482,96 @@ country_event = {
 		add_government_reform = viz_feuillant_reform
 	}
 }
+
+country_event = {
+	id = europeanPeace.17
+	title = europeanPeace.17.t
+	desc = europeanPeace.17.d
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = Z00
+		year = 1764
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	#Cool
+		name = europeanPeace.17.a
+		set_country_flag = jan_tolerance_allowed
+		override_country_name = JANTOLDICT
+        change_religion = orthodox
+        change_government_reform_progress = 3000
+        change_tag = GRE
+        add_government_reform = jan_tolerance_reform
+        anatolia_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        mashriq_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        arabia_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        egypt_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        horn_of_africa_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        caucasia_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        persia_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        khorasan_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        west_india_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+        sahel_region = {
+            remove_core = ROOT
+            remove_claim = ROOT
+        }
+		wallachia_area = {
+			add_permanent_claim = ROOT
+		}
+		albania_area = {
+			add_permanent_claim = ROOT
+		}
+		bosnia_area = {
+			add_permanent_claim = ROOT
+		}
+		serbia_area = {
+			add_permanent_claim = ROOT
+		}
+		bulgaria_area = {
+			add_permanent_claim = ROOT
+		}
+		thrace_area = {
+			add_permanent_claim = ROOT
+		}
+		silistria_area = {
+			add_permanent_claim = ROOT
+		}
+        remove_estate_privilege = estate_nobles_development_of_castles
+        remove_estate_privilege = estate_dhimmi_dhimmi_education
+        add_manpower = -750
+        add_treasury = -150000
+        country_event = { id = ideagroups.1 } #Swap Ideas
+	}
+}

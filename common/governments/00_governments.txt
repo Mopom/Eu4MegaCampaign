@@ -565,6 +565,7 @@ republic = {
 				presidential_despot_reform
 				cossacks_reform
 				military_dictatorship_reform
+				jan_tolerance_reform
 				protectorate_parliament_reform
 				prussian_republic_reform
 				united_cantons_reform
@@ -885,7 +886,7 @@ republic = {
 		prussian_republic_reform
 		military_dictatorship_reform
 	}
-	exclusive_reforms = { 
+	exclusive_reforms = {
 		dutch_republic
 		force_reelection_reform
 	}
