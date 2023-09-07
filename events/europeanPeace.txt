@@ -568,10 +568,17 @@ country_event = {
 		silistria_area = {
 			add_permanent_claim = ROOT
 		}
+		macedonia_area = {
+			add_permanent_claim = ROOT
+		}
+		rascia_area = {
+			add_permanent_claim = ROOT
+		}
         remove_estate_privilege = estate_nobles_development_of_castles
         remove_estate_privilege = estate_dhimmi_dhimmi_education
         add_manpower = -750
         add_treasury = -150000
         country_event = { id = ideagroups.1 } #Swap Ideas
+        change_technology_group = eastern
 	}
 }
