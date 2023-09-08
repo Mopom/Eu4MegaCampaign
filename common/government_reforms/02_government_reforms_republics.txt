@@ -86,6 +86,7 @@ jan_tolerance_reform = {
 	potential = {
 		has_country_flag = jan_tolerance_allowed
 	}
+	has_term_election = no
 	modifiers = {
 		tolerance_heretic = 3
 		tolerance_heathen = 3
@@ -584,7 +585,10 @@ military_dictatorship_reform = {
 	lock_level_when_selected = yes
 	icon = "parliament_hall"
 	potential = {
-		has_reform = military_dictatorship_reform
+	    OR = {
+		    has_reform = military_dictatorship_reform
+		    tag = Z00
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 25
