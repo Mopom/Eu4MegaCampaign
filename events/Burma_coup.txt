@@ -1,20 +1,15 @@
 namespace = burma_coup
 
 country_event = {
-	id = burma_coup.1
-	title = burma_coup.1.t
-	desc = burma_coup.1.d
+	id = burma_coup
+	title = "burma_coup.1.t"
+	desc = "burma_coup.1.d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	fire_only_once = yes
 
 	trigger = {
 		tag = AVA
-		is_year = 1764
-	}
-
-	mean_time_to_happen = {
-		days = 1
 	}
 
 	option = {
@@ -25,9 +20,24 @@ country_event = {
 		
 		change_government = republic
 
-		add_government_reform = military_dictatorship_reform
+		add_government_reform = burman_military_dictatorship_reform
+		add_government_reform = democratic_values_reform
+		add_government_reform = consolidation_of_power_reform
+		add_government_reform = curtail_clergy_power_reform
+		add_government_reform = ahmudan_system_reform
+		add_government_reform = provincial_governments_reform
+		add_government_reform = presidential_reform
+		add_government_reform = broaden_executive_powers_reform
+		add_government_reform = lockean_proviso_reform
+		add_government_reform = military_principle_reform
+		add_government_reform = citizenry_reform
+		add_government_reform = appointment_by_committee_reform
+		add_government_reform = federal_senate_reform
+
+		change_government_reform_progress = -2800
+		
 		define_general = {
-				name = "Devapala Prome"
+				name = "Devapala 'Soll' Prome"
 				min_age = 25
 				max_age = 30
 				fire = 5
@@ -36,11 +46,19 @@ country_event = {
 				siege = 1
 			}
 		kill_ruler = yes
-
-		# spies are buisy purging the loyalists
+		# spies are buisy with 'other stuff'
 		add_country_modifier = {
 			name = "compromised_spy_defence"
 			duration = 1825
 		}
+		add_faction_influence = {
+				faction = Military
+				influence = 45
+			}
+		add_faction_influence = {
+				faction = Agents
+				influence = 30
+			}
+		override_country_name = BURMIL
 	}
 }

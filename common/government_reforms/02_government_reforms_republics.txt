@@ -117,6 +117,34 @@ jan_tolerance_reform = {
 	}
 }
 
+burman_military_dictatorship_reform = {
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	icon = "parliament_hall"
+	potential = {
+		has_reform = burman_military_dictatorship_reform
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 25
+	has_term_election = no
+	modifiers = {
+		global_autonomy = -0.075
+		land_morale = 0.05
+		max_absolutism = 30
+	}
+	factions = {
+		Technochrats
+		Agents
+		Military
+	}
+	custom_attributes = {
+		generals_become_rulers = yes
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
 protectorate_parliament_reform = {
 	icon = "protectorate_parliament_reform"
 	allow_normal_conversion = no
