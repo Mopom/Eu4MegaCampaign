@@ -1,0 +1,31 @@
+spriteTypes = {
+    
+	spriteType = {
+		name = "GFX_faction_bg_Technochrats"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_Technochrats"	
+		texturefile = "gfx//interface//traders_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_Agents"	
+		texturefile = "gfx//interface//faction_purple_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_Agents"	
+		texturefile = "gfx//interface//pr_faction_smugglers.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_Military"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_Military"	
+		texturefile = "gfx//interface//girondists_icon.tga"
+	}
+	
+}

@@ -79,6 +79,72 @@ signoria_reform = {
 	}
 }
 
+jan_tolerance_reform = {
+	icon = "feuillant_reform"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		has_country_flag = jan_tolerance_allowed
+	}
+	has_term_election = no
+	modifiers = {
+		tolerance_heretic = 3
+		tolerance_heathen = 3
+		religious_unity = 0.25
+		special_unit_forcelimit = 0.5
+		infantry_power = 0.1
+		can_recruit_janissaries = yes
+		allow_janissaries_from_own_faith = yes
+	}
+
+	ai = {
+		factor = 0
+	}
+
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		has_janissaries = yes
+		custom_attributes = {
+			enables_estate_janissaries = yes
+		}
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		generals_become_rulers = yes
+		disables_estate_church = yes
+	}
+}
+
+burman_military_dictatorship_reform = {
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	icon = "parliament_hall"
+	potential = {
+		has_reform = burman_military_dictatorship_reform
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 25
+	has_term_election = no
+	modifiers = {
+		global_autonomy = -0.075
+		land_morale = 0.05
+		max_absolutism = 30
+	}
+	factions = {
+		Technochrats
+		Agents
+		Military
+	}
+	custom_attributes = {
+		generals_become_rulers = yes
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
 protectorate_parliament_reform = {
 	icon = "protectorate_parliament_reform"
 	allow_normal_conversion = no
@@ -547,7 +613,10 @@ military_dictatorship_reform = {
 	lock_level_when_selected = yes
 	icon = "parliament_hall"
 	potential = {
-		has_reform = military_dictatorship_reform
+	    OR = {
+		    has_reform = military_dictatorship_reform
+		    tag = Z00
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 25
@@ -3014,6 +3083,7 @@ viz_feuillant_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_country_flag = revol_vizier_happened
+		is_revolutionary = yes
 	}
 	modifiers = {
 		stability_cost_modifier = -0.1

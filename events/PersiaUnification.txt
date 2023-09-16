@@ -267,8 +267,7 @@ country_event = {
 	desc = persia_afghan_war.9.d #After our recent war against the sun elves we have pushed directly into Bulwar. However our rear flank hasn't been covered yet
 	picture = HORDE_ON_HORSEBACK_eventPicture
 	
-	fire_only_once = yes
-
+	
 	mean_time_to_happen = {
         	days = 20
     	}
@@ -276,6 +275,7 @@ country_event = {
 	trigger = {	
 		tag = PER
 		exists = AFG
+		NOT = { war_with = AFG }
 	}
 	
 

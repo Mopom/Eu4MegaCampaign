@@ -19,7 +19,7 @@ somali_ideas = {
 
 greek_ideas = {
 	trigger = {
-		culture_group = byzantine
+		tag = GRE
 	}
 }
 

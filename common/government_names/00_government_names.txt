@@ -459,6 +459,48 @@ gov_prussian_republic = {
 	}
 }
 
+gov_burman_military_dictatorship_reform = {
+	rank = {
+		1 = BUR_MILITARY
+		2 = BUR_MILITARY
+		3 = BUR_MILITARY
+	}
+	ruler_male = {
+		1 = BUR_LIEUTENANT
+		2 = BUR_COLONEL
+		3 = BUR_MARSHAL
+	}
+	ruler_female = {
+		1 = BUR_LIEUTENANT_fem
+		2 = BUR_COLONEL_fem
+		3 = BUR_MARSHAL_fem
+	}
+	trigger = {
+		has_reform = burman_military_dictatorship_reform
+	}
+}
+
+gov_jan_tolerance_reform = {
+	rank = {
+		1 = JAN_STRATOCRACY
+		2 = JAN_STRATOCRACY
+		3 = JAN_STRATOCRACY
+	}
+	ruler_male = {
+		1 = JAN_LEAD
+		2 = JAN_LEAD
+		3 = JAN_LEAD
+	}
+	ruler_female = {
+		1 = JAN_LEAD_fem
+		2 = JAN_LEAD_fem
+		3 = JAN_LEAD_fem
+	}
+	trigger = {
+		has_reform = jan_tolerance_reform
+	}
+}
+
 gov_admiralty = {
 	rank = {
 		1 = ADMIRALTY

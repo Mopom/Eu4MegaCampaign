@@ -1,74 +1,71 @@
 burma_protectorate = {
-	copy_from = commercial_enterprise
+	copy_from = trade_protectorate
 	
+	# Graphics:
+	sprite = GFX_icon_trade_protectorate
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_trade_protectorate
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_trade_protectoratee
+
+	# Properties:
+	can_fight_independence_war = yes
+	joins_overlords_wars = no
+	joins_colonial_wars = no
+	base_liberty_desire = -100.0
+	takes_diplo_slot = no
+	can_be_annexed = no
+	has_power_projection = yes
+	can_have_subjects_of_other_types = yes
+	must_accept_cta_from_overlord = no
+	allows_taking_land_without_independence = yes
+	does_overlord_size_count_for_warscore_cost = no
+	should_quit_wars_on_activation = no
+
+	pays_overlord = 0.0
+
+	overlord_opinion_modifier = is_trade_protectorate
+	subject_opinion_modifier = is_trade_protectorate
+
 	can_fight = {
 		independent_nations = yes
-		same_overlord = no
+		same_overlord = trade_protectorate
 		other_overlord = all
 	}
 	can_rival = {
 		independent_nations = yes
-		same_overlord = no
+		same_overlord = trade_protectorate
 		other_overlord = all
 	}
 	can_ally = {
-		independent_nations = no
-		same_overlord = no
+		independent_nations = yes
+		same_overlord = yes
 		other_overlord = all
 	}
 	can_marry = {
 		independent_nations = yes
-		same_overlord = no
+		same_overlord = trade_protectorate
 		other_overlord = all
 	}
 
-	# Graphics:
-	sprite = GFX_icon_march
-	diplomacy_overlord_sprite = GFX_diplomacy_leadmarch
-	diplomacy_subject_sprite = GFX_diplomacy_weakmarch
-
-	# Properties:
-	overlord_protects_external = yes
-	pays_overlord = 0.0
-	base_liberty_desire = -100.0
-	can_be_annexed = no
-	forcelimit_to_overlord = 0.1
-	has_power_projection = yes
-	can_have_subjects_of_other_types = yes
-	can_use_claims = yes
-	allows_taking_land_without_independence = yes
-	joins_overlords_wars = no
-	joins_colonial_wars = no
-	relative_power_class = 0
-	transfer_trade_power = yes
-	does_overlord_size_count_for_warscore_cost = no
-	should_quit_wars_on_activation = no
-
 	# Subject Interactions:
-	scutage = no
-	start_colonial_war = no
+	# (immediate)
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	divert_trade = yes
 
-	# Modifiers:
-	modifier_overlord = {
-		modifier = large_colonial_nation
-		trigger = {
-			num_of_cities = 10
-		}
-	}
-	modifier_overlord = {
-		modifier = private_enterprise_overlord
-	}
 	
+	# Modifiers:
+	modifier_subject = clear # Trade Protectorate don't get the ordinary subject_nation penalty 
 	modifier_subject = {
-		modifier = private_enterprise_subject
+		modifier = trade_protectorate_subject_modifier
+	}
+	modifier_subject = {
+		modifier = trade_protectorate_low_development_subject_modifier
+		trigger = {
+			NOT = { total_development = 200 }
+		}
 	}
 	modifier_overlord = {
-		modifier = gbr_emperor_of_india_overlord_bonus
-		trigger = {
-			overlord = {
-				has_country_modifier = gbr_emperor_of_india
-			}
-		}
+		modifier = trade_protectorate_overlord_modifier
 	}
 	modifier_subject = {
 		modifier = gbr_emperor_of_india_subject_bonus

@@ -409,3 +409,197 @@ rev_ganga_government = {
 		}
 	}
 }
+
+russian_holy_regancy_reform = {
+	icon = "russian_queen"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = russian_holy_regancy_reform
+			have_had_reform = russian_holy_regancy_reform
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = russian_holy_regancy_reform
+			}
+		}
+	}
+	fixed_rank = 3
+	legacy_equivalent = tsardom_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	nation_designer_trigger = {
+		culture_group = east_slavic
+		religion = orthodox
+	}
+
+	modifiers = {
+		max_absolutism = 10
+		global_manpower_modifier = 0.20
+		yearly_absolutism = 0.05
+		global_autonomy = -0.05
+		governing_capacity = 350
+		administrative_efficiency = 0.025
+		free_policy = 1
+	}
+
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		claim_states = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			russian_rule_mechanic
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			table_of_ranks_mechanic
+		}
+	}
+}
+
+russian_holy_revolutionary_reform = {
+	icon = "russian_queen"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = russian_holy_revolutionary_reform
+			have_had_reform = russian_holy_revolutionary_reform
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = russian_holy_revolutionary_reform
+			}
+		}
+	}
+	fixed_rank = 3
+	legacy_equivalent = great_russian_republic_reform
+	uses_revolutionary_zeal = yes
+	revolutionary = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	nation_designer_trigger = {
+		culture_group = east_slavic
+		religion = orthodox
+	}
+
+	modifiers = {
+		max_revolutionary_zeal = 50
+		global_manpower_modifier = 0.20
+		global_autonomy = -0.05
+		governing_capacity = 350
+		administrative_efficiency = 0.025
+		free_policy = 1
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		factions = {
+			rr_jacobins
+			rr_royalists
+			rr_girondists
+		}
+	}
+
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		claim_states = yes
+	}
+		custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			russian_rule_mechanic
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			table_of_ranks_mechanic
+		}
+	}
+}
+
+russian_revolutionary_republic_reform = {
+	icon = "russian_queen"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform russian_revolutionary_republic_reform
+			have_had_reform = russian_revolutionary_republic_reform
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = russian_revolutionary_republic_reform
+			}
+		}
+	}
+	fixed_rank = 3
+	legacy_equivalent = tsardom_legacy
+	uses_revolutionary_zeal = yes
+	revolutionary = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	nation_designer_trigger = {
+		culture_group = east_slavic
+		religion = orthodox
+	}
+
+	modifiers = {
+		max_revolutionary_zeal = 50
+		global_manpower_modifier = 0.20
+		global_autonomy = -0.05
+		governing_capacity = 350
+		administrative_efficiency = 0.025
+		free_policy = 1
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		factions = {
+			rr_jacobins
+			rr_royalists
+			rr_girondists
+		}
+	}
+
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		claim_states = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			russian_rule_mechanic
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			table_of_ranks_mechanic
+		}
+	}
+}
