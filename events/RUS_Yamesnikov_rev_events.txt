@@ -10,34 +10,33 @@ country_event = {
     desc = rus_yamesnikov.2.d
     picture = CONQUEST_eventPicture
 
+    fire_only_once = yes
+
     trigger = {
         tag = RUS
         has_country_flag = yamesnikov_praised
     }
 
     mean_time_to_happen = {
-        days = 2190
+        days = 2191
     }
 
-	option = {
-       		name = rus_yamesnikov.2.a
-      		set_country_flag = yamesnikov_praised_2
-		clr_country_flag = yamesnikov_praised
-        	add_country_modifier = {
-            		name = yamesnikov_training_heir
-            		duration = 7300
-        	}
-    	}
-    
-	option = {
-		name = rus_yamesnikov.2.b
-		set_country_flag = yamesnikov_rejected_2
-		clr_country_flag = yamesnikov_praised
-		add_country_modifier = {
-        		name = no_training_for_heir
-    			duration = 7300
-		}
-    	}
+    option = {
+        name = rus_yamesnikov.2.a
+        set_country_flag = yamesnikov_praised_2
+        add_country_modifier = {
+            name = yamesnikov_training_heir
+            duration = 7300
+        }
+    }
+    option = {
+        name = rus_yamesnikov.2.b
+        set_country_flag = yamesnikov_rejected_2
+        add_country_modifier = {
+            name = no_training_for_heir
+            duration = 7300
+        }
+    }
 }
 
 country_event = {
@@ -54,34 +53,34 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 2190
+        days = 2191
     }
 
     immediate = {
         remove_heir = { allow_new_heir = no }
     }
 
-	option = {
-        	name = rus_yamesnikov.3.a
-        	set_country_flag = yamesnikov_praised_3
-        	add_stability = -1
-        	add_country_modifier = {
-           		name = yamesnikov_forgiven
-            		duration = 7300
-        	}
-        	remove_country_modifier = yamesnikov_training_heir
-    	}	
+    option = {
+        name = rus_yamesnikov.3.a
+        set_country_flag = yamesnikov_praised_3
+        add_stability = -1
+        add_country_modifier = {
+            name = yamesnikov_forgiven
+            duration = 7300
+        }
+        remove_country_modifier = yamesnikov_training_heir
+    }
 
-    	option = {
-        	name = rus_yamesnikov.3.b
-        	set_country_flag = yamesnikov_rejected_3
-        	add_prestige = -10
-        	add_country_modifier = {
-           		name = yamesnikov_reprimanded
-            		duration = 7300
-        	}
-        	remove_country_modifier = yamesnikov_training_heir
-    	}
+    option = {
+        name = rus_yamesnikov.3.b
+        set_country_flag = yamesnikov_rejected_3
+        add_prestige = -10
+        add_country_modifier = {
+            name = yamesnikov_reprimanded
+            duration = 7300
+        }
+        remove_country_modifier = yamesnikov_training_heir
+    }
 }
 
 country_event = {
@@ -141,7 +140,7 @@ country_event = {
         tag = RUS
         has_country_flag = yamesnikov_praised_4
         hre_reform_passed = emperor_privilegia_de_non_appelando
-        heir_age = 13
+        heir_age = 12
     }
 
     mean_time_to_happen = {
@@ -157,8 +156,8 @@ country_event = {
             duration = 7300
         }
         define_ruler = {
-            name = "Boris"
-            dynasty = "Yamesnikov"
+            name = "Yamesnikov"
+            dynasty = "Yamesnikovivich"
             age = 30
             adm = 3
             dip = 2
@@ -177,5 +176,282 @@ country_event = {
             name = yamesnikov_gone_by
             duration = 7300
         }
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov.6
+    title = rus_yamesnikov.6.t
+    desc = rus_yamesnikov.6.d
+    picture = TREET_SPEECH_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_praised_5
+    }
+
+    mean_time_to_happen = {
+        days = 100
+    }
+
+    option = {
+        name = rus_yamesnikov.6.a
+        set_country_flag = yamesnikov_rev_1
+        add_country_modifier = {
+            name = yamesnikov_with_rev
+            duration = 7300
+        }
+        add_stability = -1
+    }
+
+    option = {
+        name = rus_yamesnikov.6.b
+        set_country_flag = yamesnikov_absolute_1
+        add_country_modifier = {
+            name = yamesnikov_absolute
+            duration = 7300
+        }
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov_revo.1
+    title = rus_yamesnikov_revo.1.t
+    desc = rus_yamesnikov_revo.1.d
+    picture = DEFENESTRATION_PRAGUE_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_rev_1
+    }
+
+    mean_time_to_happen = {
+        days = 150
+    }
+
+    option = {
+        name = rus_yamesnikov_revo.1.a
+        set_country_flag = yamesnikov_rev_2
+        add_country_modifier = {
+            name = yamesnikov_with_rev_2
+            duration = 7300
+        }
+    }
+
+    option = {
+        name = rus_yamesnikov_revo.1.b
+        set_country_flag = yamesnikov_absolute_2
+        add_country_modifier = {
+            name = yamesnikov_absolute
+            duration = 7300
+        }
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov_absolute.1
+    title = rus_yamesnikov_absolute.1.t
+    desc = rus_yamesnikov_absolute.1.d
+    picture = GENERALS_DISCUSSING_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_absolute_1
+    }
+
+    mean_time_to_happen = {
+        days = 150
+    }
+
+    option = {
+        name = rus_yamesnikov_absolute.1.a
+        set_country_flag = yamesnikov_absolute_2
+        add_country_modifier = {
+            name = yamesnikov_absolute_2
+            duration = 7300
+        }
+    }
+
+    option = {
+        name = rus_yamesnikov_absolute.1.b
+        set_country_flag = yamesnikov_rev_2
+        add_country_modifier = {
+            name = yamesnikov_with_rev
+            duration = 7300
+        }
+        add_stability = -1
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov_revo.2
+    title = rus_yamesnikov_revo.2.t
+    desc = rus_yamesnikov_revo.2.d
+    picture = REVOLT_HUNGARIAN_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_rev_2
+    }
+
+    mean_time_to_happen = {
+        days = 150
+    }
+
+    option = {
+        name = rus_yamesnikov_revo.2.a
+        set_country_flag = yamesnikov_rev_succeed
+        add_country_modifier = {
+            name = yamesnikov_rev_succeed
+            duration = 7300
+        }
+        add_stability = -2
+    }
+
+    option = {
+        name = rus_yamesnikov_revo.2.a
+        set_country_flag = yamesnikov_eternal_regent
+        add_country_modifier = {
+            name = the_eternal_regent
+            duration = 7300
+        }
+    }
+}
+
+country_event = {
+    id = rus_yamesnikov_absolute.2
+    title = rus_yamesnikov_absolute.2.t
+    desc = rus_yamesnikov_absolute.2.d
+    picture = muslimgfx_BATTLE_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_absolute_2
+    }
+
+    mean_time_to_happen = {
+        days = 150
+    }
+
+    option = {
+        name = rus_yamesnikov_absolute.2.a
+        set_country_flag = yamesnikov_absolute_tsar
+        add_country_modifier = {
+            name = yamesnikov_absolute_rule
+            duration = 7300
+        }
+        add_stability = -1
+    }
+
+    option = {
+        name = rus_yamesnikov_absolute.2.b
+        set_country_flag = yamesnikov_rev_emperor
+        add_country_modifier = {
+            name = yamesnikov_rev_emperor
+            duration = 7300
+        }
+        add_stability = -1
+    }
+}
+
+country_event = {
+    id = yamesnikov_rev_succeed.1
+    title = yamesnikov_rev_succeed.1.t
+    desc = yamesnikov_rev_succeed.1.d
+    picture = REVOLUTION_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_rev_succeed
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = yamesnikov_rev_succeed.1.a
+        ### Here the stuff for the russian rev reform needs to be put ###
+    }
+}
+
+country_event = {
+    id = yamesnikov_eternal_regent.1
+    title = yamesnikov_eternal_regent.1.t
+    desc = yamesnikov_eternal_regent.1.d
+    picture = REVOLUTION_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_eternal_regent
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = yamesnikov_eternal_regent.1.a
+        ### Here the stuff for the russian eternal regent reform needs to be put ###
+    }
+}
+
+country_event = {
+    id = yamesnikov_absolute_tsar.1
+    title = yamesnikov_absolute_tsar.1.t
+    desc = yamesnikov_absolute_tsar.1.d
+    picture = REVOLUTION_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_absolute_tsar
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = yamesnikov_absolute_tsar.1.a
+        ### Here the stuff for the russian absolute Tsardom reform needs to be put, but this may have been the table of ranks reform from dominations as Ferdy doesn't seem to have made one for this ###
+    }
+}
+
+country_event = {
+    id = yamesnikov_rev_emperor.1
+    title = yamesnikov_rev_emperor.1.t
+    desc = yamesnikov_rev_emperor.1.d
+    picture = REVOLUTION_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = RUS
+        has_country_flag = yamesnikov_rev_emperor
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = yamesnikov_rev_emperor.1.a
+        ### Here the stuff for the yamesnikov holy revolutionary reform needs to be put ###
     }
 }

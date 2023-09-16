@@ -32,3 +32,46 @@ yamesnikov_gone_by = {
     legitimacy = -2
     army_tradition = -0.1
 }
+# new stuff #
+yamesnikov_with_rev = {
+    global_unrest = 4
+    global_tax_modifier = -0.05
+}
+
+yamesnikov_absolute = {
+    global_unrest = 2
+    global_tax_modifier = -0.1
+}
+
+yamesnikov_with_rev_2 = {
+    global_unrest = 2
+    administrative_efficiency = -0.05
+}
+
+yamesnikov_absolute_2 = {
+    global_unrest = -2
+    global_manpower_modifier = -0.05
+}
+
+yamesnikov_rev_succeed = {
+    global_unrest = -2
+    administrative_efficiency = 0.1
+    global_tax_modifier = 0.1
+}
+
+the_eternal_regent = {
+    legitimacy = 3
+    army_tradition = 0.1
+    yearly_army_professionalism = 0.01
+}
+
+yamesnikov_absolute_rule = {
+    legitimacy = 2
+    global_manpower_modifier = 0.1
+}
+
+yamesnikov_rev_emperor = {
+    global_unrest = -2
+    army_tradition = 0.1
+    yearly_army_professionalism = 0.01
+}
