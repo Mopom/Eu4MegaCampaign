@@ -217,9 +217,9 @@ country_event = {
 }
 
 country_event = {
-    id = rus_yamesnikov_revo.1
-    title = rus_yamesnikov_revo.1.t
-    desc = rus_yamesnikov_revo.1.d
+    id = rus_yamesnikov.7
+    title = rus_yamesnikov.7.t
+    desc = rus_yamesnikov.7.d
     picture = DEFENESTRATION_PRAGUE_eventPicture
 
     fire_only_once = yes
@@ -234,7 +234,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_revo.1.a
+        name = rus_yamesnikov.7.a
         set_country_flag = yamesnikov_rev_2
         add_country_modifier = {
             name = yamesnikov_with_rev_2
@@ -243,7 +243,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_revo.1.b
+        name = rus_yamesnikov.7.b
         set_country_flag = yamesnikov_absolute_2
         add_country_modifier = {
             name = yamesnikov_absolute
@@ -253,9 +253,9 @@ country_event = {
 }
 
 country_event = {
-    id = rus_yamesnikov_absolute.1
-    title = rus_yamesnikov_absolute.1.t
-    desc = rus_yamesnikov_absolute.1.d
+    id = rus_yamesnikov.8
+    title = rus_yamesnikov.8.t
+    desc = rus_yamesnikov.8.d
     picture = GENERALS_DISCUSSING_eventPicture
 
     fire_only_once = yes
@@ -270,7 +270,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_absolute.1.a
+        name = rus_yamesnikov.8.a
         set_country_flag = yamesnikov_absolute_2
         add_country_modifier = {
             name = yamesnikov_absolute_2
@@ -279,7 +279,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_absolute.1.b
+        name = rus_yamesnikov.8.b
         set_country_flag = yamesnikov_rev_2
         add_country_modifier = {
             name = yamesnikov_with_rev
@@ -290,9 +290,9 @@ country_event = {
 }
 
 country_event = {
-    id = rus_yamesnikov_revo.2
-    title = rus_yamesnikov_revo.2.t
-    desc = rus_yamesnikov_revo.2.d
+    id = rus_yamesnikov.9
+    title = rus_yamesnikov.9.t
+    desc = rus_yamesnikov.9.d
     picture = REVOLT_HUNGARIAN_eventPicture
 
     fire_only_once = yes
@@ -307,7 +307,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_revo.2.a
+        name = rus_yamesnikov.9.a
         set_country_flag = yamesnikov_rev_succeed
         add_country_modifier = {
             name = yamesnikov_rev_succeed
@@ -317,7 +317,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_revo.2.a
+        name = rus_yamesnikov.9.a
         set_country_flag = yamesnikov_eternal_regent
         add_country_modifier = {
             name = the_eternal_regent
@@ -327,9 +327,9 @@ country_event = {
 }
 
 country_event = {
-    id = rus_yamesnikov_absolute.2
-    title = rus_yamesnikov_absolute.2.t
-    desc = rus_yamesnikov_absolute.2.d
+    id = rus_yamesnikov.10
+    title = rus_yamesnikov.10.t
+    desc = rus_yamesnikov.10.d
     picture = muslimgfx_BATTLE_eventPicture
 
     fire_only_once = yes
@@ -344,7 +344,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_absolute.2.a
+        name = rus_yamesnikov.10.a
         set_country_flag = yamesnikov_absolute_tsar
         add_country_modifier = {
             name = yamesnikov_absolute_rule
@@ -354,7 +354,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov_absolute.2.b
+        name = rus_yamesnikov.10.b
         set_country_flag = yamesnikov_rev_emperor
         add_country_modifier = {
             name = yamesnikov_rev_emperor
@@ -365,9 +365,9 @@ country_event = {
 }
 
 country_event = {
-    id = yamesnikov_rev_succeed.1
-    title = yamesnikov_rev_succeed.1.t
-    desc = yamesnikov_rev_succeed.1.d
+    id = rus_yamesnikov.11
+    title = rus_yamesnikov.11.t
+    desc = rus_yamesnikov.11.d
     picture = REVOLUTION_eventPicture
 
     fire_only_once = yes
@@ -382,15 +382,16 @@ country_event = {
     }
 
     option = {
-        name = yamesnikov_rev_succeed.1.a
+        name = rus_yamesnikov.11.a
+        add_government_reform = russian_revolutionary_republic_reform
         ### Here the stuff for the russian rev reform needs to be put ###
     }
 }
 
 country_event = {
-    id = yamesnikov_eternal_regent.1
-    title = yamesnikov_eternal_regent.1.t
-    desc = yamesnikov_eternal_regent.1.d
+    id = rus_yamesnikov.12
+    title = rus_yamesnikov.12.t
+    desc = rus_yamesnikov.12.d
     picture = REVOLUTION_eventPicture
 
     fire_only_once = yes
@@ -405,15 +406,16 @@ country_event = {
     }
 
     option = {
-        name = yamesnikov_eternal_regent.1.a
+        name = rus_yamesnikov.12.a
+        add_government_reform = russian_holy_regancy_reform
         ### Here the stuff for the russian eternal regent reform needs to be put ###
     }
 }
 
 country_event = {
-    id = yamesnikov_absolute_tsar.1
-    title = yamesnikov_absolute_tsar.1.t
-    desc = yamesnikov_absolute_tsar.1.d
+    id = rus_yamesnikov.13
+    title = rus_yamesnikov.13.t
+    desc = rus_yamesnikov.13.d
     picture = REVOLUTION_eventPicture
 
     fire_only_once = yes
@@ -428,15 +430,16 @@ country_event = {
     }
 
     option = {
-        name = yamesnikov_absolute_tsar.1.a
+        name = rus_yamesnikov.13.a
+        add_government_reform = russian_holy_revolutionary_reform
         ### Here the stuff for the russian absolute Tsardom reform needs to be put, but this may have been the table of ranks reform from dominations as Ferdy doesn't seem to have made one for this ###
     }
 }
 
 country_event = {
-    id = yamesnikov_rev_emperor.1
-    title = yamesnikov_rev_emperor.1.t
-    desc = yamesnikov_rev_emperor.1.d
+    id = rus_yamesnikov.14
+    title = rus_yamesnikov.14.t
+    desc = rus_yamesnikov.14.d
     picture = REVOLUTION_eventPicture
 
     fire_only_once = yes
@@ -451,7 +454,8 @@ country_event = {
     }
 
     option = {
-        name = yamesnikov_rev_emperor.1.a
+        name = rus_yamesnikov.14.a
+        add_government_reform = russian_holy_revolutionary_reform
         ### Here the stuff for the yamesnikov holy revolutionary reform needs to be put ###
     }
 }
