@@ -546,7 +546,7 @@ russian_revolutionary_republic_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			has_reform russian_revolutionary_republic_reform
+			has_reform = russian_revolutionary_republic_reform
 			have_had_reform = russian_revolutionary_republic_reform
 			AND = {
 				is_playing_custom_nation = yes
