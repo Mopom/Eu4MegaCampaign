@@ -431,7 +431,7 @@ country_event = {
 
     option = {
         name = rus_yamesnikov.13.a
-        add_government_reform = russian_holy_revolutionary_reform
+        add_government_reform = tsardom
         ### Here the stuff for the russian absolute Tsardom reform needs to be put, but this may have been the table of ranks reform from dominations as Ferdy doesn't seem to have made one for this ###
     }
 }
