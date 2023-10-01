@@ -1824,11 +1824,11 @@ lot_cru_fra_rhenism_3 = {
 				area = delta_area
 				area = bahari_area
 				area = vostani_area
-				area = gulf_of_arabia_area
+				province_id = 2320
 			}
 			NOT = {
 				owned_by = ROOT
-				province_id = 2321
+				province_id = 4316
 			}
 		}
 		trigger = {
@@ -1837,18 +1837,14 @@ lot_cru_fra_rhenism_3 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			bahari_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
+			owns_core_province = 2316
+			owns_core_province = 4317
+			owns_core_province = 361
 			vostani_area = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			owns_core_province = 365
-			owns_core_province = 2315
 			owns_core_province = 2320
 		}
 		effect = {
@@ -1865,10 +1861,6 @@ lot_cru_fra_rhenism_3 = {
 				cede_province = GSR
 				remove_core = FRA
 			}
-			4316 = {
-				cede_province = GSR
-				remove_core = FRA
-			}
 			361 = {
 				cede_province = REL
 				remove_core = FRA
@@ -1879,14 +1871,6 @@ lot_cru_fra_rhenism_3 = {
 				remove_core = FRA
 			}
 			2319 = {
-				cede_province = REL
-				remove_core = FRA
-			}
-			365 = {
-				cede_province = REL
-				remove_core = FRA
-			}
-			2315 = {
 				cede_province = REL
 				remove_core = FRA
 			}
