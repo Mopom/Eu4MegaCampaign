@@ -132,6 +132,7 @@ burman_military_dictatorship_reform = {
 		global_autonomy = -0.075
 		land_morale = 0.05
 		max_absolutism = 30
+		all_estate_influence_modifier = -0.1
 	}
 	factions = {
 		Technochrats
