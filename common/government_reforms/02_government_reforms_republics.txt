@@ -127,6 +127,7 @@ burman_military_dictatorship_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 25
 	has_term_election = no
+	fixed_rank = 2
 	modifiers = {
 		global_autonomy = -0.075
 		land_morale = 0.05

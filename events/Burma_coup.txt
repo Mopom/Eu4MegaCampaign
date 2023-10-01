@@ -36,8 +36,10 @@ country_event = {
 
 		change_government_reform_progress = -2800
 		
+		change_primary_culture = burmese
+		
 		define_general = {
-				name = "Devapala 'Soll' Prome"
+				name = "Devapala 'Sol' Prome"
 				min_age = 25
 				max_age = 30
 				fire = 5

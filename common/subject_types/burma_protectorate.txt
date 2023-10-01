@@ -19,7 +19,7 @@ burma_protectorate = {
 	allows_taking_land_without_independence = yes
 	does_overlord_size_count_for_warscore_cost = no
 	should_quit_wars_on_activation = no
-
+	max_government_rank = 2							#Temporary so that ai doesn't press it
 	pays_overlord = 0.0
 
 	overlord_opinion_modifier = is_trade_protectorate
