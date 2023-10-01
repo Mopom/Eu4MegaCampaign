@@ -38,7 +38,7 @@ country_event = {
 		
 		change_primary_culture = burmese
 		584 = {
-			remove_revolution_from_province_effect = yes
+			set_revolution_in_province = no
 			add_province_modifier = {
 					name = no_revolution_here_dummy
 					duration = -1
