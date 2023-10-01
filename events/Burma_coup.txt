@@ -37,7 +37,14 @@ country_event = {
 		change_government_reform_progress = -2800
 		
 		change_primary_culture = burmese
-		
+		584 = {
+			remove_revolution_from_province_effect = yes
+			add_province_modifier = {
+					name = no_revolution_here_dummy
+					duration = -1
+					hidden = yes
+				}
+			}
 		define_general = {
 				name = "Devapala 'Sol' Prome"
 				min_age = 25
