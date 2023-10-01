@@ -317,7 +317,7 @@ country_event = {
     }
 
     option = {
-        name = rus_yamesnikov.9.a
+        name = rus_yamesnikov.9.b
         set_country_flag = yamesnikov_eternal_regent
         add_country_modifier = {
             name = the_eternal_regent
