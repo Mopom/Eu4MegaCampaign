@@ -51,6 +51,7 @@ burma_protectorate = {
 	block_settlement_growth = no
 	allow_settlement_growth = no
 	divert_trade = yes
+	placate_rulers = yes
 
 	
 	# Modifiers:
