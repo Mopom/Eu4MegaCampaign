@@ -1,0 +1,40 @@
+namespace = dhk_vassal
+
+country_event = {
+	id = dhk_vassal.1
+	title = "dhk_vassal.1.t"
+	desc = "dhk_vassal.1.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = DHK
+	}
+
+	option = {
+		name = dhk_vassal.1.a
+		add_opinion = { who = z01 modifier = opinion_improved_relations }
+			Z01 = {
+				add_years_of_income = -0.5
+			}
+			DHK = {
+				add_years_of_income = 4
+			}
+		Z01 = {
+			create_subject = {
+				who = DHK
+				subject_type = burma_protectorate
+			}
+			add_opinion = { who = DHK modifier = opinion_improved_relations }
+			
+		}
+	}
+	
+	option = {
+		name = dhk_vassal.1.b
+		add_republican_tradition = 10
+		add_legitimacy = 10
+	}
+}
+

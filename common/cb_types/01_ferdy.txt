@@ -1,0 +1,12 @@
+# War Against the World CB for pirates
+cb_war_against_the_world_ferd = {
+	valid_for_subject = yes
+
+
+	prerequisites_self = {
+		has_reform = war_against_the_world_doctrine_reform
+		is_revolutionary = no
+	}
+
+	war_goal = take_capital_pirates
+}

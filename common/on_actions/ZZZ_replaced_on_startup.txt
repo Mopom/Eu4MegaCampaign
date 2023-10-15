@@ -28,7 +28,7 @@ on_startup = {
 		set_global_flag = ZZZ_enhanced_old_bon_reformed
 	}
 	if = {
-		limit = { tag = PER }
-		country_event = { id = persia_afghan_war.9 }
+		limit = { tag = DHK }
+		country_event = { id = dhk_vassal.1 }
 	}
 }

@@ -34,7 +34,7 @@ GRTBURMA:0 "Great Burma"
 GRTBURMA_ADJ:0 "Great Burman"
 
 #Burma
-burma_protectorate_title:0 "Burmese Protectorate"
+burma_protectorate_title:0 "Indian Protectorate"
 burma_vassal.1.t:0 "The Burmese question"
 burma_vassal.1.d:0 "With us releasing Afghanistan Burma has started to question their own status as a marz and have politely requested more autonomy"
 burma_vassal.1.a:0 "We shall grant our old friends their wish"
@@ -47,6 +47,14 @@ ava_flag_for_supporters:0 "Burmese Supporters"
 burma_vassal.3.t:0 "Excelent"
 burma_vassal.3.d:0 "Sheev Palpal has executed Order 66, and now Ari Ganga will deal with these rebel scum"
 burma_vassal.3.a:0 "They will die, painfully"
+
+#Pirate
+dhk_vassal.1.t:0 "Seeking Protection"
+dhk_vassal.1.d:0 "Following our losses in the mediterranean we have been set back harshly from our potential for plunder, as such the option falls to us to submit to a great power in order to protect ourselves and allow us to continue our life of piracy. Ganga has even sent a gift in an effort to curry our favour"
+dhk_vassal.1.a:0 "We shall seek to be a protectorate of Ganga"
+dhk_vassal.1.b:0 "This is a farse, we shall remain free men!"
+cb_war_against_the_world_ferd:0 "War against the World"
+cb_war_against_the_world_ferd.d:0 "They must be plundered!"
 
 #Silk Road
 golden_highway.1.t:0 "Silk Road Construction in [Root.GetName]"
